@@ -6,16 +6,16 @@ A Universal Dependencies corpus for spoken French.
 
 The corpus was converted automatically from the [Rhapsodie treebank](http://www.projet-rhapsodie.fr/) with manual corrections.
 
-Xpos and features which are not available in v2.2 of UD_French-Spoken, will be added to future versions as they are encoded in the Rhapsodie treebank.
+Xpos and features (which are not available in v2.2 of UD_French-Spoken) will be added to future versions of this treebank as they are encoded in the Rhapsodie treebank.
 
 
 
 # Structure
 
-fr_spoken-ud-train.conllu 1153 sentences  14952 tokens
-fr_spoken-ud-dev.conllu 907 sentences 10010 tokens
-fr_spoken-ud-test.conllu  726 sentences 10010 tokens
-total 2786 sentences 34972 tokens
++ fr_spoken-ud-train.conllu 1153 sentences  14952 tokens
++ fr_spoken-ud-dev.conllu 907 sentences 10010 tokens
++ fr_spoken-ud-test.conllu  726 sentences 10010 tokens
++ total 2786 sentences 34972 tokens
 
 
 # Changelog
