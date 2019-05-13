@@ -243,10 +243,10 @@
 
 # sent_id = 2077
 # text = on peut véritablement parler de miracle Valérie hein
-1	on	on	PRON	_	_	4	nsubj	_	_
-2	peut	pouvoir	AUX	_	_	4	aux	_	_
+1	on	on	PRON	_	_	2	nsubj	_	_
+2	peut	pouvoir	VERB	_	_	0	root	_	_
 3	véritablement	véritablement	ADV	_	_	4	advmod	_	_
-4	parler	parler	VERB	_	_	0	root	_	_
+4	parler	parler	VERB	_	_	2	xcomp	_	_
 5	de	de	ADP	_	_	6	case	_	_
 6	miracle	miracle	NOUN	_	_	4	obl:comp	_	_
 7	Valérie	Valérie	PROPN	_	_	4	dislocated	_	_
@@ -319,11 +319,11 @@
 
 # sent_id = 2083
 # text = alors voulez -vous bien vérifier qu' il n' y ait pas de lessive à l' intérieur de notre machine à laver dans le tambour et également dans le tiroir
-1	alors	alors	ADV	_	_	5	advmod:periph	_	_
-2	voulez	vouloir	AUX	_	_	5	aux	_	_
-3	-vous	vous	PRON	_	_	5	nsubj	_	_
+1	alors	alors	ADV	_	_	2	discourse	_	_
+2	voulez	vouloir	VERB	_	_	0	root	_	_
+3	-vous	vous	PRON	_	_	2	nsubj	_	_
 4	bien	bien	ADV	_	_	5	advmod	_	_
-5	vérifier	vérifier	VERB	_	_	0	root	_	_
+5	vérifier	vérifier	VERB	_	_	2	xcomp	_	_
 6	qu'	que	SCONJ	_	_	10	mark	_	_
 7	il	il	PRON	_	_	10	nsubj:expl	_	_
 8	n'	ne	PART	_	_	10	advmod	_	_
@@ -724,10 +724,10 @@
 3	est	être	AUX	_	_	2	cop	_	_
 4	-	-	PUNCT	_	_	5	punct	_	_
 5	ce	ce	PRON	_	_	2	nsubj	_	_
-6	qu'	que	SCONJ	_	_	5	obj	_	_
-7	on	on	PRON	_	_	9	nsubj	_	_
-8	peut	pouvoir	AUX	_	_	9	aux	_	_
-9	dire	dire	VERB	_	_	2	advcl:cleft	_	_
+6	qu'	que	SCONJ	_	_	9	obj	_	_
+7	on	on	PRON	_	_	8	nsubj	_	_
+8	peut	pouvoir	VERB	_	_	2	advcl:cleft	_	_
+9	dire	dire	VERB	_	_	8	xcomp	_	_
 10	en	en	ADP	_	_	11	case	_	_
 11	conclusion	conclusion	NOUN	_	_	9	obl:mod	_	_
 12	eh	eh	INTJ	_	_	11	discourse	_	_
@@ -1191,19 +1191,19 @@
 
 # sent_id = 2151
 # text = et au niveau de des des odeurs est -ce que c' est efficace également
-1	et	et	CCONJ	_	_	13	cc	_	_
+1	et	et	CCONJ	_	_	8	cc	_	_
 2	au	à+le	ADP	_	_	3	case	_	_
-3	niveau	niveau	NOUN	_	_	13	obl:periph	_	_
+3	niveau	niveau	NOUN	_	_	8	obl:periph	_	_
 4	de	de	ADP	_	_	7	case	_	_
 5	des	de+le	ADP	conj:reform	_	4	conj:dicto	_	_
 6	des	de+le	ADP	conj:reform	_	4	conj:dicto	_	_
 7	odeurs	odeur	NOUN	_	_	3	nmod	_	_
-8	est	être	AUX	_	_	13	cop	_	_
-9	-ce	ce	PRON	_	_	13	nsubj	_	_
+8	est	être	AUX	_	_	0	root	_	_
+9	-ce	ce	PRON	_	_	8	nsubj	_	_
 10	que	que	SCONJ	_	_	13	mark	_	_
 11	c'	ce	PRON	_	_	13	nsubj	_	_
 12	est	être	AUX	_	_	13	cop	_	_
-13	efficace	efficace	ADJ	_	_	0	root	_	_
+13	efficace	efficace	ADJ	_	_	8	ccomp	_	_
 14	également	également	ADV	_	_	13	advmod:periph	_	_
 
 # sent_id = 2152
@@ -1223,11 +1223,11 @@
 8	toutes	tout	ADJ	_	_	10	amod	_	_
 9	les	le	DET	_	_	10	det	_	_
 10	odeurs	odeur	NOUN	_	_	6	conj:coord	_	_
-11	qu'	que	PRON	_	_	15	obj	_	_
-12	il	il	PRON	_	_	15	nsubj:expl	_	_
-13	peut	pouvoir	AUX	_	_	15	aux	_	_
+11	qu'	que	PRON	_	_	13	obj	_	_
+12	il	il	PRON	_	_	13	nsubj:expl	_	_
+13	peut	pouvoir	VERB	_	_	10	acl:relcl	_	_
 14	y	y	PRON	_	_	15	iobj	_	_
-15	avoir	avoir	VERB	_	_	10	acl:relcl	_	_
+15	avoir	avoir	VERB	_	_	13	xcomp	_	_
 16	sur	sur	ADP	_	_	18	case	_	_
 17	du	de+le	ADP	_	_	18	case	_	_
 18	linge	linge	NOUN	_	_	15	obl:mod	_	_
@@ -1256,12 +1256,12 @@
 
 # sent_id = 2156
 # text = est -ce qu' elle est silencieuse la boule magique dans le tambour quand il tout à fait tourne
-1	est	être	AUX	_	_	6	cop	_	_
-2	-ce	ce	PRON	_	_	6	nsubj	_	_
+1	est	être	AUX	_	_	0	root	_	_
+2	-ce	ce	PRON	_	_	1	nsubj	_	_
 3	qu'	que	SCONJ	_	_	6	mark	_	_
 4	elle	elle	PRON	_	_	6	nsubj	_	_
 5	est	être	AUX	_	_	6	cop	_	_
-6	silencieuse	silencieux	ADJ	_	_	0	root	_	_
+6	silencieuse	silencieux	ADJ	_	_	1	ccomp	_	_
 7	la	le	DET	_	_	8	det	_	_
 8	boule	boule	NOUN	_	_	6	dislocated	_	_
 9	magique	magique	ADJ	_	_	8	amod	_	_
@@ -1483,8 +1483,8 @@
 
 # sent_id = 2171
 # text = est -ce que votre sensibilité qui est très aiguë très pointue avait un peu pressenti ce succès
-1	est	être	AUX	_	_	15	ccomp	_	_
-2	-ce	ce	PRON	_	_	15	nsubj	_	_
+1	est	être	AUX	_	_	0	root	_	_
+2	-ce	ce	PRON	_	_	1	nsubj	_	_
 3	que	que	SCONJ	_	_	15	mark	_	_
 4	votre	son	DET	_	_	5	det	_	_
 5	sensibilité	sensibilité	NOUN	_	_	15	nsubj	_	_
@@ -1497,7 +1497,7 @@
 12	avait	avoir	AUX	_	_	15	aux	_	_
 13	un	un	DET	_	_	15	advmod	_	_
 14	peu	peu	NOUN	_	_	13	fixed	_	_
-15	pressenti	pressentir	VERB	_	_	0	root	_	_
+15	pressenti	pressentir	VERB	_	_	1	ccomp	_	_
 16	ce	ce	DET	_	_	17	det	_	_
 17	succès	succès	NOUN	_	_	15	obj	_	_
 
@@ -1595,10 +1595,10 @@
 
 # sent_id = 2180
 # text = vraiment il doit être
-1	vraiment	vraiment	ADV	_	_	4	advmod:periph	_	_
-2	il	il	PRON	_	_	4	nsubj	_	_
-3	doit	devoir	AUX	_	_	4	aux	_	_
-4	être	être	AUX	_	_	0	root	_	_
+1	vraiment	vraiment	ADV	_	_	3	advmod:periph	_	_
+2	il	il	PRON	_	_	3	nsubj	_	_
+3	doit	devoir	VERB	_	_	0	root	_	_
+4	être	être	AUX	_	_	3	xcomp	_	_
 
 # sent_id = 2181
 # text = il en faut bien un
@@ -1789,10 +1789,10 @@
 
 # sent_id = 2199
 # text = je peux pas ouvrir le journal
-1	je	je	PRON	_	_	4	nsubj	_	_
-2	peux	pouvoir	AUX	_	_	4	aux	_	_
+1	je	je	PRON	_	_	2	nsubj	_	_
+2	peux	pouvoir	VERB	_	_	0	root	_	_
 3	pas	pas	PART	_	_	4	advmod	_	_
-4	ouvrir	ouvrir	VERB	_	_	0	root	_	_
+4	ouvrir	ouvrir	VERB	_	_	2	xcomp	_	_
 5	le	le	DET	_	_	6	det	_	_
 6	journal	journal	NOUN	_	_	4	obj	_	_
 
@@ -1970,10 +1970,10 @@
 4	cent	cent	NUM	_	_	3	nummod	_	_
 5	cinquante	cinquante	NUM	_	_	4	nummod	_	_
 6	quand	quand	SCONJ	_	_	10	mark	_	_
-7	vous	vous	PRON	_	_	10	nsubj:caus	_	_
+7	vous	vous	PRON	_	_	10	nsubj	_	_
 8	avez	avoir	AUX	_	_	10	aux	_	_
 9	fait	faire	AUX	DoubleAux	_	10	aux:caus	_	_
-10	paraître	paraître	VERB	CAUSATIVE	_	2	appos:conj	_	_
+10	paraître	paraître	VERB	CAUSATIVE	_	2	advcl	_	_
 11	ce	ce	DET	_	_	13	det	_	_
 12	ce	ce	DET	_	_	11	conj:dicto	_	_
 13	chef	chef	NOUN	_	_	10	obj	_	_
@@ -2096,10 +2096,10 @@
 
 # sent_id = 2222
 # text = alors ils doivent avoir du oui regret
-1	alors	alors	ADV	_	_	4	advmod:periph	_	_
-2	ils	il	PRON	_	_	4	nsubj	_	_
-3	doivent	devoir	AUX	_	_	4	aux	_	_
-4	avoir	avoir	VERB	_	_	0	root	_	_
+1	alors	alors	ADV	_	_	3	advmod:periph	_	_
+2	ils	il	PRON	_	_	3	nsubj	_	_
+3	doivent	devoir	VERB	_	_	0	root	_	_
+4	avoir	avoir	VERB	_	_	3	xcomp	_	_
 5	du	de+le	ADP	_	_	7	case	_	_
 6	oui	oui	INTJ	_	_	7	discourse	_	_
 7	regret	regret	NOUN	_	_	4	obl:comp	_	_
@@ -2123,11 +2123,11 @@
 
 # sent_id = 2226
 # text = ils voulaient pas le donner à au Barrage parce que j' étais de gauche
-1	ils	il	PRON	_	_	5	nsubj	_	_
-2	voulaient	vouloir	AUX	_	_	5	aux	_	_
+1	ils	il	PRON	_	_	2	nsubj	_	_
+2	voulaient	vouloir	VERB	_	_	0	root	_	_
 3	pas	pas	PART	_	_	5	advmod	_	_
 4	le	le	PRON	_	_	5	obj	_	_
-5	donner	donner	VERB	_	_	0	root	_	_
+5	donner	donner	VERB	_	_	2	xcomp	_	_
 6	à	à	ADP	_	_	8	case	_	_
 7	au	à+le	ADP	conj:reform	_	6	conj:dicto	_	_
 8	Barrage	Barrage	PROPN	_	_	5	obl:comp	_	_
@@ -2136,7 +2136,7 @@
 11	j'	je	PRON	_	_	14	nsubj	_	_
 12	étais	être	AUX	_	_	14	cop	_	_
 13	de	de	ADP	_	_	14	case	_	_
-14	gauche	gauche	NOUN	_	_	5	dep	_	_
+14	gauche	gauche	NOUN	_	_	2	advcl:periph	_	_
 
 # sent_id = 2227
 # text = j' étais communiste à ce moment -là
@@ -2353,22 +2353,22 @@
 
 # sent_id = 2242
 # text = vraiment sur le bac évidemment vous devez faire euh
-1	vraiment	vraiment	ADV	_	_	8	advmod:periph	_	_
+1	vraiment	vraiment	ADV	_	_	7	advmod:periph	_	_
 2	sur	sur	ADP	_	_	4	case	_	_
 3	le	le	DET	_	_	4	det	_	_
-4	bac	bac	NOUN	_	_	8	obl:periph	_	_
-5	évidemment	évidemment	ADV	_	_	8	advmod:periph	_	_
-6	vous	vous	PRON	_	_	8	nsubj	_	_
-7	devez	devoir	AUX	_	_	8	aux	_	_
-8	faire	faire	VERB	_	_	0	root	_	_
+4	bac	bac	NOUN	_	_	7	obl:periph	_	_
+5	évidemment	évidemment	ADV	_	_	7	advmod:periph	_	_
+6	vous	vous	PRON	_	_	7	nsubj	_	_
+7	devez	devoir	VERB	_	_	0	root	_	_
+8	faire	faire	VERB	_	_	7	xcomp	_	_
 9	euh	euh	INTJ	_	_	8	discourse	_	_
 
 # sent_id = 2243
 # text = on doit vous remarquer
-1	on	on	PRON	_	_	4	nsubj	_	_
-2	doit	devoir	AUX	_	_	4	aux	_	_
+1	on	on	PRON	_	_	2	nsubj	_	_
+2	doit	devoir	VERB	_	_	0	root	_	_
 3	vous	vous	PRON	_	_	4	obj	_	_
-4	remarquer	remarquer	VERB	_	_	0	root	_	_
+4	remarquer	remarquer	VERB	_	_	2	xcomp	_	_
 
 # sent_id = 2244
 # text = aujourd' hui on vous remarquerait à peine parce que c' est une mode qui se porte couramment chez les jeunes filles hein
@@ -2455,19 +2455,19 @@
 
 # sent_id = 2251
 # text = et on peut dire
-1	et	et	CCONJ	_	_	4	cc	_	_
-2	on	on	PRON	_	_	4	nsubj	_	_
-3	peut	pouvoir	AUX	_	_	4	aux	_	_
-4	dire	dire	VERB	_	_	0	root	_	_
+1	et	et	CCONJ	_	_	3	cc	_	_
+2	on	on	PRON	_	_	3	nsubj	_	_
+3	peut	pouvoir	VERB	_	_	0	root	_	_
+4	dire	dire	VERB	_	_	3	xcomp	_	_
 
 # sent_id = 2252
 # text = est -ce qu' on peut dire que cet échange de regards va changer votre vie
-1	est	être	AUX	_	_	6	ccomp	_	_
-2	-ce	ce	PRON	_	_	6	nsubj	_	_
-3	qu'	que	SCONJ	_	_	6	mark	_	_
-4	on	on	PRON	_	_	6	nsubj	_	_
-5	peut	pouvoir	AUX	_	_	6	aux	_	_
-6	dire	dire	VERB	_	_	0	root	_	_
+1	est	être	AUX	_	_	0	root	_	_
+2	-ce	ce	PRON	_	_	1	nsubj	_	_
+3	qu'	que	SCONJ	_	_	5	mark	_	_
+4	on	on	PRON	_	_	5	nsubj	_	_
+5	peut	pouvoir	VERB	_	_	1	ccomp	_	_
+6	dire	dire	VERB	_	_	5	xcomp	_	_
 7	que	que	SCONJ	_	_	12	mark	_	_
 8	cet	ce	DET	_	_	9	det	_	_
 9	échange	échange	NOUN	_	_	12	nsubj	_	_
@@ -2942,10 +2942,10 @@
 
 # sent_id = 2284
 # text = donc on peut penser que c' est une tradition euh ici qui est représentée
-1	donc	donc	ADV	_	_	4	discourse	_	_
-2	on	on	PRON	_	_	4	nsubj	_	_
-3	peut	pouvoir	AUX	_	_	4	aux	_	_
-4	penser	penser	VERB	_	_	0	root	_	_
+1	donc	donc	ADV	_	_	3	discourse	_	_
+2	on	on	PRON	_	_	3	nsubj	_	_
+3	peut	pouvoir	VERB	_	_	0	root	_	_
+4	penser	penser	VERB	_	_	3	xcomp	_	_
 5	que	que	SCONJ	_	_	9	mark	_	_
 6	c'	ce	PRON	_	_	9	nsubj	_	_
 7	est	être	AUX	_	_	9	cop	_	_
@@ -2959,9 +2959,9 @@
 
 # sent_id = 2285
 # text = on peut penser que euh à l' époque de Szymanoski on jouait ces préludes comme ça que par exemple Neuhaus le cousin de Szymanoski les jouait euh de cette façon aussi
-1	on	on	PRON	_	_	3	nsubj	_	_
-2	peut	pouvoir	AUX	_	_	3	aux	_	_
-3	penser	penser	VERB	_	_	0	root	_	_
+1	on	on	PRON	_	_	2	nsubj	_	_
+2	peut	pouvoir	VERB	_	_	0	root	_	_
+3	penser	penser	VERB	_	_	2	xcomp	_	_
 4	que	que	SCONJ	_	_	12	mark	_	_
 5	euh	euh	INTJ	_	_	12	discourse	_	_
 6	à	à	ADP	_	_	8	case	_	_
@@ -3008,8 +3008,8 @@
 1	parce	parce	SCONJ	_	_	6	mark	_	_
 2	que	que	SCONJ	_	_	1	fixed	_	_
 3	prélude	prélude	NOUN	_	_	6	dislocated	_	_
-4	ça	ça	PRON	_	_	6	nsubj:caus	_	_
-5	fait	faire	AUX	_	_	6	aux:caus	_	_
+4	ça	ça	PRON	_	_	6	nsubj	_	_
+5	fait	faire	VERB	_	_	6	aux	_	_
 6	penser	penser	VERB	CAUSATIVE	_	0	root	_	_
 7	à	à	ADP	_	_	8	case	_	_
 8	évidemment	évidemment	ADV	_	_	6	obl:comp	_	_
@@ -3204,12 +3204,12 @@
 
 # sent_id = 2299
 # text = mais je ne voudrais pas faire de la psychanalyse à trois sous
-1	mais	mais	CCONJ	_	_	6	cc	_	_
-2	je	je	PRON	_	_	6	nsubj	_	_
-3	ne	ne	PART	_	_	6	advmod	_	_
-4	voudrais	vouloir	AUX	_	_	6	aux	_	_
+1	mais	mais	CCONJ	_	_	4	cc	_	_
+2	je	je	PRON	_	_	4	nsubj	_	_
+3	ne	ne	PART	_	_	4	advmod	_	_
+4	voudrais	vouloir	VERB	_	_	0	root	_	_
 5	pas	pas	PART	_	_	6	advmod	_	_
-6	faire	faire	VERB	_	_	0	root	_	_
+6	faire	faire	VERB	_	_	4	xcomp	_	_
 7	de	de	ADP	_	_	9	dep	_	_
 8	la	le	PRON	_	_	7	det	_	_
 9	psychanalyse	psychanalyse	NOUN	_	_	6	obj	_	_
@@ -3240,10 +3240,10 @@
 
 # sent_id = 2301
 # text = ça pourrait être Lohengrin oui et Parsifal effectivement
-1	ça	ça	PRON	_	_	4	nsubj	_	_
-2	pourrait	pouvoir	AUX	_	_	4	aux	_	_
+1	ça	ça	PRON	_	_	2	nsubj	_	_
+2	pourrait	pouvoir	VERB	_	_	0	root	_	_
 3	être	être	AUX	_	_	4	cop	_	_
-4	Lohengrin	Lohengrin	PROPN	_	_	0	root	_	_
+4	Lohengrin	Lohengrin	PROPN	_	_	2	xcomp	_	_
 5	oui	oui	INTJ	_	_	4	discourse	_	_
 6	et	et	CCONJ	_	_	7	cc	_	_
 7	Parsifal	Parsifal	PROPN	_	_	4	conj:coord	_	_
@@ -3525,11 +3525,11 @@
 26	il	il	PRON	_	_	27	nsubj	_	_
 27	dira	dire	VERB	_	_	0	root	_	_
 28	euh	euh	INTJ	_	_	27	discourse	_	_
-29	si	si	SCONJ	_	_	33	mark	_	_
+29	si	si	SCONJ	_	_	32	mark	_	_
 30	si	si	SCONJ	_	_	29	conj:dicto	_	_
-31	je	je	PRON	_	_	33	nsubj	_	_
-32	dois	devoir	AUX	_	_	33	aux	_	_
-33	aller	aller	VERB	ETRE	_	59	advcl:periph	_	_
+31	je	je	PRON	_	_	32	nsubj	_	_
+32	dois	devoir	VERB	_	_	59	advcl:periph	_	_
+33	aller	aller	VERB	ETRE	_	32	xcomp	_	_
 34	dans	dans	ADP	_	_	36	case	_	_
 35	un	un	DET	_	_	36	det	_	_
 36	bouiboui	bouiboui	NOUN	_	_	33	obl:comp	_	_
@@ -3542,10 +3542,10 @@
 43	mais	mais	CCONJ	_	_	42	conj:dicto	_	_
 44	enfin	enfin	ADV	_	_	42	discourse	_	_
 45	euh	euh	INTJ	_	_	42	discourse	_	_
-46	si	si	SCONJ	_	_	49	mark	_	_
-47	je	je	PRON	_	_	49	nsubj	_	_
-48	dois	devoir	AUX	_	_	49	aux	_	_
-49	descendre	descendre	VERB	ETRE	_	33	conj:dicto	_	_
+46	si	si	SCONJ	_	_	48	mark	_	_
+47	je	je	PRON	_	_	48	nsubj	_	_
+48	dois	devoir	VERB	_	_	32	conj:dicto	_	_
+49	descendre	descendre	VERB	ETRE	_	48	xcomp	_	_
 50	dans	dans	ADP	_	_	52	case	_	_
 51	un	un	DET	_	_	52	det	_	_
 52	hôtel	hôtel	NOUN	_	_	49	obl:comp	_	_
@@ -3565,10 +3565,10 @@
 1	il	il	PRON	_	_	2	nsubj	_	_
 2	faut	falloir	VERB	_	_	0	root	_	_
 3	dire	dire	VERB	_	_	2	xcomp	_	_
-4	que	que	SCONJ	_	_	15	mark	_	_
+4	que	que	SCONJ	_	_	7	mark	_	_
 5	la	le	DET	_	_	6	det	_	_
-6	guerre	guerre	NOUN	_	_	15	nsubj	_	_
-7	va	aller	AUX	ETRE	_	15	aux	_	_
+6	guerre	guerre	NOUN	_	_	7	nsubj	_	_
+7	va	aller	VERB	ETRE	_	3	ccomp	_	_
 8	être	être	AUX	_	_	15	cop	_	_
 9	pour	pour	ADP	_	_	11	case	_	_
 10	sa	son	DET	_	_	11	det	_	_
@@ -3576,7 +3576,7 @@
 12	un	un	DET	_	_	15	det	_	_
 13	un	un	DET	conj:reform	_	12	conj:dicto	_	_
 14	grand	grand	ADJ	_	_	15	amod	_	_
-15	changement	changement	NOUN	_	_	3	ccomp	_	_
+15	changement	changement	NOUN	_	_	7	xcomp	_	_
 16	de	de	ADP	_	_	17	case	_	_
 17	fortune	fortune	NOUN	_	_	15	nmod	_	_
 
@@ -3772,14 +3772,14 @@
 
 # sent_id = 2324
 # text = donc ce n' est pas fait pour cimenter ce groupe
-1	donc	donc	ADV	_	_	8	advmod:periph	_	_
-2	ce	ce	PRON	_	_	8	nsubj:pass	_	_
-3	n'	ne	PART	_	_	8	advmod	_	_
-4	est	être	AUX	_	_	8	aux:pass	_	_
-5	pas	pas	PART	_	_	8	advmod	_	_
-6	fait	faire	AUX	DoubleAux	_	8	aux:caus	_	_
+1	donc	donc	ADV	_	_	6	advmod:periph	_	_
+2	ce	ce	PRON	_	_	6	nsubj:pass	_	_
+3	n'	ne	PART	_	_	6	advmod	_	_
+4	est	être	AUX	_	_	6	aux	_	_
+5	pas	pas	PART	_	_	6	advmod	_	_
+6	fait	faire	VERB	DoubleAux	_	0	root	_	_
 7	pour	pour	ADP	_	_	8	mark	_	_
-8	cimenter	cimenter	VERB	CAUSATIVE	_	0	root	_	_
+8	cimenter	cimenter	VERB	CAUSATIVE	_	6	obl:mod	_	_
 9	ce	ce	DET	_	_	10	det	_	_
 10	groupe	groupe	NOUN	_	_	8	obj	_	_
 
@@ -3807,10 +3807,10 @@
 20	jeune	jeune	ADJ	_	_	21	amod	_	_
 21	musique	musique	NOUN	_	_	16	nmod	_	_
 22	polonaise	polonais	ADJ	_	_	21	amod	_	_
-23	qui	qui	PRON	_	_	26	nsubj	_	_
-24	veulent	vouloir	AUX	_	_	26	aux	_	_
+23	qui	qui	PRON	_	_	24	nsubj	_	_
+24	veulent	vouloir	VERB	_	_	16	acl:relcl	_	_
 25	en	en	PRON	_	_	26	obj	_	_
-26	découdre	découdre	VERB	_	_	16	acl:relcl	_	_
+26	découdre	découdre	VERB	_	_	24	xcomp	_	_
 27	avec	avec	ADP	_	_	29	case	_	_
 28	le	le	DET	_	_	29	det	_	_
 29	conservatisme	conservatisme	NOUN	_	_	26	obl:comp	_	_
@@ -3983,12 +3983,12 @@
 1	et	et	CCONJ	_	_	3	cc	_	_
 2	Rozyski	Rozyski	PROPN	_	_	3	nsubj	_	_
 3	dit	dire	VERB	_	_	0	root	_	_
-4	on	on	PRON	_	_	9	nsubj	_	_
-5	ne	ne	PART	_	_	9	advmod	_	_
-6	pouvait	pouvoir	AUX	_	_	9	aux	_	_
-7	pas	pas	PART	_	_	9	advmod	_	_
+4	on	on	PRON	_	_	6	nsubj	_	_
+5	ne	ne	PART	_	_	6	advmod	_	_
+6	pouvait	pouvoir	VERB	_	_	3	obj	_	_
+7	pas	pas	PART	_	_	6	advmod	_	_
 8	s'	se	PRON	_	_	9	dep:iobj	_	_
-9	empêcher	empêcher	VERB	CCOMP	_	3	parataxis:obj	_	_
+9	empêcher	empêcher	VERB	CCOMP	_	6	xcomp	_	_
 10	à	à	ADP	_	_	12	case	_	_
 11	la	le	DET	_	_	12	det	_	_
 12	fin	fin	NOUN	_	_	9	obl:mod	_	_
@@ -3996,9 +3996,9 @@
 14	Mort	Mort	PROPN	_	_	12	nmod	_	_
 15	et	et	CCONJ	_	_	16	cc	_	_
 16	transfiguration	transfiguration	NOUN	_	_	14	conj:coord	_	_
-17	de	de	ADP	_	_	18	mark	_	_
-18	faire	faire	VERB	_	_	9	xcomp	_	_
-19	résonner	résonner	VERB	_	_	18	xcomp	_	_
+17	de	de	ADP	_	_	19	mark	_	_
+18	faire	faire	AUX	_	_	19	aux:caus	_	_
+19	résonner	résonner	VERB	_	_	9	xcomp	_	_
 20	résonner	résonner	VERB	_	_	19	conj:coord	_	_
 21	et	et	CCONJ	_	_	22	cc	_	_
 22	résonner	résonner	VERB	_	_	19	conj:coord	_	_
@@ -4148,16 +4148,16 @@
 19	la	le	DET	_	_	20	det	_	_
 20	santé	santé	NOUN	_	_	16	nmod	_	_
 21	estimait	estimer	VERB	_	_	1	ccomp	_	_
-22	qu'	que	SCONJ	_	_	31	mark	_	_
+22	qu'	que	SCONJ	_	_	29	mark	_	_
 23	un	un	DET	_	_	24	det	_	_
-24	tiers	tiers	NOUN	_	_	31	nsubj:pass	_	_
+24	tiers	tiers	NOUN	_	_	29	nsubj:pass	_	_
 25	de	de	ADP	_	_	27	case	_	_
 26	la	le	DET	_	_	27	det	_	_
 27	population	population	NOUN	_	_	24	nmod	_	_
 28	mondiale	mondial	ADJ	_	_	27	amod	_	_
-29	pourrait	pouvoir	AUX	_	_	31	aux	_	_
+29	pourrait	pouvoir	VERB	_	_	21	ccomp	_	_
 30	être	être	AUX	DoubleAux	_	31	aux:pass	_	_
-31	contaminé	contaminer	VERB	DoubleAux	_	21	ccomp	_	_
+31	contaminé	contaminer	VERB	DoubleAux	_	29	xcomp	_	_
 
 # sent_id = 2342
 # text = nous avons intitulé cette émission grippe A les chiffres alarmistes
@@ -4445,17 +4445,17 @@
 # sent_id = 2358
 # text = voilà est -ce que vous maintenez vos prévisions si je puis dire
 1	voilà	voilà	VERB	DISCOURSE	_	2	parataxis:discourse	_	_
-2	est	être	AUX	_	_	6	ccomp	_	_
-3	-ce	ce	PRON	_	_	6	nsubj	_	_
+2	est	être	AUX	_	_	0	root	_	_
+3	-ce	ce	PRON	_	_	2	nsubj	_	_
 4	que	que	SCONJ	_	_	6	mark	_	_
 5	vous	vous	PRON	_	_	6	nsubj	_	_
-6	maintenez	maintenir	VERB	_	_	0	root	_	_
+6	maintenez	maintenir	VERB	_	_	2	ccomp	_	_
 7	vos	son	DET	_	_	8	det	_	_
 8	prévisions	prévision	NOUN	_	_	6	obj	_	_
-9	si	si	SCONJ	_	_	12	mark	_	_
-10	je	je	PRON	_	_	12	nsubj	_	_
-11	puis	pouvoir	AUX	_	_	12	aux	_	_
-12	dire	dire	VERB	DISCOURSE	_	8	parataxis:discourse	_	_
+9	si	si	SCONJ	_	_	11	mark	_	_
+10	je	je	PRON	_	_	11	nsubj	_	_
+11	puis	pouvoir	VERB	_	_	8	parataxis:discourse	_	_
+12	dire	dire	VERB	DISCOURSE	_	11	xcomp	_	_
 
 # sent_id = 2359
 # text = enfin sauf que là on n' est pas dans la météo
@@ -4630,24 +4630,24 @@
 2	il	il	PRON	_	_	4	nsubj	_	_
 3	est	être	AUX	_	_	4	cop	_	_
 4	possible	possible	ADJ	_	_	0	root	_	_
-5	que	que	SCONJ	_	_	20	mark	_	_
+5	que	que	SCONJ	_	_	19	mark	_	_
 6	dans	dans	ADP	_	_	9	case	_	_
 7	le	le	DET	_	_	9	det	_	_
 8	vingt-et-unième	NUM	ADJ	_	_	9	amod	_	_
-9	siècle	siècle	NOUN	_	_	20	obl:periph	_	_
+9	siècle	siècle	NOUN	_	_	19	obl:periph	_	_
 10	dans	dans	ADP	_	_	12	case	_	_
 11	certains	certain	DET	_	_	12	det	_	_
-12	pays	pays	NOUN	_	_	20	obl:periph	_	_
+12	pays	pays	NOUN	_	_	19	obl:periph	_	_
 13	mieux	mieux	ADV	_	_	14	advmod	_	_
 14	dotés	doter	VERB	_	_	12	acl	_	_
 15	que	que	SCONJ	_	_	17	mark	_	_
 16	d'	de	ADP	_	_	17	case	_	_
 17	autres	autre	PRON	_	_	14	advcl	_	_
-18	on	on	PRON	_	_	20	nsubj	_	_
-19	puisse	pouvoir	AUX	_	_	20	aux	_	_
-20	freiner	freiner	VERB	_	_	4	advcl	_	_
-21	arrêter	arrêter	VERB	_	_	20	appos:conj	_	_
-22	atténuer	atténuer	VERB	_	_	20	appos:conj	_	_
+18	on	on	PRON	_	_	19	nsubj	_	_
+19	puisse	pouvoir	VERB	_	_	4	advcl	_	_
+20	freiner	freiner	VERB	_	_	19	xcomp	_	_
+21	arrêter	arrêter	VERB	_	_	19	conj:dicto	_	_
+22	atténuer	atténuer	VERB	_	_	19	conj:dicto	_	_
 23	la	le	DET	_	_	24	det	_	_
 24	vague	vague	NOUN	_	_	22	obj	_	_
 
@@ -4675,11 +4675,11 @@
 20	est	être	AUX	_	_	22	cop	_	_
 21	les	le	DET	_	_	22	det	_	_
 22	scénarios	scénario	NOUN	_	_	0	root	_	_
-23	que	que	PRON	_	_	27	obj	_	_
+23	que	que	PRON	_	_	26	obj	_	_
 24	l'	l'	DET	_	_	25	det	_	_
-25	on	on	PRON	_	_	27	nsubj	_	_
-26	peut	pouvoir	AUX	_	_	27	aux	_	_
-27	imaginer	imaginer	VERB	_	_	22	acl:relcl	_	_
+25	on	on	PRON	_	_	26	nsubj	_	_
+26	peut	pouvoir	VERB	_	_	22	acl:relcl	_	_
+27	imaginer	imaginer	VERB	_	_	26	xcomp	_	_
 
 # sent_id = 2373
 # text = alors je je je
@@ -4738,7 +4738,7 @@
 31	on	on	PRON	_	_	33	nsubj	_	_
 32	a	avoir	AUX	_	_	33	aux	_	_
 33	pu	pouvoir	VERB	DoubleAux	_	29	acl:relcl	_	_
-34	faire	faire	AUX	DoubleAux	_	33	aux	_	_
+34	faire	faire	VERB	DoubleAux	_	33	xcomp	_	_
 35	ou	ou	CCONJ	_	_	38	cc	_	_
 36	surtout	surtout	ADV	_	_	38	advmod	_	_
 37	de	de	ADP	_	_	38	case	_	_
@@ -4749,7 +4749,7 @@
 42	a	avoir	AUX	_	_	44	aux	_	_
 43	pas	pas	PART	_	_	44	advmod	_	_
 44	pu	pouvoir	VERB	DoubleAux	_	38	acl:relcl	_	_
-45	faire	faire	AUX	DoubleAux	_	44	aux	_	_
+45	faire	faire	VERB	DoubleAux	_	44	xcomp	_	_
 
 # sent_id = 2376
 # text = je vous ai bien compris
@@ -4786,10 +4786,10 @@
 2	dans	dans	ADP	_	_	4	case	_	_
 3	le	le	DET	_	_	4	det	_	_
 4	fond	fond	NOUN	_	_	18	obl:periph	_	_
-5	quand	quand	SCONJ	_	_	8	mark	_	_
-6	on	on	PRON	_	_	8	nsubj	_	_
-7	veut	vouloir	AUX	_	_	8	aux	_	_
-8	prédire	prédire	VERB	_	_	18	advcl:periph	_	_
+5	quand	quand	SCONJ	_	_	7	mark	_	_
+6	on	on	PRON	_	_	7	nsubj	_	_
+7	veut	vouloir	VERB	_	_	18	advcl:periph	_	_
+8	prédire	prédire	VERB	_	_	7	xcomp	_	_
 9	un	un	DET	_	_	10	det	_	_
 10	cyclone	cyclone	NOUN	_	_	8	obj	_	_
 11	au	à+le	ADP	_	_	12	case	_	_
@@ -4832,11 +4832,11 @@
 
 # sent_id = 2382
 # text = eh bien on peut dire un peu de la même façon qu' aujourd'hui ce que l'on voit c' est un prémice de démarrage de pandémie euh
-1	eh	eh	INTJ	_	_	5	discourse	_	_
-2	bien	bien	INTJ	_	_	5	discourse	_	_
-3	on	on	PRON	_	_	5	nsubj	_	_
-4	peut	pouvoir	AUX	_	_	5	aux	_	_
-5	dire	dire	VERB	_	_	0	root	_	_
+1	eh	eh	INTJ	_	_	4	discourse	_	_
+2	bien	bien	INTJ	_	_	4	discourse	_	_
+3	on	on	PRON	_	_	4	nsubj	_	_
+4	peut	pouvoir	VERB	_	_	0	root	_	_
+5	dire	dire	VERB	_	_	4	xcomp	_	_
 6	un	un	DET	_	_	7	det	_	_
 7	peu	peu	NOUN	_	_	5	obl:mod	_	_
 8	de	de	ADP	_	_	11	case	_	_
@@ -5102,9 +5102,9 @@
 
 # sent_id = 2399
 # text = ça peut aller jusqu' à combien concernant les les la France et les Français
-1	ça	ça	PRON	_	_	3	nsubj	_	_
-2	peut	pouvoir	AUX	_	_	3	aux	_	_
-3	aller	aller	VERB	ETRE	_	0	root	_	_
+1	ça	ça	PRON	_	_	2	nsubj	_	_
+2	peut	pouvoir	VERB	_	_	0	root	_	_
+3	aller	aller	VERB	ETRE	_	2	xcomp	_	_
 4	jusqu'	jusque	ADP	_	_	6	case	_	_
 5	à	à	ADP	_	_	6	case	_	_
 6	combien	combien	PRON	_	_	3	obl:comp	_	_
@@ -5354,11 +5354,11 @@
 4	scénarios	scénario	NOUN	_	_	23	nsubj	_	_
 5	euh	euh	INTJ	_	_	4	discourse	_	_
 6	catastrophes	catastrophe	NOUN	_	_	4	dep	_	_
-7	qu'	que	PRON	_	_	11	obj	_	_
-8	on	on	PRON	_	_	11	nsubj	_	_
-9	a	avoir	AUX	_	_	11	aux	_	_
-10	pu	pouvoir	AUX	DoubleAux	_	11	aux	_	_
-11	voir	voir	VERB	DoubleAux	_	4	acl:relcl	_	_
+7	qu'	que	PRON	_	_	10	obj	_	_
+8	on	on	PRON	_	_	10	nsubj	_	_
+9	a	avoir	AUX	_	_	10	aux	_	_
+10	pu	pouvoir	VERB	DoubleAux	_	4	acl:relcl	_	_
+11	voir	voir	VERB	DoubleAux	_	10	xcomp	_	_
 12	éclore	éclore	VERB	_	_	11	xcomp	_	_
 13	de	de	ADP	_	_	14	case	_	_
 14	ci	ci	ADV	_	_	12	advmod	_	_
@@ -5405,25 +5405,25 @@
 
 # sent_id = 2417
 # text = enfin dans cette projection euh est -ce qu' il y a une limite de date si je puis dire
-1	enfin	enfin	ADV	_	_	11	discourse	_	_
+1	enfin	enfin	ADV	_	_	6	discourse	_	_
 2	dans	dans	ADP	_	_	4	case	_	_
 3	cette	ce	DET	_	_	4	det	_	_
-4	projection	projection	NOUN	_	_	11	obl:periph	_	_
+4	projection	projection	NOUN	_	_	6	obl:periph	_	_
 5	euh	euh	INTJ	_	_	4	discourse	_	_
-6	est	être	AUX	_	_	11	ccomp	_	_
-7	-ce	ce	PRON	_	_	11	nsubj	_	_
+6	est	être	AUX	_	_	0	root	_	_
+7	-ce	ce	PRON	_	_	6	nsubj	_	_
 8	qu'	que	SCONJ	_	_	11	mark	_	_
 9	il	il	PRON	_	_	11	nsubj:expl	_	_
 10	y	y	PRON	_	_	11	iobj	_	_
-11	a	avoir	VERB	_	_	0	root	_	_
+11	a	avoir	VERB	_	_	6	ccomp	_	_
 12	une	un	DET	_	_	13	det	_	_
 13	limite	limite	NOUN	_	_	11	obj	_	_
 14	de	de	ADP	_	_	15	case	_	_
 15	date	date	NOUN	_	_	13	nmod	_	_
-16	si	si	SCONJ	_	_	19	mark	_	_
-17	je	je	PRON	_	_	19	nsubj	_	_
-18	puis	pouvoir	AUX	_	_	19	aux	_	_
-19	dire	dire	VERB	DISCOURSE	_	15	parataxis:discourse	_	_
+16	si	si	SCONJ	_	_	18	mark	_	_
+17	je	je	PRON	_	_	18	nsubj	_	_
+18	puis	pouvoir	VERB	_	_	15	parataxis:discourse	_	_
+19	dire	dire	VERB	DISCOURSE	_	18	xcomp	_	_
 
 # sent_id = 2418
 # text = c' est
@@ -5432,12 +5432,12 @@
 
 # sent_id = 2419
 # text = est -ce que vous nous dites voilà si ça tourne mal c' est euh dans l' année à venir euh voilà
-1	est	être	AUX	_	_	6	ccomp	_	_
-2	-ce	ce	PRON	_	_	6	nsubj	_	_
+1	est	être	AUX	_	_	0	root	_	_
+2	-ce	ce	PRON	_	_	1	nsubj	_	_
 3	que	que	SCONJ	_	_	6	mark	_	_
 4	vous	vous	PRON	_	_	6	nsubj	_	_
 5	nous	nous	PRON	_	_	6	iobj	_	_
-6	dites	dire	VERB	_	_	0	root	_	_
+6	dites	dire	VERB	_	_	1	ccomp	_	_
 7	voilà	voilà	VERB	DISCOURSE	_	6	parataxis:discourse	_	_
 8	si	si	SCONJ	_	_	10	mark	_	_
 9	ça	ça	PRON	_	_	10	nsubj	_	_
@@ -5456,20 +5456,20 @@
 
 # sent_id = 2420
 # text = est -ce que vous vous êtes fixé aussi un cadre si je puis dire dans la durée du du du scénario et donc du film en quelque sorte
-1	est	être	AUX	_	_	7	ccomp	_	_
-2	-ce	ce	PRON	_	_	7	nsubj	_	_
+1	est	être	AUX	_	_	0	root	_	_
+2	-ce	ce	PRON	_	_	1	nsubj	_	_
 3	que	que	SCONJ	_	_	7	mark	_	_
 4	vous	vous	PRON	_	_	7	nsubj:pass	_	_
 5	vous	vous	PRON	_	_	7	dep:iobj	_	_
 6	êtes	être	AUX	_	_	7	aux:pass	_	_
-7	fixé	fixer	VERB	_	_	0	root	_	_
+7	fixé	fixer	VERB	_	_	1	ccomp	_	_
 8	aussi	aussi	ADV	_	_	7	advmod	_	_
 9	un	un	DET	_	_	10	det	_	_
 10	cadre	cadre	NOUN	_	_	7	obj	_	_
-11	si	si	SCONJ	_	_	14	mark	_	_
-12	je	je	PRON	_	_	14	nsubj	_	_
-13	puis	pouvoir	AUX	_	_	14	aux	_	_
-14	dire	dire	VERB	DISCOURSE	_	7	parataxis:discourse	_	_
+11	si	si	SCONJ	_	_	13	mark	_	_
+12	je	je	PRON	_	_	13	nsubj	_	_
+13	puis	pouvoir	VERB	_	_	7	parataxis:discourse	_	_
+14	dire	dire	VERB	DISCOURSE	_	13	xcomp	_	_
 15	dans	dans	ADP	_	_	17	case	_	_
 16	la	le	DET	_	_	17	det	_	_
 17	durée	durée	NOUN	_	_	7	obl:mod	_	_
@@ -5572,10 +5572,10 @@
 
 # sent_id = 2426
 # text = ça pourrait être grave
-1	ça	ça	PRON	_	_	4	nsubj	_	_
-2	pourrait	pouvoir	AUX	_	_	4	aux	_	_
+1	ça	ça	PRON	_	_	2	nsubj	_	_
+2	pourrait	pouvoir	VERB	_	_	0	root	_	_
 3	être	être	AUX	_	_	4	cop	_	_
-4	grave	grave	ADJ	_	_	0	root	_	_
+4	grave	grave	ADJ	_	_	2	xcomp	_	_
 
 # sent_id = 2427
 # text = ensuite elle a dit j' ai mis tout mon Tamiflu de côté
@@ -5602,12 +5602,12 @@
 
 # sent_id = 2429
 # text = mais on ne peut pas exclure que il y ait quelque chose de grave
-1	mais	mais	CCONJ	_	_	6	cc	_	_
-2	on	on	PRON	_	_	6	nsubj	_	_
-3	ne	ne	PART	_	_	6	advmod	_	_
-4	peut	pouvoir	AUX	_	_	6	aux	_	_
+1	mais	mais	CCONJ	_	_	4	cc	_	_
+2	on	on	PRON	_	_	4	nsubj	_	_
+3	ne	ne	PART	_	_	4	advmod	_	_
+4	peut	pouvoir	VERB	_	_	0	root	_	_
 5	pas	pas	PART	_	_	6	advmod	_	_
-6	exclure	exclure	VERB	_	_	0	root	_	_
+6	exclure	exclure	VERB	_	_	4	xcomp	_	_
 7	que	que	SCONJ	_	_	10	mark	_	_
 8	il	il	PRON	_	_	10	nsubj:expl	_	_
 9	y	y	PRON	_	_	10	iobj	_	_
@@ -5680,14 +5680,14 @@
 # text = dans le cadre déjà de la grippe traditionnelle est -ce que ce chiffre de trente mille il s' applique à ça
 1	dans	dans	ADP	_	_	3	case	_	_
 2	le	le	DET	_	_	3	det	_	_
-3	cadre	cadre	NOUN	_	_	19	obl:periph	_	_
+3	cadre	cadre	NOUN	_	_	9	obl:periph	_	_
 4	déjà	déjà	ADV	_	_	3	advmod	_	_
 5	de	de	ADP	_	_	7	case	_	_
 6	la	le	DET	_	_	7	det	_	_
 7	grippe	grippe	NOUN	_	_	3	nmod	_	_
 8	traditionnelle	traditionnel	ADJ	_	_	7	amod	_	_
-9	est	être	AUX	_	_	19	ccomp	_	_
-10	-ce	ce	PRON	_	_	19	nsubj	_	_
+9	est	être	AUX	_	_	0	root	_	_
+10	-ce	ce	PRON	_	_	9	nsubj	_	_
 11	que	que	SCONJ	_	_	19	mark	_	_
 12	ce	ce	DET	_	_	13	det	_	_
 13	chiffre	chiffre	NOUN	_	_	19	dislocated	_	_
@@ -5696,7 +5696,7 @@
 16	mille	mille	NUM	_	_	15	nummod	_	_
 17	il	il	PRON	_	_	19	nsubj	_	_
 18	s'	se	PRON	_	_	19	dep:iobj	_	_
-19	applique	appliquer	VERB	_	_	0	root	_	_
+19	applique	appliquer	VERB	_	_	9	ccomp	_	_
 20	à	à	ADP	_	_	21	case	_	_
 21	ça	ça	PRON	_	_	19	obl:comp	_	_
 
@@ -5848,11 +5848,11 @@
 2	euh	euh	INTJ	_	_	27	discourse	_	_
 3	le	le	DET	_	_	4	det	_	_
 4	scénario	scénario	NOUN	_	_	27	dislocated	_	_
-5	auquel	à+lequel	PRON	_	_	9	obj	_	_
-6	on	on	PRON	_	_	9	nsubj	_	_
-7	peut	pouvoir	AUX	_	_	9	aux	_	_
+5	auquel	à+lequel	PRON	_	_	7	obj	_	_
+6	on	on	PRON	_	_	7	nsubj	_	_
+7	peut	pouvoir	VERB	_	_	4	acl	_	_
 8	s'	se	PRON	_	_	9	dep:iobj	_	_
-9	attendre	attendre	VERB	_	_	4	acl	_	_
+9	attendre	attendre	VERB	_	_	7	xcomp	_	_
 10	encore	encore	ADV	_	_	12	advmod	_	_
 11	une	un	PRON	_	_	12	det	_	_
 12	fois	fois	NOUN	_	_	9	obl:mod	_	_
@@ -5901,15 +5901,15 @@
 
 # sent_id = 2447
 # text = mais elle pourrait tout à fait f~ euh entraîner un certain nombre d' épidémies euh de plus forte ampleur que des épidémies saisonnières habituelles dans l' hémisphère sud
-1	mais	mais	CCONJ	_	_	9	cc	_	_
-2	elle	il	PRON	_	_	9	nsubj	_	_
-3	pourrait	pouvoir	AUX	_	_	9	aux	_	_
-4	tout	tout	ADV	_	_	9	advmod:periph	_	_
+1	mais	mais	CCONJ	_	_	3	cc	_	_
+2	elle	il	PRON	_	_	3	nsubj	_	_
+3	pourrait	pouvoir	VERB	_	_	0	root	_	_
+4	tout	tout	ADV	_	_	3	advmod:periph	_	_
 5	à	à	ADP	_	_	6	case	_	_
 6	fait	fait	NOUN	_	_	4	dep	_	_
 7	f~	f~	X	_	_	4	conj:dicto	_	_
 8	euh	euh	INTJ	_	_	7	discourse	_	_
-9	entraîner	entraîner	VERB	_	_	0	root	_	_
+9	entraîner	entraîner	VERB	_	_	3	xcomp	_	_
 10	un	un	DET	_	_	12	det	_	_
 11	certain	certain	ADJ	_	_	12	amod	_	_
 12	nombre	nombre	NOUN	_	_	9	obj	_	_
@@ -5988,9 +5988,9 @@
 # sent_id = 2450
 # text = ce qui peut comprendre le le discours de nos autorités de santé qui vont se voir euh non pas réconfortées hein mais euh plutôt euh euh vigilan~ avec une vigilance encore accrue sur euh l' hiver qui qui arrive
 1	ce	ce	PRON	_	_	0	root	_	_
-2	qui	qui	PRON	_	_	4	nsubj	_	_
-3	peut	pouvoir	AUX	_	_	4	aux	_	_
-4	comprendre	comprendre	VERB	_	_	1	acl:relcl	_	_
+2	qui	qui	PRON	_	_	3	nsubj	_	_
+3	peut	pouvoir	VERB	_	_	1	acl:relcl	_	_
+4	comprendre	comprendre	VERB	_	_	3	xcomp	_	_
 5	le	le	DET	_	_	7	det	_	_
 6	le	le	DET	conj:reform	_	5	conj:dicto	_	_
 7	discours	discours	NOUN	_	_	4	obj	_	_
@@ -6102,10 +6102,10 @@
 1	vous	vous	PRON	_	_	2	nsubj	_	_
 2	voyez	voir	VERB	_	_	0	root	_	_
 3	ce	ce	PRON	_	_	2	obj	_	_
-4	que	que	PRON	_	_	7	obj	_	_
-5	je	je	PRON	_	_	7	nsubj	_	_
-6	veux	vouloir	AUX	_	_	7	aux	_	_
-7	dire	dire	VERB	_	_	3	acl:relcl	_	_
+4	que	que	PRON	_	_	5	obj	_	_
+5	je	je	PRON	_	_	6	nsubj	_	_
+6	veux	vouloir	VERB	_	_	3	acl:relcl	_	_
+7	dire	dire	VERB	_	_	6	xcomp	_	_
 8	euh	euh	INTJ	_	_	7	discourse	_	_
 
 # sent_id = 2458
@@ -6122,18 +6122,18 @@
 
 # sent_id = 2459
 # text = ça fait rire cette
-1	ça	ça	PRON	_	_	3	nsubj:caus	_	_
+1	ça	ça	PRON	_	_	3	nsubj	_	_
 2	fait	faire	AUX	_	_	3	aux:caus	_	_
 3	rire	rire	VERB	CAUSATIVE	_	0	root	_	_
 4	cette	ce	DET	_	_	3	dep	_	_
 
 # sent_id = 2460
 # text = euh mais je veux dire
-1	euh	euh	INTJ	_	_	5	discourse	_	_
-2	mais	mais	CCONJ	_	_	5	cc	_	_
-3	je	je	PRON	_	_	5	nsubj	_	_
-4	veux	vouloir	AUX	_	_	5	aux	_	_
-5	dire	dire	VERB	_	_	0	root	_	_
+1	euh	euh	INTJ	_	_	4	discourse	_	_
+2	mais	mais	CCONJ	_	_	4	cc	_	_
+3	je	je	PRON	_	_	4	nsubj	_	_
+4	veux	vouloir	VERB	_	_	0	root	_	_
+5	dire	dire	VERB	_	_	4	xcomp	_	_
 
 # sent_id = 2461
 # text = à qu~ à quel moment dans l' année euh à l' automne à l' hiver on sait qu' on est dedans et que ça va s~ ça sera pas la grippe traditionnelle mais autre chose
@@ -6175,23 +6175,23 @@
 
 # sent_id = 2462
 # text = alors les la probabilité ne fait qu' augmenter avec le temps
-1	alors	alors	ADV	_	_	8	advmod:periph	_	_
+1	alors	alors	ADV	_	_	6	advmod:periph	_	_
 2	les	le	DET	_	_	3	det	_	_
 3	la	le	DET	_	_	4	det	_	_
-4	probabilité	probabilité	NOUN	_	_	8	nsubj:caus	_	_
-5	ne	ne	PART	_	_	8	advmod	_	_
-6	fait	faire	AUX	_	_	8	aux:caus	_	_
+4	probabilité	probabilité	NOUN	_	_	6	nsubj	_	_
+5	ne	ne	PART	_	_	6	advmod	_	_
+6	fait	faire	VERB	_	_	0	root	_	_
 7	qu'	que	SCONJ	_	_	8	advcl	_	_
-8	augmenter	augmenter	VERB	CAUSATIVE	_	0	root	_	_
+8	augmenter	augmenter	VERB	CAUSATIVE	_	6	xcomp	_	_
 9	avec	avec	ADP	_	_	11	case	_	_
 10	le	le	DET	_	_	11	det	_	_
 11	temps	temps	NOUN	_	_	8	obl:mod	_	_
 
 # sent_id = 2463
 # text = déjà la probabilité qu' on n~ qu' on soit dedans par exemple enfin ne fait qu' augmenter
-1	déjà	déjà	ADV	_	_	17	advmod:periph	_	_
+1	déjà	déjà	ADV	_	_	15	advmod:periph	_	_
 2	la	le	DET	_	_	3	det	_	_
-3	probabilité	probabilité	NOUN	_	_	17	nsubj:caus	_	_
+3	probabilité	probabilité	NOUN	_	_	15	nsubj	_	_
 4	qu'	que	SCONJ	_	_	3	dep	_	_
 5	on	on	PRON	_	_	4	conj:dicto	_	_
 6	n~	n~	PART	_	_	4	conj:dicto	_	_
@@ -6200,12 +6200,12 @@
 9	soit	être	AUX	_	_	10	cop	_	_
 10	dedans	dedans	ADV	_	_	7	dep	_	_
 11	par	par	ADP	_	_	12	case	_	_
-12	exemple	exemple	NOUN	_	_	17	obl:periph	_	_
+12	exemple	exemple	NOUN	_	_	15	obl:periph	_	_
 13	enfin	enfin	ADV	_	_	12	discourse	_	_
-14	ne	ne	PART	_	_	17	advmod	_	_
-15	fait	faire	AUX	_	_	17	aux:caus	_	_
+14	ne	ne	PART	_	_	15	advmod	_	_
+15	fait	faire	VERB	_	_	0	root	_	_
 16	qu'	que	SCONJ	_	_	17	advcl	_	_
-17	augmenter	augmenter	VERB	CAUSATIVE	_	0	root	_	_
+17	augmenter	augmenter	VERB	CAUSATIVE	_	15	xcomp	_	_
 
 # sent_id = 2464
 # text = donc je pars en vacances de bonne humeur
@@ -6273,9 +6273,9 @@
 # text = ce que je veux dire c' est que c' est cumulatif
 1	ce	ce	PRON	_	_	7	dislocated	_	_
 2	que	que	PRON	_	_	5	obj	_	_
-3	je	je	PRON	_	_	5	nsubj	_	_
-4	veux	vouloir	AUX	_	_	5	aux	_	_
-5	dire	dire	VERB	_	_	1	acl:relcl	_	_
+3	je	je	PRON	_	_	4	nsubj	_	_
+4	veux	vouloir	VERB	_	_	1	acl:relcl	_	_
+5	dire	dire	VERB	_	_	4	xcomp	_	_
 6	c'	ce	PRON	_	_	7	nsubj	_	_
 7	est	être	AUX	_	_	0	root	_	_
 8	que	que	SCONJ	_	_	11	mark	_	_
@@ -6305,13 +6305,13 @@
 18	peu	peu	NOUN	_	_	17	fixed	_	_
 19	plus	plus	ADV	_	_	20	advmod	_	_
 20	contagieuse	contagieux	ADJ	_	_	4	ccomp	_	_
-21	que	que	SCONJ	_	_	27	mark	_	_
-22	euh	euh	INTJ	_	_	27	discourse	_	_
-23	on	on	PRON	_	_	27	nsubj	_	_
-24	aurait	avoir	AUX	_	_	27	aux	_	_
-25	pu	pouvoir	AUX	DoubleAux	_	27	aux	_	_
+21	que	que	SCONJ	_	_	25	mark	_	_
+22	euh	euh	INTJ	_	_	25	discourse	_	_
+23	on	on	PRON	_	_	25	nsubj	_	_
+24	aurait	avoir	AUX	_	_	25	aux	_	_
+25	pu	pouvoir	VERB	DoubleAux	_	20	advcl	_	_
 26	l'	le	PRON	_	_	27	obj	_	_
-27	espérer	espérer	VERB	DoubleAux	_	19	advcl	_	_
+27	espérer	espérer	VERB	DoubleAux	_	25	xcomp	_	_
 
 # sent_id = 2469
 # text = elle est plus contagieuse
@@ -6641,11 +6641,11 @@
 
 # sent_id = 2484
 # text = il fait d' abord lever la belle - mère de Pierre
-1	il	il	PRON	_	_	5	nsubj:caus	_	_
-2	fait	faire	AUX	_	_	5	aux:caus	_	_
+1	il	il	PRON	_	_	2	nsubj	_	_
+2	fait	faire	VERB	_	_	0	root	_	_
 3	d'	de	ADP	_	_	4	case	_	_
 4	abord	abord	NOUN	_	_	5	obl:comp	_	_
-5	lever	lever	VERB	CAUSATIVE	_	0	root	_	_
+5	lever	lever	VERB	CAUSATIVE	_	2	xcomp	_	_
 6	la	le	DET	_	_	9	det	_	_
 7	belle	belle	ADJ	_	_	9	compound	_	_
 8	-	-	PUNCT	_	_	7	punct	_	_
@@ -7724,10 +7724,10 @@
 20	plus	plus	PART	_	_	22	advmod	_	_
 21	euh	euh	INTJ	_	_	20	discourse	_	_
 22	ce	ce	PRON	_	_	10	obl:mod	_	_
-23	que	que	PRON	_	_	26	obj	_	_
-24	je	je	PRON	_	_	26	nsubj	_	_
-25	veux	vouloir	AUX	_	_	26	aux	_	_
-26	faire	faire	VERB	_	_	22	acl:relcl	_	_
+23	que	que	PRON	_	_	25	obj	_	_
+24	je	je	PRON	_	_	25	nsubj	_	_
+25	veux	vouloir	VERB	_	_	22	acl:relcl	_	_
+26	faire	faire	VERB	_	_	25	xcomp	_	_
 27	la	le	DET	_	_	28	det	_	_
 28	psycho	psychologie	NOUN	_	_	26	dislocated	_	_
 
@@ -8054,17 +8054,17 @@
 15	travaillé	travailler	VERB	_	_	9	conj:coord	_	_
 16	avec	avec	ADP	_	_	17	case	_	_
 17	moi	lui	PRON	_	_	15	obl:mod	_	_
-18	qui	qui	PRON	_	_	21	nsubj	_	_
-19	pourraient	pouvoir	AUX	_	_	21	aux	_	_
+18	qui	qui	PRON	_	_	19	nsubj	_	_
+19	pourraient	pouvoir	VERB	_	_	7	acl:relcl	_	_
 20	vous	vous	PRON	_	_	21	obj	_	_
-21	répondre	répondre	VERB	_	_	7	acl:relcl	_	_
+21	répondre	répondre	VERB	_	_	19	xcomp	_	_
 
 # sent_id = 2561
 # text = je voudrais simplement reprendre un mot dans ce que vous avez dit
-1	je	je	PRON	_	_	4	nsubj	_	_
-2	voudrais	vouloir	AUX	_	_	4	aux	_	_
-3	simplement	simplement	ADV	_	_	4	advmod	_	_
-4	reprendre	reprendre	VERB	_	_	0	root	_	_
+1	je	je	PRON	_	_	2	nsubj	_	_
+2	voudrais	vouloir	VERB	_	_	0	root	_	_
+3	simplement	simplement	ADV	_	_	2	advmod	_	_
+4	reprendre	reprendre	VERB	_	_	2	xcomp	_	_
 5	un	un	DET	_	_	6	det	_	_
 6	mot	mot	NOUN	_	_	4	obj	_	_
 7	dans	dans	ADP	_	_	8	case	_	_
@@ -8171,9 +8171,9 @@
 
 # sent_id = 2568
 # text = je voudrais reprendre euh des phrases de Marcel Achard
-1	je	je	PRON	_	_	3	nsubj	_	_
-2	voudrais	vouloir	AUX	_	_	3	aux	_	_
-3	reprendre	reprendre	VERB	_	_	0	root	_	_
+1	je	je	PRON	_	_	2	nsubj	_	_
+2	voudrais	vouloir	VERB	_	_	0	root	_	_
+3	reprendre	reprendre	VERB	_	_	2	xcomp	_	_
 4	euh	euh	INTJ	_	_	3	discourse	_	_
 5	des	de+le	ADP	_	_	6	case	_	_
 6	phrases	phrase	NOUN	_	_	3	obl:comp	_	_
@@ -8361,18 +8361,18 @@
 # sent_id = 2580
 # text = et est -ce que c' est avec ces yeux si vous voulez dire que je sais regarder
 1	et	et	CCONJ	_	_	2	cc	_	_
-2	est	être	AUX	_	_	9	cop	_	_
-3	-ce	ce	PRON	_	_	9	nsubj	_	_
+2	est	être	AUX	_	_	0	root	_	_
+3	-ce	ce	PRON	_	_	2	nsubj	_	_
 4	que	que	SCONJ	_	_	9	mark	_	_
 5	c'	ce	PRON	_	_	9	nsubj	_	_
 6	est	être	AUX	_	_	9	cop	_	_
 7	avec	avec	ADP	_	_	9	case	_	_
 8	ces	ce	DET	_	_	9	det	_	_
-9	yeux	yeux	NOUN	_	_	0	root	_	_
-10	si	si	SCONJ	_	_	13	mark	_	_
-11	vous	vous	PRON	_	_	13	nsubj	_	_
-12	voulez	vouloir	AUX	_	_	13	aux	_	_
-13	dire	dire	VERB	DISCOURSE	_	9	parataxis:discourse	_	_
+9	yeux	yeux	NOUN	_	_	2	ccomp	_	_
+10	si	si	SCONJ	_	_	12	mark	_	_
+11	vous	vous	PRON	_	_	12	nsubj	_	_
+12	voulez	vouloir	VERB	_	_	9	parataxis:discourse	_	_
+13	dire	dire	VERB	DISCOURSE	_	12	xcomp	_	_
 14	que	que	SCONJ	_	_	16	mark	_	_
 15	je	je	PRON	_	_	16	nsubj	_	_
 16	sais	savoir	VERB	_	_	9	advcl:cleft	_	_
@@ -8548,9 +8548,9 @@
 25	comportement	comportement	NOUN	_	_	21	obl:mod	_	_
 26	des	de+le	ADP	_	_	27	case	_	_
 27	autres	autre	ADJ	_	_	25	amod	_	_
-28	je	je	PRON	_	_	30	nsubj	_	_
-29	veux	vouloir	AUX	_	_	30	aux	_	_
-30	dire	dire	VERB	DISCOURSE	_	27	parataxis:discourse	_	_
+28	je	je	PRON	_	_	29	nsubj	_	_
+29	veux	vouloir	VERB	_	_	27	parataxis:discourse	_	_
+30	dire	dire	VERB	DISCOURSE	_	29	xcomp	_	_
 
 # sent_id = 2591
 # text = j' ai toujours l' impression que c' est c' est énorme que c' est là en noir sur blanc et et les autres ne voient pas
@@ -8589,12 +8589,12 @@
 
 # sent_id = 2593
 # text = est -ce que vous avez eu un desc~ un destin exceptionnel
-1	est	être	AUX	_	_	6	ccomp	_	_
-2	-ce	ce	PRON	_	_	6	nsubj	_	_
+1	est	être	AUX	_	_	0	root	_	_
+2	-ce	ce	PRON	_	_	1	nsubj	_	_
 3	que	que	SCONJ	_	_	6	mark	_	_
 4	vous	vous	PRON	_	_	6	nsubj	_	_
 5	avez	avoir	AUX	_	_	6	aux	_	_
-6	eu	avoir	VERB	_	_	0	root	_	_
+6	eu	avoir	VERB	_	_	1	ccomp	_	_
 7	un	un	DET	_	_	8	det	_	_
 8	desc~	desc~	NOUN	_	_	6	obj	_	_
 9	un	un	DET	_	_	10	det	_	_
@@ -8609,9 +8609,9 @@
 4	simplement	simplement	ADV	_	_	6	advmod	_	_
 5	la	le	DET	_	_	6	det	_	_
 6	réussite	réussite	NOUN	_	_	0	root	_	_
-7	qui	qui	PRON	_	_	9	nsubj	_	_
-8	devait	devoir	AUX	_	_	9	aux	_	_
-9	venir	venir	VERB	_	_	6	acl:relcl	_	_
+7	qui	qui	PRON	_	_	8	nsubj	_	_
+8	devait	devoir	VERB	_	_	6	acl:relcl	_	_
+9	venir	venir	VERB	_	_	8	xcomp	_	_
 
 # sent_id = 2595
 # text = ou s' est -il passé tout à fait autre chose dans votre vie
@@ -8803,11 +8803,11 @@
 
 # sent_id = 2604
 # text = est -ce que je sais moi
-1	est	être	AUX	_	_	5	ccomp	_	_
-2	-ce	ce	PRON	_	_	5	nsubj	_	_
+1	est	être	AUX	_	_	0	root	_	_
+2	-ce	ce	PRON	_	_	1	nsubj	_	_
 3	que	que	SCONJ	_	_	5	mark	_	_
 4	je	je	PRON	_	_	5	nsubj	_	_
-5	sais	savoir	VERB	_	_	0	root	_	_
+5	sais	savoir	VERB	_	_	1	ccomp	_	_
 6	moi	lui	PRON	_	_	5	dislocated	_	_
 
 # sent_id = 2605
@@ -9214,12 +9214,12 @@
 # sent_id = 2630
 # text = mais est -ce que vous aviez prévu tout cela
 1	mais	mais	CCONJ	_	_	2	cc	_	_
-2	est	être	AUX	_	_	7	ccomp	_	_
-3	-ce	ce	PRON	_	_	7	nsubj	_	_
+2	est	être	AUX	_	_	0	root	_	_
+3	-ce	ce	PRON	_	_	2	nsubj	_	_
 4	que	que	SCONJ	_	_	7	mark	_	_
 5	vous	vous	PRON	_	_	7	nsubj	_	_
 6	aviez	avoir	AUX	_	_	7	aux	_	_
-7	prévu	prévoir	VERB	_	_	0	root	_	_
+7	prévu	prévoir	VERB	_	_	2	ccomp	_	_
 8	tout	tout	ADJ	_	_	9	amod	_	_
 9	cela	cela	PRON	_	_	7	obj	_	_
 
@@ -9373,9 +9373,9 @@
 15	-	-	PUNCT	_	_	16	punct	_	_
 16	ce	ce	PRON	_	_	13	nsubj	_	_
 17	qu'	que	SCONJ	_	_	20	obj	_	_
-18	je	je	PRON	_	_	20	nsubj	_	_
-19	peux	pouvoir	AUX	_	_	20	aux	_	_
-20	apprendre	apprendre	VERB	_	_	13	acl:relcl	_	_
+18	je	je	PRON	_	_	19	nsubj	_	_
+19	peux	pouvoir	VERB	_	_	13	acl:relcl	_	_
+20	apprendre	apprendre	VERB	_	_	19	xcomp	_	_
 
 # sent_id = 2639
 # text = je me suis dit je vais apprendre la sténodactylo
@@ -9787,10 +9787,10 @@
 3	une	un	DET	_	_	5	det	_	_
 4	autre	autre	ADJ	_	_	5	amod	_	_
 5	époque	époque	NOUN	_	_	0	root	_	_
-6	où	où	PRON	_	_	9	obl:mod	_	_
-7	on	on	PRON	_	_	9	nsubj	_	_
-8	pouvait	pouvoir	AUX	_	_	9	aux	_	_
-9	faire	faire	VERB	_	_	5	acl:relcl	_	_
+6	où	où	PRON	_	_	8	obl:mod	_	_
+7	on	on	PRON	_	_	8	nsubj	_	_
+8	pouvait	pouvoir	VERB	_	_	5	acl:relcl	_	_
+9	faire	faire	VERB	_	_	8	xcomp	_	_
 10	ça	ça	PRON	_	_	9	obj	_	_
 
 # sent_id = 2671
@@ -10067,9 +10067,9 @@
 
 # sent_id = 2689
 # text = je veux dire que oui beaucoup oui vous avez travaillé avec Jean Renoir
-1	je	je	PRON	_	_	3	nsubj	_	_
-2	veux	vouloir	AUX	_	_	3	aux	_	_
-3	dire	dire	VERB	_	_	0	root	_	_
+1	je	je	PRON	_	_	2	nsubj	_	_
+2	veux	vouloir	VERB	_	_	0	root	_	_
+3	dire	dire	VERB	_	_	2	xcomp	_	_
 4	que	que	SCONJ	_	_	10	mark	_	_
 5	oui	oui	INTJ	_	_	10	discourse	_	_
 6	beaucoup	beaucoup	ADV	_	_	10	advmod:periph	_	_
@@ -10267,9 +10267,9 @@
 3	voyez	voir	VERB	_	_	0	root	_	_
 4	ce	ce	PRON	_	_	3	obj	_	_
 5	que	que	PRON	_	_	8	obj	_	_
-6	je	je	PRON	_	_	8	nsubj	_	_
-7	veux	vouloir	AUX	_	_	8	aux	_	_
-8	dire	dire	VERB	_	_	4	acl:relcl	_	_
+6	je	je	PRON	_	_	7	nsubj	_	_
+7	veux	vouloir	VERB	_	_	4	acl:relcl	_	_
+8	dire	dire	VERB	_	_	7	xcomp	_	_
 
 # sent_id = 2702
 # text = un~ un~ une é~ édu~ une éducation un petit peu rigide à cet égard
@@ -10799,7 +10799,7 @@
 1	il	il	PRON	_	_	2	nsubj:caus	_	_
 2	faut	falloir	VERB	_	_	0	root	_	_
 3	les	le	PRON	_	_	5	obj	_	_
-4	faire	faire	AUX	DoubleAux	_	2	aux:caus	_	_
+4	faire	faire	AUX	DoubleAux	_	5	aux:caus	_	_
 5	grandir	grandir	VERB	CAUSATIVE	_	2	xcomp	_	_
 6	en	en	ADP	_	_	7	case	_	_
 7	quittant	quitter	VERB	_	_	5	advcl	_	_
@@ -11003,9 +11003,9 @@
 9	vos	son	DET	_	_	10	det	_	_
 10	familles	famille	NOUN	_	_	7	obl:mod	_	_
 11	que	que	PRON	_	_	14	obj	_	_
-12	je	je	PRON	_	_	14	nsubj	_	_
-13	veux	vouloir	AUX	_	_	14	aux	_	_
-14	saluer	saluer	VERB	_	_	10	acl:relcl	_	_
+12	je	je	PRON	_	_	13	nsubj	_	_
+13	veux	vouloir	VERB	_	_	10	acl:relcl	_	_
+14	saluer	saluer	VERB	_	_	13	xcomp	_	_
 15	particulièrement	particulièrement	ADV	_	_	14	advmod	_	_
 16	dont	dont	PRON	_	_	18	obl:comp	_	_
 17	j'	je	PRON	_	_	18	nsubj	_	_
@@ -11041,9 +11041,9 @@
 14	d'	de	ADP	_	_	15	case	_	_
 15	armes	arme	NOUN	_	_	13	nmod	_	_
 16	tribut	tribut	NOUN	_	_	7	appos:conj	_	_
-17	qui	qui	PRON	_	_	19	nsubj	_	_
-18	peut	pouvoir	AUX	_	_	19	aux	_	_
-19	aller	aller	VERB	ETRE	_	16	acl:relcl	_	_
+17	qui	qui	PRON	_	_	18	nsubj	_	_
+18	peut	pouvoir	VERB	_	_	16	acl:relcl	_	_
+19	aller	aller	VERB	ETRE	_	18	xcomp	_	_
 20	jusqu'	jusque	ADP	_	_	22	case	_	_
 21	au	à+le	ADP	_	_	22	case	_	_
 22	sacrifice	sacrifice	NOUN	_	_	19	obl:comp	_	_
@@ -11538,11 +11538,11 @@
 
 # sent_id = 2769
 # text = euh je pourrais vous dire que certainement euh la morale chrétienne paraît plus difficile à nos gens du Gâtinais que dans la Beauce euh
-1	euh	euh	INTJ	_	_	5	discourse	_	_
-2	je	je	PRON	_	_	5	nsubj	_	_
-3	pourrais	pouvoir	AUX	_	_	5	aux	_	_
+1	euh	euh	INTJ	_	_	3	discourse	_	_
+2	je	je	PRON	_	_	3	nsubj	_	_
+3	pourrais	pouvoir	VERB	_	_	0	root	_	_
 4	vous	vous	PRON	_	_	5	obj	_	_
-5	dire	dire	VERB	_	_	0	root	_	_
+5	dire	dire	VERB	_	_	3	xcomp	_	_
 6	que	que	SCONJ	_	_	12	mark	_	_
 7	certainement	certainement	ADV	_	_	5	advmod:periph	_	_
 8	euh	euh	INTJ	_	_	7	discourse	_	_
@@ -11644,12 +11644,12 @@
 
 # sent_id = 2772
 # text = est -ce qu' il y a une différence nette parmi l~ les différentes couches sociales dans la mesure où vous arrivez à à les toucher et à les attacher à l' église
-1	est	être	AUX	_	_	6	ccomp	_	_
-2	-ce	ce	PRON	_	_	6	nsubj	_	_
+1	est	être	AUX	_	_	0	root	_	_
+2	-ce	ce	PRON	_	_	1	nsubj	_	_
 3	qu'	que	SCONJ	_	_	6	mark	_	_
 4	il	il	PRON	_	_	6	nsubj:expl	_	_
 5	y	y	PRON	_	_	6	iobj	_	_
-6	a	avoir	VERB	_	_	0	root	_	_
+6	a	avoir	VERB	_	_	1	ccomp	_	_
 7	une	un	DET	_	_	8	det	_	_
 8	différence	différence	NOUN	_	_	6	obj	_	_
 9	nette	net	ADJ	_	_	8	amod	_	_
@@ -11679,19 +11679,19 @@
 
 # sent_id = 2773
 # text = c' est - à - dire que est -ce qu' il y a des couches sociales qui plus que d' autres disons dans Orléans même où évidemment la la société est plus stratifiée et peut-être plus variée que qu' à la campagne
-1	c'	c'	PRON	_	_	13	cc	_	_
+1	c'	c'	PRON	_	_	8	cc	_	_
 2	est	est	VERB	_	_	1	fixed	_	_
 3	-	-	PUNCT	_	_	4	punct	_	_
 4	à	à	ADP	_	_	1	fixed	_	_
 5	-	-	PUNCT	_	_	6	punct	_	_
 6	dire	dire	VERB	_	_	1	fixed	_	_
 7	que	que	SCONJ	_	_	1	fixed	_	_
-8	est	être	AUX	_	_	13	ccomp	_	_
-9	-ce	ce	PRON	_	_	13	nsubj	_	_
+8	est	être	AUX	_	_	0	root	_	_
+9	-ce	ce	PRON	_	_	8	nsubj	_	_
 10	qu'	que	SCONJ	_	_	13	mark	_	_
 11	il	il	PRON	_	_	13	nsubj:expl	_	_
 12	y	y	PRON	_	_	13	iobj	_	_
-13	a	avoir	VERB	_	_	0	root	_	_
+13	a	avoir	VERB	_	_	8	ccomp	_	_
 14	des	de+le	ADP	_	_	15	case	_	_
 15	couches	couche	NOUN	_	_	13	obl:comp	_	_
 16	sociales	social	ADJ	_	_	15	amod	_	_
@@ -11804,8 +11804,8 @@
 11	les	le	DET	_	_	12	det	_	_
 12	contacts	contact	NOUN	_	_	9	nmod	_	_
 13	que	que	PRON	_	_	15	obj	_	_
-14	peut	pouvoir	AUX	_	_	15	aux	_	_
-15	avoir	avoir	VERB	_	_	12	acl:relcl	_	_
+14	peut	pouvoir	VERB	_	_	12	acl:relcl	_	_
+15	avoir	avoir	VERB	_	_	14	xcomp	_	_
 16	le	le	DET	_	_	17	det	_	_
 17	prêtre	prêtre	NOUN	_	_	15	nsubj	_	_
 18	et	et	CCONJ	_	_	21	cc	_	_
@@ -11873,15 +11873,15 @@
 21	viennent	venir	VERB	_	_	19	acl:relcl	_	_
 22	le	le	PRON	_	_	23	obj	_	_
 23	voir	voir	VERB	_	_	21	xcomp	_	_
-24	parce	parce	SCONJ	_	_	32	mark	_	_
+24	parce	parce	SCONJ	_	_	28	mark	_	_
 25	qu'	que	SCONJ	_	_	24	fixed	_	_
-26	il	il	PRON	_	_	32	nsubj	_	_
-27	ne	ne	PART	_	_	32	advmod	_	_
-28	peut	pouvoir	AUX	_	_	32	aux	_	_
-29	pas	pas	PART	_	_	32	advmod	_	_
+26	il	il	PRON	_	_	28	nsubj	_	_
+27	ne	ne	PART	_	_	28	advmod	_	_
+28	peut	pouvoir	VERB	_	_	17	advcl	_	_
+29	pas	pas	PART	_	_	28	advmod	_	_
 30	être	être	AUX	_	_	32	cop	_	_
 31	en	en	ADP	_	_	32	case	_	_
-32	contact	contact	NOUN	_	_	17	obl:mod	_	_
+32	contact	contact	NOUN	_	_	28	xcomp	_	_
 33	avec	avec	ADP	_	_	36	case	_	_
 34	tout	tout	ADV	_	_	36	advmod	_	_
 35	le	le	DET	_	_	36	det	_	_
@@ -12102,10 +12102,10 @@
 7	en	en	ADP	_	_	9	case	_	_
 8	ce	ce	DET	_	_	9	det	_	_
 9	moment	moment	NOUN	_	_	6	nmod	_	_
-10	de	de	ADP	_	_	13	mark	_	_
-11	pouvoir	pouvoir	AUX	_	_	13	aux	_	_
+10	de	de	ADP	_	_	11	mark	_	_
+11	pouvoir	pouvoir	VERB	_	_	6	acl	_	_
 12	vous	vous	PRON	_	_	13	iobj	_	_
-13	exposer	exposer	VERB	_	_	6	acl	_	_
+13	exposer	exposer	VERB	_	_	11	xcomp	_	_
 14	quelles	quel	PRON	_	_	13	obj	_	_
 15	sont	être	AUX	_	_	14	cop	_	_
 16	les	le	DET	_	_	17	det	_	_
@@ -12113,10 +12113,10 @@
 18	de	de	ADP	_	_	19	case	_	_
 19	contact	contact	NOUN	_	_	17	nmod	_	_
 20	qu'	que	PRON	_	_	24	obj	_	_
-21	il	il	PRON	_	_	24	nsubj:expl	_	_
-22	peut	pouvoir	AUX	_	_	24	aux	_	_
+21	il	il	PRON	_	_	22	nsubj	_	_
+22	peut	pouvoir	VERB	_	_	17	acl:relcl	_	_
 23	y	y	PRON	_	_	24	iobj	_	_
-24	avoir	avoir	VERB	_	_	17	acl:relcl	_	_
+24	avoir	avoir	VERB	_	_	22	xcomp	_	_
 25	entre	entre	ADP	_	_	27	case	_	_
 26	les	le	DET	_	_	27	det	_	_
 27	églises	église	NOUN	_	_	24	obl:mod	_	_
