@@ -98,10 +98,10 @@
 9	tellement	tellement	ADV	_	_	8	advmod	_	_
 10	la	le	DET	_	_	11	det	_	_
 11	vie	vie	NOUN	_	_	8	obj	_	_
-12	qu'	que	SCONJ	_	_	14	mark	_	_
-13	on	on	PRON	_	_	14	nsubj	_	_
-14	se	se	PRON	_	_	9	advcl	_	EXTPOS=VERB
-15	dit	dire	VERB	_	_	14	fixed	_	_
+12	qu'	que	SCONJ	_	_	15	mark	_	_
+13	on	on	PRON	_	_	15	nsubj	_	_
+14	se	se	PRON	_	_	15	dep	_	INMWE=Yes
+15	dit	dire	VERB	_	_	9	advcl	_	EXTPOS=VERB
 16	mais	mais	CCONJ	_	_	23	cc	_	_
 17	pourquoi	pourquoi	PRON	_	_	23	obl:mod	_	_
 18	on	on	PRON	_	_	23	nsubj	_	_
@@ -109,7 +109,7 @@
 20	les	le	PRON	_	_	23	obj	_	_
 21	a	avoir	AUX	_	_	23	aux	_	_
 22	pas	pas	ADV	_	_	23	advmod	_	_
-23	inventés	inventer	VERB	_	_	14	parataxis	_	_
+23	inventés	inventer	VERB	_	_	15	parataxis	_	_
 24	plus	plus	ADV	_	_	25	advmod	_	_
 25	tôt	tôt	ADV	_	_	23	advmod	_	_
 
@@ -168,13 +168,13 @@
 # macrosyntax = $L2 il s'agit tout simplement de { ceci | une boule de lavage que vous allez placer au coeur de votre linge sans rien d'autre avant de mettre votre machine en route } //
 # sent_id = Rhap_D2011-5
 # text = il s' agit tout simplement de ceci une boule de lavage que vous allez placer au coeur de votre linge sans rien d' autre avant de mettre votre machine en route
-1	il	il	PRON	_	_	2	nsubj	_	_
-2	s'	se	PRON	_	_	0	root	_	EXTPOS=VERB
-3	agit	agir	VERB	_	_	2	fixed	_	_
+1	il	il	PRON	_	_	3	nsubj	_	_
+2	s'	se	PRON	_	_	3	dep	_	INMWE=Yes
+3	agit	agir	VERB	_	_	0	root	_	EXTPOS=VERB
 4	tout	tout	ADV	_	_	5	advmod	_	_
-5	simplement	simplement	ADV	_	_	2	advmod	_	_
+5	simplement	simplement	ADV	_	_	3	advmod	_	_
 6	de	de	ADP	_	_	7	case	_	_
-7	ceci	ceci	PRON	_	_	2	obl:arg	_	_
+7	ceci	ceci	PRON	_	_	3	obl:arg	_	_
 8	une	un	DET	_	_	9	det	_	_
 9	boule	boule	NOUN	_	_	7	appos	_	_
 10	de	de	ADP	_	_	11	case	_	_
@@ -576,12 +576,12 @@
 # macrosyntax = ^et on se retrouve juste après //
 # sent_id = Rhap_D2011-34
 # text = et on se retrouve juste après
-1	et	et	CCONJ	_	_	3	cc	_	_
-2	on	on	PRON	_	_	3	nsubj	_	_
-3	se	se	PRON	_	_	0	root	_	EXTPOS=VERB
-4	retrouve	retrouver	VERB	_	_	3	fixed	_	_
+1	et	et	CCONJ	_	_	4	cc	_	_
+2	on	on	PRON	_	_	4	nsubj	_	_
+3	se	se	PRON	_	_	4	dep	_	INMWE=Yes
+4	retrouve	retrouver	VERB	_	_	0	root	_	EXTPOS=VERB
 5	juste	juste	ADV	_	_	6	advmod	_	_
-6	après	après	ADV	_	_	3	advmod	_	_
+6	après	après	ADV	_	_	4	advmod	_	_
 
 # macrosyntax = le cycle de lavage est terminé //
 # sent_id = Rhap_D2011-35
@@ -1271,12 +1271,12 @@
 17	fait	fait	NOUN	_	_	15	obl:arg	_	_
 18	un	un	DET	_	_	19	det	_	_
 19	garçon	garçon	NOUN	_	_	7	obj	_	_
-20	qui	qui	PRON	_	_	21	nsubj	_	_
-21	se	se	PRON	_	_	19	acl:relcl	_	EXTPOS=VERB
-22	salit	salir	VERB	_	_	21	fixed	_	_
+20	qui	qui	PRON	_	_	22	nsubj	_	_
+21	se	se	PRON	_	_	22	dep	_	INMWE=Yes
+22	salit	salir	VERB	_	_	19	acl:relcl	_	EXTPOS=VERB
 23	et	et	CCONJ	_	_	25	cc	_	_
 24	qui	qui	PRON	_	_	25	nsubj	_	_
-25	faisait	faire	VERB	_	_	21	conj	_	_
+25	faisait	faire	VERB	_	_	22	conj	_	_
 26	des	un	DET	_	_	27	det	_	_
 27	allergies	allergie	NOUN	_	_	25	obl:arg	_	_
 28	auparavant	auparavant	ADV	_	_	25	advmod	_	_
@@ -1284,7 +1284,7 @@
 30	qui	qui	PRON	_	_	33	nsubj	_	_
 31	n'	ne	ADV	_	_	33	advmod	_	_
 32	en	en	PRON	_	_	33	obj	_	_
-33	fait	faire	VERB	_	_	21	conj	_	_
+33	fait	faire	VERB	_	_	22	conj	_	_
 34	plus	plus	ADV	_	_	33	advmod	_	_
 35	grace	grace	ADV	_	_	33	advmod	_	_
 36	à	à	ADP	_	_	38	case	_	_
@@ -1627,8 +1627,8 @@
 10	très	très	ADV	_	_	11	advmod	_	_
 11	pointue	pointu	ADJ	conj:reform	_	5	dep	_	_
 12	avait	avoir	AUX	_	_	15	aux	_	_
-13	un	un	DET	_	_	15	obl:mod	_	EXTPOS=ADV
-14	peu	peu	NOUN	_	_	13	fixed	_	_
+13	un	un	DET	_	_	14	det	_	INMWE=Yes
+14	peu	peu	NOUN	_	_	15	obl:mod	_	EXTPOS=ADV
 15	pressenti	pressentir	VERB	_	_	0	root	_	_
 16	ce	ce	DET	_	_	17	det	_	_
 17	succès	succès	NOUN	_	_	15	obj	_	_
@@ -1821,7 +1821,7 @@
 2	c'	ce	PRON	_	_	4	expl:subj	_	_
 3	est	être	AUX	_	_	4	cop	_	_
 4	vrai	vrai	ADJ	_	_	0	root	_	_
-5	que	que	SCONJ	_	_	4	mark:agent	_	_
+5	que	que	SCONJ	_	_	4	mark	_	_
 
 # macrosyntax = alors < les critiques qui vous avaient boudée ( d'ailleurs ) un peu depuis quelques années //
 # sent_id = Rhap_D2010-20
@@ -1835,8 +1835,8 @@
 7	boudée	bouder	VERB	_	_	3	acl:relcl	_	_
 8	d'	d'	ADP	_	_	9	case	_	_
 9	ailleurs	ailleurs	ADV	_	_	7	advmod	_	_
-10	un	un	DET	_	_	14	nmod	_	EXTPOS=ADV
-11	peu	peu	NOUN	_	_	10	fixed	_	_
+10	un	un	DET	_	_	11	det	_	INMWE=Yes
+11	peu	peu	NOUN	_	_	14	nmod	_	EXTPOS=ADV
 12	depuis	depuis	ADP	_	_	14	case	_	_
 13	quelques	quelque	ADJ	_	_	14	amod	_	_
 14	années	année	NOUN	_	_	7	obl:mod	_	_
@@ -1893,8 +1893,8 @@
 # text = c' est un peu gênant aussi
 1	c'	ce	PRON	_	_	5	nsubj	_	_
 2	est	être	AUX	_	_	5	cop	_	_
-3	un	un	DET	_	_	5	obl:mod	_	EXTPOS=ADV
-4	peu	peu	NOUN	_	_	3	fixed	_	_
+3	un	un	DET	_	_	4	det	_	INMWE=Yes
+4	peu	peu	NOUN	_	_	5	obl:mod	_	EXTPOS=ADV
 5	gênant	gênant	ADJ	_	_	0	root	_	_
 6	aussi	aussi	ADV	_	_	5	advmod	_	_
 
@@ -1903,8 +1903,8 @@
 # text = c' est un peu gênant
 1	c'	ce	PRON	_	_	5	nsubj	_	_
 2	est	être	AUX	_	_	5	cop	_	_
-3	un	un	DET	_	_	5	obl:mod	_	EXTPOS=ADV
-4	peu	peu	NOUN	_	_	3	fixed	_	_
+3	un	un	DET	_	_	4	det	_	INMWE=Yes
+4	peu	peu	NOUN	_	_	5	obl:mod	_	EXTPOS=ADV
 5	gênant	gênant	ADJ	_	_	0	root	_	_
 
 # macrosyntax = $L2 "vous savez" je ESPERLUETTE //
@@ -1944,8 +1944,8 @@
 4	euh	euh	INTJ	_	_	3	discourse	_	_
 5	c'	ce	PRON	_	_	9	nsubj	_	_
 6	est	être	AUX	_	_	9	cop	_	_
-7	un	un	DET	_	_	9	obl:mod	_	EXTPOS=ADV
-8	peu	peu	NOUN	_	_	7	fixed	_	_
+7	un	un	DET	_	_	8	det	_	INMWE=Yes
+8	peu	peu	NOUN	_	_	9	obl:mod	_	EXTPOS=ADV
 9	dur	dur	ADJ	_	_	0	root	_	_
 
 # macrosyntax = je peux pas ouvrir le journal //
@@ -1963,8 +1963,8 @@
 # text = c' est un peu
 1	c'	ce	PRON	_	_	2	nsubj	_	_
 2	est	être	AUX	_	_	0	root	_	_
-3	un	un	DET	_	_	2	obl:mod	_	EXTPOS=ADV
-4	peu	peu	NOUN	_	_	3	fixed	_	_
+3	un	un	DET	_	_	4	det	_	INMWE=Yes
+4	peu	peu	NOUN	_	_	2	obl:mod	_	EXTPOS=ADV
 
 # macrosyntax = il y a un réflexe { de pudeur "quoi" | de fuite } qui se produit //
 # sent_id = Rhap_D2010-34
@@ -1979,9 +1979,9 @@
 8	quoi	quoi	INTJ	_	_	7	discourse	_	_
 9	de	de	ADP	_	_	10	case	_	_
 10	fuite	fuite	NOUN	conj:reform	_	5	nmod	_	_
-11	qui	qui	PRON	_	_	12	nsubj	_	_
-12	se	se	PRON	_	_	5	acl:relcl	_	EXTPOS=VERB
-13	produit	produire	VERB	_	_	12	fixed	_	_
+11	qui	qui	PRON	_	_	13	nsubj	_	_
+12	se	se	PRON	_	_	13	dep	_	INMWE=Yes
+13	produit	produire	VERB	_	_	5	acl:relcl	_	EXTPOS=VERB
 
 # macrosyntax = c'est toujours { un | un } temps très difficile { que | que } le temps de la parution d'un livre //
 # sent_id = Rhap_D2010-35
@@ -2010,8 +2010,8 @@
 # text = c' est un peu
 1	c'	ce	PRON	_	_	2	nsubj	_	_
 2	est	être	AUX	_	_	0	root	_	_
-3	un	un	DET	_	_	2	obl:mod	_	EXTPOS=ADV
-4	peu	peu	NOUN	_	_	3	fixed	_	_
+3	un	un	DET	_	_	4	det	_	INMWE=Yes
+4	peu	peu	NOUN	_	_	2	obl:mod	_	EXTPOS=ADV
 
 # macrosyntax = $L1 trop < c'est trop >+ peut-être là "non" //
 # sent_id = Rhap_D2010-37
@@ -2043,8 +2043,8 @@
 14	est	être	AUX	_	_	16	aux:pass	_	_
 15	toujours	toujours	ADV	_	_	16	advmod	_	_
 16	pris	prendre	VERB	_	_	10	ccomp	_	_
-17	un	un	DET	_	_	22	nmod	_	EXTPOS=ADV
-18	peu	peu	NOUN	_	_	17	fixed	_	_
+17	un	un	DET	_	_	18	det	_	INMWE=Yes
+18	peu	peu	NOUN	_	_	22	nmod	_	EXTPOS=ADV
 19	comme	comme	ADP	_	_	22	case	_	_
 20	une	un	DET	_	_	22	det	_	_
 21	certaine	certain	ADJ	_	_	22	amod	_	_
@@ -2163,11 +2163,11 @@
 21	chef	chef	NOUN	_	_	13	parataxis:parenth	_	_
 22	-d'	de	ADP	_	_	21	fixed	_	_
 23	oeuvre	oeuvre	NOUN	_	_	21	fixed	_	_
-24	qui	qui	PRON	_	_	25	nsubj	_	_
-25	s'	se	PRON	_	_	13	acl:relcl	_	EXTPOS=VERB
-26	appelle	appeler	VERB	_	_	25	fixed	_	_
+24	qui	qui	PRON	_	_	26	nsubj	_	_
+25	s'	se	PRON	_	_	26	dep	_	INMWE=Yes
+26	appelle	appeler	VERB	_	_	13	acl:relcl	_	EXTPOS=VERB
 27	Un	Un	DET	_	_	28	det	_	_
-28	Barrage	Barrage	NOUN	_	_	25	obj	_	ExtPOS=PROPN|Title=Yes
+28	Barrage	Barrage	NOUN	_	_	26	obj	_	ExtPOS=PROPN|Title=Yes
 29	contre	contre	ADP	_	_	31	case	_	_
 30	le	le	DET	_	_	31	det	_	_
 31	Pacifique	Pacifique	PROPN	_	_	28	nmod	_	_
@@ -2595,14 +2595,14 @@
 10	est	être	AUX	_	_	12	cop	_	_
 11	une	un	DET	_	_	12	det	_	_
 12	mode	mode	NOUN	_	_	4	advcl	_	_
-13	qui	qui	PRON	_	_	14	nsubj	_	_
-14	se	se	PRON	_	_	12	acl:relcl	_	EXTPOS=VERB
-15	porte	porter	VERB	_	_	14	fixed	_	_
-16	couramment	couramment	ADV	_	_	14	advmod	_	_
+13	qui	qui	PRON	_	_	15	nsubj	_	_
+14	se	se	PRON	_	_	15	dep	_	INMWE=Yes
+15	porte	porter	VERB	_	_	12	acl:relcl	_	EXTPOS=VERB
+16	couramment	couramment	ADV	_	_	15	advmod	_	_
 17	chez	chez	ADP	_	_	20	case	_	_
 18	les	le	DET	_	_	20	det	_	_
 19	jeunes	jeune	ADJ	_	_	20	amod	_	_
-20	filles	fille	NOUN	_	_	14	obl:mod	_	_
+20	filles	fille	NOUN	_	_	15	obl:mod	_	_
 21	hein	hein	INTJ	_	_	20	discourse	_	_
 
 # macrosyntax = $- $L2 { oui | oui } //
@@ -2662,11 +2662,11 @@
 # sent_id = Rhap_D2010-83
 # text = et et vos regards se croisent
 1	et	et	CCONJ	_	_	2	reparandum	_	_
-2	et	et	CCONJ	_	_	5	cc	_	_
+2	et	et	CCONJ	_	_	6	cc	_	_
 3	vos	son	DET	_	_	4	det	_	_
-4	regards	regard	NOUN	_	_	5	nsubj	_	_
-5	se	se	PRON	_	_	0	root	_	EXTPOS=VERB
-6	croisent	croiser	VERB	_	_	5	fixed	_	_
+4	regards	regard	NOUN	_	_	6	nsubj	_	_
+5	se	se	PRON	_	_	6	dep	_	INMWE=Yes
+6	croisent	croiser	VERB	_	_	0	root	_	EXTPOS=VERB
 
 # macrosyntax = ^et { on peut dire |
 # sent_id = Rhap_D2010-84
@@ -2699,12 +2699,12 @@
 # sent_id = Rhap_D2010-86
 # text = le livre s' appelait avant La photographie absolue
 1	le	le	DET	_	_	2	det	_	_
-2	livre	livre	NOUN	_	_	3	nsubj	_	_
-3	s'	se	PRON	_	_	0	root	_	EXTPOS=VERB
-4	appelait	appeler	VERB	_	_	3	fixed	_	_
-5	avant	avant	ADP	_	_	3	mark	_	_
+2	livre	livre	NOUN	_	_	4	nsubj	_	_
+3	s'	se	PRON	_	_	4	dep	_	INMWE=Yes
+4	appelait	appeler	VERB	_	_	0	root	_	EXTPOS=VERB
+5	avant	avant	ADP	_	_	4	mark	_	_
 6	La	le	DET	_	_	7	det	_	_
-7	photographie	photographie	NOUN	_	_	3	obl:arg	_	ExtPOS=PROPN|Type=Title
+7	photographie	photographie	NOUN	_	_	4	obl:arg	_	ExtPOS=PROPN|Type=Title
 8	absolue	absolu	ADJ	_	_	7	amod	_	_
 
 # macrosyntax = il m'a été commandé > ce livre "attention" "hein" //
@@ -3089,11 +3089,11 @@
 # text = j' étais un peu étonnée un peu épatée enfin et attirée aussi bien sûr
 1	j'	je	PRON	_	_	5	nsubj:pass	_	_
 2	étais	être	AUX	_	_	5	aux:pass	_	_
-3	un	un	DET	_	_	5	obl:mod	_	EXTPOS=ADV
-4	peu	peu	NOUN	_	_	3	fixed	_	_
+3	un	un	DET	_	_	4	det	_	INMWE=Yes
+4	peu	peu	NOUN	_	_	5	obl:mod	_	EXTPOS=ADV
 5	étonnée	étonner	VERB	_	_	0	root	_	_
-6	un	un	DET	_	_	8	obl:mod	_	EXTPOS=ADV
-7	peu	peu	NOUN	_	_	6	fixed	_	_
+6	un	un	DET	_	_	7	det	_	INMWE=Yes
+7	peu	peu	NOUN	_	_	8	obl:mod	_	EXTPOS=ADV
 8	épatée	épater	VERB	_	_	5	conj	_	_
 9	enfin	enfin	ADV	_	_	8	discourse	_	_
 10	et	et	CCONJ	_	_	11	cc	_	_
@@ -3462,8 +3462,8 @@
 41	ne	ne	ADV	_	_	42	advmod	_	_
 42	rappelle	rappeler	VERB	_	_	4	ccomp	_	_
 43	pas	pas	ADV	_	_	42	advmod	_	_
-44	un	un	DET	_	_	42	obl:mod	_	EXTPOS=ADV
-45	peu	peu	NOUN	_	_	44	fixed	_	_
+44	un	un	DET	_	_	45	det	_	INMWE=Yes
+45	peu	peu	NOUN	_	_	42	obl:mod	_	EXTPOS=ADV
 46	l'	le	DET	_	_	47	det	_	_
 47	arrivée	arrivé	NOUN	_	_	42	obj	_	_
 48	de	de	ADP	_	_	49	case	_	_
@@ -3902,17 +3902,17 @@
 18	est	être	AUX	conj:reform	_	9	conj	_	_
 19	très	très	ADV	_	_	18	advmod	_	_
 20	importante	important	ADJ	_	_	18	reparandum	_	_
-21	et	et	CCONJ	_	_	23	cc	_	_
-22	où	où	PRON	_	_	23	obl:mod	_	_
-23	se	se	PRON	_	_	20	conj	_	EXTPOS=VERB
-24	coalise	coaliser	VERB	_	_	23	fixed	_	_
+21	et	et	CCONJ	_	_	24	cc	_	_
+22	où	où	PRON	_	_	24	obl:mod	_	_
+23	se	se	PRON	_	_	24	dep	_	INMWE=Yes
+24	coalise	coaliser	VERB	_	_	20	conj	_	EXTPOS=VERB
 25	en	en	ADP	_	_	27	case	_	_
 26	quelque	quelque	DET	_	_	27	det	_	_
-27	sorte	sorte	NOUN	_	_	23	obl:mod	_	_
+27	sorte	sorte	NOUN	_	_	24	obl:mod	_	_
 28	le	le	DET	_	_	30	reparandum	_	_
 29	le	le	DET	conj:reform	_	30	reparandum	_	_
 30	le	le	DET	conj:reform	_	31	det	_	_
-31	mouvement	mouvement	NOUN	_	_	23	nsubj	_	_
+31	mouvement	mouvement	NOUN	_	_	24	nsubj	_	_
 32	de	de	ADP	_	_	35	case	_	_
 33	la	le	DET	_	_	35	det	_	_
 34	jeune	jeune	ADJ	_	_	35	amod	_	_
@@ -3964,9 +3964,9 @@
 25	ailleurs	ailleurs	ADV	_	_	23	advmod	_	_
 26	de	de	ADP	_	_	27	case	_	_
 27	Noskowski	Noskowski	PROPN	_	_	23	nmod	_	_
-28	qui	qui	PRON	_	_	29	nsubj	_	_
-29	se	se	PRON	_	_	23	acl:relcl	_	EXTPOS=VERB
-30	retrouvent	retrouver	VERB	_	_	29	fixed	_	_
+28	qui	qui	PRON	_	_	30	nsubj	_	_
+29	se	se	PRON	_	_	30	dep	_	INMWE=Yes
+30	retrouvent	retrouver	VERB	_	_	23	acl:relcl	_	EXTPOS=VERB
 
 # macrosyntax = il y a Szymanoski //=
 # sent_id = Rhap_D2012-38
@@ -4035,8 +4035,8 @@
 7	va	aller	VERB	ETRE	_	5	acl:relcl	_	_
 8	très	très	ADV	_	_	9	advmod	_	_
 9	vite	vite	ADV	_	_	7	advmod	_	_
-10	se	se	PRON	_	_	7	xcomp	_	EXTPOS=VERB
-11	désunir	désunir	VERB	_	_	10	fixed	_	_
+10	se	se	PRON	_	_	11	dep	_	INMWE=Yes
+11	désunir	désunir	VERB	_	_	7	xcomp	_	EXTPOS=VERB
 12	parce	parce	SCONJ	_	_	22	mark	_	_
 13	qu'	que	SCONJ	_	_	12	fixed	_	_
 14	il	il	PRON	_	_	16	expl:subj	_	_
@@ -4047,7 +4047,7 @@
 19	jalousies	jalousie	NOUN	_	_	16	obl:arg	_	_
 20	il	il	PRON	_	_	22	expl:subj	_	_
 21	y	y	PRON	_	_	22	iobj	_	_
-22	a	avoir	VERB	_	_	10	advcl	_	_
+22	a	avoir	VERB	_	_	11	advcl	_	_
 23	des	un	DET	_	_	24	det	_	_
 24	inimitiés	inimitié	NOUN	_	_	22	obl:arg	_	_
 25	euh	euh	INTJ	_	_	24	discourse	_	_
@@ -4296,8 +4296,8 @@
 5	ne	ne	ADV	_	_	6	advmod	_	_
 6	pouvait	pouvoir	VERB	_	_	3	parataxis	_	_
 7	pas	pas	ADV	_	_	6	advmod	_	_
-8	s'	se	PRON	_	_	6	xcomp	_	EXTPOS=VERB
-9	empêcher	empêcher	VERB	CCOMP	_	8	fixed	_	_
+8	s'	se	PRON	_	_	9	dep	_	INMWE=Yes
+9	empêcher	empêcher	VERB	CCOMP	_	6	xcomp	_	EXTPOS=VERB
 10	à	à	ADP	_	_	12	case	_	_
 11	la	le	DET	_	_	12	det	_	_
 12	fin	fin	NOUN	_	_	6	obl:mod	_	_
@@ -4307,7 +4307,7 @@
 16	transfiguration	transfiguration	NOUN	_	_	14	conj	_	_
 17	de	de	ADP	_	_	19	mark	_	_
 18	faire	faire	AUX	_	_	19	aux:caus	_	_
-19	résonner	résonner	VERB	_	_	8	xcomp	_	_
+19	résonner	résonner	VERB	_	_	9	xcomp	_	_
 20	résonner	résonner	VERB	_	_	19	conj	_	_
 21	et	et	CCONJ	_	_	22	cc	_	_
 22	résonner	résonner	VERB	_	_	19	conj	_	_
@@ -4370,15 +4370,15 @@
 # sent_id = Rhap_D2008-3
 # text = alors où en est -on vraiment du côté de la grippe A H un N un
 1	alors	alors	ADV	_	_	2	discourse	_	_
-2	où	où	PRON	_	_	3	iobj	_	_
-3	en	en	PRON	_	_	0	root	_	EXTPOS=SCONJ
-4	est	être	SCONJ	_	_	3	fixed	_	_
-5	-on	on	PRON	_	_	3	nsubj	_	_
-6	vraiment	vraiment	ADV	_	_	3	advmod	_	_
+2	où	où	PRON	_	_	4	iobj	_	_
+3	en	en	PRON	_	_	4	dep	_	INMWE=Yes
+4	est	être	SCONJ	_	_	0	root	_	EXTPOS=SCONJ
+5	-on	on	PRON	_	_	4	nsubj	_	_
+6	vraiment	vraiment	ADV	_	_	4	advmod	_	_
 7-8	du	_	_	_	_	_	_	_	_
 7	de	de	ADP	_	_	9	case	_	_
 8	le	le	DET	_	_	9	det	_	_
-9	côté	côté	NOUN	_	_	3	obl:mod	_	_
+9	côté	côté	NOUN	_	_	4	obl:mod	_	_
 10	de	de	ADP	_	_	12	case	_	_
 11	la	le	DET	_	_	12	det	_	_
 12	grippe	grippe	NOUN	_	_	9	nmod	_	_
@@ -5030,22 +5030,22 @@
 # sent_id = Rhap_D2008-38
 # text = mais si elle se déroule de façon je dirais euh un peu comme dans les les fois passées c' est les scénarios que l' on peut imaginer
 1	mais	mais	CCONJ	_	_	22	cc	_	_
-2	si	si	SCONJ	_	_	4	mark	_	_
-3	elle	il	PRON	_	_	4	nsubj	_	_
-4	se	se	PRON	_	_	22	advcl	_	EXTPOS=VERB
-5	déroule	dérouler	VERB	_	_	4	fixed	_	_
+2	si	si	SCONJ	_	_	5	mark	_	_
+3	elle	il	PRON	_	_	5	nsubj	_	_
+4	se	se	PRON	_	_	5	dep	_	INMWE=Yes
+5	déroule	dérouler	VERB	_	_	22	advcl	_	EXTPOS=VERB
 6	de	de	ADP	_	_	7	case	_	_
 7	façon	façon	NOUN	_	_	13	reparandum	_	_
 8	je	je	PRON	_	_	9	nsubj	_	_
 9	dirais	dire	VERB	DISCOURSE	_	7	discourse	_	_
 10	euh	euh	INTJ	_	_	9	discourse	_	_
-11	un	un	DET	_	_	17	nmod	_	EXTPOS=ADV
-12	peu	peu	NOUN	_	_	11	fixed	_	_
+11	un	un	DET	_	_	12	det	_	INMWE=Yes
+12	peu	peu	NOUN	_	_	17	nmod	_	EXTPOS=ADV
 13	comme	comme	SCONJ	conj:reform	_	17	mark	_	_
 14	dans	dans	ADP	_	_	17	case	_	_
 15	les	le	DET	_	_	16	reparandum	_	_
 16	les	le	DET	conj:reform	_	17	det	_	_
-17	fois	fois	NOUN	_	_	4	advcl	_	_
+17	fois	fois	NOUN	_	_	5	advcl	_	_
 18	passées	passer	VERB	ETRE	_	17	dep	_	_
 19	c'	ce	PRON	_	_	22	nsubj	_	_
 20	est	être	AUX	_	_	22	cop	_	_
@@ -5166,29 +5166,29 @@
 # macrosyntax = ^mais dans le fond < quand on veut prédire un cyclone <+ au jour d'aujourd'hui <+ on se rapporte au catalogue des cyclones passés //
 # sent_id = Rhap_D2008-46
 # text = mais dans le fond quand on veut prédire un cyclone au jour d' aujourd'hui on se rapporte au catalogue des cyclones passés
-1	mais	mais	CCONJ	_	_	17	cc	_	_
+1	mais	mais	CCONJ	_	_	18	cc	_	_
 2	dans	dans	ADP	_	_	4	case	_	_
 3	le	le	DET	_	_	4	det	_	_
-4	fond	fond	NOUN	_	_	17	obl:mod	_	_
+4	fond	fond	NOUN	_	_	18	obl:mod	_	_
 5	quand	quand	SCONJ	_	_	7	mark	_	_
 6	on	on	PRON	_	_	7	nsubj	_	_
-7	veut	vouloir	VERB	_	_	17	advcl	_	_
+7	veut	vouloir	VERB	_	_	18	advcl	_	_
 8	prédire	prédire	VERB	_	_	7	xcomp	_	_
 9	un	un	DET	_	_	10	det	_	_
 10	cyclone	cyclone	NOUN	_	_	8	obj	_	_
 11-12	au	_	_	_	_	_	_	_	_
 11	à	à	ADP	_	_	13	case	_	_
 12	le	le	DET	_	_	13	det	_	_
-13	jour	jour	NOUN	_	_	17	obl:mod	_	_
+13	jour	jour	NOUN	_	_	18	obl:mod	_	_
 14	d'	de	ADP	_	_	15	case	_	_
 15	aujourd'hui	aujourd'	ADV	_	_	13	advmod	_	_
-16	on	on	PRON	_	_	17	nsubj	_	_
-17	se	se	PRON	_	_	0	root	_	EXTPOS=VERB
-18	rapporte	rapporter	VERB	_	_	17	fixed	_	_
+16	on	on	PRON	_	_	18	nsubj	_	_
+17	se	se	PRON	_	_	18	dep	_	INMWE=Yes
+18	rapporte	rapporter	VERB	_	_	0	root	_	EXTPOS=VERB
 19-20	au	_	_	_	_	_	_	_	_
 19	à	à	ADP	_	_	21	case	_	_
 20	le	le	DET	_	_	21	det	_	_
-21	catalogue	catalogue	NOUN	_	_	17	obl:arg	_	_
+21	catalogue	catalogue	NOUN	_	_	18	obl:arg	_	_
 22-23	des	_	_	_	_	_	_	_	_
 22	de	de	ADP	_	_	24	case	_	_
 23	les	le	DET	_	_	24	det	_	_
@@ -5228,8 +5228,8 @@
 3	on	on	PRON	_	_	4	nsubj	_	_
 4	peut	pouvoir	VERB	_	_	0	root	_	_
 5	dire	dire	VERB	_	_	4	xcomp	_	_
-6	un	un	DET	_	_	11	nmod	_	EXTPOS=ADV
-7	peu	peu	NOUN	_	_	6	fixed	_	_
+6	un	un	DET	_	_	7	det	_	INMWE=Yes
+7	peu	peu	NOUN	_	_	11	nmod	_	EXTPOS=ADV
 8	de	de	ADP	_	_	11	case	_	_
 9	la	le	DET	_	_	11	det	_	_
 10	même	même	ADJ	_	_	11	amod	_	_
@@ -6108,12 +6108,12 @@
 5	a	avoir	AUX	_	_	6	aux	_	_
 6	dit	dire	VERB	_	_	0	root	_	_
 7	faut	falloir	VERB	CCOMP	_	6	parataxis	_	_
-8	se	se	PRON	_	_	7	xcomp	_	EXTPOS=VERB
-9	méfier	méfier	VERB	_	_	8	fixed	_	_
+8	se	se	PRON	_	_	9	dep	_	INMWE=Yes
+9	méfier	méfier	VERB	_	_	7	xcomp	_	EXTPOS=VERB
 10-11	du	_	_	_	_	_	_	_	_
 10	de	de	ADP	_	_	12	case	_	_
 11	le	le	DET	_	_	12	det	_	_
-12	retour	retour	NOUN	_	_	8	obl:arg	_	_
+12	retour	retour	NOUN	_	_	9	obl:arg	_	_
 13	de	de	ADP	_	_	14	case	_	_
 14	balancier	balancier	NOUN	_	_	12	nmod	_	_
 
@@ -6143,25 +6143,25 @@
 # text = dans le cadre déjà de la grippe traditionnelle est -ce que ce chiffre de trente mille il s' applique à ça
 1	dans	dans	ADP	_	_	3	case	_	_
 2	le	le	DET	_	_	3	det	_	_
-3	cadre	cadre	NOUN	_	_	18	obl:mod	_	_
+3	cadre	cadre	NOUN	_	_	19	obl:mod	_	_
 4	déjà	déjà	ADV	_	_	3	advmod	_	_
 5	de	de	ADP	_	_	7	case	_	_
 6	la	le	DET	_	_	7	det	_	_
 7	grippe	grippe	NOUN	_	_	3	nmod	_	_
 8	traditionnelle	traditionnel	ADJ	_	_	7	amod	_	_
-9	est	être	AUX	_	_	18	cop	_	_
-10	-ce	ce	PRON	_	_	18	expl:subj	_	_
-11	que	que	SCONJ	_	_	18	mark	_	_
+9	est	être	AUX	_	_	19	cop	_	_
+10	-ce	ce	PRON	_	_	19	expl:subj	_	_
+11	que	que	SCONJ	_	_	19	mark	_	_
 12	ce	ce	DET	_	_	13	det	_	_
-13	chiffre	chiffre	NOUN	_	_	18	dislocated	_	_
+13	chiffre	chiffre	NOUN	_	_	19	dislocated	_	_
 14	de	de	ADP	_	_	15	case	_	_
 15	trente	trente	NUM	_	_	13	nmod	_	_
 16	mille	mille	NUM	_	_	15	flat	_	_
-17	il	il	PRON	_	_	18	nsubj	_	_
-18	s'	se	PRON	_	_	0	root	_	EXTPOS=VERB
-19	applique	appliquer	VERB	_	_	18	fixed	_	_
+17	il	il	PRON	_	_	19	nsubj	_	_
+18	s'	se	PRON	_	_	19	dep	_	INMWE=Yes
+19	applique	appliquer	VERB	_	_	0	root	_	EXTPOS=VERB
 20	à	à	ADP	_	_	21	case	_	_
-21	ça	ça	PRON	_	_	18	obl:arg	_	_
+21	ça	ça	PRON	_	_	19	obl:arg	_	_
 
 # macrosyntax = ^c'^est-^à-^dire ^que la grippe < ce qu'on connaît de la grippe & //
 # sent_id = Rhap_D2008-102
@@ -6320,12 +6320,12 @@
 3	le	le	DET	_	_	4	det	_	_
 4	scénario	scénario	NOUN	_	_	28	dislocated	_	_
 5-6	auquel	_	_	_	_	_	_	_	_
-5	à	à	PRON	_	_	9	iobj	_	_
+5	à	à	PRON	_	_	10	iobj	_	_
 6	lequel	lequel	PRON	_	_	5	obj	_	_
 7	on	on	PRON	_	_	8	nsubj	_	_
 8	peut	pouvoir	VERB	_	_	4	dep	_	_
-9	s'	se	PRON	_	_	8	xcomp	_	EXTPOS=VERB
-10	attendre	attendre	VERB	_	_	9	fixed	_	_
+9	s'	se	PRON	_	_	10	dep	_	INMWE=Yes
+10	attendre	attendre	VERB	_	_	8	xcomp	_	EXTPOS=VERB
 11	encore	encore	ADV	_	_	8	advmod	_	_
 12	une	un	PRON	_	_	13	det	_	_
 13	fois	fois	NOUN	_	_	11	obl:mod	_	_
@@ -6360,15 +6360,15 @@
 41	ne	ne	ADV	_	_	42	advmod	_	_
 42	va	aller	VERB	ETRE	_	28	ccomp	_	_
 43	pas	pas	ADV	_	_	42	advmod	_	_
-44	se	se	PRON	_	_	42	xcomp	_	EXTPOS=VERB
-45	plaire	plaire	VERB	_	_	44	fixed	_	_
-46	beaucoup	beaucoup	ADV	_	_	44	advmod	_	_
+44	se	se	PRON	_	_	45	dep	_	INMWE=Yes
+45	plaire	plaire	VERB	_	_	42	xcomp	_	EXTPOS=VERB
+46	beaucoup	beaucoup	ADV	_	_	45	advmod	_	_
 47	avec	avec	ADP	_	_	49	case	_	_
 48	l'	le	DET	_	_	49	det	_	_
-49	été	été	NOUN	_	_	44	obl:mod	_	_
+49	été	été	NOUN	_	_	45	obl:mod	_	_
 50	euh	euh	INTJ	_	_	49	discourse	_	_
 51	chez	chez	ADP	_	_	52	case	_	_
-52	nous	lui	PRON	_	_	44	obl:mod	_	_
+52	nous	lui	PRON	_	_	45	obl:mod	_	_
 53	dans	dans	ADP	_	_	55	case	_	_
 54	l'	le	DET	_	_	55	det	_	_
 55	hémisphère	hémisphère	NOUN	_	_	52	appos	_	_
@@ -6488,7 +6488,7 @@
 20	réconfortées	réconforter	VERB	DoubleAux	_	14	xcomp	_	_
 21	hein	hein	INTJ	_	_	20	discourse	_	_
 22	mais	mais	CCONJ	_	_	27	cc	_	_
-23	euh	euh	INTJ	_	_	22	discourse	_	_
+23	euh	euh	INTJ	_	_	24	discourse	_	_
 24	plutôt	plutôt	ADV	_	_	27	advmod	_	_
 25	euh	euh	INTJ	_	_	24	discourse	_	_
 26	euh	euh	INTJ	_	_	24	discourse	_	_
@@ -6531,12 +6531,12 @@
 # macrosyntax = si ça se passe { comme ça | ^c'^est-^à-^dire de façon "euh" inquiétante } < on le sait quand //=
 # sent_id = Rhap_D2008-119
 # text = si ça se passe comme ça c'est-à-dire de façon euh inquiétante on le sait quand
-1	si	si	SCONJ	_	_	3	mark	_	_
-2	ça	ça	PRON	_	_	3	nsubj	_	_
-3	se	se	PRON	_	_	14	advcl	_	EXTPOS=VERB
-4	passe	passer	VERB	ETRE	_	3	fixed	_	_
+1	si	si	SCONJ	_	_	4	mark	_	_
+2	ça	ça	PRON	_	_	4	nsubj	_	_
+3	se	se	PRON	_	_	4	dep	_	INMWE=Yes
+4	passe	passer	VERB	ETRE	_	14	advcl	_	EXTPOS=VERB
 5	comme	comme	ADP	_	_	6	case	_	_
-6	ça	ça	PRON	_	_	3	obl:mod	_	_
+6	ça	ça	PRON	_	_	4	obl:mod	_	_
 7	c'est-à-dire	c'	CCONJ	_	_	9	cc	_	_
 8	de	de	ADP	_	_	9	case	_	_
 9	façon	façon	NOUN	_	_	6	appos	_	_
@@ -6727,7 +6727,7 @@
 15	qu'	que	SCONJ	_	_	17	mark	_	_
 16	il	il	PRON	_	_	17	nsubj	_	_
 17	va	aller	VERB	ETRE	_	12	advcl	_	EXTPOS=VERB
-18	se	se	PRON	_	_	17	fixed	_	_
+18	se	se	PRON	_	_	17	dep	_	INMWE=Yes
 19	passer	passer	VERB	ETRE	_	17	xcomp	_	_
 20	à	à	ADP	_	_	22	case	_	_
 21	l'	le	DET	_	_	22	det	_	_
@@ -6795,8 +6795,8 @@
 14	est	être	AUX	_	_	20	cop	_	_
 15	quand	quand	PRON	_	_	20	obl:mod	_	_
 16	même	même	ADV	_	_	15	fixed	_	_
-17	un	un	DET	_	_	19	obl:mod	_	EXTPOS=ADV
-18	peu	peu	NOUN	_	_	17	fixed	_	_
+17	un	un	DET	_	_	18	det	_	INMWE=Yes
+18	peu	peu	NOUN	_	_	19	obl:mod	_	EXTPOS=ADV
 19	plus	plus	ADV	_	_	20	advmod	_	_
 20	contagieuse	contagieux	ADJ	_	_	3	ccomp	_	_
 21	que	que	SCONJ	_	_	25	mark	_	_
@@ -7453,13 +7453,13 @@
 19	de	de	ADP	_	_	20	case	_	_
 20	vous	lui	PRON	_	_	18	obl:mod	_	_
 21	son	son	DET	_	_	22	det	_	_
-22	message	message	NOUN	conj:reform	_	23	nsubj	_	_
-23	s'	se	PRON	_	_	0	root	_	EXTPOS=VERB
-24	inscrit	inscrire	VERB	_	_	23	fixed	_	_
-25	aujourd'hui	aujourd'	ADV	_	_	23	advmod	_	_
+22	message	message	NOUN	conj:reform	_	24	nsubj	_	_
+23	s'	se	PRON	_	_	24	dep	_	INMWE=Yes
+24	inscrit	inscrire	VERB	_	_	0	root	_	EXTPOS=VERB
+25	aujourd'hui	aujourd'	ADV	_	_	24	advmod	_	_
 26	dans	dans	ADP	_	_	28	case	_	_
 27	sa	son	DET	_	_	28	det	_	_
-28	personne	personne	NOUN	_	_	23	obl:mod	_	_
+28	personne	personne	NOUN	_	_	24	obl:mod	_	_
 
 # macrosyntax = il trouve sa traduction en action dans ses gestes de libération //
 # sent_id = Rhap_M2003-17
@@ -7480,17 +7480,17 @@
 # sent_id = Rhap_M2003-18
 # text = plus encore dans l' évangile d' aujourd'hui Jésus s' accorde le pouvoir de guérir et de chasser les esprits mauvais
 1	plus	plus	ADV	_	_	2	advmod	_	_
-2	encore	encore	ADV	_	_	9	advmod	_	_
+2	encore	encore	ADV	_	_	10	advmod	_	_
 3	dans	dans	ADP	_	_	5	case	_	_
 4	l'	le	DET	_	_	5	det	_	_
-5	évangile	évangile	NOUN	_	_	9	obl:mod	_	_
+5	évangile	évangile	NOUN	_	_	10	obl:mod	_	_
 6	d'	de	ADP	_	_	7	case	_	_
 7	aujourd'hui	aujourd'	ADV	_	_	5	advmod	_	_
-8	Jésus	Jésus	PROPN	_	_	9	nsubj	_	_
-9	s'	se	PRON	_	_	0	root	_	EXTPOS=VERB
-10	accorde	accorder	VERB	_	_	9	fixed	_	_
+8	Jésus	Jésus	PROPN	_	_	10	nsubj	_	_
+9	s'	se	PRON	_	_	10	dep	_	INMWE=Yes
+10	accorde	accorder	VERB	_	_	0	root	_	EXTPOS=VERB
 11	le	le	DET	_	_	12	det	_	_
-12	pouvoir	pouvoir	NOUN	_	_	9	obj	_	_
+12	pouvoir	pouvoir	NOUN	_	_	10	obj	_	_
 13	de	de	ADP	_	_	14	mark	_	_
 14	guérir	guérir	VERB	_	_	12	acl	_	_
 15	et	et	CCONJ	_	_	17	cc	_	_
@@ -7778,10 +7778,10 @@
 3	esclave	esclave	NOUN	_	_	27	obl:mod	_	_
 4	qui	qui	PRON	_	_	5	nsubj	_	_
 5	désire	désirer	VERB	_	_	3	acl:relcl	_	_
-6	un	un	DET	_	_	5	obj	_	EXTPOS=ADV
-7	peu	peu	NOUN	_	_	6	fixed	_	_
+6	un	un	DET	_	_	7	det	_	INMWE=Yes
+7	peu	peu	NOUN	_	_	5	obj	_	EXTPOS=ADV
 8	d'	de	ADP	_	_	9	case	_	_
-9	ombre	ombre	NOUN	_	_	6	nmod	_	_
+9	ombre	ombre	NOUN	_	_	7	nmod	_	_
 10	comme	comme	ADP	_	_	12	case	_	_
 11	le	le	DET	_	_	12	det	_	_
 12	manoeuvre	manoeuvre	NOUN	_	_	3	conj	_	_
@@ -7832,20 +7832,20 @@
 # macrosyntax = ^et { beaucoup ( il faut l'avouer // ) | beaucoup } s'éloignent de la foi { à cause de ce mal | à cause de cette souffrance sans répit } //
 # sent_id = Rhap_M2003-38
 # text = et beaucoup il faut l' avouer beaucoup s' éloignent de la foi à cause de ce mal à cause de cette souffrance sans répit
-1	et	et	CCONJ	_	_	8	cc	_	_
+1	et	et	CCONJ	_	_	9	cc	_	_
 2	beaucoup	beaucoup	PRON	_	_	7	reparandum	_	_
 3	il	il	PRON	_	_	4	nsubj	_	_
 4	faut	falloir	VERB	_	_	2	parataxis:parenth	_	_
 5	l'	le	PRON	_	_	6	obj	_	_
 6	avouer	avouer	VERB	_	_	4	xcomp	_	_
-7	beaucoup	beaucoup	PRON	_	_	8	nsubj	_	_
-8	s'	se	PRON	_	_	0	root	_	EXTPOS=VERB
-9	éloignent	éloigner	VERB	_	_	8	fixed	_	_
+7	beaucoup	beaucoup	PRON	_	_	9	nsubj	_	_
+8	s'	se	PRON	_	_	9	dep	_	INMWE=Yes
+9	éloignent	éloigner	VERB	_	_	0	root	_	EXTPOS=VERB
 10	de	de	ADP	_	_	12	case	_	_
 11	la	le	DET	_	_	12	det	_	_
-12	foi	foi	NOUN	_	_	8	obl:arg	_	_
+12	foi	foi	NOUN	_	_	9	obl:arg	_	_
 13	à	à	ADP	_	_	14	case	_	_
-14	cause	cause	NOUN	_	_	8	obl:mod	_	_
+14	cause	cause	NOUN	_	_	9	obl:mod	_	_
 15	de	de	ADP	_	_	17	case	_	_
 16	ce	ce	DET	_	_	17	det	_	_
 17	mal	mal	NOUN	_	_	14	nmod	_	_
@@ -9295,8 +9295,8 @@
 5	eu	avoir	VERB	_	_	1	ccomp	_	_
 6	un	un	DET	_	_	7	det	_	_
 7	destin	destin	NOUN	_	_	5	obj	_	_
-8	un	un	DET	_	_	10	obl:mod	_	EXTPOS=ADV
-9	peu	peu	NOUN	_	_	8	fixed	_	_
+8	un	un	DET	_	_	9	det	_	INMWE=Yes
+9	peu	peu	NOUN	_	_	10	obl:mod	_	EXTPOS=ADV
 10	différent	différent	ADJ	_	_	7	amod	_	_
 11	euh	euh	INTJ	_	_	10	discourse	_	_
 12	parce	parce	SCONJ	_	_	24	mark	_	_
@@ -9501,18 +9501,18 @@
 6	de	de	ADP	_	_	8	case	_	_
 7	le	le	DET	_	_	8	det	_	_
 8	journalisme	journalisme	NOUN	_	_	5	obl:arg	_	_
-9	parce	parce	SCONJ	_	_	13	mark	_	_
+9	parce	parce	SCONJ	_	_	14	mark	_	_
 10	que	que	SCONJ	_	_	9	fixed	_	_
-11	euh	euh	INTJ	_	_	13	discourse	_	_
-12	ça	ça	PRON	_	_	13	nsubj	_	_
-13	se	se	PRON	_	_	2	appos	_	EXTPOS=VERB
-14	passait	passer	VERB	ETRE	_	13	fixed	_	_
+11	euh	euh	INTJ	_	_	14	discourse	_	_
+12	ça	ça	PRON	_	_	14	nsubj	_	_
+13	se	se	PRON	_	_	14	dep	_	INMWE=Yes
+14	passait	passer	VERB	ETRE	_	2	appos	_	EXTPOS=VERB
 15	tout	tout	ADV	_	_	17	advmod	_	_
 16	de	de	ADP	_	_	17	case	_	_
 17	suite	suite	NOUN	_	_	20	nmod	_	_
 18	après	après	ADP	_	_	20	case	_	_
 19	la	le	DET	_	_	20	det	_	_
-20	guerre	guerre	NOUN	_	_	13	obl:mod	_	_
+20	guerre	guerre	NOUN	_	_	14	obl:mod	_	_
 
 # macrosyntax = ^et "euh" je n'avais aucune raison d'aller faire ce métier //
 # sent_id = Rhap_D2001-57
@@ -9577,28 +9577,28 @@
 # macrosyntax = il se trouve qu'il y a eu la guerre //
 # sent_id = Rhap_D2001-61
 # text = il se trouve qu' il y a eu la guerre
-1	il	il	PRON	_	_	2	nsubj	_	_
-2	se	se	PRON	_	_	0	root	_	EXTPOS=VERB
-3	trouve	trouver	VERB	_	_	2	fixed	_	_
+1	il	il	PRON	_	_	3	nsubj	_	_
+2	se	se	PRON	_	_	3	dep	_	INMWE=Yes
+3	trouve	trouver	VERB	_	_	0	root	_	EXTPOS=VERB
 4	qu'	que	SCONJ	_	_	8	mark	_	_
 5	il	il	PRON	_	_	8	expl:subj	_	_
 6	y	y	PRON	_	_	8	iobj	_	_
 7	a	avoir	AUX	_	_	8	aux	_	_
-8	eu	avoir	VERB	_	_	2	ccomp	_	_
+8	eu	avoir	VERB	_	_	3	ccomp	_	_
 9	la	le	DET	_	_	10	det	_	_
 10	guerre	guerre	NOUN	_	_	8	obj	_	_
 
 # macrosyntax = il se trouve { que tout a été bouleversé | qu'il n'y avait plus un journaliste à Paris ( ^puisque ( XXX ) ils avaient tous plus ^ou moins collaboré // ) | ^et que [ au moment de faire un journal <+ on m'a proposé d'y entrer { comme directrice ( ce qui est incroyable // ) | comme directrice de la rédaction } ] } //
 # sent_id = Rhap_D2001-62
 # text = il se trouve que tout a été bouleversé qu' il n' y avait plus un journaliste à Paris puisque ils avaient tous plus ou moins collaboré et que à le moment de faire un journal on m' a proposé d' y entrer comme directrice ce qui est incroyable comme directrice de la rédaction
-1	il	il	PRON	_	_	2	nsubj	_	_
-2	se	se	PRON	_	_	0	root	_	EXTPOS=VERB
-3	trouve	trouver	VERB	_	_	2	fixed	_	_
+1	il	il	PRON	_	_	3	nsubj	_	_
+2	se	se	PRON	_	_	3	dep	_	INMWE=Yes
+3	trouve	trouver	VERB	_	_	0	root	_	EXTPOS=VERB
 4	que	que	SCONJ	_	_	8	mark	_	_
 5	tout	tout	PRON	_	_	8	nsubj:pass	_	_
 6	a	avoir	AUX	_	_	8	aux	_	_
 7	été	être	AUX	DoubleAux	_	8	aux:pass	_	_
-8	bouleversé	bouleverser	VERB	DoubleAux	_	2	ccomp	_	_
+8	bouleversé	bouleverser	VERB	DoubleAux	_	3	ccomp	_	_
 9	qu'	que	SCONJ	_	_	13	mark	_	_
 10	il	il	PRON	_	_	13	expl:subj	_	_
 11	n'	ne	ADV	_	_	13	advmod	_	_
@@ -9664,8 +9664,8 @@
 2	quand	quand	ADV	_	_	1	advmod	_	_
 3	même	même	ADV	_	_	2	fixed	_	_
 4	revenir	revenir	VERB	_	_	1	xcomp	_	_
-5	un	un	DET	_	_	9	nmod	_	EXTPOS=ADV
-6	peu	peu	NOUN	_	_	5	fixed	_	_
+5	un	un	DET	_	_	6	det	_	INMWE=Yes
+6	peu	peu	NOUN	_	_	9	nmod	_	EXTPOS=ADV
 7-8	au	_	_	_	_	_	_	_	_
 7	à	à	ADP	_	_	9	case	_	_
 8	le	le	DET	_	_	9	det	_	_
@@ -9769,10 +9769,10 @@
 4	que	que	PRON	_	_	3	acl:relcl	_	_
 5	c'	ce	PRON	_	_	4	expl:subj	_	_
 6	est	être	AUX	_	_	4	cop	_	_
-7	que	que	SCONJ	_	_	4	mark	_	_
+7	que	que	SCONJ	_	_	10	mark	_	_
 8	d'	de	ADP	_	_	10	mark	_	_
 9	être	être	AUX	_	_	10	cop	_	_
-10	pauvre	pauvre	ADJ	_	_	7	ccomp	_	_
+10	pauvre	pauvre	ADJ	_	_	4	ccomp	_	_
 
 # macrosyntax = je sais surtout ( ce qui me paraît plus utile // ) "euh" ce que c'est que de travailler dans des emplois subalternes avec le sentiment qu'on n'en sortira jamais //
 # sent_id = Rhap_D2001-73
@@ -9876,13 +9876,13 @@
 4	horrible	horrible	ADJ	_	_	1	dep	_	_
 5	c'	ce	PRON	_	_	6	nsubj	_	_
 6	est	être	AUX	_	_	0	root	_	_
-7	de	de	ADP	_	_	8	mark	_	_
-8	se	se	PRON	_	_	6	dep	_	EXTPOS=VERB
-9	dire	dire	VERB	_	_	8	fixed	_	_
+7	de	de	ADP	_	_	9	mark	_	_
+8	se	se	PRON	_	_	9	dep	_	INMWE=Yes
+9	dire	dire	VERB	_	_	6	dep	_	EXTPOS=VERB
 10	je	je	PRON	_	_	13	nsubj	_	_
 11	n'	ne	ADV	_	_	13	advmod	_	_
 12	en	en	PRON	_	_	13	obj	_	_
-13	sortirai	sortir	VERB	ETRE	_	8	parataxis	_	_
+13	sortirai	sortir	VERB	ETRE	_	9	parataxis	_	_
 14	jamais	jamais	ADV	_	_	13	advmod	_	_
 
 # macrosyntax = $L1 ^mais est-ce que vous aviez prévu tout cela //
@@ -10221,9 +10221,9 @@
 10	de	de	ADP	_	_	12	case	_	_
 11	le	le	DET	_	_	12	det	_	_
 12	libraire	libraire	NOUN	_	_	9	nmod	_	_
-13	et	et	CCONJ	_	_	16	cc	_	_
-14	une	un	DET	_	_	15	reparandum	_	_
-15	et	et	CCONJ	_	_	16	det	_	_
+13	et	et	CCONJ	_	_	15	reparandum	_	_
+14	une	un	DET	_	_	16	det	_	_
+15	et	et	CCONJ	_	_	16	cc	_	_
 16	vendeuse	vendeur	NOUN	_	_	9	conj	_	_
 
 # macrosyntax = ^et ^puis il ne savait pas du tout l'âge que j'avais //
@@ -10305,19 +10305,19 @@
 # macrosyntax = ^mais il ne se doutait quand même pas que je n'en avais pas quinze //
 # sent_id = Rhap_D2001-105
 # text = mais il ne se doutait quand même pas que je n' en avais pas quinze
-1	mais	mais	CCONJ	_	_	4	cc	_	_
-2	il	il	PRON	_	_	4	nsubj	_	_
-3	ne	ne	ADV	_	_	4	advmod	_	_
-4	se	se	PRON	_	_	0	root	_	EXTPOS=VERB
-5	doutait	douter	VERB	_	_	4	fixed	_	_
-6	quand	quand	SCONJ	_	_	4	dep	_	_
+1	mais	mais	CCONJ	_	_	5	cc	_	_
+2	il	il	PRON	_	_	5	nsubj	_	_
+3	ne	ne	ADV	_	_	5	advmod	_	_
+4	se	se	PRON	_	_	5	dep	_	INMWE=Yes
+5	doutait	douter	VERB	_	_	0	root	_	EXTPOS=VERB
+6	quand	quand	SCONJ	_	_	5	dep	_	_
 7	même	même	ADV	_	_	6	fixed	_	_
-8	pas	pas	ADV	_	_	4	advmod	_	_
+8	pas	pas	ADV	_	_	5	advmod	_	_
 9	que	que	SCONJ	_	_	13	mark	_	_
 10	je	je	PRON	_	_	13	nsubj	_	_
 11	n'	ne	ADV	_	_	13	advmod	_	_
 12	en	en	PRON	_	_	15	det	_	_
-13	avais	avoir	VERB	_	_	4	ccomp	_	_
+13	avais	avoir	VERB	_	_	5	ccomp	_	_
 14	pas	pas	ADV	_	_	13	advmod	_	_
 15	quinze	quinze	NUM	_	_	13	obj	_	_
 
@@ -10468,10 +10468,10 @@
 2	enfin	enfin	ADV	_	_	4	advmod	_	_
 3	je	je	PRON	_	_	4	nsubj	_	_
 4	gagnais	gagner	VERB	_	_	0	root	_	_
-5	un	un	DET	_	_	4	obl:mod	_	EXTPOS=ADV
-6	peu	peu	NOUN	_	_	5	fixed	_	_
+5	un	un	DET	_	_	6	det	_	INMWE=Yes
+6	peu	peu	NOUN	_	_	4	obl:mod	_	EXTPOS=ADV
 7	d'	de	ADP	_	_	8	case	_	_
-8	argent	argent	NOUN	_	_	5	nmod	_	_
+8	argent	argent	NOUN	_	_	6	nmod	_	_
 
 # macrosyntax = ^et il m'a dit [ "écoute" tout ça n'est pas sérieux // il faut que tu deviennes script girl > par exemple // viens travailler avec moi // ] //
 # sent_id = Rhap_D2001-117
@@ -10970,8 +10970,8 @@
 7	origine	origine	NOUN	_	_	9	reparandum	_	_
 8	bourgeoise	bourgeois	ADJ	_	_	7	amod	_	_
 9	élevés	élever	VERB	conj:reform	_	2	ccomp	_	_
-10	un	un	DET	_	_	15	nmod	_	EXTPOS=ADV
-11	peu	peu	NOUN	_	_	10	fixed	_	_
+10	un	un	DET	_	_	11	det	_	INMWE=Yes
+11	peu	peu	NOUN	_	_	15	nmod	_	EXTPOS=ADV
 12	de	de	ADP	_	_	15	case	_	_
 13	la	le	DET	_	_	15	det	_	_
 14	même	même	ADJ	_	_	15	amod	_	_
@@ -10982,8 +10982,8 @@
 19	d'	de	ADP	_	_	21	case	_	_
 20	une	un	DET	_	_	21	det	_	_
 21	façon	façon	NOUN	_	_	15	appos	_	_
-22	un	un	DET	_	_	24	obl:mod	_	EXTPOS=ADV
-23	peu	peu	NOUN	_	_	22	fixed	_	_
+22	un	un	DET	_	_	23	det	_	INMWE=Yes
+23	peu	peu	NOUN	_	_	24	obl:mod	_	EXTPOS=ADV
 24	britannique	britannique	ADJ	_	_	21	amod	_	_
 25	dans	dans	ADP	_	_	27	case	_	_
 26	le	le	DET	_	_	27	det	_	_
@@ -11005,11 +11005,11 @@
 # macrosyntax = "euh" on se tient toujours //
 # sent_id = Rhap_D2001-148
 # text = euh on se tient toujours
-1	euh	euh	INTJ	_	_	3	discourse	_	_
-2	on	on	PRON	_	_	3	nsubj	_	_
-3	se	se	PRON	_	_	0	root	_	EXTPOS=VERB
-4	tient	tenir	VERB	_	_	3	fixed	_	_
-5	toujours	toujours	ADV	_	_	3	advmod	_	_
+1	euh	euh	INTJ	_	_	4	discourse	_	_
+2	on	on	PRON	_	_	4	nsubj	_	_
+3	se	se	PRON	_	_	4	dep	_	INMWE=Yes
+4	tient	tenir	VERB	_	_	0	root	_	EXTPOS=VERB
+5	toujours	toujours	ADV	_	_	4	advmod	_	_
 
 # macrosyntax = "euh" vous voyez ce que je veux dire //
 # sent_id = Rhap_D2001-149
@@ -11521,14 +11521,14 @@
 14	une	un	DET	_	_	15	det	_	_
 15	Europe	Europe	PROPN	_	_	7	appos	_	_
 16	résolue	résoudre	ADJ	_	_	15	amod	_	_
-17	à	à	ADP	_	_	18	mark	_	_
-18	se	se	PRON	_	_	16	advcl	_	EXTPOS=VERB
-19	remettre	remettre	VERB	_	_	18	fixed	_	_
+17	à	à	ADP	_	_	19	mark	_	_
+18	se	se	PRON	_	_	19	dep	_	INMWE=Yes
+19	remettre	remettre	VERB	_	_	16	advcl	_	EXTPOS=VERB
 20	en	en	ADP	_	_	21	case	_	_
-21	mouvement	mouvement	NOUN	_	_	18	obl:mod	_	_
+21	mouvement	mouvement	NOUN	_	_	19	obl:mod	_	_
 22	après	après	ADP	_	_	24	case	_	_
 23	deux	deux	NUM	_	_	24	nummod	_	_
-24	années	année	NOUN	_	_	18	obl:mod	_	_
+24	années	année	NOUN	_	_	19	obl:mod	_	_
 25	d'	de	ADP	_	_	26	case	_	_
 26	immobilisme	immobilisme	NOUN	_	_	24	nmod	_	_
 27	une	un	DET	_	_	28	det	_	_
@@ -11696,14 +11696,14 @@
 14	sur	sur	ADP	_	_	16	case	_	_
 15	le	le	DET	_	_	16	det	_	_
 16	terrain	terrain	NOUN	_	_	0	root	_	_
-17	que	que	SCONJ	_	_	18	mark	_	_
-18	se	se	PRON	_	_	16	advcl:cleft	_	EXTPOS=VERB
-19	gagne	gagner	VERB	_	_	18	fixed	_	_
-20	ou	ou	CCONJ	_	_	21	cc	_	_
-21	se	se	PRON	_	_	18	conj	_	EXTPOS=VERB
-22	perd	perdre	VERB	_	_	21	fixed	_	_
+17	que	que	SCONJ	_	_	19	mark	_	_
+18	se	se	PRON	_	_	19	dep	_	INMWE=Yes
+19	gagne	gagner	VERB	_	_	16	advcl:cleft	_	EXTPOS=VERB
+20	ou	ou	CCONJ	_	_	22	cc	_	_
+21	se	se	PRON	_	_	22	dep	_	INMWE=Yes
+22	perd	perdre	VERB	_	_	19	conj	_	EXTPOS=VERB
 23	le	le	DET	_	_	24	det	_	_
-24	combat	combat	NOUN	_	_	21	nsubj	_	_
+24	combat	combat	NOUN	_	_	22	nsubj	_	_
 
 # macrosyntax = c' est sur le terrain { qu' une nation affirme son influence | qu' elle pèse dans une coalition au travers des forces qu' elle est capable d' engager } //
 # sent_id = Rhap_M2001-19
@@ -12028,12 +12028,12 @@
 6	traditions	tradition	NOUN	_	_	3	obl:arg	_	_
 7	de	de	ADP	_	_	8	case	_	_
 8	famille	famille	NOUN	_	_	6	nmod	_	_
-9	qui	qui	PRON	_	_	10	nsubj	_	_
-10	se	se	PRON	_	_	6	acl:relcl	_	EXTPOS=VERB
-11	transmettent	transmettre	VERB	_	_	10	fixed	_	_
+9	qui	qui	PRON	_	_	11	nsubj	_	_
+10	se	se	PRON	_	_	11	dep	_	INMWE=Yes
+11	transmettent	transmettre	VERB	_	_	6	acl:relcl	_	EXTPOS=VERB
 12	dans	dans	ADP	_	_	14	case	_	_
 13	le	le	DET	_	_	14	det	_	_
-14	domaine	domaine	NOUN	_	_	10	obl:mod	_	_
+14	domaine	domaine	NOUN	_	_	11	obl:mod	_	_
 15	religieux	religieux	ADJ	_	_	14	amod	_	_
 16	comme	comme	ADP	_	_	20	case	_	_
 17	dans	dans	ADP	_	_	20	case	_	_
@@ -12702,14 +12702,14 @@
 # macrosyntax = $L1 lorsqu' il s'agit d'une grande ville comme Orléans <+ le prêtre est bien plus en contact avec ceux qui viennent le voir // ^parce ^qu'il ne peut pas être en contact avec tout le monde //
 # sent_id = Rhap_D1001-40
 # text = lorsqu' il s' agit d' une grande ville comme Orléans le prêtre est bien plus en contact avec ceux qui viennent le voir parce qu' il ne peut pas être en contact avec tout le monde
-1	lorsqu'	lorsque	SCONJ	_	_	3	mark	_	_
-2	il	il	PRON	_	_	3	nsubj	_	_
-3	s'	se	PRON	_	_	13	advcl	_	EXTPOS=VERB
-4	agit	agir	VERB	_	_	3	fixed	_	_
+1	lorsqu'	lorsque	SCONJ	_	_	4	mark	_	_
+2	il	il	PRON	_	_	4	nsubj	_	_
+3	s'	se	PRON	_	_	4	dep	_	INMWE=Yes
+4	agit	agir	VERB	_	_	13	advcl	_	EXTPOS=VERB
 5	d'	de	ADP	_	_	8	case	_	_
 6	une	un	DET	_	_	8	det	_	_
 7	grande	grand	ADJ	_	_	8	amod	_	_
-8	ville	ville	NOUN	_	_	3	obl:arg	_	_
+8	ville	ville	NOUN	_	_	4	obl:arg	_	_
 9	comme	comme	ADP	_	_	10	case	_	_
 10	Orléans	Orléans	PROPN	_	_	8	nmod	_	_
 11	le	le	DET	_	_	12	det	_	_
