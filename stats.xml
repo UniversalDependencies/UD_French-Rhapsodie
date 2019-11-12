@@ -5,90 +5,83 @@
        fused is the number of tokens that are split to two or more syntactic words
        The words and fused elements can be omitted if no token is split to smaller syntactic words. -->
   <size>
-    <total><sentences>2786</sentences><tokens>34972</tokens><words>34972</words><fused>0</fused></total>
-    <train><sentences>1153</sentences><tokens>14952</tokens><words>14952</words><fused>0</fused></train>
-    <dev><sentences>907</sentences><tokens>10010</tokens><words>10010</words><fused>0</fused></dev>
-    <test><sentences>726</sentences><tokens>10010</tokens><words>10010</words><fused>0</fused></test>
+    <total><sentences>2789</sentences><tokens>34840</tokens><words>35373</words><fused>533</fused></total>
+    <train><sentences>1156</sentences><tokens>15013</tokens><words>15264</words><fused>251</fused></train>
+    <dev><sentences>907</sentences><tokens>9932</tokens><words>10080</words><fused>148</fused></dev>
+    <test><sentences>726</sentences><tokens>9895</tokens><words>10029</words><fused>134</fused></test>
   </size>
-  <lemmas unique="3408" /><!-- le, de, être, euh, ce, avoir, un, je, et, que, il, à, de+le, qui, vous -->
-  <forms unique="4560" /><!-- de, euh, est, la, et, le, à, c', que, je, il, l', un, les, qui -->
-  <fusions unique="0" /><!--  -->
+  <lemmas unique="3406" /><!-- le, de, être, euh, ce, un, avoir, à, je, et, que, il, qui, en, vous -->
+  <forms unique="4568" /><!-- de, le, euh, est, à, la, et, les, c', je, que, il, l', un, qui -->
+  <fusions unique="5" /><!-- du, au, des, aux, auquel -->
   <!-- Statistics of universal POS tags. The comments show the most frequent lemmas. -->
-  <tags unique="16">
-    <tag name="ADJ">1661</tag><!-- tout, petit, grand, autre, bon, jeune, fait, droit, premier, vrai -->
-    <tag name="ADP">4448</tag><!-- de, à, de+le, en, dans, pour, à+le, avec, par, sur -->
-    <tag name="ADV">2273</tag><!-- donc, là, très, alors, plus, tout, bien, enfin, même, toujours -->
-    <tag name="AUX">2031</tag><!-- être, avoir, pouvoir, vouloir, devoir, faire, aller -->
-    <tag name="CCONJ">1114</tag><!-- et, mais, ou, car, ni, puis, soit, sauf, c'est-à-dire, c'est~ -->
-    <tag name="DET">3642</tag><!-- le, un, son, ce, quelque, l', chaque, certain, plusieurs, aucun -->
-    <tag name="INTJ">1899</tag><!-- euh, mh, oui, non, hein, ben, ah, ouais, bon, eh -->
-    <tag name="NOUN">5299</tag><!-- peu, an, moment, chose, place, gens, art, côté, point, temps -->
-    <tag name="NUM">345</tag><!-- deux, mille, cent, neuf, dix-huit, trois, trente, quatre, cinquante, douze -->
-    <tag name="PART">698</tag><!-- pas, ne, plus, jamais, que, n~, non, t, même -->
-    <tag name="PRON">5585</tag><!-- je, ce, il, qui, vous, on, ça, y, se, le -->
-    <tag name="PROPN">1056</tag><!-- France, Paris, Jean, Chavant, Nef, Français, Gutiérrez, Messi, Rodriguez, Jésus -->
-    <tag name="PUNCT">168</tag><!-- - -->
-    <tag name="SCONJ">839</tag><!-- que, parce, si, quand, comme, puisque, lorsque, pa~, qu', quoique -->
-    <tag name="VERB">3827</tag><!-- avoir, aller, dire, faire, voir, savoir, falloir, passer, arriver, prendre -->
-    <tag name="X">87</tag><!-- c~, s~, l~, a~, f~, m~, de~, d~, p~, t~ -->
+  <tags unique="15">
+    <tag name="ADJ">1567</tag><!-- tout, petit, grand, bon, jeune, vrai, droit, premier, même, sûr -->
+    <tag name="ADP">4241</tag><!-- de, à, en, dans, pour, avec, par, sur, comme, jusque -->
+    <tag name="ADV">3089</tag><!-- pas, ne, donc, là, plus, très, alors, non, tout, bien -->
+    <tag name="AUX">1678</tag><!-- être, avoir, faire -->
+    <tag name="CCONJ">1142</tag><!-- et, mais, ou, c', car, ni, puis, soit, sauf, c'est-à-dire -->
+    <tag name="DET">4454</tag><!-- le, un, son, ce, quelque, du, de+le, de, l', chaque -->
+    <tag name="INTJ">1821</tag><!-- euh, mh, oui, hein, ben, ah, ouais, bon, eh, bien -->
+    <tag name="NOUN">5267</tag><!-- peu, fait, an, moment, chose, place, gens, art, côté, heure -->
+    <tag name="NUM">360</tag><!-- deux, mille, cent, neuf, dix-huit, trois, trente, vingt, quatre, quinze -->
+    <tag name="PRON">5573</tag><!-- je, ce, il, qui, vous, on, ça, y, se, le -->
+    <tag name="PROPN">1026</tag><!-- France, Paris, Chavant, Nef, Français, Gutiérrez, Jean, Messi, Rodriguez, Jésus -->
+    <tag name="PUNCT">41</tag><!-- - -->
+    <tag name="SCONJ">870</tag><!-- que, si, parce, quand, comme, puisque, lorsque, faire, pa~, qu' -->
+    <tag name="VERB">4160</tag><!-- avoir, aller, dire, être, faire, voir, pouvoir, vouloir, savoir, falloir -->
+    <tag name="X">84</tag><!-- c~, s~, l~, a~, f~, m~, d~, p~, t~, é~ -->
   </tags>
   <!-- Statistics of features and values. The comments show the most frequent word forms. -->
   <feats unique="0">
   </feats>
   <!-- Statistics of universal dependency relations. -->
-  <deps unique="53">
-    <dep name="acl">167</dep>
-    <dep name="acl:relcl">445</dep>
-    <dep name="advcl">243</dep>
-    <dep name="advcl:cleft">72</dep>
-    <dep name="advcl:periph">195</dep>
-    <dep name="advmod">1890</dep>
-    <dep name="advmod:periph">439</dep>
-    <dep name="amod">1052</dep>
-    <dep name="appos:conj">169</dep>
-    <dep name="appos:nmod">101</dep>
-    <dep name="aux">671</dep>
-    <dep name="aux:caus">19</dep>
-    <dep name="aux:pass">168</dep>
-    <dep name="case">3714</dep>
-    <dep name="cc">1066</dep>
-    <dep name="ccomp">247</dep>
-    <dep name="compound">96</dep>
-    <dep name="conj:coord">751</dep>
-    <dep name="conj:dicto">1217</dep>
-    <dep name="cop">924</dep>
-    <dep name="csubj">13</dep>
-    <dep name="csubj:pass">1</dep>
-    <dep name="dep">482</dep>
-    <dep name="dep:iobj">79</dep>
-    <dep name="dep:obj">101</dep>
-    <dep name="det">3452</dep>
-    <dep name="discourse">2033</dep>
-    <dep name="dislocated">316</dep>
-    <dep name="expl">2</dep>
-    <dep name="fixed">665</dep>
-    <dep name="flat">180</dep>
-    <dep name="iobj">366</dep>
-    <dep name="mark">1038</dep>
-    <dep name="nmod">1290</dep>
-    <dep name="nsubj">3568</dep>
-    <dep name="nsubj:caus">18</dep>
-    <dep name="nsubj:expl">229</dep>
-    <dep name="nsubj:pass">160</dep>
-    <dep name="nummod">303</dep>
-    <dep name="obj">1654</dep>
-    <dep name="obl">4</dep>
-    <dep name="obl:comp">668</dep>
-    <dep name="obl:mod">874</dep>
-    <dep name="obl:periph">266</dep>
-    <dep name="orphan">7</dep>
-    <dep name="parataxis:discourse">131</dep>
+  <deps unique="47">
+    <dep name="acl">109</dep>
+    <dep name="acl:relcl">463</dep>
+    <dep name="advcl">364</dep>
+    <dep name="advcl:cleft">75</dep>
+    <dep name="advmod">2307</dep>
+    <dep name="amod">1005</dep>
+    <dep name="appos">157</dep>
+    <dep name="aux">507</dep>
+    <dep name="aux:caus">27</dep>
+    <dep name="aux:pass">134</dep>
+    <dep name="case">3539</dep>
+    <dep name="cc">1107</dep>
+    <dep name="ccomp">317</dep>
+    <dep name="compound">65</dep>
+    <dep name="conj">765</dep>
+    <dep name="cop">810</dep>
+    <dep name="csubj">5</dep>
+    <dep name="dep">533</dep>
+    <dep name="det">4183</dep>
+    <dep name="discourse">2154</dep>
+    <dep name="dislocated">291</dep>
+    <dep name="expl:subj">354</dep>
+    <dep name="fixed">410</dep>
+    <dep name="flat">275</dep>
+    <dep name="iobj">395</dep>
+    <dep name="mark">1103</dep>
+    <dep name="nmod">1411</dep>
+    <dep name="nmod:appos">114</dep>
+    <dep name="nsubj">3514</dep>
+    <dep name="nsubj:caus">14</dep>
+    <dep name="nsubj:pass">125</dep>
+    <dep name="nummod">157</dep>
+    <dep name="obj">1683</dep>
+    <dep name="obj:agent">19</dep>
+    <dep name="obj:lvc">25</dep>
+    <dep name="obl:agent">2</dep>
+    <dep name="obl:arg">841</dep>
+    <dep name="obl:mod">1247</dep>
+    <dep name="orphan">4</dep>
+    <dep name="parataxis">43</dep>
     <dep name="parataxis:insert">14</dep>
-    <dep name="parataxis:obj">41</dep>
-    <dep name="parataxis:parenth">41</dep>
-    <dep name="punct">168</dep>
-    <dep name="root">2786</dep>
-    <dep name="vocative">5</dep>
-    <dep name="xcomp">371</dep>
+    <dep name="parataxis:parenth">62</dep>
+    <dep name="punct">41</dep>
+    <dep name="reparandum">1204</dep>
+    <dep name="root">2789</dep>
+    <dep name="vocative">35</dep>
+    <dep name="xcomp">575</dep>
   </deps>
 </treebank>
