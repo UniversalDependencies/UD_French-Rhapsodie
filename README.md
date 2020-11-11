@@ -12,14 +12,16 @@ Xpos and features (which are not available in v2.2 of UD_French-Spoken) will be 
 
 # Structure
 
-+ fr_spoken-ud-train.conllu 1153 sentences  14952 tokens
-+ fr_spoken-ud-dev.conllu 907 sentences 10010 tokens
-+ fr_spoken-ud-test.conllu  726 sentences 10010 tokens
-+ total 2786 sentences 34972 tokens
++ fr_spoken-ud-train.conllu 1167 sentences  15172 tokens
++ fr_spoken-ud-dev.conllu 909 sentences 10062 tokens
++ fr_spoken-ud-test.conllu  730 sentences 9991 tokens
++ total 2806 sentences 35225 tokens
 
 
 # Changelog
 
++ 2020-11-15 v2.7
+    + Morphology added
 + 2018-04-15 v2.2
     + Initial release
 
@@ -34,7 +36,7 @@ UPOS: converted with corrections
 XPOS: not available
 Features: not available
 Relations: converted with corrections
-Contributors: Gerdes, Kim; Kahane, Sylvain; Yan, Chunxiao; Etienne, Aline; Courtin, Marine
+Contributors: Gerdes, Kim; Kahane, Sylvain; Nakhlé, Mariam; Yan, Chunxiao; Etienne, Aline; Courtin, Marine
 Contributing: here
 Contact: kim@gerdes.fr
 ===============================================================================
