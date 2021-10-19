@@ -12,18 +12,20 @@ Xpos and features (which are not available in v2.2 of UD_French-Spoken) will be 
 
 # Structure
 
-+ fr_spoken-ud-train.conllu 1167 sentences  15172 tokens
-+ fr_spoken-ud-dev.conllu 909 sentences 10062 tokens
-+ fr_spoken-ud-test.conllu  730 sentences 9991 tokens
++ fr_rhapsodie-ud-train.conllu 1167 sentences  15172 tokens
++ fr_rhapsodie-ud-dev.conllu 909 sentences 10062 tokens
++ fr_rhapsodie-ud-test.conllu  730 sentences 9991 tokens
 + total 2806 sentences 35225 tokens
 
 
 # Changelog
 
-+ 2020-11-15 v2.7
-    + Morphology added
-+ 2018-04-15 v2.2
-    + Initial release
+* 2021-11-15 v2.9
+  * Repository renamed from UD_French-Spoken to UD_French-Rhapsodie.
+* 2020-11-15 v2.7
+  * Morphology added
+* 2018-04-15 v2.2
+  * Initial release
 
 
 === Machine-readable metadata (DO NOT REMOVE!) ================================
