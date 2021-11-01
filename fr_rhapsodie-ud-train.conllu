@@ -3219,7 +3219,7 @@
 # text = il faut s'appeler Rachida Dati, écrit aussi Libération Champagne, pour oser affirmer qu'il ne s'agit pas d'un vote sanction.
 1	il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	_
 2	faut	falloir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	Reported=Yes
-3	s'	se	PRON	_	Person=3|PronType=Prs	2	dep:comp	_	SpaceAfter=No
+3	s'	se	PRON	_	Person=3|PronType=Prs	4	dep:comp	_	SpaceAfter=No
 4	appeler	appeler	VERB	_	VerbForm=Inf	2	xcomp	_	_
 5	Rachida	Rachida	PROPN	_	_	4	obj	_	_
 6	Dati	Dati	PROPN	_	_	5	flat	_	SpaceAfter=No
@@ -6557,8 +6557,8 @@
 # speaker = L2
 # text = oh la, il y a, il y a une mauvais séquence, hein, pour l'équipe de France actuellement qui se fait là vraiment balader, hein.
 1	oh	oh	INTJ	_	_	6	discourse	_	Idiom=Yes
-2	la	la	INTJ	_	_	1	dep	_	Inidiom=Yes|SpaceAfter=No
-3	,	,	PUNCT	_	_	2	punct	_	_
+2	la	la	INTJ	_	_	1	dep	_	InIdiom=Yes|SpaceAfter=No
+3	,	,	PUNCT	_	_	1	punct	_	_
 4	il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	6	expl:subj	_	_
 5	y	y	PRON	_	Person=3|PronType=Prs	6	iobj	_	_
 6	a	avoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
@@ -7556,9 +7556,9 @@
 4	international	international	ADJ	_	Gender=Masc|Number=Sing	3	amod	_	_
 5	s'	se	PRON	_	Person=3|PronType=Prs	6	dep:comp	_	SpaceAfter=No
 6	affirme	affirmer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
-7	peu	peu	ADV	_	_	9	advmod	_	ExtPos=ADV|Idiom=Yes
-8	à	à	ADP	_	_	9	case	_	InIdiom=Yes
-9	peu	peu	ADV	_	_	6	advmod	_	InIdiom=Yes|SpaceAfter=No
+7	peu	peu	ADV	_	_	6	advmod	_	ExtPos=ADV|Idiom=Yes
+8	à	à	ADP	_	_	7	fixed	_	InIdiom=Yes
+9	peu	peu	ADV	_	_	7	fixed	_	InIdiom=Yes|SpaceAfter=No
 10	.	.	PUNCT	_	_	6	punct	_	_
 
 # macrosyntax = demain <+ il ne devra plus y avoir de repos pour les criminels contre l'humanité //
@@ -20949,10 +20949,10 @@
 # text = et puis peu à peu, se dégage finalement, euh, la vérité, une vérité plus, plus nue, si je puis dire.
 1	et	et	CCONJ	_	_	8	cc	_	ExtPos=CCONJ|Idiom=Yes
 2	puis	puis	CCONJ	_	_	1	fixed	_	InIdiom=Yes
-3	peu	peu	ADV	_	_	5	advmod	_	ExtPos=ADV|Idiom=Yes
-4	à	à	ADP	_	_	5	case	_	InIdiom=Yes
-5	peu	peu	ADV	_	_	8	advmod	_	InIdiom=Yes|SpaceAfter=No
-6	,	,	PUNCT	_	_	5	punct	_	_
+3	peu	peu	ADV	_	_	8	advmod	_	ExtPos=ADV|Idiom=Yes
+4	à	à	ADP	_	_	3	fixed	_	InIdiom=Yes
+5	peu	peu	ADV	_	_	3	fixed	_	InIdiom=Yes|SpaceAfter=No
+6	,	,	PUNCT	_	_	3	punct	_	_
 7	se	se	PRON	_	Person=3|PronType=Prs	8	dep:comp	_	_
 8	dégage	dégager	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 9	finalement	finalement	ADV	_	_	8	advmod	_	SpaceAfter=No
@@ -23196,7 +23196,7 @@
 7	je	il	PRON	_	Number=Sing|Person=1|PronType=Prs	5	reparandum	_	_
 8	f~	f~	VERB	_	_	0	root	_	Scrap=Yes|SpaceAfter=No
 9	,	,	PUNCT	_	_	10	punct	_	_
-10	f~	f~	VERB	conj:dicto	_	8	reparandum	_	SpaceAfter=No
+10	f~	f~	VERB	_	_	8	reparandum	_	SpaceAfter=No
 11	…	…	PUNCT	_	_	8	punct	_	_
 
 # macrosyntax = $L1 ^et ^puis il y a ( quand même ) un problème financier "hein" > quand même "hein" //
