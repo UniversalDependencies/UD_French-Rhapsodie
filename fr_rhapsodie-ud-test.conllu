@@ -402,7 +402,7 @@
 # sent_id = Rhap_D2011-15
 # speaker = L1
 # text = bonjour, Maître.
-1	bonjour	bonjour	NOUN	_	_	0	root	_	ExtPos=INTJ|SpaceAfter=No
+1	bonjour	bonjour	NOUN	_	ExtPos=INTJ	0	root	_	SpaceAfter=No
 2	,	,	PUNCT	_	_	3	punct	_	_
 3	Maître	Maître	PROPN	_	Gender=Masc|Number=Sing	1	vocative	_	SpaceAfter=No
 4	.	.	PUNCT	_	_	1	punct	_	_
@@ -411,7 +411,7 @@
 # sent_id = Rhap_D2011-16
 # speaker = L3
 # text = bonjour, Pierre.
-1	bonjour	bonjour	NOUN	_	_	0	root	_	ExtPos=INTJ|SpaceAfter=No
+1	bonjour	bonjour	NOUN	_	ExtPos=INTJ	0	root	_	SpaceAfter=No
 2	,	,	PUNCT	_	_	3	punct	_	_
 3	Pierre	Pierre	PROPN	_	_	1	vocative	_	SpaceAfter=No
 4	.	.	PUNCT	_	_	1	punct	_	_
@@ -571,7 +571,7 @@
 # sent_id = Rhap_D2011-25
 # speaker = L1
 # text = et puis on a notre paire de baskets également très salie.
-1	et	et	CCONJ	_	_	4	cc	_	ExtPos=CCONJ|Idiom=Yes
+1	et	et	CCONJ	_	ExtPos=CCONJ	4	cc	_	Idiom=Yes
 2	puis	puis	CCONJ	_	_	1	fixed	_	InIdiom=Yes
 3	on	on	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Ind	4	nsubj	_	_
 4	a	avoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
@@ -825,7 +825,7 @@
 # sent_id = Rhap_D2011-41
 # speaker = L1
 # text = oh la.
-1	oh	oh	INTJ	_	_	0	root	_	ExtPos=INTJ|Idiom=Yes
+1	oh	oh	INTJ	_	ExtPos=INTJ	0	root	_	Idiom=Yes
 2	la	la	INTJ	_	_	1	fixed	_	InIdiom=Yes|SpaceAfter=No
 3	.	.	PUNCT	_	_	1	punct	_	_
 
@@ -1035,7 +1035,7 @@
 5	sans	sans	ADP	_	_	6	case	_	_
 6	savon	savon	NOUN	_	Gender=Masc|Number=Sing	12	reparandum	_	SpaceAfter=No
 7	,	,	PUNCT	_	_	12	punct	_	_
-8	rien	rien	PRON	_	Gender=Masc|Number=Sing|PronType=Neg	12	advmod	_	ExtPos=ADV|Idiom=Yes
+8	rien	rien	PRON	_	ExtPos=ADV|Gender=Masc|Number=Sing|PronType=Neg	12	advmod	_	Idiom=Yes
 9	qu'	que	SCONJ	_	_	8	fixed	_	InIdiom=Yes|SpaceAfter=No
 10	avec	avec	ADP	_	_	12	case	_	_
 11	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	12	det	_	_
@@ -1119,7 +1119,7 @@
 # sent_id = Rhap_D2011-57bis
 # speaker = L1
 # text = eh oui.
-1	eh	eh	INTJ	_	_	0	root	_	AttachTo=12@Rhap_D2011-57|ExtPos=INTJ|Idiom=Yes|Overlap=Rhap_D2011-57|Rel=discourse
+1	eh	eh	INTJ	_	ExtPos=INTJ	0	root	_	AttachTo=12@Rhap_D2011-57|Idiom=Yes|Overlap=Rhap_D2011-57|Rel=discourse
 2	oui	oui	INTJ	_	_	1	fixed	_	InIdiom=Yes|Overlap=Rhap_D2011-57|SpaceAfter=No
 3	.	.	PUNCT	_	_	1	punct	_	Overlap=Rhap_D2011-57
 
@@ -1176,7 +1176,7 @@
 20	efficacité	efficacité	NOUN	_	Gender=Fem|Number=Sing	17	obj	_	_
 21	de	de	ADP	_	_	22	case	_	_
 22	lavage	lavage	NOUN	_	Gender=Masc|Number=Sing	20	nmod	_	_
-23	tout	tout	ADV	_	_	26	advmod	_	ExtPos=ADV|Idiom=Yes
+23	tout	tout	ADV	_	ExtPos=ADV	26	advmod	_	Idiom=Yes
 24	à	à	ADP	_	_	23	fixed	_	InIdiom=Yes
 25	fait	fait	NOUN	_	Gender=Masc|Number=Sing	23	fixed	_	InIdiom=Yes
 26	différents	différent	ADJ	_	Gender=Masc|Number=Plur	20	amod	_	SpaceAfter=No
@@ -1200,7 +1200,7 @@
 12	d'	de	ADP	_	_	13	mark	_	SpaceAfter=No
 13	écouter	écouter	VERB	_	VerbForm=Inf	0	root	_	SpaceAfter=No|Subject=NoRaising
 14	,	,	PUNCT	_	_	15	punct	_	_
-15	bien	bien	ADV	_	_	13	advmod	_	ExtPos=ADV|Idiom=Yes
+15	bien	bien	ADV	_	ExtPos=ADV	13	advmod	_	Idiom=Yes
 16	sûr	sûr	ADJ	_	Gender=Masc|Number=Sing	15	fixed	_	InIdiom=Yes|SpaceAfter=No
 17	,	,	PUNCT	_	_	19	punct	_	_
 18	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	19	det	_	_
@@ -1601,7 +1601,7 @@
 # sent_id = Rhap_D2011-84
 # speaker = L1
 # text = et puis je crois que vous avez un garçon.
-1	et	et	CCONJ	_	_	4	cc	_	ExtPos=CCONJ|Idiom=Yes|Overlap=Rhap_D2011-83
+1	et	et	CCONJ	_	ExtPos=CCONJ	4	cc	_	Idiom=Yes|Overlap=Rhap_D2011-83
 2	puis	puis	CCONJ	_	_	1	fixed	_	InIdiom=Yes|Overlap=Rhap_D2011-83
 3	je	moi	PRON	_	Number=Sing|Person=1|PronType=Prs	4	nsubj	_	Overlap=Rhap_D2011-83
 4	crois	croire	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	Overlap=Rhap_D2011-83
@@ -1751,7 +1751,7 @@
 2	,	,	PUNCT	_	_	1	punct	_	_
 3	c'	ce	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	8	nsubj	_	SpaceAfter=No
 4	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	cop	_	_
-5	quand	quand	SCONJ	_	_	8	advmod	_	ExtPos=ADV|Idiom=Yes
+5	quand	quand	SCONJ	_	ExtPos=ADV	8	advmod	_	Idiom=Yes
 6	même	même	ADV	_	_	5	fixed	_	InIdiom=Yes
 7	très	très	ADV	_	_	8	advmod	_	_
 8	agréable	agréable	ADJ	_	Number=Sing	0	root	_	Overlap=Rhap_D2011-90|SpaceAfter=No
@@ -2074,7 +2074,7 @@
 # speaker = L1
 # text = mais quand même celui-là cent mille exemplaires en quatre semaines c'est absolument fabuleux.
 1	mais	mais	CCONJ	_	_	15	cc	_	_
-2	quand	quand	SCONJ	_	_	15	advmod	_	ExtPos=ADV|Idiom=Yes
+2	quand	quand	SCONJ	_	ExtPos=ADV	15	advmod	_	Idiom=Yes
 3	même	même	ADV	_	_	2	fixed	_	InIdiom=Yes
 4	celui	celui	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	15	dislocated	_	SpaceAfter=No
 5	-là	là	ADV	_	_	4	advmod	_	_
@@ -2107,7 +2107,7 @@
 11	très	très	ADV	_	_	12	advmod	_	_
 12	pointue	pointu	ADJ	_	Gender=Fem|Number=Sing	5	acl:relcl	_	_
 13	avait	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	16	aux:tense	_	_
-14	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	16	advmod	_	ExtPos=ADV|Idiom=Yes
+14	un	un	DET	_	Definite=Ind|ExtPos=ADV|Gender=Masc|Number=Sing|PronType=Art	16	advmod	_	Idiom=Yes
 15	peu	peu	NOUN	_	_	14	fixed	_	InIdiom=Yes
 16	pressenti	pressentir	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
 17	ce	ce	DET	_	Gender=Masc|Number=Sing|PronType=Dem	18	det	_	_
@@ -2159,7 +2159,7 @@
 5	succès	succès	NOUN	_	Gender=Masc|Number=Sing	16	obl:mod	_	_
 6	de	de	ADP	_	_	8	case	_	_
 7	La	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	8	det	_	InTitle=Yes
-8	Maladie	Maladie	NOUN	_	Gender=Fem|Number=Sing	5	nmod	_	ExtPos=PROPN|Title=Yes
+8	Maladie	Maladie	NOUN	_	ExtPos=PROPN|Gender=Fem|Number=Sing	5	nmod	_	Title=Yes
 9	de	de	ADP	_	_	11	case	_	InTitle=Yes
 10	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	11	det	_	InTitle=Yes
 11	Mort	mort	NOUN	_	Gender=Fem|Number=Sing	8	nmod	_	InTitle=Yes|SpaceAfter=No
@@ -2236,7 +2236,7 @@
 # sent_id = Rhap_D2010-10bis
 # speaker = L2
 # text = XXX.
-1	XXX	XXX	X	_	_	0	root	_	ExtPos=X|Overlap=Rhap_D2010-10|SpaceAfter=No
+1	XXX	XXX	X	_	_	0	root	_	Overlap=Rhap_D2010-10|SpaceAfter=No
 2	.	.	PUNCT	_	_	1	punct	_	Overlap=Rhap_D2010-10
 
 # macrosyntax = XXX // "ah" quelqu'un -$ a dit du mal > quand même > de c~ ESPERLUETTE //
@@ -2250,7 +2250,7 @@
 5	dit	dire	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
 6	du	du	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
 7	mal	mal	NOUN	_	Gender=Masc|Number=Sing	5	obj	_	_
-8	quand	quand	SCONJ	_	_	5	advmod	_	ExtPos=ADV|Idiom=Yes
+8	quand	quand	SCONJ	_	ExtPos=ADV	5	advmod	_	Idiom=Yes
 9	même	même	ADV	_	_	8	fixed	_	InIdiom=Yes
 10	de	de	ADP	_	_	11	case	_	Scrap=Yes
 11	c~	c~	X	_	_	5	obl:arg	_	SpaceAfter=No
@@ -2260,7 +2260,7 @@
 # sent_id = Rhap_D2010-12
 # speaker = L1
 # text = ah bon ?
-1	ah	ah	INTJ	_	_	0	root	_	AttachTo=4@Rhap_D2010-11|ExtPos=INTJ|Idiom=Yes|Overlap=Rhap_D2010-11|Rel=discourse
+1	ah	ah	INTJ	_	ExtPos=INTJ	0	root	_	AttachTo=4@Rhap_D2010-11|Idiom=Yes|Overlap=Rhap_D2010-11|Rel=discourse
 2	bon	bon	INTJ	_	_	1	fixed	_	InIdiom=Yes|Overlap=Rhap_D2010-11
 3	?	?	PUNCT	_	_	1	punct	_	Overlap=Rhap_D2010-11
 
@@ -2428,7 +2428,7 @@
 10	d'	de	ADP	_	_	11	case	_	SpaceAfter=No
 11	ailleurs	ailleurs	ADV	_	_	8	advmod	_	SpaceAfter=No
 12	,	,	PUNCT	_	_	17	punct	_	_
-13	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	17	advmod	_	ExtPos=ADV|Idiom=Yes
+13	un	un	DET	_	Definite=Ind|ExtPos=ADV|Gender=Masc|Number=Sing|PronType=Art	17	advmod	_	Idiom=Yes
 14	peu	peu	NOUN	_	_	13	fixed	_	InIdiom=Yes
 15	depuis	depuis	ADP	_	_	17	case	_	_
 16	quelques	quelque	DET	_	Number=Plur|PronType=Ind	17	det	_	_
@@ -2439,7 +2439,7 @@
 # sent_id = Rhap_D2010-21
 # speaker = L1
 # text = et puis tout d'un coup, alors, ils vous retrouvent.
-1	et	et	CCONJ	_	_	12	cc	_	ExtPos=CCONJ|Idiom=Yes
+1	et	et	CCONJ	_	ExtPos=CCONJ	12	cc	_	Idiom=Yes
 2	puis	puis	CCONJ	_	_	1	fixed	_	InIdiom=Yes
 3	tout	tout	ADJ	_	Gender=Masc|Number=Sing	6	amod	_	_
 4	d'	de	ADP	_	_	6	case	_	SpaceAfter=No
@@ -2508,7 +2508,7 @@
 # text = c'est un peu gênant aussi.
 1	c'	ce	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	5	nsubj	_	SpaceAfter=No
 2	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	cop	_	_
-3	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	5	advmod	_	ExtPos=ADV|Idiom=Yes
+3	un	un	DET	_	Definite=Ind|ExtPos=ADV|Gender=Masc|Number=Sing|PronType=Art	5	advmod	_	Idiom=Yes
 4	peu	peu	NOUN	_	_	3	fixed	_	InIdiom=Yes
 5	gênant	gênant	ADJ	_	Gender=Masc|Number=Sing	0	root	_	_
 6	aussi	aussi	ADV	_	_	5	advmod	_	SpaceAfter=No
@@ -2520,7 +2520,7 @@
 # text = c'est un peu gênant.
 1	c'	ce	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	5	nsubj	_	Overlap=Rhap_D2010-27bis|SpaceAfter=No
 2	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	cop	_	Overlap=Rhap_D2010-27bis
-3	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	5	advmod	_	ExtPos=ADV|Idiom=Yes|Overlap=Rhap_D2010-27bis
+3	un	un	DET	_	Definite=Ind|ExtPos=ADV|Gender=Masc|Number=Sing|PronType=Art	5	advmod	_	Idiom=Yes|Overlap=Rhap_D2010-27bis
 4	peu	peu	NOUN	_	_	3	fixed	_	InIdiom=Yes|Overlap=Rhap_D2010-27bis
 5	gênant	gênant	ADJ	_	Gender=Masc|Number=Sing	0	root	_	Overlap=Rhap_D2010-27bis|SpaceAfter=No
 6	.	.	PUNCT	_	_	5	punct	_	Overlap=Rhap_D2010-27bis
@@ -2529,7 +2529,7 @@
 # sent_id = Rhap_D2010-27bis
 # speaker = L1
 # text = ah bon ?
-1	ah	ah	INTJ	_	_	0	root	_	AttachTo=2@Rhap_D2010-26|ExtPos=INTJ|Idiom=Yes|Overlap=Rhap_D2010-27|Rel=discourse
+1	ah	ah	INTJ	_	ExtPos=INTJ	0	root	_	AttachTo=2@Rhap_D2010-26|Idiom=Yes|Overlap=Rhap_D2010-27|Rel=discourse
 2	bon	bon	INTJ	_	_	1	fixed	_	InIdiom=Yes|Overlap=Rhap_D2010-27
 3	?	?	PUNCT	_	_	1	punct	_	Overlap=Rhap_D2010-27
 
@@ -2581,7 +2581,7 @@
 7	,	,	PUNCT	_	_	4	punct	_	_
 8	c'	ce	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	12	nsubj	_	SpaceAfter=No
 9	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	12	cop	_	_
-10	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	12	advmod	_	ExtPos=ADV|Idiom=Yes
+10	un	un	DET	_	Definite=Ind|ExtPos=ADV|Gender=Masc|Number=Sing|PronType=Art	12	advmod	_	Idiom=Yes
 11	peu	peu	NOUN	_	_	10	fixed	_	InIdiom=Yes
 12	dur	dur	ADJ	_	Gender=Masc|Number=Sing	0	root	_	SpaceAfter=No
 13	.	.	PUNCT	_	_	12	punct	_	_
@@ -2604,7 +2604,7 @@
 # text = c'est un peu…
 1	c'	ce	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	2	nsubj	_	SpaceAfter=No
 2	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	Scrap=Yes
-3	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	2	advmod	_	ExtPos=ADV|Idiom=Yes
+3	un	un	DET	_	Definite=Ind|ExtPos=ADV|Gender=Masc|Number=Sing|PronType=Art	2	advmod	_	Idiom=Yes
 4	peu	peu	NOUN	_	_	3	fixed	_	InIdiom=Yes|SpaceAfter=No
 5	…	…	PUNCT	_	_	2	punct	_	_
 
@@ -2661,7 +2661,7 @@
 # text = c'est un peu…
 1	c'	ce	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	2	nsubj	_	SpaceAfter=No
 2	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	Scrap=Yes
-3	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	2	advmod	_	ExtPos=ADV|Idiom=Yes
+3	un	un	DET	_	Definite=Ind|ExtPos=ADV|Gender=Masc|Number=Sing|PronType=Art	2	advmod	_	Idiom=Yes
 4	peu	peu	NOUN	_	_	3	fixed	_	InIdiom=Yes|SpaceAfter=No
 5	…	…	PUNCT	_	_	2	punct	_	_
 
@@ -2701,7 +2701,7 @@
 15	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	17	aux:pass	_	_
 16	toujours	toujours	ADV	_	_	17	advmod	_	_
 17	pris	prendre	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	11	ccomp	_	_
-18	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	23	advmod	_	ExtPos=ADV|Idiom=Yes
+18	un	un	DET	_	Definite=Ind|ExtPos=ADV|Gender=Masc|Number=Sing|PronType=Art	23	advmod	_	Idiom=Yes
 19	peu	peu	NOUN	_	_	18	fixed	_	InIdiom=Yes
 20	comme	comme	ADP	_	_	23	case	_	_
 21	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	23	det	_	_
@@ -2715,7 +2715,7 @@
 # text = vous êtes d'accord ?
 1	vous	vous	PRON	_	Number=Plur|Person=2|PronType=Prs	2	nsubj	_	Overlap=Rhap_D2010-40
 2	êtes	être	VERB	_	Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	0	root	_	Overlap=Rhap_D2010-40
-3	d'	de	ADP	_	_	2	obl:arg	_	ExtPos=ADP|Idiom=Yes|Overlap=Rhap_D2010-40|SpaceAfter=No
+3	d'	de	ADP	_	ExtPos=ADP	2	obl:arg	_	Idiom=Yes|Overlap=Rhap_D2010-40|SpaceAfter=No
 4	accord	accord	NOUN	_	Gender=Masc|Number=Sing	3	fixed	_	InIdiom=Yes|Overlap=Rhap_D2010-40
 5	?	?	PUNCT	_	_	2	punct	_	Overlap=Rhap_D2010-40
 
@@ -2761,7 +2761,7 @@
 # sent_id = Rhap_D2010-42
 # speaker = L1
 # text = et puis alors, je…
-1	et	et	CCONJ	_	_	0	root	_	ExtPos=CCONJ|Idiom=Yes
+1	et	et	CCONJ	_	ExtPos=CCONJ	0	root	_	Idiom=Yes
 2	puis	puis	CCONJ	_	_	1	fixed	_	InIdiom=Yes
 3	alors	alors	ADV	_	_	1	cc	_	SpaceAfter=No
 4	,	,	PUNCT	_	_	5	punct	_	_
@@ -2816,7 +2816,7 @@
 3	j'	moi	PRON	_	Number=Sing|Person=1|PronType=Prs	5	nsubj	_	SpaceAfter=No
 4	ai	avoir	AUX	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	5	aux:tense	_	_
 5	regardé	regarder	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
-6	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	5	advmod	_	ExtPos=ADV|Idiom=Yes
+6	un	un	DET	_	Definite=Ind|ExtPos=ADV|Gender=Masc|Number=Sing|PronType=Art	5	advmod	_	Idiom=Yes
 7	petit	petit	ADJ	_	Gender=Masc|Number=Sing	6	fixed	_	InIdiom=Yes
 8	peu	peu	NOUN	_	_	6	fixed	_	InIdiom=Yes
 9	dans	dans	ADP	_	_	11	case	_	_
@@ -2842,7 +2842,7 @@
 12	ce	ce	DET	_	Gender=Masc|Number=Sing|PronType=Dem	14	reparandum	_	SpaceAfter=No
 13	,	,	PUNCT	_	_	14	punct	_	_
 14	ce	ce	DET	_	Gender=Masc|Number=Sing|PronType=Dem	15	det	_	_
-15	chef	chef	NOUN	_	Gender=Masc|Number=Sing	11	obj	_	ExtPos=NOUN|Idiom=Yes|SpaceAfter=No
+15	chef	chef	NOUN	_	ExtPos=NOUN|Gender=Masc|Number=Sing	11	obj	_	Idiom=Yes|SpaceAfter=No
 16	-d'	de	ADP	_	_	15	fixed	_	InIdiom=Yes|SpaceAfter=No
 17	œuvre	œuvre	NOUN	_	Gender=Fem|Number=Sing	15	fixed	_	InIdiom=Yes|SpaceAfter=No
 18	,	,	PUNCT	_	_	25	punct	_	_
@@ -2852,7 +2852,7 @@
 22	c'	ce	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	25	nsubj	_	SpaceAfter=No
 23	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	25	cop	_	_
 24	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	25	det	_	_
-25	chef	chef	NOUN	_	Gender=Masc|Number=Sing	15	parataxis:parenth	_	ExtPos=NOUN|Idiom=Yes|SpaceAfter=No
+25	chef	chef	NOUN	_	ExtPos=NOUN|Gender=Masc|Number=Sing	15	parataxis:parenth	_	Idiom=Yes|SpaceAfter=No
 26	-d'	de	ADP	_	_	25	fixed	_	InIdiom=Yes|SpaceAfter=No
 27	œuvre	œuvre	NOUN	_	Gender=Fem|Number=Sing	25	fixed	_	InIdiom=Yes|SpaceAfter=No
 28	,	,	PUNCT	_	_	31	punct	_	_
@@ -2860,7 +2860,7 @@
 30	s'	soi	PRON	_	Person=3|PronType=Prs	31	expl:comp	_	SpaceAfter=No
 31	appelle	appeler	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	15	acl:relcl	_	_
 32	Un	Un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	33	det	_	InTitle=Yes
-33	Barrage	Barrage	NOUN	_	Gender=Masc|Number=Sing	31	obj	_	ExtPos=PROPN|Title=Yes
+33	Barrage	Barrage	NOUN	_	ExtPos=PROPN|Gender=Masc|Number=Sing	31	obj	_	Title=Yes
 34	contre	contre	ADP	_	_	36	case	_	InTitle=Yes
 35	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	36	det	_	InTitle=Yes
 36	Pacifique	Pacifique	PROPN	_	_	33	nmod	_	InTitle=Yes|SpaceAfter=No
@@ -2882,7 +2882,7 @@
 3	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	4	det	_	SpaceAfter=No
 4	Académie	Académie	PROPN	_	_	6	nsubj	_	_
 5	Goncourt	Goncourt	PROPN	_	_	4	nmod:appos	_	_
-6	s'	soi	PRON	_	Person=3|PronType=Prs	18	reparandum	_	ExtPos=VERB|Idiom=Yes|SpaceAfter=No
+6	s'	soi	PRON	_	ExtPos=VERB|Person=3|PronType=Prs	18	reparandum	_	Idiom=Yes|SpaceAfter=No
 7	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	fixed	_	InIdiom=Yes
 8	complètement	complètement	ADV	_	_	6	advmod	_	SpaceAfter=No
 9	,	,	PUNCT	_	_	10	punct	_	_
@@ -2893,7 +2893,7 @@
 14	,	,	PUNCT	_	_	17	punct	_	_
 15	ben	ben	INTJ	_	_	17	discourse	_	SpaceAfter=No
 16	,	,	PUNCT	_	_	15	punct	_	_
-17	XXX	XXX	X	_	_	18	dep	_	ExtPos=X|Scrap=Yes
+17	XXX	XXX	X	_	_	18	dep	_	Scrap=Yes
 18	misé	miser	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
 19	à	à	ADP	_	_	20	case	_	_
 20	côté	côté	NOUN	_	Gender=Masc|Number=Sing	18	obl:mod	_	SpaceAfter=No
@@ -2955,13 +2955,13 @@
 # sent_id = Rhap_D2010-52
 # speaker = L1
 # text = parce qu'ils ont couronné Les jeux sauvages de Paul Colin.
-1	parce	parce	ADV	_	_	5	mark	_	ExtPos=SCONJ|Idiom=Yes|Overlap=Rhap_D2010-53
+1	parce	parce	ADV	_	ExtPos=SCONJ	5	mark	_	Idiom=Yes|Overlap=Rhap_D2010-53
 2	qu'	que	SCONJ	_	_	1	fixed	_	InIdiom=Yes|Overlap=Rhap_D2010-53|SpaceAfter=No
 3	ils	eux	PRON	_	Gender=Masc|Number=Plur|Person=3|PronType=Prs	5	nsubj	_	Overlap=Rhap_D2010-53
 4	ont	avoir	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	5	aux:pass	_	Overlap=Rhap_D2010-53
 5	couronné	couronner	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
 6	Les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	7	det	_	InTitle=Yes
-7	jeux	jeu	NOUN	_	Gender=Masc|Number=Plur	5	obj	_	ExtPos=PROPN|Title=Yes
+7	jeux	jeu	NOUN	_	ExtPos=PROPN|Gender=Masc|Number=Plur	5	obj	_	Title=Yes
 8	sauvages	sauvage	ADJ	_	Number=Plur	7	amod	_	InTitle=Yes
 9	de	de	ADP	_	_	10	case	_	_
 10	Paul	Paul	PROPN	_	_	7	nmod	_	_
@@ -3066,8 +3066,8 @@
 8-9	au	_	_	_	_	_	_	_	_
 8	à	à	ADP	_	_	10	case	_	_
 9	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
-10	Barrage	Barrage	NOUN	_	Gender=Masc|Number=Sing	5	obl:arg	_	ExtPos=PROPN|Title=Yes
-11	parce	parce	ADV	_	_	14	mark	_	ExtPos=SCONJ|Idiom=Yes
+10	Barrage	Barrage	NOUN	_	ExtPos=PROPN|Gender=Masc|Number=Sing	5	obl:arg	_	Title=Yes
+11	parce	parce	ADV	_	ExtPos=SCONJ	14	mark	_	Idiom=Yes
 12	que	que	SCONJ	_	_	11	fixed	_	InIdiom=Yes
 13	j'	moi	PRON	_	Number=Sing|Person=1|PronType=Prs	14	nsubj	_	SpaceAfter=No
 14	étais	être	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Imp|VerbForm=Fin	5	advcl	_	_
@@ -3112,7 +3112,7 @@
 3	fait	faire	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	acl:relcl	_	_
 4	que	que	SCONJ	_	_	12	mark	_	_
 5	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
-6	Barrage	Barrage	NOUN	_	Gender=Masc|Number=Sing	12	dislocated	_	ExtPos=PROPN|SpaceAfter=No|Title=Yes
+6	Barrage	Barrage	NOUN	_	ExtPos=PROPN|Gender=Masc|Number=Sing	12	dislocated	_	SpaceAfter=No|Title=Yes
 7	,	,	PUNCT	_	_	6	punct	_	_
 8	ça	ça	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	12	nsubj	_	_
 9	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	12	aux:tense	_	_
@@ -3135,7 +3135,7 @@
 26	ai	avoir	AUX	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	28	aux:tense	_	_
 27	été	être	AUX	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	28	aux:pass	_	_
 28	punie	punir	VERB	_	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	12	conj	_	_
-29	par	par	ADP	_	_	28	advmod	_	ExtPos=ADV|Idiom=Yes
+29	par	par	ADP	_	ExtPos=ADV	28	advmod	_	Idiom=Yes
 30	ailleurs	ailleurs	ADV	_	_	29	fixed	_	InIdiom=Yes
 31	quand	quand	SCONJ	_	_	35	mark	_	_
 32	j'	moi	PRON	_	Number=Sing|Person=1|PronType=Prs	35	nsubj	_	SpaceAfter=No
@@ -3168,7 +3168,7 @@
 3	venons	venir	VERB	_	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
 4	à	à	ADP	_	_	6	case	_	_
 5	L'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	6	det	_	InTitle=Yes|SpaceAfter=No
-6	Amant	Amant	NOUN	_	Gender=Masc|Number=Sing	3	obl:arg	_	ExtPos=PROPN|SpaceAfter=No|Title=Yes
+6	Amant	Amant	NOUN	_	ExtPos=PROPN|Gender=Masc|Number=Sing	3	obl:arg	_	SpaceAfter=No|Title=Yes
 7	.	.	PUNCT	_	_	3	punct	_	_
 
 # macrosyntax = ( $L2 oui // )
@@ -3183,7 +3183,7 @@
 # speaker = L1
 # text = L'Amant, nous sommes à, nous sommes à Saigon entre les deux guerres, dans les années vingt, euh.
 1	L'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	2	det	_	InTitle=Yes|SpaceAfter=No
-2	Amant	Amant	NOUN	_	Gender=Masc|Number=Sing	5	dislocated	_	ExtPos=PROPN|SpaceAfter=No|Title=Yes
+2	Amant	Amant	NOUN	_	ExtPos=PROPN|Gender=Masc|Number=Sing	5	dislocated	_	SpaceAfter=No|Title=Yes
 3	,	,	PUNCT	_	_	2	punct	_	_
 4	nous	nous	PRON	_	Number=Plur|Person=1|PronType=Prs	5	nsubj	_	_
 5	sommes	être	VERB	_	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	9	reparandum	_	_
@@ -3247,7 +3247,7 @@
 3	êtes	être	AUX	_	Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	5	aux:pass	_	_
 4	drôlement	drôlement	ADV	_	_	5	advmod	_	_
 5	attifée	attifer	VERB	_	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
-6	quand	quand	SCONJ	_	_	5	discourse	_	ExtPos=ADV|Idiom=Yes
+6	quand	quand	SCONJ	_	ExtPos=ADV	5	discourse	_	Idiom=Yes
 7	même	même	ADV	_	_	6	fixed	_	InIdiom=Yes|SpaceAfter=No
 8	.	.	PUNCT	_	_	5	punct	_	_
 
@@ -3465,7 +3465,7 @@
 5	remarquerait	remarquer	VERB	_	Mood=Cnd|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 6	à	à	ADP	_	_	7	case	_	_
 7	peine	peine	NOUN	_	Gender=Fem|Number=Sing	5	obl:mod	_	_
-8	parce	parce	ADV	_	_	13	mark	_	ExtPos=SCONJ|Idiom=Yes
+8	parce	parce	ADV	_	ExtPos=SCONJ	13	mark	_	Idiom=Yes
 9	que	que	SCONJ	_	_	8	fixed	_	InIdiom=Yes
 10	c'	ce	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	13	nsubj	_	SpaceAfter=No
 11	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	13	cop	_	_
@@ -3631,7 +3631,7 @@
 4	appelait	appeler	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
 5	avant	avant	ADP	_	_	4	dep	_	_
 6	La	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	det	_	InTitle=Yes
-7	Photographie	photographie	NOUN	_	Gender=Fem|Number=Sing	4	xcomp	_	ExtPos=PROPN|Title=Yes
+7	Photographie	photographie	NOUN	_	ExtPos=PROPN|Gender=Fem|Number=Sing	4	xcomp	_	Title=Yes
 8	Absolue	absolu	ADJ	_	Gender=Fem|Number=Sing	7	amod	_	InTitle=Yes|SpaceAfter=No
 9	.	.	PUNCT	_	_	4	punct	_	_
 
@@ -3647,7 +3647,7 @@
 6	ce	ce	DET	_	Gender=Masc|Number=Sing|PronType=Dem	7	det	_	_
 7	livre	livre	NOUN	_	Gender=Masc|Number=Sing	5	dislocated	_	SpaceAfter=No
 8	,	,	PUNCT	_	_	9	punct	_	_
-9	attention	attention	NOUN	_	_	7	discourse	_	ExtPos=INTJ|SpaceAfter=No
+9	attention	attention	NOUN	_	ExtPos=INTJ	7	discourse	_	SpaceAfter=No
 10	,	,	PUNCT	_	_	11	punct	_	_
 11	hein	hein	INTJ	_	_	7	discourse	_	SpaceAfter=No
 12	.	.	PUNCT	_	_	5	punct	_	_
@@ -3734,7 +3734,7 @@
 10	,	,	PUNCT	_	_	12	punct	_	_
 11	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
 12	fleuve	fleuve	NOUN	_	Gender=Masc|Number=Sing	15	nsubj:pass	_	_
-13	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	5	dep	_	ExtPos=SCONJ|Idiom=Yes
+13	une	un	DET	_	Definite=Ind|ExtPos=SCONJ|Gender=Fem|Number=Sing|PronType=Art	5	dep	_	Idiom=Yes
 14	fois	fois	NOUN	_	Gender=Fem|Number=Sing	13	fixed	_	InIdiom=Yes
 15	traversé	traverser	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	13	advcl	_	SpaceAfter=No
 16	.	.	PUNCT	_	_	5	punct	_	_
@@ -3826,7 +3826,7 @@
 8	toute	toute	DET	_	Gender=Fem|Number=Sing|PronType=Ind	9	det	_	_
 9	façon	façon	NOUN	_	Gender=Fem|Number=Sing	18	obl:mod	_	SpaceAfter=No
 10	,	,	PUNCT	_	_	9	punct	_	_
-11	il	lui	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	18	mark	_	ExtPos=ADP|Idiom=Yes
+11	il	lui	PRON	_	ExtPos=ADP|Gender=Masc|Number=Sing|Person=3|PronType=Prs	18	mark	_	Idiom=Yes
 12	y	y	PRON	_	Person=3|PronType=Prs	11	fixed	_	InIdiom=Yes
 13	a	avoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	fixed	_	InIdiom=Yes
 14	bien	bien	ADV	_	_	15	advmod	_	Overlap=Rhap_D2010-97
@@ -3887,7 +3887,7 @@
 # speaker = L1
 # text = avec XXX.
 1	avec	avec	ADP	_	_	2	case	_	AttachTo=16@Rhap_D2010-98|Overlap=Rhap_D2010-98|Rel=udep
-2	XXX	XXX	X	_	_	0	root	_	ExtPos=NOUN|Overlap=Rhap_D2010-98|SpaceAfter=No
+2	XXX	XXX	X	_	ExtPos=NOUN	0	root	_	Overlap=Rhap_D2010-98|SpaceAfter=No
 3	.	.	PUNCT	_	_	2	punct	_	Overlap=Rhap_D2010-98
 
 # macrosyntax = $L1 {| dans cette auto } //
@@ -3971,7 +3971,7 @@
 5	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	6	det	_	SpaceAfter=No
 6	automobile	automobile	NOUN	_	Gender=Fem|Number=Sing	3	obl:arg	_	SpaceAfter=No
 7	,	,	PUNCT	_	_	12	punct	_	_
-8	et	et	CCONJ	_	_	12	cc	_	ExtPos=CCONJ|Idiom=Yes
+8	et	et	CCONJ	_	ExtPos=CCONJ	12	cc	_	Idiom=Yes
 9	puis	puis	CCONJ	_	_	8	fixed	_	InIdiom=Yes
 10-11	au	_	_	_	_	_	_	_	_
 10	à	à	ADP	_	_	12	case	_	_
@@ -4077,7 +4077,7 @@
 # sent_id = Rhap_D2010-110
 # speaker = L2
 # text = c'est-à-dire que j'ai su après qu'il m'avait pas déplu, sur le bac.
-1	c'est-à-dire	c'est-à-dire	CCONJ	_	_	5	cc	_	ExtPos=CCONJ|Idiom=Yes
+1	c'est-à-dire	c'est-à-dire	CCONJ	_	ExtPos=CCONJ	5	cc	_	Idiom=Yes
 2	que	que	SCONJ	_	_	1	fixed	_	InIdiom=Yes
 3	j'	moi	PRON	_	Number=Sing|Person=1|PronType=Prs	5	nsubj	_	SpaceAfter=No
 4	ai	avoir	AUX	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	5	aux:tense	_	_
@@ -4116,7 +4116,7 @@
 # sent_id = Rhap_D2010-112
 # speaker = L2
 # text = sauf que j'étais assez étonnée par tout cet attirail de milliardaire.
-1	sauf	sauf	CCONJ	_	_	6	mark	_	ExtPos=CCONJ|Idiom=Yes
+1	sauf	sauf	CCONJ	_	ExtPos=CCONJ	6	mark	_	Idiom=Yes
 2	que	que	SCONJ	_	_	1	fixed	_	InIdiom=Yes
 3	j'	moi	PRON	_	Number=Sing|Person=1|PronType=Prs	6	nsubj	_	SpaceAfter=No
 4	étais	être	AUX	_	Mood=Ind|Number=Sing|Person=1|Tense=Imp|VerbForm=Fin	6	cop	_	_
@@ -4136,11 +4136,11 @@
 # text = j'étais un peu étonnée, un peu épatée, enfin, et attirée aussi bien sûr.
 1	j'	moi	PRON	_	Number=Sing|Person=1|PronType=Prs	5	nsubj:pass	_	SpaceAfter=No
 2	étais	être	AUX	_	Mood=Ind|Number=Sing|Person=1|Tense=Imp|VerbForm=Fin	5	aux:pass	_	_
-3	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	5	advmod	_	ExtPos=ADV|Idiom=Yes
+3	un	un	DET	_	Definite=Ind|ExtPos=ADV|Gender=Masc|Number=Sing|PronType=Art	5	advmod	_	Idiom=Yes
 4	peu	peu	NOUN	_	_	3	fixed	_	InIdiom=Yes
 5	étonnée	étonner	VERB	_	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	SpaceAfter=No
 6	,	,	PUNCT	_	_	9	punct	_	_
-7	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	9	advmod	_	ExtPos=ADV|Idiom=Yes
+7	un	un	DET	_	Definite=Ind|ExtPos=ADV|Gender=Masc|Number=Sing|PronType=Art	9	advmod	_	Idiom=Yes
 8	peu	peu	NOUN	_	_	7	fixed	_	InIdiom=Yes
 9	épatée	épater	VERB	_	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	5	conj	_	SpaceAfter=No
 10	,	,	PUNCT	_	_	11	punct	_	_
@@ -4149,7 +4149,7 @@
 13	et	et	CCONJ	_	_	14	cc	_	_
 14	attirée	attirer	VERB	_	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	5	conj	_	_
 15	aussi	aussi	ADV	_	_	14	advmod	_	_
-16	bien	bien	ADV	_	_	5	advmod	_	ExtPos=ADV|Idiom=Yes
+16	bien	bien	ADV	_	ExtPos=ADV	5	advmod	_	Idiom=Yes
 17	sûr	sûr	ADJ	_	Gender=Masc|Number=Sing	16	fixed	_	InIdiom=Yes|SpaceAfter=No
 18	.	.	PUNCT	_	_	5	punct	_	_
 
@@ -4228,7 +4228,7 @@
 2	l'	lui	PRON	_	Number=Sing|Person=3|PronType=Prs	4	obj	_	SpaceAfter=No
 3	ai	avoir	AUX	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	4	aux:tense	_	_
 4	choisie	choisir	VERB	_	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
-5	parce	parce	ADV	_	_	12	mark	_	ExtPos=SCONJ|Idiom=Yes
+5	parce	parce	ADV	_	ExtPos=SCONJ	12	mark	_	Idiom=Yes
 6	que	que	SCONJ	_	_	5	fixed	_	InIdiom=Yes
 7	c'	ce	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	12	nsubj	_	SpaceAfter=No
 8	était	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	12	cop	_	_
@@ -4251,7 +4251,7 @@
 25	on	on	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Ind	26	nsubj	_	_
 26	va	aller	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	21	acl:relcl	_	_
 27	parler	parler	VERB	_	VerbForm=Inf	26	xcomp	_	Subject=SubjRaising
-28	tout	tout	ADV	_	_	27	advmod	_	ExtPos=ADV|Idiom=Yes
+28	tout	tout	ADV	_	ExtPos=ADV	27	advmod	_	Idiom=Yes
 29	à	à	ADP	_	_	28	fixed	_	InIdiom=Yes
 30	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	28	fixed	_	InIdiom=Yes|SpaceAfter=No
 31	heure	heure	NOUN	_	Gender=Fem|Number=Sing	28	fixed	_	InIdiom=Yes|SpaceAfter=No
@@ -4347,7 +4347,7 @@
 # sent_id = Rhap_D2012-7
 # speaker = L1
 # text = parce que prélude, ça fait penser à, évidemment, à Frédéric Chopin.
-1	parce	parce	ADV	_	_	7	mark	_	ExtPos=SCONJ|Idiom=Yes
+1	parce	parce	ADV	_	ExtPos=SCONJ	7	mark	_	Idiom=Yes
 2	que	que	SCONJ	_	_	1	fixed	_	InIdiom=Yes
 3	prélude	prélude	NOUN	_	Gender=Masc|Number=Sing	7	dislocated	_	SpaceAfter=No
 4	,	,	PUNCT	_	_	3	punct	_	_
@@ -4376,7 +4376,7 @@
 7	ça	ça	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	5	obj	_	_
 8	chopinien	chopinien	ADJ	_	Gender=Masc|Number=Sing	5	xcomp	_	_
 9-10	du	_	_	_	_	_	_	_	_
-9	de	de	ADP	_	_	8	advmod	_	ExtPos=ADV|Idiom=Yes
+9	de	de	ADP	_	ExtPos=ADV	8	advmod	_	Idiom=Yes
 10	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	fixed	_	InIdiom=Yes
 11	tout	tout	NOUN	_	Number=Sing	9	fixed	_	InIdiom=Yes|SpaceAfter=No
 12	.	.	PUNCT	_	_	5	punct	_	_
@@ -4598,7 +4598,7 @@
 48	ne	ne	ADV	_	Polarity=Neg	49	advmod	_	_
 49	rappelle	rappeler	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	ccomp	_	_
 50	pas	pas	ADV	_	Polarity=Neg	49	advmod	_	_
-51	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	49	advmod	_	ExtPos=ADV|Idiom=Yes
+51	un	un	DET	_	Definite=Ind|ExtPos=ADV|Gender=Masc|Number=Sing|PronType=Art	49	advmod	_	Idiom=Yes
 52	peu	peu	NOUN	_	_	51	fixed	_	InIdiom=Yes
 53	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	54	det	_	SpaceAfter=No
 54	arrivée	arrivé	NOUN	_	Gender=Fem|Number=Sing	49	obj	_	_
@@ -4612,7 +4612,7 @@
 # text = d'autres XXX.
 1	d'	de	ADP	_	_	3	case	_	AttachTo=31@Rhap_D2012-18|Overlap=Rhap_D2012-18|Rel=conj:dicto|SpaceAfter=No
 2	autres	autre	ADJ	_	Number=Plur|PronType=Ind	3	amod	_	Overlap=Rhap_D2012-18
-3	XXX	XXX	X	_	_	0	root	_	ExtPos=NOUN|Overlap=Rhap_D2012-18|SpaceAfter=No
+3	XXX	XXX	X	_	ExtPos=NOUN	0	root	_	Overlap=Rhap_D2012-18|SpaceAfter=No
 4	.	.	PUNCT	_	_	3	punct	_	Overlap=Rhap_D2012-18
 
 # macrosyntax = ^mais je ne voudrais pas faire de la psychanalyse à trois sous //
@@ -4625,7 +4625,7 @@
 4	voudrais	vouloir	VERB	_	Mood=Cnd|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
 5	pas	pas	ADV	_	Polarity=Neg	4	advmod	_	_
 6	faire	faire	VERB	_	VerbForm=Inf	4	xcomp	_	Subject=SubjRaising
-7	de	de	ADP	_	_	9	det	_	ExtPos=DET|Idiom=Yes
+7	de	de	ADP	_	ExtPos=DET	9	det	_	Idiom=Yes
 8	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	fixed	_	InIdiom=Yes
 9	psychanalyse	psychanalyse	NOUN	_	Gender=Fem|Number=Sing	6	obj	_	_
 10	à	à	ADP	_	_	12	case	_	_
@@ -4718,7 +4718,7 @@
 31	vers	vers	ADP	_	_	33	case	_	_
 32	vingt-six	vingt-six	NUM	_	Number=Plur	33	nummod	_	_
 33	ans	an	NOUN	_	Gender=Masc|Number=Plur	30	nmod	_	_
-34	à	à	ADP	_	_	33	advmod	_	ExtPos=ADV|Idiom=Yes
+34	à	à	ADP	_	ExtPos=ADV	33	advmod	_	Idiom=Yes
 35	peu	peu	ADV	_	_	34	fixed	_	InIdiom=Yes
 36	près	près	ADV	_	_	34	fixed	_	InIdiom=Yes|SpaceAfter=No
 37	,	,	PUNCT	_	_	38	punct	_	_
@@ -5045,7 +5045,7 @@
 50	,	,	PUNCT	_	_	52	punct	_	_
 51	je	moi	PRON	_	Number=Sing|Person=1|PronType=Prs	52	nsubj	_	_
 52	caricature	caricaturer	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	43	parataxis:parenth	_	_
-53	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	52	advmod	_	ExtPos=ADV|Idiom=Yes
+53	un	un	DET	_	Definite=Ind|ExtPos=ADV|Gender=Masc|Number=Sing|PronType=Art	52	advmod	_	Idiom=Yes
 54	petit	petit	ADJ	_	Gender=Masc|Number=Sing	53	fixed	_	InIdiom=Yes
 55	peu	peu	NOUN	_	_	53	fixed	_	InIdiom=Yes|SpaceAfter=No
 56	,	,	PUNCT	_	_	53	punct	_	_
@@ -5289,7 +5289,7 @@
 # sent_id = Rhap_D2012-41
 # speaker = L2
 # text = et puis il y a, euh, Szeluto.
-1	et	et	CCONJ	_	_	5	cc	_	ExtPos=CCONJ|Idiom=Yes
+1	et	et	CCONJ	_	ExtPos=CCONJ	5	cc	_	Idiom=Yes
 2	puis	puis	CCONJ	_	_	1	fixed	_	InIdiom=Yes
 3	il	lui	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	5	expl:subj	_	_
 4	y	y	PRON	_	Person=3|PronType=Prs	5	expl:comp	_	_
@@ -5316,7 +5316,7 @@
 10	vite	vite	ADV	_	_	8	advmod	_	_
 11	se	soi	PRON	_	Person=3|PronType=Prs	12	expl:comp	_	_
 12	désunir	désunir	VERB	_	VerbForm=Inf	8	ccomp	_	_
-13	parce	parce	ADV	_	_	25	mark	_	ExtPos=SCONJ|Idiom=Yes
+13	parce	parce	ADV	_	ExtPos=SCONJ	25	mark	_	Idiom=Yes
 14	qu'	que	SCONJ	_	_	13	fixed	_	InIdiom=Yes|SpaceAfter=No
 15	il	lui	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	17	expl:subj	_	_
 16	y	y	PRON	_	Person=3|PronType=Prs	17	expl:comp	_	_
@@ -5380,7 +5380,7 @@
 7	c'	ce	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	9	nsubj	_	SpaceAfter=No
 8	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	cop	_	_
 9	intéressant	intéressant	ADJ	_	Gender=Masc|Number=Sing	0	root	_	_
-10	parce	parce	ADV	_	_	13	mark	_	ExtPos=SCONJ|Idiom=Yes
+10	parce	parce	ADV	_	ExtPos=SCONJ	13	mark	_	Idiom=Yes
 11	qu'	que	SCONJ	_	_	10	fixed	_	InIdiom=Yes|SpaceAfter=No
 12	on	on	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Ind	13	nsubj	_	_
 13	a	avoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	advcl	_	_
@@ -5805,7 +5805,7 @@
 3	euh	euh	INTJ	_	_	1	discourse	_	SpaceAfter=No
 4	,	,	PUNCT	_	_	24	punct	_	_
 5	qu'	que	SCONJ	_	_	24	mark	_	SpaceAfter=No
-6	il	lui	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	24	dep	_	ExtPos=ADP|Idiom=Yes
+6	il	lui	PRON	_	ExtPos=ADP|Gender=Masc|Number=Sing|Person=3|PronType=Prs	24	dep	_	Idiom=Yes
 7	y	y	PRON	_	Person=3|PronType=Prs	6	fixed	_	InIdiom=Yes
 8	a	avoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	fixed	_	InIdiom=Yes
 9	moins	moins	NOUN	_	Gender=Masc	6	obl:mod	_	_
@@ -6009,7 +6009,7 @@
 1	vous	vous	PRON	_	Number=Plur|Person=2|PronType=Prs	7	nsubj	_	_
 2	êtes	être	AUX	_	Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	7	cop	_	SpaceAfter=No
 3	,	,	PUNCT	_	_	4	punct	_	_
-4	par	par	ADP	_	_	7	advmod	_	ExtPos=ADV|Idiom=Yes
+4	par	par	ADP	_	ExtPos=ADV	7	advmod	_	Idiom=Yes
 5	ailleurs	ailleurs	ADV	_	_	4	fixed	_	InIdiom=Yes|SpaceAfter=No
 6	,	,	PUNCT	_	_	7	punct	_	_
 7	responsable	responsable	ADJ	_	Number=Sing	0	root	_	_
@@ -6096,7 +6096,7 @@
 1	vous	vous	PRON	_	Number=Plur|Person=2|PronType=Prs	2	nsubj	_	_
 2	présidez	présider	VERB	_	Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
 3	,	,	PUNCT	_	_	4	punct	_	_
-4	par	par	ADP	_	_	2	dislocated	_	ExtPos=ADV|Idiom=Yes
+4	par	par	ADP	_	ExtPos=ADV	2	dislocated	_	Idiom=Yes
 5	ailleurs	ailleurs	ADV	_	_	4	fixed	_	InIdiom=Yes|SpaceAfter=No
 6	,	,	PUNCT	_	_	8	punct	_	_
 7	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
@@ -6229,7 +6229,7 @@
 # speaker = L1
 # text = enfin sauf que là, on n'est pas dans la météo.
 1	enfin	enfin	ADV	_	_	8	discourse	_	_
-2	sauf	sauf	CCONJ	_	_	8	mark	_	ExtPos=CCONJ|Idiom=Yes
+2	sauf	sauf	CCONJ	_	ExtPos=CCONJ	8	mark	_	Idiom=Yes
 3	que	que	SCONJ	_	_	2	fixed	_	InIdiom=Yes
 4	là	là	ADV	_	_	8	advmod	_	SpaceAfter=No
 5	,	,	PUNCT	_	_	4	punct	_	_
@@ -6260,7 +6260,7 @@
 3	euh	euh	INTJ	_	_	5	discourse	_	Overlap=Rhap_D2008-26|SpaceAfter=No
 4	,	,	PUNCT	_	_	3	punct	_	Overlap=Rhap_D2008-26
 5	voilà	voilà	VERB	_	_	0	root	_	Overlap=Rhap_D2008-26
-6	XXX	XXX	X	_	_	5	dep	_	ExtPos=X|Overlap=Rhap_D2008-26|Scrap=Yes|SpaceAfter=No
+6	XXX	XXX	X	_	_	5	dep	_	Overlap=Rhap_D2008-26|Scrap=Yes|SpaceAfter=No
 7	.	.	PUNCT	_	_	5	punct	_	_
 
 # macrosyntax = $L2 non //
@@ -6341,7 +6341,7 @@
 # sent_id = Rhap_D2008-32
 # speaker = L2
 # text = c'est-à-dire que si vraiment, euh, l'activité que l'on constate aujourd'hui en, en Amérique du Nord, euh, devient l'activité d'une pandémie, alors, euh…
-1	c'est-à-dire	c'est-à-dire	CCONJ	_	_	24	cc	_	ExtPos=CCONJ|Idiom=Yes
+1	c'est-à-dire	c'est-à-dire	CCONJ	_	ExtPos=CCONJ	24	cc	_	Idiom=Yes
 2	que	que	SCONJ	_	_	1	fixed	_	InIdiom=Yes
 3	si	si	SCONJ	_	_	24	dep	_	_
 4	vraiment	vraiment	ADV	_	_	3	advmod	_	SpaceAfter=No
@@ -6417,7 +6417,7 @@
 6	n'	ne	ADV	_	Polarity=Neg	7	advmod	_	SpaceAfter=No
 7	a	avoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 8	pas	pas	ADV	_	Polarity=Neg	7	advmod	_	_
-9	beaucoup	beaucoup	ADV	_	_	7	obj	_	ExtPos=PRON
+9	beaucoup	beaucoup	ADV	_	ExtPos=PRON	7	obj	_	_
 10	d'	de	ADP	_	_	11	case	_	SpaceAfter=No
 11	expérience	expérience	NOUN	_	Gender=Fem|Number=Sing	9	obl:arg	_	SpaceAfter=No
 12	.	.	PUNCT	_	_	7	punct	_	_
@@ -6429,9 +6429,9 @@
 1	mais	mais	CCONJ	_	_	3	cc	_	_
 2	on	on	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Ind	3	nsubj	_	_
 3	a	avoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
-4	quand	quand	SCONJ	_	_	3	advmod	_	ExtPos=ADV|Idiom=Yes
+4	quand	quand	SCONJ	_	ExtPos=ADV	3	advmod	_	Idiom=Yes
 5	même	même	ADV	_	_	4	fixed	_	InIdiom=Yes
-6	de	de	ADP	_	_	8	det	_	ExtPos=DET|Idiom=Yes
+6	de	de	ADP	_	ExtPos=DET	8	det	_	Idiom=Yes
 7	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	6	fixed	_	InIdiom=Yes|SpaceAfter=No
 8	expérience	expérience	NOUN	_	Gender=Fem|Number=Sing	3	obj	_	_
 9	de	de	ADP	_	_	11	case	_	_
@@ -6517,7 +6517,7 @@
 11	,	,	PUNCT	_	_	12	punct	_	_
 12	euh	euh	INTJ	_	_	10	discourse	_	SpaceAfter=No
 13	,	,	PUNCT	_	_	21	punct	_	_
-14	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	21	advmod	_	ExtPos=ADV|Idiom=Yes
+14	un	un	DET	_	Definite=Ind|ExtPos=ADV|Gender=Masc|Number=Sing|PronType=Art	21	advmod	_	Idiom=Yes
 15	peu	peu	NOUN	_	_	14	fixed	_	InIdiom=Yes
 16	comme	comme	SCONJ	_	_	21	mark	_	_
 17	dans	dans	ADP	_	_	21	case	_	_
@@ -6590,7 +6590,7 @@
 16	faites	faire	VERB	_	Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	13	acl:relcl	_	SpaceAfter=No
 17	,	,	PUNCT	_	_	19	punct	_	_
 18	mais	mais	CCONJ	_	_	19	cc	_	_
-19	à	à	ADP	_	_	16	advmod	_	ExtPos=ADV|Idiom=Yes
+19	à	à	ADP	_	ExtPos=ADV	16	advmod	_	Idiom=Yes
 20	partir	partir	VERB	_	VerbForm=Inf	19	fixed	_	InIdiom=Yes
 21	de	de	ADP	_	_	22	case	_	_
 22	scénarios	scénario	NOUN	_	Gender=Masc|Number=Plur	19	obl:mod	_	_
@@ -6664,7 +6664,7 @@
 # sent_id = Rhap_D2008-44
 # speaker = L2
 # text = un petit peu.
-1	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	0	root	_	ExtPos=ADV|Idiom=Yes
+1	un	un	DET	_	Definite=Ind|ExtPos=ADV|Gender=Masc|Number=Sing|PronType=Art	0	root	_	Idiom=Yes
 2	petit	petit	ADJ	_	Gender=Masc|Number=Sing	1	fixed	_	InIdiom=Yes
 3	peu	peu	NOUN	_	_	1	fixed	_	InIdiom=Yes|SpaceAfter=No
 4	.	.	PUNCT	_	_	1	punct	_	_
@@ -6758,7 +6758,7 @@
 4	on	on	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Ind	5	nsubj	_	_
 5	peut	pouvoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 6	dire	dire	VERB	_	VerbForm=Inf	5	xcomp	_	Subject=SubjRaising
-7	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	12	advmod	_	ExtPos=ADV|Idiom=Yes
+7	un	un	DET	_	Definite=Ind|ExtPos=ADV|Gender=Masc|Number=Sing|PronType=Art	12	advmod	_	Idiom=Yes
 8	peu	peu	NOUN	_	_	7	fixed	_	InIdiom=Yes
 9	de	de	ADP	_	_	12	case	_	_
 10	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	12	det	_	_
@@ -6804,11 +6804,11 @@
 2	ne	ne	ADV	_	Polarity=Neg	3	advmod	_	_
 3	fait	faire	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 4	pas	pas	ADV	_	Polarity=Neg	3	advmod	_	_
-5	de	de	ADP	_	_	7	det	_	ExtPos=DET|Idiom=Yes
+5	de	de	ADP	_	ExtPos=DET	7	det	_	Idiom=Yes
 6	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	fixed	_	InIdiom=Yes
 7	prédiction	prédiction	NOUN	_	Gender=Fem|Number=Sing	3	obj	_	_
 8	ou	ou	CCONJ	_	_	11	cc	_	_
-9	de	de	ADP	_	_	11	det	_	ExtPos=DET|Idiom=Yes
+9	de	de	ADP	_	ExtPos=DET	11	det	_	Idiom=Yes
 10	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	9	fixed	_	InIdiom=Yes
 11	prévision	prévision	NOUN	_	Gender=Fem|Number=Sing	7	conj	_	SpaceAfter=No
 12	,	,	PUNCT	_	_	13	punct	_	_
@@ -6886,7 +6886,7 @@
 # text = pa~, parce que à trente mille, vous êtes dans, dans, encore dans le, dans le raison~, enfin, dans l~…
 1	pa~	pa~	SCONJ	_	_	10	reparandum	_	Overlap=Rhap_D2008-54bis|SpaceAfter=No
 2	,	,	PUNCT	_	_	10	punct	_	Overlap=Rhap_D2008-54bis
-3	parce	parce	ADV	_	_	10	mark	_	ExtPos=SCONJ|Idiom=Yes|Overlap=Rhap_D2008-54bis
+3	parce	parce	ADV	_	ExtPos=SCONJ	10	mark	_	Idiom=Yes|Overlap=Rhap_D2008-54bis
 4	que	que	SCONJ	_	_	3	fixed	_	InIdiom=Yes|Overlap=Rhap_D2008-54bis
 5	à	à	ADP	_	_	7	case	_	_
 6	trente	trente	NUM	_	Number=Plur	7	nummod	_	_
@@ -6916,7 +6916,7 @@
 # sent_id = Rhap_D2008-54bis
 # speaker = L2
 # text = XXX.
-1	XXX	XXX	X	_	_	0	root	_	ExtPos=X|Overlap=Rhap_D2008-54|SpaceAfter=No
+1	XXX	XXX	X	_	_	0	root	_	Overlap=Rhap_D2008-54|SpaceAfter=No
 2	.	.	PUNCT	_	_	1	punct	_	Overlap=Rhap_D2008-54
 
 # macrosyntax = $L2 à trente mille <+ on est dans quelque chose où la mortalité est très voisine de la mortalité de la grippe saisonnière car la grippe saisonnière est meurtrière //
@@ -7085,7 +7085,7 @@
 1	mais	mais	CCONJ	_	_	0	root	_	_
 2	enfin	enfin	ADV	_	_	1	cc	_	_
 3	de~	de~	X	_	_	1	dep	_	Scrap=Yes
-4	XXX	XXX	X	_	_	3	dep	_	ExtPos=X|Scrap=Yes|SpaceAfter=No
+4	XXX	XXX	X	_	_	3	dep	_	Scrap=Yes|SpaceAfter=No
 5	…	…	PUNCT	_	_	1	punct	_	_
 
 # macrosyntax = "pardonnez-moi" si [ ça < c'était "on va dire" une des estimations à "euh" potentiel raisonnable ] < { le | le | l' } estimation inquiétante < c'est quoi //
@@ -7139,7 +7139,7 @@
 3	inquiétantes	inquiétant	ADJ	_	Gender=Fem|Number=Plur	2	amod	_	SpaceAfter=No
 4	,	,	PUNCT	_	_	5	punct	_	_
 5	euh	euh	INTJ	_	_	3	discourse	_	Overlap=Rhap_D2008-65
-6	XXX	XXX	X	_	_	2	dep	_	ExtPos=X|Overlap=Rhap_D2008-65|Scrap=Yes|SpaceAfter=No
+6	XXX	XXX	X	_	_	2	dep	_	Overlap=Rhap_D2008-65|Scrap=Yes|SpaceAfter=No
 7	…	…	PUNCT	_	_	2	punct	_	Overlap=Rhap_D2008-65
 
 # macrosyntax = $L1 ça peut aller jusqu'à -$ combien concernant { { les | les } ESPERLUETTE | la France | ^et les Français } //
@@ -7353,7 +7353,7 @@
 7	pas	pas	ADV	_	Polarity=Neg	2	advmod	_	_
 8	d'	de	ADP	_	_	9	case	_	SpaceAfter=No
 9	antibiotiques	antibiotique	NOUN	_	Gender=Masc|Number=Plur	2	obl:arg	_	_
-10	bien	bien	ADV	_	_	2	advmod	_	ExtPos=ADV|Idiom=Yes
+10	bien	bien	ADV	_	ExtPos=ADV	2	advmod	_	Idiom=Yes
 11	entendu	entendre	ADJ	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	10	fixed	_	InIdiom=Yes|SpaceAfter=No
 12	.	.	PUNCT	_	_	2	punct	_	_
 
@@ -7688,7 +7688,7 @@
 # sent_id = Rhap_D2008-88
 # speaker = L1
 # text = XXX vous, vous savez on a tous été frai~, très frappés.
-1	XXX	XXX	X	_	_	5	dep	_	ExtPos=X|Overlap=Rhap_D2008-87
+1	XXX	XXX	X	_	_	5	dep	_	Overlap=Rhap_D2008-87
 2	vous	vous	PRON	_	Number=Plur|Person=2|PronType=Prs	4	reparandum	_	Overlap=Rhap_D2008-87|SpaceAfter=No
 3	,	,	PUNCT	_	_	4	punct	_	Overlap=Rhap_D2008-87
 4	vous	vous	PRON	_	Number=Plur|Person=2|PronType=Prs	5	nsubj	_	Overlap=Rhap_D2008-87
@@ -7744,7 +7744,7 @@
 34	communication	communication	NOUN	_	Gender=Fem|Number=Sing	32	nmod	_	_
 35	perçue	percevoir	VERB	_	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	34	acl	_	_
 36	par	par	ADP	_	_	37	case	_	_
-37	XXX	XXX	X	_	_	35	obl:mod	_	ExtPos=NOUN|SpaceAfter=No
+37	XXX	XXX	X	_	ExtPos=NOUN	35	obl:mod	_	SpaceAfter=No
 38	.	.	PUNCT	_	_	17	punct	_	_
 
 # macrosyntax = elle a commencé par nous dire [ "euh" on est aux affaires // ] //=
@@ -7972,7 +7972,7 @@
 # sent_id = Rhap_D2008-102
 # speaker = L2
 # text = c'est-à-dire que la grippe, ce qu'on connaît de la grippe…
-1	c'est-à-dire	c'est-à-dire	CCONJ	_	_	4	cc	_	ExtPos=CCONJ|Idiom=Yes
+1	c'est-à-dire	c'est-à-dire	CCONJ	_	ExtPos=CCONJ	4	cc	_	Idiom=Yes
 2	que	que	SCONJ	_	_	1	fixed	_	InIdiom=Yes
 3	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
 4	grippe	grippe	NOUN	_	Gender=Fem|Number=Sing	6	reparandum	_	SpaceAfter=No
@@ -7990,7 +7990,7 @@
 # sent_id = Rhap_D2008-103
 # speaker = L2
 # text = parce que la grippe est une maladie qu'on connaît bien.
-1	parce	parce	ADV	_	_	7	mark	_	ExtPos=SCONJ|Idiom=Yes
+1	parce	parce	ADV	_	ExtPos=SCONJ	7	mark	_	Idiom=Yes
 2	que	que	SCONJ	_	_	1	fixed	_	InIdiom=Yes
 3	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
 4	grippe	grippe	NOUN	_	Gender=Fem|Number=Sing	7	nsubj	_	_
@@ -8114,7 +8114,7 @@
 2	circule	circuler	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 3	on	on	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Ind	5	nsubj	_	_
 4	ne	ne	ADV	_	Polarity=Neg	5	advmod	_	_
-5	sait	savoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	advcl	_	ExtPos=VERB|Graft=Yes
+5	sait	savoir	VERB	_	ExtPos=VERB|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	advcl	_	Graft=Yes
 6	pas	pas	ADV	_	Polarity=Neg	5	advmod	_	_
 7	très	très	ADV	_	_	8	advmod	_	_
 8	bien	bien	ADV	_	_	5	advmod	_	_
@@ -8304,7 +8304,7 @@
 # sent_id = Rhap_D2008-115
 # speaker = L2
 # text = et puis après, si jamais ces épidémies, euh, surviennent dans l'hémisphère sud, on aura une chance encore plus renforcée.
-1	et	et	CCONJ	_	_	19	cc	_	ExtPos=CCONJ|Idiom=Yes
+1	et	et	CCONJ	_	ExtPos=CCONJ	19	cc	_	Idiom=Yes
 2	puis	puis	CCONJ	_	_	1	fixed	_	InIdiom=Yes
 3	après	après	ADV	_	_	19	advmod	_	SpaceAfter=No
 4	,	,	PUNCT	_	_	3	punct	_	_
@@ -8502,7 +8502,7 @@
 4	,	,	PUNCT	_	_	5	punct	_	_
 5	euh	euh	INTJ	_	_	3	discourse	_	SpaceAfter=No
 6	,	,	PUNCT	_	_	7	punct	_	_
-7	XXX	XXX	X	_	_	3	dep	_	ExtPos=X|SpaceAfter=No
+7	XXX	XXX	X	_	_	3	dep	_	SpaceAfter=No
 8	,	,	PUNCT	_	_	7	punct	_	_
 9	pas	pas	ADV	_	Polarity=Neg	5	advmod	_	_
 10	à	à	ADP	_	_	12	case	_	_
@@ -8764,9 +8764,9 @@
 13	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	14	det	_	_
 14	Mexique	Mexique	PROPN	_	_	11	obl:mod	_	_
 15	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	21	cop	_	_
-16	quand	quand	SCONJ	_	_	21	advmod	_	ExtPos=ADV|Idiom=Yes
+16	quand	quand	SCONJ	_	ExtPos=ADV	21	advmod	_	Idiom=Yes
 17	même	même	ADV	_	_	16	fixed	_	InIdiom=Yes
-18	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	20	advmod	_	ExtPos=ADV|Idiom=Yes
+18	un	un	DET	_	Definite=Ind|ExtPos=ADV|Gender=Masc|Number=Sing|PronType=Art	20	advmod	_	Idiom=Yes
 19	peu	peu	NOUN	_	_	18	fixed	_	InIdiom=Yes
 20	plus	plus	ADV	_	_	21	advmod	_	_
 21	contagieuse	contagieux	ADJ	_	Gender=Fem|Number=Sing	4	ccomp	_	_
@@ -8810,7 +8810,7 @@
 6	répandue	répandre	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
 7	assez	assez	ADV	_	_	8	advmod	_	_
 8	rapidement	rapidement	ADV	_	_	6	advmod	_	_
-9	quand	quand	SCONJ	_	_	6	advmod	_	ExtPos=ADV|Idiom=Yes
+9	quand	quand	SCONJ	_	ExtPos=ADV	6	advmod	_	Idiom=Yes
 10	même	même	ADV	_	_	9	fixed	_	InIdiom=Yes
 11-12	aux	_	_	_	_	_	_	_	_
 11	à	à	ADP	_	_	13	case	_	_
@@ -8861,7 +8861,7 @@
 # sent_id = Rhap_D2008-138
 # speaker = L2
 # text = c'est-à-dire que le m~, le, le virus sait faire sa propre besogne de lui-même sur place.
-1	c'est-à-dire	c'est-à-dire	CCONJ	_	_	10	mark	_	ExtPos=CCONJ|Idiom=Yes
+1	c'est-à-dire	c'est-à-dire	CCONJ	_	ExtPos=CCONJ	10	mark	_	Idiom=Yes
 2	que	que	SCONJ	_	_	1	fixed	_	InIdiom=Yes
 3	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
 4	m~	m~	X	_	_	9	reparandum	_	SpaceAfter=No
@@ -9045,7 +9045,7 @@
 20	ce	ce	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	17	obl:mod	_	_
 21	qui	qui	PRON	_	PronType=Rel	22	nsubj	_	_
 22	concerne	concerner	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	20	acl:relcl	_	_
-23	bien	bien	ADV	_	_	22	discourse	_	ExtPos=ADV|Idiom=Yes
+23	bien	bien	ADV	_	ExtPos=ADV	22	discourse	_	Idiom=Yes
 24	entendu	entendre	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	23	fixed	_	InIdiom=Yes
 25	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	26	det	_	_
 26	niveaux	niveau	NOUN	_	Gender=Masc|Number=Plur	22	obj	_	_
@@ -9307,7 +9307,7 @@
 # macrosyntax = en fait < tout l'évangile nous montre un Jésus qui remet l'humanité debout //
 # sent_id = Rhap_M2003-11
 # text = en fait, tout l'évangile nous montre un Jésus qui remet l'humanité debout.
-1	en	en	ADP	_	_	8	discourse	_	ExtPos=ADV|Idiom=Yes
+1	en	en	ADP	_	ExtPos=ADV	8	discourse	_	Idiom=Yes
 2	fait	fait	NOUN	_	Gender=Masc|Number=Sing	1	fixed	_	InIdiom=Yes|SpaceAfter=No
 3	,	,	PUNCT	_	_	1	punct	_	_
 4	tout	tout	ADJ	_	Gender=Masc|Number=Sing	6	amod	_	_
@@ -9894,7 +9894,7 @@
 3	esclave	esclave	NOUN	_	Gender=Masc|Number=Sing	30	obl:mod	_	_
 4	qui	qui	PRON	_	PronType=Rel	5	nsubj	_	_
 5	désire	désirer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	acl:relcl	_	_
-6	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	5	obj	_	ExtPos=ADV|Idiom=Yes
+6	un	un	DET	_	Definite=Ind|ExtPos=ADV|Gender=Masc|Number=Sing|PronType=Art	5	obj	_	Idiom=Yes
 7	peu	peu	NOUN	_	_	6	fixed	_	InIdiom=Yes
 8	d'	de	ADP	_	_	9	case	_	SpaceAfter=No
 9	ombre	ombre	NOUN	_	Gender=Fem|Number=Sing	6	obl:arg	_	SpaceAfter=No
@@ -9956,14 +9956,14 @@
 # sent_id = Rhap_M2003-38
 # text = et beaucoup, il faut l'avouer, beaucoup s'éloignent de la foi à cause de ce mal, à cause de cette souffrance sans répit.
 1	et	et	CCONJ	_	_	11	cc	_	_
-2	beaucoup	beaucoup	ADV	_	_	9	reparandum	_	ExtPos=PRON|SpaceAfter=No
+2	beaucoup	beaucoup	ADV	_	ExtPos=PRON	9	reparandum	_	SpaceAfter=No
 3	,	,	PUNCT	_	_	5	punct	_	_
 4	il	lui	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	5	expl:subj	_	_
 5	faut	falloir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	parataxis:parenth	_	_
 6	l'	lui	PRON	_	Number=Sing|Person=3|PronType=Prs	7	obj	_	SpaceAfter=No
 7	avouer	avouer	VERB	_	VerbForm=Inf	5	ccomp	_	SpaceAfter=No|Subject=NoRaising
 8	,	,	PUNCT	_	_	9	punct	_	_
-9	beaucoup	beaucoup	ADV	_	_	11	nsubj	_	ExtPos=PRON
+9	beaucoup	beaucoup	ADV	_	ExtPos=PRON	11	nsubj	_	_
 10	s'	soi	PRON	_	Person=3|PronType=Prs	11	obj	_	SpaceAfter=No
 11	éloignent	éloigner	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 12	de	de	ADP	_	_	14	case	_	_
@@ -10055,7 +10055,7 @@
 65	responsabilité	responsabilité	NOUN	_	Gender=Fem|Number=Sing	58	appos	_	_
 66	de	de	ADP	_	_	67	case	_	_
 67	chacun	chacun	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Ind	65	nmod	_	_
-68	d'	de	ADP	_	_	70	case	_	ExtPos=ADP|Idiom=Yes|SpaceAfter=No
+68	d'	de	ADP	_	ExtPos=ADP	70	case	_	Idiom=Yes|SpaceAfter=No
 69	entre	entre	ADP	_	_	68	fixed	_	InIdiom=Yes
 70	nous	nous	PRON	_	Number=Plur|Person=1|PronType=Prs	67	obl:arg	_	SpaceAfter=No
 71	.	.	PUNCT	_	_	53	punct	_	_
@@ -10205,9 +10205,9 @@
 # macrosyntax = ^parce ^qu'en fait < "euh" j'aime la biologie //
 # sent_id = Rhap_M1001-7
 # text = parce qu'en fait, euh, j'aime la biologie.
-1	parce	parce	ADV	_	_	9	mark	_	ExtPos=SCONJ|Idiom=Yes
+1	parce	parce	ADV	_	ExtPos=SCONJ	9	mark	_	Idiom=Yes
 2	qu'	que	SCONJ	_	_	1	fixed	_	InIdiom=Yes|SpaceAfter=No
-3	en	en	ADP	_	_	9	discourse	_	ExtPos=ADV|Idiom=Yes
+3	en	en	ADP	_	ExtPos=ADV	9	discourse	_	Idiom=Yes
 4	fait	fait	NOUN	_	Gender=Masc|Number=Sing	3	fixed	_	InIdiom=Yes|SpaceAfter=No
 5	,	,	PUNCT	_	_	6	punct	_	_
 6	euh	euh	INTJ	_	_	3	obj	_	SpaceAfter=No
@@ -10242,7 +10242,7 @@
 19	,	,	PUNCT	_	_	20	punct	_	_
 20	euh	euh	INTJ	_	_	23	discourse	_	SpaceAfter=No
 21	,	,	PUNCT	_	_	23	punct	_	_
-22	XXX	XXX	X	_	_	23	dep	_	ExtPos=X
+22	XXX	XXX	X	_	_	23	dep	_	_
 23	sciences	science	NOUN	_	Gender=Fem|Number=Plur	10	conj	_	_
 24	médico-sociales	médico-sociale	ADJ	_	Gender=Fem|Number=Plur	23	amod	_	SpaceAfter=No
 25	.	.	PUNCT	_	_	3	punct	_	_
@@ -10253,7 +10253,7 @@
 1	et	et	CCONJ	_	_	11	cc	_	_
 2	donc	donc	ADV	_	_	11	advmod	_	SpaceAfter=No
 3	,	,	PUNCT	_	_	4	punct	_	_
-4	en	en	ADP	_	_	2	discourse	_	ExtPos=ADV|Idiom=Yes
+4	en	en	ADP	_	ExtPos=ADV	2	discourse	_	Idiom=Yes
 5	fait	fait	NOUN	_	Gender=Masc|Number=Sing	4	fixed	_	InIdiom=Yes|SpaceAfter=No
 6	,	,	PUNCT	_	_	7	punct	_	_
 7	euh	euh	INTJ	_	_	4	obj	_	SpaceAfter=No
@@ -10288,7 +10288,7 @@
 # sent_id = Rhap_M1001-11
 # text = et en fait, euh, j'ai pas été acceptée parce qu'il y avait un entretien oral.
 1	et	et	CCONJ	_	_	11	cc	_	_
-2	en	en	ADP	_	_	11	discourse	_	ExtPos=ADV|Idiom=Yes
+2	en	en	ADP	_	ExtPos=ADV	11	discourse	_	Idiom=Yes
 3	fait	fait	NOUN	_	Gender=Masc|Number=Sing	2	fixed	_	InIdiom=Yes|SpaceAfter=No
 4	,	,	PUNCT	_	_	5	punct	_	_
 5	euh	euh	INTJ	_	_	2	obj	_	SpaceAfter=No
@@ -10298,7 +10298,7 @@
 9	pas	pas	ADV	_	Polarity=Neg	11	advmod	_	_
 10	été	être	AUX	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	11	aux:pass	_	_
 11	acceptée	accepter	VERB	_	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
-12	parce	parce	ADV	_	_	16	mark	_	ExtPos=SCONJ|Idiom=Yes
+12	parce	parce	ADV	_	ExtPos=SCONJ	16	mark	_	Idiom=Yes
 13	qu'	que	SCONJ	_	_	12	fixed	_	InIdiom=Yes|SpaceAfter=No
 14	il	lui	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	16	expl:subj	_	_
 15	y	y	PRON	_	Person=3|PronType=Prs	16	expl:comp	_	_
@@ -10325,7 +10325,7 @@
 2	,	,	PUNCT	_	_	1	punct	_	_
 3	euh	euh	INTJ	_	_	10	discourse	_	SpaceAfter=No
 4	,	,	PUNCT	_	_	3	punct	_	_
-5	en	en	ADP	_	_	10	discourse	_	ExtPos=ADV|Idiom=Yes
+5	en	en	ADP	_	ExtPos=ADV	10	discourse	_	Idiom=Yes
 6	fait	fait	NOUN	_	Gender=Masc|Number=Sing	5	fixed	_	InIdiom=Yes|SpaceAfter=No
 7	,	,	PUNCT	_	_	8	punct	_	_
 8	euh	euh	INTJ	_	_	5	obj	_	SpaceAfter=No
@@ -10362,7 +10362,7 @@
 7	en	en	ADP	_	_	9	case	_	_
 8	deuxième	deuxième	ADJ	_	Number=Sing	9	amod	_	_
 9	choix	choix	NOUN	_	Gender=Masc	5	obl:mod	_	_
-10	parce	parce	ADV	_	_	17	mark	_	ExtPos=SCONJ|Idiom=Yes
+10	parce	parce	ADV	_	ExtPos=SCONJ	17	mark	_	Idiom=Yes
 11	que	que	SCONJ	_	_	10	fixed	_	InIdiom=Yes
 12	aussi	aussi	ADV	_	_	5	advmod	_	SpaceAfter=No
 13	,	,	PUNCT	_	_	14	punct	_	_
@@ -10409,7 +10409,7 @@
 3	,	,	PUNCT	_	_	4	punct	_	_
 4	euh	euh	INTJ	_	_	2	discourse	_	SpaceAfter=No
 5	,	,	PUNCT	_	_	6	punct	_	_
-6	en	en	ADP	_	_	2	discourse	_	ExtPos=ADV|Idiom=Yes
+6	en	en	ADP	_	ExtPos=ADV	2	discourse	_	Idiom=Yes
 7	fait	fait	NOUN	_	Gender=Masc|Number=Sing	6	fixed	_	InIdiom=Yes|SpaceAfter=No
 8	,	,	PUNCT	_	_	9	punct	_	_
 9	euh	euh	INTJ	_	_	6	obj	_	SpaceAfter=No
@@ -10443,7 +10443,7 @@
 # sent_id = Rhap_M1001-21
 # text = mais en fait, euh, je pense que je vais peut-être me réorienter, euh, si à la fin de l'année, si, euh…
 1	mais	mais	CCONJ	_	_	8	cc	_	_
-2	en	en	ADP	_	_	8	discourse	_	ExtPos=ADV|Idiom=Yes
+2	en	en	ADP	_	ExtPos=ADV	8	discourse	_	Idiom=Yes
 3	fait	fait	NOUN	_	Gender=Masc|Number=Sing	2	fixed	_	InIdiom=Yes|SpaceAfter=No
 4	,	,	PUNCT	_	_	5	punct	_	_
 5	euh	euh	INTJ	_	_	2	obj	_	SpaceAfter=No
@@ -10516,7 +10516,7 @@
 19	vais	aller	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	16	ccomp	_	_
 20	en	en	ADP	_	_	21	case	_	_
 21	psychologie	psychologie	NOUN	_	Gender=Fem|Number=Sing	19	obl:arg	_	_
-22	parce	parce	ADV	_	_	30	mark	_	ExtPos=SCONJ|Idiom=Yes
+22	parce	parce	ADV	_	ExtPos=SCONJ	30	mark	_	Idiom=Yes
 23	que	que	SCONJ	_	_	22	fixed	_	InIdiom=Yes
 24	c'	ce	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	30	nsubj	_	SpaceAfter=No
 25	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	30	cop	_	_
@@ -10549,7 +10549,7 @@
 11	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	12	det	_	SpaceAfter=No
 12	année	année	NOUN	_	Gender=Fem|Number=Sing	10	obj	_	SpaceAfter=No
 13	,	,	PUNCT	_	_	5	punct	_	_
-14	par	par	ADP	_	_	18	advmod	_	ExtPos=ADV|Idiom=Yes
+14	par	par	ADP	_	ExtPos=ADV	18	advmod	_	Idiom=Yes
 15	contre	contre	ADP	_	_	14	fixed	_	InIdiom=Yes|SpaceAfter=No
 16	,	,	PUNCT	_	_	14	punct	_	_
 17	je	moi	PRON	_	Number=Sing|Person=1|PronType=Prs	18	nsubj	_	_
@@ -10652,7 +10652,7 @@
 7	réorienterai	réorienter	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Fut|VerbForm=Fin	3	ccomp	_	_
 8	en	en	ADP	_	_	9	case	_	_
 9	psychologie	psychologie	NOUN	_	Gender=Fem|Number=Sing	7	obl:arg	_	_
-10	parce	parce	ADV	_	_	14	mark	_	ExtPos=SCONJ|Idiom=Yes
+10	parce	parce	ADV	_	ExtPos=SCONJ	14	mark	_	Idiom=Yes
 11	que	que	SCONJ	_	_	10	fixed	_	InIdiom=Yes
 12	ça	ça	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	14	nsubj	_	_
 13	m'	moi	PRON	_	Number=Sing|Person=1|PronType=Prs	14	obj	_	SpaceAfter=No
@@ -10904,7 +10904,7 @@
 11	femme	femme	NOUN	_	Gender=Fem|Number=Sing	8	nmod	_	_
 12	pour	pour	ADP	_	_	13	mark	_	_
 13	réussir	réussir	VERB	_	VerbForm=Inf	1	advcl	_	Subject=NoRaising
-14	tout	tout	ADV	_	_	13	advmod	_	ExtPos=ADV|Idiom=Yes
+14	tout	tout	ADV	_	ExtPos=ADV	13	advmod	_	Idiom=Yes
 15	à	à	ADP	_	_	14	fixed	_	InIdiom=Yes
 16	fait	fait	NOUN	_	Gender=Masc|Number=Sing	14	fixed	_	InIdiom=Yes
 17	?	?	PUNCT	_	_	1	punct	_	_
@@ -10980,7 +10980,7 @@
 5	,	,	PUNCT	_	_	14	punct	_	_
 6	euh	euh	INTJ	_	_	14	discourse	_	SpaceAfter=No
 7	,	,	PUNCT	_	_	6	punct	_	_
-8	disons	dire	VERB	_	Mood=Imp|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	14	nsubj	_	ExtPos=NOUN|Graft=Yes
+8	disons	dire	VERB	_	ExtPos=NOUN|Mood=Imp|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	14	nsubj	_	Graft=Yes
 9	ma	son	DET	_	Gender=Fem|Number=Sing|Number[psor]=Sing|Person[psor]=1|Poss=Yes|PronType=Prs	10	det	_	_
 10	carrière	carrière	NOUN	_	Gender=Fem|Number=Sing	8	obj	_	_
 11	pour	pour	ADP	_	_	12	mark	_	_
@@ -11154,7 +11154,7 @@
 5	si	si	SCONJ	_	_	7	mark	_	_
 6	vous	vous	PRON	_	Number=Plur|Person=2|PronType=Prs	7	nsubj	_	_
 7	êtes	être	VERB	_	Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	4	ccomp	_	_
-8	d'	de	ADP	_	_	7	obl:arg	_	ExtPos=ADP|Idiom=Yes|SpaceAfter=No
+8	d'	de	ADP	_	ExtPos=ADP	7	obl:arg	_	Idiom=Yes|SpaceAfter=No
 9	accord	accord	NOUN	_	Gender=Masc|Number=Sing	8	fixed	_	InIdiom=Yes|SpaceAfter=No
 10	.	.	PUNCT	_	_	4	punct	_	_
 
@@ -11304,7 +11304,7 @@
 7	si	si	SCONJ	_	_	9	mark	_	_
 8	je	moi	PRON	_	Number=Sing|Person=1|PronType=Prs	9	nsubj	_	_
 9	suis	être	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	6	ccomp	_	_
-10	d'	de	ADP	_	_	9	obl:arg	_	ExtPos=ADP|Idiom=Yes|SpaceAfter=No
+10	d'	de	ADP	_	ExtPos=ADP	9	obl:arg	_	Idiom=Yes|SpaceAfter=No
 11	accord	accord	NOUN	_	Gender=Masc|Number=Sing	10	fixed	_	InIdiom=Yes
 12	avec	avec	ADP	_	_	13	case	_	_
 13	Marcel	Marcel	PROPN	_	_	9	obl:mod	_	_
@@ -11529,7 +11529,7 @@
 7	envie	envie	NOUN	_	Gender=Fem|Number=Sing	6	obj:lvc	_	_
 8	de	de	ADP	_	_	9	mark	_	_
 9	savoir	savoir	VERB	_	VerbForm=Inf	7	xcomp	_	Subject=SubjRaising
-10	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	13	advmod	_	ExtPos=ADV|Idiom=Yes
+10	un	un	DET	_	Definite=Ind|ExtPos=ADV|Gender=Masc|Number=Sing|PronType=Art	13	advmod	_	Idiom=Yes
 11	petit	petit	ADJ	_	Gender=Masc|Number=Sing	10	fixed	_	InIdiom=Yes
 12	peu	peu	NOUN	_	_	10	fixed	_	InIdiom=Yes
 13	mieux	mieux	ADV	_	_	9	advmod	_	_
@@ -11542,7 +11542,7 @@
 # sent_id = Rhap_D2001-36
 # speaker = L2
 # text = et puis je suis toujours étonnée, maintenant, plus.
-1	et	et	CCONJ	_	_	6	cc	_	ExtPos=CCONJ|Idiom=Yes
+1	et	et	CCONJ	_	ExtPos=CCONJ	6	cc	_	Idiom=Yes
 2	puis	puis	CCONJ	_	_	1	fixed	_	InIdiom=Yes
 3	je	moi	PRON	_	Number=Sing|Person=1|PronType=Prs	6	nsubj	_	_
 4	suis	être	AUX	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	6	cop	_	_
@@ -11708,7 +11708,7 @@
 3	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	aux:tense	_	SpaceAfter=No
 4	-il	lui	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	5	nsubj	_	_
 5	passé	passer	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
-6	tout	tout	ADV	_	_	10	advmod	_	ExtPos=ADV|Idiom=Yes
+6	tout	tout	ADV	_	ExtPos=ADV	10	advmod	_	Idiom=Yes
 7	à	à	ADP	_	_	6	fixed	_	InIdiom=Yes
 8	fait	fait	NOUN	_	Gender=Masc|Number=Sing	6	fixed	_	InIdiom=Yes
 9	autre	autre	DET	_	Gender=Fem|Number=Sing	10	det	_	_
@@ -11758,13 +11758,13 @@
 5	eu	avoir	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	1	ccomp	_	_
 6	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
 7	destin	destin	NOUN	_	Gender=Masc|Number=Sing	5	obj	_	_
-8	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	10	advmod	_	ExtPos=ADV|Idiom=Yes
+8	un	un	DET	_	Definite=Ind|ExtPos=ADV|Gender=Masc|Number=Sing|PronType=Art	10	advmod	_	Idiom=Yes
 9	peu	peu	NOUN	_	_	8	fixed	_	InIdiom=Yes
 10	différent	différent	ADJ	_	Gender=Masc|Number=Sing	7	amod	_	SpaceAfter=No
 11	,	,	PUNCT	_	_	12	punct	_	_
 12	euh	euh	INTJ	_	_	10	discourse	_	SpaceAfter=No
 13	,	,	PUNCT	_	_	26	punct	_	_
-14	parce	parce	ADV	_	_	26	mark	_	ExtPos=SCONJ|Idiom=Yes
+14	parce	parce	ADV	_	ExtPos=SCONJ	26	mark	_	Idiom=Yes
 15	que	que	SCONJ	_	_	14	fixed	_	InIdiom=Yes
 16	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	17	det	_	_
 17	conditions	condition	NOUN	_	Gender=Fem|Number=Plur	26	nsubj	_	_
@@ -11834,7 +11834,7 @@
 2	,	,	PUNCT	_	_	1	punct	_	_
 3	c'	ce	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	8	nsubj	_	SpaceAfter=No
 4	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	cop	_	_
-5	tout	tout	ADV	_	_	8	advmod	_	ExtPos=ADV|Idiom=Yes
+5	tout	tout	ADV	_	ExtPos=ADV	8	advmod	_	Idiom=Yes
 6	à	à	ADP	_	_	5	fixed	_	InIdiom=Yes
 7	fait	fait	NOUN	_	Gender=Masc|Number=Sing	5	fixed	_	InIdiom=Yes
 8	normal	normal	ADJ	_	Gender=Masc|Number=Sing	0	root	_	SpaceAfter=No
@@ -11924,7 +11924,7 @@
 18	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	19	det	_	_
 19	monsieur	monsieur	NOUN	_	Gender=Masc|Number=Sing	17	obj	_	_
 20	avec	avec	ADP	_	_	23	case	_	_
-21	de	de	ADP	_	_	23	det	_	ExtPos=DET|Idiom=Yes
+21	de	de	ADP	_	ExtPos=DET	23	det	_	Idiom=Yes
 22	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	21	fixed	_	InIdiom=Yes|SpaceAfter=No
 23	argent	argent	NOUN	_	Gender=Masc|Number=Sing	19	nmod	_	SpaceAfter=No
 24	.	.	PUNCT	_	_	1	punct	_	_
@@ -11998,7 +11998,7 @@
 8	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
 9	journalisme	journalisme	NOUN	_	Gender=Masc|Number=Sing	6	obl:arg	_	SpaceAfter=No
 10	,	,	PUNCT	_	_	18	punct	_	_
-11	parce	parce	ADV	_	_	18	mark	_	ExtPos=SCONJ|Idiom=Yes
+11	parce	parce	ADV	_	ExtPos=SCONJ	18	mark	_	Idiom=Yes
 12	que	que	SCONJ	_	_	11	fixed	_	InIdiom=Yes|SpaceAfter=No
 13	,	,	PUNCT	_	_	18	punct	_	_
 14	euh	euh	INTJ	_	_	18	discourse	_	SpaceAfter=No
@@ -12040,7 +12040,7 @@
 # text = je gagnais beaucoup d'argent dans le cinéma, euh.
 1	je	moi	PRON	_	Number=Sing|Person=1|PronType=Prs	2	nsubj	_	_
 2	gagnais	gagner	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Imp|VerbForm=Fin	0	root	_	_
-3	beaucoup	beaucoup	ADV	_	_	2	obj	_	ExtPos=PRON
+3	beaucoup	beaucoup	ADV	_	ExtPos=PRON	2	obj	_	_
 4	d'	de	ADP	_	_	5	case	_	SpaceAfter=No
 5	argent	argent	NOUN	_	Gender=Masc|Number=Sing	3	obl:arg	_	_
 6	dans	dans	ADP	_	_	8	case	_	_
@@ -12136,7 +12136,7 @@
 19	Paris	Paris	PROPN	_	_	14	obl:mod	_	_
 20	puisque	puisque	SCONJ	_	_	30	mark	_	SpaceAfter=No
 21	,	,	PUNCT	_	_	22	punct	_	_
-22	XXX	XXX	X	_	_	30	dep	_	ExtPos=X|Scrap=Yes|SpaceAfter=No
+22	XXX	XXX	X	_	_	30	dep	_	Scrap=Yes|SpaceAfter=No
 23	,	,	PUNCT	_	_	30	punct	_	_
 24	ils	eux	PRON	_	Gender=Masc|Number=Plur|Person=3|PronType=Prs	30	nsubj	_	_
 25	avaient	avoir	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	30	aux:tense	_	_
@@ -12199,10 +12199,10 @@
 # speaker = L1
 # text = faudrait quand même revenir un peu au début.
 1	faudrait	falloir	VERB	_	Mood=Cnd|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
-2	quand	quand	SCONJ	_	_	1	advmod	_	ExtPos=ADV|Idiom=Yes
+2	quand	quand	SCONJ	_	ExtPos=ADV	1	advmod	_	Idiom=Yes
 3	même	même	ADV	_	_	2	fixed	_	InIdiom=Yes
 4	revenir	revenir	VERB	_	VerbForm=Inf	1	ccomp	_	Subject=NoRaising
-5	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	9	advmod	_	ExtPos=ADV|Idiom=Yes
+5	un	un	DET	_	Definite=Ind|ExtPos=ADV|Gender=Masc|Number=Sing|PronType=Art	9	advmod	_	Idiom=Yes
 6	peu	peu	NOUN	_	_	5	fixed	_	InIdiom=Yes
 7-8	au	_	_	_	_	_	_	_	_
 7	à	à	ADP	_	_	9	case	_	_
@@ -12416,7 +12416,7 @@
 # sent_id = Rhap_D2001-75
 # speaker = L1
 # text = XXX.
-1	XXX	XXX	X	_	_	0	root	_	ExtPos=X|Overlap=Rhap_D2001-75|SpaceAfter=No
+1	XXX	XXX	X	_	_	0	root	_	Overlap=Rhap_D2001-75|SpaceAfter=No
 2	.	.	PUNCT	_	_	1	punct	_	Overlap=Rhap_D2001-75
 
 # macrosyntax = ce -$ qui est dur < { ce n'est pas | surtout quand on est très jeune <+ ce n'est vraiment pas } { d'être pauvre | ^ou de ESPERLUETTE } //
@@ -12867,7 +12867,7 @@
 # text = euh, c'est-à-dire que je connaissais Allégret très bien.
 1	euh	euh	INTJ	_	_	6	discourse	_	SpaceAfter=No
 2	,	,	PUNCT	_	_	1	punct	_	_
-3	c'est-à-dire	c'est-à-dire	CCONJ	_	_	6	cc	_	ExtPos=CCONJ|Idiom=Yes
+3	c'est-à-dire	c'est-à-dire	CCONJ	_	ExtPos=CCONJ	6	cc	_	Idiom=Yes
 4	que	que	SCONJ	_	_	3	fixed	_	InIdiom=Yes
 5	je	moi	PRON	_	Number=Sing|Person=1|PronType=Prs	6	nsubj	_	_
 6	connaissais	connaître	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Imp|VerbForm=Fin	0	root	_	_
@@ -12929,7 +12929,7 @@
 # sent_id = Rhap_D2001-99
 # speaker = L2
 # text = et puis il ne savait pas du tout l'âge que j'avais.
-1	et	et	CCONJ	_	_	5	cc	_	ExtPos=CCONJ|Idiom=Yes
+1	et	et	CCONJ	_	ExtPos=CCONJ	5	cc	_	Idiom=Yes
 2	puis	puis	CCONJ	_	_	1	fixed	_	InIdiom=Yes
 3	il	lui	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	5	nsubj	_	_
 4	ne	ne	ADV	_	Polarity=Neg	5	advmod	_	_
@@ -13006,7 +13006,7 @@
 # text = ce qui quand même n'était pas très sérieux.
 1	ce	ce	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	0	root	_	_
 2	qui	qui	PRON	_	PronType=Rel	9	nsubj	_	_
-3	quand	quand	SCONJ	_	_	9	advmod	_	ExtPos=ADV|Idiom=Yes
+3	quand	quand	SCONJ	_	ExtPos=ADV	9	advmod	_	Idiom=Yes
 4	même	même	ADV	_	_	3	fixed	_	InIdiom=Yes
 5	n'	ne	ADV	_	Polarity=Neg	9	advmod	_	SpaceAfter=No
 6	était	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	9	cop	_	_
@@ -13024,7 +13024,7 @@
 3	ne	ne	ADV	_	Polarity=Neg	5	advmod	_	_
 4	se	soi	PRON	_	Person=3|PronType=Prs	5	expl:comp	_	_
 5	doutait	douter	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
-6	quand	quand	SCONJ	_	_	5	advmod	_	ExtPos=ADV|Idiom=Yes
+6	quand	quand	SCONJ	_	ExtPos=ADV	5	advmod	_	Idiom=Yes
 7	même	même	ADV	_	_	6	fixed	_	InIdiom=Yes
 8	pas	pas	ADV	_	Polarity=Neg	5	advmod	_	_
 9	que	que	SCONJ	_	_	13	mark	_	_
@@ -13181,7 +13181,7 @@
 7	oui	oui	INTJ	_	_	14	discourse	_	SpaceAfter=No
 8	,	,	PUNCT	_	_	14	punct	_	_
 9	mais	mais	CCONJ	_	_	14	cc	_	_
-10	en	en	ADP	_	_	14	dep	_	ExtPos=ADP|Idiom=Yes
+10	en	en	ADP	_	ExtPos=ADP	14	dep	_	Idiom=Yes
 11	attendant	attendre	VERB	_	Tense=Pres|VerbForm=Part	10	fixed	_	InIdiom=Yes|SpaceAfter=No
 12	,	,	PUNCT	_	_	10	punct	_	_
 13	je	moi	PRON	_	Number=Sing|Person=1|PronType=Prs	14	nsubj	_	_
@@ -13217,7 +13217,7 @@
 4	,	,	PUNCT	_	_	3	punct	_	_
 5	je	moi	PRON	_	Number=Sing|Person=1|PronType=Prs	6	nsubj	_	_
 6	gagnais	gagner	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Imp|VerbForm=Fin	0	root	_	_
-7	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	6	advmod	_	ExtPos=ADV|Idiom=Yes
+7	un	un	DET	_	Definite=Ind|ExtPos=ADV|Gender=Masc|Number=Sing|PronType=Art	6	advmod	_	Idiom=Yes
 8	peu	peu	NOUN	_	_	7	fixed	_	InIdiom=Yes
 9	d'	de	ADP	_	_	10	case	_	SpaceAfter=No
 10	argent	argent	NOUN	_	Gender=Masc|Number=Sing	7	obl:arg	_	SpaceAfter=No
@@ -13644,7 +13644,7 @@
 2	il	lui	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	4	expl:subj	_	_
 3	y	y	PRON	_	Person=3|PronType=Prs	4	expl:comp	_	_
 4	a	avoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
-5	quand	quand	SCONJ	_	_	4	advmod	_	ExtPos=ADV|Idiom=Yes
+5	quand	quand	SCONJ	_	ExtPos=ADV	4	advmod	_	Idiom=Yes
 6	même	même	ADV	_	_	5	fixed	_	InIdiom=Yes
 7	dans	dans	ADP	_	_	9	case	_	_
 8	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
@@ -13873,7 +13873,7 @@
 8	bourgeoise	bourgeois	ADJ	_	Gender=Fem|Number=Sing	7	amod	_	SpaceAfter=No
 9	,	,	PUNCT	_	_	10	punct	_	_
 10	élevés	élever	VERB	_	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	7	conj	_	_
-11	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	16	advmod	_	ExtPos=ADV|Idiom=Yes
+11	un	un	DET	_	Definite=Ind|ExtPos=ADV|Gender=Masc|Number=Sing|PronType=Art	16	advmod	_	Idiom=Yes
 12	peu	peu	NOUN	_	_	11	fixed	_	InIdiom=Yes
 13	de	de	ADP	_	_	16	case	_	_
 14	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	16	det	_	_
@@ -13889,7 +13889,7 @@
 24	d'	de	ADP	_	_	26	case	_	SpaceAfter=No
 25	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	26	det	_	_
 26	façon	façon	NOUN	_	Gender=Fem|Number=Sing	16	appos	_	_
-27	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	29	advmod	_	ExtPos=ADV|Idiom=Yes
+27	un	un	DET	_	Definite=Ind|ExtPos=ADV|Gender=Masc|Number=Sing|PronType=Art	29	advmod	_	Idiom=Yes
 28	peu	peu	NOUN	_	_	27	fixed	_	InIdiom=Yes
 29	britannique	britannique	ADJ	_	Gender=Fem|Number=Sing	26	amod	_	_
 30	dans	dans	ADP	_	_	32	case	_	_
@@ -13956,7 +13956,7 @@
 9	,	,	PUNCT	_	_	11	punct	_	_
 10	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	11	det	_	_
 11	éducation	éducation	NOUN	_	Gender=Fem|Number=Sing	0	root	_	_
-12	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	15	advmod	_	ExtPos=ADV|Idiom=Yes
+12	un	un	DET	_	Definite=Ind|ExtPos=ADV|Gender=Masc|Number=Sing|PronType=Art	15	advmod	_	Idiom=Yes
 13	petit	petit	NOUN	_	Gender=Masc|Number=Sing	12	fixed	_	InIdiom=Yes
 14	peu	peu	NOUN	_	_	12	fixed	_	InIdiom=Yes
 15	rigide	rigide	ADJ	_	Gender=Fem|Number=Sing	11	amod	_	_
@@ -14222,7 +14222,7 @@
 # text = c'est bien sûr dans mon esprit la marque du lien direct qui unit le président de la république, chef des armées, avec, euh, toutes celles et tous ceux qui ont la difficile mission de veiller sur nos intérêts et sur la sécurité de nos concitoyens.
 1	c'	ce	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	9	nsubj	_	SpaceAfter=No
 2	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	cop	_	_
-3	bien	bien	ADV	_	_	9	advmod	_	ExtPos=ADV|Idiom=Yes
+3	bien	bien	ADV	_	ExtPos=ADV	9	advmod	_	Idiom=Yes
 4	sûr	sûr	ADJ	_	Gender=Masc|Number=Sing	3	fixed	_	InIdiom=Yes
 5	dans	dans	ADP	_	_	7	case	_	_
 6	mon	son	DET	_	Number=Sing|Number[psor]=Sing|Person[psor]=1|Poss=Yes|PronType=Prs	7	det	_	_
@@ -14362,7 +14362,7 @@
 34	et	et	CCONJ	_	_	36	cc	_	_
 35	ses	son	DET	_	Number=Plur|Number[psor]=Sing|Person[psor]=3|Poss=Yes|PronType=Prs	36	det	_	_
 36	valeurs	valeur	NOUN	_	Gender=Fem|Number=Plur	30	conj	_	_
-37	à	à	ADP	_	_	40	case	_	ExtPos=ADP|Idiom=Yes
+37	à	à	ADP	_	ExtPos=ADP	40	case	_	Idiom=Yes
 38	travers	travers	NOUN	_	Gender=Masc	37	fixed	_	InIdiom=Yes
 39	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	40	det	_	_
 40	monde	monde	NOUN	_	Gender=Masc|Number=Sing	28	obl:mod	_	SpaceAfter=No
@@ -14548,7 +14548,7 @@
 55	responsabilités	responsabilité	NOUN	_	Gender=Fem|Number=Plur	53	obj	_	_
 56	et	et	CCONJ	_	_	64	cc	_	_
 57-58	au	_	_	_	_	_	_	_	_
-57	à	à	ADP	_	_	64	obl:arg	_	ExtPos=ADV|Idiom=Yes
+57	à	à	ADP	_	ExtPos=ADV	64	obl:arg	_	Idiom=Yes
 58	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	57	fixed	_	InIdiom=Yes
 59	sein	sein	NOUN	_	Gender=Masc|Number=Sing	57	fixed	_	InIdiom=Yes
 60	de	de	ADP	_	_	61	case	_	_
@@ -14681,7 +14681,7 @@
 # text = aujourd'hui, plus que jamais, et vous le savez mieux que personne, c'est sur le terrain que se gagne ou se perd le combat.
 1	aujourd'hui	aujourd'hui	ADV	_	_	19	advmod	_	SpaceAfter=No
 2	,	,	PUNCT	_	_	5	punct	_	_
-3	plus	plus	ADV	_	_	5	cc	_	ExtPos=SCONJ|Idiom=Yes
+3	plus	plus	ADV	_	ExtPos=SCONJ	5	cc	_	Idiom=Yes
 4	que	que	SCONJ	_	_	3	fixed	_	InIdiom=Yes
 5	jamais	jamais	ADV	_	PronType=Neg	1	conj	_	SpaceAfter=No
 6	,	,	PUNCT	_	_	10	punct	_	_
@@ -14756,13 +14756,13 @@
 6	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	13	cop	_	_
 7	pour	pour	ADP	_	_	8	case	_	_
 8	vous	vous	PRON	_	Number=Plur|Person=2|PronType=Prs	13	obl:mod	_	_
-9	de	de	ADP	_	_	13	advmod	_	ExtPos=ADV|Idiom=Yes
+9	de	de	ADP	_	ExtPos=ADV	13	advmod	_	Idiom=Yes
 10	plus	plus	ADV	_	_	9	fixed	_	InIdiom=Yes
 11	en	en	ADP	_	_	9	fixed	_	InIdiom=Yes
 12	plus	plus	ADV	_	_	9	fixed	_	InIdiom=Yes
 13	difficile	difficile	ADJ	_	Number=Sing	0	root	_	_
 14	et	et	CCONJ	_	_	19	cc	_	_
-15	de	de	ADP	_	_	19	advmod	_	ExtPos=ADV|Idiom=Yes
+15	de	de	ADP	_	ExtPos=ADV	19	advmod	_	Idiom=Yes
 16	plus	plus	ADV	_	_	15	fixed	_	InIdiom=Yes
 17	en	en	ADP	_	_	15	fixed	_	InIdiom=Yes
 18	plus	plus	ADV	_	_	15	fixed	_	InIdiom=Yes
@@ -14957,7 +14957,7 @@
 22	mais	mais	CCONJ	_	_	24	cc	_	_
 23	qui	qui	PRON	_	PronType=Rel	24	nsubj	_	_
 24	demande	demander	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	19	conj	_	_
-25	beaucoup	beaucoup	ADV	_	_	24	obj	_	ExtPos=PRON
+25	beaucoup	beaucoup	ADV	_	ExtPos=PRON	24	obj	_	_
 26	de	de	ADP	_	_	27	case	_	_
 27	travail	travail	NOUN	_	Gender=Masc|Number=Sing	25	obl:arg	_	SpaceAfter=No
 28	.	.	PUNCT	_	_	8	punct	_	_
@@ -15356,7 +15356,7 @@
 # sent_id = Rhap_D1001-20
 # speaker = L1
 # text = et puis nous avons une autre région qui est le Gâtinais.
-1	et	et	CCONJ	_	_	4	cc	_	ExtPos=CCONJ|Idiom=Yes
+1	et	et	CCONJ	_	ExtPos=CCONJ	4	cc	_	Idiom=Yes
 2	puis	puis	CCONJ	_	_	1	fixed	_	InIdiom=Yes
 3	nous	nous	PRON	_	Number=Plur|Person=1|PronType=Prs	4	nsubj	_	_
 4	avons	avoir	VERB	_	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
@@ -15393,7 +15393,7 @@
 18	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	19	det	_	_
 19	part	part	NOUN	_	Gender=Fem|Number=Sing	15	obl:mod	_	SpaceAfter=No
 20	,	,	PUNCT	_	_	28	punct	_	_
-21	et	et	CCONJ	_	_	28	cc	_	ExtPos=CCONJ|Idiom=Yes
+21	et	et	CCONJ	_	ExtPos=CCONJ	28	cc	_	Idiom=Yes
 22	puis	puis	CCONJ	_	_	21	fixed	_	InIdiom=Yes
 23	beaucoup	beaucoup	ADV	_	_	24	advmod	_	_
 24	plus	plus	ADV	_	_	28	advmod	_	SpaceAfter=No
@@ -15417,7 +15417,7 @@
 3	y	y	PRON	_	Person=3|PronType=Prs	4	expl:comp	_	_
 4	a	avoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 5	aussi	aussi	ADV	_	_	4	advmod	_	_
-6	de	de	ADP	_	_	10	det	_	ExtPos=DET|Idiom=Yes
+6	de	de	ADP	_	ExtPos=DET	10	det	_	Idiom=Yes
 7	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	fixed	_	InIdiom=Yes
 8	très	très	ADV	_	_	9	advmod	_	_
 9	bonne	bon	ADJ	_	Gender=Fem|Number=Sing	10	amod	_	_
@@ -15505,7 +15505,7 @@
 # sent_id = Rhap_D1001-27
 # speaker = L1
 # text = et puis c'est un pays dans lequel on aime la bonne vie.
-1	et	et	CCONJ	_	_	6	cc	_	ExtPos=CCONJ|Idiom=Yes
+1	et	et	CCONJ	_	ExtPos=CCONJ	6	cc	_	Idiom=Yes
 2	puis	puis	CCONJ	_	_	1	fixed	_	InIdiom=Yes
 3	c'	ce	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	6	nsubj	_	SpaceAfter=No
 4	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	cop	_	_
@@ -15753,7 +15753,7 @@
 # sent_id = Rhap_D1001-34
 # speaker = L1
 # text = c'est-à-dire que est-ce qu'il y a des couches sociales qui, plus que d'autres, disons, dans Orléans même où évidemment la, la société est plus stratifiée et peut-être plus variée que, qu'à la campagne…
-1	c'est-à-dire	c'est-à-dire	CCONJ	_	_	8	cc	_	ExtPos=CCONJ|Idiom=Yes
+1	c'est-à-dire	c'est-à-dire	CCONJ	_	ExtPos=CCONJ	8	cc	_	Idiom=Yes
 2	que	que	SCONJ	_	_	1	fixed	_	InIdiom=Yes
 3	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	cop	_	SpaceAfter=No
 4	-ce	ce	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	8	expl:subj	_	_
@@ -15875,7 +15875,7 @@
 10	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
 11	prêtre	prêtre	NOUN	_	Gender=Masc|Number=Sing	12	nsubj	_	_
 12	est	être	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	csubj	_	_
-13	à	à	ADP	_	_	12	obl:arg	_	ExtPos=ADV|Idiom=Yes
+13	à	à	ADP	_	ExtPos=ADV	12	obl:arg	_	Idiom=Yes
 14	même	même	ADV	_	_	13	fixed	_	InIdiom=Yes
 15	de	de	ADP	_	_	16	mark	_	_
 16	côtoyer	côtoyer	VERB	_	VerbForm=Inf	13	xcomp	_	Subject=SubjRaising
@@ -15918,7 +15918,7 @@
 16	avoir	avoir	VERB	_	VerbForm=Inf	15	xcomp	_	Subject=SubjRaising
 17	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	18	det	_	_
 18	prêtre	prêtre	NOUN	_	Gender=Masc|Number=Sing	15	nsubj	_	_
-19	et	et	CCONJ	_	_	22	cc	_	ExtPos=CCONJ|Idiom=Yes
+19	et	et	CCONJ	_	ExtPos=CCONJ	22	cc	_	Idiom=Yes
 20	puis	puis	CCONJ	_	_	19	fixed	_	InIdiom=Yes
 21	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	22	det	_	_
 22	classes	classe	NOUN	_	Gender=Fem|Number=Plur	18	conj	_	_
@@ -16004,7 +16004,7 @@
 23	le	lui	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	24	obj	_	_
 24	voir	voir	VERB	_	VerbForm=Inf	22	xcomp	_	SpaceAfter=No|Subject=SubjRaising
 25	,	,	PUNCT	_	_	26	punct	_	_
-26	parce	parce	ADV	_	_	30	mark	_	ExtPos=SCONJ|Idiom=Yes
+26	parce	parce	ADV	_	ExtPos=SCONJ	30	mark	_	Idiom=Yes
 27	qu'	que	SCONJ	_	_	26	fixed	_	InIdiom=Yes|SpaceAfter=No
 28	il	lui	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	30	nsubj	_	_
 29	ne	ne	ADV	_	Polarity=Neg	34	advmod	_	_
@@ -16181,7 +16181,7 @@
 45	difficiles	difficile	ADJ	_	Number=Plur	0	root	_	_
 46	à	à	ADP	_	_	47	mark	_	_
 47	aborder	aborder	VERB	_	VerbForm=Inf	45	advcl	_	Subject=SubjRaising
-48	parce	parce	ADV	_	_	61	mark	_	ExtPos=SCONJ|Idiom=Yes
+48	parce	parce	ADV	_	ExtPos=SCONJ	61	mark	_	Idiom=Yes
 49	que	que	SCONJ	_	_	48	fixed	_	InIdiom=Yes
 50	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	51	det	_	_
 51	nombre	nombre	NOUN	_	Gender=Masc|Number=Sing	61	nsubj	_	_
@@ -16192,7 +16192,7 @@
 55	en	en	ADP	_	_	56	case	_	_
 56	ville	ville	NOUN	_	Gender=Fem|Number=Sing	51	nmod	_	_
 57	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	61	cop	_	_
-58	quand	quand	SCONJ	_	_	61	advmod	_	ExtPos=ADV|Idiom=Yes
+58	quand	quand	SCONJ	_	ExtPos=ADV	61	advmod	_	Idiom=Yes
 59	même	même	ADV	_	_	58	fixed	_	InIdiom=Yes
 60	très	très	ADV	_	_	61	advmod	_	_
 61	petit	petit	ADJ	_	Gender=Masc|Number=Sing	45	advcl	_	_
