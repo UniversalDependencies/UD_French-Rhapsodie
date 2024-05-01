@@ -20,6 +20,9 @@ Xpos and features (which are not available in v2.2 of UD_French-Spoken) will be 
 
 # Changelog
 
+* 2024-05-15 v2.14
+  * Fix a few inconsistent annotation of idioms
+  * See [SUD commit logs](https://github.com/surfacesyntacticud/SUD_French-Rhapsodie/commits/master/) for more details
 * 2021-11-15 v2.9
   * Repository renamed from UD_French-Spoken to UD_French-Rhapsodie.
 * 2020-11-15 v2.7
