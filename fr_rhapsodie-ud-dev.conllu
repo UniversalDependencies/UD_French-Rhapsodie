@@ -2276,7 +2276,7 @@
 32	,	,	PUNCT	_	_	7	punct	_	_
 33	c'	ce	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	35	nsubj	_	SpaceAfter=No
 34	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	35	cop	_	_
-35	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	39	reparandum	_	_
+35	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	39	reparandum	_	Scrap=Yes
 36	c'	ce	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	39	nsubj	_	SpaceAfter=No
 37	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	39	cop	_	_
 38	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	39	det	_	_
@@ -2519,8 +2519,8 @@
 1	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	2	det	_	_
 2	animaux	animal	NOUN	_	Gender=Masc|Number=Plur	15	dislocated	_	SpaceAfter=No
 3	,	,	PUNCT	_	_	2	punct	_	_
-4	dans	dans	ADP	_	_	5	dep:comp	_	_
-5	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	9	reparandum	_	SpaceAfter=No
+4	dans	dans	ADP	_	_	5	case	_	_
+5	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	9	reparandum	_	Scrap=Yes|SpaceAfter=No
 6	,	,	PUNCT	_	_	5	punct	_	_
 7	dans	dans	ADP	_	_	9	case	_	_
 8	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	9	det	_	_
@@ -4137,7 +4137,7 @@
 10	journée	journée	NOUN	_	Gender=Fem|Number=Sing	4	nmod	_	_
 11	de	de	ADP	_	_	12	case	_	_
 12	ligue	ligue	NOUN	_	Gender=Fem|Number=Sing	10	nmod	_	_
-13	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	12	dep	_	_
+13	un	un	NUM	_	Number=Sing	12	nmod:appos	_	_
 14	hier	hier	ADV	_	_	2	advmod	_	SpaceAfter=No
 15	.	.	PUNCT	_	_	2	punct	_	_
 
@@ -4592,15 +4592,15 @@
 10	an	an	NOUN	_	Gender=Masc|Number=Sing	3	conj	_	_
 11	à	à	ADP	_	_	12	case	_	_
 12	Porto	Porto	PROPN	_	_	10	orphan	_	_
-13	dans	dans	ADP	_	_	14	dep:comp	_	_
-14	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	18	reparandum	_	SpaceAfter=No
+13	dans	dans	ADP	_	_	14	case	_	_
+14	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	18	reparandum	_	Scrap=Yes|SpaceAfter=No
 15	,	,	PUNCT	_	_	14	punct	_	_
 16	dans	dans	ADP	_	_	18	case	_	_
 17	des	un	DET	_	Definite=Ind|Number=Plur|PronType=Art	18	det	_	_
 18	collèges	collège	NOUN	_	Gender=Masc|Number=Plur	3	obl:mod	_	_
 19	et	et	CCONJ	_	_	21	cc	_	_
-20	dans	dans	ADP	_	_	21	dep:comp	_	_
-21	des	un	DET	_	Definite=Ind|Number=Plur|PronType=Art	25	reparandum	_	SpaceAfter=No
+20	dans	dans	ADP	_	_	21	case	_	_
+21	des	un	DET	_	Definite=Ind|Number=Plur|PronType=Art	25	reparandum	_	Scrap=Yes|SpaceAfter=No
 22	,	,	PUNCT	_	_	21	punct	_	_
 23	dans	dans	ADP	_	_	25	case	_	_
 24	des	un	DET	_	Definite=Ind|Number=Plur|PronType=Art	25	det	_	_
@@ -5983,15 +5983,15 @@
 # sent_id = Rhap_D0009-31
 # speaker = L2
 # text = parce que dessus, il y avait des, c'est pas des coussins, c'était des, des carrés de laine tissés qu'on avait eus en Tunisie et qui avaient été mis dessus.
-1	parce	parce	ADV	_	ExtPos=SCONJ	7	mark	_	Idiom=Yes
+1	parce	parce	ADV	_	ExtPos=SCONJ	17	case	_	Idiom=Yes
 2	que	que	SCONJ	_	_	1	fixed	_	InIdiom=Yes
 3	dessus	dessus	ADV	_	_	7	advmod	_	SpaceAfter=No
 4	,	,	PUNCT	_	_	3	punct	_	_
 5	il	lui	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	7	expl:subj	_	_
 6	y	y	PRON	_	Person=3|PronType=Prs	7	expl:comp	_	_
-7	avait	avoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
-8	des	un	DET	_	Definite=Ind|Number=Plur|PronType=Art	17	reparandum	_	SpaceAfter=No
-9	,	,	PUNCT	_	_	8	punct	_	_
+7	avait	avoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	17	reparandum	_	_
+8	des	un	DET	_	Definite=Ind|Number=Plur|PronType=Art	7	obj	_	Scrap=Yes|SpaceAfter=No
+9	,	,	PUNCT	_	_	7	punct	_	_
 10	c'	ce	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	11	nsubj	_	SpaceAfter=No
 11	est	être	AUX	_	ExtPos=NOUN|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	17	reparandum	_	Graft=Yes
 12	pas	pas	ADV	_	Polarity=Neg	11	advmod	_	_
@@ -5999,7 +5999,7 @@
 14	coussins	coussin	NOUN	_	Gender=Masc|Number=Plur	11	xcomp	_	SpaceAfter=No
 15	,	,	PUNCT	_	_	11	punct	_	_
 16	c'	ce	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	17	nsubj	_	SpaceAfter=No
-17	était	être	AUX	_	ExtPos=NOUN|Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	7	obj	_	_
+17	était	être	AUX	_	ExtPos=NOUN|Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
 18	des	un	DET	_	Definite=Ind|Number=Plur|PronType=Art	20	reparandum	_	SpaceAfter=No
 19	,	,	PUNCT	_	_	18	punct	_	_
 20	des	un	DET	_	Definite=Ind|Number=Plur|PronType=Art	21	det	_	_
@@ -6019,7 +6019,7 @@
 34	été	être	AUX	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	35	aux:pass	_	_
 35	mis	mettre	VERB	_	Gender=Masc|Tense=Past|VerbForm=Part	28	conj	_	_
 36	dessus	dessus	ADV	_	_	35	obj	_	Overlap=Rhap_D0009-32|SpaceAfter=No
-37	.	.	PUNCT	_	_	7	punct	_	Overlap=Rhap_D0009-32
+37	.	.	PUNCT	_	_	17	punct	_	Overlap=Rhap_D0009-32
 
 # macrosyntax = $L1 XXX -$ martelés "oui" //
 # sent_id = Rhap_D0009-32
@@ -9107,8 +9107,8 @@
 23	cet	ce	DET	_	Gender=Masc|Number=Sing|PronType=Dem	24	det	_	_
 24	angle	angle	NOUN	_	Gender=Masc|Number=Sing	22	obj	_	_
 25	droit	droit	ADJ	_	Gender=Masc|Number=Sing	24	amod	_	_
-26	par	par	ADP	_	_	27	dep:comp	_	_
-27	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	31	reparandum	_	SpaceAfter=No
+26	par	par	ADP	_	_	27	case	_	_
+27	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	31	reparandum	_	Scrap=Yes|SpaceAfter=No
 28	,	,	PUNCT	_	_	27	punct	_	_
 29	par	par	ADP	_	_	31	case	_	_
 30	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	31	det	_	_
@@ -13559,10 +13559,10 @@
 7	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
 8	bombardement	bombardement	NOUN	_	Gender=Masc|Number=Sing	6	obj	_	_
 9	anglais	anglais	ADJ	_	Gender=Masc	8	amod	_	_
-10	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	15	det	_	_
-11	de~	de~	X	_	_	13	reparandum	_	Scrap=Yes|SpaceAfter=No
-12	,	,	PUNCT	_	_	11	punct	_	_
-13	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	10	dep	_	_
+10	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	13	reparandum	_	_
+11	de~	de~	X	_	_	10	dep	_	Scrap=Yes|SpaceAfter=No
+12	,	,	PUNCT	_	_	10	punct	_	_
+13	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	15	det	_	_
 14	dernier	dernier	ADJ	_	Gender=Masc|Number=Sing	15	amod	_	Overlap=Rhap_D0003-32bis
 15	soir	soir	NOUN	_	Gender=Masc|Number=Sing	19	obl:mod	_	Overlap=Rhap_D0003-32bis|SpaceAfter=No
 16	,	,	PUNCT	_	_	15	punct	_	Overlap=Rhap_D0003-32bis
@@ -14346,7 +14346,7 @@
 10	vingtième	vingtième	NOUN	_	Gender=Masc|Number=Sing	12	obl:mod	_	_
 11	j'	moi	PRON	_	Number=Sing|Person=1|PronType=Prs	12	nsubj	_	SpaceAfter=No
 12	ai	avoir	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	17	reparandum	_	_
-13	des	un	DET	_	Definite=Ind|Number=Plur|PronType=Art	12	dep:comp	_	SpaceAfter=No
+13	des	un	DET	_	Definite=Ind|Number=Plur|PronType=Art	12	obj	_	Scrap=Yes|SpaceAfter=No
 14	,	,	PUNCT	_	_	12	punct	_	_
 15	il	lui	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	17	expl:subj	_	_
 16	y	y	PRON	_	Person=3|PronType=Prs	17	expl:comp	_	_
@@ -15080,12 +15080,12 @@
 27	de	de	ADP	_	_	29	case	_	_
 28	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	29	det	_	_
 29	tout	tout	NOUN	_	Gender=Masc|Number=Sing	26	obl:mod	_	SpaceAfter=No
-30	,	,	PUNCT	_	_	31	punct	_	_
+30	,	,	PUNCT	_	_	36	punct	_	_
 31	ni	ni	CCONJ	_	_	36	cc	_	_
 32	qui	qui	PRON	_	PronType=Rel	36	nsubj	_	_
-33	n'	ne	ADV	_	Polarity=Neg	39	advmod	_	SpaceAfter=No
+33	n'	ne	ADV	_	Polarity=Neg	36	advmod	_	SpaceAfter=No
 34	ont	avoir	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	36	aux:tense	_	_
-35	jamais	jamais	ADV	_	PronType=Neg	39	advmod	_	_
+35	jamais	jamais	ADV	_	PronType=Neg	36	advmod	_	_
 36	été	être	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	25	conj	_	_
 37	à	à	ADP	_	_	39	case	_	_
 38	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	39	det	_	SpaceAfter=No
@@ -16555,7 +16555,7 @@
 11	qui	qui	PRON	_	PronType=Rel	12	nsubj	_	_
 12	passe	passer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	acl:relcl	_	_
 13	vers	vers	ADP	_	_	16	mark	_	_
-14	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	16	reparandum	_	_
+14	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	16	reparandum	_	Scrap=Yes
 15	je	moi	PRON	_	Number=Sing|Person=1|PronType=Prs	16	nsubj	_	_
 16	crois	croire	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	12	ccomp	_	Graft=Yes
 17	que	que	SCONJ	_	_	22	mark	_	_
@@ -17449,8 +17449,8 @@
 39	,	,	PUNCT	_	_	47	punct	_	_
 40	à	à	ADP	_	_	47	reparandum	_	SpaceAfter=No
 41	,	,	PUNCT	_	_	40	punct	_	_
-42	à	à	ADP	_	_	43	dep:comp	_	_
-43	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	47	reparandum	_	SpaceAfter=No
+42	à	à	ADP	_	_	43	case	_	_
+43	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	47	reparandum	_	Scrap=Yes|SpaceAfter=No
 44	,	,	PUNCT	_	_	43	punct	_	_
 45	à	à	ADP	_	_	47	case	_	_
 46	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	47	det	_	SpaceAfter=No
@@ -17540,7 +17540,7 @@
 9	,	,	PUNCT	_	_	8	punct	_	_
 10	j'	moi	PRON	_	Number=Sing|Person=1|PronType=Prs	11	nsubj	_	SpaceAfter=No
 11	ai	avoir	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	18	reparandum	_	_
-12	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	11	dep:comp	_	SpaceAfter=No
+12	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	11	obj	_	Scrap=Yes|SpaceAfter=No
 13	,	,	PUNCT	_	_	11	punct	_	_
 14	j~	j~	PRON	_	_	17	reparandum	_	SpaceAfter=No
 15	,	,	PUNCT	_	_	16	punct	_	_

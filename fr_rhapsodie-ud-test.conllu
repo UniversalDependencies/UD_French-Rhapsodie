@@ -653,7 +653,7 @@
 3	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	4	det	_	_
 4	scellés	scellé	NOUN	_	Gender=Masc|Number=Plur	2	obj	_	SpaceAfter=No
 5	,	,	PUNCT	_	_	6	punct	_	_
-6	Maître	Maître	PROPN	_	Gender=Masc|Number=Sing	3	vocative	_	SpaceAfter=No
+6	Maître	Maître	PROPN	_	Gender=Masc|Number=Sing	2	vocative	_	SpaceAfter=No
 7	.	.	PUNCT	_	_	2	punct	_	_
 
 # macrosyntax = ( c'est parti // )
@@ -4657,8 +4657,8 @@
 18	me	moi	PRON	_	Number=Sing|Person=1|PronType=Prs	19	obj	_	_
 19	semble	sembler	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	15	discourse	_	SpaceAfter=No
 20	,	,	PUNCT	_	_	22	punct	_	_
-21	dans	dans	ADP	_	_	22	dep:comp	_	_
-22	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	13	dep	_	SpaceAfter=No
+21	dans	dans	ADP	_	_	22	case	_	_
+22	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	13	obl:mod	_	Scrap=Yes|SpaceAfter=No
 23	…	…	PUNCT	_	_	13	punct	_	_
 
 # macrosyntax = ça pourrait être $- { Lohengrin | ( $L1 "oui" // ) -$ ^et Parsifal } > effectivement //
@@ -7300,7 +7300,7 @@
 8	y	y	PRON	_	Person=3|PronType=Prs	9	expl:comp	_	_
 9	avait	avoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
 10	pas	pas	ADV	_	Polarity=Neg	9	advmod	_	_
-11	de	un	DET	_	Definite=Ind|PronType=Art	15	reparandum	_	SpaceAfter=No
+11	de	un	DET	_	Definite=Ind|PronType=Art	15	reparandum	_	Scrap=Yes|SpaceAfter=No
 12	,	,	PUNCT	_	_	11	punct	_	_
 13	de	un	DET	_	Definite=Ind|PronType=Art	15	reparandum	_	SpaceAfter=No
 14	,	,	PUNCT	_	_	13	punct	_	_
@@ -7542,7 +7542,7 @@
 3	il	lui	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	5	expl:subj	_	_
 4	y	y	PRON	_	Person=3|PronType=Prs	5	expl:comp	_	_
 5	a	avoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
-6	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	5	dep:comp	_	SpaceAfter=No
+6	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	5	obj	_	Scrap=Yes|SpaceAfter=No
 7	…	…	PUNCT	_	_	5	punct	_	_
 
 # macrosyntax = "enfin" dans cette projection "euh" < est-ce qu'il y a une limite de date "si je puis dire" //
@@ -7676,7 +7676,7 @@
 9	,	,	PUNCT	_	_	8	punct	_	_
 10	c'	ce	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	12	nsubj	_	Overlap=Rhap_D2008-88|SpaceAfter=No
 11	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	12	cop	_	Overlap=Rhap_D2008-88
-12	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	17	reparandum	_	Overlap=Rhap_D2008-88|SpaceAfter=No
+12	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	17	reparandum	_	Overlap=Rhap_D2008-88|Scrap=Yes|SpaceAfter=No
 13	,	,	PUNCT	_	_	12	punct	_	Overlap=Rhap_D2008-88
 14	c'	ce	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	17	nsubj	_	Overlap=Rhap_D2008-88|SpaceAfter=No
 15	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	17	cop	_	Overlap=Rhap_D2008-88
@@ -8518,7 +8518,7 @@
 1	ça	ça	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	3	nsubj:caus	_	_
 2	fait	faire	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	aux:caus	_	_
 3	rire	rire	VERB	_	VerbForm=Inf	0	root	_	Subject=ObjRaising
-4	cette	ce	DET	_	Gender=Fem|Number=Sing|PronType=Dem	3	dep:comp	_	SpaceAfter=No
+4	cette	ce	DET	_	Gender=Fem|Number=Sing|PronType=Dem	3	obj	_	Scrap=Yes|SpaceAfter=No
 5	…	…	PUNCT	_	_	3	punct	_	_
 
 # macrosyntax = bon //
@@ -14894,7 +14894,7 @@
 19	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	23	obj	_	Scrap=Yes|SpaceAfter=No
 20	,	,	PUNCT	_	_	21	punct	_	_
 21	de	de	ADP	_	_	17	obl:arg	_	_
-22	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	21	dep	_	SpaceAfter=No
+22	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	23	det	_	SpaceAfter=No
 23	église	église	NOUN	_	Gender=Fem|Number=Sing	21	reparandum	_	SpaceAfter=No
 24	,	,	PUNCT	_	_	25	punct	_	_
 25	vis-à-vis	vis-à-vis	ADV	_	_	12	conj	_	_
