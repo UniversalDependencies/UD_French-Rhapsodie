@@ -1,10 +1,10 @@
 Running the following version of UD tools:
-commit c1984d97df0ecdcc1b50fbeaa8c96419c6321432
+commit ecbbdff44b15c9b6de4a691e3499c1286459ab2e
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
-Date:   Sun Nov 10 10:33:45 2024 +0100
+Date:   Fri May 9 21:07:42 2025 +0200
 Evaluating the following revision of UD_French-Rhapsodie:
-commit 3cd9d1e75a187ab06c65d16bcedc4a86a570ced9
-Merge: fb923bc 4975832
+commit 14da596659198bc3e0172bfeefc1535d5dfedf58
+Merge: 63c7eb0 8441505
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
 Size: counted 44242 of 44242 words (nodes).
 Size: min(0, log((N/1000)**2)) = 7.57934912829766.
@@ -15,15 +15,15 @@ Split: Found at least 10000 test words.
 Lemmas: source of annotation (from README) factor is 0.8.
 Universal POS tags: 15 out of 17 found in the corpus.
 Universal POS tags: source of annotation (from README) factor is 0.9.
-Features: 23916 out of 44242 total words have one or more features.
+Features: 23937 out of 44242 total words have one or more features.
 Features: source of annotation (from README) factor is 0.4.
 Universal relations: 34 out of 37 found in the corpus.
 Universal relations: source of annotation (from README) factor is 0.9.
 Udapi:
-               TOTAL        546
-Udapi: found 546 bugs.
+               TOTAL        534
+Udapi: found 534 bugs.
 Udapi: worst expected case (threshold) is one bug per 10 words. There are 44242 words.
-Genres: found 1 out of 17 known.
+Genres: found 1 out of 18 known.
 /net/work/people/zeman/unidep/tools/validate.py --lang fr --max-err=10 UD_French-Rhapsodie/fr_rhapsodie-ud-dev.conllu
 *** PASSED ***
 /net/work/people/zeman/unidep/tools/validate.py --lang fr --max-err=10 UD_French-Rhapsodie/fr_rhapsodie-ud-test.conllu
@@ -32,13 +32,13 @@ Genres: found 1 out of 17 known.
 *** PASSED ***
 Validity: 1
 (weight=0.0769230769230769) * (score{features}=0.4) = 0.0307692307692308
-(weight=0.0769230769230769) * (score{genres}=0.0588235294117647) = 0.00452488687782805
+(weight=0.0769230769230769) * (score{genres}=0.0555555555555556) = 0.00427350427350427
 (weight=0.0769230769230769) * (score{lemmas}=0.8) = 0.0615384615384615
 (weight=0.256410256410256) * (score{size}=0.548611583806316) = 0.140669636873414
 (weight=0.0512820512820513) * (score{split}=1) = 0.0512820512820513
 (weight=0.0769230769230769) * (score{tags}=0.794117647058823) = 0.0610859728506787
-(weight=0.307692307692308) * (score{udapi}=0.876587857691786) = 0.269719340828242
+(weight=0.307692307692308) * (score{udapi}=0.879300212467791) = 0.270553911528551
 (weight=0.0769230769230769) * (score{udeprels}=0.827027027027027) = 0.0636174636174636
-(TOTAL score=0.68320704463737) * (availability=1) * (validity=1) = 0.68320704463737
+(TOTAL score=0.683790232733356) * (availability=1) * (validity=1) = 0.683790232733356
 STARS = 3.5
-UD_French-Rhapsodie	0.68320704463737	3.5
+UD_French-Rhapsodie	0.683790232733356	3.5
