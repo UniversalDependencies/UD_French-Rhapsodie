@@ -35,6 +35,7 @@ Xpos and features (which are not available in v2.2 of UD_French-Spoken) will be 
 Data available since: UD v2.2
 License: CC BY-SA 4.0
 Includes text: yes
+Parallel: no
 Genre: spoken
 Lemmas: converted from manual
 UPOS: converted with corrections
