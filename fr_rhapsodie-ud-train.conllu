@@ -1,4 +1,3 @@
-# global.columns = ID FORM LEMMA UPOS XPOS FEATS HEAD DEPREL DEPS MISC
 # sent_id = Rhap_M0016-1
 # old_id = Rhap_M0016-1
 # type = monologue
@@ -5310,7 +5309,7 @@
 2	,	,	PUNCT	_	_	1	punct	_	_
 3	je	moi	PRON	_	Case=Nom|Emph=No|Number=Sing|Person=1|PronType=Prs	4	nsubj	_	_
 4	voulais	vouloir	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Imp|VerbForm=Fin	0	root	_	_
-5	y	y	PRON	_	Person=3|PronType=Prs	6	obj	_	_
+5	y	y	PRON	_	Person=3|PronType=Prs	6	iobj	_	_
 6	aller	aller	VERB	_	VerbForm=Inf	4	xcomp	_	SpaceAfter=No|Subject=SubjRaising
 7	.	.	PUNCT	_	_	4	punct	_	_
 
@@ -5344,7 +5343,7 @@
 2	à	à	ADP	_	_	3	case	_	_
 3	Cavalaire	Cavalaire	PROPN	_	_	13	obl:mod	_	Gender[lex]=Unknown
 4	Pardigon	Pardigon	PROPN	_	_	3	flat:name	_	Gender[lex]=Unknown
-5	où	où	PRON	_	PronType=Rel	7	obj	_	_
+5	où	où	PRON	_	PronType=Rel	7	iobj	_	_
 6	nous	nous	PRON	_	Case=Nom|Emph=No|Number=Plur|Person=1|PronType=Prs	7	nsubj	_	_
 7	allions	aller	VERB	_	Mood=Ind|Number=Plur|Person=1|Tense=Imp|VerbForm=Fin	3	acl:relcl	_	_
 8	en	en	ADP	_	_	9	case	_	_
@@ -7449,7 +7448,7 @@
 12-13	des	_	_	_	_	_	_	_	_
 12	de	de	ADP	_	_	14	case	_	_
 13	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	14	det	_	_
-14	Français	Français	PROPN	_	_	11	nmod	_	Gender[lex]=Unknown
+14	Français	Français	NOUN	_	_	11	nmod	_	Gender[lex]=Unknown
 15	change	changer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	ccomp	_	_
 16	sa	son	DET	_	Gender=Fem|Number=Sing|Number[psor]=Sing|Person[psor]=3|Poss=Yes|PronType=Prs	17	det	_	_
 17	politique	politique	NOUN	_	_	15	obj	_	Gender[lex]=Fem|Number[ctxt]=Sing
@@ -7661,7 +7660,7 @@
 # macrosyntax = les Français disent qu'on va dans la mauvaise direction //
 # text = les Français disent qu'on va dans la mauvaise direction.
 1	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	2	det	_	_
-2	Français	Français	PROPN	_	_	3	nsubj	_	Gender[lex]=Unknown
+2	Français	Français	NOUN	_	_	3	nsubj	_	Gender[lex]=Unknown
 3	disent	dire	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 4	qu'	que	SCONJ	_	_	6	mark	_	SpaceAfter=No
 5	on	on	PRON	_	Case=Nom|Emph=No|Gender=Masc|Number=Sing|Person=3|PronType=Ind	6	nsubj	_	_
@@ -7738,7 +7737,7 @@
 # text = il faut y aller plus vite.
 1	il	lui	PRON	_	Case=Nom|Emph=No|Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	expl:subj	_	_
 2	faut	falloir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
-3	y	y	PRON	_	Person=3|PronType=Prs	4	obj	_	_
+3	y	y	PRON	_	Person=3|PronType=Prs	4	iobj	_	_
 4	aller	aller	VERB	_	VerbForm=Inf	2	ccomp	_	Subject=NoRaising
 5	plus	plus	ADV	_	_	6	advmod	_	_
 6	vite	vite	ADV	_	_	4	advmod	_	SpaceAfter=No
@@ -9608,7 +9607,7 @@
 1	ils	lui	PRON	_	Case=Nom|Emph=No|Gender=Masc|Number=Plur|Person=3|PronType=Prs	4	nsubj	_	_
 2	sont	être	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	_
 3	deux	deux	NUM	_	_	4	nummod	_	Number[lex]=Plur
-4	Argentins	Argentin	PROPN	_	Gender=Masc|Number=Plur	0	root	_	SpaceAfter=No
+4	Argentins	Argentin	NOUN	_	Gender=Masc|Number=Plur	0	root	_	SpaceAfter=No
 5	,	,	PUNCT	_	_	6	punct	_	_
 6	hein	hein	INTJ	_	_	4	discourse	_	SpaceAfter=No
 7	,	,	PUNCT	_	_	6	punct	_	_
@@ -9641,9 +9640,9 @@
 # sound_url = https://rhapsodie.modyco.fr/rp/waves/Rhap-D2003.mp3
 # macrosyntax = ^et ESPERLUETTE // $L2 l'autre Argentin < c'est Rodriguez $- "hein" //=
 # text = l'autre Argentin, c'est Rodriguez, hein.
-1	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	3	det	_	SpaceAfter=No
+1	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	3	det	_	Gender[ctxt]=Unknown|SpaceAfter=No
 2	autre	autre	ADJ	_	_	3	amod	_	Gender[ctxt]=Masc|Number[ctxt]=Sing
-3	Argentin	Argentin	PROPN	_	_	7	dislocated	_	Gender[lex]=Unknown|SpaceAfter=No
+3	Argentin	Argentin	NOUN	_	_	7	dislocated	_	Gender[lex]=Unknown|SpaceAfter=No
 4	,	,	PUNCT	_	_	3	punct	_	_
 5	c'	ce	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	7	nsubj	_	SpaceAfter=No
 6	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	cop	_	_
@@ -10449,7 +10448,7 @@
 21	,	,	PUNCT	_	_	22	punct	_	_
 22	euh	euh	INTJ	_	_	20	discourse	_	SpaceAfter=No
 23	,	,	PUNCT	_	_	20	punct	_	_
-24	Argentins	Argentin	PROPN	_	_	15	obl:mod	_	Gender[lex]=Unknown
+24	Argentins	Argentin	NOUN	_	_	15	obl:mod	_	Gender[lex]=Unknown
 25	à	à	ADP	_	_	27	case	_	_
 26	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	27	det	_	_
 27	défense	défense	NOUN	_	_	15	obl:arg	_	Gender[lex]=Fem|Number[ctxt]=Sing
@@ -11591,7 +11590,7 @@
 # text = et les Argentins, sous les ordres de Maradona, euh, jouaient un peu plus haut.
 1	et	et	CCONJ	_	_	13	cc	_	Overlap=Rhap_D2003-80
 2	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	3	det	_	Overlap=Rhap_D2003-80
-3	Argentins	Argentin	PROPN	_	_	13	nsubj	_	Gender[lex]=Unknown|Overlap=Rhap_D2003-80|SpaceAfter=No
+3	Argentins	Argentin	NOUN	_	_	13	nsubj	_	Gender[lex]=Unknown|Overlap=Rhap_D2003-80|SpaceAfter=No
 4	,	,	PUNCT	_	_	3	punct	_	Overlap=Rhap_D2003-68
 5	sous	sous	ADP	_	_	7	case	_	_
 6	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	7	det	_	_
@@ -12514,7 +12513,7 @@
 # text = et les Argentins mènent un à zéro.
 1	et	et	CCONJ	_	_	4	cc	_	_
 2	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	3	det	_	_
-3	Argentins	Argentin	PROPN	_	_	4	nsubj	_	Gender[lex]=Unknown
+3	Argentins	Argentin	NOUN	_	_	4	nsubj	_	Gender[lex]=Unknown
 4	mènent	mener	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 5	un	un	NUM	_	_	4	obj	_	Number[lex]=Sing
 6	à	à	ADP	_	_	7	case	_	_
@@ -12703,7 +12702,7 @@
 5	en	en	ADP	_	_	6	case	_	_
 6	possession	possession	NOUN	_	_	2	obl:arg	_	Gender[lex]=Fem|Number[ctxt]=Sing
 7	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	8	det	_	_
-8	Argentins	Argentin	PROPN	_	_	2	dislocated	_	Gender[lex]=Unknown
+8	Argentins	Argentin	NOUN	_	_	2	dislocated	_	Gender[lex]=Unknown
 9-10	du	_	_	_	_	_	_	_	SpaceAfter=No
 9	de	de	ADP	_	_	14	case	_	_
 10	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	14	det	_	_
@@ -13008,7 +13007,7 @@
 1	là	là	ADV	_	_	4	advmod	_	SpaceAfter=No
 2	,	,	PUNCT	_	_	1	punct	_	_
 3	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	4	det	_	_
-4	Français	Français	PROPN	_	_	0	root	_	Gender[lex]=Unknown
+4	Français	Français	NOUN	_	_	0	root	_	Gender[lex]=Unknown
 5	qui	qui	PRON	_	PronType=Rel	10	nsubj:pass	_	_
 6	sont	être	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	10	aux:pass	_	SpaceAfter=No
 7	,	,	PUNCT	_	_	10	punct	_	_
@@ -13352,7 +13351,7 @@
 17	,	,	PUNCT	_	_	11	punct	_	_
 18	pour	pour	ADP	_	_	20	case	_	_
 19	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	20	det	_	_
-20	Argentins	Argentin	PROPN	_	_	5	obl:mod	_	Gender[lex]=Unknown|SpaceAfter=No
+20	Argentins	Argentin	NOUN	_	_	5	obl:mod	_	Gender[lex]=Unknown|SpaceAfter=No
 21	.	.	PUNCT	_	_	5	punct	_	_
 
 # sent_id = Rhap_D2003-129
@@ -13386,7 +13385,7 @@
 3	touche	touche	NOUN	_	_	1	nmod	_	Gender[lex]=Fem|Number[ctxt]=Sing
 4	pour	pour	ADP	_	_	6	case	_	_
 5	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	6	det	_	_
-6	Argentins	Argentin	PROPN	_	_	1	nmod	_	Gender[lex]=Unknown|SpaceAfter=No
+6	Argentins	Argentin	NOUN	_	_	1	nmod	_	Gender[lex]=Unknown|SpaceAfter=No
 7	,	,	PUNCT	_	_	12	punct	_	_
 8	avec	avec	ADP	_	_	12	case	_	SpaceAfter=No
 9	,	,	PUNCT	_	_	12	punct	_	_
@@ -13779,9 +13778,9 @@
 2	pas	pas	ADV	_	ExtPos=ADV|Polarity=Neg	0	root	_	Idiom=Yes
 3	mal	mal	ADJ	_	Number=Sing	2	fixed	_	Gender[ctxt]=Masc|InIdiom=Yes
 4-5	du	_	_	_	_	_	_	_	_
-4	de	de	ADP	_	_	6	case	_	InIdiom=Yes
-5	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
-6	tout	tout	NOUN	_	ExtPos=ADV	2	obl:mod	_	Idiom=Yes|Number[ctxt]=Sing|SpaceAfter=No
+4	de	de	ADP	_	ExtPos=ADV	2	advmod	_	Idiom=Yes
+5	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	fixed	_	InIdiom=Yes
+6	tout	tout	NOUN	_	_	4	fixed	_	InIdiom=Yes|Number[ctxt]=Sing|SpaceAfter=No
 7	.	.	PUNCT	_	_	2	punct	_	_
 
 # sent_id = Rhap_D2003-140
@@ -13992,7 +13991,7 @@
 # macrosyntax = les Français qui sont obligés de courir après ce ballon //
 # text = les Français qui sont obligés de courir après ce ballon.
 1	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	2	det	_	_
-2	Français	Français	PROPN	_	_	0	root	_	Gender[lex]=Unknown
+2	Français	Français	NOUN	_	_	0	root	_	Gender[lex]=Unknown
 3	qui	qui	PRON	_	PronType=Rel	5	nsubj:pass	_	_
 4	sont	être	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	5	aux:pass	_	_
 5	obligés	obliger	VERB	_	VerbForm=Part|Voice=Pass	2	acl:relcl	_	Gender[ctxt]=Masc|Number[ctxt]=Plur|Tense[denom]=Past
@@ -14767,10 +14766,10 @@
 # macrosyntax = { un Français | deux Français } qui "euh" tentent de repousser les $- assauts //
 # text = un Français, deux Français qui, euh, tentent de repousser les assauts.
 1	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
-2	Français	Français	PROPN	_	_	5	reparandum	_	Gender[lex]=Unknown|SpaceAfter=No
+2	Français	Français	NOUN	_	_	5	reparandum	_	Gender[lex]=Unknown|SpaceAfter=No
 3	,	,	PUNCT	_	_	2	punct	_	_
 4	deux	deux	NUM	_	_	5	nummod	_	Number[lex]=Plur
-5	Français	Français	PROPN	_	_	0	root	_	Gender[lex]=Unknown
+5	Français	Français	NOUN	_	_	0	root	_	Gender[lex]=Unknown
 6	qui	qui	PRON	_	PronType=Rel	10	nsubj	_	SpaceAfter=No
 7	,	,	PUNCT	_	_	8	punct	_	_
 8	euh	euh	INTJ	_	_	6	discourse	_	SpaceAfter=No
@@ -15460,7 +15459,7 @@
 21	à	à	ADP	_	_	24	case	_	_
 22	tous	tout	ADJ	_	Gender=Masc	24	amod	_	Number[ctxt]=Plur
 23	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	24	det	_	_
-24	Français	Français	PROPN	_	_	18	obl:arg	_	Gender[lex]=Unknown|SpaceAfter=No
+24	Français	Français	NOUN	_	_	18	obl:arg	_	Gender[lex]=Unknown|SpaceAfter=No
 25	.	.	PUNCT	_	_	17	punct	_	_
 
 # sent_id = Rhap_M2004-12
@@ -17854,9 +17853,9 @@
 7	entre	entre	ADP	_	_	8	case	_	_
 8	vous	vous	PRON	_	Case=Acc|Emph=No|Number=Plur|Person=2|PronType=Prs	5	obl:arg	_	Polite=Unknown|SpaceAfter=No
 9	,	,	PUNCT	_	_	10	punct	_	_
-10	Françaises	Français	PROPN	_	_	5	appos	_	Gender[lex]=Unknown
+10	Françaises	Français	NOUN	_	_	5	appos	_	Gender[lex]=Unknown
 11	et	et	CCONJ	_	_	12	cc	_	_
-12	Français	Français	PROPN	_	_	10	conj	_	Gender[lex]=Unknown
+12	Français	Français	NOUN	_	_	10	conj	_	Gender[lex]=Unknown
 13	de	de	ADP	_	_	14	case	_	_
 14	métropole	métropole	NOUN	_	_	12	nmod	_	Gender[lex]=Fem|Number[ctxt]=Sing|SpaceAfter=No
 15	,	,	PUNCT	_	_	17	punct	_	_
@@ -25609,7 +25608,7 @@
 9	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
 10	passerelle	passerelle	NOUN	_	_	4	obl:mod	_	Gender[lex]=Fem|Number[ctxt]=Sing
 11	de	de	ADP	_	_	12	case	_	_
-12	Solférino	Solferino	PROPN	_	_	10	nmod	_	Gender[lex]=Unknown|SpaceAfter=No
+12	Solférino	Solférino	PROPN	_	_	10	nmod	_	Gender[lex]=Unknown|SpaceAfter=No
 13	.	.	PUNCT	_	_	4	punct	_	_
 
 # sent_id = Rhap_D0001-13
@@ -35635,8 +35634,8 @@
 5	qu'	que	PRON	_	PronType=Rel	7	obj	_	SpaceAfter=No
 6	on	on	PRON	_	Case=Nom|Emph=No|Gender=Masc|Number=Sing|Person=3|PronType=Ind	7	nsubj	_	_
 7	appelle	appeler	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	acl:relcl	_	_
-8	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	9	det	_	Gender[ctxt]=Fem|SpaceAfter=No
-9	aisthesis	aisthesis	NOUN	_	Foreign=Yes|Number=Sing	7	xcomp	_	Gender[lex]=Fem|SpaceAfter=No
+8	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	9	det	_	SpaceAfter=No
+9	aisthesis	aisthesis	X	_	Foreign=Yes	7	xcomp	_	Gender[lex]=Fem|Lang=grc|SpaceAfter=No
 10	.	.	PUNCT	_	_	4	punct	_	_
 
 # sent_id = Rhap_M2002-35
@@ -35667,7 +35666,7 @@
 # text = euh, aisthesis, ça veut dire sensation, euh, en, en grec, euh.
 1	euh	euh	INTJ	_	_	7	discourse	_	SpaceAfter=No
 2	,	,	PUNCT	_	_	1	punct	_	_
-3	aisthesis	aisthesis	NOUN	_	Foreign=Yes|Number=Sing	6	dislocated	_	Gender[lex]=Fem|SpaceAfter=No
+3	aisthesis	aisthesis	X	_	Foreign=Yes	6	dislocated	_	Gender[lex]=Fem|Lang=grc|SpaceAfter=No
 4	,	,	PUNCT	_	_	3	punct	_	_
 5	ça	ça	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	6	nsubj	_	_
 6	veut	vouloir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
@@ -35822,7 +35821,7 @@
 # macrosyntax = si poïésis a donné le mot poésie < "euh" aisthesis a donné le terme esthétique //
 # text = si poïésis a donné le mot poésie, euh, aisthesis a donné le terme esthétique.
 1	si	si	SCONJ	_	_	4	mark	_	_
-2	poïésis	poïésis	NOUN	_	Foreign=Yes|Number=Sing	4	nsubj	_	Gender[lex]=Fem
+2	poïésis	poïésis	X	_	Foreign=Yes	4	nsubj	_	Gender[lex]=Fem|Lang=grc
 3	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	aux:tense	_	_
 4	donné	donner	VERB	_	VerbForm=Part|Voice=Act	13	advcl	_	Gender[ctxt]=Masc|Number[ctxt]=Sing|Tense[denom]=Past
 5	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
@@ -35831,7 +35830,7 @@
 8	,	,	PUNCT	_	_	9	punct	_	_
 9	euh	euh	INTJ	_	_	7	discourse	_	SpaceAfter=No
 10	,	,	PUNCT	_	_	4	punct	_	_
-11	aisthesis	aisthesis	NOUN	_	Foreign=Yes|Number=Sing	13	nsubj	_	Gender[lex]=Fem
+11	aisthesis	aisthesis	X	_	Foreign=Yes	13	nsubj	_	Gender[lex]=Fem|Lang=grc
 12	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	13	aux:tense	_	_
 13	donné	donner	VERB	_	VerbForm=Part|Voice=Act	0	root	_	Gender[ctxt]=Masc|Number[ctxt]=Sing|Tense[denom]=Past
 14	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	15	det	_	_
@@ -36421,7 +36420,7 @@
 15	expérience	expérience	NOUN	_	_	13	obj	_	Gender[lex]=Fem|Number[ctxt]=Sing
 16	de	de	ADP	_	_	18	case	_	_
 17	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	18	det	_	_
-18	poïésis	poïésis	NOUN	_	Foreign=Yes|Number=Sing	25	reparandum	_	Gender[lex]=Fem|SpaceAfter=No
+18	poïésis	poïésis	X	_	Foreign=Yes	25	reparandum	_	Gender[lex]=Fem|Lang=grc|SpaceAfter=No
 19	,	,	PUNCT	_	_	18	punct	_	_
 20	de	de	ADP	_	_	21	case	_	_
 21	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	25	reparandum	_	Scrap=Yes|SpaceAfter=No
@@ -38541,7 +38540,7 @@
 9	viens	venir	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
 10	de	de	ADP	_	_	11	mark	_	_
 11	relire	relire	VERB	_	VerbForm=Inf	9	xcomp	_	Subject=SubjRaising
-12	Chroniques	Chronique	PROPN	_	_	11	obj	_	Gender[lex]=Unknown|Title=Yes
+12	Chroniques	chronique	NOUN	_	_	11	obj	_	Gender[lex]=Unknown|Title=Yes
 13	de	de	ADP	_	_	15	case	_	InTitle=Yes
 14	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	15	det	_	Gender[ctxt]=Masc|InTitle=Yes|SpaceAfter=No
 15	oiseau	oiseau	NOUN	_	_	12	nmod	_	Gender[lex]=Masc|InTitle=Yes|Number[ctxt]=Sing
@@ -43295,7 +43294,7 @@
 18	en	en	ADP	_	_	22	reparandum	_	SpaceAfter=No
 19	,	,	PUNCT	_	_	18	punct	_	_
 20	en	en	ADP	_	_	22	mark	_	_
-21	y	y	PRON	_	Person=3|PronType=Prs	22	obj	_	_
+21	y	y	PRON	_	Person=3|PronType=Prs	22	iobj	_	_
 22	allant	aller	VERB	_	VerbForm=Part	4	advcl	_	Tense[denom]=Pres
 23	mais	mais	CCONJ	_	_	25	cc	_	_
 24	en	en	ADP	_	_	25	mark	_	_
@@ -50002,7 +50001,7 @@
 # sound_url = https://rhapsodie.modyco.fr/rp/waves/Rhap-D0004.mp3
 # macrosyntax = donc < ( $L2 oui // ) -$ "euh" { de ce point de vue-là |} ( ^puis il y a deux maternelles // ) ^mais "euh" {| de ce point de vue-là } < ce sont des écoles publiques "hein" //
 # text = oui.
-1	oui	oui	INTJ	_	_	0	root	_	AttachTo=30@Rhap_D0004-54|Overlap=Rhap_D0004-55|Rel=dicsourse|SpaceAfter=No
+1	oui	oui	INTJ	_	_	0	root	_	AttachTo=30@Rhap_D0004-54|Overlap=Rhap_D0004-55|Rel=discourse|SpaceAfter=No
 2	.	.	PUNCT	_	_	1	punct	_	Overlap=Rhap_D0004-40
 
 # sent_id = Rhap_D0004-57
@@ -50551,7 +50550,7 @@
 # sound_url = https://rhapsodie.modyco.fr/rp/waves/Rhap-D0004.mp3
 # macrosyntax = c'est vrai que [ " bon " maintenant <+ ce sont de jeunes parents { qui sont moins orientés sur le livre |} //+ ( $L2 "mh" "mh" // ) donc < {| qui ( automatiquement ) orientent moins $- les enfants sur le livre } ] //
 # text = mh, mh.
-1	mh	mh	INTJ	_	_	3	reparandum	_	AttachTo=11@Rhap_D0004-70|Rel=discourse|SpaceAfter=No
+1	mh	mh	INTJ	_	_	3	reparandum	_	AttachTo=11@Rhap_D0004-68|Rel=discourse|SpaceAfter=No
 2	,	,	PUNCT	_	_	1	punct	_	_
 3	mh	mh	INTJ	_	_	0	root	_	SpaceAfter=No
 4	.	.	PUNCT	_	_	3	punct	_	_
@@ -50675,7 +50674,7 @@
 18-19	des	_	_	_	_	_	_	_	_
 18	de	de	ADP	_	_	20	case	_	_
 19	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	20	det	_	_
-20	Français	Français	PROPN	_	_	47	reparandum	_	Gender[lex]=Unknown|SpaceAfter=No
+20	Français	Français	NOUN	_	_	47	reparandum	_	Gender[lex]=Unknown|SpaceAfter=No
 21	,	,	PUNCT	_	_	22	punct	_	_
 22	oui	oui	INTJ	_	_	20	discourse	_	Overlap=Rhap_D0004-74|SpaceAfter=No
 23	,	,	PUNCT	_	_	24	punct	_	Overlap=Rhap_D0004-52ter
@@ -50684,14 +50683,14 @@
 26-27	des	_	_	_	_	_	_	_	_
 26	de	de	ADP	_	_	28	case	_	Overlap=Rhap_D0004-74
 27	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	28	det	_	Overlap=Rhap_D0004-74
-28	Français	Français	PROPN	_	_	47	reparandum	_	Gender[lex]=Unknown|Overlap=Rhap_D0004-74|SpaceAfter=No
+28	Français	Français	NOUN	_	_	47	reparandum	_	Gender[lex]=Unknown|Overlap=Rhap_D0004-74|SpaceAfter=No
 29	,	,	PUNCT	_	_	28	punct	_	_
 30	pas	pas	ADV	_	Polarity=Neg	31	advmod	_	_
 31	simplement	simplement	ADV	_	_	34	advmod	_	_
 32-33	des	_	_	_	_	_	_	_	_
 32	de	de	ADP	_	_	34	case	_	_
 33	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	34	det	_	_
-34	Français	Français	PROPN	_	_	47	reparandum	_	Gender[lex]=Unknown|SpaceAfter=No
+34	Français	Français	NOUN	_	_	47	reparandum	_	Gender[lex]=Unknown|SpaceAfter=No
 35	,	,	PUNCT	_	_	36	punct	_	_
 36	hein	hein	INTJ	_	_	34	discourse	_	SpaceAfter=No
 37	,	,	PUNCT	_	_	34	punct	_	_
@@ -53314,7 +53313,7 @@
 4	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
 5	monde	monde	NOUN	_	_	8	nsubj	_	Gender[lex]=Masc|Number[ctxt]=Sing
 6	s'	soi	PRON	_	Person=3|PronType=Prs	8	expl:comp	_	SpaceAfter=No
-7	en	en	PRON	_	Person=3|PronType=Prs	8	obj	_	_
+7	en	en	PRON	_	Person=3|PronType=Prs	8	expl:comp	_	_
 8	va	aller	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
 9	,	,	PUNCT	_	_	13	punct	_	_
 10	y	y	PRON	_	ExtPos=ADP|Person=3|PronType=Prs	13	dep	_	Idiom=Yes

@@ -1,4 +1,3 @@
-# global.columns = ID FORM LEMMA UPOS XPOS FEATS HEAD DEPREL DEPS MISC
 # sent_id = Rhap_M0001-9
 # old_id = Rhap_M0001-9
 # type = monologue
@@ -10608,9 +10607,9 @@
 7	ça	ça	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	5	obj	_	_
 8	chopinien	chopinien	ADJ	_	Gender=Masc|Number=Sing	5	xcomp	_	_
 9-10	du	_	_	_	_	_	_	_	_
-9	de	de	ADP	_	_	11	case	_	InIdiom=Yes
-10	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
-11	tout	tout	NOUN	_	ExtPos=ADV	8	obl:mod	_	Idiom=Yes|Number[ctxt]=Sing|SpaceAfter=No
+9	de	de	ADP	_	ExtPos=ADV	8	advmod	_	Idiom=Yes
+10	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	fixed	_	InIdiom=Yes
+11	tout	tout	NOUN	_	_	9	fixed	_	InIdiom=Yes|Number[ctxt]=Sing|SpaceAfter=No
 12	.	.	PUNCT	_	_	5	punct	_	_
 
 # sent_id = Rhap_D2012-10
@@ -16143,7 +16142,7 @@
 13	France	France	PROPN	_	Gender=Fem|Number=Sing	7	obj	_	_
 14	et	et	CCONJ	_	_	16	cc	_	_
 15	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	16	det	_	_
-16	Français	Français	PROPN	_	Gender=Masc|Number=Plur	13	conj	_	_
+16	Français	Français	NOUN	_	Gender=Masc|Number=Plur	13	conj	_	_
 17	?	?	PUNCT	_	_	2	punct	_	_
 
 # sent_id = Rhap_D2008-76
@@ -31546,11 +31545,11 @@
 55	responsabilités	responsabilité	NOUN	_	_	53	obj	_	Gender[lex]=Fem|Number[ctxt]=Plur
 56	et	et	CCONJ	_	_	64	cc	_	_
 57-58	au	_	_	_	_	_	_	_	_
-57	à	à	ADP	_	_	59	case	_	InIdiom=Yes
-58	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	59	det	_	_
-59	sein	sein	NOUN	_	ExtPos=ADV	64	obl:arg	_	Gender[lex]=Masc|Idiom=Yes|Number[ctxt]=Sing
+57	à	à	ADP	_	ExtPos=ADV	64	obl:arg	_	Idiom=Yes
+58	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	57	fixed	_	InIdiom=Yes
+59	sein	sein	NOUN	_	_	57	fixed	_	Gender[lex]=Masc|InIdiom=Yes|Number[ctxt]=Sing
 60	de	de	ADP	_	_	61	case	_	_
-61	laquelle	lequel	PRON	_	Gender=Fem|Number=Sing|PronType=Rel	59	nmod	_	_
+61	laquelle	lequel	PRON	_	Gender=Fem|Number=Sing|PronType=Rel	57	obl:arg	_	_
 62	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	63	det	_	_
 63	France	France	PROPN	_	_	64	nsubj	_	Gender[lex]=Unknown
 64	a	avoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	50	acl:relcl	_	_
@@ -32471,7 +32470,7 @@
 8-9	des	_	_	_	_	_	_	_	_
 8	de	de	ADP	_	_	10	case	_	_
 9	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	10	det	_	_
-10	Beaucerons	Beauceron	PROPN	_	Gender=Masc|Number=Plur	7	nmod	_	_
+10	Beaucerons	Beauceron	NOUN	_	Gender=Masc|Number=Plur	7	nmod	_	_
 11	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	13	cop	_	_
 12	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	13	det	_	_
 13	tempérament	tempérament	NOUN	_	_	4	ccomp	_	Gender[lex]=Masc|Number[ctxt]=Sing|SpaceAfter=No

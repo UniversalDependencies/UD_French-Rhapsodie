@@ -1,0 +1,530 @@
+# global.columns = ID FORM LEMMA UPOS XPOS FEATS HEAD DEPREL DEPS MISC
+# sent_id = Rhap_D2006-1
+# old_id = Rhap_D2006-1
+# type = dialogue
+# prosodic_annotation = yes
+# speaker = L1
+# speaker_id = §LM20
+# speaker_fullname = François Mitterand
+# speaker_role = speaker/signer
+# speaker_age = 56
+# speaker_sex = male
+# speaker_education = unspecified
+# speaker_family_social_role = unknown
+# genre = discourse
+# subgenre = oratory
+# task = political speech
+# modalities = speech
+# subject = unspecified
+# interactivity = semi-interactive
+# planning_type = planned
+# involvement = non-elicited
+# social_context = public
+# event_structure = dialogue
+# channel = face to face
+# sound_url = https://rhapsodie.modyco.fr/rp/waves/Rhap-D2006.mp3
+# macrosyntax = $L1 le programme ( monsieur le premier ministre ) comporte { un certain nombre de projets ( d'autant plus intéressants à nos yeux que nous les proposons depuis longtemps ) | { relèvement du Smic | amnistie pour { les commerçants | ^et les artisans } | aide aux chômeurs partiels | égalisation des salaires { féminins | ^et masculins } | participation accrue des cadres aux conseils d'administration des sociétés | réforme du droit de licenciement | nomination d'un médiateur entre { l'administration | ^et le public } | contrôle des dépenses électorales } | toutes mesures { qui dormaient dans vos cartons | que vos prédécesseurs avaient énergiquement refusées | ^et que l'on retrouve dans le programme commun de la gauche } } //
+# text = le programme, monsieur le premier ministre, comporte un certain nombre de projets, d'autant plus intéressants à nos yeux que nous les proposons depuis longtemps: relèvement du Smic, amnistie pour les commerçants et les artisans, aide aux chômeurs partiels, égalisation des salaires féminins et masculins, participation accrue des cadres aux conseils d'administration des sociétés, réforme du droit de licenciement, nomination d'un médiateur entre l'administration et le public, contrôle des dépenses électorales, toutes mesures qui dormaient dans vos cartons, que vos prédécesseurs avaient énergiquement refusées, et que l'on retrouve dans le programme commun de la gauche.
+1	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	programme	programme	NOUN	_	_	9	nsubj	_	Gender[lex]=Masc|Number[ctxt]=Sing|SpaceAfter=No
+3	,	,	PUNCT	_	_	2	punct	_	_
+4	monsieur	monsieur	NOUN	_	Number=Sing	9	vocative	_	Gender[lex]=Masc
+5	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+6	premier	premier	ADJ	_	Gender=Masc|Number=Sing	7	amod	_	_
+7	ministre	ministre	NOUN	_	_	4	nmod:appos	_	Gender[lex]=Masc|Number[ctxt]=Sing|SpaceAfter=No
+8	,	,	PUNCT	_	_	4	punct	_	_
+9	comporte	comporter	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+10	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
+11	certain	certain	ADJ	_	Gender=Masc	12	amod	_	Number[ctxt]=Sing
+12	nombre	nombre	NOUN	_	_	9	obj	_	Gender[lex]=Masc|Number[ctxt]=Sing
+13	de	de	ADP	_	_	14	case	_	_
+14	projets	projet	NOUN	_	_	12	nmod	_	Gender[lex]=Masc|Number[ctxt]=Plur|SpaceAfter=No
+15	,	,	PUNCT	_	_	18	punct	_	_
+16	d'autant	d'autant	ADV	_	_	17	advmod	_	_
+17	plus	plus	ADV	_	_	18	advmod	_	_
+18	intéressants	intéressant	ADJ	_	Gender=Masc	14	amod	_	Number[ctxt]=Plur
+19	à	à	ADP	_	_	21	case	_	_
+20	nos	son	DET	_	Number=Plur|Number[psor]=Plur|Person[psor]=1|Poss=Yes|PronType=Prs	21	det	_	_
+21	yeux	œil	NOUN	_	Number=Plur	18	obl:mod	_	Gender[lex]=Masc
+22	que	que	SCONJ	_	_	25	mark	_	_
+23	nous	nous	PRON	_	Case=Nom|Emph=No|Number=Plur|Person=1|PronType=Prs	25	nsubj	_	_
+24	les	eux	PRON	_	Case=Acc|Emph=No|Number=Plur|Person=3|PronType=Prs	25	obj	_	_
+25	proposons	proposer	VERB	_	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	17	ccomp	_	_
+26	depuis	depuis	ADP	_	_	27	case	_	_
+27	longtemps	longtemps	ADV	_	_	25	advmod	_	SpaceAfter=No
+28	:	:	PUNCT	_	_	29	punct	_	_
+29	relèvement	relèvement	NOUN	_	_	12	appos	_	Gender[lex]=Masc|Number[ctxt]=Sing
+30-31	du	_	_	_	_	_	_	_	_
+30	de	de	ADP	_	_	32	case	_	_
+31	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	32	det	_	_
+32	Smic	Smic	PROPN	_	_	29	nmod	_	Gender[lex]=Unknown|SpaceAfter=No
+33	,	,	PUNCT	_	_	34	punct	_	_
+34	amnistie	amnistie	NOUN	_	_	29	conj	_	Gender[lex]=Fem|Number[ctxt]=Sing
+35	pour	pour	ADP	_	_	37	case	_	_
+36	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	37	det	_	_
+37	commerçants	commerçant	NOUN	_	_	34	nmod	_	Gender[lex]=Masc|Number[ctxt]=Plur
+38	et	et	CCONJ	_	_	40	cc	_	_
+39	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	40	det	_	_
+40	artisans	artisan	NOUN	_	_	37	conj	_	Gender[lex]=Masc|Number[ctxt]=Plur|SpaceAfter=No
+41	,	,	PUNCT	_	_	42	punct	_	_
+42	aide	aide	NOUN	_	_	29	conj	_	Gender[lex]=Fem|Number[ctxt]=Sing
+43-44	aux	_	_	_	_	_	_	_	_
+43	à	à	ADP	_	_	45	case	_	_
+44	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	45	det	_	_
+45	chômeurs	chômeur	NOUN	_	_	42	nmod	_	Gender[lex]=Masc|Number[ctxt]=Plur
+46	partiels	partiel	ADJ	_	_	45	amod	_	Gender[ctxt]=Masc|Number[ctxt]=Plur|SpaceAfter=No
+47	,	,	PUNCT	_	_	48	punct	_	_
+48	égalisation	égalisation	NOUN	_	_	29	conj	_	Gender[lex]=Fem|Number[ctxt]=Sing
+49-50	des	_	_	_	_	_	_	_	_
+49	de	de	ADP	_	_	51	case	_	_
+50	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	51	det	_	_
+51	salaires	salaire	NOUN	_	_	48	nmod	_	Gender[lex]=Masc|Number[ctxt]=Plur
+52	féminins	féminin	ADJ	_	Gender=Masc	51	amod	_	Number[ctxt]=Plur
+53	et	et	CCONJ	_	_	54	cc	_	_
+54	masculins	masculin	ADJ	_	Gender=Masc	52	conj	_	Number[ctxt]=Plur|SpaceAfter=No
+55	,	,	PUNCT	_	_	56	punct	_	_
+56	participation	participation	NOUN	_	_	29	conj	_	Gender[lex]=Fem|Number[ctxt]=Sing
+57	accrue	accru	ADJ	_	_	56	amod	_	Gender[ctxt]=Fem|Number[ctxt]=Sing
+58-59	des	_	_	_	_	_	_	_	_
+58	de	de	ADP	_	_	60	case	_	_
+59	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	60	det	_	_
+60	cadres	cadre	NOUN	_	_	56	nmod	_	Gender[lex]=Masc|Number[ctxt]=Plur
+61-62	aux	_	_	_	_	_	_	_	_
+61	à	à	ADP	_	_	63	case	_	_
+62	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	63	det	_	_
+63	conseils	conseil	NOUN	_	_	56	nmod	_	Gender[lex]=Masc|Number[ctxt]=Plur
+64	d'	de	ADP	_	_	65	case	_	SpaceAfter=No
+65	administration	administration	NOUN	_	_	63	nmod	_	Gender[lex]=Fem|Number[ctxt]=Sing
+66-67	des	_	_	_	_	_	_	_	_
+66	de	de	ADP	_	_	68	case	_	_
+67	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	68	det	_	_
+68	sociétés	société	NOUN	_	_	63	nmod	_	Gender[lex]=Fem|Number[ctxt]=Plur|SpaceAfter=No
+69	,	,	PUNCT	_	_	70	punct	_	_
+70	réforme	réforme	NOUN	_	_	29	conj	_	Gender[lex]=Fem|Number[ctxt]=Sing
+71-72	du	_	_	_	_	_	_	_	_
+71	de	de	ADP	_	_	73	case	_	_
+72	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	73	det	_	_
+73	droit	droit	NOUN	_	_	70	nmod	_	Gender[lex]=Masc|Number[ctxt]=Sing
+74	de	de	ADP	_	_	75	case	_	_
+75	licenciement	licenciement	NOUN	_	_	73	nmod	_	Gender[lex]=Masc|Number[ctxt]=Sing|SpaceAfter=No
+76	,	,	PUNCT	_	_	77	punct	_	_
+77	nomination	nomination	NOUN	_	_	29	conj	_	Gender[lex]=Fem|Number[ctxt]=Sing
+78	d'	de	ADP	_	_	80	case	_	SpaceAfter=No
+79	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	80	det	_	_
+80	médiateur	médiateur	NOUN	_	_	77	nmod	_	Gender[lex]=Masc|Number[ctxt]=Sing
+81	entre	entre	ADP	_	_	83	case	_	_
+82	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	83	det	_	Gender[ctxt]=Fem|SpaceAfter=No
+83	administration	administration	NOUN	_	_	80	nmod	_	Gender[lex]=Fem|Number[ctxt]=Sing
+84	et	et	CCONJ	_	_	86	cc	_	_
+85	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	86	det	_	_
+86	public	public	NOUN	_	_	83	conj	_	Gender[lex]=Masc|Number[ctxt]=Sing|SpaceAfter=No
+87	,	,	PUNCT	_	_	88	punct	_	_
+88	contrôle	contrôle	NOUN	_	_	29	conj	_	Gender[lex]=Masc|Number[ctxt]=Sing
+89-90	des	_	_	_	_	_	_	_	_
+89	de	de	ADP	_	_	91	case	_	_
+90	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	91	det	_	_
+91	dépenses	dépense	NOUN	_	_	88	nmod	_	Gender[lex]=Fem|Number[ctxt]=Plur
+92	électorales	électoral	ADJ	_	_	91	amod	_	Gender[ctxt]=Fem|Number[ctxt]=Plur|SpaceAfter=No
+93	,	,	PUNCT	_	_	95	punct	_	_
+94	toutes	tout	ADJ	_	Gender=Fem	95	amod	_	Number[ctxt]=Plur
+95	mesures	mesure	NOUN	_	_	88	appos	_	Gender[lex]=Fem|Number[ctxt]=Plur
+96	qui	qui	PRON	_	PronType=Rel	97	nsubj	_	_
+97	dormaient	dormir	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	95	acl:relcl	_	_
+98	dans	dans	ADP	_	_	100	case	_	_
+99	vos	son	DET	_	Number=Plur|Number[psor]=Plur|Person[psor]=2|Poss=Yes|PronType=Prs	100	det	_	_
+100	cartons	carton	NOUN	_	_	97	obl:mod	_	Gender[lex]=Masc|Number[ctxt]=Plur|SpaceAfter=No
+101	,	,	PUNCT	_	_	107	punct	_	_
+102	que	que	PRON	_	PronType=Rel	107	obj	_	_
+103	vos	son	DET	_	Number=Plur|Number[psor]=Plur|Person[psor]=2|Poss=Yes|PronType=Prs	104	det	_	_
+104	prédécesseurs	prédécesseur	NOUN	_	_	107	nsubj	_	Gender[lex]=Masc|Number[ctxt]=Plur
+105	avaient	avoir	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	107	aux:tense	_	_
+106	énergiquement	énergiquement	ADV	_	_	107	advmod	_	_
+107	refusées	refuser	VERB	_	VerbForm=Part|Voice=Act	97	conj	_	Gender[ctxt]=Fem|Number[ctxt]=Plur|SpaceAfter=No|Tense[denom]=Past
+108	,	,	PUNCT	_	_	112	punct	_	_
+109	et	et	CCONJ	_	_	112	cc	_	_
+110	que	que	PRON	_	PronType=Rel	112	obj	_	_
+111	l'on	on	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Ind	112	nsubj	_	_
+112	retrouve	retrouver	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	97	conj	_	_
+113	dans	dans	ADP	_	_	115	case	_	_
+114	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	115	det	_	_
+115	programme	programme	NOUN	_	_	112	obl:mod	_	Gender[lex]=Masc|Number[ctxt]=Sing
+116	commun	commun	ADJ	_	Gender=Masc	115	amod	_	Number[ctxt]=Sing
+117	de	de	ADP	_	_	119	case	_	_
+118	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	119	det	_	_
+119	gauche	gauche	NOUN	_	_	115	nmod	_	Gender[lex]=Fem|Number[ctxt]=Sing|SpaceAfter=No
+120	.	.	PUNCT	_	_	9	punct	_	_
+
+# sent_id = Rhap_D2006-2
+# old_id = Rhap_D2006-2
+# type = dialogue
+# prosodic_annotation = yes
+# speaker = L1
+# speaker_id = §LM20
+# speaker_fullname = François Mitterand
+# speaker_role = speaker/signer
+# speaker_age = 56
+# speaker_sex = male
+# speaker_education = unspecified
+# speaker_family_social_role = unknown
+# genre = discourse
+# subgenre = oratory
+# task = political speech
+# modalities = speech
+# subject = unspecified
+# interactivity = semi-interactive
+# planning_type = planned
+# involvement = non-elicited
+# social_context = public
+# event_structure = dialogue
+# channel = face to face
+# sound_url = https://rhapsodie.modyco.fr/rp/waves/Rhap-D2006.mp3
+# macrosyntax = lorsque vous semblez mettre en doute notre amour des libertés <+ c'est un outrage que nous n'acceptons pas //
+# text = lorsque vous semblez mettre en doute notre amour des libertés, c'est un outrage que nous n'acceptons pas.
+1	lorsque	lorsque	SCONJ	_	_	3	mark	_	_
+2	vous	vous	PRON	_	Case=Nom|Emph=No|Number=Plur|Person=2|PronType=Prs	3	nsubj	_	Polite=Unknown
+3	semblez	sembler	VERB	_	Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	16	advcl	_	_
+4	mettre	mettre	VERB	_	VerbForm=Inf	3	xcomp	_	Subject=SubjRaising
+5	en	en	ADP	_	_	6	case	_	_
+6	doute	doute	NOUN	_	_	4	obl:arg	_	Gender[lex]=Masc|Number[ctxt]=Sing
+7	notre	son	DET	_	Number=Sing|Number[psor]=Plur|Person[psor]=1|Poss=Yes|PronType=Prs	8	det	_	_
+8	amour	amour	NOUN	_	_	4	obj	_	Gender[lex]=Masc|Number[ctxt]=Sing
+9-10	des	_	_	_	_	_	_	_	_
+9	de	de	ADP	_	_	11	case	_	_
+10	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	11	det	_	_
+11	libertés	liberté	NOUN	_	_	8	nmod	_	Gender[lex]=Fem|Number[ctxt]=Plur|SpaceAfter=No
+12	,	,	PUNCT	_	_	3	punct	_	_
+13	c'	ce	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	16	nsubj	_	SpaceAfter=No
+14	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	16	cop	_	_
+15	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	16	det	_	_
+16	outrage	outrage	NOUN	_	_	0	root	_	Gender[lex]=Masc|Number[ctxt]=Sing
+17	que	que	PRON	_	PronType=Rel	20	obj	_	_
+18	nous	nous	PRON	_	Case=Nom|Emph=No|Number=Plur|Person=1|PronType=Prs	20	nsubj	_	_
+19	n'	ne	ADV	_	Polarity=Neg	20	advmod	_	SpaceAfter=No
+20	acceptons	accepter	VERB	_	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	16	acl:relcl	_	_
+21	pas	pas	ADV	_	Polarity=Neg	20	advmod	_	SpaceAfter=No
+22	.	.	PUNCT	_	_	16	punct	_	_
+
+# sent_id = Rhap_D2006-3
+# old_id = Rhap_D2006-3
+# type = dialogue
+# prosodic_annotation = yes
+# speaker = L1
+# speaker_id = §LM20
+# speaker_fullname = François Mitterand
+# speaker_role = speaker/signer
+# speaker_age = 56
+# speaker_sex = male
+# speaker_education = unspecified
+# speaker_family_social_role = unknown
+# genre = discourse
+# subgenre = oratory
+# task = political speech
+# modalities = speech
+# subject = unspecified
+# interactivity = semi-interactive
+# planning_type = planned
+# involvement = non-elicited
+# social_context = public
+# event_structure = dialogue
+# channel = face to face
+# sound_url = https://rhapsodie.modyco.fr/rp/waves/Rhap-D2006.mp3
+# macrosyntax = nous sommes les héritiers de la tradition qui a instauré dans ce pays la démocratie { politique | ^et sociale } //
+# text = nous sommes les héritiers de la tradition qui a instauré dans ce pays la démocratie politique et sociale.
+1	nous	nous	PRON	_	Case=Nom|Emph=No|Number=Plur|Person=1|PronType=Prs	4	nsubj	_	_
+2	sommes	être	AUX	_	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	4	cop	_	_
+3	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	4	det	_	_
+4	héritiers	héritier	NOUN	_	_	0	root	_	Gender[lex]=Masc|Number[ctxt]=Plur
+5	de	de	ADP	_	_	7	case	_	_
+6	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
+7	tradition	tradition	NOUN	_	_	4	nmod	_	Gender[lex]=Fem|Number[ctxt]=Sing
+8	qui	qui	PRON	_	PronType=Rel	10	nsubj	_	_
+9	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	aux:tense	_	_
+10	instauré	instaurer	VERB	_	VerbForm=Part|Voice=Act	7	acl:relcl	_	Gender[ctxt]=Masc|Number[ctxt]=Sing|Tense[denom]=Past
+11	dans	dans	ADP	_	_	13	case	_	_
+12	ce	ce	DET	_	Gender=Masc|Number=Sing|PronType=Dem	13	det	_	_
+13	pays	pays	NOUN	_	Number=Sing	10	obl:mod	_	Gender[lex]=Masc
+14	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	15	det	_	_
+15	démocratie	démocratie	NOUN	_	_	10	obj	_	Gender[lex]=Fem|Number[ctxt]=Sing
+16	politique	politique	ADJ	_	_	15	amod	_	Gender[ctxt]=Fem|Number[ctxt]=Sing
+17	et	et	CCONJ	_	_	18	cc	_	_
+18	sociale	sociale	NOUN	_	_	16	conj	_	Gender[lex]=Fem|Number[ctxt]=Sing|SpaceAfter=No
+19	.	.	PUNCT	_	_	4	punct	_	_
+
+# sent_id = Rhap_D2006-4
+# old_id = Rhap_D2006-4
+# type = dialogue
+# prosodic_annotation = yes
+# speaker = L1
+# speaker_id = §LM20
+# speaker_fullname = François Mitterand
+# speaker_role = speaker/signer
+# speaker_age = 56
+# speaker_sex = male
+# speaker_education = unspecified
+# speaker_family_social_role = unknown
+# genre = discourse
+# subgenre = oratory
+# task = political speech
+# modalities = speech
+# subject = unspecified
+# interactivity = semi-interactive
+# planning_type = planned
+# involvement = non-elicited
+# social_context = public
+# event_structure = dialogue
+# channel = face to face
+# sound_url = https://rhapsodie.modyco.fr/rp/waves/Rhap-D2006.mp3
+# macrosyntax = { toujours | toujours } contre les droites coalisées <+ nos combats pour la conquête du droit jalonnent l'histoire des deux derniers siècles //
+# text = toujours, toujours contre les droites coalisées, nos combats pour la conquête du droit jalonnent l'histoire des deux derniers siècles.
+1	toujours	toujours	ADV	_	_	6	advmod	_	SpaceAfter=No
+2	,	,	PUNCT	_	_	3	punct	_	_
+3	toujours	toujours	ADV	_	_	1	conj	_	_
+4	contre	contre	ADP	_	_	6	case	_	_
+5	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	6	det	_	_
+6	droites	droite	NOUN	_	_	17	obl:mod	_	Gender[lex]=Fem|Number[ctxt]=Plur
+7	coalisées	coaliser	VERB	_	VerbForm=Part	6	acl	_	Gender[ctxt]=Fem|Number[ctxt]=Plur|SpaceAfter=No|Tense[denom]=Past
+8	,	,	PUNCT	_	_	6	punct	_	_
+9	nos	son	DET	_	Number=Plur|Number[psor]=Plur|Person[psor]=1|Poss=Yes|PronType=Prs	10	det	_	_
+10	combats	combat	NOUN	_	_	17	nsubj	_	Gender[lex]=Masc|Number[ctxt]=Plur
+11	pour	pour	ADP	_	_	13	case	_	_
+12	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	13	det	_	_
+13	conquête	conquête	NOUN	_	_	10	nmod	_	Gender[lex]=Fem|Number[ctxt]=Sing
+14-15	du	_	_	_	_	_	_	_	_
+14	de	de	ADP	_	_	16	case	_	_
+15	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	16	det	_	_
+16	droit	droit	NOUN	_	_	13	nmod	_	Gender[lex]=Masc|Number[ctxt]=Sing
+17	jalonnent	jalonner	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+18	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	19	det	_	Gender[ctxt]=Fem|SpaceAfter=No
+19	histoire	histoire	NOUN	_	_	17	obj	_	Gender[lex]=Fem|Number[ctxt]=Sing
+20-21	des	_	_	_	_	_	_	_	_
+20	de	de	ADP	_	_	24	case	_	_
+21	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	24	det	_	_
+22	deux	deux	NUM	_	_	24	nummod	_	Number[lex]=Plur
+23	derniers	dernier	ADJ	_	Gender=Masc|Number=Plur	24	amod	_	_
+24	siècles	siècle	NOUN	_	_	19	nmod	_	Gender[lex]=Masc|Number[ctxt]=Plur|SpaceAfter=No
+25	.	.	PUNCT	_	_	17	punct	_	_
+
+# sent_id = Rhap_D2006-5
+# old_id = Rhap_D2006-5
+# type = dialogue
+# prosodic_annotation = yes
+# speaker = L1
+# speaker_id = §LM20
+# speaker_fullname = François Mitterand
+# speaker_role = speaker/signer
+# speaker_age = 56
+# speaker_sex = male
+# speaker_education = unspecified
+# speaker_family_social_role = unknown
+# genre = discourse
+# subgenre = oratory
+# task = political speech
+# modalities = speech
+# subject = unspecified
+# interactivity = semi-interactive
+# planning_type = planned
+# involvement = non-elicited
+# social_context = public
+# event_structure = dialogue
+# channel = face to face
+# sound_url = https://rhapsodie.modyco.fr/rp/waves/Rhap-D2006.mp3
+# macrosyntax = c'est à ceux de votre tradition { que nous avons arraché { le suffrage universel | la liberté d'association } | que nous avons arraché la liberté d'association | que nous avons arraché { la liberté de la presse | le droit de grève | le droit à l'instruction } } //
+# text = c'est à ceux de votre tradition que nous avons arraché le suffrage universel, la liberté d'association, que nous avons arraché la liberté d'association, que nous avons arraché la liberté de la presse, le droit de grève, le droit à l'instruction.
+1	c'	ce	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	4	expl:subj	_	SpaceAfter=No
+2	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	_
+3	à	à	ADP	_	_	4	case	_	_
+4	ceux	celui	PRON	_	Gender=Masc|Number=Plur|Person=3|PronType=Dem	0	root	_	_
+5	de	de	ADP	_	_	7	case	_	_
+6	votre	son	DET	_	Number=Sing|Number[psor]=Plur|Person[psor]=2|Poss=Yes|PronType=Prs	7	det	_	_
+7	tradition	tradition	NOUN	_	_	4	obl:arg	_	Gender[lex]=Fem|Number[ctxt]=Sing
+8	que	que	SCONJ	_	_	11	mark	_	_
+9	nous	nous	PRON	_	Case=Nom|Emph=No|Number=Plur|Person=1|PronType=Prs	11	nsubj	_	_
+10	avons	avoir	AUX	_	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	11	aux:tense	_	Filler=obl
+11	arraché	arracher	VERB	_	VerbForm=Part|Voice=Act	4	advcl:cleft	_	Gender[ctxt]=Masc|Number[ctxt]=Sing|Tense[denom]=Past
+12	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	13	det	_	_
+13	suffrage	suffrage	NOUN	_	_	11	obj	_	Gender[lex]=Masc|Number[ctxt]=Sing
+14	universel	universel	ADJ	_	_	13	amod	_	Gender[ctxt]=Masc|Number[ctxt]=Sing|SpaceAfter=No
+15	,	,	PUNCT	_	_	17	punct	_	_
+16	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	17	det	_	_
+17	liberté	liberté	NOUN	_	_	13	conj	_	Gender[lex]=Fem|Number[ctxt]=Sing
+18	d'	de	ADP	_	_	19	case	_	SpaceAfter=No
+19	association	association	NOUN	_	_	17	nmod	_	Gender[lex]=Fem|Number[ctxt]=Sing|SpaceAfter=No
+20	,	,	PUNCT	_	_	24	punct	_	_
+21	que	que	SCONJ	_	_	24	mark	_	Filler=mod
+22	nous	nous	PRON	_	Case=Nom|Emph=No|Number=Plur|Person=1|PronType=Prs	24	nsubj	_	_
+23	avons	avoir	AUX	_	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	24	aux:tense	_	_
+24	arraché	arracher	VERB	_	VerbForm=Part|Voice=Act	11	conj	_	Gender[ctxt]=Masc|Number[ctxt]=Sing|Tense[denom]=Past
+25	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	26	det	_	_
+26	liberté	liberté	NOUN	_	_	24	obj	_	Gender[lex]=Fem|Number[ctxt]=Sing
+27	d'	de	ADP	_	_	28	case	_	SpaceAfter=No
+28	association	association	NOUN	_	_	26	nmod	_	Gender[lex]=Fem|Number[ctxt]=Sing|SpaceAfter=No
+29	,	,	PUNCT	_	_	33	punct	_	_
+30	que	que	SCONJ	_	_	33	mark	_	_
+31	nous	nous	PRON	_	Case=Nom|Emph=No|Number=Plur|Person=1|PronType=Prs	33	nsubj	_	_
+32	avons	avoir	AUX	_	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	33	aux:tense	_	_
+33	arraché	arracher	VERB	_	VerbForm=Part|Voice=Act	11	conj	_	Gender[ctxt]=Masc|Number[ctxt]=Sing|Tense[denom]=Past
+34	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	35	det	_	_
+35	liberté	liberté	NOUN	_	_	33	obj	_	Gender[lex]=Fem|Number[ctxt]=Sing
+36	de	de	ADP	_	_	38	case	_	_
+37	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	38	det	_	_
+38	presse	presse	NOUN	_	_	35	nmod	_	Gender[lex]=Fem|Number[ctxt]=Sing|SpaceAfter=No
+39	,	,	PUNCT	_	_	41	punct	_	_
+40	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	41	det	_	_
+41	droit	droit	NOUN	_	_	35	conj	_	Gender[lex]=Masc|Number[ctxt]=Sing
+42	de	de	ADP	_	_	43	case	_	_
+43	grève	grève	NOUN	_	_	41	nmod	_	Gender[lex]=Fem|Number[ctxt]=Sing|SpaceAfter=No
+44	,	,	PUNCT	_	_	46	punct	_	_
+45	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	46	det	_	_
+46	droit	droit	NOUN	_	_	35	conj	_	Gender[lex]=Masc|Number[ctxt]=Sing
+47	à	à	ADP	_	_	49	case	_	_
+48	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	49	det	_	Gender[ctxt]=Fem|SpaceAfter=No
+49	instruction	instruction	NOUN	_	_	46	nmod	_	Gender[lex]=Fem|Number[ctxt]=Sing|SpaceAfter=No
+50	.	.	PUNCT	_	_	4	punct	_	_
+
+# sent_id = Rhap_D2006-6
+# old_id = Rhap_D2006-6
+# type = dialogue
+# prosodic_annotation = yes
+# speaker = L2
+# speaker_id = §LM21
+# speaker_fullname = unspecified
+# speaker_role = speaker/signer
+# speaker_age = unspecified
+# speaker_sex = male
+# speaker_education = unspecified
+# speaker_family_social_role = unknown
+# genre = discourse
+# subgenre = oratory
+# task = political speech
+# modalities = speech
+# subject = unspecified
+# interactivity = semi-interactive
+# planning_type = planned
+# involvement = non-elicited
+# social_context = public
+# event_structure = dialogue
+# channel = face to face
+# sound_url = https://rhapsodie.modyco.fr/rp/waves/Rhap-D2006.mp3
+# macrosyntax = $L2 { seconde | une seconde | une seconde } //
+# text = seconde, une seconde, une seconde.
+1	seconde	seconde	NOUN	_	_	7	reparandum	_	Gender[lex]=Fem|Number[ctxt]=Sing|SpaceAfter=No
+2	,	,	PUNCT	_	_	1	punct	_	_
+3	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
+4	seconde	seconde	NOUN	_	_	7	reparandum	_	Gender[lex]=Fem|Number[ctxt]=Sing|SpaceAfter=No
+5	,	,	PUNCT	_	_	4	punct	_	_
+6	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
+7	seconde	seconde	NOUN	_	_	0	root	_	Gender[lex]=Fem|Number[ctxt]=Sing|SpaceAfter=No
+8	.	.	PUNCT	_	_	7	punct	_	_
+
+# sent_id = Rhap_D2006-7
+# old_id = Rhap_D2006-7
+# type = dialogue
+# prosodic_annotation = yes
+# speaker = L2
+# speaker_id = §LM21
+# speaker_fullname = unspecified
+# speaker_role = speaker/signer
+# speaker_age = unspecified
+# speaker_sex = male
+# speaker_education = unspecified
+# speaker_family_social_role = unknown
+# genre = discourse
+# subgenre = oratory
+# task = political speech
+# modalities = speech
+# subject = unspecified
+# interactivity = semi-interactive
+# planning_type = planned
+# involvement = non-elicited
+# social_context = public
+# event_structure = dialogue
+# channel = face to face
+# sound_url = https://rhapsodie.modyco.fr/rp/waves/Rhap-D2006.mp3
+# macrosyntax = monsieur Mitterrand < une seconde //
+# text = monsieur Mitterrand, une seconde.
+1	monsieur	monsieur	NOUN	_	Number=Sing	5	vocative	_	Gender[lex]=Masc
+2	Mitterrand	Mitterrand	PROPN	_	_	1	nmod:appos	_	Gender[lex]=Unknown|SpaceAfter=No
+3	,	,	PUNCT	_	_	1	punct	_	_
+4	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
+5	seconde	seconde	NOUN	_	_	0	root	_	Gender[lex]=Fem|Number[ctxt]=Sing|SpaceAfter=No
+6	.	.	PUNCT	_	_	5	punct	_	_
+
+# sent_id = Rhap_D2006-8
+# old_id = Rhap_D2006-8
+# type = dialogue
+# prosodic_annotation = yes
+# speaker = L2
+# speaker_id = §LM21
+# speaker_fullname = unspecified
+# speaker_role = speaker/signer
+# speaker_age = unspecified
+# speaker_sex = male
+# speaker_education = unspecified
+# speaker_family_social_role = unknown
+# genre = discourse
+# subgenre = oratory
+# task = political speech
+# modalities = speech
+# subject = unspecified
+# interactivity = semi-interactive
+# planning_type = planned
+# involvement = non-elicited
+# social_context = public
+# event_structure = dialogue
+# channel = face to face
+# sound_url = https://rhapsodie.modyco.fr/rp/waves/Rhap-D2006.mp3
+# macrosyntax = monsieur Mitterrand < voulez-vous continuer //
+# text = monsieur Mitterrand, voulez-vous continuer ?
+1	monsieur	monsieur	NOUN	_	Number=Sing	6	vocative	_	Gender[lex]=Masc
+2	Mitterrand	Mitterrand	PROPN	_	_	1	nmod:appos	_	Gender[lex]=Unknown|SpaceAfter=No
+3	,	,	PUNCT	_	_	1	punct	_	_
+4	voulez	vouloir	VERB	_	Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
+5	-vous	vous	PRON	_	Case=Nom|Emph=No|Number=Plur|Person=2|PronType=Prs	4	nsubj	_	_
+6	continuer	continuer	VERB	_	VerbForm=Inf	4	xcomp	_	Subject=SubjRaising
+7	?	?	PUNCT	_	_	4	punct	_	_
+
+# sent_id = Rhap_D2006-9
+# old_id = Rhap_D2006-9
+# type = dialogue
+# prosodic_annotation = yes
+# speaker = L1
+# speaker_id = §LM20
+# speaker_fullname = François Mitterand
+# speaker_role = speaker/signer
+# speaker_age = 56
+# speaker_sex = male
+# speaker_education = unspecified
+# speaker_family_social_role = unknown
+# genre = discourse
+# subgenre = oratory
+# task = political speech
+# modalities = speech
+# subject = unspecified
+# interactivity = semi-interactive
+# planning_type = planned
+# involvement = non-elicited
+# social_context = public
+# event_structure = dialogue
+# channel = face to face
+# sound_url = https://rhapsodie.modyco.fr/rp/waves/Rhap-D2006.mp3
+# macrosyntax = $L1 ^mais monsieur le président < il est naturel que la majorité se montre telle qu'elle est //
+# text = mais monsieur le président, il est naturel que la majorité se montre telle qu'elle est.
+1	mais	mais	CCONJ	_	_	8	cc	_	_
+2	monsieur	monsieur	NOUN	_	Number=Sing	8	vocative	_	Gender[lex]=Masc
+3	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
+4	président	président	NOUN	_	_	2	nmod:appos	_	Gender[lex]=Masc|Number[ctxt]=Sing|SpaceAfter=No
+5	,	,	PUNCT	_	_	2	punct	_	_
+6	il	lui	PRON	_	Case=Nom|Emph=No|Gender=Masc|Number=Sing|Person=3|PronType=Prs	8	expl:subj	_	_
+7	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	cop	_	_
+8	naturel	naturel	ADJ	_	_	0	root	_	Gender[ctxt]=Masc|Number[ctxt]=Sing
+9	que	que	SCONJ	_	_	13	mark	_	_
+10	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	11	det	_	_
+11	majorité	majorité	NOUN	_	_	13	nsubj	_	Gender[lex]=Fem|Number[ctxt]=Sing
+12	se	soi	PRON	_	Person=3|PronType=Prs	13	obj	_	_
+13	montre	montrer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	csubj	_	_
+14	telle	tel	ADJ	_	_	13	xcomp	_	Gender[ctxt]=Fem|Number[ctxt]=Sing
+15	qu'	que	SCONJ	_	_	14	acl:relcl	_	SpaceAfter=No
+16	elle	lui	PRON	_	Case=Nom|Emph=No|Gender=Fem|Number=Sing|Person=3|PronType=Prs	15	nsubj	_	_
+17	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	15	cop	_	SpaceAfter=No
+18	.	.	PUNCT	_	_	8	punct	_	_
+

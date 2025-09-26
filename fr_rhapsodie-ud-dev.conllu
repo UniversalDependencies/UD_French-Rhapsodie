@@ -1,4 +1,3 @@
-# global.columns = ID FORM LEMMA UPOS XPOS FEATS HEAD DEPREL DEPS MISC
 # sent_id = Rhap_M0024-1
 # old_id = Rhap_M0024-1
 # type = monologue
@@ -7208,7 +7207,7 @@
 10	aujourd'hui	aujourd'hui	ADV	_	_	8	advmod	_	SpaceAfter=No
 11	,	,	PUNCT	_	_	4	punct	_	_
 12	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	13	det	_	_
-13	Français	Français	PROPN	_	_	15	nsubj	_	Gender[lex]=Unknown
+13	Français	Français	NOUN	_	_	15	nsubj	_	Gender[lex]=Unknown
 14	se	soi	PRON	_	Person=3|PronType=Prs	15	obj	_	_
 15	montrent	montrer	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 16	très	très	ADV	_	_	17	advmod	_	_
@@ -14652,7 +14651,7 @@
 # sound_url = https://rhapsodie.modyco.fr/rp/waves/Rhap-D0009.mp3
 # macrosyntax = $L2 {| très bas |} -$ //+
 # text = très bas.
-1	très	très	ADV	_	_	2	advmod	_	AttachTo=7@Rhap_D0009-75|Overlap=Rhap_D0009-75|Rel=parataxis:conj
+1	très	très	ADV	_	_	2	advmod	_	Overlap=Rhap_D0009-75
 2	bas	bas	ADJ	_	Gender=Masc	0	root	_	AttachTo=7@Rhap_D0009-75|Number[ctxt]=Sing|Overlap=Rhap_D0009-75|Rel=parataxis:conj|SpaceAfter=No
 3	.	.	PUNCT	_	_	2	punct	_	Overlap=Rhap_D0009-57
 
@@ -19271,7 +19270,7 @@
 6	va	aller	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	reparandum	_	SpaceAfter=No
 7	,	,	PUNCT	_	_	6	punct	_	_
 8	va	aller	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
-9	où	où	PRON	_	PronType=Rel	8	obj	_	_
+9	où	où	PRON	_	PronType=Rel	8	iobj	_	_
 10	il	lui	PRON	_	Case=Nom|Emph=No|Gender=Masc|Number=Sing|Person=3|PronType=Prs	11	nsubj	_	_
 11	veut	vouloir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	acl:relcl	_	SpaceAfter=No
 12	.	.	PUNCT	_	_	8	punct	_	_
@@ -21445,7 +21444,7 @@
 2	-ce	ce	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	6	expl:subj	_	_
 3	que	que	SCONJ	_	_	6	mark	_	_
 4	ça	ça	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	6	nsubj	_	_
-5	vous	vous	PRON	_	Case=Acc|Emph=No|Number=Plur|Person=2|PronType=Prs	6	obj	_	Polite=Unknown
+5	vous	vous	PRON	_	Case=Acc|Emph=No|Number=Plur|Person=2|PronType=Prs	6	iobj	_	Polite=Unknown
 6	va	aller	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 7	?	?	PUNCT	_	_	6	punct	_	_
 
@@ -23920,7 +23919,7 @@
 # text = on s'en va.
 1	on	on	PRON	_	Case=Nom|Emph=No|Gender=Masc|Number=Sing|Person=3|PronType=Ind	4	nsubj	_	Overlap=Rhap_D2007-71
 2	s'	soi	PRON	_	Person=3|PronType=Prs	4	expl:comp	_	Overlap=Rhap_D2007-71|SpaceAfter=No
-3	en	en	PRON	_	Person=3|PronType=Prs	4	obj	_	Overlap=Rhap_D2007-71
+3	en	en	PRON	_	Person=3|PronType=Prs	4	expl:comp	_	Overlap=Rhap_D2007-71
 4	va	aller	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	Overlap=Rhap_D2007-71|SpaceAfter=No
 5	.	.	PUNCT	_	_	4	punct	_	Overlap=Rhap_D2007-55
 
@@ -23994,7 +23993,7 @@
 10	,	,	PUNCT	_	_	9	punct	_	_
 11	on	on	PRON	_	Case=Nom|Emph=No|Gender=Masc|Number=Sing|Person=3|PronType=Ind	14	nsubj	_	_
 12	s'	soi	PRON	_	Person=3|PronType=Prs	14	expl:comp	_	SpaceAfter=No
-13	en	en	PRON	_	Person=3|PronType=Prs	14	obj	_	_
+13	en	en	PRON	_	Person=3|PronType=Prs	14	expl:comp	_	_
 14	va	aller	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
 15	.	.	PUNCT	_	_	14	punct	_	_
 
@@ -24604,7 +24603,7 @@
 # sound_url = https://rhapsodie.modyco.fr/rp/waves/Rhap-D2007.mp3
 # macrosyntax = $L4 oui //
 # text = oui.
-1	oui	oui	INTJ	_	_	0	root	_	Overlap=Rhap_D2007-89|Rel=discourse|SpaceAfter=No
+1	oui	oui	INTJ	_	_	0	root	_	AttachTo=11@Rhap_D2007-89|Overlap=Rhap_D2007-89|Rel=discourse|SpaceAfter=No
 2	.	.	PUNCT	_	_	1	punct	_	Overlap=Rhap_D2007-69
 
 # sent_id = Rhap_D2007-91
@@ -25176,7 +25175,7 @@
 # macrosyntax = $- $L3 ça te va bien //
 # text = ça te va bien.
 1	ça	ça	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	3	nsubj	_	Overlap=Rhap_D2007-107
-2	te	toi	PRON	_	Case=Acc|Emph=No|Number=Sing|Person=2|PronType=Prs	3	obj	_	Overlap=Rhap_D2007-107
+2	te	toi	PRON	_	Case=Acc|Emph=No|Number=Sing|Person=2|PronType=Prs	3	iobj	_	Overlap=Rhap_D2007-107
 3	va	aller	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	Overlap=Rhap_D2007-107
 4	bien	bien	ADV	_	_	3	advmod	_	Overlap=Rhap_D2007-107|SpaceAfter=No
 5	.	.	PUNCT	_	_	3	punct	_	Overlap=Rhap_D2007-85
@@ -25249,7 +25248,7 @@
 # macrosyntax = $L3 ça te va bien  " tu sais "  // -$
 # text = ça te va bien, tu sais.
 1	ça	ça	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	3	nsubj	_	Overlap=Rhap_D2007-107
-2	te	toi	PRON	_	Case=Acc|Emph=No|Number=Sing|Person=2|PronType=Prs	3	obj	_	Overlap=Rhap_D2007-107
+2	te	toi	PRON	_	Case=Acc|Emph=No|Number=Sing|Person=2|PronType=Prs	3	iobj	_	Overlap=Rhap_D2007-107
 3	va	aller	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	Overlap=Rhap_D2007-107
 4	bien	bien	ADV	_	_	3	advmod	_	Overlap=Rhap_D2007-107|SpaceAfter=No
 5	,	,	PUNCT	_	_	7	punct	_	Overlap=Rhap_D2007-85
@@ -27599,7 +27598,7 @@
 29	hommes	homme	NOUN	_	_	21	obl:arg	_	Gender[lex]=Masc|Number[ctxt]=Plur
 30	et	et	CCONJ	_	_	32	cc	_	_
 31	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	32	det	_	_
-32	États	État	PROPN	_	_	29	conj	_	Gender[lex]=Unknown|SpaceAfter=No
+32	États	État	NOUN	_	_	29	conj	_	Gender[lex]=Unknown|SpaceAfter=No
 33	.	.	PUNCT	_	_	2	punct	_	_
 
 # sent_id = Rhap_D2005-7
@@ -32746,7 +32745,7 @@
 # sound_url = https://rhapsodie.modyco.fr/rp/waves/Rhap-D0003.mp3
 # macrosyntax = $L1 oui //
 # text = oui.
-1	oui	oui	INTJ	_	_	0	root	_	AttachTo=19@Rhap_D0003-55|Rel=discourse|SpaceAfter=No
+1	oui	oui	INTJ	_	_	0	root	_	AttachTo=19@Rhap_D0003-56|Rel=discourse|SpaceAfter=No
 2	.	.	PUNCT	_	_	1	punct	_	_
 
 # sent_id = Rhap_M0012-1
@@ -36287,7 +36286,7 @@
 # text = euh, quand on prend des enfants d'immigrés et qu'on les mélange avec, euh, soixante pour cent de gamins qui parlent français, ça s'installe très très vite.
 1	euh	euh	INTJ	_	_	5	discourse	_	SpaceAfter=No
 2	,	,	PUNCT	_	_	1	punct	_	_
-3	quand	quand	SCONJ	_	_	5	mark	_	AttachTo=6@Rhap_D0002-84|Rel=mod
+3	quand	quand	SCONJ	_	_	5	mark	_	_
 4	on	on	PRON	_	Emph=No|Gender=Masc|Number=Sing|Person=3|PronType=Ind	5	nsubj	_	_
 5	prend	prendre	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	30	advcl	_	_
 6	des	un	DET	_	Definite=Ind|Number=Plur|PronType=Art	7	det	_	_
@@ -39475,7 +39474,7 @@
 4	bien	bien	ADV	_	_	5	advmod	_	_
 5	compliqué	compliqué	ADJ	_	Number=Sing	0	root	_	Gender[ctxt]=Masc
 6	à	à	ADP	_	_	8	mark	_	_
-7	y	y	PRON	_	Person=3|PronType=Prs	8	obj	_	_
+7	y	y	PRON	_	Person=3|PronType=Prs	8	iobj	_	_
 8	aller	aller	VERB	_	VerbForm=Inf	5	advcl	_	SpaceAfter=No|Subject=NoRaising
 9	,	,	PUNCT	_	_	10	punct	_	_
 10	hein	hein	INTJ	_	_	8	discourse	_	SpaceAfter=No
