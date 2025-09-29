@@ -4,22 +4,23 @@ A Universal Dependencies corpus for spoken French.
 
 # Introduction
 
-The corpus was converted automatically from the [Rhapsodie treebank](http://www.projet-rhapsodie.fr/) with manual corrections.
+The corpus was converted automatically from the [Rhapsodie treebank](https://www.ortolang.fr/market/corpora/rhapsodie/) with manual corrections.
+The treebank in maintained in the repository [SUD_French-Rhapsodie](https://github.com/surfacesyntacticud/SUD_French-Rhapsodie) in the [SUD](https://surfacesyntacticud.github.io/) annotation schema.
 
-Xpos and features (which are not available in v2.2 of UD_French-Spoken) will be added to future versions of this treebank as they are encoded in the Rhapsodie treebank.
-
-
+The SUD version is also available with prosodic annotation (see [SUD README.md](httphttps://github.com/surfacesyntacticud/SUD_French-Rhapsodie/blob/master/README.md)).
 
 # Structure
 
-+ fr_rhapsodie-ud-train.conllu 1167 sentences  15172 tokens
-+ fr_rhapsodie-ud-dev.conllu 909 sentences 10062 tokens
-+ fr_rhapsodie-ud-test.conllu  730 sentences 9991 tokens
-+ total 2806 sentences 35225 tokens
-
++ fr_rhapsodie-ud-train.conllu 1,288 sentences and 19,144 tokens
++ fr_rhapsodie-ud-dev.conllu 1,081 sentences 12,907 tokens
++ fr_rhapsodie-ud-test.conllu  840 sentences 12,191 tokens
++ total 3,209 sentences 44,242 tokens
 
 # Changelog
 
+* 2025-11-15 v2.17
+  * More metadata
+  * Sound alignement
 * 2024-05-15 v2.14
   * Fix a few inconsistent annotation of idioms
   * See [SUD commit logs](https://github.com/surfacesyntacticud/SUD_French-Rhapsodie/commits/master/) for more details
