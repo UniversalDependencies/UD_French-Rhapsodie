@@ -4,7 +4,7 @@ A Universal Dependencies corpus for spoken French.
 
 # Introduction
 
-The corpus was converted automatically from the [Rhapsodie treebank](https://www.ortolang.fr/market/corpora/rhapsodie/) with manual corrections.
+The corpus was converted automatically from the [Rhapsodie treebank](https://rhapsodie.modyco.fr/) with manual corrections.
 The treebank in maintained in the repository [SUD_French-Rhapsodie](https://github.com/surfacesyntacticud/SUD_French-Rhapsodie) in the [SUD](https://surfacesyntacticud.github.io/) annotation schema.
 
 The SUD version is also available with prosodic annotation (see [SUD README.md](https://github.com/surfacesyntacticud/SUD_French-Rhapsodie/blob/master/README.md)).
