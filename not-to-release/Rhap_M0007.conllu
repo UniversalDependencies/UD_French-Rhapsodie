@@ -29,7 +29,7 @@
 2	,	,	PUNCT	_	_	1	punct	_	AlignBegin=350|AlignEnd=350
 3	vous	vous	PRON	_	Case=Nom|Emph=No|Number=Plur|Person=2|PronType=Prs	4	nsubj	_	AlignBegin=350|AlignEnd=410|Polite=Unknown
 4	prenez	prendre	VERB	_	Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	0	root	_	AlignBegin=410|AlignEnd=760
-5	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	AlignBegin=760|AlignEnd=907
+5	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	AlignBegin=760|AlignEnd=907|HasSpokenGender=OnlySingExceptWithLiaison
 6	route	route	NOUN	_	_	4	obj	_	AlignBegin=907|AlignEnd=1125|Gender[lex]=Fem|Number[ctxt]=Sing
 7	là	là	ADV	_	_	6	advmod	_	AlignBegin=1125|AlignEnd=1450|SpaceAfter=No
 8	.	.	PUNCT	_	_	4	punct	_	AlignBegin=1450|AlignEnd=1450
@@ -66,7 +66,7 @@
 4	euh	euh	INTJ	_	_	2	discourse	_	AlignBegin=2115|AlignEnd=2500|SpaceAfter=No
 5	,	,	PUNCT	_	_	11	punct	_	AlignBegin=2500|AlignEnd=2670
 6	de	de	ADP	_	_	11	case	_	AlignBegin=2670|AlignEnd=2768
-7	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	11	det	_	AlignBegin=2768|AlignEnd=3085|SpaceAfter=No
+7	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	11	det	_	AlignBegin=2768|AlignEnd=3085|HasSpokenGender=OnlySingExceptWithLiaison|SpaceAfter=No
 8	,	,	PUNCT	_	_	9	punct	_	AlignBegin=3085|AlignEnd=3085
 9	euh	euh	INTJ	_	_	7	discourse	_	AlignBegin=3085|AlignEnd=3240|SpaceAfter=No
 10	,	,	PUNCT	_	_	7	punct	_	AlignBegin=3240|AlignEnd=3695
@@ -139,11 +139,11 @@
 5	il	lui	PRON	_	Case=Nom|Emph=No|Gender=Masc|Number=Sing|Person=3|PronType=Prs	7	expl:subj	_	AlignBegin=6543|AlignEnd=6554
 6	y	y	PRON	_	Person=3|PronType=Prs	7	expl:comp	_	AlignBegin=6564|AlignEnd=6690
 7	aura	avoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	0	root	_	AlignBegin=6564|AlignEnd=6690
-8	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	9	det	_	AlignBegin=6690|AlignEnd=6739|Gender[ctxt]=Masc|SpaceAfter=No
-9	échangeur	échangeur	NOUN	_	_	7	obj	_	AlignBegin=6739|AlignEnd=7290|Gender[lex]=Masc|Number[ctxt]=Sing
+8	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	9	det	_	AlignBegin=6690|AlignEnd=6739|Gender[ctxt]=Masc|HasSpokenGender=OnlySingExceptWithLiaison|LiaisonAfter=Yes|SpaceAfter=No
+9	échangeur	échangeur	NOUN	_	_	7	obj	_	AlignBegin=6739|AlignEnd=7290|Gender[lex]=Masc|LiaisonPossibleBefore=Yes|Number[ctxt]=Sing
 10	de	de	ADP	_	_	12	case	_	AlignBegin=7290|AlignEnd=7350
-11	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	12	det	_	AlignBegin=7350|AlignEnd=7380|Gender[ctxt]=Fem|SpaceAfter=No
-12	autoroute	autoroute	NOUN	_	_	9	nmod	_	AlignBegin=7380|AlignEnd=7947|Gender[lex]=Fem|Number[ctxt]=Sing|SpaceAfter=No
+11	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	12	det	_	AlignBegin=7350|AlignEnd=7380|Gender[ctxt]=Fem|HasSpokenGender=OnlySingExceptWithLiaison|LiaisonAfter=Yes|SpaceAfter=No
+12	autoroute	autoroute	NOUN	_	_	9	nmod	_	AlignBegin=7380|AlignEnd=7947|Gender[lex]=Fem|LiaisonPossibleBefore=Yes|Number[ctxt]=Sing|SpaceAfter=No
 13	.	.	PUNCT	_	_	7	punct	_	AlignBegin=7947|AlignEnd=7947
 
 # sent_id = Rhap_M0007-5
@@ -204,10 +204,10 @@
 # text = vous prenez le rond-point tout droit.
 1	vous	vous	PRON	_	Case=Nom|Emph=No|Number=Plur|Person=2|PronType=Prs	2	nsubj	_	AlignBegin=8889|AlignEnd=8989|Polite=Unknown
 2	prenez	prendre	VERB	_	Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	0	root	_	AlignBegin=8989|AlignEnd=9309
-3	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	AlignBegin=9309|AlignEnd=9353
+3	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	AlignBegin=9309|AlignEnd=9353|HasSpokenGender=OnlySingExceptWithLiaison
 4	rond-point	rond-point	NOUN	_	_	2	obj	_	AlignBegin=9353|AlignEnd=9811|Gender[lex]=Masc|Number[ctxt]=Sing
 5	tout	tout	ADV	_	_	6	advmod	_	AlignBegin=9811|AlignEnd=9955
-6	droit	droit	ADJ	_	Gender=Masc	2	advcl	_	AlignBegin=9955|AlignEnd=10215|Number[ctxt]=Sing|SpaceAfter=No
+6	droit	droit	ADJ	_	Gender=Masc	2	advcl	_	AlignBegin=9955|AlignEnd=10215|HasSpokenGender=YesExceptSingWithLiaison|HasSpokenNumber=OnlyWithLiaison|Number[ctxt]=Sing|SpaceAfter=No
 7	.	.	PUNCT	_	_	2	punct	_	AlignBegin=10215|AlignEnd=10215
 
 # sent_id = Rhap_M0007-7
@@ -238,7 +238,7 @@
 # text = vous passez le pont, euh, au-dessus de la voie ferrée.
 1	vous	vous	PRON	_	Case=Nom|Emph=No|Number=Plur|Person=2|PronType=Prs	2	nsubj	_	AlignBegin=10925|AlignEnd=11024|Polite=Unknown
 2	passez	passer	VERB	_	Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	0	root	_	AlignBegin=11024|AlignEnd=11374
-3	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	AlignBegin=11374|AlignEnd=11475
+3	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	AlignBegin=11374|AlignEnd=11475|HasSpokenGender=OnlySingExceptWithLiaison
 4	pont	pont	NOUN	_	_	2	obj	_	AlignBegin=11475|AlignEnd=11819|Gender[lex]=Masc|Number[ctxt]=Sing|SpaceAfter=No
 5	,	,	PUNCT	_	_	6	punct	_	AlignBegin=11819|AlignEnd=11819
 6	euh	euh	INTJ	_	_	4	discourse	_	AlignBegin=11819|AlignEnd=12174|SpaceAfter=No
@@ -246,11 +246,11 @@
 8-9	au	_	_	_	_	_	_	_	SpaceAfter=No
 8	à	à	ADP	_	_	10	case	_	AlignBegin=12668|AlignEnd=12848
 9	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	10	det	_	AlignBegin=12668|AlignEnd=12848
-10	-dessus	dessus	NOUN	_	Number=Sing	4	nmod	_	AlignBegin=12848|AlignEnd=13068|Gender[lex]=Masc
+10	-dessus	dessus	NOUN	_	_	4	nmod	_	AlignBegin=12848|AlignEnd=13068|Gender[lex]=Masc|Number[ctxt]=Sing
 11	de	de	ADP	_	_	13	case	_	AlignBegin=13068|AlignEnd=13138
-12	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	13	det	_	AlignBegin=13138|AlignEnd=13268
+12	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	13	det	_	AlignBegin=13138|AlignEnd=13268|HasSpokenGender=OnlySingExceptWithLiaison
 13	voie	voie	NOUN	_	_	10	nmod	_	AlignBegin=13268|AlignEnd=13515|Gender[lex]=Fem|Number[ctxt]=Sing
-14	ferrée	ferré	ADJ	_	_	13	amod	_	AlignBegin=13515|AlignEnd=13878|Gender[ctxt]=Fem|Number[ctxt]=Sing|SpaceAfter=No
+14	ferrée	ferré	ADJ	_	_	13	amod	_	AlignBegin=13515|AlignEnd=13878|Gender[ctxt]=Fem|HasSpokenGender=NotInThisDialect|HasSpokenNumber=OnlyWithLiaison|Number[ctxt]=Sing|SpaceAfter=No
 15	.	.	PUNCT	_	_	2	punct	_	AlignBegin=13878|AlignEnd=13878
 
 # sent_id = Rhap_M0007-8
@@ -318,12 +318,12 @@
 3	c'	ce	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	7	nsubj	_	AlignBegin=17171|AlignEnd=17291|SpaceAfter=No
 4	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	cop	_	AlignBegin=17291|AlignEnd=17343
 5	direction	direction	ADP	_	_	7	case	_	AlignBegin=17343|AlignEnd=17721
-6	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	det	_	AlignBegin=17721|AlignEnd=17841
+6	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	det	_	AlignBegin=17721|AlignEnd=17841|HasSpokenGender=OnlySingExceptWithLiaison
 7	piscine	piscine	NOUN	_	_	0	root	_	AlignBegin=17841|AlignEnd=18320|Gender[lex]=Fem|Number[ctxt]=Sing|SpaceAfter=No
 8	,	,	PUNCT	_	_	9	punct	_	AlignBegin=18320|AlignEnd=18320
 9	euh	euh	INTJ	_	_	7	discourse	_	AlignBegin=18320|AlignEnd=18503|SpaceAfter=No
 10	,	,	PUNCT	_	_	11	punct	_	AlignBegin=18503|AlignEnd=18503
-11	entrée	entrée	NOUN	_	_	7	nmod	_	AlignBegin=18503|AlignEnd=18891|Gender[lex]=Fem|Number[ctxt]=Sing
+11	entrée	entrée	NOUN	_	_	7	nmod	_	AlignBegin=18503|AlignEnd=18891|Gender[lex]=Fem|LiaisonPossibleBefore=Yes|Number[ctxt]=Sing
 12	nord	nord	NOUN	_	_	11	nmod:appos	_	AlignBegin=18891|AlignEnd=19065|Gender[lex]=Masc|Number[ctxt]=Sing|SpaceAfter=No
 13	.	.	PUNCT	_	_	7	punct	_	AlignBegin=19065|AlignEnd=19065
 
@@ -387,7 +387,7 @@
 # text = vous suivez la route.
 1	vous	vous	PRON	_	Case=Nom|Emph=No|Number=Plur|Person=2|PronType=Prs	2	nsubj	_	AlignBegin=20859|AlignEnd=20983|Polite=Unknown
 2	suivez	suivre	VERB	_	Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	0	root	_	AlignBegin=20983|AlignEnd=21335
-3	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	_	AlignBegin=21335|AlignEnd=21475
+3	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	_	AlignBegin=21335|AlignEnd=21475|HasSpokenGender=OnlySingExceptWithLiaison
 4	route	route	NOUN	_	_	2	obj	_	AlignBegin=21475|AlignEnd=21845|Gender[lex]=Fem|Number[ctxt]=Sing|SpaceAfter=No
 5	.	.	PUNCT	_	_	2	punct	_	AlignBegin=21845|AlignEnd=21845
 
@@ -421,13 +421,13 @@
 2	y	y	PRON	_	Person=3|PronType=Prs	3	expl:comp	_	AlignBegin=22066|AlignEnd=22096
 3	a	avoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	AlignBegin=22096|AlignEnd=22146
 4	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	6	det	_	AlignBegin=22146|AlignEnd=22216
-5	grand	grand	ADJ	_	Gender=Masc|Number=Sing	6	amod	_	AlignBegin=22216|AlignEnd=22446
+5	grand	grand	ADJ	_	Gender=Masc	6	amod	_	AlignBegin=22216|AlignEnd=22446|HasSpokenGender=Yes|HasSpokenNumber=OnlyWithLiaison|Number[ctxt]=Sing
 6	tournant	tournant	NOUN	_	_	3	obj	_	AlignBegin=22446|AlignEnd=22876|Gender[lex]=Masc|Number[ctxt]=Sing
 7	et	et	CCONJ	_	_	10	cc	_	AlignBegin=22876|AlignEnd=22906
 8	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	10	det	_	AlignBegin=22906|AlignEnd=23006
-9	grande	grand	ADJ	_	Gender=Fem|Number=Sing	10	amod	_	AlignBegin=23006|AlignEnd=23306
+9	grande	grand	ADJ	_	Gender=Fem	10	amod	_	AlignBegin=23006|AlignEnd=23306|HasSpokenGender=Yes|HasSpokenNumber=OnlyWithLiaison|Number[ctxt]=Sing
 10	ligne	ligne	NOUN	_	_	6	conj	_	AlignBegin=23306|AlignEnd=23516|Gender[lex]=Fem|Number[ctxt]=Sing
-11	droite	droit	ADJ	_	Gender=Fem	10	amod	_	AlignBegin=23516|AlignEnd=23886|Number[ctxt]=Sing|SpaceAfter=No
+11	droite	droit	ADJ	_	Gender=Fem	10	amod	_	AlignBegin=23516|AlignEnd=23886|HasSpokenGender=YesExceptSingWithLiaison|HasSpokenNumber=OnlyWithLiaison|Number[ctxt]=Sing|SpaceAfter=No
 12	.	.	PUNCT	_	_	3	punct	_	AlignBegin=23886|AlignEnd=23886
 
 # sent_id = Rhap_M0007-13
@@ -459,15 +459,15 @@
 1	vous	vous	PRON	_	Case=Nom|Emph=No|Number=Plur|Person=2|PronType=Prs	2	nsubj	_	AlignBegin=24830|AlignEnd=24948|Polite=Unknown
 2	arrivez	arriver	VERB	_	Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	0	root	_	AlignBegin=24948|AlignEnd=25216
 3	à	à	ADP	_	_	5	case	_	AlignBegin=25216|AlignEnd=25358
-4	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	5	det	_	AlignBegin=25358|AlignEnd=25388|Gender[ctxt]=Fem|SpaceAfter=No
-5	entrée	entrée	NOUN	_	_	2	obl:arg	_	AlignBegin=25388|AlignEnd=25696|Gender[lex]=Fem|Number[ctxt]=Sing
+4	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	5	det	_	AlignBegin=25358|AlignEnd=25388|Gender[ctxt]=Fem|HasSpokenGender=OnlySingExceptWithLiaison|LiaisonAfter=Yes|SpaceAfter=No
+5	entrée	entrée	NOUN	_	_	2	obl:arg	_	AlignBegin=25388|AlignEnd=25696|Gender[lex]=Fem|LiaisonPossibleBefore=Yes|Number[ctxt]=Sing
 6	de	de	ADP	_	_	7	case	_	AlignBegin=25696|AlignEnd=25766
 7	Saint-Jean-de-Maurienne	Saint-Jean-de-Maurienne	PROPN	_	_	5	nmod	_	AlignBegin=25766|AlignEnd=26136|Gender[lex]=Unknown|SpaceAfter=No
 8	,	,	PUNCT	_	_	9	punct	_	AlignBegin=26136|AlignEnd=26196
 9	euh	euh	INTJ	_	_	7	discourse	_	AlignBegin=26196|AlignEnd=26802|SpaceAfter=No
 10	,	,	PUNCT	_	_	13	punct	_	AlignBegin=27066|AlignEnd=27066
 11	où	où	PRON	_	PronType=Rel	13	obj	_	AlignBegin=26802|AlignEnd=27066
-12	se	soi	PRON	_	Person=3|PronType=Prs	13	expl:pass	_	AlignBegin=27096|AlignEnd=27586
+12	se	soi	PRON	_	Person=3|PronType=Prs|Reflex=Yes	13	expl:pass	_	AlignBegin=27096|AlignEnd=27586
 13	situe	situer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	acl:relcl	_	AlignBegin=27096|AlignEnd=27586
 14	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	15	det	_	AlignBegin=27586|AlignEnd=27696
 15	garage	garage	NOUN	_	_	13	nsubj	_	AlignBegin=27696|AlignEnd=28156|Gender[lex]=Masc|Number[ctxt]=Sing
@@ -502,7 +502,7 @@
 # text = vous prenez ce rond-point à gauche.
 1	vous	vous	PRON	_	Case=Nom|Emph=No|Number=Plur|Person=2|PronType=Prs	2	nsubj	_	AlignBegin=29288|AlignEnd=29387|Polite=Unknown
 2	prenez	prendre	VERB	_	Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	0	root	_	AlignBegin=29387|AlignEnd=29702
-3	ce	ce	DET	_	Gender=Masc|Number=Sing|PronType=Dem	4	det	_	AlignBegin=29702|AlignEnd=29802
+3	ce	ce	DET	_	Gender=Masc|Number=Sing|PronType=Dem	4	det	_	AlignBegin=29702|AlignEnd=29802|HasSpokenGender=OnlySingExceptWithLiaison
 4	rond-point	rond-point	NOUN	_	_	2	obj	_	AlignBegin=29802|AlignEnd=30178|Gender[lex]=Masc|Number[ctxt]=Sing
 5	à	à	ADP	_	_	6	case	_	AlignBegin=30178|AlignEnd=30332
 6	gauche	gauche	NOUN	_	_	2	obl:arg	_	AlignBegin=30332|AlignEnd=30772|Gender[lex]=Fem|Number[ctxt]=Sing|SpaceAfter=No
@@ -546,7 +546,7 @@
 10	euh	euh	INTJ	_	_	8	discourse	_	AlignBegin=32113|AlignEnd=32303|SpaceAfter=No
 11	,	,	PUNCT	_	_	8	punct	_	AlignBegin=32303|AlignEnd=32303
 12	sur	sur	ADP	_	_	14	case	_	AlignBegin=32303|AlignEnd=32503
-13	votre	son	DET	_	Number=Sing|Number[psor]=Plur|Person[psor]=2|Poss=Yes|PronType=Prs	14	det	_	AlignBegin=32503|AlignEnd=32713
+13	votre	son	DET	_	Number=Sing|Number[psor]=Plur|Person[psor]=2|Poss=Yes|PronType=Prs	14	det	_	AlignBegin=32503|AlignEnd=32713|HasSpokenGender=OnlySingExceptWithLiaison
 14	droite	droite	NOUN	_	_	3	obl:mod	_	AlignBegin=32713|AlignEnd=33003|Gender[lex]=Fem|Number[ctxt]=Sing|SpaceAfter=No
 15	.	.	PUNCT	_	_	3	punct	_	AlignBegin=33003|AlignEnd=33003
 
@@ -611,7 +611,7 @@
 1-2	au	_	_	_	_	_	_	_	_
 1	à	à	ADP	_	_	4	case	_	AlignBegin=34639|AlignEnd=34779
 2	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	AlignBegin=34639|AlignEnd=34779
-3	prochain	prochain	ADJ	_	Gender=Masc	4	amod	_	AlignBegin=34779|AlignEnd=35189|Number[ctxt]=Sing
+3	prochain	prochain	ADJ	_	Gender=Masc	4	amod	_	AlignBegin=34779|AlignEnd=35189|HasSpokenGender=YesExceptSingWithLiaison|HasSpokenNumber=OnlyWithLiaison|Number[ctxt]=Sing
 4	rond-point	rond-point	NOUN	_	_	7	obl:mod	_	AlignBegin=35189|AlignEnd=35659|Gender[lex]=Masc|Number[ctxt]=Sing|SpaceAfter=No
 5	,	,	PUNCT	_	_	4	punct	_	AlignBegin=35659|AlignEnd=35659
 6	vous	vous	PRON	_	Case=Nom|Emph=No|Number=Plur|Person=2|PronType=Prs	7	nsubj	_	AlignBegin=35659|AlignEnd=35749|Polite=Unknown
@@ -648,13 +648,13 @@
 # text = vous descendez la route, euh, vers les sapeurs pompiers, euh, en bas de la route.
 1	vous	vous	PRON	_	Case=Nom|Emph=No|Number=Plur|Person=2|PronType=Prs	2	nsubj	_	AlignBegin=37215|AlignEnd=37320|Polite=Unknown
 2	descendez	descendre	VERB	_	Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	0	root	_	AlignBegin=37320|AlignEnd=37845
-3	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	_	AlignBegin=37845|AlignEnd=38005
+3	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	_	AlignBegin=37845|AlignEnd=38005|HasSpokenGender=OnlySingExceptWithLiaison
 4	route	route	NOUN	_	_	2	obj	_	AlignBegin=38005|AlignEnd=38371|Gender[lex]=Fem|Number[ctxt]=Sing|SpaceAfter=No
 5	,	,	PUNCT	_	_	6	punct	_	AlignBegin=38371|AlignEnd=38371
 6	euh	euh	INTJ	_	_	4	discourse	_	AlignBegin=38371|AlignEnd=38708|SpaceAfter=No
 7	,	,	PUNCT	_	_	10	punct	_	AlignBegin=38708|AlignEnd=38708
 8	vers	vers	ADP	_	_	10	case	_	AlignBegin=38708|AlignEnd=38965
-9	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	10	det	_	AlignBegin=38965|AlignEnd=39045
+9	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	10	det	_	AlignBegin=38965|AlignEnd=39045|HasSpokenGender=OnlySingExceptWithLiaison
 10	sapeurs	sapeur	NOUN	_	_	4	nmod	_	AlignBegin=39045|AlignEnd=39465|Gender[lex]=Masc|Number[ctxt]=Plur
 11	pompiers	pompier	NOUN	_	_	10	compound	_	AlignBegin=39465|AlignEnd=39969|Gender[lex]=Masc|Number[ctxt]=Plur|SpaceAfter=No
 12	,	,	PUNCT	_	_	13	punct	_	AlignBegin=39969|AlignEnd=39969
@@ -663,7 +663,7 @@
 15	en	en	ADP	_	_	16	case	_	AlignBegin=40729|AlignEnd=40829
 16	bas	bas	NOUN	_	_	2	obl:mod	_	AlignBegin=40829|AlignEnd=40979|Gender[lex]=Masc
 17	de	de	ADP	_	_	19	case	_	AlignBegin=40979|AlignEnd=41039
-18	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	19	det	_	AlignBegin=41039|AlignEnd=41252
+18	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	19	det	_	AlignBegin=41039|AlignEnd=41252|HasSpokenGender=OnlySingExceptWithLiaison
 19	route	route	NOUN	_	_	16	nmod	_	AlignBegin=41252|AlignEnd=41469|Gender[lex]=Fem|Number[ctxt]=Sing|SpaceAfter=No
 20	.	.	PUNCT	_	_	2	punct	_	AlignBegin=41469|AlignEnd=41469
 
@@ -701,7 +701,7 @@
 5	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	AlignBegin=42916|AlignEnd=42996
 6	fond	fond	NOUN	_	_	2	obl:arg	_	AlignBegin=42996|AlignEnd=43186|Gender[lex]=Masc|Number[ctxt]=Sing
 7	de	de	ADP	_	_	9	case	_	AlignBegin=43186|AlignEnd=43246
-8	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	9	det	_	AlignBegin=43246|AlignEnd=43356
+8	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	9	det	_	AlignBegin=43246|AlignEnd=43356|HasSpokenGender=OnlySingExceptWithLiaison
 9	route	route	NOUN	_	_	6	nmod	_	AlignBegin=43356|AlignEnd=43576|Gender[lex]=Fem|Number[ctxt]=Sing|SpaceAfter=No
 10	.	.	PUNCT	_	_	2	punct	_	AlignBegin=43576|AlignEnd=43576
 
@@ -771,7 +771,7 @@
 1	vous	vous	PRON	_	Case=Nom|Emph=No|Number=Plur|Person=2|PronType=Prs	2	nsubj	_	AlignBegin=45701|AlignEnd=45915|Polite=Unknown
 2	continuez	continuer	VERB	_	Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	0	root	_	AlignBegin=45915|AlignEnd=46486
 3	tout	tout	ADV	_	_	4	advmod	_	AlignBegin=46486|AlignEnd=46656
-4	droit	droit	ADJ	_	Gender=Masc	2	advcl	_	AlignBegin=46656|AlignEnd=46936|Number[ctxt]=Sing|SpaceAfter=No
+4	droit	droit	ADJ	_	Gender=Masc	2	advcl	_	AlignBegin=46656|AlignEnd=46936|HasSpokenGender=YesExceptSingWithLiaison|HasSpokenNumber=OnlyWithLiaison|Number[ctxt]=Sing|SpaceAfter=No
 5	.	.	PUNCT	_	_	2	punct	_	AlignBegin=46936|AlignEnd=46936
 
 # sent_id = Rhap_M0007-22
@@ -808,15 +808,15 @@
 6	en	en	ADP	_	_	7	case	_	AlignBegin=48550|AlignEnd=48659
 7	face	face	NOUN	_	_	2	obl:arg	_	AlignBegin=48659|AlignEnd=48879|Gender[lex]=Fem|Number[ctxt]=Sing
 8	de	de	ADP	_	_	10	case	_	AlignBegin=48879|AlignEnd=49029
-9	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	10	det	_	AlignBegin=49029|AlignEnd=49159
+9	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	10	det	_	AlignBegin=49029|AlignEnd=49159|HasSpokenGender=OnlySingExceptWithLiaison
 10	gare	gare	NOUN	_	_	7	nmod	_	AlignBegin=49159|AlignEnd=49449|Gender[lex]=Fem|Number[ctxt]=Sing
 11-12	au	_	_	_	_	_	_	_	_
 11	à	à	ADP	_	_	13	case	_	AlignBegin=49449|AlignEnd=49509
 12	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	13	det	_	AlignBegin=49449|AlignEnd=49509
 13	bout	bout	NOUN	_	_	2	obl:mod	_	AlignBegin=49509|AlignEnd=49649|Gender[lex]=Masc|Number[ctxt]=Sing
 14	de	de	ADP	_	_	16	case	_	AlignBegin=49649|AlignEnd=49719
-15	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	16	det	_	AlignBegin=49719|AlignEnd=49819
+15	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	16	det	_	AlignBegin=49719|AlignEnd=49819|HasSpokenGender=OnlySingExceptWithLiaison
 16	ligne	ligne	NOUN	_	_	13	nmod	_	AlignBegin=49819|AlignEnd=50009|Gender[lex]=Fem|Number[ctxt]=Sing
-17	droite	droit	ADJ	_	Gender=Fem	16	amod	_	AlignBegin=50009|AlignEnd=50430|Number[ctxt]=Sing|SpaceAfter=No
+17	droite	droit	ADJ	_	Gender=Fem	16	amod	_	AlignBegin=50009|AlignEnd=50430|HasSpokenGender=YesExceptSingWithLiaison|HasSpokenNumber=OnlyWithLiaison|Number[ctxt]=Sing|SpaceAfter=No
 18	.	.	PUNCT	_	_	2	punct	_	AlignBegin=50430|AlignEnd=50430
 

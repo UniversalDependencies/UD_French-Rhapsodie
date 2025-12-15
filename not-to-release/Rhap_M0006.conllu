@@ -32,14 +32,14 @@
 5	pour	pour	ADP	_	_	6	mark	_	AlignBegin=1453|AlignEnd=1563
 6	aller	aller	VERB	_	VerbForm=Inf	15	advcl	_	AlignBegin=1563|AlignEnd=1653|Subject=NoRaising
 7	à	à	ADP	_	_	9	case	_	AlignBegin=1653|AlignEnd=1703
-8	La	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	9	det	_	AlignBegin=1703|AlignEnd=1803
+8	La	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	9	det	_	AlignBegin=1703|AlignEnd=1803|HasSpokenGender=OnlySingExceptWithLiaison
 9	Nef	Nef	PROPN	_	Gender=Fem|Number=Sing	6	obl:arg	_	AlignBegin=1803|AlignEnd=1984
 10	Chavant	Chavant	PROPN	_	_	9	flat:name	_	AlignBegin=1984|AlignEnd=2316|Gender[lex]=Unknown|SpaceAfter=No
 11	,	,	PUNCT	_	_	6	punct	_	AlignBegin=2316|AlignEnd=2316
 12	c'	ce	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	15	nsubj	_	AlignBegin=2316|AlignEnd=2411|SpaceAfter=No
 13	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	15	cop	_	AlignBegin=2411|AlignEnd=2506
 14	très	très	ADV	_	_	15	advmod	_	AlignBegin=2506|AlignEnd=2647
-15	simple	simple	ADJ	_	_	0	root	_	AlignBegin=2647|AlignEnd=3007|Gender[ctxt]=Masc|Number[ctxt]=Sing|SpaceAfter=No
+15	simple	simple	ADJ	_	_	0	root	_	AlignBegin=2647|AlignEnd=3007|Gender[ctxt]=Masc|HasSpokenGender=No|HasSpokenNumber=OnlyWithLiaison|Number[ctxt]=Sing|SpaceAfter=No
 16	.	.	PUNCT	_	_	15	punct	_	AlignBegin=3007|AlignEnd=3007
 
 # sent_id = Rhap_M0006-2
@@ -116,17 +116,17 @@
 9	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	10	det	_	AlignBegin=7000|AlignEnd=7100
 10	bout	bout	NOUN	_	_	7	obl:arg	_	AlignBegin=7100|AlignEnd=7250|Gender[lex]=Masc|Number[ctxt]=Sing
 11	de	de	ADP	_	_	15	case	_	AlignBegin=7250|AlignEnd=7280
-12	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	14	reparandum	_	AlignBegin=7280|AlignEnd=8000|SpaceAfter=No
+12	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	14	reparandum	_	AlignBegin=7280|AlignEnd=8000|HasSpokenGender=OnlySingExceptWithLiaison|SpaceAfter=No
 13	,	,	PUNCT	_	_	12	punct	_	AlignBegin=8000|AlignEnd=8000
-14	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	15	det	_	AlignBegin=8000|AlignEnd=8173
+14	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	15	det	_	AlignBegin=8000|AlignEnd=8173|HasSpokenGender=OnlySingExceptWithLiaison
 15	ligne	ligne	NOUN	_	_	10	nmod	_	AlignBegin=8173|AlignEnd=8330|Gender[lex]=Fem|Number[ctxt]=Sing
-16	droite	droit	ADJ	_	Gender=Fem	15	amod	_	AlignBegin=8330|AlignEnd=8670|Number[ctxt]=Sing|SpaceAfter=No
+16	droite	droit	ADJ	_	Gender=Fem	15	amod	_	AlignBegin=8330|AlignEnd=8670|HasSpokenGender=YesExceptSingWithLiaison|HasSpokenNumber=OnlyWithLiaison|Number[ctxt]=Sing|SpaceAfter=No
 17	,	,	PUNCT	_	_	18	punct	_	AlignBegin=8670|AlignEnd=8779
 18	euh	euh	INTJ	_	_	16	discourse	_	AlignBegin=8779|AlignEnd=8899|SpaceAfter=No
 19	,	,	PUNCT	_	_	26	punct	_	AlignBegin=8899|AlignEnd=8899
 20	à	à	ADP	_	_	22	case	_	AlignBegin=8899|AlignEnd=9049
-21	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	22	det	_	AlignBegin=9049|AlignEnd=9089|Gender[ctxt]=Fem|SpaceAfter=No
-22	intersection	intersection	NOUN	_	_	26	reparandum	_	AlignBegin=9089|AlignEnd=9675|Gender[lex]=Fem|Number[ctxt]=Sing|SpaceAfter=No
+21	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	22	det	_	AlignBegin=9049|AlignEnd=9089|Gender[ctxt]=Fem|HasSpokenGender=OnlySingExceptWithLiaison|LiaisonAfter=Yes|SpaceAfter=No
+22	intersection	intersection	NOUN	_	_	26	reparandum	_	AlignBegin=9089|AlignEnd=9675|Gender[lex]=Fem|LiaisonPossibleBefore=Yes|Number[ctxt]=Sing|SpaceAfter=No
 23	,	,	PUNCT	_	_	22	punct	_	AlignBegin=9675|AlignEnd=9675
 24-25	au	_	_	_	_	_	_	_	_
 24	à	à	ADP	_	_	26	case	_	AlignBegin=9675|AlignEnd=9725
@@ -174,7 +174,7 @@
 7	jusqu'	jusque	ADP	_	_	9	case	_	AlignBegin=13195|AlignEnd=13455|SpaceAfter=No
 8	à	à	ADP	_	_	9	case	_	AlignBegin=13455|AlignEnd=13505
 9	Albert	Albert	PROPN	_	_	4	obl:mod	_	AlignBegin=13505|AlignEnd=13745|Gender[lex]=Unknown
-10	Premier	Premier	ADJ	_	Gender=Masc	9	amod	_	AlignBegin=13745|AlignEnd=14012|Number[ctxt]=Sing
+10	Premier	Premier	ADJ	_	Gender=Masc	9	amod	_	AlignBegin=13745|AlignEnd=14012|HasSpokenGender=YesExceptSingWithLiaison|HasSpokenNumber=OnlyWithLiaison|Number[ctxt]=Sing
 11	de	de	ADP	_	_	12	case	_	AlignBegin=14012|AlignEnd=14080
 12	Belgique	Belgique	PROPN	_	_	9	nmod	_	AlignBegin=14080|AlignEnd=14615|Gender[lex]=Unknown|SpaceAfter=No
 13	.	.	PUNCT	_	_	4	punct	_	AlignBegin=14615|AlignEnd=14615
@@ -210,7 +210,7 @@
 3	c'	ce	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	6	nsubj	_	AlignBegin=15108|AlignEnd=15168|SpaceAfter=No
 4	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	cop	_	AlignBegin=15168|AlignEnd=15218
 5	tout	tout	ADV	_	_	6	advmod	_	AlignBegin=15218|AlignEnd=15378
-6	droit	droit	ADJ	_	Gender=Masc	0	root	_	AlignBegin=15378|AlignEnd=15738|Number[ctxt]=Sing|SpaceAfter=No
+6	droit	droit	ADJ	_	Gender=Masc	0	root	_	AlignBegin=15378|AlignEnd=15738|HasSpokenGender=YesExceptSingWithLiaison|HasSpokenNumber=OnlyWithLiaison|Number[ctxt]=Sing|SpaceAfter=No
 7	.	.	PUNCT	_	_	6	punct	_	AlignBegin=15738|AlignEnd=15738
 
 # sent_id = Rhap_M0006-6
@@ -245,8 +245,8 @@
 4	il	lui	PRON	_	Case=Nom|Emph=No|Gender=Masc|Number=Sing|Person=3|PronType=Prs	6	expl:subj	_	AlignBegin=16138|AlignEnd=16178
 5	y	y	PRON	_	Person=3|PronType=Prs	6	expl:comp	_	AlignBegin=16178|AlignEnd=16225
 6	a	avoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	AlignBegin=16225|AlignEnd=16278
-7	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	8	det	_	AlignBegin=16278|AlignEnd=16406
-8	arrêt	arrêt	NOUN	_	_	6	obj	_	AlignBegin=16406|AlignEnd=16556|Gender[lex]=Masc|Number[ctxt]=Sing
+7	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	8	det	_	AlignBegin=16278|AlignEnd=16406|LiaisonAfter=Yes
+8	arrêt	arrêt	NOUN	_	_	6	obj	_	AlignBegin=16406|AlignEnd=16556|Gender[lex]=Masc|LiaisonPossibleBefore=Yes|Number[ctxt]=Sing
 9	de	de	ADP	_	_	10	case	_	AlignBegin=16556|AlignEnd=16608
 10	tram	tram	NOUN	_	_	8	nmod	_	AlignBegin=16608|AlignEnd=16912|Gender[lex]=Masc|Number[ctxt]=Sing|SpaceAfter=No
 11	.	.	PUNCT	_	_	6	punct	_	AlignBegin=16912|AlignEnd=16912
@@ -281,8 +281,8 @@
 2	tu	toi	PRON	_	Case=Nom|Emph=No|Number=Sing|Person=2|PronType=Prs	3	nsubj	_	AlignBegin=17543|AlignEnd=17591
 3	arrives	arriver	VERB	_	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	13	advcl	_	AlignBegin=17591|AlignEnd=17799
 4	à	à	ADP	_	_	6	case	_	AlignBegin=17799|AlignEnd=17873
-5	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	6	det	_	AlignBegin=17873|AlignEnd=17903|Gender[ctxt]=Masc|SpaceAfter=No
-6	arrêt	arrêt	NOUN	_	_	3	obl:arg	_	AlignBegin=17903|AlignEnd=18073|Gender[lex]=Masc|Number[ctxt]=Sing
+5	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	6	det	_	AlignBegin=17873|AlignEnd=17903|Gender[ctxt]=Masc|HasSpokenGender=OnlySingExceptWithLiaison|LiaisonAfter=Yes|SpaceAfter=No
+6	arrêt	arrêt	NOUN	_	_	3	obl:arg	_	AlignBegin=17903|AlignEnd=18073|Gender[lex]=Masc|LiaisonPossibleBefore=Yes|Number[ctxt]=Sing
 7	de	de	ADP	_	_	8	case	_	AlignBegin=18073|AlignEnd=18133
 8	tram	tram	NOUN	_	_	6	nmod	_	AlignBegin=18133|AlignEnd=18562|Gender[lex]=Masc|Number[ctxt]=Sing|SpaceAfter=No
 9	,	,	PUNCT	_	_	3	punct	_	AlignBegin=18562|AlignEnd=19249
@@ -322,7 +322,7 @@
 # text = tu suis la ligne du tram jusqu'à, jusqu'à, ben, jusqu'à La Nef Chavant.
 1	tu	toi	PRON	_	Case=Nom|Emph=No|Number=Sing|Person=2|PronType=Prs	2	nsubj	_	AlignBegin=20095|AlignEnd=20165
 2	suis	suivre	VERB	_	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	0	root	_	AlignBegin=20165|AlignEnd=20375
-3	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	_	AlignBegin=20375|AlignEnd=20493
+3	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	_	AlignBegin=20375|AlignEnd=20493|HasSpokenGender=OnlySingExceptWithLiaison
 4	ligne	ligne	NOUN	_	_	2	obj	_	AlignBegin=20493|AlignEnd=20715|Gender[lex]=Fem|Number[ctxt]=Sing
 5-6	du	_	_	_	_	_	_	_	_
 5	de	de	ADP	_	_	7	case	_	AlignBegin=20715|AlignEnd=20794
@@ -338,7 +338,7 @@
 15	,	,	PUNCT	_	_	12	punct	_	AlignBegin=23340|AlignEnd=23340
 16	jusqu'	jusque	ADP	_	_	19	case	_	AlignBegin=23340|AlignEnd=23580|SpaceAfter=No
 17	à	à	ADP	_	_	19	case	_	AlignBegin=23580|AlignEnd=23630
-18	La	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	19	det	_	AlignBegin=23630|AlignEnd=23700
+18	La	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	19	det	_	AlignBegin=23630|AlignEnd=23700|HasSpokenGender=OnlySingExceptWithLiaison
 19	Nef	Nef	PROPN	_	Gender=Fem|Number=Sing	2	obl:mod	_	AlignBegin=23700|AlignEnd=23895
 20	Chavant	Chavant	PROPN	_	_	19	nmod:appos	_	AlignBegin=23895|AlignEnd=24190|Gender[lex]=Unknown|SpaceAfter=No
 21	.	.	PUNCT	_	_	2	punct	_	AlignBegin=24190|AlignEnd=24190
@@ -376,8 +376,8 @@
 5	,	,	PUNCT	_	_	4	punct	_	AlignBegin=24913|AlignEnd=24913
 6	c'	ce	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	9	nsubj	_	AlignBegin=24913|AlignEnd=25003|SpaceAfter=No
 7	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	cop	_	AlignBegin=25003|AlignEnd=25043
-8	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	9	det	_	AlignBegin=25043|AlignEnd=25133
-9	arrêt	arrêt	NOUN	_	_	0	root	_	AlignBegin=25133|AlignEnd=25313|Gender[lex]=Masc|Number[ctxt]=Sing
+8	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	9	det	_	AlignBegin=25043|AlignEnd=25133|LiaisonAfter=Yes
+9	arrêt	arrêt	NOUN	_	_	0	root	_	AlignBegin=25133|AlignEnd=25313|Gender[lex]=Masc|LiaisonPossibleBefore=Yes|Number[ctxt]=Sing
 10	de	de	ADP	_	_	11	case	_	AlignBegin=25313|AlignEnd=25343
 11	tram	tram	NOUN	_	_	9	nmod	_	AlignBegin=25343|AlignEnd=25643|Gender[lex]=Masc|Number[ctxt]=Sing
 12	aussi	aussi	ADV	_	_	9	advmod	_	AlignBegin=25643|AlignEnd=26000|SpaceAfter=No

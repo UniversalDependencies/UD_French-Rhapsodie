@@ -30,7 +30,7 @@
 3	tu	toi	PRON	_	Case=Nom|Emph=No|Number=Sing|Person=2|PronType=Prs	4	nsubj	_	AlignBegin=566|AlignEnd=676
 4	vas	aller	VERB	_	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	0	root	_	AlignBegin=676|AlignEnd=820
 5	sur	sur	ADP	_	_	7	case	_	AlignBegin=820|AlignEnd=986
-6	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	AlignBegin=986|AlignEnd=1037
+6	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	AlignBegin=986|AlignEnd=1037|HasSpokenGender=OnlySingExceptWithLiaison
 7	forum	forum	NOUN	_	_	4	obl:arg	_	AlignBegin=1037|AlignEnd=1407|Gender[lex]=Masc|Number[ctxt]=Sing|SpaceAfter=No
 8	,	,	PUNCT	_	_	9	punct	_	AlignBegin=1407|AlignEnd=1407
 9	là	là	ADV	_	_	7	appos	_	AlignBegin=1407|AlignEnd=1632|SpaceAfter=No
@@ -66,8 +66,8 @@
 2	,	,	PUNCT	_	_	1	punct	_	AlignBegin=2401|AlignEnd=2401
 3	c'	ce	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	6	nsubj	_	AlignBegin=2401|AlignEnd=2507|SpaceAfter=No
 4	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	cop	_	AlignBegin=2507|AlignEnd=2622
-5	des	un	DET	_	Definite=Ind|Number=Plur|PronType=Art	6	det	_	AlignBegin=2622|AlignEnd=2748
-6	escaliers	escalier	NOUN	_	_	0	root	_	AlignBegin=2748|AlignEnd=3309|Gender[lex]=Masc|Number[ctxt]=Plur|SpaceAfter=No
+5	des	un	DET	_	Definite=Ind|Number=Plur|PronType=Art	6	det	_	AlignBegin=2622|AlignEnd=2748|LiaisonAfter=Yes
+6	escaliers	escalier	NOUN	_	_	0	root	_	AlignBegin=2748|AlignEnd=3309|Gender[lex]=Masc|LiaisonPossibleBefore=Yes|Number[ctxt]=Plur|SpaceAfter=No
 7	.	.	PUNCT	_	_	6	punct	_	AlignBegin=3309|AlignEnd=3309
 
 # sent_id = Rhap_M0010-3
@@ -98,8 +98,8 @@
 # text = tu descends les escaliers.
 1	tu	toi	PRON	_	Case=Nom|Emph=No|Number=Sing|Person=2|PronType=Prs	2	nsubj	_	AlignBegin=3569|AlignEnd=3638
 2	descends	descendre	VERB	_	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	0	root	_	AlignBegin=3638|AlignEnd=3907
-3	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	4	det	_	AlignBegin=3907|AlignEnd=4001
-4	escaliers	escalier	NOUN	_	_	2	obj	_	AlignBegin=4001|AlignEnd=4616|Gender[lex]=Masc|Number[ctxt]=Plur|SpaceAfter=No
+3	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	4	det	_	AlignBegin=3907|AlignEnd=4001|HasSpokenGender=OnlySingExceptWithLiaison|LiaisonAfter=Yes
+4	escaliers	escalier	NOUN	_	_	2	obj	_	AlignBegin=4001|AlignEnd=4616|Gender[lex]=Masc|LiaisonPossibleBefore=Yes|Number[ctxt]=Plur|SpaceAfter=No
 5	.	.	PUNCT	_	_	2	punct	_	AlignBegin=4616|AlignEnd=4616
 
 # sent_id = Rhap_M0010-4
@@ -131,7 +131,7 @@
 1	tu	toi	PRON	_	Case=Nom|Emph=No|Number=Sing|Person=2|PronType=Prs	2	nsubj	_	AlignBegin=4987|AlignEnd=5061
 2	vas	aller	VERB	_	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	0	root	_	AlignBegin=5061|AlignEnd=5148
 3	tout	tout	ADV	_	_	4	advmod	_	AlignBegin=5148|AlignEnd=5270
-4	droit	droit	ADJ	_	Gender=Masc	2	obj	_	AlignBegin=5270|AlignEnd=5438|Number[ctxt]=Sing|SpaceAfter=No
+4	droit	droit	ADJ	_	Gender=Masc	2	obj	_	AlignBegin=5270|AlignEnd=5438|HasSpokenGender=YesExceptSingWithLiaison|HasSpokenNumber=OnlyWithLiaison|Number[ctxt]=Sing|SpaceAfter=No
 5	.	.	PUNCT	_	_	2	punct	_	AlignBegin=5438|AlignEnd=5438
 
 # sent_id = Rhap_M0010-5
@@ -203,7 +203,7 @@
 5	te	toi	PRON	_	Number=Sing|Person=2|PronType=Prs	4	expl:comp	_	AlignBegin=8771|AlignEnd=8872
 6	retrouver	retrouver	VERB	_	VerbForm=Inf	4	xcomp	_	AlignBegin=8872|AlignEnd=9255|Subject=SubjRaising
 7	vers	vers	ADP	_	_	9	case	_	AlignBegin=9255|AlignEnd=9405
-8	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	_	AlignBegin=9405|AlignEnd=9465
+8	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	_	AlignBegin=9405|AlignEnd=9465|HasSpokenGender=OnlySingExceptWithLiaison
 9	cinéma	cinéma	NOUN	_	_	6	obl:arg	_	AlignBegin=9465|AlignEnd=9863|Gender[lex]=Masc|Number[ctxt]=Sing
 10	Star	Star	PROPN	_	_	9	nmod:appos	_	AlignBegin=9863|AlignEnd=10271|Gender[lex]=Unknown|SpaceAfter=No
 11	.	.	PUNCT	_	_	4	punct	_	AlignBegin=10271|AlignEnd=10271
@@ -236,8 +236,8 @@
 # text = tu descends toute la pente.
 1	tu	toi	PRON	_	Case=Nom|Emph=No|Number=Sing|Person=2|PronType=Prs	2	nsubj	_	AlignBegin=10597|AlignEnd=10725
 2	descends	descendre	VERB	_	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	0	root	_	AlignBegin=10725|AlignEnd=11020
-3	toute	tout	ADJ	_	Gender=Fem	5	amod	_	AlignBegin=11020|AlignEnd=11110|Number[ctxt]=Sing
-4	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	AlignBegin=11110|AlignEnd=11300
+3	toute	tout	ADJ	_	Gender=Fem	5	amod	_	AlignBegin=11020|AlignEnd=11110|HasSpokenGender=YesExceptSingWithLiaison|HasSpokenNumber=OnlyWithLiaison|Number[ctxt]=Sing
+4	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	AlignBegin=11110|AlignEnd=11300|HasSpokenGender=OnlySingExceptWithLiaison
 5	pente	pente	NOUN	_	_	2	obj	_	AlignBegin=11300|AlignEnd=11690|Gender[lex]=Fem|Number[ctxt]=Sing|SpaceAfter=No
 6	.	.	PUNCT	_	_	2	punct	_	AlignBegin=11690|AlignEnd=11690
 
@@ -343,7 +343,7 @@
 8	devrait	devoir	VERB	_	Mood=Cnd|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	AlignBegin=16221|AlignEnd=16365
 9	y	y	PRON	_	Person=3|PronType=Prs	10	iobj	_	AlignBegin=16365|AlignEnd=16382
 10	avoir	avoir	VERB	_	VerbForm=Inf	8	ccomp	_	AlignBegin=16382|AlignEnd=16563|Subject=NoRaising
-11	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	12	det	_	AlignBegin=16563|AlignEnd=16681
+11	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	12	det	_	AlignBegin=16563|AlignEnd=16681|HasSpokenGender=OnlySingExceptWithLiaison
 12	gare	gare	NOUN	_	_	10	obj	_	AlignBegin=16681|AlignEnd=16875|Gender[lex]=Fem|Number[ctxt]=Sing|SpaceAfter=No
 13	.	.	PUNCT	_	_	8	punct	_	AlignBegin=16875|AlignEnd=16875
 

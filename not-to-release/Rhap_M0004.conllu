@@ -27,8 +27,8 @@
 # text = tu montes les escaliers.
 1	tu	toi	PRON	_	Case=Nom|Emph=No|Number=Sing|Person=2|PronType=Prs	2	nsubj	_	AlignBegin=0|AlignEnd=277
 2	montes	monter	VERB	_	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	0	root	_	AlignBegin=277|AlignEnd=547
-3	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	4	det	_	AlignBegin=547|AlignEnd=687
-4	escaliers	escalier	NOUN	_	_	2	obj	_	AlignBegin=687|AlignEnd=1158|Gender[lex]=Masc|Number[ctxt]=Plur|SpaceAfter=No
+3	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	4	det	_	AlignBegin=547|AlignEnd=687|HasSpokenGender=OnlySingExceptWithLiaison|LiaisonAfter=Yes
+4	escaliers	escalier	NOUN	_	_	2	obj	_	AlignBegin=687|AlignEnd=1158|Gender[lex]=Masc|LiaisonPossibleBefore=Yes|Number[ctxt]=Plur|SpaceAfter=No
 5	.	.	PUNCT	_	_	2	punct	_	AlignBegin=1158|AlignEnd=1158
 
 # sent_id = Rhap_M0004-2
@@ -93,7 +93,7 @@
 # sound_url = https://rhapsodie.modyco.fr/rp/waves/Rhap-M0004.mp3
 # macrosyntax = arrivé au cinéma Star < il faut continuer tout droit { jusqu'en bas de la rue | jusqu'au rond-point } //
 # text = arrivé au cinéma Star, il faut continuer tout droit jusqu'en bas de la rue, jusqu'au rond-point.
-1	arrivé	arriver	VERB	_	VerbForm=Part	8	advcl	_	AlignBegin=4057|AlignEnd=4271|Gender[ctxt]=Masc|Number[ctxt]=Sing|Tense[denom]=Past
+1	arrivé	arriver	VERB	_	VerbForm=Part	8	advcl	_	AlignBegin=4057|AlignEnd=4271|Gender[ctxt]=Masc|Number[ctxt]=Sing|PastPartHasSpokenGender=NotInThisDialect|Tense[denom]=Past
 2-3	au	_	_	_	_	_	_	_	_
 2	à	à	ADP	_	_	4	case	_	AlignBegin=4271|AlignEnd=4371
 3	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	AlignBegin=4271|AlignEnd=4371
@@ -109,7 +109,7 @@
 13	en	en	ADP	_	_	14	case	_	AlignBegin=6167|AlignEnd=6247
 14	bas	bas	NOUN	_	_	22	reparandum	_	AlignBegin=6247|AlignEnd=6372|Gender[lex]=Masc
 15	de	de	ADP	_	_	17	case	_	AlignBegin=6372|AlignEnd=6423
-16	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	17	det	_	AlignBegin=6424|AlignEnd=6527
+16	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	17	det	_	AlignBegin=6424|AlignEnd=6527|HasSpokenGender=OnlySingExceptWithLiaison
 17	rue	rue	NOUN	_	_	14	nmod	_	AlignBegin=6527|AlignEnd=6752|Gender[lex]=Fem|Number[ctxt]=Sing|SpaceAfter=No
 18	,	,	PUNCT	_	_	14	punct	_	AlignBegin=6752|AlignEnd=7452
 19	jusqu'	jusque	ADP	_	_	22	case	_	AlignBegin=7452|AlignEnd=7681|SpaceAfter=No
@@ -185,7 +185,7 @@
 # text = et tout droit.
 1	et	et	CCONJ	_	_	3	cc	_	AlignBegin=12100|AlignEnd=12196
 2	tout	tout	ADV	_	_	3	advmod	_	AlignBegin=12196|AlignEnd=12346
-3	droit	droit	ADJ	_	Gender=Masc	0	root	_	AlignBegin=12346|AlignEnd=12681|Number[ctxt]=Sing|SpaceAfter=No
+3	droit	droit	ADJ	_	Gender=Masc	0	root	_	AlignBegin=12346|AlignEnd=12681|HasSpokenGender=YesExceptSingWithLiaison|HasSpokenNumber=OnlyWithLiaison|Number[ctxt]=Sing|SpaceAfter=No
 4	.	.	PUNCT	_	_	3	punct	_	AlignBegin=12681|AlignEnd=12681
 
 # sent_id = Rhap_M0004-6
@@ -214,7 +214,7 @@
 # sound_url = https://rhapsodie.modyco.fr/rp/waves/Rhap-M0004.mp3
 # macrosyntax = la gare est en face //
 # text = la gare est en face.
-1	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	AlignBegin=12829|AlignEnd=12960
+1	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	AlignBegin=12829|AlignEnd=12960|HasSpokenGender=OnlySingExceptWithLiaison
 2	gare	gare	NOUN	_	_	3	nsubj	_	AlignBegin=12960|AlignEnd=13130|Gender[lex]=Fem|Number[ctxt]=Sing
 3	est	être	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	AlignBegin=13130|AlignEnd=13207
 4	en	en	ADP	_	_	5	case	_	AlignBegin=13207|AlignEnd=13328

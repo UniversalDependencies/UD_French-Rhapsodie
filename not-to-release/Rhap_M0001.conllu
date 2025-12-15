@@ -32,7 +32,7 @@
 5	,	,	PUNCT	_	_	4	punct	_	AlignBegin=1562|AlignEnd=1760
 6	tu	toi	PRON	_	Case=Nom|Emph=No|Number=Sing|Person=2|PronType=Prs	7	nsubj	_	AlignBegin=1760|AlignEnd=1890
 7	prends	prendre	VERB	_	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	0	root	_	AlignBegin=1890|AlignEnd=2230
-8	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	_	AlignBegin=2230|AlignEnd=2290
+8	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	_	AlignBegin=2230|AlignEnd=2290|HasSpokenGender=OnlySingExceptWithLiaison
 9	boulevard	boulevard	NOUN	_	_	7	obj	_	AlignBegin=2290|AlignEnd=2996|Gender[lex]=Masc|Number[ctxt]=Sing|SpaceAfter=No
 10	,	,	PUNCT	_	_	11	punct	_	AlignBegin=2996|AlignEnd=2996
 11	euh	euh	INTJ	_	_	9	discourse	_	AlignBegin=2996|AlignEnd=3436|SpaceAfter=No
@@ -45,7 +45,7 @@
 18	Chavant	Chavant	PROPN	_	_	17	flat:name	_	AlignBegin=5771|AlignEnd=6272|Gender[lex]=Unknown|SpaceAfter=No
 19	,	,	PUNCT	_	_	20	punct	_	AlignBegin=6272|AlignEnd=6272
 20	là	là	INTJ	_	_	18	discourse	_	AlignBegin=6272|AlignEnd=6352
-21	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	22	det	_	AlignBegin=6352|AlignEnd=6432
+21	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	22	det	_	AlignBegin=6352|AlignEnd=6432|HasSpokenGender=OnlySingExceptWithLiaison
 22	boulevard	boulevard	NOUN	_	_	9	appos	_	AlignBegin=6432|AlignEnd=6772|Gender[lex]=Masc|Number[ctxt]=Sing
 23	qui	qui	PRON	_	PronType=Rel	24	nsubj	_	AlignBegin=6772|AlignEnd=6862
 24	passe	passer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	22	acl:relcl	_	AlignBegin=6862|AlignEnd=7122
@@ -115,7 +115,7 @@
 2	vas	aller	VERB	_	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	0	root	_	AlignBegin=9582|AlignEnd=9722
 3	arriver	arriver	VERB	_	VerbForm=Inf	2	xcomp	_	AlignBegin=9722|AlignEnd=9970|Subject=SubjRaising
 4	sur	sur	ADP	_	_	6	case	_	AlignBegin=9970|AlignEnd=10182
-5	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	AlignBegin=10182|AlignEnd=10302
+5	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	AlignBegin=10182|AlignEnd=10302|HasSpokenGender=OnlySingExceptWithLiaison
 6	place	place	NOUN	_	_	3	obl:arg	_	AlignBegin=10302|AlignEnd=10772|Gender[lex]=Fem|Number[ctxt]=Sing|SpaceAfter=No
 7	,	,	PUNCT	_	_	8	punct	_	AlignBegin=10772|AlignEnd=10772
 8	euh	euh	INTJ	_	_	6	discourse	_	AlignBegin=10772|AlignEnd=11232|SpaceAfter=No
@@ -152,21 +152,21 @@
 # text = euh, la place Victor Hugo, à la banque, euh, qui fait l'angle, tu prends à droite.
 1	euh	euh	INTJ	_	_	20	discourse	_	AlignBegin=13590|AlignEnd=13740|SpaceAfter=No
 2	,	,	PUNCT	_	_	1	punct	_	AlignBegin=13740|AlignEnd=13740
-3	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	_	AlignBegin=13740|AlignEnd=13800
+3	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	_	AlignBegin=13740|AlignEnd=13800|HasSpokenGender=OnlySingExceptWithLiaison
 4	place	place	NOUN	_	_	20	dislocated	_	AlignBegin=13800|AlignEnd=14030|Gender[lex]=Fem|Number[ctxt]=Sing
 5	Victor	Victor	PROPN	_	_	4	nmod:appos	_	AlignBegin=14030|AlignEnd=14420|Gender[lex]=Unknown
 6	Hugo	Hugo	PROPN	_	_	5	flat:name	_	AlignBegin=14420|AlignEnd=14664|Gender[lex]=Unknown|SpaceAfter=No
 7	,	,	PUNCT	_	_	4	punct	_	AlignBegin=14664|AlignEnd=14664
 8	à	à	ADP	_	_	10	case	_	AlignBegin=14664|AlignEnd=14704
-9	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	10	det	_	AlignBegin=14704|AlignEnd=14854
+9	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	10	det	_	AlignBegin=14704|AlignEnd=14854|HasSpokenGender=OnlySingExceptWithLiaison
 10	banque	banque	NOUN	_	_	20	obl:mod	_	AlignBegin=14854|AlignEnd=15324|Gender[lex]=Fem|Number[ctxt]=Sing|SpaceAfter=No
 11	,	,	PUNCT	_	_	12	punct	_	AlignBegin=15324|AlignEnd=15324
 12	euh	euh	INTJ	_	_	10	discourse	_	AlignBegin=15324|AlignEnd=15914|SpaceAfter=No
 13	,	,	PUNCT	_	_	15	punct	_	AlignBegin=15914|AlignEnd=16419
 14	qui	qui	PRON	_	PronType=Rel	15	nsubj	_	AlignBegin=16419|AlignEnd=16639
 15	fait	faire	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	acl:relcl	_	AlignBegin=16639|AlignEnd=16769
-16	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	17	det	_	AlignBegin=16769|AlignEnd=16849|Gender[ctxt]=Masc|SpaceAfter=No
-17	angle	angle	NOUN	_	_	15	obj	_	AlignBegin=16849|AlignEnd=17272|Gender[lex]=Masc|Number[ctxt]=Sing|SpaceAfter=No
+16	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	17	det	_	AlignBegin=16769|AlignEnd=16849|Gender[ctxt]=Masc|HasSpokenGender=OnlySingExceptWithLiaison|LiaisonAfter=Yes|SpaceAfter=No
+17	angle	angle	NOUN	_	_	15	obj	_	AlignBegin=16849|AlignEnd=17272|Gender[lex]=Masc|LiaisonPossibleBefore=Yes|Number[ctxt]=Sing|SpaceAfter=No
 18	,	,	PUNCT	_	_	10	punct	_	AlignBegin=17272|AlignEnd=17272
 19	tu	toi	PRON	_	Case=Nom|Emph=No|Number=Sing|Person=2|PronType=Prs	20	nsubj	_	AlignBegin=17272|AlignEnd=17362
 20	prends	prendre	VERB	_	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	0	root	_	AlignBegin=17362|AlignEnd=17532
@@ -202,9 +202,9 @@
 # text = tu longes les, les rails du tram jusqu'à la place Grenette.
 1	tu	toi	PRON	_	Case=Nom|Emph=No|Number=Sing|Person=2|PronType=Prs	2	nsubj	_	AlignBegin=19333|AlignEnd=19433
 2	longes	longer	VERB	_	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	0	root	_	AlignBegin=19433|AlignEnd=19703
-3	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	5	reparandum	_	AlignBegin=19703|AlignEnd=20043|SpaceAfter=No
+3	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	5	reparandum	_	AlignBegin=19703|AlignEnd=20043|HasSpokenGender=OnlySingExceptWithLiaison|SpaceAfter=No
 4	,	,	PUNCT	_	_	3	punct	_	AlignBegin=20043|AlignEnd=20043
-5	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	6	det	_	AlignBegin=20043|AlignEnd=20133
+5	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	6	det	_	AlignBegin=20043|AlignEnd=20133|HasSpokenGender=OnlySingExceptWithLiaison
 6	rails	rail	NOUN	_	_	2	obj	_	AlignBegin=20133|AlignEnd=20343|Gender[lex]=Masc|Number[ctxt]=Plur
 7-8	du	_	_	_	_	_	_	_	_
 7	de	de	ADP	_	_	9	case	_	AlignBegin=20343|AlignEnd=20413
@@ -212,7 +212,7 @@
 9	tram	tram	NOUN	_	_	6	nmod	_	AlignBegin=20413|AlignEnd=20963|Gender[lex]=Masc|Number[ctxt]=Sing
 10	jusqu'	jusque	ADP	_	_	13	case	_	AlignBegin=21132|AlignEnd=21472|SpaceAfter=No
 11	à	à	ADP	_	_	13	case	_	AlignBegin=21472|AlignEnd=21512
-12	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	13	det	_	AlignBegin=21512|AlignEnd=21632
+12	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	13	det	_	AlignBegin=21512|AlignEnd=21632|HasSpokenGender=OnlySingExceptWithLiaison
 13	place	place	NOUN	_	_	2	obl:mod	_	AlignBegin=21632|AlignEnd=21812|Gender[lex]=Fem|Number[ctxt]=Sing
 14	Grenette	Grenette	PROPN	_	_	13	nmod:appos	_	AlignBegin=21812|AlignEnd=22220|Gender[lex]=Unknown|SpaceAfter=No
 15	.	.	PUNCT	_	_	2	punct	_	AlignBegin=22220|AlignEnd=22220
@@ -246,8 +246,8 @@
 1	tu	toi	PRON	_	Case=Nom|Emph=No|Number=Sing|Person=2|PronType=Prs	2	nsubj	_	AlignBegin=23306|AlignEnd=23396
 2	continues	continuer	VERB	_	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	0	root	_	AlignBegin=23396|AlignEnd=23786
 3	dans	dans	ADP	_	_	6	case	_	AlignBegin=23786|AlignEnd=23916
-4	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	AlignBegin=23916|AlignEnd=23996
-5	vieille	vieux	ADJ	_	Gender=Fem	6	amod	_	AlignBegin=23996|AlignEnd=24249|Number[ctxt]=Sing
+4	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	AlignBegin=23916|AlignEnd=23996|HasSpokenGender=OnlySingExceptWithLiaison
+5	vieille	vieux	ADJ	_	Gender=Fem	6	amod	_	AlignBegin=23996|AlignEnd=24249|HasSpokenGender=YesExceptSingWithLiaison|HasSpokenNumber=OnlyWithLiaison|Number[ctxt]=Sing
 6	ville	ville	NOUN	_	_	2	obl:mod	_	AlignBegin=24249|AlignEnd=24522|Gender[lex]=Fem|Number[ctxt]=Sing|SpaceAfter=No
 7	.	.	PUNCT	_	_	2	punct	_	AlignBegin=24522|AlignEnd=24522
 
@@ -279,8 +279,8 @@
 # text = tu prends la grande rue.
 1	tu	toi	PRON	_	Case=Nom|Emph=No|Number=Sing|Person=2|PronType=Prs	2	nsubj	_	AlignBegin=24522|AlignEnd=24622
 2	prends	prendre	VERB	_	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	0	root	_	AlignBegin=24622|AlignEnd=24822
-3	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	AlignBegin=24822|AlignEnd=24912
-4	grande	grand	ADJ	_	Gender=Fem|Number=Sing	5	amod	_	AlignBegin=24912|AlignEnd=25140
+3	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	AlignBegin=24822|AlignEnd=24912|HasSpokenGender=OnlySingExceptWithLiaison
+4	grande	grand	ADJ	_	Gender=Fem	5	amod	_	AlignBegin=24912|AlignEnd=25140|HasSpokenGender=Yes|HasSpokenNumber=OnlyWithLiaison|Number[ctxt]=Sing
 5	rue	rue	NOUN	_	_	2	obj	_	AlignBegin=25140|AlignEnd=25523|Gender[lex]=Fem|Number[ctxt]=Sing|SpaceAfter=No
 6	.	.	PUNCT	_	_	2	punct	_	AlignBegin=25523|AlignEnd=25523
 
@@ -352,14 +352,14 @@
 4	y	y	PRON	_	Person=3|PronType=Prs	5	expl:comp	_	AlignBegin=30927|AlignEnd=30957
 5	a	avoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	AlignBegin=30957|AlignEnd=30987
 6	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	8	det	_	AlignBegin=30987|AlignEnd=31117
-7	petite	petit	ADJ	_	Gender=Fem	8	amod	_	AlignBegin=31117|AlignEnd=31277|Number[ctxt]=Sing
+7	petite	petit	ADJ	_	Gender=Fem	8	amod	_	AlignBegin=31117|AlignEnd=31277|HasSpokenGender=YesExceptSingWithLiaison|HasSpokenNumber=OnlyWithLiaison|Number[ctxt]=Sing
 8	bifurcation	bifurcation	NOUN	_	_	5	obj	_	AlignBegin=31277|AlignEnd=32027|Gender[lex]=Fem|Number[ctxt]=Sing|SpaceAfter=No
 9	,	,	PUNCT	_	_	10	punct	_	AlignBegin=32027|AlignEnd=32027
 10	euh	euh	INTJ	_	_	8	discourse	_	AlignBegin=32027|AlignEnd=32165|SpaceAfter=No
 11	,	,	PUNCT	_	_	15	punct	_	AlignBegin=32165|AlignEnd=32165
-12	juste	juste	ADJ	_	_	15	amod	_	AlignBegin=32165|AlignEnd=32427|Gender[ctxt]=Fem|Number[ctxt]=Sing
+12	juste	juste	ADJ	_	_	15	amod	_	AlignBegin=32165|AlignEnd=32427|Gender[ctxt]=Fem|HasSpokenGender=No|HasSpokenNumber=OnlyWithLiaison|Number[ctxt]=Sing
 13	avant	avant	ADP	_	_	15	case	_	AlignBegin=32427|AlignEnd=32665
-14	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	15	det	_	AlignBegin=32665|AlignEnd=32805
+14	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	15	det	_	AlignBegin=32665|AlignEnd=32805|HasSpokenGender=OnlySingExceptWithLiaison
 15	place	place	NOUN	_	_	5	obl:mod	_	AlignBegin=32805|AlignEnd=32995|Gender[lex]=Fem|Number[ctxt]=Sing
 16-17	du	_	_	_	_	_	_	_	_
 16	de	de	ADP	_	_	18	case	_	AlignBegin=32995|AlignEnd=33125
@@ -399,7 +399,7 @@
 4	côté	côté	NOUN	_	_	2	obl:arg	_	AlignBegin=34744|AlignEnd=35038|Gender[lex]=Masc|Number[ctxt]=Sing
 5	d'	de	ADP	_	_	8	case	_	AlignBegin=35038|AlignEnd=35084|SpaceAfter=No
 6	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	8	det	_	AlignBegin=35084|AlignEnd=35269
-7	petite	petit	ADJ	_	Gender=Fem	8	amod	_	AlignBegin=35269|AlignEnd=35609|Number[ctxt]=Sing
+7	petite	petit	ADJ	_	Gender=Fem	8	amod	_	AlignBegin=35269|AlignEnd=35609|HasSpokenGender=YesExceptSingWithLiaison|HasSpokenNumber=OnlyWithLiaison|Number[ctxt]=Sing
 8	fontaine	fontaine	NOUN	_	_	4	nmod	_	AlignBegin=35609|AlignEnd=36256|Gender[lex]=Fem|Number[ctxt]=Sing|SpaceAfter=No
 9	.	.	PUNCT	_	_	2	punct	_	AlignBegin=36256|AlignEnd=36256
 
@@ -452,7 +452,7 @@
 20	,	,	PUNCT	_	_	19	punct	_	AlignBegin=41558|AlignEnd=41678
 21	de	de	ADP	_	_	22	case	_	AlignBegin=41678|AlignEnd=41758
 22	structure	structure	NOUN	_	_	11	nmod	_	AlignBegin=41758|AlignEnd=42168|Gender[lex]=Fem|Number[ctxt]=Sing
-23	métallique	métallique	ADJ	_	_	22	amod	_	AlignBegin=42168|AlignEnd=42786|Gender[ctxt]=Fem|Number[ctxt]=Sing|SpaceAfter=No
+23	métallique	métallique	ADJ	_	_	22	amod	_	AlignBegin=42168|AlignEnd=42786|Gender[ctxt]=Fem|HasSpokenGender=No|HasSpokenNumber=OnlyWithLiaison|Number[ctxt]=Sing|SpaceAfter=No
 24	.	.	PUNCT	_	_	2	punct	_	AlignBegin=42786|AlignEnd=42786
 
 # sent_id = Rhap_M0001-12
@@ -483,11 +483,11 @@
 # text = tu continues la rue, la petite rue.
 1	tu	toi	PRON	_	Case=Nom|Emph=No|Number=Sing|Person=2|PronType=Prs	2	nsubj	_	AlignBegin=43299|AlignEnd=43389
 2	continues	continuer	VERB	_	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	0	root	_	AlignBegin=43389|AlignEnd=43809
-3	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	_	AlignBegin=43809|AlignEnd=44059
+3	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	_	AlignBegin=43809|AlignEnd=44059|HasSpokenGender=OnlySingExceptWithLiaison
 4	rue	rue	NOUN	_	_	8	reparandum	_	AlignBegin=44059|AlignEnd=44326|Gender[lex]=Fem|Number[ctxt]=Sing|SpaceAfter=No
 5	,	,	PUNCT	_	_	4	punct	_	AlignBegin=44326|AlignEnd=45518
-6	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	8	det	_	AlignBegin=45518|AlignEnd=45608
-7	petite	petit	ADJ	_	Gender=Fem	8	amod	_	AlignBegin=45608|AlignEnd=45878|Number[ctxt]=Sing
+6	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	8	det	_	AlignBegin=45518|AlignEnd=45608|HasSpokenGender=OnlySingExceptWithLiaison
+7	petite	petit	ADJ	_	Gender=Fem	8	amod	_	AlignBegin=45608|AlignEnd=45878|HasSpokenGender=YesExceptSingWithLiaison|HasSpokenNumber=OnlyWithLiaison|Number[ctxt]=Sing
 8	rue	rue	NOUN	_	_	2	obj	_	AlignBegin=45878|AlignEnd=46183|Gender[lex]=Fem|Number[ctxt]=Sing|SpaceAfter=No
 9	.	.	PUNCT	_	_	2	punct	_	AlignBegin=46183|AlignEnd=46183
 
@@ -521,7 +521,7 @@
 2	tu	toi	PRON	_	Case=Nom|Emph=No|Number=Sing|Person=2|PronType=Prs	3	nsubj	_	AlignBegin=46327|AlignEnd=46397
 3	arrives	arriver	VERB	_	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	0	root	_	AlignBegin=46397|AlignEnd=46627
 4	à	à	ADP	_	_	6	case	_	AlignBegin=46627|AlignEnd=46677
-5	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	AlignBegin=46677|AlignEnd=46797
+5	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	AlignBegin=46677|AlignEnd=46797|HasSpokenGender=OnlySingExceptWithLiaison
 6	fontaine	fontaine	NOUN	_	_	3	obl:arg	_	AlignBegin=46797|AlignEnd=47258|Gender[lex]=Fem|Number[ctxt]=Sing|SpaceAfter=No
 7	,	,	PUNCT	_	_	8	punct	_	AlignBegin=47258|AlignEnd=47258
 8	euh	euh	INTJ	_	_	6	discourse	_	AlignBegin=47258|AlignEnd=47687|SpaceAfter=No
