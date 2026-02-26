@@ -30,25 +30,25 @@
 3	,	,	PUNCT	_	_	2	punct	_	AlignBegin=767|AlignEnd=767
 4	euh	euh	INTJ	_	_	7	discourse	_	AlignBegin=767|AlignEnd=1562|SpaceAfter=No
 5	,	,	PUNCT	_	_	4	punct	_	AlignBegin=1562|AlignEnd=1760
-6	tu	toi	PRON	_	Case=Nom|Emph=No|Number=Sing|Person=2|PronType=Prs	7	nsubj	_	AlignBegin=1760|AlignEnd=1890
-7	prends	prendre	VERB	_	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	0	root	_	AlignBegin=1890|AlignEnd=2230
+6	tu	toi	PRON	_	Case=Nom|Emph=No|PronType=Prs	7	nsubj	_	AlignBegin=1760|AlignEnd=1890|Number[lex]=Sing|Person[lex]=2
+7	prends	prendre	VERB	_	Mood=Ind|Number=Sing|Tense=Pres|VerbForm=Fin	0	root	_	AlignBegin=1890|AlignEnd=2230|Person[ctxt]=2
 8	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	_	AlignBegin=2230|AlignEnd=2290|HasSpokenGender=OnlySingExceptWithLiaison
 9	boulevard	boulevard	NOUN	_	_	7	obj	_	AlignBegin=2290|AlignEnd=2996|Gender[lex]=Masc|Number[ctxt]=Sing|SpaceAfter=No
 10	,	,	PUNCT	_	_	11	punct	_	AlignBegin=2996|AlignEnd=2996
 11	euh	euh	INTJ	_	_	9	discourse	_	AlignBegin=2996|AlignEnd=3436|SpaceAfter=No
 12	,	,	PUNCT	_	_	13	punct	_	AlignBegin=3436|AlignEnd=4481
-13	là	là	INTJ	_	_	9	discourse	_	AlignBegin=4481|AlignEnd=4691
+13	là	là	ADV	_	_	9	discourse	_	AlignBegin=4481|AlignEnd=4691
 14	qui	qui	PRON	_	PronType=Rel	15	nsubj	_	AlignBegin=4691|AlignEnd=4861
-15	part	partir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	acl:relcl	_	AlignBegin=4861|AlignEnd=5461
+15	part	partir	VERB	_	Mood=Ind|Number=Sing|Tense=Pres|VerbForm=Fin	9	acl:relcl	_	AlignBegin=4861|AlignEnd=5461|Person[ctxt]=3
 16	de	de	ADP	_	_	17	case	_	AlignBegin=5461|AlignEnd=5601
 17	Nef	Nef	PROPN	_	Gender=Fem|Number=Sing	15	obl:arg	_	AlignBegin=5601|AlignEnd=5771
 18	Chavant	Chavant	PROPN	_	_	17	flat:name	_	AlignBegin=5771|AlignEnd=6272|Gender[lex]=Unknown|SpaceAfter=No
 19	,	,	PUNCT	_	_	20	punct	_	AlignBegin=6272|AlignEnd=6272
-20	là	là	INTJ	_	_	18	discourse	_	AlignBegin=6272|AlignEnd=6352
+20	là	là	ADV	_	_	18	discourse	_	AlignBegin=6272|AlignEnd=6352
 21	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	22	det	_	AlignBegin=6352|AlignEnd=6432|HasSpokenGender=OnlySingExceptWithLiaison
 22	boulevard	boulevard	NOUN	_	_	9	appos	_	AlignBegin=6432|AlignEnd=6772|Gender[lex]=Masc|Number[ctxt]=Sing
 23	qui	qui	PRON	_	PronType=Rel	24	nsubj	_	AlignBegin=6772|AlignEnd=6862
-24	passe	passer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	22	acl:relcl	_	AlignBegin=6862|AlignEnd=7122
+24	passe	passer	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	22	acl:relcl	_	AlignBegin=6862|AlignEnd=7122|Number[ctxt]=Sing|Person[ctxt]=3
 25	à	à	ADP	_	_	26	case	_	AlignBegin=7122|AlignEnd=7172
 26	côté	côté	NOUN	_	_	24	obl:arg	_	AlignBegin=7172|AlignEnd=7432|Gender[lex]=Masc|Number[ctxt]=Sing
 27	d'	de	ADP	_	_	28	case	_	AlignBegin=7432|AlignEnd=7492|SpaceAfter=No
@@ -81,8 +81,8 @@
 # sound_url = https://rhapsodie.modyco.fr/rp/waves/Rhap-M0001.mp3
 # macrosyntax = tu continues //
 # text = tu continues.
-1	tu	toi	PRON	_	Case=Nom|Emph=No|Number=Sing|Person=2|PronType=Prs	2	nsubj	_	AlignBegin=8721|AlignEnd=8831
-2	continues	continuer	VERB	_	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	0	root	_	AlignBegin=8831|AlignEnd=9432|SpaceAfter=No
+1	tu	toi	PRON	_	Case=Nom|Emph=No|PronType=Prs	2	nsubj	_	AlignBegin=8721|AlignEnd=8831|Number[lex]=Sing|Person[lex]=2
+2	continues	continuer	VERB	_	Mood=Ind|Number=Sing|Tense=Pres|VerbForm=Fin	0	root	_	AlignBegin=8831|AlignEnd=9432|Person[ctxt]=2|SpaceAfter=No
 3	.	.	PUNCT	_	_	2	punct	_	AlignBegin=9432|AlignEnd=9432
 
 # sent_id = Rhap_M0001-3
@@ -111,7 +111,7 @@
 # sound_url = https://rhapsodie.modyco.fr/rp/waves/Rhap-M0001.mp3
 # macrosyntax = tu vas arriver sur la place "euh" Victor Hugo //
 # text = tu vas arriver sur la place, euh, Victor Hugo.
-1	tu	toi	PRON	_	Case=Nom|Emph=No|Number=Sing|Person=2|PronType=Prs	2	nsubj	_	AlignBegin=9432|AlignEnd=9582
+1	tu	toi	PRON	_	Case=Nom|Emph=No|PronType=Prs	2	nsubj	_	AlignBegin=9432|AlignEnd=9582|Number[lex]=Sing|Person[lex]=2
 2	vas	aller	VERB	_	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	0	root	_	AlignBegin=9582|AlignEnd=9722
 3	arriver	arriver	VERB	_	VerbForm=Inf	2	xcomp	_	AlignBegin=9722|AlignEnd=9970|Subject=SubjRaising
 4	sur	sur	ADP	_	_	6	case	_	AlignBegin=9970|AlignEnd=10182
@@ -164,12 +164,12 @@
 12	euh	euh	INTJ	_	_	10	discourse	_	AlignBegin=15324|AlignEnd=15914|SpaceAfter=No
 13	,	,	PUNCT	_	_	15	punct	_	AlignBegin=15914|AlignEnd=16419
 14	qui	qui	PRON	_	PronType=Rel	15	nsubj	_	AlignBegin=16419|AlignEnd=16639
-15	fait	faire	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	acl:relcl	_	AlignBegin=16639|AlignEnd=16769
+15	fait	faire	VERB	_	Mood=Ind|Number=Sing|Tense=Pres|VerbForm=Fin	10	acl:relcl	_	AlignBegin=16639|AlignEnd=16769|Person[ctxt]=3
 16	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	17	det	_	AlignBegin=16769|AlignEnd=16849|Gender[ctxt]=Masc|HasSpokenGender=OnlySingExceptWithLiaison|LiaisonAfter=Yes|SpaceAfter=No
 17	angle	angle	NOUN	_	_	15	obj	_	AlignBegin=16849|AlignEnd=17272|Gender[lex]=Masc|LiaisonPossibleBefore=Yes|Number[ctxt]=Sing|SpaceAfter=No
 18	,	,	PUNCT	_	_	10	punct	_	AlignBegin=17272|AlignEnd=17272
-19	tu	toi	PRON	_	Case=Nom|Emph=No|Number=Sing|Person=2|PronType=Prs	20	nsubj	_	AlignBegin=17272|AlignEnd=17362
-20	prends	prendre	VERB	_	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	0	root	_	AlignBegin=17362|AlignEnd=17532
+19	tu	toi	PRON	_	Case=Nom|Emph=No|PronType=Prs	20	nsubj	_	AlignBegin=17272|AlignEnd=17362|Number[lex]=Sing|Person[lex]=2
+20	prends	prendre	VERB	_	Mood=Ind|Number=Sing|Tense=Pres|VerbForm=Fin	0	root	_	AlignBegin=17362|AlignEnd=17532|Person[ctxt]=2
 21	à	à	ADP	_	_	22	case	_	AlignBegin=17532|AlignEnd=17602
 22	droite	droite	NOUN	_	_	20	obl:arg	_	AlignBegin=17602|AlignEnd=18102|Gender[lex]=Fem|Number[ctxt]=Sing|SpaceAfter=No
 23	.	.	PUNCT	_	_	20	punct	_	AlignBegin=18102|AlignEnd=18102
@@ -200,8 +200,8 @@
 # sound_url = https://rhapsodie.modyco.fr/rp/waves/Rhap-M0001.mp3
 # macrosyntax = tu longes { les | les } rails du tram jusqu'à la place Grenette //
 # text = tu longes les, les rails du tram jusqu'à la place Grenette.
-1	tu	toi	PRON	_	Case=Nom|Emph=No|Number=Sing|Person=2|PronType=Prs	2	nsubj	_	AlignBegin=19333|AlignEnd=19433
-2	longes	longer	VERB	_	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	0	root	_	AlignBegin=19433|AlignEnd=19703
+1	tu	toi	PRON	_	Case=Nom|Emph=No|PronType=Prs	2	nsubj	_	AlignBegin=19333|AlignEnd=19433|Number[lex]=Sing|Person[lex]=2
+2	longes	longer	VERB	_	Mood=Ind|Number=Sing|Tense=Pres|VerbForm=Fin	0	root	_	AlignBegin=19433|AlignEnd=19703|Person[ctxt]=2
 3	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	5	reparandum	_	AlignBegin=19703|AlignEnd=20043|HasSpokenGender=OnlySingExceptWithLiaison|SpaceAfter=No
 4	,	,	PUNCT	_	_	3	punct	_	AlignBegin=20043|AlignEnd=20043
 5	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	6	det	_	AlignBegin=20043|AlignEnd=20133|HasSpokenGender=OnlySingExceptWithLiaison
@@ -243,8 +243,8 @@
 # sound_url = https://rhapsodie.modyco.fr/rp/waves/Rhap-M0001.mp3
 # macrosyntax = tu continues dans la vieille ville //
 # text = tu continues dans la vieille ville.
-1	tu	toi	PRON	_	Case=Nom|Emph=No|Number=Sing|Person=2|PronType=Prs	2	nsubj	_	AlignBegin=23306|AlignEnd=23396
-2	continues	continuer	VERB	_	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	0	root	_	AlignBegin=23396|AlignEnd=23786
+1	tu	toi	PRON	_	Case=Nom|Emph=No|PronType=Prs	2	nsubj	_	AlignBegin=23306|AlignEnd=23396|Number[lex]=Sing|Person[lex]=2
+2	continues	continuer	VERB	_	Mood=Ind|Number=Sing|Tense=Pres|VerbForm=Fin	0	root	_	AlignBegin=23396|AlignEnd=23786|Person[ctxt]=2
 3	dans	dans	ADP	_	_	6	case	_	AlignBegin=23786|AlignEnd=23916
 4	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	AlignBegin=23916|AlignEnd=23996|HasSpokenGender=OnlySingExceptWithLiaison
 5	vieille	vieux	ADJ	_	Gender=Fem	6	amod	_	AlignBegin=23996|AlignEnd=24249|HasSpokenGender=YesExceptSingWithLiaison|HasSpokenNumber=OnlyWithLiaison|Number[ctxt]=Sing
@@ -277,8 +277,8 @@
 # sound_url = https://rhapsodie.modyco.fr/rp/waves/Rhap-M0001.mp3
 # macrosyntax = tu prends la grande rue //
 # text = tu prends la grande rue.
-1	tu	toi	PRON	_	Case=Nom|Emph=No|Number=Sing|Person=2|PronType=Prs	2	nsubj	_	AlignBegin=24522|AlignEnd=24622
-2	prends	prendre	VERB	_	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	0	root	_	AlignBegin=24622|AlignEnd=24822
+1	tu	toi	PRON	_	Case=Nom|Emph=No|PronType=Prs	2	nsubj	_	AlignBegin=24522|AlignEnd=24622|Number[lex]=Sing|Person[lex]=2
+2	prends	prendre	VERB	_	Mood=Ind|Number=Sing|Tense=Pres|VerbForm=Fin	0	root	_	AlignBegin=24622|AlignEnd=24822|Person[ctxt]=2
 3	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	AlignBegin=24822|AlignEnd=24912|HasSpokenGender=OnlySingExceptWithLiaison
 4	grande	grand	ADJ	_	Gender=Fem	5	amod	_	AlignBegin=24912|AlignEnd=25140|HasSpokenGender=Yes|HasSpokenNumber=OnlyWithLiaison|Number[ctxt]=Sing
 5	rue	rue	NOUN	_	_	2	obj	_	AlignBegin=25140|AlignEnd=25523|Gender[lex]=Fem|Number[ctxt]=Sing|SpaceAfter=No
@@ -316,8 +316,8 @@
 4	,	,	PUNCT	_	_	3	punct	_	AlignBegin=27111|AlignEnd=27503
 5	après	après	ADP	_	_	8	dep	_	AlignBegin=27503|AlignEnd=27763|SpaceAfter=No
 6	,	,	PUNCT	_	_	5	punct	_	AlignBegin=27763|AlignEnd=27763
-7	tu	toi	PRON	_	Case=Nom|Emph=No|Number=Sing|Person=2|PronType=Prs	8	nsubj	_	AlignBegin=27763|AlignEnd=27973
-8	bifurques	bifurquer	VERB	_	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	0	root	_	AlignBegin=27973|AlignEnd=28733|SpaceAfter=No
+7	tu	toi	PRON	_	Case=Nom|Emph=No|PronType=Prs	8	nsubj	_	AlignBegin=27763|AlignEnd=27973|Number[lex]=Sing|Person[lex]=2
+8	bifurques	bifurquer	VERB	_	Mood=Ind|Number=Sing|Tense=Pres|VerbForm=Fin	0	root	_	AlignBegin=27973|AlignEnd=28733|Person[ctxt]=2|SpaceAfter=No
 9	.	.	PUNCT	_	_	8	punct	_	AlignBegin=28733|AlignEnd=28733
 
 # sent_id = Rhap_M0001-9
@@ -348,8 +348,8 @@
 # text = euh, il y a une petite bifurcation, euh, juste avant la place du Tribunal.
 1	euh	euh	INTJ	_	_	5	discourse	_	AlignBegin=28733|AlignEnd=29195|SpaceAfter=No
 2	,	,	PUNCT	_	_	1	punct	_	AlignBegin=29195|AlignEnd=30889
-3	il	lui	PRON	_	Case=Nom|Emph=No|Gender=Masc|Number=Sing|Person=3|PronType=Prs	5	expl:subj	_	AlignBegin=30889|AlignEnd=30927
-4	y	y	PRON	_	Person=3|PronType=Prs	5	expl:comp	_	AlignBegin=30927|AlignEnd=30957
+3	il	lui	PRON	_	Case=Nom|Emph=No|Gender=Masc|Number=Sing|PronType=Prs	5	expl:subj	_	AlignBegin=30889|AlignEnd=30927|Person[lex]=3
+4	y	y	PRON	_	PronType=Prs	5	expl:comp	_	AlignBegin=30927|AlignEnd=30957|Person[lex]=3
 5	a	avoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	AlignBegin=30957|AlignEnd=30987
 6	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	8	det	_	AlignBegin=30987|AlignEnd=31117
 7	petite	petit	ADJ	_	Gender=Fem	8	amod	_	AlignBegin=31117|AlignEnd=31277|HasSpokenGender=YesExceptSingWithLiaison|HasSpokenNumber=OnlyWithLiaison|Number[ctxt]=Sing
@@ -393,8 +393,8 @@
 # sound_url = https://rhapsodie.modyco.fr/rp/waves/Rhap-M0001.mp3
 # macrosyntax = tu passes à côté d'une petite fontaine //
 # text = tu passes à côté d'une petite fontaine.
-1	tu	toi	PRON	_	Case=Nom|Emph=No|Number=Sing|Person=2|PronType=Prs	2	nsubj	_	AlignBegin=34389|AlignEnd=34459
-2	passes	passer	VERB	_	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	0	root	_	AlignBegin=34459|AlignEnd=34698
+1	tu	toi	PRON	_	Case=Nom|Emph=No|PronType=Prs	2	nsubj	_	AlignBegin=34389|AlignEnd=34459|Number[lex]=Sing|Person[lex]=2
+2	passes	passer	VERB	_	Mood=Ind|Number=Sing|Tense=Pres|VerbForm=Fin	0	root	_	AlignBegin=34459|AlignEnd=34698|Person[ctxt]=2
 3	à	à	ADP	_	_	4	case	_	AlignBegin=34698|AlignEnd=34744
 4	côté	côté	NOUN	_	_	2	obl:arg	_	AlignBegin=34744|AlignEnd=35038|Gender[lex]=Masc|Number[ctxt]=Sing
 5	d'	de	ADP	_	_	8	case	_	AlignBegin=35038|AlignEnd=35084|SpaceAfter=No
@@ -429,8 +429,8 @@
 # sound_url = https://rhapsodie.modyco.fr/rp/waves/Rhap-M0001.mp3
 # macrosyntax = tu arrives place aux Herbes avec { une | une } sorte { de halle "quoi" | { de | de | de } structure métallique } //
 # text = tu arrives place aux Herbes avec une, une sorte de halle, quoi, de, de, de structure métallique.
-1	tu	toi	PRON	_	Case=Nom|Emph=No|Number=Sing|Person=2|PronType=Prs	2	nsubj	_	AlignBegin=36693|AlignEnd=36731
-2	arrives	arriver	VERB	_	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	0	root	_	AlignBegin=36731|AlignEnd=37231
+1	tu	toi	PRON	_	Case=Nom|Emph=No|PronType=Prs	2	nsubj	_	AlignBegin=36693|AlignEnd=36731|Number[lex]=Sing|Person[lex]=2
+2	arrives	arriver	VERB	_	Mood=Ind|Number=Sing|Tense=Pres|VerbForm=Fin	0	root	_	AlignBegin=36731|AlignEnd=37231|Person[ctxt]=2
 3	place	place	NOUN	_	_	2	obj	_	AlignBegin=37231|AlignEnd=37593|Gender[lex]=Fem|Number[ctxt]=Sing
 4-5	aux	_	_	_	_	_	_	_	_
 4	à	à	ADP	_	_	6	case	_	AlignBegin=37593|AlignEnd=37770
@@ -481,8 +481,8 @@
 # sound_url = https://rhapsodie.modyco.fr/rp/waves/Rhap-M0001.mp3
 # macrosyntax = tu continues { la rue | la petite rue } //
 # text = tu continues la rue, la petite rue.
-1	tu	toi	PRON	_	Case=Nom|Emph=No|Number=Sing|Person=2|PronType=Prs	2	nsubj	_	AlignBegin=43299|AlignEnd=43389
-2	continues	continuer	VERB	_	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	0	root	_	AlignBegin=43389|AlignEnd=43809
+1	tu	toi	PRON	_	Case=Nom|Emph=No|PronType=Prs	2	nsubj	_	AlignBegin=43299|AlignEnd=43389|Number[lex]=Sing|Person[lex]=2
+2	continues	continuer	VERB	_	Mood=Ind|Number=Sing|Tense=Pres|VerbForm=Fin	0	root	_	AlignBegin=43389|AlignEnd=43809|Person[ctxt]=2
 3	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	_	AlignBegin=43809|AlignEnd=44059|HasSpokenGender=OnlySingExceptWithLiaison
 4	rue	rue	NOUN	_	_	8	reparandum	_	AlignBegin=44059|AlignEnd=44326|Gender[lex]=Fem|Number[ctxt]=Sing|SpaceAfter=No
 5	,	,	PUNCT	_	_	4	punct	_	AlignBegin=44326|AlignEnd=45518
@@ -518,8 +518,8 @@
 # macrosyntax = ^et tu arrives à la fontaine "euh" place Notre-Dame //
 # text = et tu arrives à la fontaine, euh, place Notre-Dame.
 1	et	et	CCONJ	_	_	3	cc	_	AlignBegin=46183|AlignEnd=46327
-2	tu	toi	PRON	_	Case=Nom|Emph=No|Number=Sing|Person=2|PronType=Prs	3	nsubj	_	AlignBegin=46327|AlignEnd=46397
-3	arrives	arriver	VERB	_	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	0	root	_	AlignBegin=46397|AlignEnd=46627
+2	tu	toi	PRON	_	Case=Nom|Emph=No|PronType=Prs	3	nsubj	_	AlignBegin=46327|AlignEnd=46397|Number[lex]=Sing|Person[lex]=2
+3	arrives	arriver	VERB	_	Mood=Ind|Number=Sing|Tense=Pres|VerbForm=Fin	0	root	_	AlignBegin=46397|AlignEnd=46627|Person[ctxt]=2
 4	à	à	ADP	_	_	6	case	_	AlignBegin=46627|AlignEnd=46677
 5	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	AlignBegin=46677|AlignEnd=46797|HasSpokenGender=OnlySingExceptWithLiaison
 6	fontaine	fontaine	NOUN	_	_	3	obl:arg	_	AlignBegin=46797|AlignEnd=47258|Gender[lex]=Fem|Number[ctxt]=Sing|SpaceAfter=No

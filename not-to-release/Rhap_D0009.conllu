@@ -57,7 +57,7 @@
 # sound_url = https://rhapsodie.modyco.fr/rp/waves/Rhap-D0009.mp3
 # macrosyntax = on a { nos | nos } chaises qui ont besoin de refaire //
 # text = on a nos, nos chaises qui ont besoin de refaire.
-1	on	on	PRON	_	Case=Nom|Emph=No|Gender=Masc|Number=Sing|Person=3|PronType=Ind	2	nsubj	_	AlignBegin=3008|AlignEnd=3218
+1	on	on	PRON	_	Case=Nom|Emph=No|PronType=Ind	2	nsubj	_	AlignBegin=3008|AlignEnd=3218|Gender[ctxt]=Masc|Number[lex]=Sing|Person[lex]=3
 2	a	avoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	AlignBegin=3218|AlignEnd=3488
 3	nos	son	DET	_	Number=Plur|Number[psor]=Plur|Person[psor]=1|Poss=Yes|PronType=Prs	5	reparandum	_	AlignBegin=3488|AlignEnd=4478|HasSpokenGender=OnlySingExceptWithLiaison|SpaceAfter=No
 4	,	,	PUNCT	_	_	3	punct	_	AlignBegin=4478|AlignEnd=4945
@@ -97,18 +97,18 @@
 # macrosyntax = est-ce que tu connais { des | un } endroit où je pourrais les laisser pour le rempaillage //
 # text = est-ce que tu connais des, un endroit où je pourrais les laisser pour le rempaillage ?
 1	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	cop	_	AlignBegin=7292|AlignEnd=7377|SpaceAfter=No
-2	-ce	ce	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	5	expl:subj	_	AlignBegin=7377|AlignEnd=7427
+2	-ce	ce	PRON	_	PronType=Dem	5	expl:subj	_	AlignBegin=7377|AlignEnd=7427|Gender[lex]=Masc|Number[lex]=Sing|Person[lex]=3
 3	que	que	SCONJ	_	_	5	mark	_	AlignBegin=7427|AlignEnd=7547
-4	tu	toi	PRON	_	Case=Nom|Emph=No|Number=Sing|Person=2|PronType=Prs	5	nsubj	_	AlignBegin=7547|AlignEnd=7707
-5	connais	connaître	VERB	_	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	0	root	_	AlignBegin=7707|AlignEnd=8117
+4	tu	toi	PRON	_	Case=Nom|Emph=No|PronType=Prs	5	nsubj	_	AlignBegin=7547|AlignEnd=7707|Number[lex]=Sing|Person[lex]=2
+5	connais	connaître	VERB	_	Mood=Ind|Number=Sing|Tense=Pres|VerbForm=Fin	0	root	_	AlignBegin=7707|AlignEnd=8117|Person[ctxt]=2
 6	des	un	DET	_	Definite=Ind|Number=Plur|PronType=Art	8	reparandum	_	AlignBegin=8117|AlignEnd=8737|SpaceAfter=No
 7	,	,	PUNCT	_	_	6	punct	_	AlignBegin=8737|AlignEnd=8737
 8	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	9	det	_	AlignBegin=8737|AlignEnd=8917|LiaisonAfter=Yes
 9	endroit	endroit	NOUN	_	_	5	obj	_	AlignBegin=8917|AlignEnd=9287|Gender[lex]=Masc|LiaisonPossibleBefore=Yes|Number[ctxt]=Sing
-10	où	où	PRON	_	PronType=Rel	12	obl:mod	_	AlignBegin=9287|AlignEnd=9337
-11	je	moi	PRON	_	Case=Nom|Emph=No|Number=Sing|Person=1|PronType=Prs	12	nsubj	_	AlignBegin=9337|AlignEnd=9447
-12	pourrais	pouvoir	VERB	_	Mood=Cnd|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	9	acl:relcl	_	AlignBegin=9447|AlignEnd=9637
-13	les	eux	PRON	_	Case=Acc|Emph=No|Number=Plur|Person=3|PronType=Prs	14	obj	_	AlignBegin=9637|AlignEnd=9748
+10	où	où	ADV	_	PronType=Rel	12	advmod	_	AlignBegin=9287|AlignEnd=9337
+11	je	moi	PRON	_	Case=Nom|Emph=No|PronType=Prs	12	nsubj	_	AlignBegin=9337|AlignEnd=9447|Number[lex]=Sing|Person[lex]=1
+12	pourrais	pouvoir	VERB	_	Mood=Cnd|Number=Sing|Tense=Pres|VerbForm=Fin	9	acl:relcl	_	AlignBegin=9447|AlignEnd=9637|Person[ctxt]=1
+13	les	lui	PRON	_	Case=Acc|Emph=No|Number=Plur|PronType=Prs	14	obj	_	AlignBegin=9637|AlignEnd=9748|Person[lex]=3
 14	laisser	laisser	VERB	_	VerbForm=Inf	12	xcomp	_	AlignBegin=9748|AlignEnd=10137|Subject=SubjRaising
 15	pour	pour	ADP	_	_	17	case	_	AlignBegin=10137|AlignEnd=10277
 16	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	17	det	_	AlignBegin=10277|AlignEnd=10347|HasSpokenGender=OnlySingExceptWithLiaison
@@ -146,10 +146,10 @@
 3	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	4	det	_	AlignBegin=12558|AlignEnd=12678|HasSpokenGender=OnlySingExceptWithLiaison
 4	chaises	chaise	NOUN	_	_	7	dislocated	_	AlignBegin=12678|AlignEnd=13168|Gender[lex]=Fem|Number[ctxt]=Plur|SpaceAfter=No
 5	,	,	PUNCT	_	_	4	punct	_	AlignBegin=13168|AlignEnd=13168
-6	il	lui	PRON	_	Case=Nom|Emph=No|Gender=Masc|Number=Sing|Person=3|PronType=Prs	7	expl:subj	_	AlignBegin=13168|AlignEnd=13228
-7	faut	falloir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	AlignBegin=13228|AlignEnd=13358
-8	me	moi	PRON	_	Case=Dat|Emph=No|Number=Sing|Person=1|PronType=Prs	7	iobj	_	AlignBegin=13358|AlignEnd=13388
-9	les	eux	PRON	_	Case=Acc|Emph=No|Number=Plur|Person=3|PronType=Prs	10	obj	_	AlignBegin=13388|AlignEnd=13498
+6	il	lui	PRON	_	Case=Nom|Emph=No|Gender=Masc|Number=Sing|PronType=Prs	7	expl:subj	_	AlignBegin=13168|AlignEnd=13228|Person[lex]=3
+7	faut	falloir	VERB	_	Mood=Ind|Number=Sing|Tense=Pres|VerbForm=Fin	0	root	_	AlignBegin=13228|AlignEnd=13358|Person[ctxt]=3
+8	me	moi	PRON	_	Case=Dat|Emph=No|PronType=Prs	7	iobj	_	AlignBegin=13358|AlignEnd=13388|Number[lex]=Sing|Person[lex]=1
+9	les	lui	PRON	_	Case=Acc|Emph=No|Number=Plur|PronType=Prs	10	obj	_	AlignBegin=13388|AlignEnd=13498|Person[lex]=3
 10	donner	donner	VERB	_	VerbForm=Inf	7	ccomp	_	AlignBegin=13498|AlignEnd=13767|SpaceAfter=No|Subject=NoRaising
 11	.	.	PUNCT	_	_	7	punct	_	AlignBegin=13767|AlignEnd=13767
 
@@ -210,7 +210,7 @@
 # sound_url = https://rhapsodie.modyco.fr/rp/waves/Rhap-D0009.mp3
 # macrosyntax = $L1 c'est plus simple // -$
 # text = c'est plus simple.
-1	c'	ce	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	4	nsubj	_	AlignBegin=14235|AlignEnd=14940|Overlap=Rhap_D0009-5|SpaceAfter=No
+1	c'	ce	PRON	_	PronType=Dem	4	nsubj	_	AlignBegin=14235|AlignEnd=14940|Gender[lex]=Masc|Number[lex]=Sing|Overlap=Rhap_D0009-5|Person[lex]=3|SpaceAfter=No
 2	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	AlignBegin=14235|AlignEnd=14940|Overlap=Rhap_D0009-5
 3	plus	plus	ADV	_	_	4	advmod	_	AlignBegin=14235|AlignEnd=14940|Overlap=Rhap_D0009-5
 4	simple	simple	ADJ	_	_	0	root	_	AlignBegin=14235|AlignEnd=14940|Gender[ctxt]=Masc|HasSpokenGender=No|HasSpokenNumber=OnlyWithLiaison|Number[ctxt]=Sing|Overlap=Rhap_D0009-5|SpaceAfter=No
@@ -242,14 +242,14 @@
 # sound_url = https://rhapsodie.modyco.fr/rp/waves/Rhap-D0009.mp3
 # macrosyntax = $- $L2 { tu as | tu as } quelqu'un qui peut ESPERLUETTE //
 # text = tu as, tu as quelqu'un qui peut…
-1	tu	toi	PRON	_	Case=Nom|Emph=No|Number=Sing|Person=2|PronType=Prs	2	nsubj	_	AlignBegin=15416|AlignEnd=15446|Overlap=Rhap_D0009-8
+1	tu	toi	PRON	_	Case=Nom|Emph=No|PronType=Prs	2	nsubj	_	AlignBegin=15416|AlignEnd=15446|Number[lex]=Sing|Overlap=Rhap_D0009-8|Person[lex]=2
 2	as	avoir	VERB	_	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	5	reparandum	_	AlignBegin=15446|AlignEnd=15546|Overlap=Rhap_D0009-8|SpaceAfter=No
 3	,	,	PUNCT	_	_	2	punct	_	AlignBegin=17079|AlignEnd=15031|Overlap=Rhap_D0009-8
-4	tu	toi	PRON	_	Case=Nom|Emph=No|Number=Sing|Person=2|PronType=Prs	5	nsubj	_	AlignBegin=15031|AlignEnd=17079|Overlap=Rhap_D0009-8
+4	tu	toi	PRON	_	Case=Nom|Emph=No|PronType=Prs	5	nsubj	_	AlignBegin=15031|AlignEnd=17079|Number[lex]=Sing|Overlap=Rhap_D0009-8|Person[lex]=2
 5	as	avoir	VERB	_	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	0	root	_	AlignBegin=15031|AlignEnd=17079|Overlap=Rhap_D0009-8
-6	quelqu'un	quelqu'un	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Ind	5	obj	_	AlignBegin=15546|AlignEnd=15886|Overlap=Rhap_D0009-8
+6	quelqu'un	quelqu'un	PRON	_	PronType=Ind	5	obj	_	AlignBegin=15546|AlignEnd=15886|Gender[lex]=Masc|Number[lex]=Sing|Overlap=Rhap_D0009-8|Person[lex]=3
 7	qui	qui	PRON	_	PronType=Rel	8	nsubj	_	AlignBegin=15886|AlignEnd=16051|Overlap=Rhap_D0009-8
-8	peut	pouvoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	acl:relcl	_	AlignBegin=16051|AlignEnd=16662|Overlap=Rhap_D0009-8|SpaceAfter=No
+8	peut	pouvoir	VERB	_	Mood=Ind|Number=Sing|Tense=Pres|VerbForm=Fin	6	acl:relcl	_	AlignBegin=16051|AlignEnd=16662|Overlap=Rhap_D0009-8|Person[ctxt]=3|SpaceAfter=No
 9	…	…	PUNCT	_	_	5	punct	_	AlignBegin=17079|AlignEnd=17079|Overlap=Rhap_D0009-8
 
 # sent_id = Rhap_D0009-8
@@ -340,16 +340,16 @@
 # sound_url = https://rhapsodie.modyco.fr/rp/waves/Rhap-D0009.mp3
 # macrosyntax = j'ai quelqu'un -$ qui est de Saint-Sauveur Lorzac qui passe //
 # text = j'ai quelqu'un qui est de Saint-Sauveur Lorzac qui passe.
-1	j'	moi	PRON	_	Case=Nom|Emph=No|Number=Sing|Person=1|PronType=Prs	2	nsubj	_	AlignBegin=15031|AlignEnd=17079|Overlap=Rhap_D0009-7|SpaceAfter=No
+1	j'	moi	PRON	_	Case=Nom|Emph=No|PronType=Prs	2	nsubj	_	AlignBegin=15031|AlignEnd=17079|Number[lex]=Sing|Overlap=Rhap_D0009-7|Person[lex]=1|SpaceAfter=No
 2	ai	avoir	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	AlignBegin=15031|AlignEnd=17079|Overlap=Rhap_D0009-7
-3	quelqu'un	quelqu'un	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Ind	2	obj	_	AlignBegin=17079|AlignEnd=17079|Overlap=Rhap_D0009-7
+3	quelqu'un	quelqu'un	PRON	_	PronType=Ind	2	obj	_	AlignBegin=17079|AlignEnd=17079|Gender[lex]=Masc|Number[lex]=Sing|Overlap=Rhap_D0009-7|Person[lex]=3
 4	qui	qui	PRON	_	PronType=Rel	5	nsubj	_	AlignBegin=17079|AlignEnd=17209
 5	est	être	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	acl:relcl	_	AlignBegin=17209|AlignEnd=17259
 6	de	de	ADP	_	_	7	case	_	AlignBegin=17259|AlignEnd=17359
 7	Saint-Sauveur	Saint-Sauveur	PROPN	_	_	5	obl:arg	_	AlignBegin=17359|AlignEnd=17799|Gender[lex]=Unknown
 8	Lorzac	Lorzac	PROPN	_	_	7	flat:name	_	AlignBegin=17799|AlignEnd=18119|Gender[lex]=Unknown
 9	qui	qui	PRON	_	PronType=Rel	10	nsubj	_	AlignBegin=18119|AlignEnd=18299
-10	passe	passer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	acl:relcl	_	AlignBegin=18299|AlignEnd=18647|SpaceAfter=No
+10	passe	passer	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	3	acl:relcl	_	AlignBegin=18299|AlignEnd=18647|Number[ctxt]=Sing|Person[ctxt]=3|SpaceAfter=No
 11	.	.	PUNCT	_	_	2	punct	_	AlignBegin=18647|AlignEnd=18647
 
 # sent_id = Rhap_D0009-11
@@ -378,12 +378,12 @@
 # sound_url = https://rhapsodie.modyco.fr/rp/waves/Rhap-D0009.mp3
 # macrosyntax = $- faut que tu me les donnes //
 # text = faut que tu me les donnes.
-1	faut	falloir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	AlignBegin=19558|AlignEnd=20470|Overlap=Rhap_D0009-12
+1	faut	falloir	VERB	_	Mood=Ind|Number=Sing|Tense=Pres|VerbForm=Fin	0	root	_	AlignBegin=19558|AlignEnd=20470|Overlap=Rhap_D0009-12|Person[ctxt]=3
 2	que	que	SCONJ	_	_	6	mark	_	AlignBegin=19558|AlignEnd=20470|Overlap=Rhap_D0009-12
-3	tu	toi	PRON	_	Case=Nom|Emph=No|Number=Sing|Person=2|PronType=Prs	6	nsubj	_	AlignBegin=19558|AlignEnd=20470|Overlap=Rhap_D0009-12
-4	me	moi	PRON	_	Case=Dat|Emph=No|Number=Sing|Person=1|PronType=Prs	6	iobj	_	AlignBegin=19558|AlignEnd=20470|Overlap=Rhap_D0009-12
-5	les	eux	PRON	_	Case=Acc|Emph=No|Number=Plur|Person=3|PronType=Prs	6	obj	_	AlignBegin=19558|AlignEnd=20470|Overlap=Rhap_D0009-12
-6	donnes	donner	VERB	_	Mood=Sub|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	1	ccomp	_	AlignBegin=20470|AlignEnd=20575|Overlap=Rhap_D0009-12|SpaceAfter=No
+3	tu	toi	PRON	_	Case=Nom|Emph=No|PronType=Prs	6	nsubj	_	AlignBegin=19558|AlignEnd=20470|Number[lex]=Sing|Overlap=Rhap_D0009-12|Person[lex]=2
+4	me	moi	PRON	_	Case=Dat|Emph=No|PronType=Prs	6	iobj	_	AlignBegin=19558|AlignEnd=20470|Number[lex]=Sing|Overlap=Rhap_D0009-12|Person[lex]=1
+5	les	lui	PRON	_	Case=Acc|Emph=No|Number=Plur|PronType=Prs	6	obj	_	AlignBegin=19558|AlignEnd=20470|Overlap=Rhap_D0009-12|Person[lex]=3
+6	donnes	donner	VERB	_	Mood=Sub|Number=Sing|Tense=Pres|VerbForm=Fin	1	ccomp	_	AlignBegin=20470|AlignEnd=20575|Overlap=Rhap_D0009-12|Person[ctxt]=2|SpaceAfter=No
 7	.	.	PUNCT	_	_	1	punct	_	AlignBegin=20575|AlignEnd=20575|Overlap=Rhap_D0009-12
 
 # sent_id = Rhap_D0009-12
@@ -414,7 +414,7 @@
 # text = ah, c'est bien.
 1	ah	ah	INTJ	_	_	5	discourse	_	AlignBegin=19558|AlignEnd=19773|Overlap=Rhap_D0009-11|SpaceAfter=No
 2	,	,	PUNCT	_	_	1	punct	_	AlignBegin=20470|AlignEnd=19558|Overlap=Rhap_D0009-11
-3	c'	ce	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	5	nsubj	_	AlignBegin=19773|AlignEnd=19873|Overlap=Rhap_D0009-11|SpaceAfter=No
+3	c'	ce	PRON	_	PronType=Dem	5	nsubj	_	AlignBegin=19773|AlignEnd=19873|Gender[lex]=Masc|Number[lex]=Sing|Overlap=Rhap_D0009-11|Person[lex]=3|SpaceAfter=No
 4	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	cop	_	AlignBegin=19873|AlignEnd=19963|Overlap=Rhap_D0009-11
 5	bien	bien	ADV	_	_	0	root	_	AlignBegin=19963|AlignEnd=20253|Overlap=Rhap_D0009-11|SpaceAfter=No
 6	.	.	PUNCT	_	_	5	punct	_	AlignBegin=20470|AlignEnd=20470|Overlap=Rhap_D0009-11
@@ -446,8 +446,8 @@
 # macrosyntax = ^et il -$ faut compter à peu près combien par chaise //
 # text = et il faut compter à peu près combien par chaise ?
 1	et	et	CCONJ	_	_	3	cc	_	AlignBegin=20253|AlignEnd=20343|Overlap=Rhap_D0009-11
-2	il	lui	PRON	_	Case=Nom|Emph=No|Gender=Masc|Number=Sing|Person=3|PronType=Prs	3	expl:subj	_	AlignBegin=20343|AlignEnd=20470|Overlap=Rhap_D0009-11
-3	faut	falloir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	AlignBegin=20470|AlignEnd=20575
+2	il	lui	PRON	_	Case=Nom|Emph=No|Gender=Masc|Number=Sing|PronType=Prs	3	expl:subj	_	AlignBegin=20343|AlignEnd=20470|Overlap=Rhap_D0009-11|Person[lex]=3
+3	faut	falloir	VERB	_	Mood=Ind|Number=Sing|Tense=Pres|VerbForm=Fin	0	root	_	AlignBegin=20470|AlignEnd=20575|Person[ctxt]=3
 4	compter	compter	VERB	_	VerbForm=Inf	3	ccomp	_	AlignBegin=20575|AlignEnd=20815|Subject=NoRaising
 5	à	à	ADP	_	ExtPos=ADV	8	obl:arg	_	AlignBegin=20815|AlignEnd=20885|Idiom=Yes
 6	peu	peu	ADV	_	_	5	fixed	_	AlignBegin=20885|AlignEnd=20996|InIdiom=Yes
@@ -483,7 +483,7 @@
 # sound_url = https://rhapsodie.modyco.fr/rp/waves/Rhap-D0009.mp3
 # macrosyntax = $L1 c'est quoi //
 # text = c'est quoi ?
-1	c'	ce	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	3	nsubj	_	AlignBegin=21968|AlignEnd=22013|SpaceAfter=No
+1	c'	ce	PRON	_	PronType=Dem	3	nsubj	_	AlignBegin=21968|AlignEnd=22013|Gender[lex]=Masc|Number[lex]=Sing|Person[lex]=3|SpaceAfter=No
 2	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	cop	_	AlignBegin=22013|AlignEnd=22073
 3	quoi	quoi	PRON	_	PronType=Int	0	root	_	AlignBegin=22073|AlignEnd=22193
 4	?	?	PUNCT	_	_	3	punct	_	AlignBegin=22193|AlignEnd=22193
@@ -514,7 +514,7 @@
 # sound_url = https://rhapsodie.modyco.fr/rp/waves/Rhap-D0009.mp3
 # macrosyntax = ce sont des $- $L1 XXX juste XXX //
 # text = ce sont des XXX juste XXX.
-1	ce	ce	PRON	_	Number=Sing|Person=3|PronType=Dem	6	nsubj	_	AlignBegin=22193|AlignEnd=22283
+1	ce	ce	PRON	_	PronType=Dem	6	nsubj	_	AlignBegin=22193|AlignEnd=22283|Gender[lex]=Masc|Number[lex]=Sing|Person[lex]=3
 2	sont	être	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	6	cop	_	AlignBegin=22283|AlignEnd=22493
 3	des	un	DET	_	Definite=Ind|Number=Plur|PronType=Art	4	det	_	AlignBegin=22493|AlignEnd=23203
 4	XXX	XXX	X	_	ExtPos=PROPN	6	reparandum	_	AlignBegin=23203|AlignEnd=24955|Overlap=Rhap_D0009-16
@@ -550,7 +550,7 @@
 # text = ben, c'est les chaises de l'autre côté, là.
 1	ben	ben	INTJ	_	_	6	discourse	_	AlignBegin=23203|AlignEnd=23298|Overlap=Rhap_D0009-15|SpaceAfter=No
 2	,	,	PUNCT	_	_	1	punct	_	AlignBegin=24955|AlignEnd=23203|Overlap=Rhap_D0009-15
-3	c'	ce	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	6	nsubj	_	AlignBegin=23298|AlignEnd=23338|Overlap=Rhap_D0009-15|SpaceAfter=No
+3	c'	ce	PRON	_	PronType=Dem	6	nsubj	_	AlignBegin=23298|AlignEnd=23338|Gender[lex]=Masc|Number[lex]=Sing|Overlap=Rhap_D0009-15|Person[lex]=3|SpaceAfter=No
 4	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	cop	_	AlignBegin=23338|AlignEnd=23388|Overlap=Rhap_D0009-15
 5	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	6	det	_	AlignBegin=23388|AlignEnd=23525|HasSpokenGender=OnlySingExceptWithLiaison|Overlap=Rhap_D0009-15
 6	chaises	chaise	NOUN	_	_	0	root	_	AlignBegin=23525|AlignEnd=23937|Gender[lex]=Fem|Number[ctxt]=Plur|Overlap=Rhap_D0009-15
@@ -590,7 +590,7 @@
 # text = ouais, c'est des grandes galettes.
 1	ouais	ouais	INTJ	_	_	7	discourse	_	AlignBegin=25049|AlignEnd=25154|SpaceAfter=No
 2	,	,	PUNCT	_	_	1	punct	_	AlignBegin=25154|AlignEnd=25154
-3	c'	ce	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	7	nsubj	_	AlignBegin=25154|AlignEnd=25234|SpaceAfter=No
+3	c'	ce	PRON	_	PronType=Dem	7	nsubj	_	AlignBegin=25154|AlignEnd=25234|Gender[lex]=Masc|Number[lex]=Sing|Person[lex]=3|SpaceAfter=No
 4	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	cop	_	AlignBegin=25234|AlignEnd=25264
 5	des	un	DET	_	Definite=Ind|Number=Plur|PronType=Art	7	det	_	AlignBegin=25264|AlignEnd=25374
 6	grandes	grand	ADJ	_	Gender=Fem	7	amod	_	AlignBegin=25374|AlignEnd=25594|HasSpokenGender=Yes|HasSpokenNumber=OnlyWithLiaison|Number[ctxt]=Plur
@@ -623,8 +623,8 @@
 # sound_url = https://rhapsodie.modyco.fr/rp/waves/Rhap-D0009.mp3
 # macrosyntax = il faut compter "euh" "pff" { { l'équivalent de quarante euros | quelque chose comme ça } |} //+ $L2 "ah" "oui" //+ ( "ah"
 # text = il faut compter, euh, pff, l'équivalent de quarante euros, quelque chose comme ça.
-1	il	lui	PRON	_	Case=Nom|Emph=No|Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	expl:subj	_	AlignBegin=26629|AlignEnd=26764
-2	faut	falloir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	AlignBegin=26764|AlignEnd=26964
+1	il	lui	PRON	_	Case=Nom|Emph=No|Gender=Masc|Number=Sing|PronType=Prs	2	expl:subj	_	AlignBegin=26629|AlignEnd=26764|Person[lex]=3
+2	faut	falloir	VERB	_	Mood=Ind|Number=Sing|Tense=Pres|VerbForm=Fin	0	root	_	AlignBegin=26764|AlignEnd=26964|Person[ctxt]=3
 3	compter	compter	VERB	_	VerbForm=Inf	2	ccomp	_	AlignBegin=26964|AlignEnd=27694|SpaceAfter=No|Subject=NoRaising
 4	,	,	PUNCT	_	_	5	punct	_	AlignBegin=27694|AlignEnd=27694
 5	euh	euh	INTJ	_	_	3	discourse	_	AlignBegin=27694|AlignEnd=28934|SpaceAfter=No
@@ -637,10 +637,10 @@
 12	quarante	quarante	NUM	_	_	13	nummod	_	AlignBegin=29654|AlignEnd=29964|Number[lex]=Plur
 13	euros	euro	NOUN	_	_	10	nmod	_	AlignBegin=29964|AlignEnd=30064|Gender[lex]=Masc|LiaisonPossibleBefore=Yes|Number[ctxt]=Plur|SpaceAfter=No
 14	,	,	PUNCT	_	_	16	punct	_	AlignBegin=30064|AlignEnd=30064
-15	quelque	quelque	DET	_	Number=Sing|PronType=Ind	16	det	_	AlignBegin=30064|AlignEnd=30444
+15	quelque	quelque	DET	_	PronType=Ind	16	det	_	AlignBegin=30064|AlignEnd=30444|Number[lex]=Sing
 16	chose	chose	NOUN	_	_	13	appos	_	AlignBegin=30444|AlignEnd=30594|Gender[lex]=Fem|Number[ctxt]=Sing
 17	comme	comme	ADP	_	_	18	case	_	AlignBegin=30594|AlignEnd=30814
-18	ça	ça	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	16	nmod	_	AlignBegin=30814|AlignEnd=30983|SpaceAfter=No
+18	ça	ça	PRON	_	PronType=Dem	16	nmod	_	AlignBegin=30814|AlignEnd=30983|Gender[lex]=Masc|Number[lex]=Sing|Person[lex]=3|SpaceAfter=No
 19	.	.	PUNCT	_	_	2	punct	_	AlignBegin=30983|AlignEnd=30983
 
 # sent_id = Rhap_D0009-19
@@ -669,7 +669,7 @@
 # sound_url = https://rhapsodie.modyco.fr/rp/waves/Rhap-D0009.mp3
 # macrosyntax = $L2 "ah" "oui" //+
 # text = ah, oui.
-1	ah	ah	INTJ	_	_	0	root	_	AlignBegin=32289|AlignEnd=32504|AttachTo=18@Rhap_D0009-18|Rel=discourse|SpaceAfter=No
+1	ah	ah	INTJ	_	_	0	root	_	AlignBegin=32289|AlignEnd=32504|Backchannel=Rhap_D0009-18::18|SpaceAfter=No
 2	,	,	PUNCT	_	_	3	punct	_	AlignBegin=32504|AlignEnd=32504
 3	oui	oui	INTJ	_	_	1	discourse	_	AlignBegin=32504|AlignEnd=32774|SpaceAfter=No
 4	.	.	PUNCT	_	_	1	punct	_	AlignBegin=32774|AlignEnd=32774
@@ -702,11 +702,11 @@
 # text = ah, je pensais plus que ça, quarante, quarante-cinq.
 1	ah	ah	INTJ	_	_	4	discourse	_	AlignBegin=32854|AlignEnd=32924|SpaceAfter=No
 2	,	,	PUNCT	_	_	1	punct	_	AlignBegin=32924|AlignEnd=32924
-3	je	moi	PRON	_	Case=Nom|Emph=No|Number=Sing|Person=1|PronType=Prs	4	nsubj	_	AlignBegin=32924|AlignEnd=33004
-4	pensais	penser	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Imp|VerbForm=Fin	0	root	_	AlignBegin=33004|AlignEnd=33284
+3	je	moi	PRON	_	Case=Nom|Emph=No|PronType=Prs	4	nsubj	_	AlignBegin=32924|AlignEnd=33004|Number[lex]=Sing|Person[lex]=1
+4	pensais	penser	VERB	_	Mood=Ind|Number=Sing|Tense=Imp|VerbForm=Fin	0	root	_	AlignBegin=33004|AlignEnd=33284|Person[ctxt]=1
 5	plus	plus	ADV	_	_	4	obj	_	AlignBegin=33284|AlignEnd=33514
 6	que	que	SCONJ	_	_	7	case	_	AlignBegin=33514|AlignEnd=33665
-7	ça	ça	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	5	obj	_	AlignBegin=33665|AlignEnd=33998|Overlap=Rhap_D0009-21|SpaceAfter=No
+7	ça	ça	PRON	_	PronType=Dem	5	obj	_	AlignBegin=33665|AlignEnd=33998|Gender[lex]=Masc|Number[lex]=Sing|Overlap=Rhap_D0009-21|Person[lex]=3|SpaceAfter=No
 8	,	,	PUNCT	_	_	11	punct	_	AlignBegin=33998|AlignEnd=33998
 9	quarante	quarante	NUM	_	_	11	reparandum	_	AlignBegin=33998|AlignEnd=34330|Number[lex]=Plur|SpaceAfter=No
 10	,	,	PUNCT	_	_	9	punct	_	AlignBegin=34330|AlignEnd=34330
@@ -739,7 +739,7 @@
 # sound_url = https://rhapsodie.modyco.fr/rp/waves/Rhap-D0009.mp3
 # macrosyntax = ( "ah" je pensais plus que $- ça // ) ( $L1 "oui" // ) -$ {| { quarante $- | quarante-cinq } } //
 # text = oui.
-1	oui	oui	INTJ	_	_	0	root	_	AlignBegin=33665|AlignEnd=33998|AttachTo=6@Rhap_D0009-20|Overlap=Rhap_D0009-20|Rel=discourse|SpaceAfter=No
+1	oui	oui	INTJ	_	_	0	root	_	AlignBegin=33665|AlignEnd=33998|Backchannel=Rhap_D0009-20::6|Overlap=Rhap_D0009-20|SpaceAfter=No
 2	.	.	PUNCT	_	_	1	punct	_	AlignBegin=33998|AlignEnd=33998|Overlap=Rhap_D0009-19
 
 # sent_id = Rhap_D0009-22
@@ -770,9 +770,9 @@
 # text = et est-ce qu'ils font aussi le cannage ?
 1	et	et	CCONJ	_	_	6	cc	_	AlignBegin=34597|AlignEnd=34750|Overlap=Rhap_D0009-20
 2	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	cop	_	AlignBegin=34750|AlignEnd=34885|Overlap=Rhap_D0009-20|SpaceAfter=No
-3	-ce	ce	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	6	expl:subj	_	AlignBegin=34885|AlignEnd=34915|Overlap=Rhap_D0009-20
+3	-ce	ce	PRON	_	PronType=Dem	6	expl:subj	_	AlignBegin=34885|AlignEnd=34915|Gender[lex]=Masc|Number[lex]=Sing|Overlap=Rhap_D0009-20|Person[lex]=3
 4	qu'	que	SCONJ	_	_	6	mark	_	AlignBegin=34330|AlignEnd=35084|Overlap=Rhap_D0009-20|SpaceAfter=No
-5	ils	lui	PRON	_	Case=Nom|Emph=No|Gender=Masc|Number=Plur|Person=3|PronType=Prs	6	nsubj	_	AlignBegin=34330|AlignEnd=35084|Overlap=Rhap_D0009-20
+5	ils	lui	PRON	_	Case=Nom|Emph=No|Gender=Masc|Number=Plur|PronType=Prs	6	nsubj	_	AlignBegin=34330|AlignEnd=35084|Overlap=Rhap_D0009-20|Person[lex]=3
 6	font	faire	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	AlignBegin=35084|AlignEnd=35329
 7	aussi	aussi	ADV	_	_	6	advmod	_	AlignBegin=35329|AlignEnd=35549
 8	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	_	AlignBegin=35549|AlignEnd=35579|HasSpokenGender=OnlySingExceptWithLiaison
@@ -805,7 +805,7 @@
 # sound_url = https://rhapsodie.modyco.fr/rp/waves/Rhap-D0009.mp3
 # macrosyntax = $L1 ouais //
 # text = ouais.
-1	ouais	ouais	INTJ	_	_	0	root	_	AlignBegin=36371|AlignEnd=36652|AttachTo=2@Rhap_D0009-22|Rel=discourse|SpaceAfter=No
+1	ouais	ouais	INTJ	_	_	0	root	_	AlignBegin=36371|AlignEnd=36652|Backchannel=Rhap_D0009-22::2|SpaceAfter=No
 2	.	.	PUNCT	_	_	1	punct	_	AlignBegin=36652|AlignEnd=36652
 
 # sent_id = Rhap_D0009-24
@@ -863,7 +863,7 @@
 # sound_url = https://rhapsodie.modyco.fr/rp/waves/Rhap-D0009.mp3
 # macrosyntax = $L1 ouais //
 # text = ouais.
-1	ouais	ouais	INTJ	_	_	0	root	_	AlignBegin=37730|AlignEnd=37995|AttachTo=1@Rhap_D0009-24|Rel=discourse|SpaceAfter=No
+1	ouais	ouais	INTJ	_	_	0	root	_	AlignBegin=37730|AlignEnd=37995|Backchannel=Rhap_D0009-24::1|SpaceAfter=No
 2	.	.	PUNCT	_	_	1	punct	_	AlignBegin=37995|AlignEnd=37995
 
 # sent_id = Rhap_D0009-26
@@ -897,8 +897,8 @@
 3	par	par	ADP	_	_	4	dep:comp	_	AlignBegin=38350|AlignEnd=38550
 4	contre	contre	ADP	_	_	7	dep	_	AlignBegin=38550|AlignEnd=38710|SpaceAfter=No
 5	,	,	PUNCT	_	_	4	punct	_	AlignBegin=38710|AlignEnd=38710
-6	ça	ça	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	7	nsubj	_	AlignBegin=38710|AlignEnd=38810
-7	doit	devoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	AlignBegin=38810|AlignEnd=38910
+6	ça	ça	PRON	_	PronType=Dem	7	nsubj	_	AlignBegin=38710|AlignEnd=38810|Gender[lex]=Masc|Number[lex]=Sing|Person[lex]=3
+7	doit	devoir	VERB	_	Mood=Ind|Number=Sing|Tense=Pres|VerbForm=Fin	0	root	_	AlignBegin=38810|AlignEnd=38910|Person[ctxt]=3
 8	être	être	AUX	_	VerbForm=Inf	10	cop	_	AlignBegin=38910|AlignEnd=39040|Subject=SubjRaising
 9	plus	plus	ADV	_	_	10	advmod	_	AlignBegin=39040|AlignEnd=39266|Overlap=Rhap_D0009-27
 10	onéreux	onéreux	ADJ	_	Gender=Masc	7	xcomp	_	AlignBegin=39266|AlignEnd=39771|HasSpokenGender=YesExceptSingWithLiaison|HasSpokenNumber=OnlyFemWithLiaison|Number[ctxt]=Sing|Overlap=Rhap_D0009-27|SpaceAfter=No
@@ -930,7 +930,7 @@
 # sound_url = https://rhapsodie.modyco.fr/rp/waves/Rhap-D0009.mp3
 # macrosyntax = $L1 ouais //
 # text = ouais.
-1	ouais	ouais	INTJ	_	_	0	root	_	AlignBegin=39040|AlignEnd=39771|AttachTo=1@Rhap_D0009-24|Overlap=Rhap_D0009-26|Rel=discourse|SpaceAfter=No
+1	ouais	ouais	INTJ	_	_	0	root	_	AlignBegin=39040|AlignEnd=39771|Backchannel=Rhap_D0009-24::1|Overlap=Rhap_D0009-26|SpaceAfter=No
 2	.	.	PUNCT	_	_	1	punct	_	AlignBegin=39771|AlignEnd=39771|Overlap=Rhap_D0009-21
 
 # sent_id = Rhap_D0009-28
@@ -959,10 +959,10 @@
 # sound_url = https://rhapsodie.modyco.fr/rp/waves/Rhap-D0009.mp3
 # macrosyntax = il { faut -$ | faut } compter autour de { soixante | soixante-dix } //
 # text = il faut, faut compter autour de soixante, soixante-dix.
-1	il	lui	PRON	_	Case=Nom|Emph=No|Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	expl:subj	_	AlignBegin=39040|AlignEnd=39771|Overlap=Rhap_D0009-26
-2	faut	falloir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	reparandum	_	AlignBegin=39040|AlignEnd=39771|Overlap=Rhap_D0009-26|SpaceAfter=No
+1	il	lui	PRON	_	Case=Nom|Emph=No|Gender=Masc|Number=Sing|PronType=Prs	2	expl:subj	_	AlignBegin=39040|AlignEnd=39771|Overlap=Rhap_D0009-26|Person[lex]=3
+2	faut	falloir	VERB	_	Mood=Ind|Number=Sing|Tense=Pres|VerbForm=Fin	4	reparandum	_	AlignBegin=39040|AlignEnd=39771|Overlap=Rhap_D0009-26|Person[ctxt]=3|SpaceAfter=No
 3	,	,	PUNCT	_	_	2	punct	_	AlignBegin=39771|AlignEnd=39885
-4	faut	falloir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	AlignBegin=39885|AlignEnd=40135
+4	faut	falloir	VERB	_	Mood=Ind|Number=Sing|Tense=Pres|VerbForm=Fin	0	root	_	AlignBegin=39885|AlignEnd=40135|Person[ctxt]=3
 5	compter	compter	VERB	_	VerbForm=Inf	2	ccomp	_	AlignBegin=40135|AlignEnd=40377|Subject=NoRaising
 6	autour	autour	ADV	_	_	5	obj	_	AlignBegin=40377|AlignEnd=40715
 7	de	de	ADP	_	_	8	case	_	AlignBegin=40715|AlignEnd=41033
@@ -1058,13 +1058,13 @@
 # macrosyntax = $L2 ^et { ils nous les | ils te les } prennent //
 # text = et ils nous les, ils te les prennent.
 1	et	et	CCONJ	_	_	9	cc	_	AlignBegin=43312|AlignEnd=43867
-2	ils	lui	PRON	_	Case=Nom|Emph=No|Gender=Masc|Number=Plur|Person=3|PronType=Prs	6	reparandum	_	AlignBegin=43867|AlignEnd=44037
-3	nous	nous	PRON	_	Case=Dat|Emph=No|Number=Plur|Person=1|PronType=Prs	7	reparandum	_	AlignBegin=44037|AlignEnd=44277
-4	les	eux	PRON	_	Case=Acc|Emph=No|Number=Plur|Person=3|PronType=Prs	8	reparandum	_	AlignBegin=44277|AlignEnd=44587|SpaceAfter=No
+2	ils	lui	PRON	_	Case=Nom|Emph=No|Gender=Masc|Number=Plur|PronType=Prs	6	reparandum	_	AlignBegin=43867|AlignEnd=44037|Person[lex]=3
+3	nous	nous	PRON	_	Case=Dat|Emph=No|PronType=Prs	7	reparandum	_	AlignBegin=44037|AlignEnd=44277|Number[lex]=Plur|Person[lex]=1
+4	les	lui	PRON	_	Case=Acc|Emph=No|Number=Plur|PronType=Prs	8	reparandum	_	AlignBegin=44277|AlignEnd=44587|Person[lex]=3|SpaceAfter=No
 5	,	,	PUNCT	_	_	4	punct	_	AlignBegin=44587|AlignEnd=44587
-6	ils	lui	PRON	_	Case=Nom|Emph=No|Gender=Masc|Number=Plur|Person=3|PronType=Prs	9	nsubj	_	AlignBegin=44587|AlignEnd=44717
-7	te	toi	PRON	_	Number=Sing|Person=2|PronType=Prs	9	iobj	_	AlignBegin=44717|AlignEnd=44837
-8	les	eux	PRON	_	Number=Plur|Person=3|PronType=Prs	9	obj	_	AlignBegin=44837|AlignEnd=45047
+6	ils	lui	PRON	_	Case=Nom|Emph=No|Gender=Masc|Number=Plur|PronType=Prs	9	nsubj	_	AlignBegin=44587|AlignEnd=44717|Person[lex]=3
+7	te	toi	PRON	_	PronType=Prs	9	iobj	_	AlignBegin=44717|AlignEnd=44837|Number[lex]=Sing|Person[lex]=2
+8	les	lui	PRON	_	Number=Plur|PronType=Prs	9	obj	_	AlignBegin=44837|AlignEnd=45047|Person[lex]=3
 9	prennent	prendre	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	AlignBegin=45047|AlignEnd=45572|SpaceAfter=No
 10	.	.	PUNCT	_	_	9	punct	_	AlignBegin=45572|AlignEnd=45572
 
@@ -1095,8 +1095,8 @@
 # macrosyntax = ^et il faut compter { combien de temps après |} //+
 # text = et il faut compter combien de temps après ?
 1	et	et	CCONJ	_	_	3	cc	_	AlignBegin=45642|AlignEnd=45747
-2	il	lui	PRON	_	Case=Nom|Emph=No|Gender=Masc|Number=Sing|Person=3|PronType=Prs	3	expl:subj	_	AlignBegin=45747|AlignEnd=45807
-3	faut	falloir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	AlignBegin=45807|AlignEnd=45917
+2	il	lui	PRON	_	Case=Nom|Emph=No|Gender=Masc|Number=Sing|PronType=Prs	3	expl:subj	_	AlignBegin=45747|AlignEnd=45807|Person[lex]=3
+3	faut	falloir	VERB	_	Mood=Ind|Number=Sing|Tense=Pres|VerbForm=Fin	0	root	_	AlignBegin=45807|AlignEnd=45917|Person[ctxt]=3
 4	compter	compter	VERB	_	VerbForm=Inf	3	ccomp	_	AlignBegin=45917|AlignEnd=46187|Subject=NoRaising
 5	combien	combien	ADV	_	ExtPos=PRON	4	xcomp	_	AlignBegin=46187|AlignEnd=46497
 6	de	de	ADP	_	_	7	case	_	AlignBegin=46497|AlignEnd=46527
@@ -1228,8 +1228,8 @@
 # macrosyntax = $L2 ^et sais -$ -tu que la paille a été abîmée //
 # text = et sais -tu que la paille a été abîmée ?
 1	et	et	CCONJ	_	_	2	cc	_	AlignBegin=49734|AlignEnd=49835|Overlap=Rhap_D0009-35
-2	sais	savoir	VERB	_	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	0	root	_	AlignBegin=49835|AlignEnd=50072|Overlap=Rhap_D0009-35
-3	-tu	toi	PRON	_	Case=Nom|Emph=No|Number=Sing|Person=2|PronType=Prs	2	nsubj	_	AlignBegin=50072|AlignEnd=50311
+2	sais	savoir	VERB	_	Mood=Ind|Number=Sing|Tense=Pres|VerbForm=Fin	0	root	_	AlignBegin=49835|AlignEnd=50072|Overlap=Rhap_D0009-35|Person[ctxt]=2
+3	-tu	toi	PRON	_	Case=Nom|Emph=No|PronType=Prs	2	nsubj	_	AlignBegin=50072|AlignEnd=50311|Number[lex]=Sing|Person[lex]=2
 4	que	que	SCONJ	_	_	9	mark	_	AlignBegin=50311|AlignEnd=50441
 5	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	AlignBegin=50441|AlignEnd=50671|HasSpokenGender=OnlySingExceptWithLiaison
 6	paille	paille	NOUN	_	_	9	nsubj:pass	_	AlignBegin=50671|AlignEnd=50971|Gender[lex]=Fem|Number[ctxt]=Sing
@@ -1266,7 +1266,7 @@
 # text = bon, c'est de, de la maison là.
 1	bon	bon	INTJ	_	_	9	discourse	_	AlignBegin=51801|AlignEnd=51961|SpaceAfter=No
 2	,	,	PUNCT	_	_	1	punct	_	AlignBegin=51961|AlignEnd=51961
-3	c'	ce	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	9	nsubj	_	AlignBegin=51961|AlignEnd=52031|SpaceAfter=No
+3	c'	ce	PRON	_	PronType=Dem	9	nsubj	_	AlignBegin=51961|AlignEnd=52031|Gender[lex]=Masc|Number[lex]=Sing|Person[lex]=3|SpaceAfter=No
 4	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	cop	_	AlignBegin=52031|AlignEnd=52194
 5	de	de	ADP	_	_	9	reparandum	_	AlignBegin=52194|AlignEnd=52661|SpaceAfter=No
 6	,	,	PUNCT	_	_	5	punct	_	AlignBegin=52661|AlignEnd=52661
@@ -1302,7 +1302,7 @@
 # sound_url = https://rhapsodie.modyco.fr/rp/waves/Rhap-D0009.mp3
 # macrosyntax = $L1 ouais // -$
 # text = ouais.
-1	ouais	ouais	INTJ	_	_	0	root	_	AlignBegin=52845|AlignEnd=53379|AttachTo=1@Rhap_D0009-24|Overlap=Rhap_D0009-37|Rel=discourse|SpaceAfter=No
+1	ouais	ouais	INTJ	_	_	0	root	_	AlignBegin=52845|AlignEnd=53379|Backchannel=Rhap_D0009-24::1|Overlap=Rhap_D0009-37|SpaceAfter=No
 2	.	.	PUNCT	_	_	1	punct	_	AlignBegin=53379|AlignEnd=53379|Overlap=Rhap_D0009-29
 
 # sent_id = Rhap_D0009-39
@@ -1331,7 +1331,7 @@
 # sound_url = https://rhapsodie.modyco.fr/rp/waves/Rhap-D0009.mp3
 # macrosyntax = $L2 elle a été abîmée //
 # text = elle a été abîmée.
-1	elle	lui	PRON	_	Case=Nom|Emph=No|Gender=Fem|Number=Sing|Person=3|PronType=Prs	4	nsubj:pass	_	AlignBegin=54036|AlignEnd=54171
+1	elle	lui	PRON	_	Case=Nom|Emph=No|Gender=Fem|Number=Sing|PronType=Prs	4	nsubj:pass	_	AlignBegin=54036|AlignEnd=54171|Person[lex]=3
 2	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	aux:tense	_	AlignBegin=54171|AlignEnd=54251
 3	été	être	AUX	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	4	aux:pass	_	AlignBegin=54251|AlignEnd=54461
 4	abîmée	abîmer	VERB	_	VerbForm=Part|Voice=Pass	0	root	_	AlignBegin=54461|AlignEnd=55140|Gender[ctxt]=Fem|Number[ctxt]=Sing|PastPartHasSpokenGender=NotInThisDialect|SpaceAfter=No|Tense[denom]=Past
@@ -1367,18 +1367,18 @@
 2	que	que	SCONJ	_	_	1	fixed	_	AlignBegin=55534|AlignEnd=56477|InIdiom=Yes
 3	dessus	dessus	ADV	_	_	7	advmod	_	AlignBegin=56477|AlignEnd=57239|SpaceAfter=No
 4	,	,	PUNCT	_	_	3	punct	_	AlignBegin=57239|AlignEnd=57239
-5	il	lui	PRON	_	Case=Nom|Emph=No|Gender=Masc|Number=Sing|Person=3|PronType=Prs	7	expl:subj	_	AlignBegin=57239|AlignEnd=57296
-6	y	y	PRON	_	Person=3|PronType=Prs	7	expl:comp	_	AlignBegin=57296|AlignEnd=57334
-7	avait	avoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	17	reparandum	_	AlignBegin=57334|AlignEnd=57964
+5	il	lui	PRON	_	Case=Nom|Emph=No|Gender=Masc|Number=Sing|PronType=Prs	7	expl:subj	_	AlignBegin=57239|AlignEnd=57296|Person[lex]=3
+6	y	y	PRON	_	PronType=Prs	7	expl:comp	_	AlignBegin=57296|AlignEnd=57334|Person[lex]=3
+7	avait	avoir	VERB	_	Mood=Ind|Tense=Imp|VerbForm=Fin	17	reparandum	_	AlignBegin=57334|AlignEnd=57964|Number[ctxt]=Sing|Person[ctxt]=3
 8	des	un	DET	_	Definite=Ind|Number=Plur|PronType=Art	7	obj	_	AlignBegin=57964|AlignEnd=58814|Scrap=Yes|SpaceAfter=No
 9	,	,	PUNCT	_	_	7	punct	_	AlignBegin=58814|AlignEnd=59332
-10	c'	ce	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	11	nsubj	_	AlignBegin=59332|AlignEnd=59417|SpaceAfter=No
+10	c'	ce	PRON	_	PronType=Dem	11	nsubj	_	AlignBegin=59332|AlignEnd=59417|Gender[lex]=Masc|Number[lex]=Sing|Person[lex]=3|SpaceAfter=No
 11	est	être	AUX	_	ExtPos=NOUN|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	17	reparandum	_	AlignBegin=59417|AlignEnd=59577|Graft=Yes
 12	pas	pas	ADV	_	Polarity=Neg	11	advmod	_	AlignBegin=59577|AlignEnd=59707
 13	des	un	DET	_	Definite=Ind|Number=Plur|PronType=Art	14	det	_	AlignBegin=59707|AlignEnd=59877
 14	coussins	coussin	NOUN	_	_	11	xcomp	_	AlignBegin=59877|AlignEnd=60397|Gender[lex]=Masc|Number[ctxt]=Plur|SpaceAfter=No
 15	,	,	PUNCT	_	_	11	punct	_	AlignBegin=60397|AlignEnd=60397
-16	c'	ce	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	17	nsubj	_	AlignBegin=60397|AlignEnd=60447|SpaceAfter=No
+16	c'	ce	PRON	_	PronType=Dem	17	nsubj	_	AlignBegin=60397|AlignEnd=60447|Gender[lex]=Masc|Number[lex]=Sing|Person[lex]=3|SpaceAfter=No
 17	était	être	AUX	_	ExtPos=NOUN|Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	AlignBegin=60447|AlignEnd=61361
 18	des	un	DET	_	Definite=Ind|Number=Plur|PronType=Art	20	reparandum	_	AlignBegin=61361|AlignEnd=62034|SpaceAfter=No
 19	,	,	PUNCT	_	_	18	punct	_	AlignBegin=62034|AlignEnd=62034
@@ -1388,7 +1388,7 @@
 23	laine	laine	NOUN	_	_	21	nmod	_	AlignBegin=62779|AlignEnd=63387|Gender[lex]=Fem|Number[ctxt]=Sing
 24	tissés	tisser	VERB	_	VerbForm=Part	21	acl	_	AlignBegin=64141|AlignEnd=64826|Gender[ctxt]=Masc|Number[ctxt]=Plur|PastPartHasSpokenGender=NotInThisDialect|Tense[denom]=Past
 25	qu'	que	PRON	_	PronType=Rel	28	obj	_	AlignBegin=64826|AlignEnd=64866|SpaceAfter=No
-26	on	on	PRON	_	Case=Nom|Emph=No|Gender=Masc|Number=Sing|Person=3|PronType=Ind	28	nsubj	_	AlignBegin=64866|AlignEnd=64966
+26	on	on	PRON	_	Case=Nom|Emph=No|PronType=Ind	28	nsubj	_	AlignBegin=64866|AlignEnd=64966|Gender[ctxt]=Masc|Number[lex]=Sing|Person[lex]=3
 27	avait	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	28	aux:tense	_	AlignBegin=64966|AlignEnd=65183
 28	eus	avoir	VERB	_	VerbForm=Part|Voice=Act	21	acl	_	AlignBegin=65183|AlignEnd=65266|Gender[ctxt]=Masc|Number[ctxt]=Plur|PastPartHasSpokenGender=NotInThisDialect|Tense[denom]=Past
 29	en	en	ADP	_	_	30	case	_	AlignBegin=65266|AlignEnd=65366
@@ -1462,10 +1462,10 @@
 1	et	et	CCONJ	_	_	5	cc	_	AlignBegin=68563|AlignEnd=68708
 2	vraiment	vraiment	ADV	_	_	5	advmod	_	AlignBegin=68708|AlignEnd=69028|SpaceAfter=No
 3	,	,	PUNCT	_	_	2	punct	_	AlignBegin=69028|AlignEnd=69028
-4	c'	ce	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	5	nsubj	_	AlignBegin=69028|AlignEnd=69138|SpaceAfter=No
+4	c'	ce	PRON	_	PronType=Dem	5	nsubj	_	AlignBegin=69028|AlignEnd=69138|Gender[lex]=Masc|Number[lex]=Sing|Person[lex]=3|SpaceAfter=No
 5	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	reparandum	_	AlignBegin=69138|AlignEnd=69268|SpaceAfter=No
 6	,	,	PUNCT	_	_	5	punct	_	AlignBegin=69268|AlignEnd=69268
-7	c'	ce	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	10	nsubj	_	AlignBegin=69268|AlignEnd=69378|SpaceAfter=No
+7	c'	ce	PRON	_	PronType=Dem	10	nsubj	_	AlignBegin=69268|AlignEnd=69378|Gender[lex]=Masc|Number[lex]=Sing|Person[lex]=3|SpaceAfter=No
 8	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	cop	_	AlignBegin=69378|AlignEnd=69438
 9	pas	pas	ADV	_	Polarity=Neg	10	advmod	_	AlignBegin=69438|AlignEnd=69588
 10	uni	unir	VERB	_	VerbForm=Part	0	root	_	AlignBegin=69588|AlignEnd=69888|Gender[ctxt]=Masc|Number[ctxt]=Sing|PastPartHasSpokenGender=NotInThisDialect|SpaceAfter=No|Tense[denom]=Past
@@ -1497,7 +1497,7 @@
 # sound_url = https://rhapsodie.modyco.fr/rp/waves/Rhap-D0009.mp3
 # macrosyntax = c'est $- pas joli "hein" //
 # text = c'est pas joli, hein.
-1	c'	ce	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	4	nsubj	_	AlignBegin=69888|AlignEnd=69948|SpaceAfter=No
+1	c'	ce	PRON	_	PronType=Dem	4	nsubj	_	AlignBegin=69888|AlignEnd=69948|Gender[lex]=Masc|Number[lex]=Sing|Person[lex]=3|SpaceAfter=No
 2	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	AlignBegin=69948|AlignEnd=70043
 3	pas	pas	ADV	_	Polarity=Neg	4	advmod	_	AlignBegin=70043|AlignEnd=70128|Overlap=Rhap_D0009-44
 4	joli	joli	ADJ	_	_	0	root	_	AlignBegin=70128|AlignEnd=70463|Gender[ctxt]=Masc|HasSpokenGender=NotInThisDialect|HasSpokenNumber=OnlyWithLiaison|Number[ctxt]=Sing|Overlap=Rhap_D0009-44|SpaceAfter=No
@@ -1531,7 +1531,7 @@
 # sound_url = https://rhapsodie.modyco.fr/rp/waves/Rhap-D0009.mp3
 # macrosyntax = $L1 ça a fait des -$ impacts "ouais" //
 # text = ça a fait des impacts, ouais.
-1	ça	ça	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	3	nsubj	_	AlignBegin=70043|AlignEnd=70796|Overlap=Rhap_D0009-43
+1	ça	ça	PRON	_	PronType=Dem	3	nsubj	_	AlignBegin=70043|AlignEnd=70796|Gender[lex]=Masc|Number[lex]=Sing|Overlap=Rhap_D0009-43|Person[lex]=3
 2	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	aux:tense	_	AlignBegin=70043|AlignEnd=70796|Overlap=Rhap_D0009-43
 3	fait	faire	VERB	_	Gender=Masc|VerbForm=Part|Voice=Act	0	root	_	AlignBegin=70043|AlignEnd=70796|Number[ctxt]=Sing|Overlap=Rhap_D0009-43|PastPartHasSpokenGender=Yes|Tense[denom]=Past
 4	des	un	DET	_	Definite=Ind|Number=Plur|PronType=Art	5	det	_	AlignBegin=70043|AlignEnd=70796|LiaisonAfter=Yes|Overlap=Rhap_D0009-43
@@ -1597,7 +1597,7 @@
 # sound_url = https://rhapsodie.modyco.fr/rp/waves/Rhap-D0009.mp3
 # macrosyntax = $L1 ouais //
 # text = ouais.
-1	ouais	ouais	INTJ	_	_	0	root	_	AlignBegin=72182|AlignEnd=72366|AttachTo=3@Rhap_D0009-45|Rel=discourse|SpaceAfter=No
+1	ouais	ouais	INTJ	_	_	0	root	_	AlignBegin=72182|AlignEnd=72366|Backchannel=Rhap_D0009-45::3|SpaceAfter=No
 2	.	.	PUNCT	_	_	1	punct	_	AlignBegin=72366|AlignEnd=72366|Overlap=Rhap_D0009-21
 
 # sent_id = Rhap_D0009-47
@@ -1631,12 +1631,12 @@
 3	,	,	PUNCT	_	_	2	punct	_	AlignBegin=73001|AlignEnd=73001
 4	parfois	parfois	ADV	_	_	9	advmod	_	AlignBegin=73001|AlignEnd=73451|SpaceAfter=No
 5	,	,	PUNCT	_	_	4	punct	_	AlignBegin=73451|AlignEnd=73451
-6	je	moi	PRON	_	Case=Nom|Emph=No|Number=Sing|Person=1|PronType=Prs	9	nsubj	_	AlignBegin=73451|AlignEnd=73531
-7	me	moi	PRON	_	Case=Dat|Emph=No|Number=Sing|Person=1|PronType=Prs	9	iobj	_	AlignBegin=73531|AlignEnd=73648
+6	je	moi	PRON	_	Case=Nom|Emph=No|PronType=Prs	9	nsubj	_	AlignBegin=73451|AlignEnd=73531|Number[lex]=Sing|Person[lex]=1
+7	me	moi	PRON	_	Case=Dat|Emph=No|PronType=Prs	9	iobj	_	AlignBegin=73531|AlignEnd=73648|Number[lex]=Sing|Person[lex]=1
 8	suis	être	AUX	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	9	aux:tense	_	AlignBegin=73648|AlignEnd=73821
 9	demandé	demander	VERB	_	VerbForm=Part|Voice=Act	0	root	_	AlignBegin=73821|AlignEnd=74201|Gender[ctxt]=Masc|Number[ctxt]=Sing|PastPartHasSpokenGender=NotInThisDialect|Tense[denom]=Past
 10	si	si	SCONJ	_	_	17	mark	_	AlignBegin=74201|AlignEnd=74311
-11	c'	ce	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	17	expl:subj	_	AlignBegin=74311|AlignEnd=74391|SpaceAfter=No
+11	c'	ce	PRON	_	PronType=Dem	17	expl:subj	_	AlignBegin=74311|AlignEnd=74391|Gender[lex]=Masc|Number[lex]=Sing|Person[lex]=3|SpaceAfter=No
 12	était	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	17	cop	_	AlignBegin=74391|AlignEnd=74621
 13	pas	pas	ADV	_	Polarity=Neg	17	advmod	_	AlignBegin=74621|AlignEnd=74791
 14	des	un	DET	_	Definite=Ind|Number=Plur|PronType=Art	16	reparandum	_	AlignBegin=74791|AlignEnd=75141|SpaceAfter=No
@@ -1644,7 +1644,7 @@
 16	des	un	DET	_	Definite=Ind|Number=Plur|PronType=Art	17	det	_	AlignBegin=75141|AlignEnd=75301
 17	vers	vers	NOUN	_	_	9	ccomp	_	AlignBegin=75301|AlignEnd=75721|Gender[lex]=Masc|Number[ctxt]=Plur
 18	qui	qui	PRON	_	PronType=Rel	21	nsubj	_	AlignBegin=75721|AlignEnd=75831
-19	s'	soi	PRON	_	Person=3|PronType=Prs|Reflex=Yes	21	obj	_	AlignBegin=75831|AlignEnd=75931|SpaceAfter=No
+19	s'	soi	PRON	_	PronType=Prs|Reflex=Yes	21	obj	_	AlignBegin=75831|AlignEnd=75931|Person[lex]=3|SpaceAfter=No
 20	étaient	être	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	21	aux:tense	_	AlignBegin=75931|AlignEnd=76236|Filler=subj
 21	introduits	introduire	VERB	_	VerbForm=Part|Voice=Act	17	advcl:cleft	_	AlignBegin=76236|AlignEnd=76750|Gender[ctxt]=Gender|Number[ctxt]=Plur|PastPartHasSpokenGender=NotInThisDialect|Tense[denom]=Past
 22	dedans	dedans	ADV	_	_	21	obl:arg	_	AlignBegin=76750|AlignEnd=77061|SpaceAfter=No
@@ -1739,7 +1739,7 @@
 # macrosyntax = ^mais ce sont { les | les } impacts des coussins { qui ont | qui ont } pénétré dans la paille //
 # text = mais ce sont les, les impacts des coussins qui ont, qui ont pénétré dans la paille.
 1	mais	mais	CCONJ	_	_	7	cc	_	AlignBegin=77636|AlignEnd=77736
-2	ce	ce	PRON	_	Number=Sing|Person=3|PronType=Dem	7	nsubj	_	AlignBegin=77736|AlignEnd=77866
+2	ce	ce	PRON	_	PronType=Dem	7	nsubj	_	AlignBegin=77736|AlignEnd=77866|Gender[lex]=Masc|Number[lex]=Sing|Person[lex]=3
 3	sont	être	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	7	cop	_	AlignBegin=77866|AlignEnd=78026
 4	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	6	reparandum	_	AlignBegin=78026|AlignEnd=78546|HasSpokenGender=OnlySingExceptWithLiaison|SpaceAfter=No
 5	,	,	PUNCT	_	_	4	punct	_	AlignBegin=78546|AlignEnd=78546
@@ -1817,17 +1817,17 @@
 # text = ben, c'est dommage parce qu'on a tout perdu comme ça.
 1	ben	ben	INTJ	_	_	5	discourse	_	AlignBegin=81951|AlignEnd=82152|Overlap=Rhap_D0009-51|SpaceAfter=No
 2	,	,	PUNCT	_	_	1	punct	_	AlignBegin=82152|AlignEnd=82152
-3	c'	ce	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	5	nsubj	_	AlignBegin=82152|AlignEnd=82253|SpaceAfter=No
+3	c'	ce	PRON	_	PronType=Dem	5	nsubj	_	AlignBegin=82152|AlignEnd=82253|Gender[lex]=Masc|Number[lex]=Sing|Person[lex]=3|SpaceAfter=No
 4	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	cop	_	AlignBegin=82253|AlignEnd=82331
 5	dommage	dommage	NOUN	_	_	0	root	_	AlignBegin=82331|AlignEnd=82711|Gender[lex]=Masc|Number[ctxt]=Sing
 6	parce	parce	ADV	_	ExtPos=SCONJ	11	mark	_	AlignBegin=82711|AlignEnd=82841|Idiom=Yes
 7	qu'	que	SCONJ	_	_	6	fixed	_	AlignBegin=82841|AlignEnd=82908|InIdiom=Yes|SpaceAfter=No
-8	on	on	PRON	_	Case=Nom|Emph=No|Gender=Masc|Number=Sing|Person=3|PronType=Ind	11	nsubj	_	AlignBegin=82908|AlignEnd=83001
+8	on	on	PRON	_	Case=Nom|Emph=No|PronType=Ind	11	nsubj	_	AlignBegin=82908|AlignEnd=83001|Gender[ctxt]=Masc|Number[lex]=Sing|Person[lex]=3
 9	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	aux:tense	_	AlignBegin=83001|AlignEnd=83111
-10	tout	tout	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Ind	11	obj	_	AlignBegin=83111|AlignEnd=83241
+10	tout	tout	PRON	_	PronType=Ind	11	obj	_	AlignBegin=83111|AlignEnd=83241|Gender[lex]=Masc|Number[lex]=Sing|Person[lex]=3
 11	perdu	perdre	VERB	_	VerbForm=Part|Voice=Act	5	advcl	_	AlignBegin=83241|AlignEnd=83581|Gender[ctxt]=Masc|Number[ctxt]=Sing|PastPartHasSpokenGender=NotInThisDialect|Tense[denom]=Past
 12	comme	comme	ADP	_	_	13	case	_	AlignBegin=83581|AlignEnd=83761
-13	ça	ça	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	11	obl:mod	_	AlignBegin=83761|AlignEnd=84051|SpaceAfter=No
+13	ça	ça	PRON	_	PronType=Dem	11	obl:mod	_	AlignBegin=83761|AlignEnd=84051|Gender[lex]=Masc|Number[lex]=Sing|Person[lex]=3|SpaceAfter=No
 14	.	.	PUNCT	_	_	5	punct	_	AlignBegin=84051|AlignEnd=84051
 
 # sent_id = Rhap_D0009-53
@@ -1861,10 +1861,10 @@
 3	non	non	ADV	_	Polarity=Neg	9	discourse	_	AlignBegin=85467|AlignEnd=85612|SpaceAfter=No
 4	,	,	PUNCT	_	_	3	punct	_	AlignBegin=85612|AlignEnd=85612
 5	mais	mais	CCONJ	_	_	9	cc	_	AlignBegin=85612|AlignEnd=85722
-6	tu	toi	PRON	_	Case=Nom|Emph=No|Number=Sing|Person=2|PronType=Prs	9	nsubj	_	AlignBegin=85722|AlignEnd=85832
-7	me	moi	PRON	_	Case=Dat|Emph=No|Number=Sing|Person=1|PronType=Prs	9	iobj	_	AlignBegin=85832|AlignEnd=85862
-8	les	eux	PRON	_	Case=Acc|Emph=No|Number=Plur|Person=3|PronType=Prs	9	obj	_	AlignBegin=85862|AlignEnd=85962
-9	redonnes	redonner	VERB	_	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	0	root	_	AlignBegin=85962|AlignEnd=86152|SpaceAfter=No
+6	tu	toi	PRON	_	Case=Nom|Emph=No|PronType=Prs	9	nsubj	_	AlignBegin=85722|AlignEnd=85832|Number[lex]=Sing|Person[lex]=2
+7	me	moi	PRON	_	Case=Dat|Emph=No|PronType=Prs	9	iobj	_	AlignBegin=85832|AlignEnd=85862|Number[lex]=Sing|Person[lex]=1
+8	les	lui	PRON	_	Case=Acc|Emph=No|Number=Plur|PronType=Prs	9	obj	_	AlignBegin=85862|AlignEnd=85962|Person[lex]=3
+9	redonnes	redonner	VERB	_	Mood=Ind|Number=Sing|Tense=Pres|VerbForm=Fin	0	root	_	AlignBegin=85962|AlignEnd=86152|Person[ctxt]=2|SpaceAfter=No
 10	.	.	PUNCT	_	_	9	punct	_	AlignBegin=86152|AlignEnd=86152
 
 # sent_id = Rhap_D0009-54
@@ -1893,8 +1893,8 @@
 # sound_url = https://rhapsodie.modyco.fr/rp/waves/Rhap-D0009.mp3
 # macrosyntax = il y a pas de problème //
 # text = il y a pas de problème.
-1	il	lui	PRON	_	Case=Nom|Emph=No|Gender=Masc|Number=Sing|Person=3|PronType=Prs	3	expl:subj	_	AlignBegin=86152|AlignEnd=86182
-2	y	y	PRON	_	Person=3|PronType=Prs	3	expl:comp	_	AlignBegin=86182|AlignEnd=86242
+1	il	lui	PRON	_	Case=Nom|Emph=No|Gender=Masc|Number=Sing|PronType=Prs	3	expl:subj	_	AlignBegin=86152|AlignEnd=86182|Person[lex]=3
+2	y	y	PRON	_	PronType=Prs	3	expl:comp	_	AlignBegin=86182|AlignEnd=86242|Person[lex]=3
 3	a	avoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	AlignBegin=86242|AlignEnd=86292
 4	pas	pas	ADV	_	Polarity=Neg	3	advmod	_	AlignBegin=86292|AlignEnd=86402
 5	de	de	ADP	_	_	6	case	_	AlignBegin=86402|AlignEnd=86432
@@ -1936,8 +1936,8 @@
 7	monsieur	monsieur	NOUN	_	_	11	dislocated	_	AlignBegin=87172|AlignEnd=87462|Gender[lex]=Masc|Number[ctxt]=Sing|SpaceAfter=No
 8	-là	là	ADV	_	_	7	advmod	_	AlignBegin=87462|AlignEnd=87672|SpaceAfter=No
 9	,	,	PUNCT	_	_	7	punct	_	AlignBegin=87672|AlignEnd=87672
-10	il	lui	PRON	_	Case=Nom|Emph=No|Gender=Masc|Number=Sing|Person=3|PronType=Prs	11	nsubj	_	AlignBegin=87672|AlignEnd=87712
-11	fait	faire	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	AlignBegin=87712|AlignEnd=87812
+10	il	lui	PRON	_	Case=Nom|Emph=No|Gender=Masc|Number=Sing|PronType=Prs	11	nsubj	_	AlignBegin=87672|AlignEnd=87712|Person[lex]=3
+11	fait	faire	VERB	_	Mood=Ind|Number=Sing|Tense=Pres|VerbForm=Fin	0	root	_	AlignBegin=87712|AlignEnd=87812|Person[ctxt]=3
 12	de	de	ADP	_	ExtPos=DET	11	dep:comp	_	AlignBegin=87812|AlignEnd=87842|Idiom=Yes
 13	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	12	fixed	_	AlignBegin=87842|AlignEnd=87932|HasSpokenGender=OnlySingExceptWithLiaison|InIdiom=Yes|Scrap=Yes|SpaceAfter=No
 14	…	…	PUNCT	_	_	11	punct	_	AlignBegin=87932|AlignEnd=87932
@@ -1971,7 +1971,7 @@
 1	en	en	ADP	_	_	2	case	_	AlignBegin=87932|AlignEnd=88032
 2	plus	plus	ADV	_	_	5	advmod	_	AlignBegin=88032|AlignEnd=88222|SpaceAfter=No
 3	,	,	PUNCT	_	_	2	punct	_	AlignBegin=88222|AlignEnd=88222
-4	il	lui	PRON	_	Case=Nom|Emph=No|Gender=Masc|Number=Sing|Person=3|PronType=Prs	5	nsubj	_	AlignBegin=88222|AlignEnd=88292
+4	il	lui	PRON	_	Case=Nom|Emph=No|Gender=Masc|Number=Sing|PronType=Prs	5	nsubj	_	AlignBegin=88222|AlignEnd=88292|Person[lex]=3
 5	travaille	travailler	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	0	root	_	AlignBegin=88292|AlignEnd=88573
 6	avec	avec	ADP	_	_	24	case	_	AlignBegin=88573|AlignEnd=88705
 7	de	de	ADP	_	ExtPos=DET	21	reparandum	_	AlignBegin=88705|AlignEnd=88755|Idiom=Yes
@@ -2022,7 +2022,7 @@
 # sound_url = https://rhapsodie.modyco.fr/rp/waves/Rhap-D0009.mp3
 # macrosyntax = $L2 oui //
 # text = oui.
-1	oui	oui	INTJ	_	_	0	root	_	AlignBegin=92261|AlignEnd=92389|AttachTo=26@Rhap_D0009-56|Rel=discourse|SpaceAfter=No
+1	oui	oui	INTJ	_	_	0	root	_	AlignBegin=92261|AlignEnd=92389|Backchannel=Rhap_D0009-56::26|SpaceAfter=No
 2	.	.	PUNCT	_	_	1	punct	_	AlignBegin=92389|AlignEnd=92389
 
 # sent_id = Rhap_D0009-58
@@ -2051,7 +2051,7 @@
 # sound_url = https://rhapsodie.modyco.fr/rp/waves/Rhap-D0009.mp3
 # macrosyntax = $L1 c'est { pas de la paille synthétique | ^ni ( $L2 d'accord ) XXX } tu as aucun problème //
 # text = c'est pas de la paille synthétique, ni XXX, tu as aucun problème.
-1	c'	ce	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	6	nsubj	_	AlignBegin=92389|AlignEnd=92533|SpaceAfter=No
+1	c'	ce	PRON	_	PronType=Dem	6	nsubj	_	AlignBegin=92389|AlignEnd=92533|Gender[lex]=Masc|Number[lex]=Sing|Person[lex]=3|SpaceAfter=No
 2	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	cop	_	AlignBegin=92410|AlignEnd=92533
 3	pas	pas	ADV	_	Polarity=Neg	6	advmod	_	AlignBegin=92533|AlignEnd=92608
 4	de	de	ADP	_	ExtPos=DET	6	det	_	AlignBegin=92608|AlignEnd=92638|Idiom=Yes
@@ -2062,7 +2062,7 @@
 9	ni	ni	CCONJ	_	_	10	cc	_	AlignBegin=93288|AlignEnd=93435
 10	XXX	XXX	X	_	_	6	conj	_	AlignBegin=93978|AlignEnd=94413|SpaceAfter=No
 11	,	,	PUNCT	_	_	10	punct	_	AlignBegin=94413|AlignEnd=94413
-12	tu	toi	PRON	_	Case=Nom|Emph=No|Number=Sing|Person=2|PronType=Prs	13	nsubj	_	AlignBegin=94413|AlignEnd=94565
+12	tu	toi	PRON	_	Case=Nom|Emph=No|PronType=Prs	13	nsubj	_	AlignBegin=94413|AlignEnd=94565|Number[lex]=Sing|Person[lex]=2
 13	as	avoir	VERB	_	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	6	orphan	_	AlignBegin=94565|AlignEnd=94736
 14	aucun	aucun	DET	_	Gender=Masc|Number=Sing|PronType=Neg	15	det	_	AlignBegin=94736|AlignEnd=94886
 15	problème	problème	NOUN	_	_	13	obj	_	AlignBegin=94886|AlignEnd=95149|Gender[lex]=Masc|Number[ctxt]=Sing|SpaceAfter=No
@@ -2131,14 +2131,14 @@
 5	ou	ou	CCONJ	_	_	6	cc	_	AlignBegin=96153|AlignEnd=96264
 6	deux	deux	NUM	_	_	3	conj	_	AlignBegin=96264|AlignEnd=96402|Number[lex]=Plur|SpaceAfter=No
 7	,	,	PUNCT	_	_	6	punct	_	AlignBegin=96402|AlignEnd=96402
-8	ça	ça	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	9	nsubj	_	AlignBegin=96402|AlignEnd=96528|Overlap=Rhap_D0009-61
-9	y	y	PRON	_	Person=3|PronType=Prs	0	root	_	AlignBegin=96528|AlignEnd=96608|Overlap=Rhap_D0009-61
+8	ça	ça	PRON	_	PronType=Dem	9	nsubj	_	AlignBegin=96402|AlignEnd=96528|Gender[lex]=Masc|Number[lex]=Sing|Overlap=Rhap_D0009-61|Person[lex]=3
+9	y	y	PRON	_	PronType=Prs	0	root	_	AlignBegin=96528|AlignEnd=96608|Overlap=Rhap_D0009-61|Person[lex]=3
 10	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	cop	_	AlignBegin=96608|AlignEnd=96758|Overlap=Rhap_D0009-61|SpaceAfter=No
 11	,	,	PUNCT	_	_	17	punct	_	AlignBegin=97199|AlignEnd=96402|Overlap=Rhap_D0009-48bis
-12	c'	ce	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	13	nsubj	_	AlignBegin=96758|AlignEnd=96788|Overlap=Rhap_D0009-61|SpaceAfter=No
+12	c'	ce	PRON	_	PronType=Dem	13	nsubj	_	AlignBegin=96758|AlignEnd=96788|Gender[lex]=Masc|Number[lex]=Sing|Overlap=Rhap_D0009-61|Person[lex]=3|SpaceAfter=No
 13	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	17	reparandum	_	AlignBegin=96788|AlignEnd=97199|Overlap=Rhap_D0009-61|SpaceAfter=No
 14	,	,	PUNCT	_	_	13	punct	_	AlignBegin=97199|AlignEnd=97707
-15	c'	ce	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	17	nsubj:pass	_	AlignBegin=97815|AlignEnd=97848|Overlap=Rhap_D0009-62|SpaceAfter=No
+15	c'	ce	PRON	_	PronType=Dem	17	nsubj:pass	_	AlignBegin=97815|AlignEnd=97848|Gender[lex]=Masc|Number[lex]=Sing|Overlap=Rhap_D0009-62|Person[lex]=3|SpaceAfter=No
 16	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	17	aux:pass	_	AlignBegin=97848|AlignEnd=97981|Overlap=Rhap_D0009-62
 17	relivré	relivrer	VERB	_	VerbForm=Part|Voice=Pass	9	parataxis	_	AlignBegin=97981|AlignEnd=98495|Gender[ctxt]=Gender|Number[ctxt]=Number|Overlap=Rhap_D0009-62|PastPartHasSpokenGender=NotInThisDialect|Tense[denom]=Past
 
@@ -2201,7 +2201,7 @@
 # sound_url = https://rhapsodie.modyco.fr/rp/waves/Rhap-D0009.mp3
 # macrosyntax = $L2 ^et en { une semaine | ^ou deux } <+ $- "ça y est" { c'est | ( $L1 "mh" -$ { ouais | ouais } // il $- XXX // ) c'est } relivré -$ //
 # text = il XXX.
-1	il	lui	PRON	_	Case=Nom|Emph=No|Gender=Masc|Number=Sing|Person=3|PronType=Prs	0	root	_	AlignBegin=97634|AlignEnd=97707
+1	il	lui	PRON	_	Case=Nom|Emph=No|Gender=Masc|Number=Sing|PronType=Prs	0	root	_	AlignBegin=97634|AlignEnd=97707|Person[lex]=3
 2	XXX	XXX	X	_	_	1	dep	_	AlignBegin=97707|AlignEnd=98495|Overlap=Rhap_D0009-60|Scrap=Yes|SpaceAfter=No
 3	.	.	PUNCT	_	_	1	punct	_	AlignBegin=98495|AlignEnd=98495|Overlap=Rhap_D0009-48
 
@@ -2270,7 +2270,7 @@
 6	petit	petit	ADJ	_	Gender=Masc	7	amod	_	AlignBegin=101013|AlignEnd=101202|HasSpokenGender=YesExceptSingWithLiaison|HasSpokenNumber=OnlyWithLiaison|Number[ctxt]=Sing
 7	fauteuil	fauteuil	NOUN	_	_	23	nsubj:pass	_	AlignBegin=101202|AlignEnd=101732|Gender[lex]=Masc|Number[ctxt]=Sing
 8	que	que	PRON	_	PronType=Rel	10	obj	_	AlignBegin=101732|AlignEnd=101822
-9	j'	moi	PRON	_	Case=Nom|Emph=No|Number=Sing|Person=1|PronType=Prs	10	nsubj	_	AlignBegin=101822|AlignEnd=101932|SpaceAfter=No
+9	j'	moi	PRON	_	Case=Nom|Emph=No|PronType=Prs	10	nsubj	_	AlignBegin=101822|AlignEnd=101932|Number[lex]=Sing|Person[lex]=1|SpaceAfter=No
 10	ai	avoir	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	7	acl:relcl	_	AlignBegin=101932|AlignEnd=102042
 11	là	là	ADV	_	_	14	reparandum	_	AlignBegin=102042|AlignEnd=102292|SpaceAfter=No
 12	,	,	PUNCT	_	_	11	punct	_	AlignBegin=102292|AlignEnd=102292
@@ -2278,8 +2278,8 @@
 14	côté	côté	NOUN	_	_	10	obl:mod	_	AlignBegin=102382|AlignEnd=102862|Gender[lex]=Masc|Number[ctxt]=Sing|SpaceAfter=No
 15	,	,	PUNCT	_	_	16	punct	_	AlignBegin=102862|AlignEnd=103023
 16	que	que	PRON	_	PronType=Rel	19	obj	_	AlignBegin=103023|AlignEnd=103158
-17	je	moi	PRON	_	Case=Nom|Emph=No|Number=Sing|Person=1|PronType=Prs	18	nsubj	_	AlignBegin=103158|AlignEnd=103218
-18	veux	vouloir	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	10	conj	_	AlignBegin=103218|AlignEnd=103458
+17	je	moi	PRON	_	Case=Nom|Emph=No|PronType=Prs	18	nsubj	_	AlignBegin=103158|AlignEnd=103218|Number[lex]=Sing|Person[lex]=1
+18	veux	vouloir	VERB	_	Mood=Ind|Number=Sing|Tense=Pres|VerbForm=Fin	10	conj	_	AlignBegin=103218|AlignEnd=103458|Person[ctxt]=1
 19	rhabiller	rhabiller	VERB	_	VerbForm=Inf	18	xcomp	_	AlignBegin=103458|AlignEnd=104113|Subject=SubjRaising
 20	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	23	aux:tense	_	AlignBegin=104785|AlignEnd=104910
 21	toujours	toujours	ADV	_	_	23	advmod	_	AlignBegin=104910|AlignEnd=105220
@@ -2319,10 +2319,10 @@
 # macrosyntax = est-ce que c'en est un vrai //
 # text = est-ce que c'en est un vrai ?
 1	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	cop	_	AlignBegin=108723|AlignEnd=108797|Overlap=Rhap_D0009-68|SpaceAfter=No
-2	-ce	ce	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	8	expl:subj	_	AlignBegin=108370|AlignEnd=108430|Overlap=Rhap_D0009-68
+2	-ce	ce	PRON	_	PronType=Dem	8	expl:subj	_	AlignBegin=108370|AlignEnd=108430|Gender[lex]=Masc|Number[lex]=Sing|Overlap=Rhap_D0009-68|Person[lex]=3
 3	que	que	SCONJ	_	_	8	mark	_	AlignBegin=108430|AlignEnd=108520|Overlap=Rhap_D0009-68
-4	c'	ce	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	8	nsubj	_	AlignBegin=108520|AlignEnd=108598|Overlap=Rhap_D0009-68|SpaceAfter=No
-5	en	en	PRON	_	Person=3|PronType=Prs	8	nmod	_	AlignBegin=108598|AlignEnd=108723|Overlap=Rhap_D0009-68
+4	c'	ce	PRON	_	PronType=Dem	8	nsubj	_	AlignBegin=108520|AlignEnd=108598|Gender[lex]=Masc|Number[lex]=Sing|Overlap=Rhap_D0009-68|Person[lex]=3|SpaceAfter=No
+5	en	en	PRON	_	PronType=Prs	8	nmod	_	AlignBegin=108598|AlignEnd=108723|Overlap=Rhap_D0009-68|Person[lex]=3
 6	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	cop	_	AlignBegin=106895|AlignEnd=109506|Overlap=Rhap_D0009-68
 7	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	8	det	_	AlignBegin=108797|AlignEnd=108960|Overlap=Rhap_D0009-68
 8	vrai	vrai	ADJ	_	_	0	root	_	AlignBegin=108960|AlignEnd=109222|Gender[ctxt]=Masc|HasSpokenGender=NotInThisDialect|HasSpokenNumber=OnlyWithLiaison|Number[ctxt]=Sing|Overlap=Rhap_D0009-68
@@ -2354,7 +2354,7 @@
 # sound_url = https://rhapsodie.modyco.fr/rp/waves/Rhap-D0009.mp3
 # macrosyntax = $L1 fauteuil crapaud //
 # text = fauteuil crapaud.
-1	fauteuil	fauteuil	NOUN	_	_	0	root	_	AlignBegin=106895|AlignEnd=109506|AttachTo=27@Rhap_D0009-64|Gender[lex]=Masc|Number[ctxt]=Sing|Overlap=Rhap_D0009-64|Rel=parataxis:conj
+1	fauteuil	fauteuil	NOUN	_	_	0	root	_	AlignBegin=106895|AlignEnd=109506|Coconstruct=parataxis:conj::Rhap_D0009-64::27|Gender[lex]=Masc|Number[ctxt]=Sing|Overlap=Rhap_D0009-64
 2	crapaud	crapaud	NOUN	_	_	1	compound	_	AlignBegin=106895|AlignEnd=109506|Gender[lex]=Masc|Number[ctxt]=Sing|Overlap=Rhap_D0009-64|SpaceAfter=No
 3	.	.	PUNCT	_	_	1	punct	_	AlignBegin=109506|AlignEnd=109506|Overlap=Rhap_D0009-51
 
@@ -2471,7 +2471,7 @@
 # sound_url = https://rhapsodie.modyco.fr/rp/waves/Rhap-D0009.mp3
 # macrosyntax = c'est { un fauteuil crapaud | un $- véritable } //
 # text = c'est un fauteuil crapaud, un véritable.
-1	c'	ce	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	8	nsubj	_	AlignBegin=109506|AlignEnd=109571|SpaceAfter=No
+1	c'	ce	PRON	_	PronType=Dem	8	nsubj	_	AlignBegin=109506|AlignEnd=109571|Gender[lex]=Masc|Number[lex]=Sing|Person[lex]=3|SpaceAfter=No
 2	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	cop	_	AlignBegin=109571|AlignEnd=109661
 3	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	4	det	_	AlignBegin=109661|AlignEnd=109771
 4	fauteuil	fauteuil	NOUN	_	_	8	reparandum	_	AlignBegin=109771|AlignEnd=110111|Gender[lex]=Masc|Number[ctxt]=Sing
@@ -2511,8 +2511,8 @@
 2	pourquoi	pourquoi	ADV	_	PronType=Int	6	advmod	_	AlignBegin=110567|AlignEnd=110837|Overlap=Rhap_D0009-70|SpaceAfter=No
 3	,	,	PUNCT	_	_	6	punct	_	AlignBegin=111282|AlignEnd=110452|Overlap=Rhap_D0009-54
 4	qu'	que	SCONJ	_	_	6	mark	_	AlignBegin=110837|AlignEnd=110947|Overlap=Rhap_D0009-70|SpaceAfter=No
-5	on	on	PRON	_	Case=Nom|Emph=No|Gender=Masc|Number=Sing|Person=3|PronType=Ind	6	nsubj	_	AlignBegin=110947|AlignEnd=110987|Overlap=Rhap_D0009-70
-6	appelle	appeler	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	AlignBegin=110987|AlignEnd=111282|Overlap=Rhap_D0009-70
+5	on	on	PRON	_	Case=Nom|Emph=No|PronType=Ind	6	nsubj	_	AlignBegin=110947|AlignEnd=110987|Gender[ctxt]=Masc|Number[lex]=Sing|Overlap=Rhap_D0009-70|Person[lex]=3
+6	appelle	appeler	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	AlignBegin=110987|AlignEnd=111282|Number[ctxt]=Sing|Overlap=Rhap_D0009-70|Person[ctxt]=3
 7	crapaud	crapaud	NOUN	_	_	6	obj	_	AlignBegin=111282|AlignEnd=111809|Gender[lex]=Masc|Number[ctxt]=Sing
 8	?	?	PUNCT	_	_	6	punct	_	AlignBegin=111809|AlignEnd=111809
 
@@ -2546,7 +2546,7 @@
 2	,	,	PUNCT	_	_	1	punct	_	AlignBegin=112117|AlignEnd=112117
 3	parce	parce	ADV	_	ExtPos=SCONJ	7	mark	_	AlignBegin=112117|AlignEnd=112377|Idiom=Yes
 4	que	que	SCONJ	_	_	3	fixed	_	AlignBegin=112377|AlignEnd=112497|InIdiom=Yes
-5	c'	ce	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	7	nsubj	_	AlignBegin=112497|AlignEnd=112537|SpaceAfter=No
+5	c'	ce	PRON	_	PronType=Dem	7	nsubj	_	AlignBegin=112497|AlignEnd=112537|Gender[lex]=Masc|Number[lex]=Sing|Person[lex]=3|SpaceAfter=No
 6	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	cop	_	AlignBegin=112537|AlignEnd=112720
 7	des	un	DET	_	Definite=Ind|Number=Plur|PronType=Art	0	root	_	AlignBegin=112720|AlignEnd=112990|Scrap=Yes|SpaceAfter=No
 8	…	…	PUNCT	_	_	7	punct	_	AlignBegin=112990|AlignEnd=112990
@@ -2579,8 +2579,8 @@
 # text = les gens se mettaient vraiment dans le fond des, des, des petits salons ou des choses comme ça.
 1	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	2	det	_	AlignBegin=112990|AlignEnd=113157|HasSpokenGender=OnlySingExceptWithLiaison
 2	gens	gens	NOUN	_	_	4	nsubj	_	AlignBegin=113157|AlignEnd=113337|Gender[lex]=Masc|Number[ctxt]=Plur
-3	se	soi	PRON	_	Person=3|PronType=Prs|Reflex=Yes	4	expl:pv	_	AlignBegin=113337|AlignEnd=113367
-4	mettaient	mettre	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	AlignBegin=113367|AlignEnd=113666
+3	se	soi	PRON	_	PronType=Prs|Reflex=Yes	4	expl:pv	_	AlignBegin=113337|AlignEnd=113367|Person[lex]=3
+4	mettaient	mettre	VERB	_	Mood=Ind|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	AlignBegin=113367|AlignEnd=113666|Number[ctxt]=Plur
 5	vraiment	vraiment	ADV	_	_	4	advmod	_	AlignBegin=113666|AlignEnd=113967
 6	dans	dans	ADP	_	_	8	case	_	AlignBegin=113967|AlignEnd=114087
 7	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	AlignBegin=114087|AlignEnd=114127|HasSpokenGender=OnlySingExceptWithLiaison
@@ -2604,7 +2604,7 @@
 21	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	22	det	_	AlignBegin=115725|AlignEnd=116855|Overlap=Rhap_D0009-74
 22	choses	chose	NOUN	_	_	18	conj	_	AlignBegin=115725|AlignEnd=116855|Gender[lex]=Fem|Number[ctxt]=Plur|Overlap=Rhap_D0009-74
 23	comme	comme	ADP	_	_	24	case	_	AlignBegin=116855|AlignEnd=116960|Overlap=Rhap_D0009-74
-24	ça	ça	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	22	nmod	_	AlignBegin=116960|AlignEnd=117205|Overlap=Rhap_D0009-74|SpaceAfter=No
+24	ça	ça	PRON	_	PronType=Dem	22	nmod	_	AlignBegin=116960|AlignEnd=117205|Gender[lex]=Masc|Number[lex]=Sing|Overlap=Rhap_D0009-74|Person[lex]=3|SpaceAfter=No
 25	.	.	PUNCT	_	_	4	punct	_	AlignBegin=117205|AlignEnd=117205|Overlap=Rhap_D0009-56bis
 
 # sent_id = Rhap_D0009-74
@@ -2668,7 +2668,7 @@
 # macrosyntax = ^et ils étaient vraiment { { très | très } $- assis |} //+
 # text = et ils étaient vraiment très, très assis.
 1	et	et	CCONJ	_	_	8	cc	_	AlignBegin=117538|AlignEnd=117653
-2	ils	lui	PRON	_	Case=Nom|Emph=No|Gender=Masc|Number=Plur|Person=3|PronType=Prs	8	nsubj	_	AlignBegin=117653|AlignEnd=117773
+2	ils	lui	PRON	_	Case=Nom|Emph=No|Gender=Masc|Number=Plur|PronType=Prs	8	nsubj	_	AlignBegin=117653|AlignEnd=117773|Person[lex]=3
 3	étaient	être	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	8	aux:tense	_	AlignBegin=117773|AlignEnd=117943
 4	vraiment	vraiment	ADV	_	_	8	advmod	_	AlignBegin=117943|AlignEnd=118243
 5	très	très	ADV	_	_	8	advmod	_	AlignBegin=118243|AlignEnd=118673|SpaceAfter=No
@@ -2704,7 +2704,7 @@
 # macrosyntax = $L2 {| très bas |} -$ //+
 # text = très bas.
 1	très	très	ADV	_	_	2	advmod	_	AlignBegin=118904|AlignEnd=119029|Overlap=Rhap_D0009-75
-2	bas	bas	ADJ	_	Gender=Masc	0	root	_	AlignBegin=119029|AlignEnd=119324|AttachTo=7@Rhap_D0009-75|HasSpokenGender=YesExceptSingWithLiaison|HasSpokenNumber=OnlyFemWithLiaison|Number[ctxt]=Sing|Overlap=Rhap_D0009-75|Rel=parataxis:conj|SpaceAfter=No
+2	bas	bas	ADJ	_	Gender=Masc	0	root	_	AlignBegin=119029|AlignEnd=119324|Coconstruct=parataxis:conj::Rhap_D0009-75::7|HasSpokenGender=YesExceptSingWithLiaison|HasSpokenNumber=OnlyFemWithLiaison|Number[ctxt]=Sing|Overlap=Rhap_D0009-75|SpaceAfter=No
 3	.	.	PUNCT	_	_	2	punct	_	AlignBegin=119324|AlignEnd=119324|Overlap=Rhap_D0009-57
 
 # sent_id = Rhap_D0009-77
@@ -2734,7 +2734,7 @@
 # macrosyntax = $L1 {| très bas } //
 # text = très bas.
 1	très	très	ADV	_	_	2	advmod	_	AlignBegin=119324|AlignEnd=119509
-2	bas	bas	ADJ	_	Gender=Masc	0	root	_	AlignBegin=119509|AlignEnd=119679|AttachTo=2@Rhap_D0009-76|HasSpokenGender=YesExceptSingWithLiaison|HasSpokenNumber=OnlyFemWithLiaison|Number[ctxt]=Sing|Rel=parataxis:conj|SpaceAfter=No
+2	bas	bas	ADJ	_	Gender=Masc	0	root	_	AlignBegin=119509|AlignEnd=119679|Coconstruct=parataxis:conj::Rhap_D0009-76::2|HasSpokenGender=YesExceptSingWithLiaison|HasSpokenNumber=OnlyFemWithLiaison|Number[ctxt]=Sing|SpaceAfter=No
 3	.	.	PUNCT	_	_	2	punct	_	AlignBegin=119679|AlignEnd=119679
 
 # sent_id = Rhap_D0009-78
@@ -2765,9 +2765,9 @@
 # text = donc, ce qui pourrait donner l'expression de, d'être assis comme un crapaud.
 1	donc	donc	ADV	_	_	3	advmod	_	AlignBegin=119679|AlignEnd=119859|SpaceAfter=No
 2	,	,	PUNCT	_	_	1	punct	_	AlignBegin=119859|AlignEnd=119859
-3	ce	ce	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	0	root	_	AlignBegin=119859|AlignEnd=119889
+3	ce	ce	PRON	_	PronType=Dem	0	root	_	AlignBegin=119859|AlignEnd=119889|Gender[lex]=Masc|Number[lex]=Sing|Person[lex]=3
 4	qui	qui	PRON	_	PronType=Rel	5	nsubj	_	AlignBegin=119889|AlignEnd=120059
-5	pourrait	pouvoir	VERB	_	Mood=Cnd|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	acl:relcl	_	AlignBegin=120059|AlignEnd=120259
+5	pourrait	pouvoir	VERB	_	Mood=Cnd|Tense=Pres|VerbForm=Fin	3	acl:relcl	_	AlignBegin=120059|AlignEnd=120259|Number[ctxt]=Sing|Person[ctxt]=3
 6	donner	donner	VERB	_	VerbForm=Inf	5	xcomp	_	AlignBegin=120259|AlignEnd=120479|Subject=SubjRaising
 7	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	8	det	_	AlignBegin=120479|AlignEnd=120509|Gender[ctxt]=Fem|HasSpokenGender=OnlySingExceptWithLiaison|LiaisonAfter=Yes|SpaceAfter=No
 8	expression	expression	NOUN	_	_	6	obj	_	AlignBegin=120509|AlignEnd=121108|Gender[lex]=Fem|LiaisonPossibleBefore=Yes|Number[ctxt]=Sing
@@ -2811,8 +2811,8 @@
 2	,	,	PUNCT	_	_	1	punct	_	AlignBegin=122671|AlignEnd=121716|Overlap=Rhap_D0009-58
 3	alors	alors	ADV	_	_	6	advmod	_	AlignBegin=121921|AlignEnd=122151|Overlap=Rhap_D0009-78|SpaceAfter=No
 4	,	,	PUNCT	_	_	3	punct	_	AlignBegin=122671|AlignEnd=121716|Overlap=Rhap_D0009-58
-5	ça	ça	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	6	nsubj	_	AlignBegin=122151|AlignEnd=122291|Overlap=Rhap_D0009-78
-6	date	dater	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	AlignBegin=122291|AlignEnd=122481|Overlap=Rhap_D0009-78
+5	ça	ça	PRON	_	PronType=Dem	6	nsubj	_	AlignBegin=122151|AlignEnd=122291|Gender[lex]=Masc|Number[lex]=Sing|Overlap=Rhap_D0009-78|Person[lex]=3
+6	date	dater	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	AlignBegin=122291|AlignEnd=122481|Number[ctxt]=Sing|Overlap=Rhap_D0009-78|Person[ctxt]=3
 7	de	de	ADP	_	_	8	case	_	AlignBegin=122481|AlignEnd=122671|Overlap=Rhap_D0009-78
 8	quand	quand	ADV	_	ExtPos=PRON	6	obl:arg	_	AlignBegin=122671|AlignEnd=122776
 9	à	à	ADP	_	ExtPos=ADV	6	advmod	_	AlignBegin=122776|AlignEnd=122886|Idiom=Yes
@@ -2851,7 +2851,7 @@
 # text = oh, c'est sous Napoléon trois, fin dix-neuvième siècle, fin du dix-neuvième siècle, dix-huit cent quatre-vingt.
 1	oh	oh	INTJ	_	_	6	discourse	_	AlignBegin=123932|AlignEnd=124007|SpaceAfter=No
 2	,	,	PUNCT	_	_	1	punct	_	AlignBegin=124007|AlignEnd=124007
-3	c'	ce	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	4	nsubj	_	AlignBegin=124007|AlignEnd=124147|SpaceAfter=No
+3	c'	ce	PRON	_	PronType=Dem	4	nsubj	_	AlignBegin=124007|AlignEnd=124147|Gender[lex]=Masc|Number[lex]=Sing|Person[lex]=3|SpaceAfter=No
 4	est	être	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	AlignBegin=124147|AlignEnd=124257
 5	sous	sous	ADP	_	_	6	case	_	AlignBegin=124257|AlignEnd=124427
 6	Napoléon	Napoléon	PROPN	_	_	4	obl:arg	_	AlignBegin=124427|AlignEnd=124917|Gender[lex]=Unknown
@@ -2903,13 +2903,13 @@
 2	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	3	det	_	AlignBegin=128208|AlignEnd=128414|HasSpokenGender=OnlySingExceptWithLiaison
 3	pieds	pied	NOUN	_	_	5	dislocated	_	AlignBegin=128414|AlignEnd=128748|Gender[lex]=Masc|Number[ctxt]=Plur|SpaceAfter=No
 4	,	,	PUNCT	_	_	3	punct	_	AlignBegin=129099|AlignEnd=127733
-5	crois	croire	VERB	_	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	8	reparandum	_	AlignBegin=128748|AlignEnd=129008|SpaceAfter=No
-6	-tu	toi	PRON	_	Case=Nom|Emph=No|Number=Sing|Person=2|PronType=Prs	5	nsubj	_	AlignBegin=129008|AlignEnd=129099|SpaceAfter=No
+5	crois	croire	VERB	_	Mood=Ind|Number=Sing|Tense=Pres|VerbForm=Fin	8	reparandum	_	AlignBegin=128748|AlignEnd=129008|Person[ctxt]=2|SpaceAfter=No
+6	-tu	toi	PRON	_	Case=Nom|Emph=No|PronType=Prs	5	nsubj	_	AlignBegin=129008|AlignEnd=129099|Number[lex]=Sing|Person[lex]=2|SpaceAfter=No
 7	,	,	PUNCT	_	_	5	punct	_	AlignBegin=129099|AlignEnd=129744
-8	crois	croire	VERB	_	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	0	root	_	AlignBegin=129744|AlignEnd=129924|SpaceAfter=No
-9	-tu	toi	PRON	_	Case=Nom|Emph=No|Number=Sing|Person=2|PronType=Prs	8	nsubj	_	AlignBegin=129924|AlignEnd=130044
+8	crois	croire	VERB	_	Mood=Ind|Number=Sing|Tense=Pres|VerbForm=Fin	0	root	_	AlignBegin=129744|AlignEnd=129924|Person[ctxt]=2|SpaceAfter=No
+9	-tu	toi	PRON	_	Case=Nom|Emph=No|PronType=Prs	8	nsubj	_	AlignBegin=129924|AlignEnd=130044|Number[lex]=Sing|Person[lex]=2
 10	que	que	SCONJ	_	_	12	mark	_	AlignBegin=130044|AlignEnd=130116|Overlap=Rhap_D0009-83
-11	c'	ce	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	12	nsubj	_	AlignBegin=130116|AlignEnd=130206|Overlap=Rhap_D0009-83|SpaceAfter=No
+11	c'	ce	PRON	_	PronType=Dem	12	nsubj	_	AlignBegin=130116|AlignEnd=130206|Gender[lex]=Masc|Number[lex]=Sing|Overlap=Rhap_D0009-83|Person[lex]=3|SpaceAfter=No
 12	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	ccomp	_	AlignBegin=130206|AlignEnd=130726|Overlap=Rhap_D0009-83|Scrap=Yes|SpaceAfter=No
 13	…	…	PUNCT	_	_	8	punct	_	AlignBegin=130726|AlignEnd=0|Overlap=Rhap_D0009-64
 14	?	?	PUNCT	_	_	8	punct	_	AlignBegin=0|AlignEnd=0|Overlap=Rhap_D0009-64
@@ -2940,7 +2940,7 @@
 # sound_url = https://rhapsodie.modyco.fr/rp/waves/Rhap-D0009.mp3
 # macrosyntax = ( ils sont noirs // )
 # text = ils sont noirs.
-1	ils	lui	PRON	_	Case=Nom|Emph=No|Gender=Masc|Number=Plur|Person=3|PronType=Prs	3	nsubj	_	AlignBegin=129099|AlignEnd=129234
+1	ils	lui	PRON	_	Case=Nom|Emph=No|Gender=Masc|Number=Plur|PronType=Prs	3	nsubj	_	AlignBegin=129099|AlignEnd=129234|Person[lex]=3
 2	sont	être	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	3	cop	_	AlignBegin=129234|AlignEnd=129464
 3	noirs	noir	ADJ	_	_	0	root	_	AlignBegin=129464|AlignEnd=129744|Gender[ctxt]=Masc|HasSpokenGender=No|HasSpokenNumber=OnlyWithLiaison|Number[ctxt]=Plur|SpaceAfter=No
 4	.	.	PUNCT	_	_	3	punct	_	AlignBegin=129744|AlignEnd=129744
@@ -2971,7 +2971,7 @@
 # sound_url = https://rhapsodie.modyco.fr/rp/waves/Rhap-D0009.mp3
 # macrosyntax = $L1 ils sont -$ { typi~ | typiquement } Napoléon trois //
 # text = ils sont typi~, typiquement Napoléon trois.
-1	ils	lui	PRON	_	Case=Nom|Emph=No|Gender=Masc|Number=Plur|Person=3|PronType=Prs	6	nsubj	_	AlignBegin=130044|AlignEnd=130726|Overlap=Rhap_D0009-81
+1	ils	lui	PRON	_	Case=Nom|Emph=No|Gender=Masc|Number=Plur|PronType=Prs	6	nsubj	_	AlignBegin=130044|AlignEnd=130726|Overlap=Rhap_D0009-81|Person[lex]=3
 2	sont	être	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	6	cop	_	AlignBegin=130044|AlignEnd=130726|Overlap=Rhap_D0009-81
 3	typi~	typi~	X	_	ExtPos=ADV	5	reparandum	_	AlignBegin=130841|AlignEnd=131156|SpaceAfter=No
 4	,	,	PUNCT	_	_	3	punct	_	AlignBegin=131156|AlignEnd=131156
@@ -3006,12 +3006,12 @@
 # sound_url = https://rhapsodie.modyco.fr/rp/waves/Rhap-D0009.mp3
 # macrosyntax = c'est "je te dis" dix-huit cent soixante-dix > par là //
 # text = c'est, je te dis, dix-huit cent soixante-dix par là.
-1	c'	ce	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	8	nsubj	_	AlignBegin=132106|AlignEnd=132216|SpaceAfter=No
+1	c'	ce	PRON	_	PronType=Dem	8	nsubj	_	AlignBegin=132106|AlignEnd=132216|Gender[lex]=Masc|Number[lex]=Sing|Person[lex]=3|SpaceAfter=No
 2	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	cop	_	AlignBegin=132216|AlignEnd=132296|SpaceAfter=No
 3	,	,	PUNCT	_	_	6	punct	_	AlignBegin=132296|AlignEnd=132296
-4	je	moi	PRON	_	Case=Nom|Emph=No|Number=Sing|Person=1|PronType=Prs	6	nsubj	_	AlignBegin=132296|AlignEnd=132336
-5	te	toi	PRON	_	Case=Acc|Emph=No|Number=Sing|Person=2|PronType=Prs	6	obj	_	AlignBegin=132336|AlignEnd=132427
-6	dis	dire	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	8	discourse	_	AlignBegin=132427|AlignEnd=132554|SpaceAfter=No
+4	je	moi	PRON	_	Case=Nom|Emph=No|PronType=Prs	6	nsubj	_	AlignBegin=132296|AlignEnd=132336|Number[lex]=Sing|Person[lex]=1
+5	te	toi	PRON	_	Case=Acc|Emph=No|PronType=Prs	6	obj	_	AlignBegin=132336|AlignEnd=132427|Number[lex]=Sing|Person[lex]=2
+6	dis	dire	VERB	_	Mood=Ind|Number=Sing|Tense=Pres|VerbForm=Fin	8	discourse	_	AlignBegin=132427|AlignEnd=132554|Person[ctxt]=1|SpaceAfter=No
 7	,	,	PUNCT	_	_	8	punct	_	AlignBegin=132696|AlignEnd=132696
 8	dix-huit	dix-huit	NUM	_	_	0	root	_	AlignBegin=132696|AlignEnd=132926|Number[lex]=Plur
 9	cent	cent	NUM	_	Number=Plur	8	flat	_	AlignBegin=132926|AlignEnd=133016
@@ -3048,9 +3048,9 @@
 # text = donc, c'est quel bois ?
 1	donc	donc	ADV	_	_	6	advmod	_	AlignBegin=133558|AlignEnd=133713|SpaceAfter=No
 2	,	,	PUNCT	_	_	1	punct	_	AlignBegin=133713|AlignEnd=133713
-3	c'	ce	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	6	nsubj	_	AlignBegin=133713|AlignEnd=133773|SpaceAfter=No
+3	c'	ce	PRON	_	PronType=Dem	6	nsubj	_	AlignBegin=133713|AlignEnd=133773|Gender[lex]=Masc|Number[lex]=Sing|Person[lex]=3|SpaceAfter=No
 4	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	cop	_	AlignBegin=133773|AlignEnd=133843
-5	quel	quel	DET	_	Gender=Masc|Number=Sing|PronType=Int	6	det	_	AlignBegin=133843|AlignEnd=134053
+5	quel	quel	DET	_	PronType=Int	6	det	_	AlignBegin=133843|AlignEnd=134053|Gender[ctxt]=Masc|HasSpokenGender=NotInThisDialect|HasSpokenNumber=OnlyWithLiaison|Number[ctxt]=Sing
 6	bois	bois	NOUN	_	_	0	root	_	AlignBegin=134053|AlignEnd=134372|Gender[lex]=Masc|Number[ctxt]=Sing
 7	?	?	PUNCT	_	_	6	punct	_	AlignBegin=134372|AlignEnd=134372
 
@@ -3080,7 +3080,7 @@
 # sound_url = https://rhapsodie.modyco.fr/rp/waves/Rhap-D0009.mp3
 # macrosyntax = $L1 c'est du bois de hêtre //
 # text = c'est du bois de hêtre.
-1	c'	ce	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	4	nsubj	_	AlignBegin=134940|AlignEnd=135055|SpaceAfter=No
+1	c'	ce	PRON	_	PronType=Dem	4	nsubj	_	AlignBegin=134940|AlignEnd=135055|Gender[lex]=Masc|Number[lex]=Sing|Person[lex]=3|SpaceAfter=No
 2	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	AlignBegin=135055|AlignEnd=135115
 3	du	du	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	4	det	_	AlignBegin=135115|AlignEnd=135195
 4	bois	bois	NOUN	_	_	0	root	_	AlignBegin=135195|AlignEnd=135345|Gender[lex]=Masc|Number[ctxt]=Sing
@@ -3116,7 +3116,7 @@
 # text = normalement, c'est du bois de hêtre dessous et qui est p~, qui est laqué noir.
 1	normalement	normalement	ADV	_	_	7	advmod	_	AlignBegin=136175|AlignEnd=136719|SpaceAfter=No
 2	,	,	PUNCT	_	_	1	punct	_	AlignBegin=136719|AlignEnd=136719
-3	c'	ce	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	4	nsubj	_	AlignBegin=136719|AlignEnd=136815|SpaceAfter=No
+3	c'	ce	PRON	_	PronType=Dem	4	nsubj	_	AlignBegin=136719|AlignEnd=136815|Gender[lex]=Masc|Number[lex]=Sing|Person[lex]=3|SpaceAfter=No
 4	est	être	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	AlignBegin=136815|AlignEnd=136865
 5-6	du	_	_	_	_	_	_	_	_
 5	de	de	ADP	_	_	7	case	_	AlignBegin=136865|AlignEnd=136965
@@ -3195,17 +3195,17 @@
 1	alors	alors	ADV	_	_	9	advmod	_	AlignBegin=140845|AlignEnd=140980|SpaceAfter=No
 2	,	,	PUNCT	_	_	1	punct	_	AlignBegin=140980|AlignEnd=140980
 3	pour	pour	ADP	_	_	5	mark	_	AlignBegin=140980|AlignEnd=141110
-4	le	le	PRON	_	Case=Acc|Emph=No|Gender=Masc|Number=Sing|Person=3|PronType=Prs	5	obj	_	AlignBegin=141110|AlignEnd=141170
+4	le	lui	PRON	_	Case=Acc|Emph=No|Gender=Masc|Number=Sing|PronType=Prs	5	obj	_	AlignBegin=141110|AlignEnd=141170|Person[lex]=3
 5	refaire	refaire	VERB	_	VerbForm=Inf	9	advcl	_	AlignBegin=141170|AlignEnd=141790|SpaceAfter=No|Subject=NoRaising
 6	,	,	PUNCT	_	_	5	punct	_	AlignBegin=141790|AlignEnd=141790
-7	tu	toi	PRON	_	Case=Nom|Emph=No|Number=Sing|Person=2|PronType=Prs	9	nsubj	_	AlignBegin=141790|AlignEnd=141910
-8	me	moi	PRON	_	Case=Dat|Emph=No|Number=Sing|Person=1|PronType=Prs	9	iobj	_	AlignBegin=141910|AlignEnd=142100
-9	dis	dire	VERB	_	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	0	root	_	AlignBegin=142100|AlignEnd=142320
+7	tu	toi	PRON	_	Case=Nom|Emph=No|PronType=Prs	9	nsubj	_	AlignBegin=141790|AlignEnd=141910|Number[lex]=Sing|Person[lex]=2
+8	me	moi	PRON	_	Case=Dat|Emph=No|PronType=Prs	9	iobj	_	AlignBegin=141910|AlignEnd=142100|Number[lex]=Sing|Person[lex]=1
+9	dis	dire	VERB	_	Mood=Ind|Number=Sing|Tense=Pres|VerbForm=Fin	0	root	_	AlignBegin=142100|AlignEnd=142320|Person[ctxt]=2
 10	qu'	que	SCONJ	_	_	12	mark	_	AlignBegin=142320|AlignEnd=142350|SpaceAfter=No
-11	il	lui	PRON	_	Case=Nom|Emph=No|Gender=Masc|Number=Sing|Person=3|PronType=Prs	12	expl:subj	_	AlignBegin=142350|AlignEnd=142500
-12	faudrait	falloir	VERB	_	Mood=Cnd|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	ccomp	_	AlignBegin=142500|AlignEnd=142890
+11	il	lui	PRON	_	Case=Nom|Emph=No|Gender=Masc|Number=Sing|PronType=Prs	12	expl:subj	_	AlignBegin=142350|AlignEnd=142500|Person[lex]=3
+12	faudrait	falloir	VERB	_	Mood=Cnd|Tense=Pres|VerbForm=Fin	9	ccomp	_	AlignBegin=142500|AlignEnd=142890|Number[ctxt]=Sing|Person[ctxt]=3
 13	que	que	SCONJ	_	_	15	mark	_	AlignBegin=142890|AlignEnd=142920
-14	j'	moi	PRON	_	Case=Nom|Emph=No|Number=Sing|Person=1|PronType=Prs	15	nsubj	_	AlignBegin=142920|AlignEnd=142985|SpaceAfter=No
+14	j'	moi	PRON	_	Case=Nom|Emph=No|PronType=Prs	15	nsubj	_	AlignBegin=142920|AlignEnd=142985|Number[lex]=Sing|Person[lex]=1|SpaceAfter=No
 15	aille	aller	VERB	_	Mood=Sub|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	12	ccomp	_	AlignBegin=142985|AlignEnd=143160
 16	vers	vers	ADP	_	_	19	case	_	AlignBegin=143160|AlignEnd=143430
 17	Isigny	Isigny	PROPN	_	_	19	reparandum	_	AlignBegin=143430|AlignEnd=143946|Gender[lex]=Unknown|SpaceAfter=No
@@ -3239,7 +3239,7 @@
 # sound_url = https://rhapsodie.modyco.fr/rp/waves/Rhap-D0009.mp3
 # macrosyntax = alors < pour le refaire <+ tu me dis qu'il faudrait que j'aille vers { Isigny |} ( $L1 "mh mh" // ) {| Ducey } //
 # text = mh, mh.
-1	mh	mh	INTJ	_	_	3	reparandum	_	AlignBegin=144231|AlignEnd=144356|AttachTo=17@Rhap_D0009-89|Rel=discourse|SpaceAfter=No
+1	mh	mh	INTJ	_	_	3	reparandum	_	AlignBegin=144231|AlignEnd=144356|Backchannel=Rhap_D0009-89::17|SpaceAfter=No
 2	,	,	PUNCT	_	_	1	punct	_	AlignBegin=144356|AlignEnd=144356
 3	mh	mh	INTJ	_	_	0	root	_	AlignBegin=144356|AlignEnd=144401|SpaceAfter=No
 4	.	.	PUNCT	_	_	3	punct	_	AlignBegin=144401|AlignEnd=144401
@@ -3278,8 +3278,8 @@
 6	,	,	PUNCT	_	_	5	punct	_	AlignBegin=146143|AlignEnd=146143
 7	initialement	initialement	ADV	_	_	12	advmod	_	AlignBegin=146143|AlignEnd=146783|SpaceAfter=No
 8	,	,	PUNCT	_	_	7	punct	_	AlignBegin=146783|AlignEnd=146783
-9	ils	lui	PRON	_	Case=Nom|Emph=No|Gender=Masc|Number=Plur|Person=3|PronType=Prs	10	nsubj	_	AlignBegin=146783|AlignEnd=146873
-10	étaient	être	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	AlignBegin=146873|AlignEnd=147023
+9	ils	lui	PRON	_	Case=Nom|Emph=No|Gender=Masc|Number=Plur|PronType=Prs	10	nsubj	_	AlignBegin=146783|AlignEnd=146873|Person[lex]=3
+10	étaient	être	VERB	_	Mood=Ind|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	AlignBegin=146873|AlignEnd=147023|Number[ctxt]=Plur
 11	à	à	ADP	_	_	12	case	_	AlignBegin=147023|AlignEnd=147053
 12	Isigny	Isigny	PROPN	_	_	10	obl:arg	_	AlignBegin=147053|AlignEnd=147273|Gender[lex]=Unknown|SpaceAfter=No
 13	.	.	PUNCT	_	_	10	punct	_	AlignBegin=147273|AlignEnd=147273
@@ -3339,7 +3339,7 @@
 # sound_url = https://rhapsodie.modyco.fr/rp/waves/Rhap-D0009.mp3
 # macrosyntax = c'est la maison de Soré //
 # text = c'est la maison de Soré.
-1	c'	ce	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	4	nsubj	_	AlignBegin=147505|AlignEnd=147529|SpaceAfter=No
+1	c'	ce	PRON	_	PronType=Dem	4	nsubj	_	AlignBegin=147505|AlignEnd=147529|Gender[lex]=Masc|Number[lex]=Sing|Person[lex]=3|SpaceAfter=No
 2	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	AlignBegin=147529|AlignEnd=147567
 3	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	_	AlignBegin=147567|AlignEnd=147656|HasSpokenGender=OnlySingExceptWithLiaison
 4	maison	maison	NOUN	_	_	0	root	_	AlignBegin=147656|AlignEnd=147833|Gender[lex]=Fem|Number[ctxt]=Sing
@@ -3374,7 +3374,7 @@
 # macrosyntax = $- ^mais ils sont à ( $L2 "mh" // ) -$ Ducey actuellement //
 # text = mais ils sont à Ducey actuellement.
 1	mais	mais	CCONJ	_	_	3	cc	_	AlignBegin=148926|AlignEnd=149201|Overlap=Rhap_D0009-95
-2	ils	lui	PRON	_	Case=Nom|Emph=No|Gender=Masc|Number=Plur|Person=3|PronType=Prs	3	nsubj	_	AlignBegin=149201|AlignEnd=149261|Overlap=Rhap_D0009-95
+2	ils	lui	PRON	_	Case=Nom|Emph=No|Gender=Masc|Number=Plur|PronType=Prs	3	nsubj	_	AlignBegin=149201|AlignEnd=149261|Overlap=Rhap_D0009-95|Person[lex]=3
 3	sont	être	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	AlignBegin=149261|AlignEnd=149381|Overlap=Rhap_D0009-95
 4	à	à	ADP	_	_	5	case	_	AlignBegin=149381|AlignEnd=149490|Overlap=Rhap_D0009-95
 5	Ducey	Ducey	PROPN	_	_	3	obl:arg	_	AlignBegin=149490|AlignEnd=149765|Gender[lex]=Unknown
@@ -3407,7 +3407,7 @@
 # sound_url = https://rhapsodie.modyco.fr/rp/waves/Rhap-D0009.mp3
 # macrosyntax = $- ^mais ils sont à ( $L2 "mh" // ) -$ Ducey actuellement //
 # text = mh.
-1	mh	mh	INTJ	_	_	0	root	_	AlignBegin=148926|AlignEnd=149490|AttachTo=6@Rhap_D0009-93|Overlap=Rhap_D0009-94|Rel=discourse|SpaceAfter=No
+1	mh	mh	INTJ	_	_	0	root	_	AlignBegin=148926|AlignEnd=149490|Backchannel=Rhap_D0009-93::6|Overlap=Rhap_D0009-94|SpaceAfter=No
 2	.	.	PUNCT	_	_	1	punct	_	AlignBegin=149490|AlignEnd=149490|Overlap=Rhap_D0009-72
 
 # sent_id = Rhap_D0009-96
@@ -3469,9 +3469,9 @@
 # text = alors, ils me referaient l'assise ?
 1	alors	alors	ADV	_	_	5	advmod	_	AlignBegin=150856|AlignEnd=151069|SpaceAfter=No
 2	,	,	PUNCT	_	_	1	punct	_	AlignBegin=151069|AlignEnd=151069
-3	ils	lui	PRON	_	Case=Nom|Emph=No|Gender=Masc|Number=Plur|Person=3|PronType=Prs	5	nsubj	_	AlignBegin=151069|AlignEnd=151352
-4	me	moi	PRON	_	Case=Dat|Emph=No|Number=Sing|Person=1|PronType=Prs	5	iobj	_	AlignBegin=151352|AlignEnd=151451
-5	referaient	refaire	VERB	_	Mood=Cnd|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	AlignBegin=151451|AlignEnd=151748
+3	ils	lui	PRON	_	Case=Nom|Emph=No|Gender=Masc|Number=Plur|PronType=Prs	5	nsubj	_	AlignBegin=151069|AlignEnd=151352|Person[lex]=3
+4	me	moi	PRON	_	Case=Dat|Emph=No|PronType=Prs	5	iobj	_	AlignBegin=151352|AlignEnd=151451|Number[lex]=Sing|Person[lex]=1
+5	referaient	refaire	VERB	_	Mood=Cnd|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	AlignBegin=151451|AlignEnd=151748|Number[ctxt]=Plur
 6	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	7	det	_	AlignBegin=151748|AlignEnd=151881|Gender[ctxt]=Fem|HasSpokenGender=OnlySingExceptWithLiaison|LiaisonAfter=Yes|SpaceAfter=No
 7	assise	assise	NOUN	_	_	5	obj	_	AlignBegin=151881|AlignEnd=152327|Gender[lex]=Fem|LiaisonPossibleBefore=Yes|Number[ctxt]=Sing
 8	?	?	PUNCT	_	_	5	punct	_	AlignBegin=152327|AlignEnd=152327
@@ -3502,7 +3502,7 @@
 # sound_url = https://rhapsodie.modyco.fr/rp/waves/Rhap-D0009.mp3
 # macrosyntax = $L1 oui //
 # text = oui.
-1	oui	oui	INTJ	_	_	0	root	_	AlignBegin=152520|AlignEnd=152780|AttachTo=5@Rhap_D0009-97|Rel=comp:pred|SpaceAfter=No
+1	oui	oui	INTJ	_	_	0	root	_	AlignBegin=152520|AlignEnd=152780|Backchannel=Rhap_D0009-97::5|SpaceAfter=No
 2	.	.	PUNCT	_	_	1	punct	_	AlignBegin=152780|AlignEnd=152780
 
 # sent_id = Rhap_D0009-99
@@ -3533,14 +3533,14 @@
 # text = mais est-ce qu'il faut que je lui dise aussi les accoudoirs ?
 1	mais	mais	CCONJ	_	_	6	cc	_	AlignBegin=153061|AlignEnd=153136
 2	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	cop	_	AlignBegin=153136|AlignEnd=153166|SpaceAfter=No
-3	-ce	ce	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	6	expl:subj	_	AlignBegin=153166|AlignEnd=153206
+3	-ce	ce	PRON	_	PronType=Dem	6	expl:subj	_	AlignBegin=153166|AlignEnd=153206|Gender[lex]=Masc|Number[lex]=Sing|Person[lex]=3
 4	qu'	que	SCONJ	_	_	6	mark	_	AlignBegin=153206|AlignEnd=153276|SpaceAfter=No
-5	il	lui	PRON	_	Case=Nom|Emph=No|Gender=Masc|Number=Sing|Person=3|PronType=Prs	6	expl:subj	_	AlignBegin=153276|AlignEnd=153396
-6	faut	falloir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	AlignBegin=153396|AlignEnd=153536
+5	il	lui	PRON	_	Case=Nom|Emph=No|Gender=Masc|Number=Sing|PronType=Prs	6	expl:subj	_	AlignBegin=153276|AlignEnd=153396|Person[lex]=3
+6	faut	falloir	VERB	_	Mood=Ind|Number=Sing|Tense=Pres|VerbForm=Fin	0	root	_	AlignBegin=153396|AlignEnd=153536|Person[ctxt]=3
 7	que	que	SCONJ	_	_	10	mark	_	AlignBegin=153536|AlignEnd=153566
-8	je	moi	PRON	_	Case=Nom|Emph=No|Number=Sing|Person=1|PronType=Prs	10	nsubj	_	AlignBegin=153566|AlignEnd=153606
-9	lui	lui	PRON	_	Case=Dat|Emph=No|Number=Sing|Person=3|PronType=Prs	10	iobj	_	AlignBegin=153606|AlignEnd=153826
-10	dise	dire	VERB	_	Mood=Sub|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	6	ccomp	_	AlignBegin=153826|AlignEnd=154096
+8	je	moi	PRON	_	Case=Nom|Emph=No|PronType=Prs	10	nsubj	_	AlignBegin=153566|AlignEnd=153606|Number[lex]=Sing|Person[lex]=1
+9	lui	lui	PRON	_	Case=Dat|Emph=No|Number=Sing|PronType=Prs	10	iobj	_	AlignBegin=153606|AlignEnd=153826|Person[lex]=3
+10	dise	dire	VERB	_	Mood=Sub|Number=Sing|Tense=Pres|VerbForm=Fin	6	ccomp	_	AlignBegin=153826|AlignEnd=154096|Person[ctxt]=1
 11	aussi	aussi	ADV	_	_	10	advmod	_	AlignBegin=154096|AlignEnd=154416
 12	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	13	det	_	AlignBegin=154416|AlignEnd=154586|HasSpokenGender=OnlySingExceptWithLiaison|LiaisonAfter=Yes
 13	accoudoirs	accoudoir	NOUN	_	_	10	obj	_	AlignBegin=154586|AlignEnd=155196|Gender[lex]=Masc|LiaisonPossibleBefore=Yes|Number[ctxt]=Plur
@@ -3572,11 +3572,11 @@
 # sound_url = https://rhapsodie.modyco.fr/rp/waves/Rhap-D0009.mp3
 # macrosyntax = tu as vu comment ils sont //
 # text = tu as vu comment ils sont ?
-1	tu	toi	PRON	_	Case=Nom|Emph=No|Number=Sing|Person=2|PronType=Prs	3	nsubj	_	AlignBegin=155196|AlignEnd=155226
+1	tu	toi	PRON	_	Case=Nom|Emph=No|PronType=Prs	3	nsubj	_	AlignBegin=155196|AlignEnd=155226|Number[lex]=Sing|Person[lex]=2
 2	as	avoir	AUX	_	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	3	aux:tense	_	AlignBegin=155226|AlignEnd=155266
 3	vu	voir	VERB	_	VerbForm=Part|Voice=Act	0	root	_	AlignBegin=155266|AlignEnd=155416|Gender[ctxt]=Masc|Number[ctxt]=Sing|PastPartHasSpokenGender=NotInThisDialect|Tense[denom]=Past
 4	comment	comment	ADV	_	PronType=Int	3	ccomp	_	AlignBegin=155416|AlignEnd=155626
-5	ils	lui	PRON	_	Case=Nom|Emph=No|Gender=Masc|Number=Plur|Person=3|PronType=Prs	4	nsubj	_	AlignBegin=155626|AlignEnd=155726
+5	ils	lui	PRON	_	Case=Nom|Emph=No|Gender=Masc|Number=Plur|PronType=Prs	4	nsubj	_	AlignBegin=155626|AlignEnd=155726|Person[lex]=3
 6	sont	être	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	AlignBegin=155726|AlignEnd=156046
 7	?	?	PUNCT	_	_	3	punct	_	AlignBegin=156046|AlignEnd=156046
 
@@ -3637,7 +3637,7 @@
 # sound_url = https://rhapsodie.modyco.fr/rp/waves/Rhap-D0009.mp3
 # macrosyntax = faut //
 # text = faut.
-1	faut	falloir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	AlignBegin=156575|AlignEnd=156835|AttachTo=6@Rhap_D0009-99|Rel=parataxis:conj|SpaceAfter=No
+1	faut	falloir	VERB	_	Mood=Ind|Number=Sing|Tense=Pres|VerbForm=Fin	0	root	_	AlignBegin=156575|AlignEnd=156835|Coconstruct=parataxis:conj::Rhap_D0009-99::6|Person[ctxt]=3|SpaceAfter=No
 2	.	.	PUNCT	_	_	1	punct	_	AlignBegin=156835|AlignEnd=156835
 
 # sent_id = Rhap_D0009-103
@@ -3670,9 +3670,9 @@
 2	toute	tout	DET	_	Gender=Fem|Number=Plur|PronType=Ind	3	det	_	AlignBegin=156865|AlignEnd=157025
 3	façon	façon	NOUN	_	_	6	obl:mod	_	AlignBegin=157025|AlignEnd=157245|Gender[lex]=Fem|Number[ctxt]=Plur|SpaceAfter=No
 4	,	,	PUNCT	_	_	3	punct	_	AlignBegin=0|AlignEnd=157245
-5	il	lui	PRON	_	Case=Nom|Emph=No|Gender=Masc|Number=Sing|Person=3|PronType=Prs	6	expl:subj	_	AlignBegin=157245|AlignEnd=157305
-6	faut	falloir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	AlignBegin=157305|AlignEnd=157425
-7	tout	tout	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Ind	8	obj	_	AlignBegin=157425|AlignEnd=157598
+5	il	lui	PRON	_	Case=Nom|Emph=No|Gender=Masc|Number=Sing|PronType=Prs	6	expl:subj	_	AlignBegin=157245|AlignEnd=157305|Person[lex]=3
+6	faut	falloir	VERB	_	Mood=Ind|Number=Sing|Tense=Pres|VerbForm=Fin	0	root	_	AlignBegin=157305|AlignEnd=157425|Person[ctxt]=3
+7	tout	tout	PRON	_	PronType=Ind	8	obj	_	AlignBegin=157425|AlignEnd=157598|Gender[lex]=Masc|Number[lex]=Sing|Person[lex]=3
 8	reprendre	reprendre	VERB	_	VerbForm=Inf	6	ccomp	_	AlignBegin=157598|AlignEnd=158074|SpaceAfter=No|Subject=NoRaising
 9	,	,	PUNCT	_	_	10	punct	_	AlignBegin=158074|AlignEnd=158074
 10	hein	hein	INTJ	_	_	8	discourse	_	AlignBegin=158074|AlignEnd=158203|SpaceAfter=No
@@ -3710,8 +3710,8 @@
 4	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	AlignBegin=158934|AlignEnd=159044|HasSpokenGender=OnlySingExceptWithLiaison
 5	travail	travail	NOUN	_	_	3	obj	_	AlignBegin=159044|AlignEnd=159374|Gender[lex]=Masc|Number[ctxt]=Sing|SpaceAfter=No
 6	,	,	PUNCT	_	_	1	punct	_	AlignBegin=159374|AlignEnd=159374
-7	il	lui	PRON	_	Case=Nom|Emph=No|Gender=Masc|Number=Sing|Person=3|PronType=Prs	8	expl:subj	_	AlignBegin=159374|AlignEnd=159514
-8	faut	falloir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	AlignBegin=159514|AlignEnd=159644
+7	il	lui	PRON	_	Case=Nom|Emph=No|Gender=Masc|Number=Sing|PronType=Prs	8	expl:subj	_	AlignBegin=159374|AlignEnd=159514|Person[lex]=3
+8	faut	falloir	VERB	_	Mood=Ind|Number=Sing|Tense=Pres|VerbForm=Fin	0	root	_	AlignBegin=159514|AlignEnd=159644|Person[ctxt]=3
 9	faire	faire	VERB	_	VerbForm=Inf	8	ccomp	_	AlignBegin=159644|AlignEnd=159914|Subject=NoRaising
 10	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	11	det	_	AlignBegin=159914|AlignEnd=159944|Gender[ctxt]=Fem|HasSpokenGender=OnlySingExceptWithLiaison|LiaisonAfter=Yes|SpaceAfter=No
 11	assise	assise	NOUN	_	_	9	obj	_	AlignBegin=159944|AlignEnd=160364|Gender[lex]=Fem|LiaisonPossibleBefore=Yes|Number[ctxt]=Sing
@@ -3746,7 +3746,7 @@
 # sound_url = https://rhapsodie.modyco.fr/rp/waves/Rhap-D0009.mp3
 # macrosyntax = ça changera pas grand-chose au prix "hein" //
 # text = ça changera pas grand-chose au prix, hein.
-1	ça	ça	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	2	nsubj	_	AlignBegin=161114|AlignEnd=161174
+1	ça	ça	PRON	_	PronType=Dem	2	nsubj	_	AlignBegin=161114|AlignEnd=161174|Gender[lex]=Masc|Number[lex]=Sing|Person[lex]=3
 2	changera	changer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	0	root	_	AlignBegin=161174|AlignEnd=161484
 3	pas	pas	ADV	_	Polarity=Neg	2	advmod	_	AlignBegin=161484|AlignEnd=161634
 4	grand	grand	ADJ	_	ExtPos=PRON|Gender=Fem	2	obj	_	AlignBegin=161634|AlignEnd=161764|HasSpokenGender=Yes|HasSpokenNumber=OnlyWithLiaison|Idiom=Yes|Number[ctxt]=Sing|SpaceAfter=No
@@ -3786,12 +3786,12 @@
 # macrosyntax = $L2 est-ce que lui peut me le recouvrir en même temps //
 # text = est-ce que lui peut me le recouvrir en même temps ?
 1	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	cop	_	AlignBegin=162994|AlignEnd=163119|SpaceAfter=No
-2	-ce	ce	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	5	expl:subj	_	AlignBegin=163119|AlignEnd=163159
+2	-ce	ce	PRON	_	PronType=Dem	5	expl:subj	_	AlignBegin=163119|AlignEnd=163159|Gender[lex]=Masc|Number[lex]=Sing|Person[lex]=3
 3	que	que	SCONJ	_	_	5	mark	_	AlignBegin=163159|AlignEnd=163297
-4	lui	lui	PRON	_	Emph=Yes|Gender=Masc|Number=Sing|Person=3|PronType=Prs	5	nsubj	_	AlignBegin=163297|AlignEnd=163719
-5	peut	pouvoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	AlignBegin=163719|AlignEnd=163879
-6	me	moi	PRON	_	Case=Dat|Emph=No|Number=Sing|Person=1|PronType=Prs	8	iobj	_	AlignBegin=163879|AlignEnd=163930
-7	le	le	PRON	_	Case=Acc|Emph=No|Gender=Masc|Number=Sing|Person=3|PronType=Prs	8	obj	_	AlignBegin=163930|AlignEnd=164049
+4	lui	lui	PRON	_	Emph=Yes|Gender=Masc|Number=Sing|PronType=Prs	5	nsubj	_	AlignBegin=163297|AlignEnd=163719|Person[lex]=3
+5	peut	pouvoir	VERB	_	Mood=Ind|Number=Sing|Tense=Pres|VerbForm=Fin	0	root	_	AlignBegin=163719|AlignEnd=163879|Person[ctxt]=3
+6	me	moi	PRON	_	Case=Dat|Emph=No|PronType=Prs	8	iobj	_	AlignBegin=163879|AlignEnd=163930|Number[lex]=Sing|Person[lex]=1
+7	le	lui	PRON	_	Case=Acc|Emph=No|Gender=Masc|Number=Sing|PronType=Prs	8	obj	_	AlignBegin=163930|AlignEnd=164049|Person[lex]=3
 8	recouvrir	recouvrir	VERB	_	VerbForm=Inf	5	xcomp	_	AlignBegin=164049|AlignEnd=164579|Subject=SubjRaising
 9	en	en	ADP	_	_	11	case	_	AlignBegin=164579|AlignEnd=164679
 10	même	même	ADJ	_	_	11	amod	_	AlignBegin=164679|AlignEnd=164909|Gender[ctxt]=Masc|HasSpokenGender=No|HasSpokenNumber=OnlyWithLiaison|Number[ctxt]=Sing
@@ -3824,7 +3824,7 @@
 # sound_url = https://rhapsodie.modyco.fr/rp/waves/Rhap-D0009.mp3
 # macrosyntax = $L1 oui //
 # text = oui.
-1	oui	oui	INTJ	_	_	0	root	_	AlignBegin=165297|AlignEnd=165454|AttachTo=1@Rhap_D0009-106|Rel=comp:pred|SpaceAfter=No
+1	oui	oui	INTJ	_	_	0	root	_	AlignBegin=165297|AlignEnd=165454|Backchannel=Rhap_D0009-106::1|SpaceAfter=No
 2	.	.	PUNCT	_	_	1	punct	_	AlignBegin=165454|AlignEnd=165454
 
 # sent_id = Rhap_D0009-108
@@ -3887,15 +3887,15 @@
 2	,	,	PUNCT	_	_	1	punct	_	AlignBegin=166582|AlignEnd=166582
 3	oui	oui	INTJ	_	_	11	discourse	_	AlignBegin=166582|AlignEnd=166717|SpaceAfter=No
 4	,	,	PUNCT	_	_	3	punct	_	AlignBegin=166717|AlignEnd=166717
-5	il	lui	PRON	_	Case=Nom|Emph=No|Gender=Masc|Number=Sing|Person=3|PronType=Prs	6	nsubj	_	AlignBegin=166717|AlignEnd=166817
-6	fait	faire	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	AlignBegin=166817|AlignEnd=166967
+5	il	lui	PRON	_	Case=Nom|Emph=No|Gender=Masc|Number=Sing|PronType=Prs	6	nsubj	_	AlignBegin=166717|AlignEnd=166817|Person[lex]=3
+6	fait	faire	VERB	_	Mood=Ind|Number=Sing|Tense=Pres|VerbForm=Fin	0	root	_	AlignBegin=166817|AlignEnd=166967|Person[ctxt]=3
 7	pas	pas	ADV	_	Polarity=Neg	6	advmod	_	AlignBegin=166967|AlignEnd=167167
 8	que	que	ADV	_	Polarity=Neg	14	advmod	_	AlignBegin=167167|AlignEnd=167290
 9	de	de	ADP	_	_	14	mark	_	AlignBegin=167290|AlignEnd=167395|Overlap=Rhap_D0009-111
-10	le	le	PRON	_	Case=Acc|Emph=No|Gender=Masc|Number=Sing|Person=3|PronType=Prs	11	obj	_	AlignBegin=168151|AlignEnd=168276|Overlap=Rhap_D0009-111
+10	le	lui	PRON	_	Case=Acc|Emph=No|Gender=Masc|Number=Sing|PronType=Prs	11	obj	_	AlignBegin=168151|AlignEnd=168276|Overlap=Rhap_D0009-111|Person[lex]=3
 11	remettre	remettre	VERB	_	VerbForm=Inf	14	reparandum	_	AlignBegin=167525|AlignEnd=168151|Overlap=Rhap_D0009-111|SpaceAfter=No|Subject=SubjRaising
 12	,	,	PUNCT	_	_	11	punct	_	AlignBegin=169325|AlignEnd=0|Overlap=Rhap_D0009-85
-13	le	le	PRON	_	Case=Acc|Emph=No|Gender=Masc|Number=Sing|Person=3|PronType=Prs	14	obj	_	AlignBegin=0|AlignEnd=167290|Overlap=Rhap_D0009-85
+13	le	lui	PRON	_	Case=Acc|Emph=No|Gender=Masc|Number=Sing|PronType=Prs	14	obj	_	AlignBegin=0|AlignEnd=167290|Overlap=Rhap_D0009-85|Person[lex]=3
 14	restaurer	restaurer	VERB	_	VerbForm=Inf	6	xcomp	_	AlignBegin=168276|AlignEnd=168723|Overlap=Rhap_D0009-111|SpaceAfter=No|Subject=SubjRaising
 15	.	.	PUNCT	_	_	6	punct	_	AlignBegin=169325|AlignEnd=169325|Overlap=Rhap_D0009-85
 
@@ -3925,8 +3925,8 @@
 # sound_url = https://rhapsodie.modyco.fr/rp/waves/Rhap-D0009.mp3
 # macrosyntax = il peut ESPERLUETTE //
 # text = il peut…
-1	il	lui	PRON	_	Case=Nom|Emph=No|Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	AlignBegin=168723|AlignEnd=168825|Overlap=Rhap_D0009-112
-2	peut	pouvoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	AlignBegin=168825|AlignEnd=169082|Overlap=Rhap_D0009-112|Scrap=Yes|SpaceAfter=No
+1	il	lui	PRON	_	Case=Nom|Emph=No|Gender=Masc|Number=Sing|PronType=Prs	2	nsubj	_	AlignBegin=168723|AlignEnd=168825|Overlap=Rhap_D0009-112|Person[lex]=3
+2	peut	pouvoir	VERB	_	Mood=Ind|Number=Sing|Tense=Pres|VerbForm=Fin	0	root	_	AlignBegin=168825|AlignEnd=169082|Overlap=Rhap_D0009-112|Person[ctxt]=3|Scrap=Yes|SpaceAfter=No
 3	…	…	PUNCT	_	_	2	punct	_	AlignBegin=169325|AlignEnd=169325|Overlap=Rhap_D0009-86
 
 # sent_id = Rhap_D0009-111
@@ -4062,10 +4062,10 @@
 2	,	,	PUNCT	_	_	1	punct	_	AlignBegin=170079|AlignEnd=170079
 3	ben	ben	INTJ	_	_	11	discourse	_	AlignBegin=170079|AlignEnd=170189|SpaceAfter=No
 4	,	,	PUNCT	_	_	3	punct	_	AlignBegin=170189|AlignEnd=170189
-5	ça	ça	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	8	dislocated	_	AlignBegin=170189|AlignEnd=170349|SpaceAfter=No
+5	ça	ça	PRON	_	PronType=Dem	8	dislocated	_	AlignBegin=170189|AlignEnd=170349|Gender[lex]=Masc|Number[lex]=Sing|Person[lex]=3|SpaceAfter=No
 6	,	,	PUNCT	_	_	5	punct	_	AlignBegin=170349|AlignEnd=170349
-7	ça	ça	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	8	nsubj:pass	_	AlignBegin=170349|AlignEnd=170499
-8	doit	devoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	AlignBegin=170499|AlignEnd=170659
+7	ça	ça	PRON	_	PronType=Dem	8	nsubj:pass	_	AlignBegin=170349|AlignEnd=170499|Gender[lex]=Masc|Number[lex]=Sing|Person[lex]=3
+8	doit	devoir	VERB	_	Mood=Ind|Number=Sing|Tense=Pres|VerbForm=Fin	0	root	_	AlignBegin=170499|AlignEnd=170659|Person[ctxt]=3
 9	pas	pas	ADV	_	Polarity=Neg	8	advmod	_	AlignBegin=170659|AlignEnd=170779
 10	être	être	AUX	_	VerbForm=Inf	11	aux:pass	_	AlignBegin=170779|AlignEnd=170939|Subject=SubjRaising
 11	donné	donner	VERB	_	VerbForm=Part|Voice=Pass	8	xcomp	_	AlignBegin=170939|AlignEnd=171370|Gender[ctxt]=Masc|Number[ctxt]=Sing|PastPartHasSpokenGender=NotInThisDialect|SpaceAfter=No|Tense[denom]=Past
@@ -4101,7 +4101,7 @@
 # text = oh, tout est relatif.
 1	oh	oh	INTJ	_	_	5	discourse	_	AlignBegin=172354|AlignEnd=172459|SpaceAfter=No
 2	,	,	PUNCT	_	_	1	punct	_	AlignBegin=172459|AlignEnd=172459
-3	tout	tout	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Ind	5	nsubj	_	AlignBegin=172459|AlignEnd=172729
+3	tout	tout	PRON	_	PronType=Ind	5	nsubj	_	AlignBegin=172459|AlignEnd=172729|Gender[lex]=Masc|Number[lex]=Sing|Person[lex]=3
 4	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	cop	_	AlignBegin=172729|AlignEnd=172779
 5	relatif	relatif	ADJ	_	Gender=Masc	0	root	_	AlignBegin=172779|AlignEnd=173466|HasSpokenGender=YesExceptSingWithLiaison|HasSpokenNumber=OnlyWithLiaison|Number[ctxt]=Sing|SpaceAfter=No
 6	.	.	PUNCT	_	_	5	punct	_	AlignBegin=173466|AlignEnd=173466
@@ -4132,8 +4132,8 @@
 # sound_url = https://rhapsodie.modyco.fr/rp/waves/Rhap-D0009.mp3
 # macrosyntax = tout est relatif //
 # text = tout est relatif.
-1	tout	tout	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Ind	3	nsubj	_	AlignBegin=173878|AlignEnd=174019
-2	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	cop	_	AlignBegin=174019|AlignEnd=174100|AttachTo=4@Rhap_D0009-115|Rel=parataxis:conj
+1	tout	tout	PRON	_	PronType=Ind	3	nsubj	_	AlignBegin=173878|AlignEnd=174019|Gender[lex]=Masc|Number[lex]=Sing|Person[lex]=3
+2	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	cop	_	AlignBegin=174019|AlignEnd=174100|Coconstruct=parataxis:conj::Rhap_D0009-115::4
 3	relatif	relatif	ADJ	_	Gender=Masc	0	root	_	AlignBegin=174100|AlignEnd=174623|HasSpokenGender=YesExceptSingWithLiaison|HasSpokenNumber=OnlyWithLiaison|Number[ctxt]=Sing|SpaceAfter=No
 4	.	.	PUNCT	_	_	3	punct	_	AlignBegin=174623|AlignEnd=174623
 
@@ -4165,11 +4165,11 @@
 # text = parce que c'est des heures ça, hein.
 1	parce	parce	ADV	_	ExtPos=SCONJ	6	mark	_	AlignBegin=174736|AlignEnd=174841|Idiom=Yes
 2	que	que	SCONJ	_	_	1	fixed	_	AlignBegin=174841|AlignEnd=174941|InIdiom=Yes
-3	c'	ce	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	6	nsubj	_	AlignBegin=174941|AlignEnd=175031|SpaceAfter=No
+3	c'	ce	PRON	_	PronType=Dem	6	nsubj	_	AlignBegin=174941|AlignEnd=175031|Gender[lex]=Masc|Number[lex]=Sing|Person[lex]=3|SpaceAfter=No
 4	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	cop	_	AlignBegin=175031|AlignEnd=175131
 5	des	un	DET	_	Definite=Ind|Number=Plur|PronType=Art	6	det	_	AlignBegin=175131|AlignEnd=175361|LiaisonAfter=Yes
 6	heures	heure	NOUN	_	_	0	root	_	AlignBegin=175361|AlignEnd=175551|Gender[lex]=Fem|LiaisonPossibleBefore=Yes|Number[ctxt]=Plur
-7	ça	ça	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	6	dislocated	_	AlignBegin=175551|AlignEnd=175761|SpaceAfter=No
+7	ça	ça	PRON	_	PronType=Dem	6	dislocated	_	AlignBegin=175551|AlignEnd=175761|Gender[lex]=Masc|Number[lex]=Sing|Person[lex]=3|SpaceAfter=No
 8	,	,	PUNCT	_	_	9	punct	_	AlignBegin=175761|AlignEnd=175761
 9	hein	hein	INTJ	_	_	6	discourse	_	AlignBegin=175761|AlignEnd=176015|SpaceAfter=No
 10	.	.	PUNCT	_	_	6	punct	_	AlignBegin=176015|AlignEnd=176015
@@ -4203,16 +4203,16 @@
 1	oui	oui	INTJ	_	_	5	discourse	_	AlignBegin=176534|AlignEnd=176900|SpaceAfter=No
 2	,	,	PUNCT	_	_	1	punct	_	AlignBegin=176900|AlignEnd=176900
 3	mais	mais	CCONJ	_	_	5	cc	_	AlignBegin=176900|AlignEnd=177049
-4	je	moi	PRON	_	Case=Nom|Emph=No|Number=Sing|Person=1|PronType=Prs	5	nsubj	_	AlignBegin=177049|AlignEnd=177169
-5	pense	penser	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	AlignBegin=177169|AlignEnd=177439
+4	je	moi	PRON	_	Case=Nom|Emph=No|PronType=Prs	5	nsubj	_	AlignBegin=177049|AlignEnd=177169|Number[lex]=Sing|Person[lex]=1
+5	pense	penser	VERB	_	Mood=Ind|Number=Sing|Tense=Pres|VerbForm=Fin	0	root	_	AlignBegin=177169|AlignEnd=177439|Person[ctxt]=1
 6	que	que	SCONJ	_	_	14	mark	_	AlignBegin=177439|AlignEnd=177774|SpaceAfter=No
 7	,	,	PUNCT	_	_	14	punct	_	AlignBegin=177774|AlignEnd=178255
 8	non	non	ADV	_	Polarity=Neg	11	discourse	_	AlignBegin=178255|AlignEnd=178510|SpaceAfter=No
 9	,	,	PUNCT	_	_	8	punct	_	AlignBegin=178510|AlignEnd=178510
-10	ça	ça	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	11	nsubj	_	AlignBegin=178510|AlignEnd=178650
+10	ça	ça	PRON	_	PronType=Dem	11	nsubj	_	AlignBegin=178510|AlignEnd=178650|Gender[lex]=Masc|Number[lex]=Sing|Person[lex]=3
 11	va	aller	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	14	reparandum	_	AlignBegin=178650|AlignEnd=178800|SpaceAfter=No
 12	,	,	PUNCT	_	_	11	punct	_	AlignBegin=178800|AlignEnd=178800
-13	ça	ça	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	14	nsubj	_	AlignBegin=178800|AlignEnd=178990
+13	ça	ça	PRON	_	PronType=Dem	14	nsubj	_	AlignBegin=178800|AlignEnd=178990|Gender[lex]=Masc|Number[lex]=Sing|Person[lex]=3
 14	va	aller	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	ccomp	_	AlignBegin=178990|AlignEnd=179090
 15	pas	pas	ADV	_	Polarity=Neg	14	advmod	_	AlignBegin=179090|AlignEnd=179180
 16	très	très	ADV	_	_	19	advmod	_	AlignBegin=179180|AlignEnd=179350|SpaceAfter=No
@@ -4256,28 +4256,28 @@
 # macrosyntax = $L2 { { est-ce que c'est | est-ce que c'est } moi qui p~ | est-ce que je peux } { sau~ | lui amener le tissu } //
 # text = est-ce que c'est, est-ce que c'est moi qui p~, est-ce que je peux sau~, lui amener le tissu ?
 1	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	cop	_	AlignBegin=182249|AlignEnd=182394|SpaceAfter=No
-2	-ce	ce	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	5	expl:subj	_	AlignBegin=182394|AlignEnd=182424
+2	-ce	ce	PRON	_	PronType=Dem	5	expl:subj	_	AlignBegin=182394|AlignEnd=182424|Gender[lex]=Masc|Number[lex]=Sing|Person[lex]=3
 3	que	que	SCONJ	_	_	5	mark	_	AlignBegin=182424|AlignEnd=182544
-4	c'	ce	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	5	nsubj	_	AlignBegin=182544|AlignEnd=182684|SpaceAfter=No
+4	c'	ce	PRON	_	PronType=Dem	5	nsubj	_	AlignBegin=182544|AlignEnd=182684|Gender[lex]=Masc|Number[lex]=Sing|Person[lex]=3|SpaceAfter=No
 5	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	20	reparandum	_	AlignBegin=182684|AlignEnd=182904|SpaceAfter=No
 6	,	,	PUNCT	_	_	5	punct	_	AlignBegin=182904|AlignEnd=182904
 7	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	12	cop	_	AlignBegin=182904|AlignEnd=183014|SpaceAfter=No
-8	-ce	ce	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	12	expl:subj	_	AlignBegin=183014|AlignEnd=183074
+8	-ce	ce	PRON	_	PronType=Dem	12	expl:subj	_	AlignBegin=183014|AlignEnd=183074|Gender[lex]=Masc|Number[lex]=Sing|Person[lex]=3
 9	que	que	SCONJ	_	_	12	mark	_	AlignBegin=183074|AlignEnd=183164
-10	c'	ce	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	12	expl:subj	_	AlignBegin=183164|AlignEnd=183264|SpaceAfter=No
+10	c'	ce	PRON	_	PronType=Dem	12	expl:subj	_	AlignBegin=183164|AlignEnd=183264|Gender[lex]=Masc|Number[lex]=Sing|Person[lex]=3|SpaceAfter=No
 11	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	12	cop	_	AlignBegin=183264|AlignEnd=183344
-12	moi	moi	PRON	_	Emph=Yes|Number=Sing|Person=1|PronType=Prs	20	reparandum	_	AlignBegin=183344|AlignEnd=183634
+12	moi	moi	PRON	_	Emph=Yes|PronType=Prs	20	reparandum	_	AlignBegin=183344|AlignEnd=183634|Number[lex]=Sing|Person[lex]=1
 13	qui	qui	PRON	_	PronType=Rel	14	nsubj	_	AlignBegin=183634|AlignEnd=183824
 14	p~	p~	X	_	ExtPos=VERB	12	advcl:cleft	_	AlignBegin=183824|AlignEnd=183944|Filler=subj|SpaceAfter=No
 15	,	,	PUNCT	_	_	12	punct	_	AlignBegin=183944|AlignEnd=183944
 16	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	20	cop	_	AlignBegin=183944|AlignEnd=184014|SpaceAfter=No
-17	-ce	ce	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	20	expl:subj	_	AlignBegin=184014|AlignEnd=184074
+17	-ce	ce	PRON	_	PronType=Dem	20	expl:subj	_	AlignBegin=184014|AlignEnd=184074|Gender[lex]=Masc|Number[lex]=Sing|Person[lex]=3
 18	que	que	SCONJ	_	_	20	mark	_	AlignBegin=184074|AlignEnd=184174
-19	je	moi	PRON	_	Case=Nom|Emph=No|Number=Sing|Person=1|PronType=Prs	20	nsubj	_	AlignBegin=184174|AlignEnd=184264
-20	peux	pouvoir	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	AlignBegin=184264|AlignEnd=184374
+19	je	moi	PRON	_	Case=Nom|Emph=No|PronType=Prs	20	nsubj	_	AlignBegin=184174|AlignEnd=184264|Number[lex]=Sing|Person[lex]=1
+20	peux	pouvoir	VERB	_	Mood=Ind|Number=Sing|Tense=Pres|VerbForm=Fin	0	root	_	AlignBegin=184264|AlignEnd=184374|Person[ctxt]=1
 21	sau~	sau~	X	_	ExtPos=VERB	24	reparandum	_	AlignBegin=184374|AlignEnd=184654|SpaceAfter=No
 22	,	,	PUNCT	_	_	21	punct	_	AlignBegin=184654|AlignEnd=184814
-23	lui	lui	PRON	_	Case=Dat|Emph=No|Number=Sing|Person=3|PronType=Prs	24	iobj	_	AlignBegin=184814|AlignEnd=185864
+23	lui	lui	PRON	_	Case=Dat|Emph=No|Number=Sing|PronType=Prs	24	iobj	_	AlignBegin=184814|AlignEnd=185864|Person[lex]=3
 24	amener	amener	VERB	_	VerbForm=Inf	20	xcomp	_	AlignBegin=185864|AlignEnd=186224|Subject=SubjRaising
 25	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	26	det	_	AlignBegin=186224|AlignEnd=186254|HasSpokenGender=OnlySingExceptWithLiaison
 26	tissu	tissu	NOUN	_	_	24	obj	_	AlignBegin=186254|AlignEnd=186697|Gender[lex]=Masc|Number[ctxt]=Sing
@@ -4309,7 +4309,7 @@
 # sound_url = https://rhapsodie.modyco.fr/rp/waves/Rhap-D0009.mp3
 # macrosyntax = $L1 oui //
 # text = oui.
-1	oui	oui	INTJ	_	_	0	root	_	AlignBegin=187073|AlignEnd=187276|AttachTo=1@Rhap_D0009-119|Rel=comp:pred|SpaceAfter=No
+1	oui	oui	INTJ	_	_	0	root	_	AlignBegin=187073|AlignEnd=187276|Backchannel=Rhap_D0009-119::1|SpaceAfter=No
 2	.	.	PUNCT	_	_	1	punct	_	AlignBegin=187276|AlignEnd=187276
 
 # sent_id = Rhap_D0009-121
@@ -4370,7 +4370,7 @@
 # text = parce que j'ai un rouleau de tissu de velours beige.
 1	parce	parce	ADV	_	ExtPos=SCONJ	4	mark	_	AlignBegin=188344|AlignEnd=188511|Idiom=Yes
 2	que	que	SCONJ	_	_	1	fixed	_	AlignBegin=188511|AlignEnd=188619|InIdiom=Yes
-3	j'	moi	PRON	_	Case=Nom|Emph=No|Number=Sing|Person=1|PronType=Prs	4	nsubj	_	AlignBegin=188619|AlignEnd=188729|SpaceAfter=No
+3	j'	moi	PRON	_	Case=Nom|Emph=No|PronType=Prs	4	nsubj	_	AlignBegin=188619|AlignEnd=188729|Number[lex]=Sing|Person[lex]=1|SpaceAfter=No
 4	ai	avoir	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	AlignBegin=188729|AlignEnd=188959
 5	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	6	det	_	AlignBegin=188959|AlignEnd=189279
 6	rouleau	rouleau	NOUN	_	_	4	obj	_	AlignBegin=189359|AlignEnd=189749|Gender[lex]=Masc|Number[ctxt]=Sing
@@ -4438,17 +4438,17 @@
 # sound_url = https://rhapsodie.modyco.fr/rp/waves/Rhap-D0009.mp3
 # macrosyntax = faudrait que tu me dises aussi les teintes que je peux mettre là-dessus //
 # text = faudrait que tu me dises aussi les teintes que je peux mettre là-dessus.
-1	faudrait	falloir	VERB	_	Mood=Cnd|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	AlignBegin=191463|AlignEnd=191693
+1	faudrait	falloir	VERB	_	Mood=Cnd|Tense=Pres|VerbForm=Fin	0	root	_	AlignBegin=191463|AlignEnd=191693|Number[ctxt]=Sing|Person[ctxt]=3
 2	que	que	SCONJ	_	_	5	mark	_	AlignBegin=191693|AlignEnd=191723
-3	tu	toi	PRON	_	Case=Nom|Emph=No|Number=Sing|Person=2|PronType=Prs	5	nsubj	_	AlignBegin=191723|AlignEnd=191865
-4	me	moi	PRON	_	Case=Dat|Emph=No|Number=Sing|Person=1|PronType=Prs	5	iobj	_	AlignBegin=191865|AlignEnd=191963
-5	dises	dire	VERB	_	Mood=Sub|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	1	ccomp	_	AlignBegin=191963|AlignEnd=192173
+3	tu	toi	PRON	_	Case=Nom|Emph=No|PronType=Prs	5	nsubj	_	AlignBegin=191723|AlignEnd=191865|Number[lex]=Sing|Person[lex]=2
+4	me	moi	PRON	_	Case=Dat|Emph=No|PronType=Prs	5	iobj	_	AlignBegin=191865|AlignEnd=191963|Number[lex]=Sing|Person[lex]=1
+5	dises	dire	VERB	_	Mood=Sub|Number=Sing|Tense=Pres|VerbForm=Fin	1	ccomp	_	AlignBegin=191963|AlignEnd=192173|Person[ctxt]=2
 6	aussi	aussi	ADV	_	_	5	advmod	_	AlignBegin=192173|AlignEnd=192463
 7	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	8	det	_	AlignBegin=192463|AlignEnd=192633|HasSpokenGender=OnlySingExceptWithLiaison
 8	teintes	teinte	NOUN	_	_	5	obj	_	AlignBegin=192633|AlignEnd=192903|Gender[lex]=Fem|Number[ctxt]=Plur
 9	que	que	PRON	_	PronType=Rel	12	obj	_	AlignBegin=192903|AlignEnd=192993
-10	je	moi	PRON	_	Case=Nom|Emph=No|Number=Sing|Person=1|PronType=Prs	11	nsubj	_	AlignBegin=192993|AlignEnd=193113
-11	peux	pouvoir	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	8	acl:relcl	_	AlignBegin=193113|AlignEnd=193203
+10	je	moi	PRON	_	Case=Nom|Emph=No|PronType=Prs	11	nsubj	_	AlignBegin=192993|AlignEnd=193113|Number[lex]=Sing|Person[lex]=1
+11	peux	pouvoir	VERB	_	Mood=Ind|Number=Sing|Tense=Pres|VerbForm=Fin	8	acl:relcl	_	AlignBegin=193113|AlignEnd=193203|Person[ctxt]=1
 12	mettre	mettre	VERB	_	VerbForm=Inf	11	xcomp	_	AlignBegin=193203|AlignEnd=193423|Subject=SubjRaising
 13	là-dessus	là-dessus	ADV	_	_	12	advmod	_	AlignBegin=193423|AlignEnd=193968|SpaceAfter=No
 14	.	.	PUNCT	_	_	1	punct	_	AlignBegin=193968|AlignEnd=193968
@@ -4492,10 +4492,10 @@
 11	,	,	PUNCT	_	_	12	punct	_	AlignBegin=197656|AlignEnd=197656
 12	bon	bon	INTJ	_	_	10	discourse	_	AlignBegin=197656|AlignEnd=198046|SpaceAfter=No
 13	,	,	PUNCT	_	_	10	punct	_	AlignBegin=198046|AlignEnd=198046
-14	faut	falloir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	AlignBegin=198046|AlignEnd=198136
+14	faut	falloir	VERB	_	Mood=Ind|Number=Sing|Tense=Pres|VerbForm=Fin	0	root	_	AlignBegin=198046|AlignEnd=198136|Person[ctxt]=3
 15	savoir	savoir	VERB	_	VerbForm=Inf	14	ccomp	_	AlignBegin=198136|AlignEnd=198586|Subject=NoRaising
 16	que	que	SCONJ	_	_	18	mark	_	AlignBegin=198586|AlignEnd=198896
-17	tu	toi	PRON	_	Case=Nom|Emph=No|Number=Sing|Person=2|PronType=Prs	18	nsubj	_	AlignBegin=198896|AlignEnd=198996
+17	tu	toi	PRON	_	Case=Nom|Emph=No|PronType=Prs	18	nsubj	_	AlignBegin=198896|AlignEnd=198996|Number[lex]=Sing|Person[lex]=2
 18	as	avoir	VERB	_	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	15	ccomp	_	AlignBegin=198996|AlignEnd=199066
 19	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	20	det	_	AlignBegin=199066|AlignEnd=199256
 20	base	base	NOUN	_	_	18	obj	_	AlignBegin=199256|AlignEnd=199606|Gender[lex]=Fem|Number[ctxt]=Sing|SpaceAfter=No
@@ -4531,7 +4531,7 @@
 # sound_url = https://rhapsodie.modyco.fr/rp/waves/Rhap-D0009.mp3
 # macrosyntax = tout est en fonction de ta pièce > déjà //
 # text = tout est en fonction de ta pièce déjà.
-1	tout	tout	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Ind	2	nsubj	_	AlignBegin=201011|AlignEnd=201136
+1	tout	tout	PRON	_	PronType=Ind	2	nsubj	_	AlignBegin=201011|AlignEnd=201136|Gender[lex]=Masc|Number[lex]=Sing|Person[lex]=3
 2	est	être	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	AlignBegin=201136|AlignEnd=201266
 3	en	en	ADP	_	_	4	case	_	AlignBegin=201266|AlignEnd=201356
 4	fonction	fonction	NOUN	_	_	2	obl:arg	_	AlignBegin=201356|AlignEnd=201706|Gender[lex]=Fem|Number[ctxt]=Sing
@@ -4567,7 +4567,7 @@
 # sound_url = https://rhapsodie.modyco.fr/rp/waves/Rhap-D0009.mp3
 # macrosyntax = $- $L2 "mh" //
 # text = mh.
-1	mh	mh	INTJ	_	_	0	root	_	AlignBegin=202917|AlignEnd=203134|AttachTo=8@Rhap_D0009-126|Overlap=Rhap_D0009-128|Rel=discourse|SpaceAfter=No
+1	mh	mh	INTJ	_	_	0	root	_	AlignBegin=202917|AlignEnd=203134|Backchannel=Rhap_D0009-126::8|Overlap=Rhap_D0009-128|SpaceAfter=No
 2	.	.	PUNCT	_	_	1	punct	_	AlignBegin=203365|AlignEnd=203365|Overlap=Rhap_D0009-100
 
 # sent_id = Rhap_D0009-128
@@ -4597,7 +4597,7 @@
 # macrosyntax = $L1 si -$ tu as une $- pièce lumineuse ESPERLUETTE //
 # text = si tu as une pièce lumineuse…
 1	si	si	SCONJ	_	_	3	discourse	_	AlignBegin=203134|AlignEnd=203365|Overlap=Rhap_D0009-127
-2	tu	toi	PRON	_	Case=Nom|Emph=No|Number=Sing|Person=2|PronType=Prs	3	nsubj	_	AlignBegin=203365|AlignEnd=203535
+2	tu	toi	PRON	_	Case=Nom|Emph=No|PronType=Prs	3	nsubj	_	AlignBegin=203365|AlignEnd=203535|Number[lex]=Sing|Person[lex]=2
 3	as	avoir	VERB	_	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	0	root	_	AlignBegin=203535|AlignEnd=203595
 4	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	5	det	_	AlignBegin=203595|AlignEnd=203777
 5	pièce	pièce	NOUN	_	_	3	obj	_	AlignBegin=203777|AlignEnd=205248|Gender[lex]=Fem|Number[ctxt]=Sing|Overlap=Rhap_D0009-129
@@ -4636,8 +4636,8 @@
 4	,	,	PUNCT	_	_	3	punct	_	AlignBegin=205248|AlignEnd=203777|Overlap=Rhap_D0009-100
 5	mais	mais	CCONJ	_	_	21	cc	_	AlignBegin=203962|AlignEnd=204142|Overlap=Rhap_D0009-128
 6	si	si	SCONJ	_	_	8	mark	_	AlignBegin=204142|AlignEnd=204322|Overlap=Rhap_D0009-128
-7	je	moi	PRON	_	Case=Nom|Emph=No|Number=Sing|Person=1|PronType=Prs	8	nsubj	_	AlignBegin=204322|AlignEnd=204352|Overlap=Rhap_D0009-128
-8	veux	vouloir	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	21	advcl	_	AlignBegin=204352|AlignEnd=204472|Overlap=Rhap_D0009-128
+7	je	moi	PRON	_	Case=Nom|Emph=No|PronType=Prs	8	nsubj	_	AlignBegin=204322|AlignEnd=204352|Number[lex]=Sing|Overlap=Rhap_D0009-128|Person[lex]=1
+8	veux	vouloir	VERB	_	Mood=Ind|Number=Sing|Tense=Pres|VerbForm=Fin	21	advcl	_	AlignBegin=204352|AlignEnd=204472|Overlap=Rhap_D0009-128|Person[ctxt]=1
 9	garder	garder	VERB	_	VerbForm=Inf	8	xcomp	_	AlignBegin=204472|AlignEnd=205248|Overlap=Rhap_D0009-128|Subject=SubjRaising
 10	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	11	det	_	AlignBegin=205248|AlignEnd=205533|HasSpokenGender=OnlySingExceptWithLiaison
 11	teintes	teinte	NOUN	_	_	9	obj	_	AlignBegin=205533|AlignEnd=205833|Gender[lex]=Fem|Number[ctxt]=Plur
@@ -4647,7 +4647,7 @@
 15	,	,	PUNCT	_	_	16	punct	_	AlignBegin=206433|AlignEnd=206433
 16	non	non	ADV	_	Polarity=Neg	14	discourse	_	AlignBegin=206433|AlignEnd=206713|SpaceAfter=No
 17	,	,	PUNCT	_	_	8	punct	_	AlignBegin=206713|AlignEnd=206713
-18	c'	ce	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	21	nsubj	_	AlignBegin=206713|AlignEnd=206773|SpaceAfter=No
+18	c'	ce	PRON	_	PronType=Dem	21	nsubj	_	AlignBegin=206713|AlignEnd=206773|Gender[lex]=Masc|Number[lex]=Sing|Person[lex]=3|SpaceAfter=No
 19	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	21	cop	_	AlignBegin=206773|AlignEnd=206853
 20	pas	pas	ADV	_	Polarity=Neg	21	advmod	_	AlignBegin=206853|AlignEnd=206993
 21	possible	possible	ADJ	_	_	0	root	_	AlignBegin=206993|AlignEnd=207447|Gender[ctxt]=Masc|HasSpokenGender=No|HasSpokenNumber=OnlyWithLiaison|Number[ctxt]=Sing|SpaceAfter=No
@@ -4679,7 +4679,7 @@
 # sound_url = https://rhapsodie.modyco.fr/rp/waves/Rhap-D0009.mp3
 # macrosyntax = $- c'est pas obligé //
 # text = c'est pas obligé.
-1	c'	ce	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	4	nsubj	_	AlignBegin=207848|AlignEnd=207881|Overlap=Rhap_D0009-131|SpaceAfter=No
+1	c'	ce	PRON	_	PronType=Dem	4	nsubj	_	AlignBegin=207848|AlignEnd=207881|Gender[lex]=Masc|Number[lex]=Sing|Overlap=Rhap_D0009-131|Person[lex]=3|SpaceAfter=No
 2	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	aux:tense	_	AlignBegin=207881|AlignEnd=207952|Overlap=Rhap_D0009-131
 3	pas	pas	ADV	_	Polarity=Neg	4	advmod	_	AlignBegin=207952|AlignEnd=208032|Overlap=Rhap_D0009-131
 4	obligé	obliger	VERB	_	VerbForm=Part|Voice=Act	0	root	_	AlignBegin=208032|AlignEnd=208454|Gender[ctxt]=Masc|Number[ctxt]=Sing|Overlap=Rhap_D0009-131|PastPartHasSpokenGender=NotInThisDialect|SpaceAfter=No|Tense[denom]=Past
@@ -4713,7 +4713,7 @@
 # text = mh, c'est pas une obligation.
 1	mh	mh	INTJ	_	_	7	discourse	_	AlignBegin=207447|AlignEnd=207848|Overlap=Rhap_D0009-130|SpaceAfter=No
 2	,	,	PUNCT	_	_	1	punct	_	AlignBegin=208454|AlignEnd=208454
-3	c'	ce	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	7	nsubj	_	AlignBegin=208454|AlignEnd=208609|SpaceAfter=No
+3	c'	ce	PRON	_	PronType=Dem	7	nsubj	_	AlignBegin=208454|AlignEnd=208609|Gender[lex]=Masc|Number[lex]=Sing|Person[lex]=3|SpaceAfter=No
 4	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	cop	_	AlignBegin=208609|AlignEnd=208719
 5	pas	pas	ADV	_	Polarity=Neg	7	advmod	_	AlignBegin=208719|AlignEnd=208809
 6	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	7	det	_	AlignBegin=208809|AlignEnd=208899|LiaisonAfter=Yes
@@ -4775,7 +4775,7 @@
 # sound_url = https://rhapsodie.modyco.fr/rp/waves/Rhap-D0009.mp3
 # macrosyntax = $L2 j'ai { un -$ { beige | beige clair } | un velours beige clair } //
 # text = j'ai un beige, beige clair, un velours beige clair.
-1	j'	moi	PRON	_	Case=Nom|Emph=No|Number=Sing|Person=1|PronType=Prs	2	nsubj	_	AlignBegin=209470|AlignEnd=209928|Overlap=Rhap_D0009-132|SpaceAfter=No
+1	j'	moi	PRON	_	Case=Nom|Emph=No|PronType=Prs	2	nsubj	_	AlignBegin=209470|AlignEnd=209928|Number[lex]=Sing|Overlap=Rhap_D0009-132|Person[lex]=1|SpaceAfter=No
 2	ai	avoir	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	AlignBegin=209928|AlignEnd=210008|Overlap=Rhap_D0009-132
 3	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	4	det	_	AlignBegin=210008|AlignEnd=210530|Overlap=Rhap_D0009-132
 4	beige	beige	NOUN	_	_	10	reparandum	_	AlignBegin=210530|AlignEnd=211184|Gender[lex]=Masc|Number[ctxt]=Sing|SpaceAfter=No
@@ -4823,9 +4823,9 @@
 6	,	,	PUNCT	_	_	9	punct	_	AlignBegin=214909|AlignEnd=214909
 7	enfin	enfin	ADV	_	_	9	discourse	_	AlignBegin=214909|AlignEnd=215109|SpaceAfter=No
 8	,	,	PUNCT	_	_	7	punct	_	AlignBegin=215109|AlignEnd=215109
-9	moi	moi	PRON	_	Emph=Yes|Number=Sing|Person=1|PronType=Prs	0	root	_	AlignBegin=215109|AlignEnd=215242|SpaceAfter=No
+9	moi	moi	PRON	_	Emph=Yes|PronType=Prs	0	root	_	AlignBegin=215109|AlignEnd=215242|Number[lex]=Sing|Person[lex]=1|SpaceAfter=No
 10	,	,	PUNCT	_	_	11	punct	_	AlignBegin=215242|AlignEnd=215242
-11	ce	ce	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	9	dep	_	AlignBegin=215242|AlignEnd=215371|Scrap=Yes
+11	ce	ce	PRON	_	PronType=Dem	9	dep	_	AlignBegin=215242|AlignEnd=215371|Gender[lex]=Masc|Number[lex]=Sing|Person[lex]=3|Scrap=Yes
 12	que	que	PRON	_	PronType=Rel	11	nmod	_	AlignBegin=215371|AlignEnd=215419
 13	j~	j~	X	_	ExtPos=PRON	12	dep	_	AlignBegin=215419|AlignEnd=215649|Scrap=Yes|SpaceAfter=No
 14	…	…	PUNCT	_	_	9	punct	_	AlignBegin=215649|AlignEnd=215649
@@ -4857,7 +4857,7 @@
 # macrosyntax = si c'est pour mettre dans la pièce ici ESPERLUETTE //
 # text = si c'est pour mettre dans la pièce ici…
 1	si	si	SCONJ	_	_	5	mark	_	AlignBegin=215649|AlignEnd=215739
-2	c'	ce	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	5	nsubj	_	AlignBegin=215739|AlignEnd=215789|SpaceAfter=No
+2	c'	ce	PRON	_	PronType=Dem	5	nsubj	_	AlignBegin=215739|AlignEnd=215789|Gender[lex]=Masc|Number[lex]=Sing|Person[lex]=3|SpaceAfter=No
 3	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	cop	_	AlignBegin=215789|AlignEnd=215849
 4	pour	pour	ADP	_	_	5	mark	_	AlignBegin=215849|AlignEnd=215959
 5	mettre	mettre	VERB	_	VerbForm=Inf	0	root	_	AlignBegin=215959|AlignEnd=216099|Subject=NoRaising
@@ -4896,7 +4896,7 @@
 1	oui	oui	INTJ	_	_	6	discourse	_	AlignBegin=217569|AlignEnd=217644|SpaceAfter=No
 2	,	,	PUNCT	_	_	1	punct	_	AlignBegin=217644|AlignEnd=217644
 3	mais	mais	CCONJ	_	_	6	cc	_	AlignBegin=217644|AlignEnd=217754
-4	j'	moi	PRON	_	Case=Nom|Emph=No|Number=Sing|Person=1|PronType=Prs	6	nsubj	_	AlignBegin=217754|AlignEnd=217784|SpaceAfter=No
+4	j'	moi	PRON	_	Case=Nom|Emph=No|PronType=Prs	6	nsubj	_	AlignBegin=217754|AlignEnd=217784|Number[lex]=Sing|Person[lex]=1|SpaceAfter=No
 5	aurais	avoir	AUX	_	Mood=Cnd|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	6	aux:tense	_	AlignBegin=217784|AlignEnd=217934
 6	mis	mettre	VERB	_	Gender=Masc|VerbForm=Part|Voice=Act	0	root	_	AlignBegin=217934|AlignEnd=218054|PastPartHasSpokenGender=Yes|Tense[denom]=Past
 7	des	un	DET	_	Definite=Ind|Number=Plur|PronType=Art	8	det	_	AlignBegin=218054|AlignEnd=218194
@@ -4908,7 +4908,7 @@
 13	,	,	PUNCT	_	_	14	punct	_	AlignBegin=219233|AlignEnd=219233
 14	rouge	rouge	ADJ	_	_	10	amod	_	AlignBegin=219233|AlignEnd=219598|Gender[ctxt]=Masc|HasSpokenGender=No|HasSpokenNumber=OnlyWithLiaison|Number[ctxt]=Sing|Overlap=Rhap_D0009-137
 15	comme	comme	SCONJ	_	_	17	mark	_	AlignBegin=219598|AlignEnd=219758|Overlap=Rhap_D0009-137
-16	j'	moi	PRON	_	Case=Nom|Emph=No|Number=Sing|Person=1|PronType=Prs	17	nsubj	_	AlignBegin=219758|AlignEnd=219858|Overlap=Rhap_D0009-138|SpaceAfter=No
+16	j'	moi	PRON	_	Case=Nom|Emph=No|PronType=Prs	17	nsubj	_	AlignBegin=219758|AlignEnd=219858|Number[lex]=Sing|Overlap=Rhap_D0009-138|Person[lex]=1|SpaceAfter=No
 17	ai	avoir	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	8	acl	_	AlignBegin=219858|AlignEnd=220003|Overlap=Rhap_D0009-138
 18	sur	sur	ADP	_	_	21	case	_	AlignBegin=220003|AlignEnd=220188|Overlap=Rhap_D0009-138
 19	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	20	reparandum	_	AlignBegin=220188|AlignEnd=220498|HasSpokenGender=OnlySingExceptWithLiaison|Overlap=Rhap_D0009-138
@@ -4978,9 +4978,9 @@
 3	,	,	PUNCT	_	_	8	punct	_	AlignBegin=221545|AlignEnd=219233|Overlap=Rhap_D0009-108
 4	ouais	ouais	INTJ	_	_	8	discourse	_	AlignBegin=219233|AlignEnd=221545|Overlap=Rhap_D0009-136|SpaceAfter=No
 5	,	,	PUNCT	_	_	4	punct	_	AlignBegin=221545|AlignEnd=219233|Overlap=Rhap_D0009-108
-6	c'	ce	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	8	nsubj	_	AlignBegin=219233|AlignEnd=221545|Overlap=Rhap_D0009-136|SpaceAfter=No
+6	c'	ce	PRON	_	PronType=Dem	8	nsubj	_	AlignBegin=219233|AlignEnd=221545|Gender[lex]=Masc|Number[lex]=Sing|Overlap=Rhap_D0009-136|Person[lex]=3|SpaceAfter=No
 7	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	cop	_	AlignBegin=219233|AlignEnd=221545|Overlap=Rhap_D0009-136
-8	ça	ça	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	0	root	_	AlignBegin=219233|AlignEnd=221545|Overlap=Rhap_D0009-136|SpaceAfter=No
+8	ça	ça	PRON	_	PronType=Dem	0	root	_	AlignBegin=219233|AlignEnd=221545|Gender[lex]=Masc|Number[lex]=Sing|Overlap=Rhap_D0009-136|Person[lex]=3|SpaceAfter=No
 9	.	.	PUNCT	_	_	8	punct	_	AlignBegin=221545|AlignEnd=221545|Overlap=Rhap_D0009-108
 
 # sent_id = Rhap_D0009-139
@@ -5016,10 +5016,10 @@
 4	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	AlignBegin=221545|AlignEnd=221620
 5	fait	fait	NOUN	_	_	21	obl:mod	_	AlignBegin=221620|AlignEnd=221768|Gender[lex]=Masc|Number[ctxt]=Sing
 6	que	que	SCONJ	_	_	8	mark	_	AlignBegin=221768|AlignEnd=221948
-7	tu	toi	PRON	_	Case=Nom|Emph=No|Number=Sing|Person=2|PronType=Prs	8	nsubj	_	AlignBegin=221948|AlignEnd=222080
+7	tu	toi	PRON	_	Case=Nom|Emph=No|PronType=Prs	8	nsubj	_	AlignBegin=221948|AlignEnd=222080|Number[lex]=Sing|Person[lex]=2
 8	as	avoir	VERB	_	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	5	acl	_	AlignBegin=222080|AlignEnd=222150
 9	déjà	déjà	ADV	_	_	8	advmod	_	AlignBegin=222150|AlignEnd=222400
-10	quelque	quelque	DET	_	Number=Sing|PronType=Ind	11	det	_	AlignBegin=222400|AlignEnd=222640
+10	quelque	quelque	DET	_	PronType=Ind	11	det	_	AlignBegin=222400|AlignEnd=222640|Number[lex]=Sing
 11	chose	chose	NOUN	_	_	8	obj	_	AlignBegin=222640|AlignEnd=222900|Gender[lex]=Fem|Number[ctxt]=Sing
 12	d'	de	ADP	_	_	13	case	_	AlignBegin=222900|AlignEnd=222930|SpaceAfter=No
 13	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	17	reparandum	_	AlignBegin=222930|AlignEnd=223150|Scrap=Yes|SpaceAfter=No
@@ -5029,7 +5029,7 @@
 17	fond	fond	NOUN	_	_	11	nmod	_	AlignBegin=223280|AlignEnd=223490|Gender[lex]=Masc|Number[ctxt]=Sing
 18	clair	clair	ADJ	_	_	17	amod	_	AlignBegin=223490|AlignEnd=223910|Gender[ctxt]=Masc|HasSpokenGender=No|HasSpokenNumber=OnlyWithLiaison|Number[ctxt]=Sing|SpaceAfter=No
 19	,	,	PUNCT	_	_	5	punct	_	AlignBegin=223910|AlignEnd=224461
-20	je	moi	PRON	_	Case=Nom|Emph=No|Number=Sing|Person=1|PronType=Prs	21	nsubj	_	AlignBegin=224461|AlignEnd=224536
+20	je	moi	PRON	_	Case=Nom|Emph=No|PronType=Prs	21	nsubj	_	AlignBegin=224461|AlignEnd=224536|Number[lex]=Sing|Person[lex]=1
 21	crains	craindre	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Fut|VerbForm=Fin	0	root	_	AlignBegin=224536|AlignEnd=224786
 22	que	que	SCONJ	_	_	38	mark	_	AlignBegin=224786|AlignEnd=224986
 23	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	24	det	_	AlignBegin=224986|AlignEnd=225086|HasSpokenGender=OnlySingExceptWithLiaison
@@ -5046,8 +5046,8 @@
 34	petit	petit	ADJ	_	Gender=Masc	33	fixed	_	AlignBegin=227306|AlignEnd=227466|HasSpokenGender=YesExceptSingWithLiaison|HasSpokenNumber=OnlyWithLiaison|InIdiom=Yes|Number[ctxt]=Sing
 35	peu	peu	NOUN	_	_	33	fixed	_	AlignBegin=227466|AlignEnd=227646|InIdiom=Yes|SpaceAfter=No
 36	,	,	PUNCT	_	_	33	punct	_	AlignBegin=227646|AlignEnd=227646
-37	ça	ça	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	38	nsubj	_	AlignBegin=227646|AlignEnd=227886
-38	risque	risquer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	21	ccomp	_	AlignBegin=227886|AlignEnd=228227
+37	ça	ça	PRON	_	PronType=Dem	38	nsubj	_	AlignBegin=227646|AlignEnd=227886|Gender[lex]=Masc|Number[lex]=Sing|Person[lex]=3
+38	risque	risquer	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	21	ccomp	_	AlignBegin=227886|AlignEnd=228227|Number[ctxt]=Sing|Person[ctxt]=3
 39	de	de	ADP	_	_	38	obl:arg	_	AlignBegin=228227|AlignEnd=228806|Scrap=Yes
 40	XXX	XXX	X	_	_	39	dep	_	AlignBegin=228806|AlignEnd=230930|Overlap=Rhap_D0009-141|Scrap=Yes|SpaceAfter=No
 41	…	…	PUNCT	_	_	21	punct	_	AlignBegin=230930|AlignEnd=230930|Overlap=Rhap_D0009-112
@@ -5078,7 +5078,7 @@
 # sound_url = https://rhapsodie.modyco.fr/rp/waves/Rhap-D0009.mp3
 # macrosyntax = ^parce ^que -$ du fait que tu as déjà quelque chose { d'un | d'un } fond clair < ( $L2 "mh" // ) je crains que [ { le beige | { ^et le | ^et { le | le } } jaunâtre un petit peu } < ça risque de $- XXX ] //
 # text = mh.
-1	mh	mh	INTJ	_	_	0	root	_	AlignBegin=223989|AlignEnd=224260|AttachTo=18@Rhap_D0009-139|Rel=discourse|SpaceAfter=No
+1	mh	mh	INTJ	_	_	0	root	_	AlignBegin=223989|AlignEnd=224260|Backchannel=Rhap_D0009-139::18|SpaceAfter=No
 2	.	.	PUNCT	_	_	1	punct	_	AlignBegin=224260|AlignEnd=224260
 
 # sent_id = Rhap_D0009-141
@@ -5183,7 +5183,7 @@
 # sound_url = https://rhapsodie.modyco.fr/rp/waves/Rhap-D0009.mp3
 # macrosyntax = $L2 oui //
 # text = oui.
-1	oui	oui	INTJ	_	_	0	root	_	AlignBegin=233732|AlignEnd=233960|AttachTo=1@Rhap_D0009-142|Rel=discourse|SpaceAfter=No
+1	oui	oui	INTJ	_	_	0	root	_	AlignBegin=233732|AlignEnd=233960|Backchannel=Rhap_D0009-142::1|SpaceAfter=No
 2	.	.	PUNCT	_	_	1	punct	_	AlignBegin=233960|AlignEnd=233960
 
 # sent_id = Rhap_D0009-144
@@ -5243,9 +5243,9 @@
 # sound_url = https://rhapsodie.modyco.fr/rp/waves/Rhap-D0009.mp3
 # macrosyntax = ça < c'est bon //
 # text = ça, c'est bon.
-1	ça	ça	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	5	dislocated	_	AlignBegin=235166|AlignEnd=235328|SpaceAfter=No
+1	ça	ça	PRON	_	PronType=Dem	5	dislocated	_	AlignBegin=235166|AlignEnd=235328|Gender[lex]=Masc|Number[lex]=Sing|Person[lex]=3|SpaceAfter=No
 2	,	,	PUNCT	_	_	1	punct	_	AlignBegin=235328|AlignEnd=235328
-3	c'	ce	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	5	nsubj	_	AlignBegin=235328|AlignEnd=235408|SpaceAfter=No
+3	c'	ce	PRON	_	PronType=Dem	5	nsubj	_	AlignBegin=235328|AlignEnd=235408|Gender[lex]=Masc|Number[lex]=Sing|Person[lex]=3|SpaceAfter=No
 4	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	cop	_	AlignBegin=235408|AlignEnd=235468
 5	bon	bon	ADJ	_	Gender=Masc	0	root	_	AlignBegin=235468|AlignEnd=235718|HasSpokenGender=YesExceptSingWithLiaison|HasSpokenNumber=OnlyWithLiaison|Number[ctxt]=Sing|SpaceAfter=No
 6	.	.	PUNCT	_	_	5	punct	_	AlignBegin=235718|AlignEnd=235718
@@ -5276,10 +5276,10 @@
 # sound_url = https://rhapsodie.modyco.fr/rp/waves/Rhap-D0009.mp3
 # macrosyntax = ça < ça fait un contraste //
 # text = ça, ça fait un contraste.
-1	ça	ça	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	4	dislocated	_	AlignBegin=235718|AlignEnd=235848|SpaceAfter=No
+1	ça	ça	PRON	_	PronType=Dem	4	dislocated	_	AlignBegin=235718|AlignEnd=235848|Gender[lex]=Masc|Number[lex]=Sing|Person[lex]=3|SpaceAfter=No
 2	,	,	PUNCT	_	_	1	punct	_	AlignBegin=235848|AlignEnd=235848
-3	ça	ça	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	4	nsubj	_	AlignBegin=235848|AlignEnd=235988
-4	fait	faire	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	AlignBegin=235988|AlignEnd=236108
+3	ça	ça	PRON	_	PronType=Dem	4	nsubj	_	AlignBegin=235848|AlignEnd=235988|Gender[lex]=Masc|Number[lex]=Sing|Person[lex]=3
+4	fait	faire	VERB	_	Mood=Ind|Number=Sing|Tense=Pres|VerbForm=Fin	0	root	_	AlignBegin=235988|AlignEnd=236108|Person[ctxt]=3
 5	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	6	det	_	AlignBegin=236108|AlignEnd=236138
 6	contraste	contraste	NOUN	_	_	4	obj	_	AlignBegin=236138|AlignEnd=236647|Gender[lex]=Masc|Number[ctxt]=Sing|SpaceAfter=No
 7	.	.	PUNCT	_	_	4	punct	_	AlignBegin=236647|AlignEnd=236647
@@ -5310,7 +5310,7 @@
 # sound_url = https://rhapsodie.modyco.fr/rp/waves/Rhap-D0009.mp3
 # macrosyntax = $L2 "mh" //
 # text = mh.
-1	mh	mh	INTJ	_	_	0	root	_	AlignBegin=236647|AlignEnd=236906|AttachTo=6@Rhap_D0009-146|Rel=discourse|SpaceAfter=No
+1	mh	mh	INTJ	_	_	0	root	_	AlignBegin=236647|AlignEnd=236906|Backchannel=Rhap_D0009-146::6|SpaceAfter=No
 2	.	.	PUNCT	_	_	1	punct	_	AlignBegin=236906|AlignEnd=236906
 
 # sent_id = Rhap_D0009-148
@@ -5372,18 +5372,18 @@
 # text = et est-ce qu'il faut que j'aie, parce que j'aime pas trop, la frange tout autour encore ?
 1	et	et	CCONJ	_	_	6	cc	_	AlignBegin=237931|AlignEnd=238086
 2	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	cop	_	AlignBegin=238086|AlignEnd=238136|SpaceAfter=No
-3	-ce	ce	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	6	expl:subj	_	AlignBegin=238136|AlignEnd=238166
+3	-ce	ce	PRON	_	PronType=Dem	6	expl:subj	_	AlignBegin=238136|AlignEnd=238166|Gender[lex]=Masc|Number[lex]=Sing|Person[lex]=3
 4	qu'	que	SCONJ	_	_	6	mark	_	AlignBegin=238166|AlignEnd=238216|SpaceAfter=No
-5	il	lui	PRON	_	Case=Nom|Emph=No|Gender=Masc|Number=Sing|Person=3|PronType=Prs	6	expl:subj	_	AlignBegin=238216|AlignEnd=238356
-6	faut	falloir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	AlignBegin=238356|AlignEnd=238666
+5	il	lui	PRON	_	Case=Nom|Emph=No|Gender=Masc|Number=Sing|PronType=Prs	6	expl:subj	_	AlignBegin=238216|AlignEnd=238356|Person[lex]=3
+6	faut	falloir	VERB	_	Mood=Ind|Number=Sing|Tense=Pres|VerbForm=Fin	0	root	_	AlignBegin=238356|AlignEnd=238666|Person[ctxt]=3
 7	que	que	SCONJ	_	_	9	mark	_	AlignBegin=238666|AlignEnd=238809
-8	j'	moi	PRON	_	Case=Nom|Emph=No|Number=Sing|Person=1|PronType=Prs	9	nsubj	_	AlignBegin=238809|AlignEnd=238923|SpaceAfter=No
+8	j'	moi	PRON	_	Case=Nom|Emph=No|PronType=Prs	9	nsubj	_	AlignBegin=238809|AlignEnd=238923|Number[lex]=Sing|Person[lex]=1|SpaceAfter=No
 9	aie	avoir	VERB	_	Mood=Sub|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	6	ccomp	_	AlignBegin=238923|AlignEnd=239168|SpaceAfter=No
 10	,	,	PUNCT	_	_	14	punct	_	AlignBegin=239168|AlignEnd=239431
 11	parce	parce	ADV	_	ExtPos=SCONJ	14	mark	_	AlignBegin=239431|AlignEnd=239576|Idiom=Yes
 12	que	que	SCONJ	_	_	11	fixed	_	AlignBegin=239576|AlignEnd=239656|InIdiom=Yes
-13	j'	moi	PRON	_	Case=Nom|Emph=No|Number=Sing|Person=1|PronType=Prs	14	nsubj	_	AlignBegin=239656|AlignEnd=239726|SpaceAfter=No
-14	aime	aimer	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	9	parataxis:parenth	_	AlignBegin=239726|AlignEnd=239866
+13	j'	moi	PRON	_	Case=Nom|Emph=No|PronType=Prs	14	nsubj	_	AlignBegin=239656|AlignEnd=239726|Number[lex]=Sing|Person[lex]=1|SpaceAfter=No
+14	aime	aimer	VERB	_	Mood=Ind|Number=Sing|Tense=Pres|VerbForm=Fin	9	parataxis:parenth	_	AlignBegin=239726|AlignEnd=239866|Person[ctxt]=1
 15	pas	pas	ADV	_	Polarity=Neg	16	advmod	_	AlignBegin=239866|AlignEnd=240006
 16	trop	trop	ADV	_	_	14	advmod	_	AlignBegin=240006|AlignEnd=240346|SpaceAfter=No
 17	,	,	PUNCT	_	_	19	punct	_	AlignBegin=240346|AlignEnd=240346
@@ -5422,7 +5422,7 @@
 # text = parce que c'était une frange de vingt, trente.
 1	parce	parce	ADV	_	ExtPos=SCONJ	6	mark	_	AlignBegin=242479|AlignEnd=242501|Idiom=Yes
 2	que	que	SCONJ	_	_	1	fixed	_	AlignBegin=242501|AlignEnd=242607|InIdiom=Yes
-3	c'	ce	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	6	nsubj	_	AlignBegin=242607|AlignEnd=242661|SpaceAfter=No
+3	c'	ce	PRON	_	PronType=Dem	6	nsubj	_	AlignBegin=242607|AlignEnd=242661|Gender[lex]=Masc|Number[lex]=Sing|Person[lex]=3|SpaceAfter=No
 4	était	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	6	cop	_	AlignBegin=242661|AlignEnd=242841
 5	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	6	det	_	AlignBegin=242841|AlignEnd=242949
 6	frange	frange	NOUN	_	_	0	root	_	AlignBegin=242949|AlignEnd=243339|Gender[lex]=Fem|Number[ctxt]=Sing
@@ -5524,7 +5524,7 @@
 # sound_url = https://rhapsodie.modyco.fr/rp/waves/Rhap-D0009.mp3
 # macrosyntax = c'est pas une obligation //
 # text = c'est pas une obligation.
-1	c'	ce	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	5	nsubj	_	AlignBegin=245136|AlignEnd=245191|SpaceAfter=No
+1	c'	ce	PRON	_	PronType=Dem	5	nsubj	_	AlignBegin=245136|AlignEnd=245191|Gender[lex]=Masc|Number[lex]=Sing|Person[lex]=3|SpaceAfter=No
 2	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	cop	_	AlignBegin=245191|AlignEnd=245251
 3	pas	pas	ADV	_	Polarity=Neg	5	advmod	_	AlignBegin=245251|AlignEnd=245361
 4	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	5	det	_	AlignBegin=245361|AlignEnd=245391|LiaisonAfter=Yes
@@ -5558,14 +5558,14 @@
 # macrosyntax = si ça t'embête < tu ne le mets pas //
 # text = si ça t'embête, tu ne le mets pas.
 1	si	si	SCONJ	_	_	4	mark	_	AlignBegin=247281|AlignEnd=247386
-2	ça	ça	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	4	nsubj	_	AlignBegin=247386|AlignEnd=247506
-3	t'	toi	PRON	_	Case=Acc|Emph=No|Number=Sing|Person=2|PronType=Prs	4	obj	_	AlignBegin=247506|AlignEnd=247556|SpaceAfter=No
-4	embête	embêter	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	advcl	_	AlignBegin=247556|AlignEnd=247776|SpaceAfter=No
+2	ça	ça	PRON	_	PronType=Dem	4	nsubj	_	AlignBegin=247386|AlignEnd=247506|Gender[lex]=Masc|Number[lex]=Sing|Person[lex]=3
+3	t'	toi	PRON	_	Case=Acc|Emph=No|PronType=Prs	4	obj	_	AlignBegin=247506|AlignEnd=247556|Number[lex]=Sing|Person[lex]=2|SpaceAfter=No
+4	embête	embêter	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	9	advcl	_	AlignBegin=247556|AlignEnd=247776|Number[ctxt]=Sing|Person[ctxt]=3|SpaceAfter=No
 5	,	,	PUNCT	_	_	4	punct	_	AlignBegin=247776|AlignEnd=247776
-6	tu	toi	PRON	_	Case=Nom|Emph=No|Number=Sing|Person=2|PronType=Prs	9	nsubj	_	AlignBegin=247776|AlignEnd=247856
+6	tu	toi	PRON	_	Case=Nom|Emph=No|PronType=Prs	9	nsubj	_	AlignBegin=247776|AlignEnd=247856|Number[lex]=Sing|Person[lex]=2
 7	ne	ne	ADV	_	Polarity=Neg	9	advmod	_	AlignBegin=247856|AlignEnd=247882
-8	le	le	PRON	_	Case=Acc|Emph=No|Gender=Masc|Number=Sing|Person=3|PronType=Prs	9	obj	_	AlignBegin=247882|AlignEnd=247966
-9	mets	mettre	VERB	_	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	0	root	_	AlignBegin=247966|AlignEnd=248156
+8	le	lui	PRON	_	Case=Acc|Emph=No|Gender=Masc|Number=Sing|PronType=Prs	9	obj	_	AlignBegin=247882|AlignEnd=247966|Person[lex]=3
+9	mets	mettre	VERB	_	Mood=Ind|Number=Sing|Tense=Pres|VerbForm=Fin	0	root	_	AlignBegin=247966|AlignEnd=248156|Person[ctxt]=2
 10	pas	pas	ADV	_	Polarity=Neg	9	advmod	_	AlignBegin=248156|AlignEnd=248340|SpaceAfter=No
 11	.	.	PUNCT	_	_	9	punct	_	AlignBegin=248340|AlignEnd=248340
 
@@ -5598,7 +5598,7 @@
 1	mais	mais	CCONJ	_	_	5	cc	_	AlignBegin=248823|AlignEnd=249812|Overlap=Rhap_D0009-156
 2	initialement	initialement	ADV	_	_	5	advmod	_	AlignBegin=248823|AlignEnd=249812|Overlap=Rhap_D0009-156|SpaceAfter=No
 3	,	,	PUNCT	_	_	2	punct	_	AlignBegin=249812|AlignEnd=248823|Overlap=Rhap_D0009-124
-4	elle	lui	PRON	_	Case=Nom|Emph=No|Gender=Fem|Number=Sing|Person=3|PronType=Prs	5	nsubj	_	AlignBegin=248823|AlignEnd=249812|Overlap=Rhap_D0009-156
+4	elle	lui	PRON	_	Case=Nom|Emph=No|Gender=Fem|Number=Sing|PronType=Prs	5	nsubj	_	AlignBegin=248823|AlignEnd=249812|Overlap=Rhap_D0009-156|Person[lex]=3
 5	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	AlignBegin=248823|AlignEnd=249812|Overlap=Rhap_D0009-156|Scrap=Yes|SpaceAfter=No
 6	…	…	PUNCT	_	_	5	punct	_	AlignBegin=249812|AlignEnd=249812|Overlap=Rhap_D0009-124
 
@@ -5630,10 +5630,10 @@
 # text = mais est-ce qu'il faut que les pieds soient quand même, euh, cachés ?
 1	mais	mais	CCONJ	_	_	6	cc	_	AlignBegin=249002|AlignEnd=249248|Overlap=Rhap_D0009-155
 2	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	cop	_	AlignBegin=249248|AlignEnd=249335|Overlap=Rhap_D0009-155|SpaceAfter=No
-3	-ce	ce	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	6	expl:subj	_	AlignBegin=249335|AlignEnd=249450|Overlap=Rhap_D0009-155
+3	-ce	ce	PRON	_	PronType=Dem	6	expl:subj	_	AlignBegin=249335|AlignEnd=249450|Gender[lex]=Masc|Number[lex]=Sing|Overlap=Rhap_D0009-155|Person[lex]=3
 4	qu'	que	SCONJ	_	_	6	mark	_	AlignBegin=249450|AlignEnd=249490|Overlap=Rhap_D0009-155|SpaceAfter=No
-5	il	lui	PRON	_	Case=Nom|Emph=No|Gender=Masc|Number=Sing|Person=3|PronType=Prs	6	expl:subj	_	AlignBegin=249490|AlignEnd=249658|Overlap=Rhap_D0009-155
-6	faut	falloir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	AlignBegin=249658|AlignEnd=249812|Overlap=Rhap_D0009-155
+5	il	lui	PRON	_	Case=Nom|Emph=No|Gender=Masc|Number=Sing|PronType=Prs	6	expl:subj	_	AlignBegin=249490|AlignEnd=249658|Overlap=Rhap_D0009-155|Person[lex]=3
+6	faut	falloir	VERB	_	Mood=Ind|Number=Sing|Tense=Pres|VerbForm=Fin	0	root	_	AlignBegin=249658|AlignEnd=249812|Overlap=Rhap_D0009-155|Person[ctxt]=3
 7	que	que	SCONJ	_	_	16	mark	_	AlignBegin=249812|AlignEnd=249877
 8	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	9	det	_	AlignBegin=249877|AlignEnd=250057|HasSpokenGender=OnlySingExceptWithLiaison
 9	pieds	pied	NOUN	_	_	16	nsubj:pass	_	AlignBegin=250057|AlignEnd=250277|Gender[lex]=Masc|Number[ctxt]=Plur
@@ -5672,7 +5672,7 @@
 # sound_url = https://rhapsodie.modyco.fr/rp/waves/Rhap-D0009.mp3
 # macrosyntax = $L1 non //
 # text = non.
-1	non	non	ADV	_	Polarity=Neg	0	root	_	AlignBegin=252476|AlignEnd=252824|AttachTo=2@Rhap_D0009-156|Rel=comp:pred|SpaceAfter=No
+1	non	non	ADV	_	Polarity=Neg	0	root	_	AlignBegin=252476|AlignEnd=252824|Backchannel=Rhap_D0009-156::2|SpaceAfter=No
 2	.	.	PUNCT	_	_	1	punct	_	AlignBegin=276889|AlignEnd=276889
 
 # sent_id = Rhap_D0009-158
@@ -5734,15 +5734,15 @@
 1	dans	dans	ADP	_	_	3	case	_	AlignBegin=254002|AlignEnd=254132
 2	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	AlignBegin=254132|AlignEnd=254222|HasSpokenGender=OnlySingExceptWithLiaison
 3	mesure	mesurer	NOUN	_	_	15	obl:mod	_	AlignBegin=254222|AlignEnd=254452|Gender[lex]=Fem|Number[ctxt]=Sing
-4	où	où	PRON	_	PronType=Rel	6	obl:mod	_	AlignBegin=254452|AlignEnd=254572
-5	tu	toi	PRON	_	Case=Nom|Emph=No|Number=Sing|Person=2|PronType=Prs	6	nsubj	_	AlignBegin=254572|AlignEnd=254662
+4	où	où	ADV	_	PronType=Rel	6	advmod	_	AlignBegin=254452|AlignEnd=254572
+5	tu	toi	PRON	_	Case=Nom|Emph=No|PronType=Prs	6	nsubj	_	AlignBegin=254572|AlignEnd=254662|Number[lex]=Sing|Person[lex]=2
 6	vas	aller	VERB	_	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	3	acl:relcl	_	AlignBegin=254662|AlignEnd=254782
 7	pas	pas	ADV	_	Polarity=Neg	6	advmod	_	AlignBegin=254782|AlignEnd=254872
 8	mettre	mettre	VERB	_	VerbForm=Inf	6	xcomp	_	AlignBegin=254872|AlignEnd=255013|Subject=SubjRaising
 9	de	de	ADP	_	_	10	case	_	AlignBegin=255013|AlignEnd=255116
 10	frange	frange	NOUN	_	_	8	obj	_	AlignBegin=255116|AlignEnd=255392|Gender[lex]=Fem|Number[ctxt]=Sing|SpaceAfter=No
 11	,	,	PUNCT	_	_	3	punct	_	AlignBegin=255392|AlignEnd=255392
-12	c'	ce	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	15	nsubj	_	AlignBegin=255392|AlignEnd=255422|SpaceAfter=No
+12	c'	ce	PRON	_	PronType=Dem	15	nsubj	_	AlignBegin=255392|AlignEnd=255422|Gender[lex]=Masc|Number[lex]=Sing|Person[lex]=3|SpaceAfter=No
 13	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	15	cop	_	AlignBegin=255422|AlignEnd=255452
 14	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	15	det	_	AlignBegin=255452|AlignEnd=255538
 15	XXX	XXX	X	_	ExtPos=PROPN	0	root	_	AlignBegin=255538|AlignEnd=256061|SpaceAfter=No
@@ -5807,7 +5807,7 @@
 # text = parce que j'ai regardé sur un catalogue.
 1	parce	parce	ADV	_	ExtPos=SCONJ	5	mark	_	AlignBegin=256286|AlignEnd=256476|Idiom=Yes
 2	que	que	SCONJ	_	_	1	fixed	_	AlignBegin=256476|AlignEnd=256566|InIdiom=Yes
-3	j'	moi	PRON	_	Case=Nom|Emph=No|Number=Sing|Person=1|PronType=Prs	5	nsubj	_	AlignBegin=256566|AlignEnd=256636|SpaceAfter=No
+3	j'	moi	PRON	_	Case=Nom|Emph=No|PronType=Prs	5	nsubj	_	AlignBegin=256566|AlignEnd=256636|Number[lex]=Sing|Person[lex]=1|SpaceAfter=No
 4	ai	avoir	AUX	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	5	aux:tense	_	AlignBegin=256636|AlignEnd=256826
 5	regardé	regarder	VERB	_	VerbForm=Part|Voice=Act	0	root	_	AlignBegin=256826|AlignEnd=257262|Gender[ctxt]=Masc|Number[ctxt]=Sing|PastPartHasSpokenGender=NotInThisDialect|Tense[denom]=Past
 6	sur	sur	ADP	_	_	8	case	_	AlignBegin=257262|AlignEnd=257426
@@ -5842,7 +5842,7 @@
 # macrosyntax = ^et j'ai vu qu' [ en fait < le tissu parfois descendait $- jusqu'au bas ] //
 # text = et j'ai vu qu'en fait, le tissu parfois descendait jusqu'au bas.
 1	et	et	CCONJ	_	_	4	cc	_	AlignBegin=258400|AlignEnd=258550
-2	j'	moi	PRON	_	Case=Nom|Emph=No|Number=Sing|Person=1|PronType=Prs	4	nsubj	_	AlignBegin=258550|AlignEnd=258647|SpaceAfter=No
+2	j'	moi	PRON	_	Case=Nom|Emph=No|PronType=Prs	4	nsubj	_	AlignBegin=258550|AlignEnd=258647|Number[lex]=Sing|Person[lex]=1|SpaceAfter=No
 3	ai	avoir	AUX	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	4	aux:tense	_	AlignBegin=258647|AlignEnd=258797
 4	vu	voir	VERB	_	VerbForm=Part|Voice=Act	0	root	_	AlignBegin=258797|AlignEnd=259036|Gender[ctxt]=Masc|Number[ctxt]=Sing|PastPartHasSpokenGender=NotInThisDialect|Tense[denom]=Past
 5	qu'	que	SCONJ	_	_	12	mark	_	AlignBegin=259036|AlignEnd=259105|SpaceAfter=No
@@ -5852,7 +5852,7 @@
 9	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	10	det	_	AlignBegin=259515|AlignEnd=259615|HasSpokenGender=OnlySingExceptWithLiaison
 10	tissu	tissu	NOUN	_	_	12	nsubj	_	AlignBegin=259615|AlignEnd=260155|Gender[lex]=Masc|Number[ctxt]=Sing
 11	parfois	parfois	ADV	_	_	12	advmod	_	AlignBegin=260155|AlignEnd=260686
-12	descendait	descendre	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	4	ccomp	_	AlignBegin=261097|AlignEnd=261534
+12	descendait	descendre	VERB	_	Mood=Ind|Tense=Imp|VerbForm=Fin	4	ccomp	_	AlignBegin=261097|AlignEnd=261534|Number[ctxt]=Sing|Person[ctxt]=3
 13	jusqu'	jusque	ADP	_	_	16	case	_	AlignBegin=261534|AlignEnd=261739|Overlap=Rhap_D0009-163|SpaceAfter=No
 14-15	au	_	_	_	_	_	_	_	_
 14	à	à	ADP	_	_	16	case	_	AlignBegin=261739|AlignEnd=261899|Overlap=Rhap_D0009-163
@@ -5954,7 +5954,7 @@
 # text = soit que c'était une frange, soit le tissu, ou rien.
 1	soit	soit	CCONJ	_	_	6	cc	_	AlignBegin=263364|AlignEnd=263549
 2	que	que	SCONJ	_	_	6	mark	_	AlignBegin=263549|AlignEnd=263579
-3	c'	ce	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	6	nsubj	_	AlignBegin=263579|AlignEnd=263609|SpaceAfter=No
+3	c'	ce	PRON	_	PronType=Dem	6	nsubj	_	AlignBegin=263579|AlignEnd=263609|Gender[lex]=Masc|Number[lex]=Sing|Person[lex]=3|SpaceAfter=No
 4	était	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	6	cop	_	AlignBegin=263609|AlignEnd=263819
 5	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	6	det	_	AlignBegin=263819|AlignEnd=263899
 6	frange	frange	NOUN	_	_	0	root	_	AlignBegin=263899|AlignEnd=264149|Gender[lex]=Fem|Number[ctxt]=Sing|SpaceAfter=No
@@ -5964,7 +5964,7 @@
 10	tissu	tissu	NOUN	_	_	6	conj	_	AlignBegin=264319|AlignEnd=264696|Gender[lex]=Masc|Number[ctxt]=Sing|SpaceAfter=No
 11	,	,	PUNCT	_	_	13	punct	_	AlignBegin=264696|AlignEnd=265218
 12	ou	ou	CCONJ	_	_	13	cc	_	AlignBegin=265218|AlignEnd=265293
-13	rien	rien	PRON	_	Gender=Masc|Number=Sing|PronType=Neg	6	conj	_	AlignBegin=265293|AlignEnd=265547|SpaceAfter=No
+13	rien	rien	PRON	_	PronType=Neg	6	conj	_	AlignBegin=265293|AlignEnd=265547|Gender[lex]=Masc|Number[lex]=Sing|SpaceAfter=No
 14	.	.	PUNCT	_	_	6	punct	_	AlignBegin=265547|AlignEnd=265547
 
 # sent_id = Rhap_D0009-166
@@ -5996,8 +5996,8 @@
 1	oui	oui	INTJ	_	_	6	discourse	_	AlignBegin=265975|AlignEnd=266070|SpaceAfter=No
 2	,	,	PUNCT	_	_	1	punct	_	AlignBegin=266070|AlignEnd=266070
 3	mais	mais	CCONJ	_	_	6	cc	_	AlignBegin=266070|AlignEnd=266230
-4	ça	ça	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	6	nsubj	_	AlignBegin=266230|AlignEnd=266330
-5	le	le	PRON	_	Case=Acc|Emph=No|Gender=Masc|Number=Sing|Person=3|PronType=Prs	6	obj	_	AlignBegin=266330|AlignEnd=266430
+4	ça	ça	PRON	_	PronType=Dem	6	nsubj	_	AlignBegin=266230|AlignEnd=266330|Gender[lex]=Masc|Number[lex]=Sing|Person[lex]=3
+5	le	lui	PRON	_	Case=Acc|Emph=No|Gender=Masc|Number=Sing|PronType=Prs	6	obj	_	AlignBegin=266330|AlignEnd=266430|Person[lex]=3
 6	déguise	déguiser	VERB	_	VerbForm=Part	0	root	_	AlignBegin=266430|AlignEnd=266790|Gender[ctxt]=Masc|Number[ctxt]=Sing|PastPartHasSpokenGender=NotInThisDialect|Tense[denom]=Past
 7	pas	pas	ADV	_	Polarity=Neg	6	advmod	_	AlignBegin=266790|AlignEnd=266932
 8-9	du	_	_	_	_	_	_	_	_
@@ -6005,7 +6005,7 @@
 9	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	10	det	_	AlignBegin=266932|AlignEnd=267075
 10	fait	fait	NOUN	_	_	6	obl:mod	_	AlignBegin=267075|AlignEnd=267280|Gender[lex]=Masc|Number[ctxt]=Sing
 11	que	que	SCONJ	_	_	15	mark	_	AlignBegin=267280|AlignEnd=267420
-12	c'	ce	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	15	nsubj	_	AlignBegin=267420|AlignEnd=267540|SpaceAfter=No
+12	c'	ce	PRON	_	PronType=Dem	15	nsubj	_	AlignBegin=267420|AlignEnd=267540|Gender[lex]=Masc|Number[lex]=Sing|Person[lex]=3|SpaceAfter=No
 13	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	15	cop	_	AlignBegin=267540|AlignEnd=267700
 14	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	15	det	_	AlignBegin=267700|AlignEnd=268020
 15	fauteuil	fauteuil	NOUN	_	_	10	acl	_	AlignBegin=268020|AlignEnd=268400|Gender[lex]=Masc|Number[ctxt]=Sing
@@ -6105,9 +6105,9 @@
 # sound_url = https://rhapsodie.modyco.fr/rp/waves/Rhap-D0009.mp3
 # macrosyntax = il y avait les deux //
 # text = il y avait les deux.
-1	il	lui	PRON	_	Case=Nom|Emph=No|Gender=Masc|Number=Sing|Person=3|PronType=Prs	3	expl:subj	_	AlignBegin=269882|AlignEnd=269930
-2	y	y	PRON	_	Person=3|PronType=Prs	3	expl:comp	_	AlignBegin=269930|AlignEnd=269971
-3	avait	avoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	AlignBegin=269971|AlignEnd=270079
+1	il	lui	PRON	_	Case=Nom|Emph=No|Gender=Masc|Number=Sing|PronType=Prs	3	expl:subj	_	AlignBegin=269882|AlignEnd=269930|Person[lex]=3
+2	y	y	PRON	_	PronType=Prs	3	expl:comp	_	AlignBegin=269930|AlignEnd=269971|Person[lex]=3
+3	avait	avoir	VERB	_	Mood=Ind|Tense=Imp|VerbForm=Fin	0	root	_	AlignBegin=269971|AlignEnd=270079|Number[ctxt]=Sing|Person[ctxt]=3
 4	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	5	det	_	AlignBegin=270079|AlignEnd=270184|HasSpokenGender=OnlySingExceptWithLiaison
 5	deux	deux	NUM	_	_	3	obl:mod	_	AlignBegin=270184|AlignEnd=270407|Number[lex]=Plur|SpaceAfter=No
 6	.	.	PUNCT	_	_	3	punct	_	AlignBegin=270407|AlignEnd=270407
@@ -6140,8 +6140,8 @@
 # text = parce que ça donne un aspect, quand même, plus moderne si tu mets le tissu tout autour.
 1	parce	parce	ADV	_	ExtPos=SCONJ	4	mark	_	AlignBegin=271093|AlignEnd=271190|Idiom=Yes
 2	que	que	SCONJ	_	_	1	fixed	_	AlignBegin=271190|AlignEnd=271293|InIdiom=Yes
-3	ça	ça	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	4	nsubj	_	AlignBegin=271293|AlignEnd=271436
-4	donne	donner	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	AlignBegin=271436|AlignEnd=271561
+3	ça	ça	PRON	_	PronType=Dem	4	nsubj	_	AlignBegin=271293|AlignEnd=271436|Gender[lex]=Masc|Number[lex]=Sing|Person[lex]=3
+4	donne	donner	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	AlignBegin=271436|AlignEnd=271561|Number[ctxt]=Sing|Person[ctxt]=3
 5	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	6	det	_	AlignBegin=271561|AlignEnd=271698|LiaisonAfter=Yes
 6	aspect	aspect	NOUN	_	_	4	obj	_	AlignBegin=271698|AlignEnd=271988|Gender[lex]=Masc|LiaisonPossibleBefore=Yes|Number[ctxt]=Sing|SpaceAfter=No
 7	,	,	PUNCT	_	_	8	punct	_	AlignBegin=271988|AlignEnd=271988
@@ -6151,8 +6151,8 @@
 11	plus	plus	ADV	_	_	12	advmod	_	AlignBegin=272238|AlignEnd=272378
 12	moderne	moderne	ADJ	_	_	6	amod	_	AlignBegin=272378|AlignEnd=272839|Gender[ctxt]=Masc|HasSpokenGender=No|HasSpokenNumber=OnlyWithLiaison|Number[ctxt]=Sing
 13	si	si	SCONJ	_	_	15	mark	_	AlignBegin=272839|AlignEnd=272999
-14	tu	toi	PRON	_	Case=Nom|Emph=No|Number=Sing|Person=2|PronType=Prs	15	nsubj	_	AlignBegin=272999|AlignEnd=273426
-15	mets	mettre	VERB	_	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	4	advcl	_	AlignBegin=273426|AlignEnd=274491|Overlap=Rhap_D0009-171
+14	tu	toi	PRON	_	Case=Nom|Emph=No|PronType=Prs	15	nsubj	_	AlignBegin=272999|AlignEnd=273426|Number[lex]=Sing|Person[lex]=2
+15	mets	mettre	VERB	_	Mood=Ind|Number=Sing|Tense=Pres|VerbForm=Fin	4	advcl	_	AlignBegin=273426|AlignEnd=274491|Overlap=Rhap_D0009-171|Person[ctxt]=2
 16	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	17	det	_	AlignBegin=273426|AlignEnd=274491|HasSpokenGender=OnlySingExceptWithLiaison|Overlap=Rhap_D0009-171
 17	tissu	tissu	NOUN	_	_	15	obj	_	AlignBegin=273426|AlignEnd=274491|Gender[lex]=Masc|Number[ctxt]=Sing|Overlap=Rhap_D0009-171
 18	tout	tout	ADV	_	_	19	advmod	_	AlignBegin=273426|AlignEnd=274491|Overlap=Rhap_D0009-171
@@ -6249,7 +6249,7 @@
 # macrosyntax = ^mais c'est pas gênant //
 # text = mais c'est pas gênant.
 1	mais	mais	CCONJ	_	_	5	cc	_	AlignBegin=274971|AlignEnd=275058
-2	c'	ce	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	5	nsubj	_	AlignBegin=275058|AlignEnd=275138|SpaceAfter=No
+2	c'	ce	PRON	_	PronType=Dem	5	nsubj	_	AlignBegin=275058|AlignEnd=275138|Gender[lex]=Masc|Number[lex]=Sing|Person[lex]=3|SpaceAfter=No
 3	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	cop	_	AlignBegin=275138|AlignEnd=275218
 4	pas	pas	ADV	_	Polarity=Neg	5	advmod	_	AlignBegin=275218|AlignEnd=275328
 5	gênant	gênant	ADJ	_	Gender=Masc	0	root	_	AlignBegin=275328|AlignEnd=275651|HasSpokenGender=YesExceptSingWithLiaison|HasSpokenNumber=OnlyWithLiaison|Number[ctxt]=Sing|SpaceAfter=No
@@ -6283,7 +6283,7 @@
 # text = ah, c'est pas gênant.
 1	ah	ah	INTJ	_	_	6	discourse	_	AlignBegin=276124|AlignEnd=276169|Overlap=Rhap_D0009-175|SpaceAfter=No
 2	,	,	PUNCT	_	_	1	punct	_	AlignBegin=276889|AlignEnd=276124|Overlap=Rhap_D0009-139
-3	c'	ce	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	6	nsubj	_	AlignBegin=276169|AlignEnd=276249|Overlap=Rhap_D0009-175|SpaceAfter=No
+3	c'	ce	PRON	_	PronType=Dem	6	nsubj	_	AlignBegin=276169|AlignEnd=276249|Gender[lex]=Masc|Number[lex]=Sing|Overlap=Rhap_D0009-175|Person[lex]=3|SpaceAfter=No
 4	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	cop	_	AlignBegin=276249|AlignEnd=276359|Overlap=Rhap_D0009-175
 5	pas	pas	ADV	_	Polarity=Neg	6	advmod	_	AlignBegin=276359|AlignEnd=276469|Overlap=Rhap_D0009-175
 6	gênant	gênant	ADJ	_	Gender=Masc	0	root	_	AlignBegin=276469|AlignEnd=276889|HasSpokenGender=YesExceptSingWithLiaison|HasSpokenNumber=OnlyWithLiaison|Number[ctxt]=Sing|Overlap=Rhap_D0009-175|SpaceAfter=No
@@ -6380,8 +6380,8 @@
 1	par	par	ADP	_	ExtPos=ADV	7	advmod	_	AlignBegin=277890|AlignEnd=278050|Idiom=Yes
 2	contre	contre	NOUN	_	_	1	fixed	_	AlignBegin=278050|AlignEnd=278190|InIdiom=Yes|SpaceAfter=No
 3	,	,	PUNCT	_	_	1	punct	_	AlignBegin=278190|AlignEnd=278190
-4	je	moi	PRON	_	Case=Nom|Emph=No|Number=Sing|Person=1|PronType=Prs	7	nsubj	_	AlignBegin=278190|AlignEnd=278230
-5	l'	le	PRON	_	Case=Acc|Emph=No|Number=Sing|Person=3|PronType=Prs	7	obj	_	AlignBegin=278230|AlignEnd=278320|SpaceAfter=No
+4	je	moi	PRON	_	Case=Nom|Emph=No|PronType=Prs	7	nsubj	_	AlignBegin=278190|AlignEnd=278230|Number[lex]=Sing|Person[lex]=1
+5	l'	lui	PRON	_	Case=Acc|Emph=No|Number=Sing|PronType=Prs	7	obj	_	AlignBegin=278230|AlignEnd=278320|Person[lex]=3|SpaceAfter=No
 6	ai	avoir	AUX	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	7	aux:tense	_	AlignBegin=278320|AlignEnd=278390
 7	gardée	garder	VERB	_	VerbForm=Part|Voice=Act	0	root	_	AlignBegin=278390|AlignEnd=278720|Gender[ctxt]=Fem|Number[ctxt]=Sing|PastPartHasSpokenGender=NotInThisDialect|Tense[denom]=Past
 8	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	9	det	_	AlignBegin=278720|AlignEnd=278900|HasSpokenGender=OnlySingExceptWithLiaison
@@ -6415,7 +6415,7 @@
 # macrosyntax = ^mais c'est inutilisable "hein" //
 # text = mais c'est inutilisable, hein.
 1	mais	mais	CCONJ	_	_	4	cc	_	AlignBegin=279170|AlignEnd=279290
-2	c'	ce	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	4	nsubj	_	AlignBegin=279290|AlignEnd=279430|SpaceAfter=No
+2	c'	ce	PRON	_	PronType=Dem	4	nsubj	_	AlignBegin=279290|AlignEnd=279430|Gender[lex]=Masc|Number[lex]=Sing|Person[lex]=3|SpaceAfter=No
 3	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	AlignBegin=279430|AlignEnd=279650
 4	inutilisable	inutilisable	ADJ	_	_	0	root	_	AlignBegin=279650|AlignEnd=280540|Gender[ctxt]=Masc|HasSpokenGender=No|HasSpokenNumber=OnlyWithLiaison|Number[ctxt]=Sing|SpaceAfter=No
 5	,	,	PUNCT	_	_	6	punct	_	AlignBegin=280540|AlignEnd=280540
@@ -6479,7 +6479,7 @@
 # sound_url = https://rhapsodie.modyco.fr/rp/waves/Rhap-D0009.mp3
 # macrosyntax = ça a pris la poussière //
 # text = ça a pris la poussière.
-1	ça	ça	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	3	nsubj	_	AlignBegin=282069|AlignEnd=282174
+1	ça	ça	PRON	_	PronType=Dem	3	nsubj	_	AlignBegin=282069|AlignEnd=282174|Gender[lex]=Masc|Number[lex]=Sing|Person[lex]=3
 2	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	aux:tense	_	AlignBegin=282174|AlignEnd=282294
 3	pris	prendre	VERB	_	Gender=Masc|VerbForm=Part|Voice=Act	0	root	_	AlignBegin=282294|AlignEnd=282474|PastPartHasSpokenGender=Yes|Tense[denom]=Past
 4	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	AlignBegin=282474|AlignEnd=282634|HasSpokenGender=OnlySingExceptWithLiaison
@@ -6512,7 +6512,7 @@
 # sound_url = https://rhapsodie.modyco.fr/rp/waves/Rhap-D0009.mp3
 # macrosyntax = c'est ESPERLUETTE //
 # text = c'est…
-1	c'	ce	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	2	nsubj	_	AlignBegin=283364|AlignEnd=283494|SpaceAfter=No
+1	c'	ce	PRON	_	PronType=Dem	2	nsubj	_	AlignBegin=283364|AlignEnd=283494|Gender[lex]=Masc|Number[lex]=Sing|Person[lex]=3|SpaceAfter=No
 2	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	AlignBegin=283494|AlignEnd=283787|Scrap=Yes|SpaceAfter=No
 3	…	…	PUNCT	_	_	2	punct	_	AlignBegin=283787|AlignEnd=283787
 
@@ -6579,10 +6579,10 @@
 3	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	AlignBegin=284581|AlignEnd=284651
 4	nettoyage	nettoyage	NOUN	_	_	1	obl:arg	_	AlignBegin=284651|AlignEnd=285191|Gender[lex]=Masc|Number[ctxt]=Sing|SpaceAfter=No
 5	,	,	PUNCT	_	_	1	punct	_	AlignBegin=285221|AlignEnd=285221
-6	je	moi	PRON	_	Case=Nom|Emph=No|Number=Sing|Person=1|PronType=Prs	7	nsubj	_	AlignBegin=285191|AlignEnd=285221
-7	crois	croire	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	AlignBegin=285221|AlignEnd=285371
+6	je	moi	PRON	_	Case=Nom|Emph=No|PronType=Prs	7	nsubj	_	AlignBegin=285191|AlignEnd=285221|Number[lex]=Sing|Person[lex]=1
+7	crois	croire	VERB	_	Mood=Ind|Number=Sing|Tense=Pres|VerbForm=Fin	0	root	_	AlignBegin=285221|AlignEnd=285371|Person[ctxt]=1
 8	que	que	SCONJ	_	_	13	mark	_	AlignBegin=285371|AlignEnd=285431
-9	c'	ce	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	13	nsubj	_	AlignBegin=285431|AlignEnd=285511|SpaceAfter=No
+9	c'	ce	PRON	_	PronType=Dem	13	nsubj	_	AlignBegin=285431|AlignEnd=285511|Gender[lex]=Masc|Number[lex]=Sing|Person[lex]=3|SpaceAfter=No
 10	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	13	cop	_	AlignBegin=285511|AlignEnd=285571
 11	pas	pas	ADV	_	Polarity=Neg	13	advmod	_	AlignBegin=285571|AlignEnd=285721
 12	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	13	det	_	AlignBegin=285721|AlignEnd=285862|HasSpokenGender=OnlySingExceptWithLiaison
@@ -6651,11 +6651,11 @@
 3	non	non	ADV	_	Polarity=Neg	1	conj	_	AlignBegin=287799|AlignEnd=287909|SpaceAfter=No
 4	,	,	PUNCT	_	_	1	punct	_	AlignBegin=287909|AlignEnd=287909
 5	mais	mais	CCONJ	_	_	7	cc	_	AlignBegin=287909|AlignEnd=288019
-6	tu	toi	PRON	_	Case=Nom|Emph=No|Number=Sing|Person=2|PronType=Prs	7	nsubj	_	AlignBegin=288019|AlignEnd=288119
-7	peux	pouvoir	VERB	_	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	0	root	_	AlignBegin=288119|AlignEnd=288229
+6	tu	toi	PRON	_	Case=Nom|Emph=No|PronType=Prs	7	nsubj	_	AlignBegin=288019|AlignEnd=288119|Number[lex]=Sing|Person[lex]=2
+7	peux	pouvoir	VERB	_	Mood=Ind|Number=Sing|Tense=Pres|VerbForm=Fin	0	root	_	AlignBegin=288119|AlignEnd=288229|Person[ctxt]=2
 8	faire	faire	VERB	_	VerbForm=Inf	7	xcomp	_	AlignBegin=288229|AlignEnd=288439|Subject=SubjRaising
 9	comme	comme	ADP	_	_	10	case	_	AlignBegin=288439|AlignEnd=288549
-10	ça	ça	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	7	obl:mod	_	AlignBegin=288549|AlignEnd=288739|SpaceAfter=No
+10	ça	ça	PRON	_	PronType=Dem	7	obl:mod	_	AlignBegin=288549|AlignEnd=288739|Gender[lex]=Masc|Number[lex]=Sing|Person[lex]=3|SpaceAfter=No
 11	.	.	PUNCT	_	_	7	punct	_	AlignBegin=288739|AlignEnd=288739
 
 # sent_id = Rhap_D0009-186
@@ -6689,10 +6689,10 @@
 3	,	,	PUNCT	_	_	1	punct	_	AlignBegin=288879|AlignEnd=288879
 4	bon	bon	INTJ	_	_	9	discourse	_	AlignBegin=288879|AlignEnd=289094|SpaceAfter=No
 5	,	,	PUNCT	_	_	4	punct	_	AlignBegin=289094|AlignEnd=289094
-6	tu	toi	PRON	_	Case=Nom|Emph=No|Number=Sing|Person=2|PronType=Prs	8	reparandum	_	AlignBegin=289094|AlignEnd=289529|SpaceAfter=No
+6	tu	toi	PRON	_	Case=Nom|Emph=No|PronType=Prs	8	reparandum	_	AlignBegin=289094|AlignEnd=289529|Number[lex]=Sing|Person[lex]=2|SpaceAfter=No
 7	,	,	PUNCT	_	_	6	punct	_	AlignBegin=289529|AlignEnd=290131
-8	tu	toi	PRON	_	Case=Nom|Emph=No|Number=Sing|Person=2|PronType=Prs	9	nsubj	_	AlignBegin=290131|AlignEnd=290236
-9	vois	voir	VERB	_	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	0	root	_	AlignBegin=290236|AlignEnd=290426
+8	tu	toi	PRON	_	Case=Nom|Emph=No|PronType=Prs	9	nsubj	_	AlignBegin=290131|AlignEnd=290236|Number[lex]=Sing|Person[lex]=2
+9	vois	voir	VERB	_	Mood=Ind|Number=Sing|Tense=Pres|VerbForm=Fin	0	root	_	AlignBegin=290236|AlignEnd=290426|Person[ctxt]=2
 10	avec	avec	ADP	_	_	12	case	_	AlignBegin=290426|AlignEnd=290616
 11	ce	ce	DET	_	Gender=Masc|Number=Sing|PronType=Dem	12	det	_	AlignBegin=290616|AlignEnd=290646|HasSpokenGender=OnlySingExceptWithLiaison
 12	monsieur	monsieur	NOUN	_	_	9	obl:arg	_	AlignBegin=290646|AlignEnd=290916|Gender[lex]=Masc|Number[ctxt]=Sing|SpaceAfter=No
@@ -6760,9 +6760,9 @@
 2	,	,	PUNCT	_	_	1	punct	_	AlignBegin=292314|AlignEnd=292314
 3	ben	ben	INTJ	_	_	8	discourse	_	AlignBegin=292314|AlignEnd=292449|SpaceAfter=No
 4	,	,	PUNCT	_	_	3	punct	_	AlignBegin=292449|AlignEnd=292449
-5	écoute	écouter	VERB	_	Mood=Imp|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	8	discourse	_	AlignBegin=292449|AlignEnd=292732|SpaceAfter=No
+5	écoute	écouter	VERB	_	Mood=Imp|Number=Sing|Tense=Pres|VerbForm=Fin	8	discourse	_	AlignBegin=292449|AlignEnd=292732|Person[ctxt]=2|SpaceAfter=No
 6	,	,	PUNCT	_	_	5	punct	_	AlignBegin=292732|AlignEnd=292732
-7	j'	moi	PRON	_	Case=Nom|Emph=No|Number=Sing|Person=1|PronType=Prs	8	nsubj	_	AlignBegin=292732|AlignEnd=292846|Overlap=Rhap_D0009-189|SpaceAfter=No
+7	j'	moi	PRON	_	Case=Nom|Emph=No|PronType=Prs	8	nsubj	_	AlignBegin=292732|AlignEnd=292846|Number[lex]=Sing|Overlap=Rhap_D0009-189|Person[lex]=1|SpaceAfter=No
 8	essaierai	essayer	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Fut|VerbForm=Fin	0	root	_	AlignBegin=292846|AlignEnd=293244|Overlap=Rhap_D0009-189|SpaceAfter=No
 9	.	.	PUNCT	_	_	8	punct	_	AlignBegin=293712|AlignEnd=293712|Overlap=Rhap_D0009-150bis
 
@@ -6822,14 +6822,14 @@
 # macrosyntax = si tu tiens à aller -$ là < il y a pas de problème //
 # text = si tu tiens à aller là, il y a pas de problème.
 1	si	si	SCONJ	_	_	3	mark	_	AlignBegin=292732|AlignEnd=293712|Overlap=Rhap_D0009-188
-2	tu	toi	PRON	_	Case=Nom|Emph=No|Number=Sing|Person=2|PronType=Prs	3	nsubj	_	AlignBegin=292732|AlignEnd=293712|Overlap=Rhap_D0009-188
-3	tiens	tenir	VERB	_	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	10	advcl	_	AlignBegin=292732|AlignEnd=293712|Overlap=Rhap_D0009-188
+2	tu	toi	PRON	_	Case=Nom|Emph=No|PronType=Prs	3	nsubj	_	AlignBegin=292732|AlignEnd=293712|Number[lex]=Sing|Overlap=Rhap_D0009-188|Person[lex]=2
+3	tiens	tenir	VERB	_	Mood=Ind|Number=Sing|Tense=Pres|VerbForm=Fin	10	advcl	_	AlignBegin=292732|AlignEnd=293712|Overlap=Rhap_D0009-188|Person[ctxt]=2
 4	à	à	ADP	_	_	5	mark	_	AlignBegin=292732|AlignEnd=293712|Overlap=Rhap_D0009-188
 5	aller	aller	VERB	_	VerbForm=Inf	3	xcomp	_	AlignBegin=292732|AlignEnd=293712|Overlap=Rhap_D0009-188|Subject=SubjRaising
 6	là	là	ADV	_	_	5	obj	_	AlignBegin=293712|AlignEnd=293827|SpaceAfter=No
 7	,	,	PUNCT	_	_	3	punct	_	AlignBegin=293827|AlignEnd=293827
-8	il	lui	PRON	_	Case=Nom|Emph=No|Gender=Masc|Number=Sing|Person=3|PronType=Prs	10	expl:subj	_	AlignBegin=293827|AlignEnd=293857
-9	y	y	PRON	_	Person=3|PronType=Prs	10	expl:comp	_	AlignBegin=293857|AlignEnd=293862
+8	il	lui	PRON	_	Case=Nom|Emph=No|Gender=Masc|Number=Sing|PronType=Prs	10	expl:subj	_	AlignBegin=293827|AlignEnd=293857|Person[lex]=3
+9	y	y	PRON	_	PronType=Prs	10	expl:comp	_	AlignBegin=293857|AlignEnd=293862|Person[lex]=3
 10	a	avoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	AlignBegin=293862|AlignEnd=293906
 11	pas	pas	ADV	_	Polarity=Neg	10	advmod	_	AlignBegin=293906|AlignEnd=294067
 12	de	de	ADP	_	_	13	case	_	AlignBegin=294097|AlignEnd=294505
@@ -6862,11 +6862,11 @@
 # sound_url = https://rhapsodie.modyco.fr/rp/waves/Rhap-D0009.mp3
 # macrosyntax = $L2 "je me disais" j'irai peut-être à Vire //
 # text = je me disais, j'irai peut-être à Vire.
-1	je	moi	PRON	_	Case=Nom|Emph=No|Number=Sing|Person=1|PronType=Prs	3	nsubj	_	AlignBegin=294733|AlignEnd=294778
-2	me	moi	PRON	_	Case=Dat|Emph=No|Number=Sing|Person=1|PronType=Prs	3	iobj	_	AlignBegin=294778|AlignEnd=294838
-3	disais	dire	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Imp|VerbForm=Fin	0	root	_	AlignBegin=294838|AlignEnd=295068|SpaceAfter=No
+1	je	moi	PRON	_	Case=Nom|Emph=No|PronType=Prs	3	nsubj	_	AlignBegin=294733|AlignEnd=294778|Number[lex]=Sing|Person[lex]=1
+2	me	moi	PRON	_	Case=Dat|Emph=No|PronType=Prs	3	iobj	_	AlignBegin=294778|AlignEnd=294838|Number[lex]=Sing|Person[lex]=1
+3	disais	dire	VERB	_	Mood=Ind|Number=Sing|Tense=Imp|VerbForm=Fin	0	root	_	AlignBegin=294838|AlignEnd=295068|Person[ctxt]=1|SpaceAfter=No
 4	,	,	PUNCT	_	_	6	punct	_	AlignBegin=295068|AlignEnd=295068
-5	j'	moi	PRON	_	Case=Nom|Emph=No|Number=Sing|Person=1|PronType=Prs	6	nsubj	_	AlignBegin=295068|AlignEnd=295168|SpaceAfter=No
+5	j'	moi	PRON	_	Case=Nom|Emph=No|PronType=Prs	6	nsubj	_	AlignBegin=295068|AlignEnd=295168|Number[lex]=Sing|Person[lex]=1|SpaceAfter=No
 6	irai	aller	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Fut|VerbForm=Fin	3	ccomp	_	AlignBegin=295168|AlignEnd=295358|Reported=Yes
 7	peut-être	peut-être	ADV	_	_	6	advmod	_	AlignBegin=295358|AlignEnd=295608
 8	à	à	ADP	_	_	9	case	_	AlignBegin=295608|AlignEnd=295698
@@ -6901,10 +6901,10 @@
 # text = parce qu'on était allé le voir ce monsieur-là.
 1	parce	parce	ADV	_	ExtPos=SCONJ	5	mark	_	AlignBegin=296008|AlignEnd=296168|Idiom=Yes
 2	qu'	que	SCONJ	_	_	1	fixed	_	AlignBegin=296168|AlignEnd=296198|InIdiom=Yes|SpaceAfter=No
-3	on	on	PRON	_	Case=Nom|Emph=No|Gender=Masc|Number=Sing|Person=3|PronType=Ind	5	nsubj:pass	_	AlignBegin=296198|AlignEnd=296368
+3	on	on	PRON	_	Case=Nom|Emph=No|PronType=Ind	5	nsubj:pass	_	AlignBegin=296198|AlignEnd=296368|Gender[ctxt]=Masc|Number[lex]=Sing|Person[lex]=3
 4	était	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	5	aux:pass	_	AlignBegin=296368|AlignEnd=296618
 5	allé	aller	VERB	_	VerbForm=Part|Voice=Pass	0	root	_	AlignBegin=296618|AlignEnd=296818|Gender[ctxt]=Masc|Number[ctxt]=Sing|PastPartHasSpokenGender=NotInThisDialect|Tense[denom]=Past
-6	le	le	PRON	_	Case=Acc|Emph=No|Gender=Masc|Number=Sing|Person=3|PronType=Prs	7	obj	_	AlignBegin=296818|AlignEnd=296848
+6	le	lui	PRON	_	Case=Acc|Emph=No|Gender=Masc|Number=Sing|PronType=Prs	7	obj	_	AlignBegin=296818|AlignEnd=296848|Person[lex]=3
 7	voir	voir	VERB	_	VerbForm=Inf	5	xcomp	_	AlignBegin=296848|AlignEnd=297189|Subject=SubjRaising
 8	ce	ce	DET	_	Gender=Masc|Number=Sing|PronType=Dem	9	det	_	AlignBegin=297189|AlignEnd=297278|HasSpokenGender=OnlySingExceptWithLiaison
 9	monsieur	monsieur	NOUN	_	_	7	dislocated	_	AlignBegin=297278|AlignEnd=297578|Gender[lex]=Masc|Number[ctxt]=Sing|SpaceAfter=No
@@ -6937,7 +6937,7 @@
 # sound_url = https://rhapsodie.modyco.fr/rp/waves/Rhap-D0009.mp3
 # macrosyntax = il était très sympa //
 # text = il était très sympa.
-1	il	lui	PRON	_	Case=Nom|Emph=No|Gender=Masc|Number=Sing|Person=3|PronType=Prs	4	nsubj	_	AlignBegin=298823|AlignEnd=298968
+1	il	lui	PRON	_	Case=Nom|Emph=No|Gender=Masc|Number=Sing|PronType=Prs	4	nsubj	_	AlignBegin=298823|AlignEnd=298968|Person[lex]=3
 2	était	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	4	cop	_	AlignBegin=298968|AlignEnd=299108
 3	très	très	ADV	_	_	4	advmod	_	AlignBegin=299108|AlignEnd=299298
 4	sympa	sympa	ADJ	_	_	0	root	_	AlignBegin=299298|AlignEnd=299858|Gender[ctxt]=Masc|HasSpokenGender=No|HasSpokenNumber=OnlyWithLiaison|Number[ctxt]=Sing|SpaceAfter=No
@@ -6999,8 +6999,8 @@
 # sound_url = https://rhapsodie.modyco.fr/rp/waves/Rhap-D0009.mp3
 # macrosyntax = $L1 je connais pas //
 # text = je connais pas.
-1	je	moi	PRON	_	Case=Nom|Emph=No|Number=Sing|Person=1|PronType=Prs	2	nsubj	_	AlignBegin=300751|AlignEnd=300806
-2	connais	connaître	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	AlignBegin=300806|AlignEnd=301006
+1	je	moi	PRON	_	Case=Nom|Emph=No|PronType=Prs	2	nsubj	_	AlignBegin=300751|AlignEnd=300806|Number[lex]=Sing|Person[lex]=1
+2	connais	connaître	VERB	_	Mood=Ind|Number=Sing|Tense=Pres|VerbForm=Fin	0	root	_	AlignBegin=300806|AlignEnd=301006|Person[ctxt]=1
 3	pas	pas	ADV	_	Polarity=Neg	2	advmod	_	AlignBegin=301006|AlignEnd=301216|SpaceAfter=No
 4	.	.	PUNCT	_	_	2	punct	_	AlignBegin=301216|AlignEnd=301216
 
@@ -7122,8 +7122,8 @@
 # sound_url = https://rhapsodie.modyco.fr/rp/waves/Rhap-D0009.mp3
 # macrosyntax = $L1 je connais pas //
 # text = je connais pas.
-1	je	moi	PRON	_	Case=Nom|Emph=No|Number=Sing|Person=1|PronType=Prs	2	nsubj	_	AlignBegin=303089|AlignEnd=303134
-2	connais	connaître	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	AlignBegin=303134|AlignEnd=303344
+1	je	moi	PRON	_	Case=Nom|Emph=No|PronType=Prs	2	nsubj	_	AlignBegin=303089|AlignEnd=303134|Number[lex]=Sing|Person[lex]=1
+2	connais	connaître	VERB	_	Mood=Ind|Number=Sing|Tense=Pres|VerbForm=Fin	0	root	_	AlignBegin=303134|AlignEnd=303344|Person[ctxt]=1
 3	pas	pas	ADV	_	Polarity=Neg	2	advmod	_	AlignBegin=303344|AlignEnd=303519|SpaceAfter=No
 4	.	.	PUNCT	_	_	2	punct	_	AlignBegin=303519|AlignEnd=303519
 
@@ -7153,10 +7153,10 @@
 # sound_url = https://rhapsodie.modyco.fr/rp/waves/Rhap-D0009.mp3
 # macrosyntax = $- $L1 moi < je travaille ESPERLUETTE //
 # text = moi, je travaille…
-1	moi	moi	PRON	_	Emph=Yes|Number=Sing|Person=1|PronType=Prs	4	dislocated	_	AlignBegin=304292|AlignEnd=304862|Overlap=Rhap_D0009-201|SpaceAfter=No
+1	moi	moi	PRON	_	Emph=Yes|PronType=Prs	4	dislocated	_	AlignBegin=304292|AlignEnd=304862|Number[lex]=Sing|Overlap=Rhap_D0009-201|Person[lex]=1|SpaceAfter=No
 2	,	,	PUNCT	_	_	1	punct	_	AlignBegin=304862|AlignEnd=304292|Overlap=Rhap_D0009-159
-3	je	moi	PRON	_	Case=Nom|Emph=No|Number=Sing|Person=1|PronType=Prs	4	nsubj	_	AlignBegin=304292|AlignEnd=304862|Overlap=Rhap_D0009-201
-4	travaille	travailler	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	AlignBegin=304292|AlignEnd=304862|Overlap=Rhap_D0009-201|SpaceAfter=No
+3	je	moi	PRON	_	Case=Nom|Emph=No|PronType=Prs	4	nsubj	_	AlignBegin=304292|AlignEnd=304862|Number[lex]=Sing|Overlap=Rhap_D0009-201|Person[lex]=1
+4	travaille	travailler	VERB	_	Mood=Ind|Number=Sing|Tense=Pres|VerbForm=Fin	0	root	_	AlignBegin=304292|AlignEnd=304862|Overlap=Rhap_D0009-201|Person[ctxt]=1|SpaceAfter=No
 5	…	…	PUNCT	_	_	4	punct	_	AlignBegin=304862|AlignEnd=304862|Overlap=Rhap_D0009-159
 
 # sent_id = Rhap_D0009-201
@@ -7220,7 +7220,7 @@
 # sound_url = https://rhapsodie.modyco.fr/rp/waves/Rhap-D0009.mp3
 # macrosyntax = $L1 ouais // -$
 # text = ouais.
-1	ouais	ouais	INTJ	_	_	0	root	_	AlignBegin=307271|AlignEnd=307386|AttachTo=7@Rhap_D0009-201|Overlap=Rhap_D0009-201|Rel=discourse|SpaceAfter=No
+1	ouais	ouais	INTJ	_	_	0	root	_	AlignBegin=307271|AlignEnd=307386|Backchannel=Rhap_D0009-201::7|Overlap=Rhap_D0009-201|SpaceAfter=No
 2	.	.	PUNCT	_	_	1	punct	_	AlignBegin=307386|AlignEnd=307386|Overlap=Rhap_D0009-159
 
 # sent_id = Rhap_D0009-203
@@ -7249,7 +7249,7 @@
 # sound_url = https://rhapsodie.modyco.fr/rp/waves/Rhap-D0009.mp3
 # macrosyntax = ouais //
 # text = ouais.
-1	ouais	ouais	INTJ	_	_	0	root	_	AlignBegin=0|AlignEnd=0|AttachTo=1@Rhap_D0009-202|Rel=parataxis:conj|SpaceAfter=No
+1	ouais	ouais	INTJ	_	_	0	root	_	AlignBegin=0|AlignEnd=0|Backchannel=Rhap_D0009-202::1|SpaceAfter=No
 2	.	.	PUNCT	_	_	1	punct	_	AlignBegin=0|AlignEnd=0
 
 # sent_id = Rhap_D0009-204
@@ -7278,10 +7278,10 @@
 # sound_url = https://rhapsodie.modyco.fr/rp/waves/Rhap-D0009.mp3
 # macrosyntax = moi < je travaille avec la maison Morel //
 # text = moi, je travaille avec la maison Morel.
-1	moi	moi	PRON	_	Emph=Yes|Number=Sing|Person=1|PronType=Prs	4	dislocated	_	AlignBegin=307386|AlignEnd=307486|SpaceAfter=No
+1	moi	moi	PRON	_	Emph=Yes|PronType=Prs	4	dislocated	_	AlignBegin=307386|AlignEnd=307486|Number[lex]=Sing|Person[lex]=1|SpaceAfter=No
 2	,	,	PUNCT	_	_	1	punct	_	AlignBegin=307486|AlignEnd=307486
-3	je	moi	PRON	_	Case=Nom|Emph=No|Number=Sing|Person=1|PronType=Prs	4	nsubj	_	AlignBegin=307486|AlignEnd=307586
-4	travaille	travailler	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	AlignBegin=307586|AlignEnd=307856
+3	je	moi	PRON	_	Case=Nom|Emph=No|PronType=Prs	4	nsubj	_	AlignBegin=307486|AlignEnd=307586|Number[lex]=Sing|Person[lex]=1
+4	travaille	travailler	VERB	_	Mood=Ind|Number=Sing|Tense=Pres|VerbForm=Fin	0	root	_	AlignBegin=307586|AlignEnd=307856|Person[ctxt]=1
 5	avec	avec	ADP	_	_	7	case	_	AlignBegin=307856|AlignEnd=308026
 6	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	det	_	AlignBegin=308026|AlignEnd=308126|HasSpokenGender=OnlySingExceptWithLiaison
 7	maison	maison	NOUN	_	_	4	obl:arg	_	AlignBegin=308126|AlignEnd=308316|Gender[lex]=Fem|Number[ctxt]=Sing
@@ -7318,13 +7318,13 @@
 2	,	,	PUNCT	_	_	6	punct	_	AlignBegin=308676|AlignEnd=308676
 3	bon	bon	INTJ	_	_	6	discourse	_	AlignBegin=308676|AlignEnd=308806|SpaceAfter=No
 4	,	,	PUNCT	_	_	3	punct	_	AlignBegin=308806|AlignEnd=308806
-5	chacun	chacun	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Ind	6	nsubj	_	AlignBegin=308806|AlignEnd=309146
+5	chacun	chacun	PRON	_	Gender=Masc|PronType=Ind	6	nsubj	_	AlignBegin=308806|AlignEnd=309146|Number[lex]=Sing|Person[lex]=3
 6	va	aller	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	reparandum	_	AlignBegin=309146|AlignEnd=309256|SpaceAfter=No
 7	,	,	PUNCT	_	_	6	punct	_	AlignBegin=309256|AlignEnd=309256
 8	va	aller	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	AlignBegin=309256|AlignEnd=309596
-9	où	où	PRON	_	PronType=Rel	8	iobj	_	AlignBegin=309596|AlignEnd=309676
-10	il	lui	PRON	_	Case=Nom|Emph=No|Gender=Masc|Number=Sing|Person=3|PronType=Prs	11	nsubj	_	AlignBegin=309676|AlignEnd=309816
-11	veut	vouloir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	acl:relcl	_	AlignBegin=309816|AlignEnd=309997|SpaceAfter=No
+9	où	où	ADV	_	PronType=Rel	8	obl:arg	_	AlignBegin=309596|AlignEnd=309676
+10	il	lui	PRON	_	Case=Nom|Emph=No|Gender=Masc|Number=Sing|PronType=Prs	11	nsubj	_	AlignBegin=309676|AlignEnd=309816|Person[lex]=3
+11	veut	vouloir	VERB	_	Mood=Ind|Number=Sing|Tense=Pres|VerbForm=Fin	9	acl:relcl	_	AlignBegin=309816|AlignEnd=309997|Person[ctxt]=3|SpaceAfter=No
 12	.	.	PUNCT	_	_	8	punct	_	AlignBegin=309997|AlignEnd=309997
 
 # sent_id = Rhap_D0009-206
@@ -7384,8 +7384,8 @@
 # sound_url = https://rhapsodie.modyco.fr/rp/waves/Rhap-D0009.mp3
 # macrosyntax = $L1 il y a pas de problème //=
 # text = il y a pas de problème.
-1	il	lui	PRON	_	Case=Nom|Emph=No|Gender=Masc|Number=Sing|Person=3|PronType=Prs	3	expl:subj	_	AlignBegin=310444|AlignEnd=310549
-2	y	y	PRON	_	Person=3|PronType=Prs	3	expl:comp	_	AlignBegin=310549|AlignEnd=310560
+1	il	lui	PRON	_	Case=Nom|Emph=No|Gender=Masc|Number=Sing|PronType=Prs	3	expl:subj	_	AlignBegin=310444|AlignEnd=310549|Person[lex]=3
+2	y	y	PRON	_	PronType=Prs	3	expl:comp	_	AlignBegin=310549|AlignEnd=310560|Person[lex]=3
 3	a	avoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	AlignBegin=310560|AlignEnd=310619
 4	pas	pas	ADV	_	Polarity=Neg	3	advmod	_	AlignBegin=310619|AlignEnd=310739
 5	de	de	ADP	_	_	6	case	_	AlignBegin=310739|AlignEnd=310769

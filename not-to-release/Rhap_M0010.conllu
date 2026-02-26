@@ -27,7 +27,7 @@
 # text = alors, tu vas sur le forum, là.
 1	alors	alors	ADV	_	_	4	advmod	_	AlignBegin=272|AlignEnd=566|SpaceAfter=No
 2	,	,	PUNCT	_	_	1	punct	_	AlignBegin=566|AlignEnd=566
-3	tu	toi	PRON	_	Case=Nom|Emph=No|Number=Sing|Person=2|PronType=Prs	4	nsubj	_	AlignBegin=566|AlignEnd=676
+3	tu	toi	PRON	_	Case=Nom|Emph=No|PronType=Prs	4	nsubj	_	AlignBegin=566|AlignEnd=676|Number[lex]=Sing|Person[lex]=2
 4	vas	aller	VERB	_	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	0	root	_	AlignBegin=676|AlignEnd=820
 5	sur	sur	ADP	_	_	7	case	_	AlignBegin=820|AlignEnd=986
 6	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	AlignBegin=986|AlignEnd=1037|HasSpokenGender=OnlySingExceptWithLiaison
@@ -64,7 +64,7 @@
 # text = ensuite, c'est des escaliers.
 1	ensuite	ensuite	ADV	_	_	6	advmod	_	AlignBegin=2114|AlignEnd=2401|SpaceAfter=No
 2	,	,	PUNCT	_	_	1	punct	_	AlignBegin=2401|AlignEnd=2401
-3	c'	ce	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	6	nsubj	_	AlignBegin=2401|AlignEnd=2507|SpaceAfter=No
+3	c'	ce	PRON	_	PronType=Dem	6	nsubj	_	AlignBegin=2401|AlignEnd=2507|Gender[lex]=Masc|Number[lex]=Sing|Person[lex]=3|SpaceAfter=No
 4	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	cop	_	AlignBegin=2507|AlignEnd=2622
 5	des	un	DET	_	Definite=Ind|Number=Plur|PronType=Art	6	det	_	AlignBegin=2622|AlignEnd=2748|LiaisonAfter=Yes
 6	escaliers	escalier	NOUN	_	_	0	root	_	AlignBegin=2748|AlignEnd=3309|Gender[lex]=Masc|LiaisonPossibleBefore=Yes|Number[ctxt]=Plur|SpaceAfter=No
@@ -96,8 +96,8 @@
 # sound_url = https://rhapsodie.modyco.fr/rp/waves/Rhap-M0010.mp3
 # macrosyntax = tu descends les escaliers //
 # text = tu descends les escaliers.
-1	tu	toi	PRON	_	Case=Nom|Emph=No|Number=Sing|Person=2|PronType=Prs	2	nsubj	_	AlignBegin=3569|AlignEnd=3638
-2	descends	descendre	VERB	_	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	0	root	_	AlignBegin=3638|AlignEnd=3907
+1	tu	toi	PRON	_	Case=Nom|Emph=No|PronType=Prs	2	nsubj	_	AlignBegin=3569|AlignEnd=3638|Number[lex]=Sing|Person[lex]=2
+2	descends	descendre	VERB	_	Mood=Ind|Number=Sing|Tense=Pres|VerbForm=Fin	0	root	_	AlignBegin=3638|AlignEnd=3907|Person[ctxt]=2
 3	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	4	det	_	AlignBegin=3907|AlignEnd=4001|HasSpokenGender=OnlySingExceptWithLiaison|LiaisonAfter=Yes
 4	escaliers	escalier	NOUN	_	_	2	obj	_	AlignBegin=4001|AlignEnd=4616|Gender[lex]=Masc|LiaisonPossibleBefore=Yes|Number[ctxt]=Plur|SpaceAfter=No
 5	.	.	PUNCT	_	_	2	punct	_	AlignBegin=4616|AlignEnd=4616
@@ -128,7 +128,7 @@
 # sound_url = https://rhapsodie.modyco.fr/rp/waves/Rhap-M0010.mp3
 # macrosyntax = tu vas tout droit //
 # text = tu vas tout droit.
-1	tu	toi	PRON	_	Case=Nom|Emph=No|Number=Sing|Person=2|PronType=Prs	2	nsubj	_	AlignBegin=4987|AlignEnd=5061
+1	tu	toi	PRON	_	Case=Nom|Emph=No|PronType=Prs	2	nsubj	_	AlignBegin=4987|AlignEnd=5061|Number[lex]=Sing|Person[lex]=2
 2	vas	aller	VERB	_	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	0	root	_	AlignBegin=5061|AlignEnd=5148
 3	tout	tout	ADV	_	_	4	advmod	_	AlignBegin=5148|AlignEnd=5270
 4	droit	droit	ADJ	_	Gender=Masc	2	obj	_	AlignBegin=5270|AlignEnd=5438|HasSpokenGender=YesExceptSingWithLiaison|HasSpokenNumber=OnlyWithLiaison|Number[ctxt]=Sing|SpaceAfter=No
@@ -160,7 +160,7 @@
 # sound_url = https://rhapsodie.modyco.fr/rp/waves/Rhap-M0010.mp3
 # macrosyntax = tu vas passer devant un magasin de pantalons //
 # text = tu vas passer devant un magasin de pantalons.
-1	tu	toi	PRON	_	Case=Nom|Emph=No|Number=Sing|Person=2|PronType=Prs	2	nsubj	_	AlignBegin=5438|AlignEnd=5499
+1	tu	toi	PRON	_	Case=Nom|Emph=No|PronType=Prs	2	nsubj	_	AlignBegin=5438|AlignEnd=5499|Number[lex]=Sing|Person[lex]=2
 2	vas	aller	VERB	_	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	0	root	_	AlignBegin=5499|AlignEnd=5618
 3	passer	passer	VERB	_	VerbForm=Inf	2	xcomp	_	AlignBegin=5618|AlignEnd=5857|Subject=SubjRaising
 4	devant	devant	ADP	_	_	6	case	_	AlignBegin=5857|AlignEnd=5969
@@ -198,9 +198,9 @@
 # text = ensuite, tu vas te retrouver vers le cinéma Star.
 1	ensuite	ensuite	ADV	_	_	4	advmod	_	AlignBegin=8035|AlignEnd=8449|SpaceAfter=No
 2	,	,	PUNCT	_	_	1	punct	_	AlignBegin=8449|AlignEnd=8449
-3	tu	toi	PRON	_	Case=Nom|Emph=No|Number=Sing|Person=2|PronType=Prs	4	nsubj	_	AlignBegin=8449|AlignEnd=8538
+3	tu	toi	PRON	_	Case=Nom|Emph=No|PronType=Prs	4	nsubj	_	AlignBegin=8449|AlignEnd=8538|Number[lex]=Sing|Person[lex]=2
 4	vas	aller	VERB	_	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	0	root	_	AlignBegin=8538|AlignEnd=8771
-5	te	toi	PRON	_	Number=Sing|Person=2|PronType=Prs	4	expl:comp	_	AlignBegin=8771|AlignEnd=8872
+5	te	toi	PRON	_	PronType=Prs	4	expl:comp	_	AlignBegin=8771|AlignEnd=8872|Number[lex]=Sing|Person[lex]=2
 6	retrouver	retrouver	VERB	_	VerbForm=Inf	4	xcomp	_	AlignBegin=8872|AlignEnd=9255|Subject=SubjRaising
 7	vers	vers	ADP	_	_	9	case	_	AlignBegin=9255|AlignEnd=9405
 8	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	_	AlignBegin=9405|AlignEnd=9465|HasSpokenGender=OnlySingExceptWithLiaison
@@ -234,8 +234,8 @@
 # sound_url = https://rhapsodie.modyco.fr/rp/waves/Rhap-M0010.mp3
 # macrosyntax = tu descends toute la pente //
 # text = tu descends toute la pente.
-1	tu	toi	PRON	_	Case=Nom|Emph=No|Number=Sing|Person=2|PronType=Prs	2	nsubj	_	AlignBegin=10597|AlignEnd=10725
-2	descends	descendre	VERB	_	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	0	root	_	AlignBegin=10725|AlignEnd=11020
+1	tu	toi	PRON	_	Case=Nom|Emph=No|PronType=Prs	2	nsubj	_	AlignBegin=10597|AlignEnd=10725|Number[lex]=Sing|Person[lex]=2
+2	descends	descendre	VERB	_	Mood=Ind|Number=Sing|Tense=Pres|VerbForm=Fin	0	root	_	AlignBegin=10725|AlignEnd=11020|Person[ctxt]=2
 3	toute	tout	ADJ	_	Gender=Fem	5	amod	_	AlignBegin=11020|AlignEnd=11110|HasSpokenGender=YesExceptSingWithLiaison|HasSpokenNumber=OnlyWithLiaison|Number[ctxt]=Sing
 4	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	AlignBegin=11110|AlignEnd=11300|HasSpokenGender=OnlySingExceptWithLiaison
 5	pente	pente	NOUN	_	_	2	obj	_	AlignBegin=11300|AlignEnd=11690|Gender[lex]=Fem|Number[ctxt]=Sing|SpaceAfter=No
@@ -269,7 +269,7 @@
 # text = ensuite, tu verras un rond-point.
 1	ensuite	ensuite	ADV	_	_	4	advmod	_	AlignBegin=12128|AlignEnd=12538|SpaceAfter=No
 2	,	,	PUNCT	_	_	1	punct	_	AlignBegin=12538|AlignEnd=12538
-3	tu	toi	PRON	_	Case=Nom|Emph=No|Number=Sing|Person=2|PronType=Prs	4	nsubj	_	AlignBegin=12538|AlignEnd=12608
+3	tu	toi	PRON	_	Case=Nom|Emph=No|PronType=Prs	4	nsubj	_	AlignBegin=12538|AlignEnd=12608|Number[lex]=Sing|Person[lex]=2
 4	verras	voir	VERB	_	Mood=Ind|Number=Sing|Person=2|Tense=Fut|VerbForm=Fin	0	root	_	AlignBegin=12608|AlignEnd=12758
 5	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	6	det	_	AlignBegin=12758|AlignEnd=12831
 6	rond-point	rond-point	NOUN	_	_	4	obj	_	AlignBegin=12831|AlignEnd=13383|Gender[lex]=Masc|Number[ctxt]=Sing|SpaceAfter=No
@@ -301,8 +301,8 @@
 # sound_url = https://rhapsodie.modyco.fr/rp/waves/Rhap-M0010.mp3
 # macrosyntax = tu tournes à gauche //
 # text = tu tournes à gauche.
-1	tu	toi	PRON	_	Case=Nom|Emph=No|Number=Sing|Person=2|PronType=Prs	2	nsubj	_	AlignBegin=13793|AlignEnd=13872
-2	tournes	tourner	VERB	_	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	0	root	_	AlignBegin=13872|AlignEnd=14083
+1	tu	toi	PRON	_	Case=Nom|Emph=No|PronType=Prs	2	nsubj	_	AlignBegin=13793|AlignEnd=13872|Number[lex]=Sing|Person[lex]=2
+2	tournes	tourner	VERB	_	Mood=Ind|Number=Sing|Tense=Pres|VerbForm=Fin	0	root	_	AlignBegin=13872|AlignEnd=14083|Person[ctxt]=2
 3	à	à	ADP	_	_	4	case	_	AlignBegin=14083|AlignEnd=14173
 4	gauche	gauche	NOUN	_	_	2	obl:mod	_	AlignBegin=14173|AlignEnd=14701|Gender[lex]=Fem|Number[ctxt]=Sing|SpaceAfter=No
 5	.	.	PUNCT	_	_	2	punct	_	AlignBegin=14701|AlignEnd=14701
@@ -339,9 +339,9 @@
 4	,	,	PUNCT	_	_	8	punct	_	AlignBegin=15898|AlignEnd=15898
 5	normalement	normalement	ADV	_	_	8	advmod	_	AlignBegin=15898|AlignEnd=16194|SpaceAfter=No
 6	,	,	PUNCT	_	_	5	punct	_	AlignBegin=16194|AlignEnd=16194
-7	il	lui	PRON	_	Case=Nom|Emph=No|Gender=Masc|Number=Sing|Person=3|PronType=Prs	8	expl:subj	_	AlignBegin=16194|AlignEnd=16221
-8	devrait	devoir	VERB	_	Mood=Cnd|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	AlignBegin=16221|AlignEnd=16365
-9	y	y	PRON	_	Person=3|PronType=Prs	10	iobj	_	AlignBegin=16365|AlignEnd=16382
+7	il	lui	PRON	_	Case=Nom|Emph=No|Gender=Masc|Number=Sing|PronType=Prs	8	expl:subj	_	AlignBegin=16194|AlignEnd=16221|Person[lex]=3
+8	devrait	devoir	VERB	_	Mood=Cnd|Tense=Pres|VerbForm=Fin	0	root	_	AlignBegin=16221|AlignEnd=16365|Number[ctxt]=Sing|Person[ctxt]=3
+9	y	y	PRON	_	PronType=Prs	10	iobj	_	AlignBegin=16365|AlignEnd=16382|Person[lex]=3
 10	avoir	avoir	VERB	_	VerbForm=Inf	8	ccomp	_	AlignBegin=16382|AlignEnd=16563|Subject=NoRaising
 11	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	12	det	_	AlignBegin=16563|AlignEnd=16681|HasSpokenGender=OnlySingExceptWithLiaison
 12	gare	gare	NOUN	_	_	10	obj	_	AlignBegin=16681|AlignEnd=16875|Gender[lex]=Fem|Number[ctxt]=Sing|SpaceAfter=No

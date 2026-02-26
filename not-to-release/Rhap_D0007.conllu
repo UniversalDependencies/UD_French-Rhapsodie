@@ -62,7 +62,7 @@
 2	,	,	PUNCT	_	_	1	punct	_	AlignBegin=1892|AlignEnd=1892
 3	là	là	ADV	_	_	9	advmod	_	AlignBegin=1892|AlignEnd=2066|SpaceAfter=No
 4	,	,	PUNCT	_	_	3	punct	_	AlignBegin=2066|AlignEnd=2066
-5	nous	nous	PRON	_	Case=Nom|Emph=No|Number=Plur|Person=1|PronType=Prs	6	nsubj	_	AlignBegin=2066|AlignEnd=2246
+5	nous	nous	PRON	_	Case=Nom|Emph=No|PronType=Prs	6	nsubj	_	AlignBegin=2066|AlignEnd=2246|Number[lex]=Plur|Person[lex]=1
 6	sommes	être	VERB	_	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	AlignBegin=2246|AlignEnd=2509
 7-8	aux	_	_	_	_	_	_	_	_
 7	à	à	ADP	_	_	9	case	_	AlignBegin=2509|AlignEnd=2775
@@ -102,11 +102,11 @@
 2	,	,	PUNCT	_	_	3	punct	_	AlignBegin=4057|AlignEnd=4057
 3	euh	euh	INTJ	_	_	1	discourse	_	AlignBegin=4057|AlignEnd=4307|SpaceAfter=No
 4	,	,	PUNCT	_	_	1	punct	_	AlignBegin=4307|AlignEnd=4307
-5	c'	ce	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	6	nsubj	_	AlignBegin=4307|AlignEnd=4357|SpaceAfter=No
+5	c'	ce	PRON	_	PronType=Dem	6	nsubj	_	AlignBegin=4307|AlignEnd=4357|Gender[lex]=Masc|Number[lex]=Sing|Person[lex]=3|SpaceAfter=No
 6	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	13	reparandum	_	AlignBegin=4357|AlignEnd=4417
 7	pas	pas	ADV	_	Polarity=Neg	6	advmod	_	AlignBegin=4417|AlignEnd=4700|SpaceAfter=No
 8	,	,	PUNCT	_	_	6	punct	_	AlignBegin=4700|AlignEnd=4700
-9	c'	ce	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	13	nsubj	_	AlignBegin=4700|AlignEnd=4730|SpaceAfter=No
+9	c'	ce	PRON	_	PronType=Dem	13	nsubj	_	AlignBegin=4700|AlignEnd=4730|Gender[lex]=Masc|Number[lex]=Sing|Person[lex]=3|SpaceAfter=No
 10	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	13	cop	_	AlignBegin=4730|AlignEnd=4770
 11	pas	pas	ADV	_	Polarity=Neg	13	advmod	_	AlignBegin=4770|AlignEnd=4890
 12	tout	tout	ADV	_	_	13	advmod	_	AlignBegin=4890|AlignEnd=5040
@@ -141,11 +141,11 @@
 # sound_url = https://rhapsodie.modyco.fr/rp/waves/Rhap-D0007.mp3
 # macrosyntax = moi < je vous conseillerais { { de | d' } aller tout "euh" ESPERLUETTE | de traverser les jardins de ville } //
 # text = moi, je vous conseillerais de, d'aller tout, euh, de traverser les jardins de ville.
-1	moi	moi	PRON	_	Emph=Yes|Number=Sing|Person=1|PronType=Prs	5	dislocated	_	AlignBegin=6656|AlignEnd=6856|SpaceAfter=No
+1	moi	moi	PRON	_	Emph=Yes|PronType=Prs	5	dislocated	_	AlignBegin=6656|AlignEnd=6856|Number[lex]=Sing|Person[lex]=1|SpaceAfter=No
 2	,	,	PUNCT	_	_	1	punct	_	AlignBegin=6856|AlignEnd=6856
-3	je	moi	PRON	_	Case=Nom|Emph=No|Number=Sing|Person=1|PronType=Prs	5	nsubj	_	AlignBegin=6856|AlignEnd=6913
-4	vous	vous	PRON	_	Case=Dat|Emph=No|Number=Plur|Person=2|PronType=Prs	5	iobj	_	AlignBegin=6913|AlignEnd=7010|Polite=Unknown
-5	conseillerais	conseiller	VERB	_	Mood=Cnd|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	AlignBegin=7010|AlignEnd=7806
+3	je	moi	PRON	_	Case=Nom|Emph=No|PronType=Prs	5	nsubj	_	AlignBegin=6856|AlignEnd=6913|Number[lex]=Sing|Person[lex]=1
+4	vous	vous	PRON	_	Case=Dat|Emph=No|PronType=Prs	5	iobj	_	AlignBegin=6913|AlignEnd=7010|Number[lex]=Plur|Person[lex]=2|Polite=Unknown
+5	conseillerais	conseiller	VERB	_	Mood=Cnd|Number=Sing|Tense=Pres|VerbForm=Fin	0	root	_	AlignBegin=7010|AlignEnd=7806|Person[ctxt]=1
 6	de	de	ADP	_	_	15	reparandum	_	AlignBegin=7806|AlignEnd=8023|SpaceAfter=No
 7	,	,	PUNCT	_	_	6	punct	_	AlignBegin=8023|AlignEnd=8168
 8	d'	de	ADP	_	_	15	mark	_	AlignBegin=8168|AlignEnd=8208|SpaceAfter=No
@@ -188,7 +188,7 @@
 # sound_url = https://rhapsodie.modyco.fr/rp/waves/Rhap-D0007.mp3
 # macrosyntax = vous retombez { sur la | sur la } place Grenette //
 # text = vous retombez sur la, sur la place Grenette.
-1	vous	vous	PRON	_	Case=Nom|Emph=No|Number=Plur|Person=2|PronType=Prs	2	nsubj	_	AlignBegin=10151|AlignEnd=10262|Polite=Unknown
+1	vous	vous	PRON	_	Case=Nom|Emph=No|PronType=Prs	2	nsubj	_	AlignBegin=10151|AlignEnd=10262|Number[lex]=Plur|Person[lex]=2|Polite=Unknown
 2	retombez	retomber	VERB	_	Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	0	root	_	AlignBegin=10262|AlignEnd=10611
 3	sur	sur	ADP	_	_	4	case	_	AlignBegin=10611|AlignEnd=10781
 4	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	8	reparandum	_	AlignBegin=10781|AlignEnd=11125|HasSpokenGender=OnlySingExceptWithLiaison|Scrap=Yes|SpaceAfter=No
@@ -227,7 +227,7 @@
 # text = ensuite, vous allez, euh, jusqu'aux lignes de tram.
 1	ensuite	ensuite	ADV	_	_	4	advmod	_	AlignBegin=12607|AlignEnd=12867|SpaceAfter=No
 2	,	,	PUNCT	_	_	1	punct	_	AlignBegin=12867|AlignEnd=12867
-3	vous	vous	PRON	_	Case=Nom|Emph=No|Number=Plur|Person=2|PronType=Prs	4	nsubj	_	AlignBegin=12867|AlignEnd=13007|Polite=Unknown
+3	vous	vous	PRON	_	Case=Nom|Emph=No|PronType=Prs	4	nsubj	_	AlignBegin=12867|AlignEnd=13007|Number[lex]=Plur|Person[lex]=2|Polite=Unknown
 4	allez	aller	VERB	_	Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	0	root	_	AlignBegin=13007|AlignEnd=13388|SpaceAfter=No
 5	,	,	PUNCT	_	_	6	punct	_	AlignBegin=13388|AlignEnd=13388
 6	euh	euh	INTJ	_	_	4	discourse	_	AlignBegin=13388|AlignEnd=13717|SpaceAfter=No
@@ -269,7 +269,7 @@
 # text = là, vous continuez jusqu'à l'arrêt, euh, Hubert Dubedout.
 1	là	là	ADV	_	_	4	advmod	_	AlignBegin=15816|AlignEnd=16106|SpaceAfter=No
 2	,	,	PUNCT	_	_	1	punct	_	AlignBegin=16106|AlignEnd=16106
-3	vous	vous	PRON	_	Case=Nom|Emph=No|Number=Plur|Person=2|PronType=Prs	4	nsubj	_	AlignBegin=16106|AlignEnd=16416|Polite=Unknown
+3	vous	vous	PRON	_	Case=Nom|Emph=No|PronType=Prs	4	nsubj	_	AlignBegin=16106|AlignEnd=16416|Number[lex]=Plur|Person[lex]=2|Polite=Unknown
 4	continuez	continuer	VERB	_	Mood=Imp|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	0	root	_	AlignBegin=16416|AlignEnd=16930
 5	jusqu'	jusque	ADP	_	_	8	case	_	AlignBegin=16930|AlignEnd=17150|SpaceAfter=No
 6	à	à	ADP	_	_	8	case	_	AlignBegin=17150|AlignEnd=17210
@@ -309,7 +309,7 @@
 # macrosyntax = ( $L2 "mh mh" // ) ^soit vous continuez ESPERLUETTE //
 # text = soit vous continuez…
 1	soit	soit	CCONJ	_	_	3	cc	_	AlignBegin=19870|AlignEnd=20190
-2	vous	vous	PRON	_	Case=Nom|Emph=No|Number=Plur|Person=2|PronType=Prs	3	nsubj	_	AlignBegin=20190|AlignEnd=20800|Polite=Unknown
+2	vous	vous	PRON	_	Case=Nom|Emph=No|PronType=Prs	3	nsubj	_	AlignBegin=20190|AlignEnd=20800|Number[lex]=Plur|Person[lex]=2|Polite=Unknown
 3	continuez	continuer	VERB	_	Mood=Imp|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	0	root	_	AlignBegin=21157|AlignEnd=22100|Scrap=Yes|SpaceAfter=No
 4	…	…	PUNCT	_	_	3	punct	_	AlignBegin=22100|AlignEnd=22100
 
@@ -341,10 +341,10 @@
 # text = pour pas vous tromper, vous suivez les lignes, euh, de tram, euh, du tram bleu.
 1	pour	pour	ADP	_	_	4	mark	_	AlignBegin=22100|AlignEnd=22240
 2	pas	pas	ADV	_	Polarity=Neg	4	advmod	_	AlignBegin=22240|AlignEnd=22358
-3	vous	vous	PRON	_	Case=Acc|Emph=No|Number=Plur|Person=2|PronType=Prs	4	obj	_	AlignBegin=22358|AlignEnd=22480|Polite=Unknown
+3	vous	vous	PRON	_	Case=Acc|Emph=No|PronType=Prs	4	obj	_	AlignBegin=22358|AlignEnd=22480|Number[lex]=Plur|Person[lex]=2|Polite=Unknown
 4	tromper	tromper	VERB	_	VerbForm=Inf	7	advcl	_	AlignBegin=22480|AlignEnd=22852|SpaceAfter=No|Subject=NoRaising
 5	,	,	PUNCT	_	_	4	punct	_	AlignBegin=22852|AlignEnd=22852
-6	vous	vous	PRON	_	Case=Nom|Emph=No|Number=Plur|Person=2|PronType=Prs	7	nsubj	_	AlignBegin=22852|AlignEnd=22961|Polite=Unknown
+6	vous	vous	PRON	_	Case=Nom|Emph=No|PronType=Prs	7	nsubj	_	AlignBegin=22852|AlignEnd=22961|Number[lex]=Plur|Person[lex]=2|Polite=Unknown
 7	suivez	suivre	VERB	_	Mood=Imp|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	0	root	_	AlignBegin=22961|AlignEnd=23312
 8	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	9	det	_	AlignBegin=23312|AlignEnd=23351|HasSpokenGender=OnlySingExceptWithLiaison
 9	lignes	ligne	NOUN	_	_	7	obj	_	AlignBegin=23351|AlignEnd=23627|Gender[lex]=Fem|Number[ctxt]=Plur|SpaceAfter=No
@@ -392,7 +392,7 @@
 1	soit	soit	CCONJ	_	_	5	cc	_	AlignBegin=26473|AlignEnd=26593
 2	alors	alors	ADV	_	_	5	discourse	_	AlignBegin=26593|AlignEnd=26907|SpaceAfter=No
 3	,	,	PUNCT	_	_	2	punct	_	AlignBegin=26907|AlignEnd=26907
-4	vous	vous	PRON	_	Case=Nom|Emph=No|Number=Plur|Person=2|PronType=Prs	5	nsubj	_	AlignBegin=26907|AlignEnd=27107|Overlap=Rhap_D0007-11|Polite=Unknown
+4	vous	vous	PRON	_	Case=Nom|Emph=No|PronType=Prs	5	nsubj	_	AlignBegin=26907|AlignEnd=27107|Number[lex]=Plur|Overlap=Rhap_D0007-11|Person[lex]=2|Polite=Unknown
 5	tournez	tourner	VERB	_	Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	0	root	_	AlignBegin=27107|AlignEnd=27635|Overlap=Rhap_D0007-11
 6	à	à	ADP	_	_	9	reparandum	_	AlignBegin=27635|AlignEnd=28304|Overlap=Rhap_D0007-11|SpaceAfter=No
 7	,	,	PUNCT	_	_	6	punct	_	AlignBegin=28304|AlignEnd=28691
@@ -466,10 +466,10 @@
 # sound_url = https://rhapsodie.modyco.fr/rp/waves/Rhap-D0007.mp3
 # macrosyntax = { vous conti~ | vous remontez } toujours tout droit //
 # text = vous conti~, vous remontez toujours tout droit.
-1	vous	vous	PRON	_	Case=Nom|Emph=No|Number=Plur|Person=2|PronType=Prs	2	nsubj	_	AlignBegin=31907|AlignEnd=32047|Polite=Unknown
+1	vous	vous	PRON	_	Case=Nom|Emph=No|PronType=Prs	2	nsubj	_	AlignBegin=31907|AlignEnd=32047|Number[lex]=Plur|Person[lex]=2|Polite=Unknown
 2	conti~	conti~	X	_	ExtPos=VERB	5	reparandum	_	AlignBegin=32047|AlignEnd=32341|SpaceAfter=No
 3	,	,	PUNCT	_	_	2	punct	_	AlignBegin=32397|AlignEnd=32397
-4	vous	vous	PRON	_	Case=Nom|Emph=No|Number=Plur|Person=2|PronType=Prs	5	nsubj	_	AlignBegin=32397|AlignEnd=32566|Polite=Unknown
+4	vous	vous	PRON	_	Case=Nom|Emph=No|PronType=Prs	5	nsubj	_	AlignBegin=32397|AlignEnd=32566|Number[lex]=Plur|Person[lex]=2|Polite=Unknown
 5	remontez	remonter	VERB	_	Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	0	root	_	AlignBegin=32566|AlignEnd=32877
 6	toujours	toujours	ADV	_	_	5	advmod	_	AlignBegin=32877|AlignEnd=33207
 7	tout	tout	ADV	_	_	8	advmod	_	AlignBegin=33207|AlignEnd=33317
@@ -502,7 +502,7 @@
 # sound_url = https://rhapsodie.modyco.fr/rp/waves/Rhap-D0007.mp3
 # macrosyntax = vous allez tomber { sur "euh" | sur "euh" } une église "euh" sur une place //
 # text = vous allez tomber sur, euh, sur, euh, une église, euh, sur une place.
-1	vous	vous	PRON	_	Case=Nom|Emph=No|Number=Plur|Person=2|PronType=Prs	2	nsubj	_	AlignBegin=33687|AlignEnd=33777|Polite=Unknown
+1	vous	vous	PRON	_	Case=Nom|Emph=No|PronType=Prs	2	nsubj	_	AlignBegin=33687|AlignEnd=33777|Number[lex]=Plur|Person[lex]=2|Polite=Unknown
 2	allez	aller	VERB	_	Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	0	root	_	AlignBegin=33777|AlignEnd=33967
 3	tomber	tomber	VERB	_	VerbForm=Inf	2	xcomp	_	AlignBegin=33967|AlignEnd=34277|Subject=SubjRaising
 4	sur	sur	ADP	_	_	13	reparandum	_	AlignBegin=34277|AlignEnd=34447|SpaceAfter=No
@@ -552,9 +552,9 @@
 1	et	et	CCONJ	_	_	7	cc	_	AlignBegin=37726|AlignEnd=37846
 2	là	là	ADV	_	_	7	advmod	_	AlignBegin=37846|AlignEnd=38051|SpaceAfter=No
 3	,	,	PUNCT	_	_	2	punct	_	AlignBegin=38051|AlignEnd=38051
-4	vous	vous	PRON	_	Case=Nom|Emph=No|Number=Plur|Person=2|PronType=Prs	6	reparandum	_	AlignBegin=38051|AlignEnd=38401|Polite=Unknown|SpaceAfter=No
+4	vous	vous	PRON	_	Case=Nom|Emph=No|PronType=Prs	6	reparandum	_	AlignBegin=38051|AlignEnd=38401|Number[lex]=Plur|Person[lex]=2|Polite=Unknown|SpaceAfter=No
 5	,	,	PUNCT	_	_	4	punct	_	AlignBegin=38401|AlignEnd=38401
-6	vous	vous	PRON	_	Case=Nom|Emph=No|Number=Plur|Person=2|PronType=Prs	7	nsubj	_	AlignBegin=38401|AlignEnd=38571|Polite=Unknown
+6	vous	vous	PRON	_	Case=Nom|Emph=No|PronType=Prs	7	nsubj	_	AlignBegin=38401|AlignEnd=38571|Number[lex]=Plur|Person[lex]=2|Polite=Unknown
 7	reprenez	reprendre	VERB	_	Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	0	root	_	AlignBegin=38571|AlignEnd=38841
 8	à	à	ADP	_	_	9	case	_	AlignBegin=38841|AlignEnd=39016
 9	gauche	gauche	NOUN	_	_	7	obl:arg	_	AlignBegin=39016|AlignEnd=39438|Gender[lex]=Fem|Number[ctxt]=Sing|SpaceAfter=No
@@ -586,7 +586,7 @@
 # sound_url = https://rhapsodie.modyco.fr/rp/waves/Rhap-D0007.mp3
 # macrosyntax = vous continuez sur "euh" deux cents mètres //
 # text = vous continuez sur, euh, deux cents mètres.
-1	vous	vous	PRON	_	Case=Nom|Emph=No|Number=Plur|Person=2|PronType=Prs	2	nsubj	_	AlignBegin=39798|AlignEnd=39878|Polite=Unknown
+1	vous	vous	PRON	_	Case=Nom|Emph=No|PronType=Prs	2	nsubj	_	AlignBegin=39798|AlignEnd=39878|Number[lex]=Plur|Person[lex]=2|Polite=Unknown
 2	continuez	continuer	VERB	_	Mood=Imp|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	0	root	_	AlignBegin=39878|AlignEnd=40418
 3	sur	sur	ADP	_	_	9	case	_	AlignBegin=40418|AlignEnd=40618|SpaceAfter=No
 4	,	,	PUNCT	_	_	9	punct	_	AlignBegin=40618|AlignEnd=40618
@@ -624,7 +624,7 @@
 # macrosyntax = ^et vous êtes à La Nef Chavant //
 # text = et vous êtes à La Nef Chavant.
 1	et	et	CCONJ	_	_	3	cc	_	AlignBegin=41423|AlignEnd=41463
-2	vous	vous	PRON	_	Case=Nom|Emph=No|Number=Plur|Person=2|PronType=Prs	3	nsubj	_	AlignBegin=41463|AlignEnd=41553|Polite=Unknown
+2	vous	vous	PRON	_	Case=Nom|Emph=No|PronType=Prs	3	nsubj	_	AlignBegin=41463|AlignEnd=41553|Number[lex]=Plur|Person[lex]=2|Polite=Unknown
 3	êtes	être	VERB	_	Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	0	root	_	AlignBegin=41553|AlignEnd=41664
 4	à	à	ADP	_	_	6	case	_	AlignBegin=41664|AlignEnd=41704
 5	La	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	AlignBegin=41704|AlignEnd=41783|HasSpokenGender=OnlySingExceptWithLiaison

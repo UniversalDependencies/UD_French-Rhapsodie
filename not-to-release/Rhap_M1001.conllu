@@ -29,9 +29,9 @@
 2	,	,	PUNCT	_	_	3	punct	_	AlignBegin=743|AlignEnd=743
 3	euh	euh	INTJ	_	_	1	discourse	_	AlignBegin=743|AlignEnd=811|SpaceAfter=No
 4	,	,	PUNCT	_	_	1	punct	_	AlignBegin=811|AlignEnd=811
-5	je	moi	PRON	_	Case=Nom|Emph=No|Number=Sing|Person=1|PronType=Prs	7	nsubj	_	AlignBegin=811|AlignEnd=878
-6	m'	moi	PRON	_	Case=Dat|Emph=No|Number=Sing|Person=1|PronType=Prs	7	iobj	_	AlignBegin=878|AlignEnd=908|SpaceAfter=No
-7	appelle	appeler	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	AlignBegin=908|AlignEnd=1168
+5	je	moi	PRON	_	Case=Nom|Emph=No|PronType=Prs	7	nsubj	_	AlignBegin=811|AlignEnd=878|Number[lex]=Sing|Person[lex]=1
+6	m'	moi	PRON	_	Case=Dat|Emph=No|PronType=Prs	7	iobj	_	AlignBegin=878|AlignEnd=908|Number[lex]=Sing|Person[lex]=1|SpaceAfter=No
+7	appelle	appeler	VERB	_	Mood=Ind|Number=Sing|Tense=Pres|VerbForm=Fin	0	root	_	AlignBegin=908|AlignEnd=1168|Person[ctxt]=1
 8	Clara	Clara	PROPN	_	_	7	obj	_	AlignBegin=1168|AlignEnd=1508|Gender[lex]=Unknown|SpaceAfter=No
 9	.	.	PUNCT	_	_	7	punct	_	AlignBegin=1508|AlignEnd=1508
 
@@ -61,7 +61,7 @@
 # sound_url = https://rhapsodie.modyco.fr/rp/waves/Rhap-M1001.mp3
 # macrosyntax = j'ai dix-neuf ans //
 # text = j'ai dix-neuf ans.
-1	j'	moi	PRON	_	Case=Nom|Emph=No|Number=Sing|Person=1|PronType=Prs	2	nsubj	_	AlignBegin=1508|AlignEnd=1548|SpaceAfter=No
+1	j'	moi	PRON	_	Case=Nom|Emph=No|PronType=Prs	2	nsubj	_	AlignBegin=1508|AlignEnd=1548|Number[lex]=Sing|Person[lex]=1|SpaceAfter=No
 2	ai	avoir	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	AlignBegin=1548|AlignEnd=1618
 3	dix-neuf	dix-neuf	NUM	_	_	4	nummod	_	AlignBegin=1618|AlignEnd=1958|Number[lex]=Plur
 4	ans	an	NOUN	_	_	2	obj	_	AlignBegin=1958|AlignEnd=2230|Gender[lex]=Masc|LiaisonPossibleBefore=Yes|Number[ctxt]=Plur|SpaceAfter=No
@@ -93,7 +93,7 @@
 # sound_url = https://rhapsodie.modyco.fr/rp/waves/Rhap-M1001.mp3
 # macrosyntax = j'ai eu l'obtention de mon bac "euh" ( donc ) l'année dernière //
 # text = j'ai eu l'obtention de mon bac, euh, donc, l'année dernière.
-1	j'	moi	PRON	_	Case=Nom|Emph=No|Number=Sing|Person=1|PronType=Prs	3	nsubj	_	AlignBegin=2230|AlignEnd=2455|SpaceAfter=No
+1	j'	moi	PRON	_	Case=Nom|Emph=No|PronType=Prs	3	nsubj	_	AlignBegin=2230|AlignEnd=2455|Number[lex]=Sing|Person[lex]=1|SpaceAfter=No
 2	ai	avoir	AUX	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	3	aux:tense	_	AlignBegin=2455|AlignEnd=2613
 3	eu	avoir	VERB	_	VerbForm=Part|Voice=Act	0	root	_	AlignBegin=2613|AlignEnd=2977|Gender[ctxt]=Masc|Number[ctxt]=Sing|PastPartHasSpokenGender=NotInThisDialect|Tense[denom]=Past
 4	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	5	det	_	AlignBegin=2977|AlignEnd=3025|Gender[ctxt]=Fem|HasSpokenGender=OnlySingExceptWithLiaison|LiaisonAfter=Yes|SpaceAfter=No
@@ -137,7 +137,7 @@
 # sound_url = https://rhapsodie.modyco.fr/rp/waves/Rhap-M1001.mp3
 # macrosyntax = c'est un bac "euh" { SMS | donc technologique } //
 # text = c'est un bac, euh, SMS, donc technologique.
-1	c'	ce	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	4	nsubj	_	AlignBegin=5322|AlignEnd=5407|SpaceAfter=No
+1	c'	ce	PRON	_	PronType=Dem	4	nsubj	_	AlignBegin=5322|AlignEnd=5407|Gender[lex]=Masc|Number[lex]=Sing|Person[lex]=3|SpaceAfter=No
 2	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	AlignBegin=5407|AlignEnd=5447
 3	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	4	det	_	AlignBegin=5447|AlignEnd=5537
 4	bac	bac	NOUN	_	_	0	root	_	AlignBegin=5537|AlignEnd=5767|Gender[lex]=Masc|Number[ctxt]=Sing|SpaceAfter=No
@@ -176,7 +176,7 @@
 # sound_url = https://rhapsodie.modyco.fr/rp/waves/Rhap-M1001.mp3
 # macrosyntax = c'est sciences médico-sociales //
 # text = c'est sciences médico-sociales.
-1	c'	ce	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	3	nsubj	_	AlignBegin=7497|AlignEnd=7542|SpaceAfter=No
+1	c'	ce	PRON	_	PronType=Dem	3	nsubj	_	AlignBegin=7497|AlignEnd=7542|Gender[lex]=Masc|Number[lex]=Sing|Person[lex]=3|SpaceAfter=No
 2	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	cop	_	AlignBegin=7542|AlignEnd=7592
 3	sciences	science	NOUN	_	_	0	root	_	AlignBegin=7592|AlignEnd=7842|Gender[lex]=Fem|Number[ctxt]=Plur
 4	médico-sociales	médico-sociale	ADJ	_	_	3	amod	_	AlignBegin=7842|AlignEnd=8462|Gender[ctxt]=Fem|HasSpokenGender=No|HasSpokenNumber=OnlyWithLiaison|Number[ctxt]=Plur|SpaceAfter=No
@@ -208,10 +208,10 @@
 # sound_url = https://rhapsodie.modyco.fr/rp/waves/Rhap-M1001.mp3
 # macrosyntax = ça n'a rien à voir avec "euh" la littérature //
 # text = ça n'a rien à voir avec, euh, la littérature.
-1	ça	ça	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	3	nsubj	_	AlignBegin=8462|AlignEnd=8622
+1	ça	ça	PRON	_	PronType=Dem	3	nsubj	_	AlignBegin=8462|AlignEnd=8622|Gender[lex]=Masc|Number[lex]=Sing|Person[lex]=3
 2	n'	ne	ADV	_	Polarity=Neg	3	advmod	_	AlignBegin=8622|AlignEnd=8652|SpaceAfter=No
 3	a	avoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	AlignBegin=8652|AlignEnd=8702
-4	rien	rien	PRON	_	Gender=Masc|Number=Sing|PronType=Neg	3	obj	_	AlignBegin=8702|AlignEnd=8812
+4	rien	rien	PRON	_	PronType=Neg	3	obj	_	AlignBegin=8702|AlignEnd=8812|Gender[lex]=Masc|Number[lex]=Sing
 5	à	à	ADP	_	_	6	mark	_	AlignBegin=8812|AlignEnd=8922
 6	voir	voir	VERB	_	VerbForm=Inf	4	xcomp	_	AlignBegin=8922|AlignEnd=9100|Subject=SubjRaising
 7	avec	avec	ADP	_	_	12	case	_	AlignBegin=9100|AlignEnd=9328|SpaceAfter=No
@@ -255,8 +255,8 @@
 5	,	,	PUNCT	_	_	6	punct	_	AlignBegin=11369|AlignEnd=11369
 6	euh	euh	INTJ	_	_	3	obj	_	AlignBegin=11369|AlignEnd=11739|SpaceAfter=No
 7	,	,	PUNCT	_	_	3	punct	_	AlignBegin=11739|AlignEnd=11739
-8	j'	moi	PRON	_	Case=Nom|Emph=No|Number=Sing|Person=1|PronType=Prs	9	nsubj	_	AlignBegin=11739|AlignEnd=11784|SpaceAfter=No
-9	aime	aimer	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	AlignBegin=11784|AlignEnd=12134
+8	j'	moi	PRON	_	Case=Nom|Emph=No|PronType=Prs	9	nsubj	_	AlignBegin=11739|AlignEnd=11784|Number[lex]=Sing|Person[lex]=1|SpaceAfter=No
+9	aime	aimer	VERB	_	Mood=Ind|Number=Sing|Tense=Pres|VerbForm=Fin	0	root	_	AlignBegin=11784|AlignEnd=12134|Person[ctxt]=1
 10	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	11	det	_	AlignBegin=12134|AlignEnd=12274|HasSpokenGender=OnlySingExceptWithLiaison
 11	biologie	biologie	NOUN	_	_	9	obj	_	AlignBegin=12274|AlignEnd=12760|Gender[lex]=Fem|Number[ctxt]=Sing|SpaceAfter=No
 12	.	.	PUNCT	_	_	9	punct	_	AlignBegin=12760|AlignEnd=12760
@@ -288,7 +288,7 @@
 # macrosyntax = ^et je suis plus "euh" vers { la biologie | ^et "euh" le social | ^donc "euh" XXX sciences médico-sociales } //
 # text = et je suis plus, euh, vers la biologie et, euh, le social, donc, euh, XXX sciences médico-sociales.
 1	et	et	CCONJ	_	_	3	cc	_	AlignBegin=12760|AlignEnd=12944
-2	je	moi	PRON	_	Case=Nom|Emph=No|Number=Sing|Person=1|PronType=Prs	3	nsubj	_	AlignBegin=12944|AlignEnd=13064
+2	je	moi	PRON	_	Case=Nom|Emph=No|PronType=Prs	3	nsubj	_	AlignBegin=12944|AlignEnd=13064|Number[lex]=Sing|Person[lex]=1
 3	suis	être	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	AlignBegin=13064|AlignEnd=13154
 4	plus	plus	ADV	_	_	10	advmod	_	AlignBegin=13154|AlignEnd=13314|SpaceAfter=No
 5	,	,	PUNCT	_	_	6	punct	_	AlignBegin=13314|AlignEnd=13314
@@ -347,7 +347,7 @@
 6	,	,	PUNCT	_	_	7	punct	_	AlignBegin=19334|AlignEnd=19334
 7	euh	euh	INTJ	_	_	4	obj	_	AlignBegin=19334|AlignEnd=19516|SpaceAfter=No
 8	,	,	PUNCT	_	_	2	punct	_	AlignBegin=19516|AlignEnd=19516
-9	j'	moi	PRON	_	Case=Nom|Emph=No|Number=Sing|Person=1|PronType=Prs	11	nsubj	_	AlignBegin=19516|AlignEnd=19601|SpaceAfter=No
+9	j'	moi	PRON	_	Case=Nom|Emph=No|PronType=Prs	11	nsubj	_	AlignBegin=19516|AlignEnd=19601|Number[lex]=Sing|Person[lex]=1|SpaceAfter=No
 10	ai	avoir	AUX	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	11	aux:tense	_	AlignBegin=19601|AlignEnd=19661
 11	choisi	choisir	VERB	_	VerbForm=Part|Voice=Act	0	root	_	AlignBegin=19661|AlignEnd=19951|Gender[ctxt]=Masc|Number[ctxt]=Sing|PastPartHasSpokenGender=NotInThisDialect|Tense[denom]=Past
 12	italien	italien	NOUN	_	_	11	obj	_	AlignBegin=19951|AlignEnd=20261|Gender[lex]=Masc|LiaisonPossibleBefore=Yes|Number[ctxt]=Sing
@@ -388,7 +388,7 @@
 4	,	,	PUNCT	_	_	5	punct	_	AlignBegin=21570|AlignEnd=21570
 5	euh	euh	INTJ	_	_	3	discourse	_	AlignBegin=21570|AlignEnd=21600|SpaceAfter=No
 6	,	,	PUNCT	_	_	3	punct	_	AlignBegin=21600|AlignEnd=21600
-7	c'	ce	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	12	nsubj	_	AlignBegin=21600|AlignEnd=21710|SpaceAfter=No
+7	c'	ce	PRON	_	PronType=Dem	12	nsubj	_	AlignBegin=21600|AlignEnd=21710|Gender[lex]=Masc|Number[lex]=Sing|Person[lex]=3|SpaceAfter=No
 8	était	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	12	cop	_	AlignBegin=21710|AlignEnd=21969|SpaceAfter=No
 9	,	,	PUNCT	_	_	12	punct	_	AlignBegin=21969|AlignEnd=21969
 10	euh	euh	INTJ	_	_	12	discourse	_	AlignBegin=21969|AlignEnd=22130|SpaceAfter=No
@@ -428,19 +428,19 @@
 4	,	,	PUNCT	_	_	5	punct	_	AlignBegin=24213|AlignEnd=24213
 5	euh	euh	INTJ	_	_	2	obj	_	AlignBegin=24202|AlignEnd=24472|SpaceAfter=No
 6	,	,	PUNCT	_	_	11	punct	_	AlignBegin=24472|AlignEnd=24472
-7	j'	moi	PRON	_	Case=Nom|Emph=No|Number=Sing|Person=1|PronType=Prs	11	nsubj:pass	_	AlignBegin=24472|AlignEnd=24542|SpaceAfter=No
+7	j'	moi	PRON	_	Case=Nom|Emph=No|PronType=Prs	11	nsubj:pass	_	AlignBegin=24472|AlignEnd=24542|Number[lex]=Sing|Person[lex]=1|SpaceAfter=No
 8	ai	avoir	AUX	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	11	aux:tense	_	AlignBegin=24542|AlignEnd=24592
 9	pas	pas	ADV	_	Polarity=Neg	11	advmod	_	AlignBegin=24592|AlignEnd=24669
 10	été	être	AUX	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	11	aux:pass	_	AlignBegin=24669|AlignEnd=24802
 11	acceptée	accepter	VERB	_	VerbForm=Part|Voice=Pass	0	root	_	AlignBegin=24802|AlignEnd=25157|Gender[ctxt]=Fem|Number[ctxt]=Sing|PastPartHasSpokenGender=NotInThisDialect|Tense[denom]=Past
 12	parce	parce	ADV	_	ExtPos=SCONJ	16	mark	_	AlignBegin=25157|AlignEnd=25292|Idiom=Yes
 13	qu'	que	SCONJ	_	_	12	fixed	_	AlignBegin=25292|AlignEnd=25321|InIdiom=Yes|SpaceAfter=No
-14	il	lui	PRON	_	Case=Nom|Emph=No|Gender=Masc|Number=Sing|Person=3|PronType=Prs	16	expl:subj	_	AlignBegin=25321|AlignEnd=25352
-15	y	y	PRON	_	Person=3|PronType=Prs	16	expl:comp	_	AlignBegin=25352|AlignEnd=25412
-16	avait	avoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	11	advcl	_	AlignBegin=25412|AlignEnd=25502
+14	il	lui	PRON	_	Case=Nom|Emph=No|Gender=Masc|Number=Sing|PronType=Prs	16	expl:subj	_	AlignBegin=25321|AlignEnd=25352|Person[lex]=3
+15	y	y	PRON	_	PronType=Prs	16	expl:comp	_	AlignBegin=25352|AlignEnd=25412|Person[lex]=3
+16	avait	avoir	VERB	_	Mood=Ind|Tense=Imp|VerbForm=Fin	11	advcl	_	AlignBegin=25412|AlignEnd=25502|Number[ctxt]=Sing|Person[ctxt]=3
 17	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	18	det	_	AlignBegin=25502|AlignEnd=25532|LiaisonAfter=Yes
 18	entretien	entretien	NOUN	_	_	16	obj	_	AlignBegin=25532|AlignEnd=25912|Gender[lex]=Masc|LiaisonPossibleBefore=Yes|Number[ctxt]=Sing
-19	oral	oral	ADJ	_	_	18	amod	_	AlignBegin=25912|AlignEnd=26142|Gender[ctxt]=Masc|HasSpokenGender=OnlyPlur|HasSpokenNumber=AlwaysMasc|Number[ctxt]=Sing|SpaceAfter=No
+19	oral	oral	ADJ	_	Number=Sing	18	amod	_	AlignBegin=25912|AlignEnd=26142|Gender[ctxt]=Masc|HasSpokenGender=OnlyPlur|HasSpokenNumber=AlwaysMasc|SpaceAfter=No
 20	.	.	PUNCT	_	_	11	punct	_	AlignBegin=26142|AlignEnd=26142
 
 # sent_id = Rhap_M1001-12
@@ -470,9 +470,9 @@
 # macrosyntax = ^et je le savais pas //
 # text = et je le savais pas.
 1	et	et	CCONJ	_	_	4	cc	_	AlignBegin=26142|AlignEnd=26202
-2	je	moi	PRON	_	Case=Nom|Emph=No|Number=Sing|Person=1|PronType=Prs	4	nsubj	_	AlignBegin=26202|AlignEnd=26272
-3	le	le	PRON	_	Case=Acc|Emph=No|Gender=Masc|Number=Sing|Person=3|PronType=Prs	4	obj	_	AlignBegin=26272|AlignEnd=26355
-4	savais	savoir	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Imp|VerbForm=Fin	0	root	_	AlignBegin=26355|AlignEnd=26622
+2	je	moi	PRON	_	Case=Nom|Emph=No|PronType=Prs	4	nsubj	_	AlignBegin=26202|AlignEnd=26272|Number[lex]=Sing|Person[lex]=1
+3	le	lui	PRON	_	Case=Acc|Emph=No|Gender=Masc|Number=Sing|PronType=Prs	4	obj	_	AlignBegin=26272|AlignEnd=26355|Person[lex]=3
+4	savais	savoir	VERB	_	Mood=Ind|Number=Sing|Tense=Imp|VerbForm=Fin	0	root	_	AlignBegin=26355|AlignEnd=26622|Person[ctxt]=1
 5	pas	pas	ADV	_	Polarity=Neg	4	advmod	_	AlignBegin=26622|AlignEnd=26782|SpaceAfter=No
 6	.	.	PUNCT	_	_	4	punct	_	AlignBegin=26782|AlignEnd=26782
 
@@ -540,10 +540,10 @@
 # sound_url = https://rhapsodie.modyco.fr/rp/waves/Rhap-M1001.mp3
 # macrosyntax = { c'est | c'est } trop ( enfin ) { s~ | stupide } //
 # text = c'est, c'est trop, enfin, s~, stupide.
-1	c'	ce	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	2	nsubj	_	AlignBegin=28673|AlignEnd=28723|SpaceAfter=No
+1	c'	ce	PRON	_	PronType=Dem	2	nsubj	_	AlignBegin=28673|AlignEnd=28723|Gender[lex]=Masc|Number[lex]=Sing|Person[lex]=3|SpaceAfter=No
 2	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	12	reparandum	_	AlignBegin=28723|AlignEnd=28853|SpaceAfter=No
 3	,	,	PUNCT	_	_	2	punct	_	AlignBegin=28853|AlignEnd=28853
-4	c'	ce	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	12	nsubj	_	AlignBegin=28853|AlignEnd=28933|SpaceAfter=No
+4	c'	ce	PRON	_	PronType=Dem	12	nsubj	_	AlignBegin=28853|AlignEnd=28933|Gender[lex]=Masc|Number[lex]=Sing|Person[lex]=3|SpaceAfter=No
 5	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	12	cop	_	AlignBegin=28933|AlignEnd=29003
 6	trop	trop	ADV	_	_	12	advmod	_	AlignBegin=29003|AlignEnd=29313|SpaceAfter=No
 7	,	,	PUNCT	_	_	8	punct	_	AlignBegin=29273|AlignEnd=29313
@@ -582,7 +582,7 @@
 # text = donc, j'ai pris italien en deuxième choix parce que aussi, euh, j'ai des facilités en italien.
 1	donc	donc	ADV	_	_	5	advmod	_	AlignBegin=30772|AlignEnd=30947|SpaceAfter=No
 2	,	,	PUNCT	_	_	1	punct	_	AlignBegin=30947|AlignEnd=30947
-3	j'	moi	PRON	_	Case=Nom|Emph=No|Number=Sing|Person=1|PronType=Prs	5	nsubj	_	AlignBegin=30947|AlignEnd=30997|SpaceAfter=No
+3	j'	moi	PRON	_	Case=Nom|Emph=No|PronType=Prs	5	nsubj	_	AlignBegin=30947|AlignEnd=30997|Number[lex]=Sing|Person[lex]=1|SpaceAfter=No
 4	ai	avoir	AUX	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	5	aux:tense	_	AlignBegin=30997|AlignEnd=31077
 5	pris	prendre	VERB	_	Gender=Masc|VerbForm=Part|Voice=Act	0	root	_	AlignBegin=31077|AlignEnd=31197|PastPartHasSpokenGender=Yes|Tense[denom]=Past
 6	italien	italien	NOUN	_	_	5	obj	_	AlignBegin=31197|AlignEnd=31437|Gender[lex]=Masc|LiaisonPossibleBefore=Yes|Number[ctxt]=Sing
@@ -595,7 +595,7 @@
 13	,	,	PUNCT	_	_	14	punct	_	AlignBegin=32478|AlignEnd=32478
 14	euh	euh	INTJ	_	_	12	discourse	_	AlignBegin=32478|AlignEnd=32598|SpaceAfter=No
 15	,	,	PUNCT	_	_	17	punct	_	AlignBegin=32598|AlignEnd=32598
-16	j'	moi	PRON	_	Case=Nom|Emph=No|Number=Sing|Person=1|PronType=Prs	17	nsubj	_	AlignBegin=32598|AlignEnd=32668|SpaceAfter=No
+16	j'	moi	PRON	_	Case=Nom|Emph=No|PronType=Prs	17	nsubj	_	AlignBegin=32598|AlignEnd=32668|Number[lex]=Sing|Person[lex]=1|SpaceAfter=No
 17	ai	avoir	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	5	advcl	_	AlignBegin=32668|AlignEnd=32708
 18	des	un	DET	_	Definite=Ind|Number=Plur|PronType=Art	19	det	_	AlignBegin=32708|AlignEnd=32828
 19	facilités	facilité	NOUN	_	_	17	obj	_	AlignBegin=32828|AlignEnd=33198|Gender[lex]=Fem|Number[ctxt]=Plur
@@ -629,7 +629,7 @@
 # sound_url = https://rhapsodie.modyco.fr/rp/waves/Rhap-M1001.mp3
 # macrosyntax = je suis bilingue //
 # text = je suis bilingue.
-1	je	moi	PRON	_	Case=Nom|Emph=No|Number=Sing|Person=1|PronType=Prs	3	nsubj	_	AlignBegin=33619|AlignEnd=33774
+1	je	moi	PRON	_	Case=Nom|Emph=No|PronType=Prs	3	nsubj	_	AlignBegin=33619|AlignEnd=33774|Number[lex]=Sing|Person[lex]=1
 2	suis	être	AUX	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	3	cop	_	AlignBegin=33774|AlignEnd=33964
 3	bilingue	bilingue	ADJ	_	_	0	root	_	AlignBegin=33964|AlignEnd=34268|Gender[ctxt]=Masc|HasSpokenGender=No|HasSpokenNumber=OnlyWithLiaison|Number[ctxt]=Sing|SpaceAfter=No
 4	.	.	PUNCT	_	_	3	punct	_	AlignBegin=34268|AlignEnd=34268
@@ -660,8 +660,8 @@
 # sound_url = https://rhapsodie.modyco.fr/rp/waves/Rhap-M1001.mp3
 # macrosyntax = je parle l'italien //
 # text = je parle l'italien.
-1	je	moi	PRON	_	Case=Nom|Emph=No|Number=Sing|Person=1|PronType=Prs	2	nsubj	_	AlignBegin=34268|AlignEnd=34423
-2	parle	parler	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	AlignBegin=34423|AlignEnd=34866
+1	je	moi	PRON	_	Case=Nom|Emph=No|PronType=Prs	2	nsubj	_	AlignBegin=34268|AlignEnd=34423|Number[lex]=Sing|Person[lex]=1
+2	parle	parler	VERB	_	Mood=Ind|Number=Sing|Tense=Pres|VerbForm=Fin	0	root	_	AlignBegin=34423|AlignEnd=34866|Person[ctxt]=1
 3	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	4	det	_	AlignBegin=34866|AlignEnd=34893|Gender[ctxt]=Masc|HasSpokenGender=OnlySingExceptWithLiaison|LiaisonAfter=Yes|SpaceAfter=No
 4	italien	italien	NOUN	_	_	2	obj	_	AlignBegin=34893|AlignEnd=35223|Gender[lex]=Masc|LiaisonPossibleBefore=Yes|Number[ctxt]=Sing|SpaceAfter=No
 5	.	.	PUNCT	_	_	2	punct	_	AlignBegin=35223|AlignEnd=35223
@@ -692,9 +692,9 @@
 # sound_url = https://rhapsodie.modyco.fr/rp/waves/Rhap-M1001.mp3
 # macrosyntax = je le comprends //
 # text = je le comprends.
-1	je	moi	PRON	_	Case=Nom|Emph=No|Number=Sing|Person=1|PronType=Prs	3	nsubj	_	AlignBegin=35223|AlignEnd=35293
-2	le	le	PRON	_	Case=Acc|Emph=No|Gender=Masc|Number=Sing|Person=3|PronType=Prs	3	obj	_	AlignBegin=35293|AlignEnd=35363
-3	comprends	comprendre	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	AlignBegin=35363|AlignEnd=35800|SpaceAfter=No
+1	je	moi	PRON	_	Case=Nom|Emph=No|PronType=Prs	3	nsubj	_	AlignBegin=35223|AlignEnd=35293|Number[lex]=Sing|Person[lex]=1
+2	le	lui	PRON	_	Case=Acc|Emph=No|Gender=Masc|Number=Sing|PronType=Prs	3	obj	_	AlignBegin=35293|AlignEnd=35363|Person[lex]=3
+3	comprends	comprendre	VERB	_	Mood=Ind|Number=Sing|Tense=Pres|VerbForm=Fin	0	root	_	AlignBegin=35363|AlignEnd=35800|Person[ctxt]=1|SpaceAfter=No
 4	.	.	PUNCT	_	_	3	punct	_	AlignBegin=35800|AlignEnd=35800
 
 # sent_id = Rhap_M1001-19
@@ -735,8 +735,8 @@
 10	,	,	PUNCT	_	_	11	punct	_	AlignBegin=38483|AlignEnd=38483
 11	ben	ben	INTJ	_	_	6	discourse	_	AlignBegin=38483|AlignEnd=38988|SpaceAfter=No
 12	,	,	PUNCT	_	_	2	punct	_	AlignBegin=38988|AlignEnd=38988
-13	j'	moi	PRON	_	Case=Nom|Emph=No|Number=Sing|Person=1|PronType=Prs	14	nsubj	_	AlignBegin=38988|AlignEnd=39163|SpaceAfter=No
-14	aime	aimer	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	AlignBegin=39163|AlignEnd=39463
+13	j'	moi	PRON	_	Case=Nom|Emph=No|PronType=Prs	14	nsubj	_	AlignBegin=38988|AlignEnd=39163|Number[lex]=Sing|Person[lex]=1|SpaceAfter=No
+14	aime	aimer	VERB	_	Mood=Ind|Number=Sing|Tense=Pres|VerbForm=Fin	0	root	_	AlignBegin=39163|AlignEnd=39463|Person[ctxt]=1
 15	beaucoup	beaucoup	ADV	_	_	14	advmod	_	AlignBegin=39463|AlignEnd=39927
 16	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	17	det	_	AlignBegin=39927|AlignEnd=40023|Gender[ctxt]=Masc|HasSpokenGender=OnlySingExceptWithLiaison|LiaisonAfter=Yes|SpaceAfter=No
 17	italien	italien	NOUN	_	_	14	obj	_	AlignBegin=40023|AlignEnd=40383|Gender[lex]=Masc|LiaisonPossibleBefore=Yes|Number[ctxt]=Sing
@@ -772,13 +772,13 @@
 # macrosyntax = ^et j'apprécie vraiment ce que je fais //
 # text = et j'apprécie vraiment ce que je fais.
 1	et	et	CCONJ	_	_	3	cc	_	AlignBegin=41143|AlignEnd=41218
-2	j'	moi	PRON	_	Case=Nom|Emph=No|Number=Sing|Person=1|PronType=Prs	3	nsubj	_	AlignBegin=41218|AlignEnd=41268|SpaceAfter=No
-3	apprécie	apprécier	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	AlignBegin=41268|AlignEnd=41635
+2	j'	moi	PRON	_	Case=Nom|Emph=No|PronType=Prs	3	nsubj	_	AlignBegin=41218|AlignEnd=41268|Number[lex]=Sing|Person[lex]=1|SpaceAfter=No
+3	apprécie	apprécier	VERB	_	Mood=Ind|Number=Sing|Tense=Pres|VerbForm=Fin	0	root	_	AlignBegin=41268|AlignEnd=41635|Person[ctxt]=1
 4	vraiment	vraiment	ADV	_	_	3	advmod	_	AlignBegin=41635|AlignEnd=41908
-5	ce	ce	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	3	obj	_	AlignBegin=41908|AlignEnd=41998
+5	ce	ce	PRON	_	PronType=Dem	3	obj	_	AlignBegin=41908|AlignEnd=41998|Gender[lex]=Masc|Number[lex]=Sing|Person[lex]=3
 6	que	que	PRON	_	PronType=Rel	8	obj	_	AlignBegin=41998|AlignEnd=42088
-7	je	moi	PRON	_	Case=Nom|Emph=No|Number=Sing|Person=1|PronType=Prs	8	nsubj	_	AlignBegin=42088|AlignEnd=42218
-8	fais	faire	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	5	acl:relcl	_	AlignBegin=42218|AlignEnd=42318|SpaceAfter=No
+7	je	moi	PRON	_	Case=Nom|Emph=No|PronType=Prs	8	nsubj	_	AlignBegin=42088|AlignEnd=42218|Number[lex]=Sing|Person[lex]=1
+8	fais	faire	VERB	_	Mood=Ind|Number=Sing|Tense=Pres|VerbForm=Fin	5	acl:relcl	_	AlignBegin=42218|AlignEnd=42318|Person[ctxt]=1|SpaceAfter=No
 9	.	.	PUNCT	_	_	3	punct	_	AlignBegin=42318|AlignEnd=42318
 
 # sent_id = Rhap_M1001-21
@@ -813,13 +813,13 @@
 4	,	,	PUNCT	_	_	5	punct	_	AlignBegin=42809|AlignEnd=42809
 5	euh	euh	INTJ	_	_	2	obj	_	AlignBegin=42809|AlignEnd=42920|SpaceAfter=No
 6	,	,	PUNCT	_	_	2	punct	_	AlignBegin=42920|AlignEnd=42920
-7	je	moi	PRON	_	Case=Nom|Emph=No|Number=Sing|Person=1|PronType=Prs	8	nsubj	_	AlignBegin=42920|AlignEnd=43021
-8	pense	penser	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	AlignBegin=43021|AlignEnd=43281
+7	je	moi	PRON	_	Case=Nom|Emph=No|PronType=Prs	8	nsubj	_	AlignBegin=42920|AlignEnd=43021|Number[lex]=Sing|Person[lex]=1
+8	pense	penser	VERB	_	Mood=Ind|Number=Sing|Tense=Pres|VerbForm=Fin	0	root	_	AlignBegin=43021|AlignEnd=43281|Person[ctxt]=1
 9	que	que	SCONJ	_	_	11	mark	_	AlignBegin=43281|AlignEnd=43401
-10	je	moi	PRON	_	Case=Nom|Emph=No|Number=Sing|Person=1|PronType=Prs	11	nsubj	_	AlignBegin=43401|AlignEnd=43471
+10	je	moi	PRON	_	Case=Nom|Emph=No|PronType=Prs	11	nsubj	_	AlignBegin=43401|AlignEnd=43471|Number[lex]=Sing|Person[lex]=1
 11	vais	aller	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	8	ccomp	_	AlignBegin=43471|AlignEnd=43581
 12	peut-être	peut-être	ADV	_	_	11	advmod	_	AlignBegin=43581|AlignEnd=43778
-13	me	moi	PRON	_	Case=Acc|Emph=No|Number=Sing|Person=1|PronType=Prs	14	obj	_	AlignBegin=43778|AlignEnd=43891
+13	me	moi	PRON	_	Case=Acc|Emph=No|PronType=Prs	14	obj	_	AlignBegin=43778|AlignEnd=43891|Number[lex]=Sing|Person[lex]=1
 14	réorienter	réorienter	VERB	_	VerbForm=Inf	11	xcomp	_	AlignBegin=43891|AlignEnd=44550|SpaceAfter=No|Subject=SubjRaising
 15	,	,	PUNCT	_	_	16	punct	_	AlignBegin=44550|AlignEnd=45481
 16	euh	euh	INTJ	_	_	14	discourse	_	AlignBegin=45481|AlignEnd=45836|SpaceAfter=No
@@ -865,7 +865,7 @@
 # text = enfin, je vais finir l'année, là, euh, en un an.
 1	enfin	enfin	ADV	_	_	4	discourse	_	AlignBegin=47587|AlignEnd=47845|SpaceAfter=No
 2	,	,	PUNCT	_	_	1	punct	_	AlignBegin=47845|AlignEnd=47845
-3	je	moi	PRON	_	Case=Nom|Emph=No|Number=Sing|Person=1|PronType=Prs	4	nsubj	_	AlignBegin=47845|AlignEnd=47902
+3	je	moi	PRON	_	Case=Nom|Emph=No|PronType=Prs	4	nsubj	_	AlignBegin=47845|AlignEnd=47902|Number[lex]=Sing|Person[lex]=1
 4	vais	aller	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	AlignBegin=47902|AlignEnd=48052
 5	finir	finir	VERB	_	VerbForm=Inf	4	xcomp	_	AlignBegin=48052|AlignEnd=48282|Subject=SubjRaising
 6	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	7	det	_	AlignBegin=48282|AlignEnd=48312|Gender[ctxt]=Fem|HasSpokenGender=OnlySingExceptWithLiaison|LiaisonAfter=Yes|SpaceAfter=No
@@ -914,31 +914,31 @@
 6	,	,	PUNCT	_	_	10	punct	_	AlignBegin=51083|AlignEnd=51083
 7	euh	euh	INTJ	_	_	10	discourse	_	AlignBegin=51083|AlignEnd=51523|SpaceAfter=No
 8	,	,	PUNCT	_	_	7	punct	_	AlignBegin=51523|AlignEnd=51835
-9	je	moi	PRON	_	Case=Nom|Emph=No|Number=Sing|Person=1|PronType=Prs	10	nsubj	_	AlignBegin=51835|AlignEnd=51930
-10	réussis	réussir	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	16	advcl	_	AlignBegin=51930|AlignEnd=52300
+9	je	moi	PRON	_	Case=Nom|Emph=No|PronType=Prs	10	nsubj	_	AlignBegin=51835|AlignEnd=51930|Number[lex]=Sing|Person[lex]=1
+10	réussis	réussir	VERB	_	Mood=Ind|Number=Sing|Tense=Pres|VerbForm=Fin	16	advcl	_	AlignBegin=51930|AlignEnd=52300|Person[ctxt]=1
 11	pas	pas	ADV	_	Polarity=Neg	10	advmod	_	AlignBegin=52300|AlignEnd=52500|SpaceAfter=No
 12	,	,	PUNCT	_	_	13	punct	_	AlignBegin=52500|AlignEnd=52500
 13	ben	ben	INTJ	_	_	11	discourse	_	AlignBegin=52500|AlignEnd=52640|SpaceAfter=No
 14	,	,	PUNCT	_	_	10	punct	_	AlignBegin=52640|AlignEnd=52640
-15	je	moi	PRON	_	Case=Nom|Emph=No|Number=Sing|Person=1|PronType=Prs	16	nsubj	_	AlignBegin=52640|AlignEnd=52750
-16	pense	penser	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	AlignBegin=52750|AlignEnd=52990
+15	je	moi	PRON	_	Case=Nom|Emph=No|PronType=Prs	16	nsubj	_	AlignBegin=52640|AlignEnd=52750|Number[lex]=Sing|Person[lex]=1
+16	pense	penser	VERB	_	Mood=Ind|Number=Sing|Tense=Pres|VerbForm=Fin	0	root	_	AlignBegin=52750|AlignEnd=52990|Person[ctxt]=1
 17	que	que	SCONJ	_	_	19	mark	_	AlignBegin=52990|AlignEnd=53080
-18	je	moi	PRON	_	Case=Nom|Emph=No|Number=Sing|Person=1|PronType=Prs	19	nsubj	_	AlignBegin=53080|AlignEnd=53140
+18	je	moi	PRON	_	Case=Nom|Emph=No|PronType=Prs	19	nsubj	_	AlignBegin=53080|AlignEnd=53140|Number[lex]=Sing|Person[lex]=1
 19	vais	aller	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	16	ccomp	_	AlignBegin=53140|AlignEnd=53258
 20	en	en	ADP	_	_	21	case	_	AlignBegin=53258|AlignEnd=53400
 21	psychologie	psychologie	NOUN	_	_	19	obl:arg	_	AlignBegin=53400|AlignEnd=53938|Gender[lex]=Fem|Number[ctxt]=Sing
 22	parce	parce	ADV	_	ExtPos=SCONJ	30	mark	_	AlignBegin=54612|AlignEnd=54827|Idiom=Yes
 23	que	que	SCONJ	_	_	22	fixed	_	AlignBegin=54827|AlignEnd=54977|InIdiom=Yes
-24	c'	ce	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	30	nsubj	_	AlignBegin=54977|AlignEnd=55097|SpaceAfter=No
+24	c'	ce	PRON	_	PronType=Dem	30	nsubj	_	AlignBegin=54977|AlignEnd=55097|Gender[lex]=Masc|Number[lex]=Sing|Person[lex]=3|SpaceAfter=No
 25	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	30	cop	_	AlignBegin=55097|AlignEnd=55177
 26	plus	plus	ADV	_	_	30	advmod	_	AlignBegin=55177|AlignEnd=55476|SpaceAfter=No
 27	,	,	PUNCT	_	_	28	punct	_	AlignBegin=55476|AlignEnd=55476
 28	euh	euh	INTJ	_	_	26	discourse	_	AlignBegin=55476|AlignEnd=55646|SpaceAfter=No
 29	,	,	PUNCT	_	_	30	punct	_	AlignBegin=55646|AlignEnd=55646
-30	ce	ce	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	16	advcl	_	AlignBegin=55646|AlignEnd=55729
+30	ce	ce	PRON	_	PronType=Dem	16	advcl	_	AlignBegin=55646|AlignEnd=55729|Gender[lex]=Masc|Number[lex]=Sing|Person[lex]=3
 31	que	que	PRON	_	PronType=Rel	34	obj	_	AlignBegin=55729|AlignEnd=55867
-32	je	moi	PRON	_	Case=Nom|Emph=No|Number=Sing|Person=1|PronType=Prs	33	nsubj	_	AlignBegin=55867|AlignEnd=55915
-33	veux	vouloir	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	30	acl:relcl	_	AlignBegin=55915|AlignEnd=56045
+32	je	moi	PRON	_	Case=Nom|Emph=No|PronType=Prs	33	nsubj	_	AlignBegin=55867|AlignEnd=55915|Number[lex]=Sing|Person[lex]=1
+33	veux	vouloir	VERB	_	Mood=Ind|Number=Sing|Tense=Pres|VerbForm=Fin	30	acl:relcl	_	AlignBegin=55915|AlignEnd=56045|Person[ctxt]=1
 34	faire	faire	VERB	_	VerbForm=Inf	33	xcomp	_	AlignBegin=56045|AlignEnd=56217|Subject=SubjRaising
 35	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	36	det	_	AlignBegin=57100|AlignEnd=57255|HasSpokenGender=OnlySingExceptWithLiaison
 36	psycho	psycho	NOUN	_	_	33	dislocated	_	AlignBegin=57255|AlignEnd=57635|Gender[lex]=Fem|Number[ctxt]=Sing|SpaceAfter=No
@@ -975,21 +975,21 @@
 3	euh	euh	INTJ	_	_	18	discourse	_	AlignBegin=57844|AlignEnd=58165|SpaceAfter=No
 4	,	,	PUNCT	_	_	3	punct	_	AlignBegin=58165|AlignEnd=58165
 5	si	si	SCONJ	_	_	18	dep	_	AlignBegin=58165|AlignEnd=58289
-6	je	moi	PRON	_	Case=Nom|Emph=No|Number=Sing|Person=1|PronType=Prs	10	reparandum	_	AlignBegin=58289|AlignEnd=58481|Scrap=Yes|SpaceAfter=No
+6	je	moi	PRON	_	Case=Nom|Emph=No|PronType=Prs	10	reparandum	_	AlignBegin=58289|AlignEnd=58481|Number[lex]=Sing|Person[lex]=1|Scrap=Yes|SpaceAfter=No
 7	,	,	PUNCT	_	_	6	punct	_	AlignBegin=58481|AlignEnd=58651
 8	si	si	SCONJ	_	_	10	mark	_	AlignBegin=58651|AlignEnd=58876
-9	je	moi	PRON	_	Case=Nom|Emph=No|Number=Sing|Person=1|PronType=Prs	10	nsubj	_	AlignBegin=58876|AlignEnd=58906
-10	passe	passer	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	5	dep	_	AlignBegin=58906|AlignEnd=59086
+9	je	moi	PRON	_	Case=Nom|Emph=No|PronType=Prs	10	nsubj	_	AlignBegin=58876|AlignEnd=58906|Number[lex]=Sing|Person[lex]=1
+10	passe	passer	VERB	_	Mood=Ind|Number=Sing|Tense=Pres|VerbForm=Fin	5	dep	_	AlignBegin=58906|AlignEnd=59086|Person[ctxt]=1
 11	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	12	det	_	AlignBegin=59086|AlignEnd=59116|Gender[ctxt]=Fem|HasSpokenGender=OnlySingExceptWithLiaison|LiaisonAfter=Yes|SpaceAfter=No
 12	année	année	NOUN	_	_	10	obj	_	AlignBegin=59116|AlignEnd=59326|Gender[lex]=Fem|LiaisonPossibleBefore=Yes|Number[ctxt]=Sing|SpaceAfter=No
 13	,	,	PUNCT	_	_	5	punct	_	AlignBegin=59326|AlignEnd=59326
 14	par	par	ADP	_	ExtPos=ADV	18	advmod	_	AlignBegin=59326|AlignEnd=59486|Idiom=Yes
 15	contre	contre	ADP	_	_	14	fixed	_	AlignBegin=59486|AlignEnd=59676|InIdiom=Yes|SpaceAfter=No
 16	,	,	PUNCT	_	_	14	punct	_	AlignBegin=59676|AlignEnd=59676
-17	je	moi	PRON	_	Case=Nom|Emph=No|Number=Sing|Person=1|PronType=Prs	18	nsubj	_	AlignBegin=59676|AlignEnd=59706
-18	pense	penser	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	AlignBegin=59706|AlignEnd=59866
+17	je	moi	PRON	_	Case=Nom|Emph=No|PronType=Prs	18	nsubj	_	AlignBegin=59676|AlignEnd=59706|Number[lex]=Sing|Person[lex]=1
+18	pense	penser	VERB	_	Mood=Ind|Number=Sing|Tense=Pres|VerbForm=Fin	0	root	_	AlignBegin=59706|AlignEnd=59866|Person[ctxt]=1
 19	que	que	SCONJ	_	_	21	mark	_	AlignBegin=59866|AlignEnd=59966
-20	je	moi	PRON	_	Case=Nom|Emph=No|Number=Sing|Person=1|PronType=Prs	21	nsubj	_	AlignBegin=59966|AlignEnd=59996
+20	je	moi	PRON	_	Case=Nom|Emph=No|PronType=Prs	21	nsubj	_	AlignBegin=59966|AlignEnd=59996|Number[lex]=Sing|Person[lex]=1
 21	vais	aller	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	18	ccomp	_	AlignBegin=59996|AlignEnd=60146
 22	finir	finir	VERB	_	VerbForm=Inf	21	xcomp	_	AlignBegin=60146|AlignEnd=60366|Subject=SubjRaising
 23	ma	son	DET	_	Gender=Fem|Number=Sing|Number[psor]=Sing|Person[psor]=1|Poss=Yes|PronType=Prs	24	det	_	AlignBegin=60366|AlignEnd=60486|HasSpokenGender=OnlySingExceptWithLiaison
@@ -1025,10 +1025,10 @@
 1	s~	s~	X	_	_	5	reparandum	_	AlignBegin=60840|AlignEnd=61015|SpaceAfter=No
 2	,	,	PUNCT	_	_	1	punct	_	AlignBegin=61015|AlignEnd=61015
 3	si	si	SCONJ	_	_	5	mark	_	AlignBegin=61015|AlignEnd=61204
-4	je	moi	PRON	_	Case=Nom|Emph=No|Number=Sing|Person=1|PronType=Prs	5	nsubj	_	AlignBegin=61204|AlignEnd=61435
-5	passe	passer	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	8	advcl	_	AlignBegin=61435|AlignEnd=61635|SpaceAfter=No
+4	je	moi	PRON	_	Case=Nom|Emph=No|PronType=Prs	5	nsubj	_	AlignBegin=61204|AlignEnd=61435|Number[lex]=Sing|Person[lex]=1
+5	passe	passer	VERB	_	Mood=Ind|Number=Sing|Tense=Pres|VerbForm=Fin	8	advcl	_	AlignBegin=61435|AlignEnd=61635|Person[ctxt]=1|SpaceAfter=No
 6	,	,	PUNCT	_	_	5	punct	_	AlignBegin=61635|AlignEnd=61635
-7	je	moi	PRON	_	Case=Nom|Emph=No|Number=Sing|Person=1|PronType=Prs	8	nsubj	_	AlignBegin=61635|AlignEnd=61705
+7	je	moi	PRON	_	Case=Nom|Emph=No|PronType=Prs	8	nsubj	_	AlignBegin=61635|AlignEnd=61705|Number[lex]=Sing|Person[lex]=1
 8	passerai	passer	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Fut|VerbForm=Fin	0	root	_	AlignBegin=61705|AlignEnd=61905
 9	en	en	ADP	_	_	11	case	_	AlignBegin=61905|AlignEnd=62025
 10	deuxième	deuxième	ADJ	_	Number=Sing	11	amod	_	AlignBegin=62025|AlignEnd=62325|Gender[ctxt]=Fem|HasSpokenGender=No|HasSpokenNumber=OnlyWithLiaison|LiaisonAfter=Yes
@@ -1065,10 +1065,10 @@
 # sound_url = https://rhapsodie.modyco.fr/rp/waves/Rhap-M1001.mp3
 # macrosyntax = { je fini~ | je finirai } ma licence pour avoir ma licence //
 # text = je fini~, je finirai ma licence pour avoir ma licence.
-1	je	moi	PRON	_	Case=Nom|Emph=No|Number=Sing|Person=1|PronType=Prs	2	nsubj	_	AlignBegin=63548|AlignEnd=63613
+1	je	moi	PRON	_	Case=Nom|Emph=No|PronType=Prs	2	nsubj	_	AlignBegin=63548|AlignEnd=63613|Number[lex]=Sing|Person[lex]=1
 2	fini~	fini~	X	_	ExtPos=VERB	5	reparandum	_	AlignBegin=63613|AlignEnd=63973|SpaceAfter=No
 3	,	,	PUNCT	_	_	2	punct	_	AlignBegin=63973|AlignEnd=63973
-4	je	moi	PRON	_	Case=Nom|Emph=No|Number=Sing|Person=1|PronType=Prs	5	nsubj	_	AlignBegin=63973|AlignEnd=64123
+4	je	moi	PRON	_	Case=Nom|Emph=No|PronType=Prs	5	nsubj	_	AlignBegin=63973|AlignEnd=64123|Number[lex]=Sing|Person[lex]=1
 5	finirai	finir	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Fut|VerbForm=Fin	0	root	_	AlignBegin=64123|AlignEnd=64403
 6	ma	son	DET	_	Gender=Fem|Number=Sing|Number[psor]=Sing|Person[psor]=1|Poss=Yes|PronType=Prs	7	det	_	AlignBegin=64403|AlignEnd=64533|HasSpokenGender=OnlySingExceptWithLiaison
 7	licence	licence	NOUN	_	_	5	obj	_	AlignBegin=64533|AlignEnd=64843|Gender[lex]=Fem|Number[ctxt]=Sing
@@ -1106,23 +1106,23 @@
 # text = mais si je la passe pas, enfin, je, c'est, j'ai beau~, j'ai appris beaucoup de choses.
 1	mais	mais	CCONJ	_	_	13	cc	_	AlignBegin=66097|AlignEnd=66252
 2	si	si	SCONJ	_	_	5	mark	_	AlignBegin=66252|AlignEnd=66411
-3	je	moi	PRON	_	Case=Nom|Emph=No|Number=Sing|Person=1|PronType=Prs	5	nsubj	_	AlignBegin=66411|AlignEnd=66442
-4	la	le	PRON	_	Case=Acc|Emph=No|Gender=Fem|Number=Sing|Person=3|PronType=Prs	5	obj	_	AlignBegin=66442|AlignEnd=66582
-5	passe	passer	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	13	advcl	_	AlignBegin=66582|AlignEnd=66802
+3	je	moi	PRON	_	Case=Nom|Emph=No|PronType=Prs	5	nsubj	_	AlignBegin=66411|AlignEnd=66442|Number[lex]=Sing|Person[lex]=1
+4	la	lui	PRON	_	Case=Acc|Emph=No|Gender=Fem|Number=Sing|PronType=Prs	5	obj	_	AlignBegin=66442|AlignEnd=66582|Person[lex]=3
+5	passe	passer	VERB	_	Mood=Ind|Number=Sing|Tense=Pres|VerbForm=Fin	13	advcl	_	AlignBegin=66582|AlignEnd=66802|Person[ctxt]=1
 6	pas	pas	ADV	_	Polarity=Neg	5	advmod	_	AlignBegin=66802|AlignEnd=67082|SpaceAfter=No
 7	,	,	PUNCT	_	_	10	punct	_	AlignBegin=66992|AlignEnd=67082
 8	enfin	enfin	ADV	_	_	10	reparandum	_	AlignBegin=67082|AlignEnd=67269|SpaceAfter=No
 9	,	,	PUNCT	_	_	8	punct	_	AlignBegin=67269|AlignEnd=67269
-10	je	moi	PRON	_	Case=Nom|Emph=No|Number=Sing|Person=1|PronType=Prs	6	discourse	_	AlignBegin=67269|AlignEnd=67535|SpaceAfter=No
+10	je	moi	PRON	_	Case=Nom|Emph=No|PronType=Prs	6	discourse	_	AlignBegin=67269|AlignEnd=67535|Number[lex]=Sing|Person[lex]=1|SpaceAfter=No
 11	,	,	PUNCT	_	_	5	punct	_	AlignBegin=67535|AlignEnd=67745
-12	c'	ce	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	13	nsubj	_	AlignBegin=67745|AlignEnd=67840|SpaceAfter=No
+12	c'	ce	PRON	_	PronType=Dem	13	nsubj	_	AlignBegin=67745|AlignEnd=67840|Gender[lex]=Masc|Number[lex]=Sing|Person[lex]=3|SpaceAfter=No
 13	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	21	reparandum	_	AlignBegin=67840|AlignEnd=67990|SpaceAfter=No
 14	,	,	PUNCT	_	_	13	punct	_	AlignBegin=67990|AlignEnd=67990
-15	j'	moi	PRON	_	Case=Nom|Emph=No|Number=Sing|Person=1|PronType=Prs	16	nsubj	_	AlignBegin=67990|AlignEnd=68080|SpaceAfter=No
+15	j'	moi	PRON	_	Case=Nom|Emph=No|PronType=Prs	16	nsubj	_	AlignBegin=67990|AlignEnd=68080|Number[lex]=Sing|Person[lex]=1|SpaceAfter=No
 16	ai	avoir	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	21	reparandum	_	AlignBegin=68080|AlignEnd=68170
 17	beau~	beau~	X	_	ExtPos=ADV	16	advmod	_	AlignBegin=68170|AlignEnd=68307|SpaceAfter=No
 18	,	,	PUNCT	_	_	16	punct	_	AlignBegin=68307|AlignEnd=68307
-19	j'	moi	PRON	_	Case=Nom|Emph=No|Number=Sing|Person=1|PronType=Prs	21	nsubj	_	AlignBegin=68307|AlignEnd=68342|SpaceAfter=No
+19	j'	moi	PRON	_	Case=Nom|Emph=No|PronType=Prs	21	nsubj	_	AlignBegin=68307|AlignEnd=68342|Number[lex]=Sing|Person[lex]=1|SpaceAfter=No
 20	ai	avoir	AUX	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	21	aux:tense	_	AlignBegin=68342|AlignEnd=68425
 21	appris	apprendre	VERB	_	Gender=Masc|VerbForm=Part|Voice=Act	0	root	_	AlignBegin=68425|AlignEnd=68650|PastPartHasSpokenGender=Yes|Tense[denom]=Past
 22	beaucoup	beaucoup	ADV	_	_	21	obj	_	AlignBegin=68650|AlignEnd=68870
@@ -1160,7 +1160,7 @@
 2	,	,	PUNCT	_	_	8	punct	_	AlignBegin=69362|AlignEnd=69362
 3	euh	euh	INTJ	_	_	8	discourse	_	AlignBegin=69362|AlignEnd=69600|SpaceAfter=No
 4	,	,	PUNCT	_	_	3	punct	_	AlignBegin=69600|AlignEnd=69600
-5	c'	ce	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	8	nsubj	_	AlignBegin=69600|AlignEnd=69645|SpaceAfter=No
+5	c'	ce	PRON	_	PronType=Dem	8	nsubj	_	AlignBegin=69600|AlignEnd=69645|Gender[lex]=Masc|Number[lex]=Sing|Person[lex]=3|SpaceAfter=No
 6	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	cop	_	AlignBegin=69645|AlignEnd=69755
 7	très	très	ADV	_	_	8	advmod	_	AlignBegin=69755|AlignEnd=69885
 8	intéressant	intéressant	ADJ	_	Gender=Masc	0	root	_	AlignBegin=69885|AlignEnd=70315|HasSpokenGender=YesExceptSingWithLiaison|HasSpokenNumber=OnlyWithLiaison|Number[ctxt]=Sing|SpaceAfter=No
@@ -1193,19 +1193,19 @@
 # macrosyntax = ^mais je pense que je me réorienterai en psychologie parce que ça m'intéresse plus //
 # text = mais je pense que je me réorienterai en psychologie parce que ça m'intéresse plus.
 1	mais	mais	CCONJ	_	_	3	cc	_	AlignBegin=70315|AlignEnd=70435
-2	je	moi	PRON	_	Case=Nom|Emph=No|Number=Sing|Person=1|PronType=Prs	3	nsubj	_	AlignBegin=70435|AlignEnd=70525
-3	pense	penser	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	AlignBegin=70525|AlignEnd=70735
+2	je	moi	PRON	_	Case=Nom|Emph=No|PronType=Prs	3	nsubj	_	AlignBegin=70435|AlignEnd=70525|Number[lex]=Sing|Person[lex]=1
+3	pense	penser	VERB	_	Mood=Ind|Number=Sing|Tense=Pres|VerbForm=Fin	0	root	_	AlignBegin=70525|AlignEnd=70735|Person[ctxt]=1
 4	que	que	SCONJ	_	_	7	mark	_	AlignBegin=70735|AlignEnd=71055
-5	je	moi	PRON	_	Case=Nom|Emph=No|Number=Sing|Person=1|PronType=Prs	7	nsubj	_	AlignBegin=71299|AlignEnd=71354
-6	me	moi	PRON	_	Case=Dat|Emph=No|Number=Sing|Person=1|PronType=Prs	7	iobj	_	AlignBegin=71354|AlignEnd=71424
+5	je	moi	PRON	_	Case=Nom|Emph=No|PronType=Prs	7	nsubj	_	AlignBegin=71299|AlignEnd=71354|Number[lex]=Sing|Person[lex]=1
+6	me	moi	PRON	_	Case=Dat|Emph=No|PronType=Prs	7	iobj	_	AlignBegin=71354|AlignEnd=71424|Number[lex]=Sing|Person[lex]=1
 7	réorienterai	réorienter	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Fut|VerbForm=Fin	3	ccomp	_	AlignBegin=71424|AlignEnd=71834
 8	en	en	ADP	_	_	9	case	_	AlignBegin=71834|AlignEnd=71914
 9	psychologie	psychologie	NOUN	_	_	7	obl:arg	_	AlignBegin=71914|AlignEnd=72414|Gender[lex]=Fem|Number[ctxt]=Sing
 10	parce	parce	ADV	_	ExtPos=SCONJ	14	mark	_	AlignBegin=72414|AlignEnd=72534|Idiom=Yes
 11	que	que	SCONJ	_	_	10	fixed	_	AlignBegin=72534|AlignEnd=72634|InIdiom=Yes
-12	ça	ça	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	14	nsubj	_	AlignBegin=72634|AlignEnd=72754
-13	m'	moi	PRON	_	Case=Acc|Emph=No|Number=Sing|Person=1|PronType=Prs	14	obj	_	AlignBegin=72754|AlignEnd=72799|SpaceAfter=No
-14	intéresse	intéresser	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	advcl	_	AlignBegin=72799|AlignEnd=73144
+12	ça	ça	PRON	_	PronType=Dem	14	nsubj	_	AlignBegin=72634|AlignEnd=72754|Gender[lex]=Masc|Number[lex]=Sing|Person[lex]=3
+13	m'	moi	PRON	_	Case=Acc|Emph=No|PronType=Prs	14	obj	_	AlignBegin=72754|AlignEnd=72799|Number[lex]=Sing|Person[lex]=1|SpaceAfter=No
+14	intéresse	intéresser	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	7	advcl	_	AlignBegin=72799|AlignEnd=73144|Number[ctxt]=Sing|Person[ctxt]=3
 15	plus	plus	ADV	_	_	14	advmod	_	AlignBegin=73144|AlignEnd=73454|SpaceAfter=No
 16	.	.	PUNCT	_	_	3	punct	_	AlignBegin=73454|AlignEnd=73454
 
@@ -1235,7 +1235,7 @@
 # sound_url = https://rhapsodie.modyco.fr/rp/waves/Rhap-M1001.mp3
 # macrosyntax = je suis plus "euh" ESPERLUETTE //
 # text = je suis plus, euh…
-1	je	moi	PRON	_	Case=Nom|Emph=No|Number=Sing|Person=1|PronType=Prs	2	nsubj	_	AlignBegin=74190|AlignEnd=74305
+1	je	moi	PRON	_	Case=Nom|Emph=No|PronType=Prs	2	nsubj	_	AlignBegin=74190|AlignEnd=74305|Number[lex]=Sing|Person[lex]=1
 2	suis	être	AUX	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	AlignBegin=74305|AlignEnd=74445
 3	plus	plus	ADV	_	_	2	advmod	_	AlignBegin=74445|AlignEnd=74785|SpaceAfter=No
 4	,	,	PUNCT	_	_	5	punct	_	AlignBegin=74785|AlignEnd=74785
@@ -1270,10 +1270,10 @@
 # text = enfin, on dit que je suis à l'écoute des personnes, je suis compréhensive, et que…
 1	enfin	enfin	ADV	_	_	4	discourse	_	AlignBegin=75005|AlignEnd=75302|SpaceAfter=No
 2	,	,	PUNCT	_	_	1	punct	_	AlignBegin=75302|AlignEnd=75721
-3	on	on	PRON	_	Case=Nom|Emph=No|Gender=Masc|Number=Sing|Person=3|PronType=Ind	4	nsubj	_	AlignBegin=75721|AlignEnd=75856
-4	dit	dire	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	AlignBegin=75856|AlignEnd=75976
+3	on	on	PRON	_	Case=Nom|Emph=No|PronType=Ind	4	nsubj	_	AlignBegin=75721|AlignEnd=75856|Gender[ctxt]=Masc|Number[lex]=Sing|Person[lex]=3
+4	dit	dire	VERB	_	Mood=Ind|Number=Sing|Tense=Pres|VerbForm=Fin	0	root	_	AlignBegin=75856|AlignEnd=75976|Person[ctxt]=3
 5	que	que	SCONJ	_	_	10	mark	_	AlignBegin=75976|AlignEnd=76086
-6	je	moi	PRON	_	Case=Nom|Emph=No|Number=Sing|Person=1|PronType=Prs	10	nsubj	_	AlignBegin=76086|AlignEnd=76146
+6	je	moi	PRON	_	Case=Nom|Emph=No|PronType=Prs	10	nsubj	_	AlignBegin=76086|AlignEnd=76146|Number[lex]=Sing|Person[lex]=1
 7	suis	être	AUX	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	10	cop	_	AlignBegin=76146|AlignEnd=76236
 8	à	à	ADP	_	_	10	case	_	AlignBegin=76236|AlignEnd=76306
 9	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	10	det	_	AlignBegin=76306|AlignEnd=76336|Gender[ctxt]=Fem|HasSpokenGender=OnlySingExceptWithLiaison|LiaisonAfter=Yes|SpaceAfter=No
@@ -1283,7 +1283,7 @@
 12	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	13	det	_	AlignBegin=76576|AlignEnd=76706
 13	personnes	personne	NOUN	_	_	10	nmod	_	AlignBegin=76706|AlignEnd=77150|Gender[lex]=Fem|Number[ctxt]=Plur|SpaceAfter=No
 14	,	,	PUNCT	_	_	17	punct	_	AlignBegin=77150|AlignEnd=77150
-15	je	moi	PRON	_	Case=Nom|Emph=No|Number=Sing|Person=1|PronType=Prs	17	nsubj	_	AlignBegin=77150|AlignEnd=77225
+15	je	moi	PRON	_	Case=Nom|Emph=No|PronType=Prs	17	nsubj	_	AlignBegin=77150|AlignEnd=77225|Number[lex]=Sing|Person[lex]=1
 16	suis	être	AUX	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	17	cop	_	AlignBegin=77225|AlignEnd=77315
 17	compréhensive	compréhensif	ADJ	_	Gender=Fem	10	conj	_	AlignBegin=77315|AlignEnd=78095|HasSpokenGender=YesExceptSingWithLiaison|HasSpokenNumber=OnlyWithLiaison|Number[ctxt]=Sing|SpaceAfter=No
 18	,	,	PUNCT	_	_	20	punct	_	AlignBegin=78095|AlignEnd=78095
@@ -1322,10 +1322,10 @@
 3	tout	tout	ADJ	_	Gender=Masc	5	amod	_	AlignBegin=78635|AlignEnd=78755|HasSpokenGender=YesExceptSingWithLiaison|HasSpokenNumber=OnlyWithLiaison|Number[ctxt]=Sing
 4	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	AlignBegin=78755|AlignEnd=78811|HasSpokenGender=OnlySingExceptWithLiaison
 5	monde	monde	NOUN	_	_	7	nsubj	_	AlignBegin=78811|AlignEnd=78935|Gender[lex]=Masc|Number[ctxt]=Sing
-6	me	moi	PRON	_	Case=Dat|Emph=No|Number=Sing|Person=1|PronType=Prs	7	iobj	_	AlignBegin=78935|AlignEnd=79025
-7	dit	dire	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	AlignBegin=79025|AlignEnd=79145
+6	me	moi	PRON	_	Case=Dat|Emph=No|PronType=Prs	7	iobj	_	AlignBegin=78935|AlignEnd=79025|Number[lex]=Sing|Person[lex]=1
+7	dit	dire	VERB	_	Mood=Ind|Number=Sing|Tense=Pres|VerbForm=Fin	0	root	_	AlignBegin=79025|AlignEnd=79145|Person[ctxt]=3
 8	que	que	SCONJ	_	_	15	mark	_	AlignBegin=79145|AlignEnd=79325
-9	je	moi	PRON	_	Case=Nom|Emph=No|Number=Sing|Person=1|PronType=Prs	15	nsubj:pass	_	AlignBegin=79325|AlignEnd=79465
+9	je	moi	PRON	_	Case=Nom|Emph=No|PronType=Prs	15	nsubj:pass	_	AlignBegin=79325|AlignEnd=79465|Number[lex]=Sing|Person[lex]=1
 10	suis	être	AUX	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	15	aux:pass	_	AlignBegin=79465|AlignEnd=79585
 11	plus	plus	ADV	_	_	15	advmod	_	AlignBegin=79585|AlignEnd=79855|SpaceAfter=No
 12	,	,	PUNCT	_	_	13	punct	_	AlignBegin=79855|AlignEnd=79855
@@ -1383,18 +1383,18 @@
 2	,	,	PUNCT	_	_	3	punct	_	AlignBegin=84200|AlignEnd=84200
 3	euh	euh	INTJ	_	_	1	discourse	_	AlignBegin=84200|AlignEnd=84290|SpaceAfter=No
 4	,	,	PUNCT	_	_	1	punct	_	AlignBegin=84290|AlignEnd=84290
-5	je	moi	PRON	_	Case=Nom|Emph=No|Number=Sing|Person=1|PronType=Prs	6	nsubj	_	AlignBegin=84290|AlignEnd=84390
-6	pense	penser	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	AlignBegin=84390|AlignEnd=84640
+5	je	moi	PRON	_	Case=Nom|Emph=No|PronType=Prs	6	nsubj	_	AlignBegin=84290|AlignEnd=84390|Number[lex]=Sing|Person[lex]=1
+6	pense	penser	VERB	_	Mood=Ind|Number=Sing|Tense=Pres|VerbForm=Fin	0	root	_	AlignBegin=84390|AlignEnd=84640|Person[ctxt]=1
 7	que	que	SCONJ	_	_	14	mark	_	AlignBegin=84640|AlignEnd=84790
-8	je	moi	PRON	_	Case=Nom|Emph=No|Number=Sing|Person=1|PronType=Prs	9	nsubj	_	AlignBegin=84790|AlignEnd=84890
+8	je	moi	PRON	_	Case=Nom|Emph=No|PronType=Prs	9	nsubj	_	AlignBegin=84790|AlignEnd=84890|Number[lex]=Sing|Person[lex]=1
 9	vais	aller	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	14	reparandum	_	AlignBegin=84890|AlignEnd=85162|SpaceAfter=No
 10	,	,	PUNCT	_	_	11	punct	_	AlignBegin=85162|AlignEnd=85162
 11	euh	euh	INTJ	_	_	9	discourse	_	AlignBegin=85162|AlignEnd=85520|SpaceAfter=No
 12	,	,	PUNCT	_	_	9	punct	_	AlignBegin=85520|AlignEnd=85520
-13	je	moi	PRON	_	Case=Nom|Emph=No|Number=Sing|Person=1|PronType=Prs	14	nsubj	_	AlignBegin=85520|AlignEnd=85590
+13	je	moi	PRON	_	Case=Nom|Emph=No|PronType=Prs	14	nsubj	_	AlignBegin=85520|AlignEnd=85590|Number[lex]=Sing|Person[lex]=1
 14	vais	aller	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	6	ccomp	_	AlignBegin=85590|AlignEnd=85680
 15	sûrement	sûrement	ADV	_	_	14	advmod	_	AlignBegin=85680|AlignEnd=86004
-16	me	moi	PRON	_	Case=Dat|Emph=No|Number=Sing|Person=1|PronType=Prs	14	iobj	_	AlignBegin=86004|AlignEnd=86040
+16	me	moi	PRON	_	Case=Dat|Emph=No|PronType=Prs	14	iobj	_	AlignBegin=86004|AlignEnd=86040|Number[lex]=Sing|Person[lex]=1
 17	réorienter	réorienter	VERB	_	VerbForm=Inf	14	ccomp	_	AlignBegin=86040|AlignEnd=86610|SpaceAfter=No
 18	,	,	PUNCT	_	_	20	punct	_	AlignBegin=86610|AlignEnd=86967
 19	en	en	ADP	_	_	20	case	_	AlignBegin=86967|AlignEnd=87132
