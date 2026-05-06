@@ -16,6 +16,11 @@ The SUD version is also available with prosodic annotation (see [SUD README.md](
 + fr_rhapsodie-ud-test.conllu  840 sentences 12,191 tokens
 + total 3,209 sentences 44,242 tokens
 
+# Acknowledgement
+The final discussions on the guidelines for spoken treebanks were supported by the COST Action CA21167 —Universality, diversity and idiosyncrasy in language technology ([UniDive](https://unidive.lisn.upsaclay.fr/)).
+Resource maintenance has been supported by [Autogramm](https://autogramm.github.io/en/), ANR (Agence Nationale de la Recherche), Projet-ANR-21-CE38-0017 (2021-2026).
+
+
 # Changelog
 
 * 2025-11-15 v2.17
