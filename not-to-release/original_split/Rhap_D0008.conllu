@@ -226,9 +226,9 @@
 # speaker_id = §LF9
 # macrosyntax = $L2  A~  | Agutte Sembat } //
 # text = A~, Agutte Sembat.
-1	A~	A~	X	_	ExtPos=PROPN	3	reparandum	_	AlignBegin=42742|AlignEnd=42912|Coconstruct=conj:dicto::Rhap_D0008-10::15|SpaceAfter=No
+1	A~	A~	X	_	ExtPos=PROPN	3	reparandum	_	AlignBegin=42742|AlignEnd=42912|SpaceAfter=No
 2	,	,	PUNCT	_	_	1	punct	_	AlignBegin=42912|AlignEnd=42997
-3	Agutte	Agutte	PROPN	_	_	0	root	_	AlignBegin=42997|AlignEnd=43347
+3	Agutte	Agutte	PROPN	_	_	0	root	_	AlignBegin=42997|AlignEnd=43347|Coconstruct=conj:dicto::Rhap_D0008-10::15
 4	Sembat	Sembat	PROPN	_	_	3	flat:name	_	AlignBegin=43347|AlignEnd=43735|SpaceAfter=No
 5	.	.	PUNCT	_	_	3	punct	_	AlignBegin=43735|AlignEnd=43735
 
@@ -1099,9 +1099,9 @@
 # speaker_id = §LF9
 # macrosyntax = { ^parce | $- ^parce } ^que "euh" ( $L2 d'accord // ) -$ vous longez ESPERLUETTE //
 # text = parce, parce que, euh, vous longez…
-1	parce	parce	SCONJ	_	_	9	reparandum	_	AlignBegin=165281|AlignEnd=165468|Automated=Yes|Coconstruct=mod::Rhap_D0008-57::2|SingleSpeaker=Yes|SpaceAfter=No
+1	parce	parce	SCONJ	_	_	9	reparandum	_	AlignBegin=165281|AlignEnd=165468|Automated=Yes|SingleSpeaker=Yes|SpaceAfter=No
 2	,	,	PUNCT	_	_	1	punct	_	AlignBegin=165468|AlignEnd=165468
-3	parce	parce	ADV	_	ExtPos=SCONJ	9	mark	_	AlignBegin=165468|AlignEnd=166165|Idiom=Yes|Overlap=Rhap_D0008-59
+3	parce	parce	ADV	_	ExtPos=SCONJ	9	mark	_	AlignBegin=165468|AlignEnd=166165|Coconstruct=mod::Rhap_D0008-57::2|Idiom=Yes|Overlap=Rhap_D0008-59
 4	que	que	SCONJ	_	_	3	fixed	_	AlignBegin=165468|AlignEnd=166165|InIdiom=Yes|Overlap=Rhap_D0008-59|SpaceAfter=No
 5	,	,	PUNCT	_	_	6	punct	_	AlignBegin=166165|AlignEnd=165468|Overlap=Rhap_D0008-52bis
 6	euh	euh	INTJ	_	_	9	discourse:filler	_	AlignBegin=165592|AlignEnd=166165|Overlap=Rhap_D0008-59|SpaceAfter=No
