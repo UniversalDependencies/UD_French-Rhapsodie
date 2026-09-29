@@ -4,7 +4,7 @@
 # speaker_id = §LM6
 # macrosyntax = $L1 "euh" oui //
 # text = euh, oui.
-1	euh	euh	INTJ	_	_	3	discourse	_	AlignBegin=160|AlignEnd=620|SpaceAfter=No
+1	euh	euh	INTJ	_	_	3	discourse:filler	_	AlignBegin=160|AlignEnd=620|SpaceAfter=No
 2	,	,	PUNCT	_	_	1	punct	_	AlignBegin=620|AlignEnd=620
 3	oui	oui	INTJ	_	_	0	root	_	AlignBegin=620|AlignEnd=1102|SpaceAfter=No
 4	.	.	PUNCT	_	_	3	punct	_	AlignBegin=1102|AlignEnd=1102
@@ -21,11 +21,11 @@
 4	,	,	PUNCT	_	_	3	punct	_	AlignBegin=2104|AlignEnd=2104
 5	vous	vous	PRON	_	Case=Nom|Emph=No|Number=Plur|Person=2|PronType=Prs	6	nsubj	_	AlignBegin=2104|AlignEnd=2297|Exponence[Number]=Inherent|Exponence[Person]=Inherent|Polite=Unknown
 6	prenez	prendre	VERB	_	Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	0	root	_	AlignBegin=2297|AlignEnd=2545
-7	à	à	ADP	_	_	11	case	_	AlignBegin=2545|AlignEnd=2650
-8	droite	droite	NOUN	_	Gender=Fem|Number=Sing	11	reparandum	_	AlignBegin=2650|AlignEnd=3183|Exponence[Gender]=Inherent|Exponence[Number]=Absent|SpaceAfter=No
-9	,	,	PUNCT	_	_	8	punct	_	AlignBegin=3183|AlignEnd=3990
+7	à	à	ADP	_	_	8	case	_	AlignBegin=2545|AlignEnd=2650
+8	droite	droite	NOUN	_	Gender=Fem|Number=Sing	6	obl:arg	_	AlignBegin=2650|AlignEnd=3183|Exponence[Gender]=Inherent|Exponence[Number]=Absent|SpaceAfter=No
+9	,	,	PUNCT	_	_	11	punct	_	AlignBegin=3183|AlignEnd=3990
 10	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	11	det	_	AlignBegin=3990|AlignEnd=4244|HasSpokenGender=OnlySingExceptWithLiaison
-11	droite	droite	NOUN	_	Gender=Fem|Number=Sing	6	obl:arg	_	AlignBegin=4244|AlignEnd=4752|Exponence[Gender]=Inherent|Exponence[Number]=Absent|SpaceAfter=No
+11	droite	droite	NOUN	_	Gender=Fem|Number=Sing	8	conj:reform	_	AlignBegin=4244|AlignEnd=4752|Exponence[Gender]=Inherent|Exponence[Number]=Absent|SpaceAfter=No
 12	.	.	PUNCT	_	_	6	punct	_	AlignBegin=4752|AlignEnd=4752
 
 # sent_id = Rhap_D0017-3
@@ -42,9 +42,9 @@
 6	jusqu'	jusque	ADP	_	_	10	case	_	AlignBegin=6857|AlignEnd=7235|SpaceAfter=No
 7-8	au	_	_	_	_	_	_	_	_
 7	à	à	ADP	_	_	10	case	_	AlignBegin=7235|AlignEnd=7828
-8	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	10	det	_	AlignBegin=7235|AlignEnd=7828
+8	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
 9	prochain	prochain	ADJ	_	Gender=Masc|Number=Sing	10	amod	_	AlignBegin=7828|AlignEnd=8142|Exponence[Gender]=Absent|HasSpokenGender=No|HasSpokenNumber=OnlyWithLiaison|LiaisonAfter=Yes
-10	arrêt	arrêt	NOUN	_	Gender=Masc|Number=Sing	3	obl:mod	_	AlignBegin=8142|AlignEnd=8405|Exponence[Gender]=Inherent|Exponence[Number]=Absent|LiaisonPossibleBefore=Yes
+10	arrêt	arrêt	NOUN	_	Gender=Masc|Number=Sing	3	obl:mod	_	AlignBegin=8142|AlignEnd=8405|cdet=No|Exponence[Gender]=Inherent|Exponence[Number]=Absent|LiaisonPossibleBefore=Yes
 11	de	de	ADP	_	_	12	case	_	AlignBegin=8405|AlignEnd=8485
 12	tram	tram	NOUN	_	Gender=Masc|Number=Sing	10	nmod	_	AlignBegin=8485|AlignEnd=8795|Exponence[Gender]=Inherent|Exponence[Number]=Absent
 13	où	où	ADV	_	PronType=Rel	16	advmod	_	AlignBegin=9639|AlignEnd=9730
@@ -69,7 +69,7 @@
 6	jusqu'	jusque	ADP	_	_	10	case	_	AlignBegin=13348|AlignEnd=13743|SpaceAfter=No
 7-8	au	_	_	_	_	_	_	_	_
 7	à	à	ADP	_	_	10	case	_	AlignBegin=13743|AlignEnd=14016
-8	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	10	det	_	AlignBegin=13743|AlignEnd=14016
+8	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
 9	deuxième	deuxième	ADJ	_	Gender=Masc|Number=Sing	10	amod	_	AlignBegin=14016|AlignEnd=14347|Exponence[Gender]=Absent|HasSpokenGender=No|HasSpokenNumber=OnlyWithLiaison|LiaisonAfter=Yes
 10	arrêt	arrêt	NOUN	_	Gender=Masc|Number=Sing	3	obl:mod	_	AlignBegin=14347|AlignEnd=14643|Exponence[Gender]=Inherent|Exponence[Number]=Absent|LiaisonPossibleBefore=Yes|SpaceAfter=No
 11	.	.	PUNCT	_	_	3	punct	_	AlignBegin=14643|AlignEnd=14643
@@ -86,7 +86,7 @@
 4	arriver	arriver	VERB	_	VerbForm=Inf	2	acl	_	AlignBegin=16523|AlignEnd=16913|Subject=NoRaising
 5-6	au	_	_	_	_	_	_	_	_
 5	à	à	ADP	_	_	7	case	_	AlignBegin=16913|AlignEnd=17073
-6	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	AlignBegin=16913|AlignEnd=17073
+6	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
 7	troisième	troisième	NOUN	_	Gender=Masc|Number=Sing	4	obl:arg	_	AlignBegin=17073|AlignEnd=17753|Exponence[Gender]=Inherent|Exponence[Number]=Absent|SpaceAfter=No
 8	,	,	PUNCT	_	_	2	punct	_	AlignBegin=17753|AlignEnd=17753
 9	vous	vous	PRON	_	Case=Nom|Emph=No|Number=Plur|Person=2|PronType=Prs	10	nsubj	_	AlignBegin=17753|AlignEnd=17879|Exponence[Number]=Inherent|Exponence[Person]=Inherent|Polite=Unknown
@@ -138,16 +138,16 @@
 # speaker_id = §LM7
 # macrosyntax = $L2 "euh" ^mais { au | au } prochain arrêt <+ { je | je } continue //
 # text = euh, mais au, au prochain arrêt, je, je continue ?
-1	euh	euh	INTJ	_	_	15	discourse	_	AlignBegin=27936|AlignEnd=28367|SpaceAfter=No
+1	euh	euh	INTJ	_	_	15	discourse:filler	_	AlignBegin=27936|AlignEnd=28367|SpaceAfter=No
 2	,	,	PUNCT	_	_	1	punct	_	AlignBegin=28367|AlignEnd=28367
 3	mais	mais	CCONJ	_	_	15	cc	_	AlignBegin=28367|AlignEnd=28654
 4-5	au	_	_	_	_	_	_	_	SpaceAfter=No
-4	à	à	ADP	_	_	5	case	_	AlignBegin=28654|AlignEnd=28826
+4	à	à	ADP	_	_	5	case	_	_
 5	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	10	reparandum	_	AlignBegin=28654|AlignEnd=28826|Scrap=Yes
 6	,	,	PUNCT	_	_	5	punct	_	AlignBegin=28826|AlignEnd=29016
 7-8	au	_	_	_	_	_	_	_	_
 7	à	à	ADP	_	_	10	case	_	AlignBegin=29016|AlignEnd=29132
-8	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	10	det	_	AlignBegin=29016|AlignEnd=29132
+8	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
 9	prochain	prochain	ADJ	_	Gender=Masc|Number=Sing	10	amod	_	AlignBegin=29132|AlignEnd=29542|Exponence[Gender]=Absent|HasSpokenGender=No|HasSpokenNumber=OnlyWithLiaison|LiaisonAfter=Yes
 10	arrêt	arrêt	NOUN	_	Gender=Masc|Number=Sing	15	obl:mod	_	AlignBegin=29542|AlignEnd=29873|Exponence[Gender]=Inherent|Exponence[Number]=Absent|LiaisonPossibleBefore=Yes|SpaceAfter=No
 11	,	,	PUNCT	_	_	10	punct	_	AlignBegin=29873|AlignEnd=29873
@@ -163,11 +163,11 @@
 # speaker_id = §LM6
 # macrosyntax = $L1 "euh" au prochain arrêt <+ "oui" vous continuez //+ jusqu'au deuxième //
 # text = euh, au prochain arrêt, oui, vous continuez, jusqu'au deuxième.
-1	euh	euh	INTJ	_	_	11	discourse	_	AlignBegin=32019|AlignEnd=32288|SpaceAfter=No
+1	euh	euh	INTJ	_	_	11	discourse:filler	_	AlignBegin=32019|AlignEnd=32288|SpaceAfter=No
 2	,	,	PUNCT	_	_	1	punct	_	AlignBegin=32288|AlignEnd=32802
 3-4	au	_	_	_	_	_	_	_	_
 3	à	à	ADP	_	_	6	case	_	AlignBegin=32802|AlignEnd=33049
-4	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	AlignBegin=32802|AlignEnd=33049
+4	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
 5	prochain	prochain	ADJ	_	Gender=Masc|Number=Sing	6	amod	_	AlignBegin=33049|AlignEnd=33511|Exponence[Gender]=Absent|HasSpokenGender=No|HasSpokenNumber=OnlyWithLiaison|LiaisonAfter=Yes
 6	arrêt	arrêt	NOUN	_	Gender=Masc|Number=Sing	11	obl:mod	_	AlignBegin=33511|AlignEnd=33948|Exponence[Gender]=Inherent|Exponence[Number]=Absent|LiaisonPossibleBefore=Yes|SpaceAfter=No
 7	,	,	PUNCT	_	_	8	punct	_	AlignBegin=33948|AlignEnd=33948
@@ -179,7 +179,7 @@
 13	jusqu'	jusque	ADP	_	_	16	case	_	AlignBegin=35942|AlignEnd=36999|SpaceAfter=No
 14-15	au	_	_	_	_	_	_	_	_
 14	à	à	ADP	_	_	16	case	_	AlignBegin=36999|AlignEnd=37104
-15	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	16	det	_	AlignBegin=36999|AlignEnd=37104
+15	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	16	det	_	_
 16	deuxième	deuxième	NOUN	_	Gender=Masc|Number=Sing	11	obl:arg	_	AlignBegin=37104|AlignEnd=37600|Exponence[Gender]=Inherent|Exponence[Number]=Absent|SpaceAfter=No
 17	.	.	PUNCT	_	_	11	punct	_	AlignBegin=37600|AlignEnd=37600
 
@@ -195,17 +195,17 @@
 4	arriver	arriver	VERB	_	VerbForm=Inf	2	acl	_	AlignBegin=39087|AlignEnd=39343|Subject=NoRaising
 5-6	au	_	_	_	_	_	_	_	_
 5	à	à	ADP	_	_	7	case	_	AlignBegin=39343|AlignEnd=39511
-6	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	AlignBegin=39343|AlignEnd=39511
+6	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
 7	troisième	troisième	NOUN	_	Gender=Masc|Number=Sing	4	obl:arg	_	AlignBegin=39511|AlignEnd=40174|Exponence[Gender]=Inherent|Exponence[Number]=Absent|SpaceAfter=No
 8	,	,	PUNCT	_	_	2	punct	_	AlignBegin=40174|AlignEnd=40174
 9	il	lui	PRON	_	Case=Nom|Emph=No|Gender=Masc|Number=Sing|Person=3|PronType=Prs	11	expl:subj	_	AlignBegin=40174|AlignEnd=40283|Exponence[Person]=Inherent
 10	y	y	PRON	_	Person=3|PronType=Prs	11	expl:comp	_	AlignBegin=40283|AlignEnd=40343|Exponence[Person]=Inherent
 11	aura	avoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	0	root	_	AlignBegin=40343|AlignEnd=40704
 12	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	13	det	_	AlignBegin=40704|AlignEnd=40863|LiaisonAfter=Yes
-13	intersection	intersection	NOUN	_	Gender=Fem|Number=Sing	11	obj	_	AlignBegin=40863|AlignEnd=41902|Exponence[Gender]=Inherent|Exponence[Number]=Absent|LiaisonPossibleBefore=Yes
+13	intersection	intersection	NOUN	_	Gender=Fem|Number=Sing	11	obj	_	AlignBegin=40863|AlignEnd=41902|cdet=No|Exponence[Gender]=Inherent|Exponence[Number]=Absent|LiaisonPossibleBefore=Yes
 14-15	des	_	_	_	_	_	_	_	_
 14	de	de	ADP	_	_	16	case	_	AlignBegin=41902|AlignEnd=42002
-15	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	16	det	_	AlignBegin=41902|AlignEnd=42002
+15	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	16	det	_	_
 16	voies	voie	NOUN	_	Gender=Fem|Number=Plur	13	nmod	_	AlignBegin=42002|AlignEnd=42273|Exponence[Gender]=Inherent|Exponence[Number]=Absent|SpaceAfter=No
 17	.	.	PUNCT	_	_	11	punct	_	AlignBegin=42273|AlignEnd=42273
 

@@ -61,17 +61,17 @@
 # text = au rond-point, c'est tout droit, direction Saint-Jean-de-Maurienne.
 1-2	au	_	_	_	_	_	_	_	_
 1	à	à	ADP	_	_	3	case	_	AlignBegin=6514|AlignEnd=6664
-2	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	AlignBegin=6514|AlignEnd=6664
+2	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
 3	rond-point	rond-point	NOUN	_	Gender=Masc|Number=Sing	8	obl:mod	_	AlignBegin=6664|AlignEnd=7034|Exponence[Gender]=Inherent|Exponence[Number]=Absent|SpaceAfter=No
 4	,	,	PUNCT	_	_	3	punct	_	AlignBegin=7034|AlignEnd=7034
-5	c'	ce	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	11	nsubj	_	AlignBegin=7034|AlignEnd=7114|Exponence[Gender]=Inherent|Exponence[Number]=Inherent|Exponence[Person]=Inherent|SpaceAfter=No
-6	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	cop	_	AlignBegin=7114|AlignEnd=7183
+5	c'	ce	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	8	nsubj	_	AlignBegin=7034|AlignEnd=7114|Exponence[Gender]=Inherent|Exponence[Number]=Inherent|Exponence[Person]=Inherent|SpaceAfter=No
+6	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	cop	_	AlignBegin=7114|AlignEnd=7183
 7	tout	tout	ADV	_	_	8	advmod	_	AlignBegin=7183|AlignEnd=7362
-8	droit	droit	ADJ	_	Gender=Masc|Number=Sing	11	reparandum	_	AlignBegin=7362|AlignEnd=7679|Exponence[Number]=Absent|HasSpokenGender=YesExceptSingWithLiaison|HasSpokenNumber=OnlyWithLiaison|SpaceAfter=No
-9	,	,	PUNCT	_	_	8	punct	_	AlignBegin=7679|AlignEnd=7679
+8	droit	droit	ADJ	_	Gender=Masc|Number=Sing	0	root	_	AlignBegin=7362|AlignEnd=7679|Exponence[Number]=Absent|HasSpokenGender=YesExceptSingWithLiaison|HasSpokenNumber=OnlyWithLiaison|SpaceAfter=No
+9	,	,	PUNCT	_	_	11	punct	_	AlignBegin=7679|AlignEnd=7679
 10	direction	direction	ADP	_	_	11	case	_	AlignBegin=7679|AlignEnd=8170
-11	Saint-Jean-de-Maurienne	Saint-Jean-de-Maurienne	PROPN	_	_	0	root	_	AlignBegin=8170|AlignEnd=8580|SpaceAfter=No
-12	.	.	PUNCT	_	_	11	punct	_	AlignBegin=8580|AlignEnd=8640
+11	Saint-Jean-de-Maurienne	Saint-Jean-de-Maurienne	PROPN	_	_	8	conj:reform	_	AlignBegin=8170|AlignEnd=8580|SpaceAfter=No
+12	.	.	PUNCT	_	_	8	punct	_	AlignBegin=8580|AlignEnd=8640
 
 # sent_id = Rhap_M0009-6
 # prosodic_annotation = yes
@@ -79,7 +79,7 @@
 # speaker_id = §LF27
 # macrosyntax = "euh" donc < { tou~ | tou~ | toujours } Saint-Jean-de-Maurienne //
 # text = euh, donc, tou~, tou~, toujours Saint-Jean-de-Maurienne.
-1	euh	euh	INTJ	_	_	10	discourse	_	AlignBegin=9754|AlignEnd=10112|SpaceAfter=No
+1	euh	euh	INTJ	_	_	10	discourse:filler	_	AlignBegin=9754|AlignEnd=10112|SpaceAfter=No
 2	,	,	PUNCT	_	_	1	punct	_	AlignBegin=10112|AlignEnd=10112
 3	donc	donc	ADV	_	_	10	discourse	_	AlignBegin=10112|AlignEnd=10362|SpaceAfter=No
 4	,	,	PUNCT	_	_	3	punct	_	AlignBegin=10362|AlignEnd=10362
@@ -154,7 +154,7 @@
 # speaker_id = §LF27
 # macrosyntax = "euh" il y a un stade aussi à côté //
 # text = euh, il y a un stade aussi à côté.
-1	euh	euh	INTJ	_	_	5	discourse	_	AlignBegin=20304|AlignEnd=20432|SpaceAfter=No
+1	euh	euh	INTJ	_	_	5	discourse:filler	_	AlignBegin=20304|AlignEnd=20432|SpaceAfter=No
 2	,	,	PUNCT	_	_	1	punct	_	AlignBegin=20432|AlignEnd=20432
 3	il	lui	PRON	_	Case=Nom|Emph=No|Gender=Masc|Number=Sing|Person=3|PronType=Prs	5	expl:subj	_	AlignBegin=20432|AlignEnd=20502|Exponence[Person]=Inherent
 4	y	y	PRON	_	Person=3|PronType=Prs	5	expl:comp	_	AlignBegin=20502|AlignEnd=20532|Exponence[Person]=Inherent
@@ -217,24 +217,24 @@
 # text = c'est, donc, à, euh, gauche, euh, ensuite, euh, donc, gauche.
 1	c'	ce	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	2	nsubj	_	AlignBegin=25883|AlignEnd=26063|Exponence[Gender]=Inherent|Exponence[Number]=Inherent|Exponence[Person]=Inherent|SpaceAfter=No
 2	est	être	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	AlignBegin=26063|AlignEnd=26093|SpaceAfter=No
-3	,	,	PUNCT	_	_	20	punct	_	AlignBegin=26093|AlignEnd=26093
+3	,	,	PUNCT	_	_	10	punct	_	AlignBegin=26093|AlignEnd=26093
 4	donc	donc	ADV	_	_	10	discourse	_	AlignBegin=26093|AlignEnd=26383|SpaceAfter=No
-5	,	,	PUNCT	_	_	6	punct	_	AlignBegin=26383|AlignEnd=26383
-6	à	à	ADP	_	_	20	case	_	AlignBegin=26383|AlignEnd=26693|SpaceAfter=No
+5	,	,	PUNCT	_	_	10	punct	_	AlignBegin=26383|AlignEnd=26383
+6	à	à	ADP	_	_	10	case	_	AlignBegin=26383|AlignEnd=26693|SpaceAfter=No
 7	,	,	PUNCT	_	_	10	punct	_	AlignBegin=26693|AlignEnd=27104
-8	euh	euh	INTJ	_	_	10	discourse	_	AlignBegin=27104|AlignEnd=27378|SpaceAfter=No
+8	euh	euh	INTJ	_	_	10	discourse:filler	_	AlignBegin=27104|AlignEnd=27378|SpaceAfter=No
 9	,	,	PUNCT	_	_	8	punct	_	AlignBegin=27378|AlignEnd=27378
-10	gauche	gauche	NOUN	_	Gender=Fem|Number=Sing	20	reparandum	_	AlignBegin=27378|AlignEnd=28001|Exponence[Gender]=Inherent|Exponence[Number]=Absent|SpaceAfter=No
+10	gauche	gauche	NOUN	_	Gender=Fem|Number=Sing	2	obl:arg	_	AlignBegin=27378|AlignEnd=28001|Exponence[Gender]=Inherent|Exponence[Number]=Absent|SpaceAfter=No
 11	,	,	PUNCT	_	_	12	punct	_	AlignBegin=28001|AlignEnd=28648
-12	euh	euh	INTJ	_	_	10	discourse	_	AlignBegin=28648|AlignEnd=29098|SpaceAfter=No
-13	,	,	PUNCT	_	_	10	punct	_	AlignBegin=29098|AlignEnd=29098
+12	euh	euh	INTJ	_	_	10	discourse:filler	_	AlignBegin=28648|AlignEnd=29098|SpaceAfter=No
+13	,	,	PUNCT	_	_	20	punct	_	AlignBegin=29098|AlignEnd=29098
 14	ensuite	ensuite	ADV	_	_	20	advmod	_	AlignBegin=29098|AlignEnd=30040|SpaceAfter=No
 15	,	,	PUNCT	_	_	16	punct	_	AlignBegin=30040|AlignEnd=30040
-16	euh	euh	INTJ	_	_	14	discourse	_	AlignBegin=30040|AlignEnd=30940|SpaceAfter=No
+16	euh	euh	INTJ	_	_	14	discourse:filler	_	AlignBegin=30040|AlignEnd=30940|SpaceAfter=No
 17	,	,	PUNCT	_	_	18	punct	_	AlignBegin=30940|AlignEnd=30940
 18	donc	donc	ADV	_	_	14	discourse	_	AlignBegin=30940|AlignEnd=31274|SpaceAfter=No
 19	,	,	PUNCT	_	_	14	punct	_	AlignBegin=31274|AlignEnd=31274
-20	gauche	gauche	NOUN	_	Gender=Fem|Number=Sing	2	obl:arg	_	AlignBegin=31274|AlignEnd=31901|Exponence[Gender]=Inherent|Exponence[Number]=Absent|SpaceAfter=No
+20	gauche	gauche	NOUN	_	Gender=Fem|Number=Sing	10	conj:reform	_	AlignBegin=31274|AlignEnd=31901|Exponence[Gender]=Inherent|Exponence[Number]=Absent|SpaceAfter=No
 21	.	.	PUNCT	_	_	2	punct	_	AlignBegin=31901|AlignEnd=31901
 
 # sent_id = Rhap_M0009-16
@@ -261,7 +261,7 @@
 # speaker_id = §LF27
 # macrosyntax = "euh" ^mais "bon" { tu | tu } traverses le champ de foire //
 # text = euh, mais, bon, tu, tu traverses le champ de foire.
-1	euh	euh	INTJ	_	_	10	discourse	_	AlignBegin=34305|AlignEnd=34536|SpaceAfter=No
+1	euh	euh	INTJ	_	_	10	discourse:filler	_	AlignBegin=34305|AlignEnd=34536|SpaceAfter=No
 2	,	,	PUNCT	_	_	1	punct	_	AlignBegin=34536|AlignEnd=34536
 3	mais	mais	CCONJ	_	_	10	cc	_	AlignBegin=34536|AlignEnd=34692|SpaceAfter=No
 4	,	,	PUNCT	_	_	10	punct	_	AlignBegin=34692|AlignEnd=34692
@@ -272,7 +272,7 @@
 9	tu	toi	PRON	_	Case=Nom|Emph=No|Number=Sing|Person=2|PronType=Prs	10	nsubj	_	AlignBegin=35932|AlignEnd=36157|Exponence[Number]=Inherent|Exponence[Person]=Inherent
 10	traverses	traverser	VERB	_	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	0	root	_	AlignBegin=36157|AlignEnd=36901|Exponence[Person]=Absent
 11	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	12	det	_	AlignBegin=36901|AlignEnd=37005|HasSpokenGender=OnlySingExceptWithLiaison
-12	champ	champ	NOUN	_	Gender=Masc|Number=Sing	10	obj	_	AlignBegin=37005|AlignEnd=37192|Exponence[Gender]=Inherent|Exponence[Number]=Absent
+12	champ	champ	NOUN	_	Gender=Masc|Number=Sing	10	obj	_	AlignBegin=37005|AlignEnd=37192|cdet=No|Exponence[Gender]=Inherent|Exponence[Number]=Absent
 13	de	de	ADP	_	_	14	case	_	AlignBegin=37192|AlignEnd=37242
 14	foire	foire	NOUN	_	Gender=Fem|Number=Sing	12	nmod	_	AlignBegin=37242|AlignEnd=37810|Exponence[Gender]=Inherent|Exponence[Number]=Absent|SpaceAfter=No
 15	.	.	PUNCT	_	_	10	punct	_	AlignBegin=37810|AlignEnd=37810
@@ -303,7 +303,7 @@
 4	est	être	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	AlignBegin=39206|AlignEnd=39236
 5	encore	encore	ADV	_	_	10	advmod	_	AlignBegin=39236|AlignEnd=39749|SpaceAfter=No
 6	,	,	PUNCT	_	_	7	punct	_	AlignBegin=39749|AlignEnd=39749
-7	euh	euh	INTJ	_	_	5	discourse	_	AlignBegin=39749|AlignEnd=39903|SpaceAfter=No
+7	euh	euh	INTJ	_	_	5	discourse:filler	_	AlignBegin=39749|AlignEnd=39903|SpaceAfter=No
 8	,	,	PUNCT	_	_	5	punct	_	AlignBegin=39903|AlignEnd=40446
 9	à	à	ADP	_	_	10	case	_	AlignBegin=40446|AlignEnd=40554
 10	gauche	gauche	NOUN	_	Gender=Fem|Number=Sing	4	obl:arg	_	AlignBegin=40554|AlignEnd=41216|Exponence[Gender]=Inherent|Exponence[Number]=Absent|SpaceAfter=No
@@ -315,7 +315,7 @@
 # speaker_id = §LF27
 # macrosyntax = "euh" ^et tu descends //
 # text = euh, et tu descends.
-1	euh	euh	INTJ	_	_	5	discourse	_	AlignBegin=41216|AlignEnd=41476|SpaceAfter=No
+1	euh	euh	INTJ	_	_	5	discourse:filler	_	AlignBegin=41216|AlignEnd=41476|SpaceAfter=No
 2	,	,	PUNCT	_	_	1	punct	_	AlignBegin=41476|AlignEnd=41476
 3	et	et	CCONJ	_	_	5	cc	_	AlignBegin=41476|AlignEnd=41596
 4	tu	toi	PRON	_	Case=Nom|Emph=No|Number=Sing|Person=2|PronType=Prs	5	nsubj	_	AlignBegin=41596|AlignEnd=41836|Exponence[Number]=Inherent|Exponence[Person]=Inherent
@@ -360,15 +360,15 @@
 # text = et, euh, ensuite, euh, premier, euh…
 1	et	et	CCONJ	_	_	9	cc	_	AlignBegin=46170|AlignEnd=46434|SpaceAfter=No
 2	,	,	PUNCT	_	_	9	punct	_	AlignBegin=46434|AlignEnd=46434
-3	euh	euh	INTJ	_	_	9	discourse	_	AlignBegin=46434|AlignEnd=46671|SpaceAfter=No
+3	euh	euh	INTJ	_	_	9	discourse:filler	_	AlignBegin=46434|AlignEnd=46671|SpaceAfter=No
 4	,	,	PUNCT	_	_	3	punct	_	AlignBegin=46671|AlignEnd=46671
 5	ensuite	ensuite	ADV	_	_	9	advmod	_	AlignBegin=46671|AlignEnd=47358|SpaceAfter=No
 6	,	,	PUNCT	_	_	7	punct	_	AlignBegin=47358|AlignEnd=47358
-7	euh	euh	INTJ	_	_	5	discourse	_	AlignBegin=47358|AlignEnd=47707|SpaceAfter=No
+7	euh	euh	INTJ	_	_	5	discourse:filler	_	AlignBegin=47358|AlignEnd=47707|SpaceAfter=No
 8	,	,	PUNCT	_	_	5	punct	_	AlignBegin=47707|AlignEnd=47707
 9	premier	premier	ADJ	_	Gender=Masc|Number=Sing	0	root	_	AlignBegin=47707|AlignEnd=48394|Exponence[Number]=Absent|HasSpokenGender=YesExceptSingWithLiaison|HasSpokenNumber=OnlyWithLiaison|Scrap=Yes|SpaceAfter=No
 10	,	,	PUNCT	_	_	11	punct	_	AlignBegin=48394|AlignEnd=48394
-11	euh	euh	INTJ	_	_	9	discourse	_	AlignBegin=48394|AlignEnd=48554|SpaceAfter=No
+11	euh	euh	INTJ	_	_	9	discourse:filler	_	AlignBegin=48394|AlignEnd=48554|SpaceAfter=No
 12	…	…	PUNCT	_	_	9	punct	_	AlignBegin=48554|AlignEnd=48554
 
 # sent_id = Rhap_M0009-24
@@ -404,7 +404,7 @@
 11	,	,	PUNCT	_	_	10	punct	_	AlignBegin=53091|AlignEnd=53091
 12	non	non	ADV	_	Polarity=Neg	16	discourse	_	AlignBegin=53091|AlignEnd=53261|SpaceAfter=No
 13	,	,	PUNCT	_	_	12	punct	_	AlignBegin=53261|AlignEnd=53755
-14	euh	euh	INTJ	_	_	16	discourse	_	AlignBegin=53755|AlignEnd=53965|SpaceAfter=No
+14	euh	euh	INTJ	_	_	16	discourse:filler	_	AlignBegin=53755|AlignEnd=53965|SpaceAfter=No
 15	,	,	PUNCT	_	_	14	punct	_	AlignBegin=53965|AlignEnd=53965
 16	deuxième	deuxième	ADJ	_	Gender=Fem|Number=Sing	7	conj	_	AlignBegin=53965|AlignEnd=54363|Exponence[Gender]=Absent|Exponence[Number]=Absent|HasSpokenGender=No|HasSpokenNumber=OnlyWithLiaison
 17	ou	ou	CCONJ	_	_	18	cc	_	AlignBegin=54363|AlignEnd=54442
@@ -444,7 +444,7 @@
 5	tu	toi	PRON	_	Case=Nom|Emph=No|Number=Sing|Person=2|PronType=Prs	6	nsubj	_	AlignBegin=59589|AlignEnd=59673|Exponence[Number]=Inherent|Exponence[Person]=Inherent
 6	arrives	arriver	VERB	_	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	0	root	_	AlignBegin=59673|AlignEnd=60009|Exponence[Person]=Absent|SpaceAfter=No
 7	,	,	PUNCT	_	_	8	punct	_	AlignBegin=60009|AlignEnd=60009
-8	euh	euh	INTJ	_	_	6	discourse	_	AlignBegin=60009|AlignEnd=60139|SpaceAfter=No
+8	euh	euh	INTJ	_	_	6	discourse:filler	_	AlignBegin=60009|AlignEnd=60139|SpaceAfter=No
 9	,	,	PUNCT	_	_	12	punct	_	AlignBegin=60139|AlignEnd=60139
 10	devant	devant	ADP	_	_	12	case	_	AlignBegin=60139|AlignEnd=60349
 11	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	12	det	_	AlignBegin=60349|AlignEnd=60469|HasSpokenGender=OnlySingExceptWithLiaison
@@ -478,7 +478,7 @@
 4	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	reparandum	_	AlignBegin=61920|AlignEnd=62170|HasSpokenGender=OnlySingExceptWithLiaison|SpaceAfter=No
 5	,	,	PUNCT	_	_	4	punct	_	AlignBegin=62170|AlignEnd=62170
 6	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	7	det	_	AlignBegin=62170|AlignEnd=62274
-7	cabine	cabine	NOUN	_	Gender=Fem|Number=Sing	3	obj	_	AlignBegin=62274|AlignEnd=62460|Exponence[Gender]=Inherent|Exponence[Number]=Absent
+7	cabine	cabine	NOUN	_	Gender=Fem|Number=Sing	3	obj	_	AlignBegin=62274|AlignEnd=62460|cdet=No|Exponence[Gender]=Inherent|Exponence[Number]=Absent
 8	de	de	ADP	_	_	9	case	_	AlignBegin=62460|AlignEnd=62553
 9	téléphone	téléphone	NOUN	_	Gender=Masc|Number=Sing	7	nmod	_	AlignBegin=62553|AlignEnd=63094|Exponence[Gender]=Inherent|Exponence[Number]=Absent|SpaceAfter=No
 10	.	.	PUNCT	_	_	3	punct	_	AlignBegin=63094|AlignEnd=63094

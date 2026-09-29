@@ -39,7 +39,7 @@
 6	par	par	ADP	_	_	8	case	_	AlignBegin=3216|AlignEnd=3375
 7	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	8	det	_	AlignBegin=3375|AlignEnd=3542|HasSpokenGender=OnlySingExceptWithLiaison
 8	rue	rue	NOUN	_	Gender=Fem|Number=Sing	5	obl:arg	_	AlignBegin=3542|AlignEnd=3602|Exponence[Gender]=Inherent|Exponence[Number]=Absent
-9	Lakanal	Lakanal	PROPN	_	_	8	nmod:appos	_	AlignBegin=3602|AlignEnd=4319|SpaceAfter=No
+9	Lakanal	Lakanal	PROPN	_	_	8	appos	_	AlignBegin=3602|AlignEnd=4319|SpaceAfter=No
 10	.	.	PUNCT	_	_	4	punct	_	AlignBegin=4319|AlignEnd=4319
 
 # sent_id = Rhap_D0020-4
@@ -50,7 +50,7 @@
 # text = donc, euh, on traverse la place un petit peu en face.
 1	donc	donc	ADV	_	_	6	advmod	_	AlignBegin=4821|AlignEnd=5111|SpaceAfter=No
 2	,	,	PUNCT	_	_	3	punct	_	AlignBegin=5111|AlignEnd=5111
-3	euh	euh	INTJ	_	_	1	discourse	_	AlignBegin=5111|AlignEnd=5421|SpaceAfter=No
+3	euh	euh	INTJ	_	_	1	discourse:filler	_	AlignBegin=5111|AlignEnd=5421|SpaceAfter=No
 4	,	,	PUNCT	_	_	1	punct	_	AlignBegin=5421|AlignEnd=5421
 5	on	on	PRON	_	Case=Nom|Emph=No|Gender=Masc|Number=Sing|Person=3|PronType=Ind	6	nsubj	_	AlignBegin=5421|AlignEnd=5471|Exponence[Gender]=Absent|Exponence[Number]=Inherent|Exponence[Person]=Inherent
 6	traverse	traverser	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	AlignBegin=5471|AlignEnd=5831|Exponence[Number]=Absent|Exponence[Person]=Absent
@@ -78,7 +78,7 @@
 7	sur	sur	ADP	_	_	9	case	_	AlignBegin=8406|AlignEnd=8536
 8	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	9	det	_	AlignBegin=8536|AlignEnd=8648|HasSpokenGender=OnlySingExceptWithLiaison
 9	place	place	NOUN	_	Gender=Fem|Number=Sing	6	obl:arg	_	AlignBegin=8648|AlignEnd=8856|Exponence[Gender]=Inherent|Exponence[Number]=Absent
-10	Victor	Victor	PROPN	_	_	9	nmod:appos	_	AlignBegin=8856|AlignEnd=9176
+10	Victor	Victor	PROPN	_	_	9	appos	_	AlignBegin=8856|AlignEnd=9176
 11	Hugo	Hugo	PROPN	_	_	10	flat:name	_	AlignBegin=9176|AlignEnd=9785|SpaceAfter=No
 12	.	.	PUNCT	_	_	6	punct	_	AlignBegin=9785|AlignEnd=9785
 
@@ -148,7 +148,7 @@
 30	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	31	det	_	AlignBegin=20531|AlignEnd=20631|HasSpokenGender=OnlySingExceptWithLiaison
 31	place	place	NOUN	_	Gender=Fem|Number=Sing	22	obl:mod	_	AlignBegin=20631|AlignEnd=21181|Exponence[Gender]=Inherent|Exponence[Number]=Absent|SpaceAfter=No
 32	,	,	PUNCT	_	_	33	punct	_	AlignBegin=21181|AlignEnd=21181
-33	euh	euh	INTJ	_	_	31	discourse	_	AlignBegin=21181|AlignEnd=21934|SpaceAfter=No
+33	euh	euh	INTJ	_	_	31	discourse:filler	_	AlignBegin=21181|AlignEnd=21934|SpaceAfter=No
 34	,	,	PUNCT	_	_	36	punct	_	AlignBegin=21934|AlignEnd=21934
 35	en	en	ADP	_	_	36	case	_	AlignBegin=21934|AlignEnd=23054
 36	face	face	NOUN	_	Gender=Fem|Number=Sing	31	nmod	_	AlignBegin=23054|AlignEnd=23174|Exponence[Gender]=Inherent|Exponence[Number]=Absent
@@ -168,14 +168,14 @@
 3	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	_	AlignBegin=24058|AlignEnd=24243|HasSpokenGender=OnlySingExceptWithLiaison
 4	place	place	NOUN	_	Gender=Fem|Number=Sing	0	root	_	AlignBegin=24243|AlignEnd=24848|Exponence[Gender]=Inherent|Exponence[Number]=Absent|SpaceAfter=No
 5	,	,	PUNCT	_	_	6	punct	_	AlignBegin=24848|AlignEnd=24848
-6	euh	euh	INTJ	_	_	4	discourse	_	AlignBegin=24848|AlignEnd=25658|SpaceAfter=No
-7	,	,	PUNCT	_	_	13	punct	_	AlignBegin=25658|AlignEnd=25716
+6	euh	euh	INTJ	_	_	4	discourse:filler	_	AlignBegin=24848|AlignEnd=25658|SpaceAfter=No
+7	,	,	PUNCT	_	_	9	punct	_	AlignBegin=25658|AlignEnd=25716
 8	je	moi	PRON	_	Case=Nom|Emph=No|Number=Sing|Person=1|PronType=Prs	9	nsubj	_	AlignBegin=25716|AlignEnd=25816|Exponence[Number]=Inherent|Exponence[Person]=Inherent
-9	sais	savoir	VERB	_	ExtPos=NOUN|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	13	reparandum	_	AlignBegin=25816|AlignEnd=25996|Exponence[Person]=Absent|Graft=Yes
+9	sais	savoir	VERB	_	ExtPos=NOUN|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	4	nmod	_	AlignBegin=25816|AlignEnd=25996|Exponence[Person]=Absent|Graft=Yes
 10	plus	plus	ADV	_	_	9	advmod	_	AlignBegin=25996|AlignEnd=26244
 11	quoi	quoi	PRON	_	Person=3|PronType=Int	9	obj	_	AlignBegin=26244|AlignEnd=26469|Exponence[Person]=Inherent|SpaceAfter=No
-12	,	,	PUNCT	_	_	9	punct	_	AlignBegin=26469|AlignEnd=26618
-13	Verdun	Verdun	PROPN	_	_	4	nmod	_	AlignBegin=26618|AlignEnd=26987|SpaceAfter=No
+12	,	,	PUNCT	_	_	13	punct	_	AlignBegin=26469|AlignEnd=26618
+13	Verdun	Verdun	PROPN	_	_	9	conj:reform	_	AlignBegin=26618|AlignEnd=26987|SpaceAfter=No
 14	.	.	PUNCT	_	_	4	punct	_	AlignBegin=26987|AlignEnd=26987
 
 # sent_id = Rhap_D0020-10
@@ -193,7 +193,7 @@
 # speaker_id = §LF13
 # macrosyntax = $L1 ouais //
 # text = ouais.
-1	ouais	ouais	INTJ	_	_	0	root	_	AlignBegin=28435|AlignEnd=28685|Backchannel=Rhap_D0020-10::1|SpaceAfter=No
+1	ouais	ouais	INTJ	_	_	0	root	_	AlignBegin=28435|AlignEnd=28685|Answer=Rhap_D0020-10::1|SpaceAfter=No
 2	.	.	PUNCT	_	_	1	punct	_	AlignBegin=28685|AlignEnd=28685
 
 # sent_id = Rhap_D0020-12
@@ -205,7 +205,7 @@
 1	et	et	CCONJ	_	_	8	cc	_	AlignBegin=28865|AlignEnd=28975
 2	après	après	ADP	_	_	8	dep	_	AlignBegin=28975|AlignEnd=29383|SpaceAfter=No
 3	,	,	PUNCT	_	_	4	punct	_	AlignBegin=29383|AlignEnd=29383
-4	euh	euh	INTJ	_	_	2	discourse	_	AlignBegin=29383|AlignEnd=30065|SpaceAfter=No
+4	euh	euh	INTJ	_	_	2	discourse:filler	_	AlignBegin=29383|AlignEnd=30065|SpaceAfter=No
 5	,	,	PUNCT	_	_	2	punct	_	AlignBegin=30065|AlignEnd=30065
 6	légèrement	légèrement	ADV	_	_	8	advmod	_	AlignBegin=30065|AlignEnd=30525
 7	à	à	ADP	_	_	8	case	_	AlignBegin=30525|AlignEnd=30632

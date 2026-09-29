@@ -70,7 +70,7 @@
 3	indépendant	indépendant	NOUN	_	Gender=Masc|Number=Sing	11	nmod	_	AlignBegin=9613|AlignEnd=10093|Exponence[Gender]=Inherent|Exponence[Number]=Absent|LiaisonPossibleBefore=Yes
 4-5	du	_	_	_	_	_	_	_	_
 4	de	de	ADP	_	_	6	case	_	AlignBegin=10093|AlignEnd=10203
-5	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	AlignBegin=10093|AlignEnd=10203
+5	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
 6	midi	midi	NOUN	_	Gender=Masc|Number=Sing	3	nmod	_	AlignBegin=10203|AlignEnd=10433|Exponence[Gender]=Inherent|Exponence[Number]=Absent|SpaceAfter=No
 7	,	,	PUNCT	_	_	3	punct	_	AlignBegin=10433|AlignEnd=10433
 8	c'	ce	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	11	nsubj	_	AlignBegin=10433|AlignEnd=10533|Exponence[Gender]=Inherent|Exponence[Number]=Inherent|Exponence[Person]=Inherent|SpaceAfter=No
@@ -115,7 +115,7 @@
 8	Voix	voix	NOUN	_	ExtPos=PROPN|Gender=Fem|Number=Sing	6	nsubj	_	AlignBegin=15861|AlignEnd=16001|Exponence[Gender]=Inherent
 9-10	du	_	_	_	_	_	_	_	_
 9	de	de	ADP	_	_	11	case	_	AlignBegin=16001|AlignEnd=16120
-10	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	11	det	_	AlignBegin=16001|AlignEnd=16120
+10	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
 11	Nord	Nord	PROPN	_	_	8	nmod	_	AlignBegin=16120|AlignEnd=16440|SpaceAfter=No
 12	.	.	PUNCT	_	_	4	punct	_	AlignBegin=16440|AlignEnd=16440
 
@@ -133,7 +133,7 @@
 6	,	,	PUNCT	_	_	3	punct	_	AlignBegin=17505|AlignEnd=17632
 7	pas	pas	ADV	_	Polarity=Neg	9	advmod	_	AlignBegin=17632|AlignEnd=17817
 8	de	de	ADP	_	_	9	case	_	AlignBegin=17817|AlignEnd=18027
-9	rhétorique	rhétorique	NOUN	_	Gender=Fem|Number=Sing	0	root	_	AlignBegin=18027|AlignEnd=18577|Exponence[Gender]=Inherent|Exponence[Number]=Absent
+9	rhétorique	rhétorique	NOUN	_	Gender=Fem|Number=Sing	0	root	_	AlignBegin=18027|AlignEnd=18577|cdet=No|Exponence[Gender]=Inherent|Exponence[Number]=Absent
 10	de	de	ADP	_	_	11	case	_	AlignBegin=18577|AlignEnd=18747
 11	plateau	plateau	NOUN	_	Gender=Masc|Number=Sing	9	nmod	_	AlignBegin=18747|AlignEnd=19137|Exponence[Gender]=Inherent|Exponence[Number]=Absent
 12	télévisé	télévisé	ADJ	_	Gender=Masc|Number=Sing	11	amod	_	AlignBegin=19137|AlignEnd=19607|Exponence[Gender]=Absent|Exponence[Number]=Absent|HasSpokenGender=NotInThisDialect|HasSpokenNumber=OnlyWithLiaison
@@ -179,7 +179,7 @@
 # speaker_id = §LM34
 # macrosyntax = oui //
 # text = oui.
-1	oui	oui	INTJ	_	_	0	root	_	AlignBegin=23930|AlignEnd=24205|Backchannel=Rhap_D2013-9::2|SpaceAfter=No
+1	oui	oui	INTJ	_	_	0	root	_	AlignBegin=23930|AlignEnd=24205|SpaceAfter=No
 2	.	.	PUNCT	_	_	1	punct	_	AlignBegin=24205|AlignEnd=24205
 
 # sent_id = Rhap_D2013-11
@@ -199,10 +199,10 @@
 9	Giesbert	Giesbert	PROPN	_	_	8	flat:name	_	AlignBegin=26155|AlignEnd=26535
 10	dans	dans	ADP	_	_	12	case	_	AlignBegin=26535|AlignEnd=26645
 11	La	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	12	det	_	AlignBegin=26645|AlignEnd=26735|HasSpokenGender=OnlySingExceptWithLiaison|InTitle=Yes
-12	Dépêche	Dépêche	NOUN	_	Gender=Fem|Number=Sing	5	obl:mod	_	AlignBegin=26735|AlignEnd=27055|Exponence[Gender]=Inherent|Exponence[Number]=Absent|Title=Yes
+12	Dépêche	Dépêche	NOUN	_	ExtPos=PROPN|Gender=Fem|Number=Sing	5	obl:mod	_	AlignBegin=26735|AlignEnd=27055|Exponence[Gender]=Inherent|Exponence[Number]=Absent|Title=Yes
 13-14	du	_	_	_	_	_	_	_	_
 13	de	de	ADP	_	_	15	case	_	AlignBegin=27055|AlignEnd=27155|InTitle=Yes
-14	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	15	det	_	AlignBegin=27055|AlignEnd=27155|InTitle=Yes
+14	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	15	det	_	InTitle=Yes
 15	Midi	Midi	NOUN	_	Gender=Masc|Number=Sing	12	nmod	_	AlignBegin=27155|AlignEnd=27410|Exponence[Gender]=Inherent|Exponence[Number]=Absent|InTitle=Yes|SpaceAfter=No
 16	,	,	PUNCT	_	_	20	punct	_	AlignBegin=0|AlignEnd=27752
 17	avec	avec	ADP	_	_	20	case	_	AlignBegin=27752|AlignEnd=28037
@@ -308,7 +308,7 @@
 7	ne	ne	ADV	_	Polarity=Neg	8	advmod	_	AlignBegin=44997|AlignEnd=45157
 8	boude	bouder	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	acl:relcl	_	AlignBegin=45157|AlignEnd=45407|Exponence[Number]=Absent|Exponence[Person]=Absent
 9	pas	pas	ADV	_	Polarity=Neg	8	advmod	_	AlignBegin=45407|AlignEnd=45597
-10	son	son	DET	_	Gender=Masc|Number=Sing|Number[psor]=Sing|Person[psor]=3|Poss=Yes|PronType=Prs	11	det	_	AlignBegin=45597|AlignEnd=45767|Exponence[Gender]=Absent|HasSpokenGender=OnlySingExceptWithLiaison
+10	son	son	DET	_	Gender=Masc|Number=Sing|Number[psor]=Sing|Person[psor]=3|Poss=Yes|PronType=Prs	11	det	_	AlignBegin=45597|AlignEnd=45767|HasSpokenGender=OnlySingExceptWithLiaison
 11	plaisir	plaisir	NOUN	_	Gender=Masc|Number=Sing	8	obj	_	AlignBegin=45767|AlignEnd=46196|Exponence[Gender]=Inherent|Exponence[Number]=Absent|SpaceAfter=No
 12	,	,	PUNCT	_	_	3	punct	_	AlignBegin=46196|AlignEnd=46196
 13	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	14	det	_	AlignBegin=46196|AlignEnd=46361
@@ -382,9 +382,9 @@
 25	et	et	CCONJ	_	_	28	cc	_	AlignBegin=62488|AlignEnd=62568
 26	dans	dans	ADP	_	_	28	case	_	AlignBegin=62568|AlignEnd=62768
 27	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	28	det	_	AlignBegin=62768|AlignEnd=62858
-28	festival	festival	NOUN	_	Gender=Masc|Number=Sing	20	conj	_	AlignBegin=62858|AlignEnd=63558|Exponence[Gender]=Inherent|Exponence[Number]=Absent
+28	festival	festival	NOUN	_	Gender=Masc|Number=Sing	20	conj	_	AlignBegin=62858|AlignEnd=63558|cdet=No|Exponence[Gender]=Inherent|Exponence[Number]=Absent
 29	de	de	ADP	_	_	30	case	_	AlignBegin=63558|AlignEnd=63688
-30	langue	langue	NOUN	_	Gender=Fem|Number=Sing	28	nmod	_	AlignBegin=63688|AlignEnd=63938|Exponence[Gender]=Inherent|Exponence[Number]=Absent
+30	langue	langue	NOUN	_	Gender=Fem|Number=Sing	28	nmod	_	AlignBegin=63688|AlignEnd=63938|cdet=No|Exponence[Gender]=Inherent|Exponence[Number]=Absent
 31	de	de	ADP	_	_	32	case	_	AlignBegin=63938|AlignEnd=64078
 32	bois	bois	NOUN	_	Gender=Masc	30	nmod	_	AlignBegin=64078|AlignEnd=64348|Exponence[Gender]=Inherent|SpaceAfter=No
 33	.	.	PUNCT	_	_	13	punct	_	AlignBegin=64348|AlignEnd=64348
@@ -436,7 +436,7 @@
 12	essai	essai	NOUN	_	Gender=Masc|Number=Sing	10	obj	_	AlignBegin=69667|AlignEnd=69947|Exponence[Gender]=Inherent|Exponence[Number]=Absent|LiaisonPossibleBefore=Yes
 13-14	du	_	_	_	_	_	_	_	_
 13	de	de	ADP	_	_	16	case	_	AlignBegin=69947|AlignEnd=70047
-14	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	16	det	_	AlignBegin=69947|AlignEnd=70047
+14	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	16	det	_	_
 15	premier	premier	ADJ	_	Gender=Masc|Number=Sing	16	amod	_	AlignBegin=70047|AlignEnd=70347|Exponence[Number]=Absent|HasSpokenGender=YesExceptSingWithLiaison|HasSpokenNumber=OnlyWithLiaison
 16	tour	tour	NOUN	_	Gender=Masc|Number=Sing	12	nmod	_	AlignBegin=70347|AlignEnd=70577|Exponence[Gender]=Inherent|Exponence[Number]=Absent|SpaceAfter=No
 17	.	.	PUNCT	_	_	10	punct	_	AlignBegin=70577|AlignEnd=70577
@@ -476,26 +476,26 @@
 9	désormais	désormais	ADV	_	_	12	advmod	_	AlignBegin=75865|AlignEnd=76280
 10-11	au	_	_	_	_	_	_	_	_
 10	à	à	ADP	_	_	12	case	_	AlignBegin=76280|AlignEnd=76360
-11	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	12	det	_	AlignBegin=76280|AlignEnd=76360
+11	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
 12	pouvoir	pouvoir	NOUN	_	Gender=Masc|Number=Sing	2	nmod	_	AlignBegin=76360|AlignEnd=76730|Exponence[Gender]=Inherent|Exponence[Number]=Absent
 13	dans	dans	ADP	_	_	15	case	_	AlignBegin=76730|AlignEnd=76840
 14	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	15	det	_	AlignBegin=76840|AlignEnd=76930|HasSpokenGender=OnlySingExceptWithLiaison
 15	majorité	majorité	NOUN	_	Gender=Fem|Number=Sing	12	nmod	_	AlignBegin=76930|AlignEnd=77490|Exponence[Gender]=Inherent|Exponence[Number]=Absent
 16-17	des	_	_	_	_	_	_	_	_
 16	de	de	ADP	_	_	19	case	_	AlignBegin=77490|AlignEnd=77610
-17	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	19	det	_	AlignBegin=77490|AlignEnd=77610
+17	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	19	det	_	_
 18	grandes	grand	ADJ	_	Gender=Fem|Number=Plur	19	amod	_	AlignBegin=77610|AlignEnd=77900|Exponence[Number]=Absent|HasSpokenGender=Yes|HasSpokenNumber=OnlyWithLiaison
 19	villes	ville	NOUN	_	Gender=Fem|Number=Plur	15	nmod	_	AlignBegin=77900|AlignEnd=78200|Exponence[Gender]=Inherent|Exponence[Number]=Absent
 20	et	et	CCONJ	_	_	23	cc	_	AlignBegin=78200|AlignEnd=78290
 21-22	des	_	_	_	_	_	_	_	_
 21	de	de	ADP	_	_	23	case	_	AlignBegin=78290|AlignEnd=78420
-22	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	23	det	_	AlignBegin=78290|AlignEnd=78420
+22	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	23	det	_	_
 23	villes	ville	NOUN	_	Gender=Fem|Number=Plur	19	conj	_	AlignBegin=78420|AlignEnd=78600|Exponence[Gender]=Inherent|Exponence[Number]=Absent
 24	moyennes	moyen	ADJ	_	Gender=Fem|Number=Plur	23	amod	_	AlignBegin=78600|AlignEnd=79025|Exponence[Number]=Absent|HasSpokenGender=YesExceptSingWithLiaison|HasSpokenNumber=OnlyWithLiaison|SpaceAfter=No
 25	,	,	PUNCT	_	_	28	punct	_	AlignBegin=79025|AlignEnd=79025
 26-27	des	_	_	_	_	_	_	_	_
 26	de	de	ADP	_	_	28	case	_	AlignBegin=79025|AlignEnd=79150
-27	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	28	det	_	AlignBegin=79025|AlignEnd=79150
+27	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	28	det	_	_
 28	conseils	conseil	NOUN	_	Gender=Masc|Number=Plur	19	conj	_	AlignBegin=79150|AlignEnd=79550|Exponence[Gender]=Inherent|Exponence[Number]=Absent
 29	généraux	général	ADJ	_	Gender=Masc|Number=Plur	28	amod	_	AlignBegin=79550|AlignEnd=79931|HasSpokenGender=OnlyPlur|HasSpokenNumber=AlwaysMasc
 30	et	et	CCONJ	_	_	33	cc	_	AlignBegin=80242|AlignEnd=80317
@@ -507,7 +507,7 @@
 36	dispose	disposer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	AlignBegin=81954|AlignEnd=82499|Exponence[Number]=Absent|Exponence[Person]=Absent|Reported=Yes
 37	d'	de	ADP	_	_	39	case	_	AlignBegin=82499|AlignEnd=82559|SpaceAfter=No
 38	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	39	det	_	AlignBegin=82559|AlignEnd=82679
-39	force	force	NOUN	_	Gender=Fem|Number=Sing	36	obl:arg	_	AlignBegin=82679|AlignEnd=83149|Exponence[Gender]=Inherent|Exponence[Number]=Absent
+39	force	force	NOUN	_	Gender=Fem|Number=Sing	36	obl:arg	_	AlignBegin=82679|AlignEnd=83149|cdet=No|Exponence[Gender]=Inherent|Exponence[Number]=Absent
 40	de	de	ADP	_	_	41	case	_	AlignBegin=83149|AlignEnd=83299
 41	frappe	frappe	NOUN	_	Gender=Fem|Number=Sing	39	nmod	_	AlignBegin=83299|AlignEnd=83593|Exponence[Gender]=Inherent|Exponence[Number]=Absent
 42	territoriale	territorial	ADJ	_	Gender=Fem|Number=Sing	39	amod	_	AlignBegin=83820|AlignEnd=84521|Exponence[Gender]=Absent|Exponence[Number]=Absent|HasSpokenGender=OnlyPlur|HasSpokenNumber=AlwaysMasc
@@ -547,11 +547,11 @@
 8	compte	compte	NOUN	_	Gender=Masc|Number=Sing	7	obj:lvc	_	AlignBegin=88970|AlignEnd=89260|Exponence[Gender]=Inherent|Exponence[Number]=Absent
 9-10	du	_	_	_	_	_	_	_	_
 9	de	de	ADP	_	_	11	case	_	AlignBegin=89260|AlignEnd=89410
-10	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	11	det	_	AlignBegin=89260|AlignEnd=89410
-11	vote	vote	NOUN	_	Gender=Masc|Number=Sing	8	nmod	_	AlignBegin=89410|AlignEnd=89580|Exponence[Gender]=Inherent|Exponence[Number]=Absent
+10	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
+11	vote	vote	NOUN	_	Gender=Masc|Number=Sing	8	nmod	_	AlignBegin=89410|AlignEnd=89580|cdet=No|Exponence[Gender]=Inherent|Exponence[Number]=Absent
 12-13	des	_	_	_	_	_	_	_	_
 12	de	de	ADP	_	_	14	case	_	AlignBegin=89580|AlignEnd=89720
-13	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	14	det	_	AlignBegin=89580|AlignEnd=89720
+13	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	14	det	_	_
 14	Français	Français	NOUN	_	Gender=Masc	11	nmod	_	AlignBegin=89720|AlignEnd=90100|Exponence[Gender]=Inherent
 15	change	changer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	ccomp	_	AlignBegin=90100|AlignEnd=90470|Exponence[Number]=Absent|Exponence[Person]=Absent
 16	sa	son	DET	_	Gender=Fem|Number=Sing|Number[psor]=Sing|Person[psor]=3|Poss=Yes|PronType=Prs	17	det	_	AlignBegin=90470|AlignEnd=90630|HasSpokenGender=OnlySingExceptWithLiaison
@@ -592,7 +592,7 @@
 12	,	,	PUNCT	_	_	6	punct	_	AlignBegin=95348|AlignEnd=95348
 13-14	au	_	_	_	_	_	_	_	_
 13	à	à	ADP	_	_	15	case	_	AlignBegin=95348|AlignEnd=95498
-14	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	15	det	_	AlignBegin=95348|AlignEnd=95498
+14	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	15	det	_	_
 15	contraire	contraire	NOUN	_	Gender=Masc|Number=Sing	18	obl:mod	_	AlignBegin=95498|AlignEnd=95928|Exponence[Gender]=Inherent|Exponence[Number]=Absent|SpaceAfter=No
 16	,	,	PUNCT	_	_	15	punct	_	AlignBegin=95928|AlignEnd=95928
 17	il	lui	PRON	_	Case=Nom|Emph=No|Gender=Masc|Number=Sing|Person=3|PronType=Prs	18	expl:subj	_	AlignBegin=95928|AlignEnd=96038|Exponence[Person]=Inherent
@@ -602,7 +602,7 @@
 21	rythme	rythme	NOUN	_	Gender=Masc|Number=Sing	19	obj	_	AlignBegin=97236|AlignEnd=97636|Exponence[Gender]=Inherent|Exponence[Number]=Absent
 22-23	du	_	_	_	_	_	_	_	_
 22	de	de	ADP	_	_	24	case	_	AlignBegin=97636|AlignEnd=97796
-23	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	24	det	_	AlignBegin=97636|AlignEnd=97796
+23	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	24	det	_	_
 24	changement	changement	NOUN	_	Gender=Masc|Number=Sing	21	nmod	_	AlignBegin=97796|AlignEnd=98265|Exponence[Gender]=Inherent|Exponence[Number]=Absent|SpaceAfter=No
 25	.	.	PUNCT	_	_	18	punct	_	AlignBegin=98265|AlignEnd=98265
 
@@ -686,7 +686,7 @@
 3	réponse	réponse	NOUN	_	Gender=Fem|Number=Sing	0	root	_	AlignBegin=109239|AlignEnd=109629|Exponence[Gender]=Inherent|Exponence[Number]=Absent
 4-5	du	_	_	_	_	_	_	_	_
 4	de	de	ADP	_	_	6	case	_	AlignBegin=109629|AlignEnd=109719
-5	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	AlignBegin=109629|AlignEnd=109719
+5	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
 6	côté	côté	NOUN	_	Gender=Masc|Number=Sing	3	nmod	_	AlignBegin=109719|AlignEnd=109969|Exponence[Gender]=Inherent|Exponence[Number]=Absent
 7	de	de	ADP	_	_	9	case	_	AlignBegin=109969|AlignEnd=110059
 8	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	9	det	_	AlignBegin=110059|AlignEnd=110189|HasSpokenGender=OnlySingExceptWithLiaison|SpaceAfter=No
@@ -770,7 +770,7 @@
 5	que	que	SCONJ	_	_	17	mark	_	AlignBegin=120640|AlignEnd=120780
 6	tous	tout	ADJ	_	Gender=Masc|Number=Plur	8	amod	_	AlignBegin=120780|AlignEnd=121000|Exponence[Number]=Absent|HasSpokenGender=YesExceptSingWithLiaison|HasSpokenNumber=OnlyWithLiaison
 7	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	8	det	_	AlignBegin=121000|AlignEnd=121130|HasSpokenGender=OnlySingExceptWithLiaison
-8	maires	maire	NOUN	_	Gender=Masc|Number=Plur	17	nsubj	_	AlignBegin=121130|AlignEnd=121400|Exponence[Gender]=Inherent|Exponence[Number]=Absent
+8	maires	maire	NOUN	_	Gender=Masc|Number=Plur	17	nsubj	_	AlignBegin=121130|AlignEnd=121400|cdet=No|Exponence[Gender]=Inherent|Exponence[Number]=Absent
 9	de	de	ADP	_	_	10	case	_	AlignBegin=121400|AlignEnd=121530
 10	droite	droite	NOUN	_	Gender=Fem|Number=Sing	8	nmod	_	AlignBegin=121530|AlignEnd=121850|Exponence[Gender]=Inherent|Exponence[Number]=Absent
 11	qui	qui	PRON	_	PronType=Rel	14	nsubj:pass	_	AlignBegin=121850|AlignEnd=121970
@@ -786,31 +786,31 @@
 21	voir	voir	VERB	_	VerbForm=Inf	20	ccomp	_	AlignBegin=124538|AlignEnd=124828|Subject=NoRaising
 22	dans	dans	ADP	_	_	24	case	_	AlignBegin=124828|AlignEnd=124958
 23	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	24	det	_	AlignBegin=124958|AlignEnd=125028|HasSpokenGender=OnlySingExceptWithLiaison
-24	résultat	résultat	NOUN	_	Gender=Masc|Number=Sing	21	obl:mod	_	AlignBegin=125028|AlignEnd=125438|Exponence[Gender]=Inherent|Exponence[Number]=Absent
+24	résultat	résultat	NOUN	_	Gender=Masc|Number=Sing	21	obl:mod	_	AlignBegin=125028|AlignEnd=125438|cdet=No|Exponence[Gender]=Inherent|Exponence[Number]=Absent
 25-26	des	_	_	_	_	_	_	_	_
 25	de	de	ADP	_	_	27	case	_	AlignBegin=125438|AlignEnd=125588
-26	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	27	det	_	AlignBegin=125438|AlignEnd=125588
+26	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	27	det	_	_
 27	municipales	municipale	NOUN	_	Gender=Fem|Number=Plur	24	nmod	_	AlignBegin=125588|AlignEnd=126196|Exponence[Gender]=Inherent|Exponence[Number]=Absent
 28	et	et	CCONJ	_	_	31	cc	_	AlignBegin=126245|AlignEnd=126348
 29-30	des	_	_	_	_	_	_	_	_
 29	de	de	ADP	_	_	31	case	_	AlignBegin=126348|AlignEnd=126488
-30	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	31	det	_	AlignBegin=126348|AlignEnd=126488
+30	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	31	det	_	_
 31	cantonales	cantonale	NOUN	_	Gender=Fem|Number=Plur	27	conj	_	AlignBegin=126488|AlignEnd=127000|Exponence[Gender]=Inherent|Exponence[Number]=Absent
 32	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	33	det	_	AlignBegin=127322|AlignEnd=127417
-33	message	message	NOUN	_	Gender=Masc|Number=Sing	46	reparandum	_	AlignBegin=127417|AlignEnd=127827|Exponence[Gender]=Inherent|Exponence[Number]=Absent
+33	message	message	NOUN	_	Gender=Masc|Number=Sing	21	obj	_	AlignBegin=127417|AlignEnd=127827|Exponence[Gender]=Inherent|Exponence[Number]=Absent
 34	fort	fort	ADJ	_	Gender=Masc|Number=Sing	33	amod	_	AlignBegin=127827|AlignEnd=128357|Exponence[Number]=Absent|HasSpokenGender=YesExceptSingWithLiaison|HasSpokenNumber=OnlyWithLiaison
 35	envoyé	envoyer	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part	33	acl	_	AlignBegin=128357|AlignEnd=128697|Exponence[Gender]=Absent|Exponence[Number]=Absent|PastPartHasSpokenGender=NotInThisDialect|Tense[denom]=Past
 36	à	à	ADP	_	_	38	case	_	AlignBegin=128697|AlignEnd=128737
 37	l'	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	38	det	_	AlignBegin=128737|AlignEnd=128777|Exponence[Gender]=Absent|HasSpokenGender=OnlySingExceptWithLiaison|LiaisonAfter=Yes|SpaceAfter=No
 38	exécutif	exécutif	ADJ	_	Gender=Masc|Number=Sing	35	obj	_	AlignBegin=128777|AlignEnd=129467|Exponence[Number]=Absent|HasSpokenGender=YesExceptSingWithLiaison|HasSpokenNumber=OnlyWithLiaison|LiaisonPossibleBefore=Yes|SpaceAfter=No
-39	,	,	PUNCT	_	_	33	punct	_	AlignBegin=129467|AlignEnd=129467
-40	message	message	NOUN	_	Gender=Masc|Number=Sing	46	reparandum	_	AlignBegin=129467|AlignEnd=129827|Exponence[Gender]=Inherent|Exponence[Number]=Absent
+39	,	,	PUNCT	_	_	40	punct	_	AlignBegin=129467|AlignEnd=129467
+40	message	message	NOUN	_	Gender=Masc|Number=Sing	33	conj:reform	_	AlignBegin=129467|AlignEnd=129827|Exponence[Gender]=Inherent|Exponence[Number]=Absent
 41	national	national	ADJ	_	Gender=Masc|Number=Sing	40	amod	_	AlignBegin=129827|AlignEnd=130457|Exponence[Gender]=Absent|HasSpokenGender=OnlyPlur|HasSpokenNumber=AlwaysMasc
 42	donc	donc	ADV	_	_	41	advmod	_	AlignBegin=130457|AlignEnd=130757|SpaceAfter=No
-43	,	,	PUNCT	_	_	40	punct	_	AlignBegin=130757|AlignEnd=130757
+43	,	,	PUNCT	_	_	46	punct	_	AlignBegin=130757|AlignEnd=130757
 44	mais	mais	CCONJ	_	_	46	cc	_	AlignBegin=130757|AlignEnd=130978
 45	quel	quel	DET	_	Gender=Masc|Number=Sing|PronType=Int	46	det	_	AlignBegin=130978|AlignEnd=131227|Exponence[Gender]=Absent|Exponence[Number]=Absent|HasSpokenGender=NotInThisDialect|HasSpokenNumber=OnlyWithLiaison
-46	message	message	NOUN	_	Gender=Masc|Number=Sing	21	obj	_	AlignBegin=131227|AlignEnd=131716|Exponence[Gender]=Inherent|Exponence[Number]=Absent
+46	message	message	NOUN	_	Gender=Masc|Number=Sing	40	nmod	_	AlignBegin=131227|AlignEnd=131716|Exponence[Gender]=Inherent|Exponence[Number]=Absent
 47	?	?	PUNCT	_	_	20	punct	_	AlignBegin=131716|AlignEnd=131716
 
 # sent_id = Rhap_D2013-36
@@ -853,10 +853,10 @@
 10	faiblesse	faiblesse	NOUN	_	Gender=Fem|Number=Sing	7	obj	_	AlignBegin=139275|AlignEnd=139985|Exponence[Gender]=Inherent|Exponence[Number]=Absent
 11	de	de	ADP	_	_	13	case	_	AlignBegin=139985|AlignEnd=140140
 12	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	13	det	_	AlignBegin=140140|AlignEnd=140270|HasSpokenGender=OnlySingExceptWithLiaison
-13	mobilisation	mobilisation	NOUN	_	Gender=Fem|Number=Sing	10	nmod	_	AlignBegin=140270|AlignEnd=140920|Exponence[Gender]=Inherent|Exponence[Number]=Absent
+13	mobilisation	mobilisation	NOUN	_	Gender=Fem|Number=Sing	10	nmod	_	AlignBegin=140270|AlignEnd=140920|cdet=No|Exponence[Gender]=Inherent|Exponence[Number]=Absent
 14-15	des	_	_	_	_	_	_	_	_
 14	de	de	ADP	_	_	16	case	_	AlignBegin=140920|AlignEnd=141090
-15	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	16	det	_	AlignBegin=140920|AlignEnd=141090
+15	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	16	det	_	_
 16	électeurs	électeur	NOUN	_	Gender=Masc|Number=Plur	13	nmod	_	AlignBegin=141090|AlignEnd=141470|Exponence[Gender]=Inherent|Exponence[Number]=Absent|LiaisonPossibleBefore=Yes
 17	hier	hier	ADV	_	_	13	advmod	_	AlignBegin=141470|AlignEnd=141760|SpaceAfter=No
 18	.	.	PUNCT	_	_	2	punct	_	AlignBegin=141760|AlignEnd=141760
@@ -941,7 +941,7 @@
 3	reste	rester	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	AlignBegin=152339|AlignEnd=152569|Exponence[Number]=Absent|Exponence[Person]=Absent
 4	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	AlignBegin=152569|AlignEnd=152659|HasSpokenGender=OnlySingExceptWithLiaison
 5	cas	cas	NOUN	_	Gender=Masc|Number=Sing	3	nsubj	_	AlignBegin=152659|AlignEnd=152829|Exponence[Gender]=Inherent|Exponence[Number]=Absent
-6	Marseille	Marseille	PROPN	_	_	5	nmod:appos	_	AlignBegin=152829|AlignEnd=153409|SpaceAfter=No
+6	Marseille	Marseille	PROPN	_	_	5	appos	_	AlignBegin=152829|AlignEnd=153409|SpaceAfter=No
 7	.	.	PUNCT	_	_	3	punct	_	AlignBegin=153409|AlignEnd=153409
 
 # sent_id = Rhap_D2013-42
@@ -968,7 +968,7 @@
 16	naufrage	naufrage	NOUN	_	Gender=Masc|Number=Sing	13	nmod	_	AlignBegin=157318|AlignEnd=157888|Exponence[Gender]=Inherent|Exponence[Number]=Absent
 17	d'	de	ADP	_	_	19	case	_	AlignBegin=157888|AlignEnd=157938|SpaceAfter=No
 18	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	19	det	_	AlignBegin=157938|AlignEnd=158028
-19	soir	soir	NOUN	_	Gender=Masc|Number=Sing	16	nmod	_	AlignBegin=158028|AlignEnd=158348|Exponence[Gender]=Inherent|Exponence[Number]=Absent
+19	soir	soir	NOUN	_	Gender=Masc|Number=Sing	16	nmod	_	AlignBegin=158028|AlignEnd=158348|cdet=No|Exponence[Gender]=Inherent|Exponence[Number]=Absent
 20	de	de	ADP	_	_	21	case	_	AlignBegin=158348|AlignEnd=158448
 21	municipales	municipale	NOUN	_	Gender=Fem|Number=Plur	19	nmod	_	AlignBegin=158448|AlignEnd=159088|Exponence[Gender]=Inherent|Exponence[Number]=Absent|SpaceAfter=No
 22	,	,	PUNCT	_	_	23	punct	_	AlignBegin=159088|AlignEnd=159088
@@ -990,10 +990,10 @@
 2	sauvetage	sauvetage	NOUN	_	Gender=Masc|Number=Sing	0	root	_	AlignBegin=160887|AlignEnd=161485|Exponence[Gender]=Inherent|Exponence[Number]=Absent|Reported=Yes
 3	miraculeux	miraculeux	ADJ	_	Gender=Masc|Number=Sing	2	amod	_	AlignBegin=161581|AlignEnd=162386|Exponence[Number]=Absent|HasSpokenGender=YesExceptSingWithLiaison|HasSpokenNumber=OnlyFemWithLiaison
 4	à	à	ADP	_	_	5	case	_	AlignBegin=162386|AlignEnd=162496
-5	bien	bien	NOUN	_	Gender=Masc|Number=Sing	3	obl:mod	_	AlignBegin=162496|AlignEnd=162866|Exponence[Gender]=Inherent|Exponence[Number]=Absent
+5	bien	bien	NOUN	_	Gender=Masc|Number=Sing	3	obl:mod	_	AlignBegin=162496|AlignEnd=162866|cdet=No|Exponence[Gender]=Inherent|Exponence[Number]=Absent
 6-7	des	_	_	_	_	_	_	_	_
 6	de	de	ADP	_	_	8	case	_	AlignBegin=162866|AlignEnd=163036
-7	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	8	det	_	AlignBegin=162866|AlignEnd=163036
+7	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	8	det	_	_
 8	égards	égard	NOUN	_	Gender=Masc|Number=Plur	5	nmod	_	AlignBegin=163036|AlignEnd=163506|Exponence[Gender]=Inherent|Exponence[Number]=Absent|LiaisonPossibleBefore=Yes|SpaceAfter=No
 9	,	,	PUNCT	_	_	10	punct	_	AlignBegin=163506|AlignEnd=163506
 10	écrit	écrire	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	parataxis:insert	_	AlignBegin=163506|AlignEnd=164006|Exponence[Person]=Absent

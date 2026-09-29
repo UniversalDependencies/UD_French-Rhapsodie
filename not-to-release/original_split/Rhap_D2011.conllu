@@ -61,7 +61,7 @@
 1	alors	alors	ADV	_	_	9	advmod	_	AlignBegin=12853|AlignEnd=13227
 2-3	au	_	_	_	_	_	_	_	_
 2	à	à	ADP	_	_	4	case	_	AlignBegin=13499|AlignEnd=13584
-3	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	AlignBegin=13499|AlignEnd=13584
+3	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
 4	début	début	NOUN	_	Gender=Masc|Number=Sing	9	obl:mod	_	AlignBegin=13584|AlignEnd=13764|Exponence[Gender]=Inherent|Exponence[Number]=Absent|SpaceAfter=No
 5	,	,	PUNCT	_	_	4	punct	_	AlignBegin=13764|AlignEnd=13764
 6	on	on	PRON	_	Case=Nom|Emph=No|Gender=Masc|Number=Sing|Person=3|PronType=Ind	9	nsubj	_	AlignBegin=13764|AlignEnd=13877|Exponence[Gender]=Absent|Exponence[Number]=Inherent|Exponence[Person]=Inherent
@@ -124,7 +124,7 @@
 7	ceci	ceci	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	3	obl:arg	_	AlignBegin=21553|AlignEnd=22179|Exponence[Gender]=Inherent|Exponence[Number]=Inherent|Exponence[Person]=Inherent|SpaceAfter=No
 8	,	,	PUNCT	_	_	10	punct	_	AlignBegin=22179|AlignEnd=22513
 9	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	10	det	_	AlignBegin=22513|AlignEnd=23068
-10	boule	boule	NOUN	_	Gender=Fem|Number=Sing	7	appos	_	AlignBegin=23068|AlignEnd=23558|Exponence[Gender]=Inherent|Exponence[Number]=Absent
+10	boule	boule	NOUN	_	Gender=Fem|Number=Sing	7	appos	_	AlignBegin=23068|AlignEnd=23558|cdet=No|Exponence[Gender]=Inherent|Exponence[Number]=Absent
 11	de	de	ADP	_	_	12	case	_	AlignBegin=23558|AlignEnd=23778
 12	lavage	lavage	NOUN	_	Gender=Masc|Number=Sing	10	nmod	_	AlignBegin=23778|AlignEnd=24553|Exponence[Gender]=Inherent|Exponence[Number]=Absent
 13	que	que	PRON	_	PronType=Rel	16	obj	_	AlignBegin=24825|AlignEnd=24960
@@ -133,7 +133,7 @@
 16	placer	placer	VERB	_	VerbForm=Inf	15	xcomp	_	AlignBegin=25430|AlignEnd=25970|Subject=SubjRaising
 17-18	au	_	_	_	_	_	_	_	_
 17	à	à	ADP	_	_	19	case	_	AlignBegin=25970|AlignEnd=26100
-18	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	19	det	_	AlignBegin=25970|AlignEnd=26100
+18	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	19	det	_	_
 19	cœur	cœur	NOUN	_	Gender=Masc|Number=Sing	16	obl:arg	_	AlignBegin=26100|AlignEnd=26670|Exponence[Gender]=Inherent|Exponence[Number]=Absent
 20	de	de	ADP	_	_	22	case	_	AlignBegin=26670|AlignEnd=26830
 21	votre	son	DET	_	Number=Sing|Number[psor]=Plur|Person[psor]=2|Poss=Yes|PronType=Prs	22	det	_	AlignBegin=26830|AlignEnd=27140|HasSpokenGender=OnlySingExceptWithLiaison
@@ -210,7 +210,7 @@
 9	magique	magique	ADJ	_	Gender=Fem|Number=Sing	8	amod	_	AlignBegin=38085|AlignEnd=38521|Exponence[Gender]=Absent|Exponence[Number]=Absent|HasSpokenGender=No|HasSpokenNumber=OnlyWithLiaison|SpaceAfter=No
 10	,	,	PUNCT	_	_	12	punct	_	AlignBegin=38521|AlignEnd=38736
 11	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	12	det	_	AlignBegin=38736|AlignEnd=38961|HasSpokenGender=OnlySingExceptWithLiaison
-12	boule	boule	NOUN	_	Gender=Fem|Number=Sing	8	appos	_	AlignBegin=38961|AlignEnd=39151|Exponence[Gender]=Inherent|Exponence[Number]=Absent
+12	boule	boule	NOUN	_	Gender=Fem|Number=Sing	8	appos	_	AlignBegin=38961|AlignEnd=39151|cdet=No|Exponence[Gender]=Inherent|Exponence[Number]=Absent
 13	de	de	ADP	_	_	14	case	_	AlignBegin=39151|AlignEnd=39231
 14	lavage	lavage	NOUN	_	Gender=Masc|Number=Sing	12	nmod	_	AlignBegin=39231|AlignEnd=39771|Exponence[Gender]=Inherent|Exponence[Number]=Absent
 15	avec	avec	ADP	_	_	17	case	_	AlignBegin=39771|AlignEnd=40031
@@ -302,22 +302,22 @@
 4	prouver	prouver	VERB	_	VerbForm=Inf	2	xcomp	_	AlignBegin=52952|AlignEnd=53222|Subject=SubjRaising
 5	l'	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	AlignBegin=53222|AlignEnd=53252|Exponence[Gender]=Absent|HasSpokenGender=OnlySingExceptWithLiaison|LiaisonAfter=Yes|SpaceAfter=No
 6	efficacité	efficacité	NOUN	_	Gender=Fem|Number=Sing	4	obj	_	AlignBegin=53252|AlignEnd=53962|Exponence[Gender]=Inherent|Exponence[Number]=Absent|LiaisonPossibleBefore=Yes
-7	de	de	ADP	_	_	13	case	_	AlignBegin=53962|AlignEnd=54022
+7	de	de	ADP	_	_	9	case	_	AlignBegin=53962|AlignEnd=54022
 8	notre	son	DET	_	Number=Sing|Number[psor]=Plur|Person[psor]=1|Poss=Yes|PronType=Prs	9	det	_	AlignBegin=54022|AlignEnd=54302|HasSpokenGender=OnlySingExceptWithLiaison
-9	boule	boule	NOUN	_	Gender=Fem|Number=Sing	13	reparandum	_	AlignBegin=54302|AlignEnd=54512|Exponence[Gender]=Inherent|Exponence[Number]=Absent
+9	boule	boule	NOUN	_	Gender=Fem|Number=Sing	6	nmod	_	AlignBegin=54302|AlignEnd=54512|Exponence[Gender]=Inherent|Exponence[Number]=Absent
 10	magique	magique	ADJ	_	Gender=Fem|Number=Sing	9	amod	_	AlignBegin=54512|AlignEnd=55021|Exponence[Gender]=Absent|Exponence[Number]=Absent|HasSpokenGender=No|HasSpokenNumber=OnlyWithLiaison|SpaceAfter=No
-11	,	,	PUNCT	_	_	9	punct	_	AlignBegin=55021|AlignEnd=55021
+11	,	,	PUNCT	_	_	13	punct	_	AlignBegin=55021|AlignEnd=55021
 12	notre	son	DET	_	Number=Sing|Number[psor]=Plur|Person[psor]=1|Poss=Yes|PronType=Prs	13	det	_	AlignBegin=55021|AlignEnd=55336|HasSpokenGender=OnlySingExceptWithLiaison
-13	boule	boule	NOUN	_	Gender=Fem|Number=Sing	6	nmod	_	AlignBegin=55336|AlignEnd=55626|Exponence[Gender]=Inherent|Exponence[Number]=Absent
+13	boule	boule	NOUN	_	Gender=Fem|Number=Sing	9	conj:reform	_	AlignBegin=55336|AlignEnd=55626|cdet=No|Exponence[Gender]=Inherent|Exponence[Number]=Absent
 14	de	de	ADP	_	_	15	case	_	AlignBegin=55626|AlignEnd=55706
 15	lavage	lavage	NOUN	_	Gender=Masc|Number=Sing	13	nmod	_	AlignBegin=55706|AlignEnd=56306|Exponence[Gender]=Inherent|Exponence[Number]=Absent
 16	en	en	ADP	_	_	17	case	_	AlignBegin=56306|AlignEnd=56466
-17	compagnie	compagnie	NOUN	_	Gender=Fem|Number=Sing	4	obl:mod	_	AlignBegin=56466|AlignEnd=57006|Exponence[Gender]=Inherent|Exponence[Number]=Absent
+17	compagnie	compagnie	NOUN	_	Gender=Fem|Number=Sing	4	obl:mod	_	AlignBegin=56466|AlignEnd=57006|cdet=No|Exponence[Gender]=Inherent|Exponence[Number]=Absent
 18	de	de	ADP	_	_	19	case	_	AlignBegin=57006|AlignEnd=57106
 19	Maître	maître	NOUN	_	Gender=Masc|Number=Sing	17	nmod	_	AlignBegin=57106|AlignEnd=57386|Exponence[Gender]=Inherent
-20	Vendiste	Vendiste	PROPN	_	_	19	nmod:appos	_	AlignBegin=57386|AlignEnd=57971|SpaceAfter=No
+20	Vendiste	Vendiste	PROPN	_	_	19	appos	_	AlignBegin=57386|AlignEnd=57971|SpaceAfter=No
 21	,	,	PUNCT	_	_	22	punct	_	AlignBegin=57971|AlignEnd=57971
-22	huissier	huissier	NOUN	_	Gender=Masc|Number=Sing	19	appos	_	AlignBegin=57971|AlignEnd=58356|Exponence[Gender]=Inherent|Exponence[Number]=Absent|LiaisonPossibleBefore=Yes
+22	huissier	huissier	NOUN	_	Gender=Masc|Number=Sing	19	appos	_	AlignBegin=57971|AlignEnd=58356|cdet=No|Exponence[Gender]=Inherent|Exponence[Number]=Absent|LiaisonPossibleBefore=Yes
 23	de	de	ADP	_	_	24	case	_	AlignBegin=58356|AlignEnd=58405
 24	justice	justice	NOUN	_	Gender=Fem|Number=Sing	22	nmod	_	AlignBegin=58405|AlignEnd=58867|Exponence[Gender]=Inherent|Exponence[Number]=Absent|SpaceAfter=No
 25	.	.	PUNCT	_	_	2	punct	_	AlignBegin=58867|AlignEnd=58867
@@ -429,7 +429,7 @@
 6	chemise	chemise	NOUN	_	Gender=Fem|Number=Sing	3	obj	_	AlignBegin=71743|AlignEnd=72313|Exponence[Gender]=Inherent|Exponence[Number]=Absent
 7	avec	avec	ADP	_	_	9	case	_	AlignBegin=72313|AlignEnd=72948
 8	du	du	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	9	det	_	AlignBegin=73062|AlignEnd=73204
-9	fond	fond	NOUN	_	Gender=Masc|Number=Sing	6	nmod	_	AlignBegin=73204|AlignEnd=73487|Exponence[Gender]=Inherent|Exponence[Number]=Absent
+9	fond	fond	NOUN	_	Gender=Masc|Number=Sing	6	nmod	_	AlignBegin=73204|AlignEnd=73487|cdet=No|Exponence[Gender]=Inherent|Exponence[Number]=Absent
 10	de	de	ADP	_	_	11	case	_	AlignBegin=73487|AlignEnd=73517
 11	teint	teint	NOUN	_	Gender=Masc|Number=Sing	9	nmod	_	AlignBegin=73517|AlignEnd=73837|Exponence[Gender]=Inherent|Exponence[Number]=Absent
 12	sur	sur	ADP	_	_	14	case	_	AlignBegin=73837|AlignEnd=74067
@@ -442,7 +442,7 @@
 19	également	également	ADV	_	_	22	advmod	_	AlignBegin=75607|AlignEnd=76027
 20	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	22	det	_	AlignBegin=76027|AlignEnd=76221
 21	grosse	gros	ADJ	_	Gender=Fem|Number=Sing	22	amod	_	AlignBegin=76221|AlignEnd=76697|Exponence[Number]=Absent|HasSpokenGender=Yes|HasSpokenNumber=OnlyFemWithLiaison
-22	tache	tache	NOUN	_	Gender=Fem|Number=Sing	9	conj	_	AlignBegin=76697|AlignEnd=76957|Exponence[Gender]=Inherent|Exponence[Number]=Absent
+22	tache	tache	NOUN	_	Gender=Fem|Number=Sing	9	conj	_	AlignBegin=76697|AlignEnd=76957|cdet=No|Exponence[Gender]=Inherent|Exponence[Number]=Absent
 23	de	de	ADP	_	_	24	case	_	AlignBegin=76957|AlignEnd=77067
 24	café	café	NOUN	_	Gender=Masc|Number=Sing	22	nmod	_	AlignBegin=77067|AlignEnd=77407|Exponence[Gender]=Inherent|Exponence[Number]=Absent|SpaceAfter=No
 25	.	.	PUNCT	_	_	2	punct	_	AlignBegin=77407|AlignEnd=77407
@@ -495,7 +495,7 @@
 6	avec	avec	ADP	_	_	9	case	_	AlignBegin=82593|AlignEnd=83038
 7	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	9	det	_	AlignBegin=83038|AlignEnd=83388
 8	grosse	gros	ADJ	_	Gender=Fem|Number=Sing	9	amod	_	AlignBegin=83388|AlignEnd=83758|Exponence[Number]=Absent|HasSpokenGender=Yes|HasSpokenNumber=OnlyFemWithLiaison
-9	tache	tache	NOUN	_	Gender=Fem|Number=Sing	5	nmod	_	AlignBegin=83758|AlignEnd=83958|Exponence[Gender]=Inherent|Exponence[Number]=Absent
+9	tache	tache	NOUN	_	Gender=Fem|Number=Sing	5	nmod	_	AlignBegin=83758|AlignEnd=83958|cdet=No|Exponence[Gender]=Inherent|Exponence[Number]=Absent
 10	de	de	ADP	_	_	11	case	_	AlignBegin=83958|AlignEnd=84058
 11	grenadine	grenadine	NOUN	_	Gender=Fem|Number=Sing	9	nmod	_	AlignBegin=84058|AlignEnd=84674|Exponence[Gender]=Inherent|Exponence[Number]=Absent|SpaceAfter=No
 12	.	.	PUNCT	_	_	2	punct	_	AlignBegin=84674|AlignEnd=84674
@@ -526,7 +526,7 @@
 3	on	on	PRON	_	Case=Nom|Emph=No|Gender=Masc|Number=Sing|Person=3|PronType=Ind	4	nsubj	_	AlignBegin=86992|AlignEnd=87112|Exponence[Gender]=Absent|Exponence[Number]=Inherent|Exponence[Person]=Inherent
 4	a	avoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	AlignBegin=87112|AlignEnd=87192
 5	notre	son	DET	_	Number=Sing|Number[psor]=Plur|Person[psor]=1|Poss=Yes|PronType=Prs	6	det	_	AlignBegin=87192|AlignEnd=87442|HasSpokenGender=OnlySingExceptWithLiaison
-6	paire	paire	NOUN	_	Gender=Fem|Number=Sing	4	obj	_	AlignBegin=87442|AlignEnd=87692|Exponence[Gender]=Inherent|Exponence[Number]=Absent
+6	paire	paire	NOUN	_	Gender=Fem|Number=Sing	4	obj	_	AlignBegin=87442|AlignEnd=87692|cdet=No|Exponence[Gender]=Inherent|Exponence[Number]=Absent
 7	de	de	ADP	_	_	8	case	_	AlignBegin=87692|AlignEnd=87782
 8	baskets	basket	NOUN	_	Gender=Fem|Number=Plur	6	nmod	_	AlignBegin=87782|AlignEnd=88332|Exponence[Gender]=Inherent|Exponence[Number]=Absent
 9	également	également	ADV	_	_	11	advmod	_	AlignBegin=88332|AlignEnd=88905
@@ -571,7 +571,7 @@
 16	intérieur	intérieur	NOUN	_	Gender=Masc|Number=Sing	11	obl:mod	_	AlignBegin=95783|AlignEnd=96303|Exponence[Gender]=Inherent|Exponence[Number]=Absent|LiaisonPossibleBefore=Yes
 17-18	du	_	_	_	_	_	_	_	_
 17	de	de	ADP	_	_	19	case	_	AlignBegin=96303|AlignEnd=96423
-18	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	19	det	_	AlignBegin=96303|AlignEnd=96423
+18	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	19	det	_	_
 19	tambour	tambour	NOUN	_	Gender=Masc|Number=Sing	16	nmod	_	AlignBegin=96423|AlignEnd=96893|Exponence[Gender]=Inherent|Exponence[Number]=Absent|SpaceAfter=No
 20	.	.	PUNCT	_	_	2	punct	_	AlignBegin=96893|AlignEnd=96893
 
@@ -720,7 +720,7 @@
 # macrosyntax = le cycle de lavage est terminé //
 # text = le cycle de lavage est terminé.
 1	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	AlignBegin=116959|AlignEnd=117019|HasSpokenGender=OnlySingExceptWithLiaison
-2	cycle	cycle	NOUN	_	Gender=Masc|Number=Sing	6	nsubj	_	AlignBegin=117019|AlignEnd=117339|Exponence[Gender]=Inherent|Exponence[Number]=Absent
+2	cycle	cycle	NOUN	_	Gender=Masc|Number=Sing	6	nsubj	_	AlignBegin=117019|AlignEnd=117339|cdet=No|Exponence[Gender]=Inherent|Exponence[Number]=Absent
 3	de	de	ADP	_	_	4	case	_	AlignBegin=117339|AlignEnd=117419
 4	lavage	lavage	NOUN	_	Gender=Masc|Number=Sing	2	nmod	_	AlignBegin=117419|AlignEnd=117769|Exponence[Gender]=Inherent|Exponence[Number]=Absent
 5	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	cop	_	AlignBegin=117769|AlignEnd=117859
@@ -802,7 +802,7 @@
 8	pantalon	pantalon	NOUN	_	Gender=Masc|Number=Sing	6	obj	_	AlignBegin=128662|AlignEnd=129272|Exponence[Gender]=Inherent|Exponence[Number]=Absent
 9	avec	avec	ADP	_	_	11	case	_	AlignBegin=129272|AlignEnd=129622
 10	des	un	DET	_	Definite=Ind|Number=Plur|PronType=Art	11	det	_	AlignBegin=129622|AlignEnd=129812
-11	taches	tache	NOUN	_	Gender=Fem|Number=Plur	8	nmod	_	AlignBegin=129812|AlignEnd=129992|Exponence[Gender]=Inherent|Exponence[Number]=Absent
+11	taches	tache	NOUN	_	Gender=Fem|Number=Plur	8	nmod	_	AlignBegin=129812|AlignEnd=129992|cdet=No|Exponence[Gender]=Inherent|Exponence[Number]=Absent
 12	de	de	ADP	_	_	13	case	_	AlignBegin=129992|AlignEnd=130082
 13	grenadine	grenadine	NOUN	_	Gender=Fem|Number=Plur	11	nmod	_	AlignBegin=130082|AlignEnd=130512|Exponence[Gender]=Inherent|Exponence[Number]=Absent|SpaceAfter=No
 14	.	.	PUNCT	_	_	6	punct	_	AlignBegin=130512|AlignEnd=130512
@@ -868,7 +868,7 @@
 # speaker_id = §LM30
 # macrosyntax = $L1 voilà //
 # text = voilà.
-1	voilà	voilà	VERB	_	_	0	root	_	AlignBegin=134633|AlignEnd=134799|Backchannel=Rhap_D2011-50::3|SpaceAfter=No
+1	voilà	voilà	VERB	_	_	0	root	_	AlignBegin=134633|AlignEnd=134799|SpaceAfter=No
 2	.	.	PUNCT	_	_	1	punct	_	AlignBegin=134799|AlignEnd=134799
 
 # sent_id = Rhap_D2011-52
@@ -902,7 +902,7 @@
 12	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	13	det	_	AlignBegin=140345|AlignEnd=140544|HasSpokenGender=OnlySingExceptWithLiaison
 13	col	col	NOUN	_	Gender=Masc|Number=Sing	15	nmod	_	AlignBegin=140544|AlignEnd=141045|Exponence[Gender]=Inherent|Exponence[Number]=Absent
 14	du	du	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	15	det	_	AlignBegin=141159|AlignEnd=141314
-15	fond	fond	NOUN	_	Gender=Masc|Number=Sing	6	nmod	_	AlignBegin=141314|AlignEnd=141544|Exponence[Gender]=Inherent|Exponence[Number]=Absent
+15	fond	fond	NOUN	_	Gender=Masc|Number=Sing	6	nmod	_	AlignBegin=141314|AlignEnd=141544|cdet=No|Exponence[Gender]=Inherent|Exponence[Number]=Absent
 16	de	de	ADP	_	_	17	case	_	AlignBegin=141544|AlignEnd=141584
 17	teint	teint	NOUN	_	Gender=Masc|Number=Sing	15	nmod	_	AlignBegin=141584|AlignEnd=141774|Exponence[Gender]=Inherent|Exponence[Number]=Absent|SpaceAfter=No
 18	.	.	PUNCT	_	_	2	punct	_	AlignBegin=141774|AlignEnd=141774
@@ -930,7 +930,7 @@
 15	,	,	PUNCT	_	_	14	punct	_	AlignBegin=145064|AlignEnd=145321
 16	plus	plus	ADV	_	_	18	advmod	_	AlignBegin=145321|AlignEnd=145426
 17	de	un	DET	_	Definite=Ind|Number=Plur|PronType=Art	18	det	_	AlignBegin=145426|AlignEnd=145456
-18	traces	trace	NOUN	_	Gender=Fem|Number=Plur	7	conj	_	AlignBegin=145456|AlignEnd=146006|Exponence[Gender]=Inherent|Exponence[Number]=Absent
+18	traces	trace	NOUN	_	Gender=Fem|Number=Plur	7	conj	_	AlignBegin=145456|AlignEnd=146006|cdet=No|Exponence[Gender]=Inherent|Exponence[Number]=Absent
 19	de	de	ADP	_	_	20	case	_	AlignBegin=146006|AlignEnd=146116
 20	café	café	NOUN	_	Gender=Masc|Number=Sing	18	nmod	_	AlignBegin=146116|AlignEnd=146530|Exponence[Gender]=Inherent|Exponence[Number]=Absent|SpaceAfter=No
 21	.	.	PUNCT	_	_	5	punct	_	AlignBegin=146530|AlignEnd=146530
@@ -1014,7 +1014,7 @@
 4	grâce	grâce	NOUN	_	ExtPos=ADV|Gender=Fem	3	advmod	_	AlignBegin=155824|AlignEnd=156384|Exponence[Gender]=Inherent
 5	à	à	ADP	_	_	7	case	_	AlignBegin=156528|AlignEnd=156688
 6	notre	son	DET	_	Number=Sing|Number[psor]=Plur|Person[psor]=1|Poss=Yes|PronType=Prs	7	det	_	AlignBegin=156757|AlignEnd=157074|HasSpokenGender=OnlySingExceptWithLiaison
-7	boule	boule	NOUN	_	Gender=Fem|Number=Sing	4	obl:arg	_	AlignBegin=157074|AlignEnd=157334|Exponence[Gender]=Inherent|Exponence[Number]=Absent
+7	boule	boule	NOUN	_	Gender=Fem|Number=Sing	4	obl:arg	_	AlignBegin=157074|AlignEnd=157334|cdet=No|Exponence[Gender]=Inherent|Exponence[Number]=Absent
 8	de	de	ADP	_	_	9	case	_	AlignBegin=157334|AlignEnd=157404
 9	lavage	lavage	NOUN	_	Gender=Masc|Number=Sing	7	nmod	_	AlignBegin=157404|AlignEnd=157834|Exponence[Gender]=Inherent|Exponence[Number]=Absent|SpaceAfter=No
 10	,	,	PUNCT	_	_	11	punct	_	AlignBegin=157834|AlignEnd=0
@@ -1051,14 +1051,14 @@
 3	,	,	PUNCT	_	_	2	punct	_	AlignBegin=159873|AlignEnd=159873
 4	que	que	SCONJ	_	_	18	mark	_	AlignBegin=159873|AlignEnd=160143
 5	sans	sans	ADP	_	_	6	case	_	AlignBegin=160143|AlignEnd=160363
-6	savon	savon	NOUN	_	Gender=Masc|Number=Sing	12	reparandum	_	AlignBegin=160363|AlignEnd=160833|Exponence[Gender]=Inherent|Exponence[Number]=Absent|SpaceAfter=No
-7	,	,	PUNCT	_	_	6	punct	_	AlignBegin=160833|AlignEnd=160833
+6	savon	savon	NOUN	_	Gender=Masc|Number=Sing	18	obl:mod	_	AlignBegin=160363|AlignEnd=160833|Exponence[Gender]=Inherent|Exponence[Number]=Absent|SpaceAfter=No
+7	,	,	PUNCT	_	_	12	punct	_	AlignBegin=160833|AlignEnd=160833
 8	rien	rien	PRON	_	ExtPos=ADV|Gender=Masc|Number=Sing|PronType=Neg	12	advmod	_	AlignBegin=160833|AlignEnd=161043|Exponence[Gender]=Inherent|Exponence[Number]=Inherent|Idiom=Yes
 9	qu'	que	SCONJ	_	_	8	fixed	_	AlignBegin=161043|AlignEnd=161093|InIdiom=Yes|SpaceAfter=No
 10	avec	avec	ADP	_	_	12	case	_	AlignBegin=161093|AlignEnd=161283
 11	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	12	det	_	AlignBegin=161283|AlignEnd=161393|HasSpokenGender=OnlySingExceptWithLiaison
-12	boule	boule	NOUN	_	Gender=Fem|Number=Sing	18	obl:mod	_	AlignBegin=161393|AlignEnd=161793|Exponence[Gender]=Inherent|Exponence[Number]=Absent|SpaceAfter=No
-13	,	,	PUNCT	_	_	12	punct	_	AlignBegin=162452|AlignEnd=162452
+12	boule	boule	NOUN	_	Gender=Fem|Number=Sing	6	nmod	_	AlignBegin=161393|AlignEnd=161793|Exponence[Gender]=Inherent|Exponence[Number]=Absent|SpaceAfter=No
+13	,	,	PUNCT	_	_	6	punct	_	AlignBegin=162452|AlignEnd=162452
 14	tous	tout	ADJ	_	Gender=Masc|Number=Plur	16	amod	_	AlignBegin=162452|AlignEnd=162527|Exponence[Number]=Absent|HasSpokenGender=YesExceptSingWithLiaison|HasSpokenNumber=OnlyWithLiaison
 15	ces	ce	DET	_	Number=Plur|PronType=Dem	16	det	_	AlignBegin=162527|AlignEnd=162647|HasSpokenGender=OnlySingExceptWithLiaison
 16	linges	linge	NOUN	_	Gender=Masc|Number=Plur	18	nsubj	_	AlignBegin=162647|AlignEnd=162857|Exponence[Gender]=Inherent|Exponence[Number]=Absent
@@ -1072,10 +1072,10 @@
 # speaker_id = §LM30
 # macrosyntax = $L1 merci beaucoup > maître //
 # text = merci beaucoup, Maître.
-1	merci	merci	INTJ	_	_	0	root	_	AlignBegin=163584|AlignEnd=163969|Backchannel=Rhap_D2011-62::4
+1	merci	merci	INTJ	_	_	0	root	_	AlignBegin=163584|AlignEnd=163969
 2	beaucoup	beaucoup	ADV	_	_	1	advmod	_	AlignBegin=163969|AlignEnd=164219|SpaceAfter=No
 3	,	,	PUNCT	_	_	1	punct	_	AlignBegin=164219|AlignEnd=0
-4	Maître	maître	NOUN	_	Gender=Masc|Number=Sing	1	vocative	_	AlignBegin=164219|AlignEnd=164699|Exponence[Gender]=Inherent|SpaceAfter=No
+4	Maître	Maître	PROPN	_	Gender=Masc|Number=Sing	1	vocative	_	AlignBegin=164219|AlignEnd=164699|SpaceAfter=No
 5	.	.	PUNCT	_	_	1	punct	_	AlignBegin=0|AlignEnd=0
 
 # sent_id = Rhap_D2011-64
@@ -1087,7 +1087,7 @@
 1	donc	donc	ADV	_	_	13	advmod	_	AlignBegin=164699|AlignEnd=164989|SpaceAfter=No
 2	,	,	PUNCT	_	_	1	punct	_	AlignBegin=164989|AlignEnd=164989
 3	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	_	AlignBegin=164989|AlignEnd=165349|HasSpokenGender=OnlySingExceptWithLiaison
-4	boule	boule	NOUN	_	Gender=Fem|Number=Sing	13	dislocated:subj	_	AlignBegin=165349|AlignEnd=165499|Exponence[Gender]=Inherent|Exponence[Number]=Absent
+4	boule	boule	NOUN	_	Gender=Fem|Number=Sing	13	dislocated:subj	_	AlignBegin=165349|AlignEnd=165499|cdet=No|Exponence[Gender]=Inherent|Exponence[Number]=Absent
 5	de	de	ADP	_	_	6	case	_	AlignBegin=165499|AlignEnd=165569
 6	lavage	lavage	NOUN	_	Gender=Masc|Number=Sing	4	nmod	_	AlignBegin=165569|AlignEnd=166039|Exponence[Gender]=Inherent|Exponence[Number]=Absent|SpaceAfter=No
 7	,	,	PUNCT	_	_	9	punct	_	AlignBegin=166039|AlignEnd=166039
@@ -1147,7 +1147,7 @@
 # speaker_id = §LM30
 # macrosyntax = "eh bien" le secret < il est { là | dans ce ( $L1 "eh" oui // ) petit bruit que l'on entend } //
 # text = eh oui.
-1	eh	eh	INTJ	_	ExtPos=INTJ	0	root	_	AlignBegin=173561|AlignEnd=173694|Backchannel=Rhap_D2011-66::12|Idiom=Yes|Overlap=Rhap_D2011-66
+1	eh	eh	INTJ	_	ExtPos=INTJ	0	root	_	AlignBegin=173561|AlignEnd=173694|Backchannel=Rhap_D2011-66::8|Idiom=Yes|Overlap=Rhap_D2011-66
 2	oui	oui	INTJ	_	_	1	fixed	_	AlignBegin=173694|AlignEnd=173946|InIdiom=Yes|Overlap=Rhap_D2011-66|SpaceAfter=No
 3	.	.	PUNCT	_	_	1	punct	_	AlignBegin=173946|AlignEnd=173946|Overlap=Rhap_D2011-57
 
@@ -1207,7 +1207,7 @@
 17	ont	avoir	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	13	acl:relcl	_	AlignBegin=179699|AlignEnd=179799
 18	chacune	chacun	PRON	_	Gender=Fem|Number=Sing|Person=3|PronType=Ind	17	obl:mod	_	AlignBegin=179799|AlignEnd=180286|Exponence[Number]=Inherent|Exponence[Person]=Inherent
 19	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	20	det	_	AlignBegin=180286|AlignEnd=180615|LiaisonAfter=Yes
-20	efficacité	efficacité	NOUN	_	Gender=Fem|Number=Sing	17	obj	_	AlignBegin=180615|AlignEnd=181419|Exponence[Gender]=Inherent|Exponence[Number]=Absent|LiaisonPossibleBefore=Yes
+20	efficacité	efficacité	NOUN	_	Gender=Fem|Number=Sing	17	obj	_	AlignBegin=180615|AlignEnd=181419|cdet=No|Exponence[Gender]=Inherent|Exponence[Number]=Absent|LiaisonPossibleBefore=Yes
 21	de	de	ADP	_	_	22	case	_	AlignBegin=181419|AlignEnd=181529
 22	lavage	lavage	NOUN	_	Gender=Masc|Number=Sing	20	nmod	_	AlignBegin=181529|AlignEnd=181932|Exponence[Gender]=Inherent|Exponence[Number]=Absent
 23	tout	tout	ADV	_	ExtPos=ADV	26	advmod	_	AlignBegin=181932|AlignEnd=182167|Idiom=Yes
@@ -1260,7 +1260,7 @@
 1	grâce	grâce	NOUN	_	Gender=Fem|Number=Sing	12	advcl	_	AlignBegin=189603|AlignEnd=189878|Exponence[Gender]=Inherent|Exponence[Number]=Absent
 2-3	au	_	_	_	_	_	_	_	_
 2	à	à	ADP	_	_	4	case	_	AlignBegin=189878|AlignEnd=189968
-3	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	AlignBegin=189878|AlignEnd=189968
+3	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
 4	rayonnement	rayonnement	NOUN	_	Gender=Masc|Number=Sing	1	nmod	_	AlignBegin=189968|AlignEnd=190448|Exponence[Gender]=Inherent|Exponence[Number]=Absent
 5	à	à	ADP	_	_	6	case	_	AlignBegin=190448|AlignEnd=190518
 6	infra	infra	NOUN	_	Gender=Masc|Number=Sing	4	nmod	_	AlignBegin=190518|AlignEnd=190798|Exponence[Gender]=Inherent|Exponence[Number]=Absent|LiaisonPossibleBefore=Yes
@@ -1282,7 +1282,7 @@
 22	,	,	PUNCT	_	_	23	punct	_	AlignBegin=196871|AlignEnd=196871
 23	donc	donc	ADV	_	_	21	discourse	_	AlignBegin=196871|AlignEnd=197209|SpaceAfter=No
 24	,	,	PUNCT	_	_	26	punct	_	AlignBegin=197209|AlignEnd=197209
-25	son	son	DET	_	Gender=Masc|Number=Sing|Number[psor]=Sing|Person[psor]=3|Poss=Yes|PronType=Prs	26	det	_	AlignBegin=197209|AlignEnd=197519|Exponence[Gender]=Absent|HasSpokenGender=OnlySingExceptWithLiaison
+25	son	son	DET	_	Gender=Masc|Number=Sing|Number[psor]=Sing|Person[psor]=3|Poss=Yes|PronType=Prs	26	det	_	AlignBegin=197209|AlignEnd=197519|HasSpokenGender=OnlySingExceptWithLiaison
 26	pouvoir	pouvoir	NOUN	_	Gender=Masc|Number=Sing	21	obj	_	AlignBegin=197519|AlignEnd=198209|Exponence[Gender]=Inherent|Exponence[Number]=Absent
 27	nettoyant	nettoyer	VERB	_	VerbForm=Part	26	acl	_	AlignBegin=198209|AlignEnd=198826|PastPartHasSpokenGender=NotInThisDialect|SpaceAfter=No|Tense[denom]=Pres
 28	.	.	PUNCT	_	_	12	punct	_	AlignBegin=198826|AlignEnd=198826
@@ -1317,7 +1317,7 @@
 6	pénétration	pénétration	NOUN	_	Gender=Fem|Number=Sing	3	obj	_	AlignBegin=204481|AlignEnd=205331|Exponence[Gender]=Inherent|Exponence[Number]=Absent
 7-8	au	_	_	_	_	_	_	_	_
 7	à	à	ADP	_	_	9	case	_	AlignBegin=205331|AlignEnd=205371
-8	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	_	AlignBegin=205331|AlignEnd=205371
+8	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
 9	niveau	niveau	NOUN	_	Gender=Masc|Number=Sing	3	obl:mod	_	AlignBegin=205371|AlignEnd=205721|Exponence[Gender]=Inherent|Exponence[Number]=Absent
 10	de	de	ADP	_	_	12	case	_	AlignBegin=205721|AlignEnd=205781
 11	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	12	det	_	AlignBegin=205781|AlignEnd=205941|HasSpokenGender=OnlySingExceptWithLiaison
@@ -1360,10 +1360,10 @@
 3	va	aller	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	acl:relcl	_	AlignBegin=213161|AlignEnd=213348
 4	faciliter	faciliter	VERB	_	VerbForm=Inf	3	xcomp	_	AlignBegin=213348|AlignEnd=214323|Subject=SubjRaising
 5	l'	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	AlignBegin=214508|AlignEnd=214573|Exponence[Gender]=Absent|HasSpokenGender=OnlySingExceptWithLiaison|LiaisonAfter=Yes|SpaceAfter=No
-6	élimination	élimination	NOUN	_	Gender=Fem|Number=Sing	4	obj	_	AlignBegin=214573|AlignEnd=215273|Exponence[Gender]=Inherent|Exponence[Number]=Absent|LiaisonPossibleBefore=Yes
+6	élimination	élimination	NOUN	_	Gender=Fem|Number=Sing	4	obj	_	AlignBegin=214573|AlignEnd=215273|cdet=No|Exponence[Gender]=Inherent|Exponence[Number]=Absent|LiaisonPossibleBefore=Yes
 7-8	des	_	_	_	_	_	_	_	_
 7	de	de	ADP	_	_	9	case	_	AlignBegin=215273|AlignEnd=215428
-8	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	9	det	_	AlignBegin=215273|AlignEnd=215428
+8	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	9	det	_	_
 9	impuretés	impureté	NOUN	_	Gender=Fem|Number=Plur	6	nmod	_	AlignBegin=215428|AlignEnd=215939|Exponence[Gender]=Inherent|Exponence[Number]=Absent|LiaisonPossibleBefore=Yes|SpaceAfter=No
 10	.	.	PUNCT	_	_	1	punct	_	AlignBegin=215428|AlignEnd=215428
 
@@ -1382,7 +1382,7 @@
 7	présent	présent	ADJ	_	Gender=Masc|Number=Sing	6	amod	_	AlignBegin=218066|AlignEnd=218446|Exponence[Number]=Absent|HasSpokenGender=YesExceptSingWithLiaison|HasSpokenNumber=OnlyWithLiaison
 8	dans	dans	ADP	_	_	10	case	_	AlignBegin=218446|AlignEnd=218586
 9	l'	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	10	det	_	AlignBegin=218586|AlignEnd=218616|Exponence[Gender]=Absent|HasSpokenGender=OnlySingExceptWithLiaison|LiaisonAfter=Yes|SpaceAfter=No
-10	eau	eau	NOUN	_	Gender=Fem|Number=Sing	7	obl:mod	_	AlignBegin=218616|AlignEnd=218716|Exponence[Gender]=Inherent|Exponence[Number]=Absent|LiaisonPossibleBefore=Yes
+10	eau	eau	NOUN	_	Gender=Fem|Number=Sing	7	obl:mod	_	AlignBegin=218616|AlignEnd=218716|cdet=No|Exponence[Gender]=Inherent|Exponence[Number]=Absent|LiaisonPossibleBefore=Yes
 11	de	de	ADP	_	_	12	case	_	AlignBegin=218716|AlignEnd=218766
 12	ville	ville	NOUN	_	Gender=Fem|Number=Sing	10	nmod	_	AlignBegin=218766|AlignEnd=219073|Exponence[Gender]=Inherent|Exponence[Number]=Absent|SpaceAfter=No
 13	,	,	PUNCT	_	_	15	punct	_	AlignBegin=219073|AlignEnd=219073
@@ -1396,7 +1396,7 @@
 21	couleurs	couleur	NOUN	_	Gender=Fem|Number=Plur	17	conj	_	AlignBegin=221026|AlignEnd=221286|Exponence[Gender]=Inherent|Exponence[Number]=Absent
 22-23	du	_	_	_	_	_	_	_	_
 22	de	de	ADP	_	_	24	case	_	AlignBegin=221286|AlignEnd=221396
-23	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	24	det	_	AlignBegin=221286|AlignEnd=221396
+23	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	24	det	_	_
 24	tissu	tissu	NOUN	_	Gender=Masc|Number=Sing	21	nmod	_	AlignBegin=221396|AlignEnd=221886|Exponence[Gender]=Inherent|Exponence[Number]=Absent|SpaceAfter=No
 25	.	.	PUNCT	_	_	4	punct	_	AlignBegin=221886|AlignEnd=221886
 
@@ -1415,7 +1415,7 @@
 7	ne	ne	ADV	_	Polarity=Neg	8	advmod	_	AlignBegin=225221|AlignEnd=225471
 8	laisse	laisser	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	AlignBegin=225471|AlignEnd=225791|Exponence[Number]=Absent|Exponence[Person]=Absent
 9	aucun	aucun	DET	_	Gender=Masc|Number=Sing|PronType=Neg	10	det	_	AlignBegin=225791|AlignEnd=226151
-10	résidu	résidu	NOUN	_	Gender=Masc|Number=Sing	8	obj	_	AlignBegin=226151|AlignEnd=226641|Exponence[Gender]=Inherent|Exponence[Number]=Absent
+10	résidu	résidu	NOUN	_	Gender=Masc|Number=Sing	8	obj	_	AlignBegin=226151|AlignEnd=226641|cdet=No|Exponence[Gender]=Inherent|Exponence[Number]=Absent
 11	de	de	ADP	_	_	12	case	_	AlignBegin=226641|AlignEnd=226721
 12	substance	substance	NOUN	_	Gender=Fem|Number=Sing	10	nmod	_	AlignBegin=226721|AlignEnd=227201|Exponence[Gender]=Inherent|Exponence[Number]=Absent
 13	allergène	allergène	NOUN	_	Gender=Fem|Number=Sing	12	compound	_	AlignBegin=227201|AlignEnd=227631|Exponence[Gender]=Inherent|Exponence[Number]=Absent|LiaisonPossibleBefore=Yes
@@ -1434,7 +1434,7 @@
 2	qui	qui	PRON	_	PronType=Rel	3	nsubj	_	AlignBegin=228935|AlignEnd=229090
 3	écarte	écarter	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	acl:relcl	_	AlignBegin=229090|AlignEnd=229775|Exponence[Number]=Absent|Exponence[Person]=Absent
 4	tout	tout	ADJ	_	Gender=Masc|Number=Sing	5	amod	_	AlignBegin=230010|AlignEnd=230125|Exponence[Number]=Absent|HasSpokenGender=YesExceptSingWithLiaison|HasSpokenNumber=OnlyWithLiaison
-5	risque	risque	NOUN	_	Gender=Masc|Number=Sing	3	obj	_	AlignBegin=230125|AlignEnd=230595|Exponence[Gender]=Inherent|Exponence[Number]=Absent
+5	risque	risque	NOUN	_	Gender=Masc|Number=Sing	3	obj	_	AlignBegin=230125|AlignEnd=230595|cdet=No|Exponence[Gender]=Inherent|Exponence[Number]=Absent
 6	d'	de	ADP	_	_	7	case	_	AlignBegin=230595|AlignEnd=230635|SpaceAfter=No
 7	irritation	irritation	NOUN	_	Gender=Fem|Number=Sing	5	nmod	_	AlignBegin=230635|AlignEnd=231275|Exponence[Gender]=Inherent|Exponence[Number]=Absent|LiaisonPossibleBefore=Yes|SpaceAfter=No
 8	,	,	PUNCT	_	_	11	punct	_	AlignBegin=231275|AlignEnd=231275
@@ -1574,11 +1574,11 @@
 3	-ce	ce	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	1	expl:subj	_	AlignBegin=247529|AlignEnd=247609|Exponence[Gender]=Inherent|Exponence[Number]=Inherent|Exponence[Person]=Inherent
 4	que	que	PRON	_	PronType=Rel	7	obj	_	AlignBegin=247609|AlignEnd=247689
 5	vous	vous	PRON	_	Case=Nom|Emph=No|Number=Plur|Person=2|PronType=Prs	7	nsubj	_	AlignBegin=247689|AlignEnd=247859|Exponence[Number]=Inherent|Exponence[Person]=Inherent|Polite=Unknown
-6	en	en	PRON	_	Person=3|PronType=Prs	7	obl:mod	_	AlignBegin=247859|AlignEnd=247959|Exponence[Person]=Inherent
+6	en	en	PRON	_	Person=3|PronType=Prs	7	iobj	_	AlignBegin=247859|AlignEnd=247959|Exponence[Person]=Inherent
 7	pensez	penser	VERB	_	Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	1	advcl:cleft	_	AlignBegin=247959|AlignEnd=248319|Filler=obj
 8	de	de	ADP	_	_	10	case	_	AlignBegin=248319|AlignEnd=248429
 9	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	10	det	_	AlignBegin=248429|AlignEnd=248549|HasSpokenGender=OnlySingExceptWithLiaison
-10	boule	boule	NOUN	_	Gender=Fem|Number=Sing	7	obl:mod	_	AlignBegin=248549|AlignEnd=248689|Exponence[Gender]=Inherent|Exponence[Number]=Absent
+10	boule	boule	NOUN	_	Gender=Fem|Number=Sing	7	obl:arg	_	AlignBegin=248549|AlignEnd=248689|Exponence[Gender]=Inherent|Exponence[Number]=Absent
 11	magique	magique	ADJ	_	Gender=Fem|Number=Sing	10	amod	_	AlignBegin=248689|AlignEnd=249109|Exponence[Gender]=Absent|Exponence[Number]=Absent|HasSpokenGender=No|HasSpokenNumber=OnlyWithLiaison
 12	?	?	PUNCT	_	_	1	punct	_	AlignBegin=249109|AlignEnd=249109
 
@@ -1599,7 +1599,7 @@
 # speaker_id = §LF22
 # macrosyntax = mon linge est super propre //=
 # text = mon linge est super propre.
-1	mon	son	DET	_	Gender=Masc|Number=Sing|Number[psor]=Sing|Person[psor]=1|Poss=Yes|PronType=Prs	2	det	_	AlignBegin=250074|AlignEnd=250244|Exponence[Gender]=Absent|HasSpokenGender=OnlySingExceptWithLiaison
+1	mon	son	DET	_	Gender=Masc|Number=Sing|Number[psor]=Sing|Person[psor]=1|Poss=Yes|PronType=Prs	2	det	_	AlignBegin=250074|AlignEnd=250244|HasSpokenGender=OnlySingExceptWithLiaison
 2	linge	linge	NOUN	_	Gender=Masc|Number=Sing	5	nsubj	_	AlignBegin=250244|AlignEnd=250584|Exponence[Gender]=Inherent|Exponence[Number]=Absent
 3	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	cop	_	AlignBegin=250584|AlignEnd=250744
 4	super	super	ADV	_	_	5	advmod	_	AlignBegin=250744|AlignEnd=251184
@@ -1663,12 +1663,12 @@
 # speaker_id = §LF22
 # macrosyntax = $- { ^et | ^et } au niveau ESPERLUETTE //
 # text = et, et au niveau…
-1	et	et	CCONJ	_	_	3	reparandum	_	AlignBegin=257471|AlignEnd=258867|Overlap=Rhap_D2011-95|SpaceAfter=No
-2	,	,	PUNCT	_	_	1	punct	_	AlignBegin=258867|AlignEnd=257471|Overlap=Rhap_D2011-83bis
-3	et	et	CCONJ	_	_	6	cc	_	AlignBegin=257471|AlignEnd=258867|Overlap=Rhap_D2011-96
+1	et	et	CCONJ	_	_	6	cc	_	AlignBegin=257471|AlignEnd=258867|Overlap=Rhap_D2011-95|SpaceAfter=No
+2	,	,	PUNCT	_	_	3	punct	_	AlignBegin=258867|AlignEnd=257471|Overlap=Rhap_D2011-83bis
+3	et	et	CCONJ	_	_	1	conj	_	AlignBegin=257471|AlignEnd=258867|Overlap=Rhap_D2011-96
 4-5	au	_	_	_	_	_	_	_	_
 4	à	à	ADP	_	_	6	case	_	AlignBegin=257471|AlignEnd=258867|Overlap=Rhap_D2011-96
-5	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	AlignBegin=257471|AlignEnd=258867|Overlap=Rhap_D2011-96
+5	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
 6	niveau	niveau	NOUN	_	Gender=Masc|Number=Sing	0	root	_	AlignBegin=257471|AlignEnd=258867|Exponence[Gender]=Inherent|Exponence[Number]=Absent|Overlap=Rhap_D2011-96|Scrap=Yes|SpaceAfter=No
 7	…	…	PUNCT	_	_	6	punct	_	AlignBegin=258867|AlignEnd=258867|Overlap=Rhap_D2011-84
 
@@ -1763,17 +1763,17 @@
 1	et	et	CCONJ	_	_	19	cc	_	AlignBegin=264902|AlignEnd=265007
 2-3	au	_	_	_	_	_	_	_	_
 2	à	à	ADP	_	_	4	case	_	AlignBegin=265007|AlignEnd=265037
-3	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	AlignBegin=265007|AlignEnd=265037
+3	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
 4	niveau	niveau	NOUN	_	Gender=Masc|Number=Sing	19	obl:mod	_	AlignBegin=265037|AlignEnd=265337|Exponence[Gender]=Inherent|Exponence[Number]=Absent
 5	de	de	ADP	_	_	12	reparandum	_	AlignBegin=265337|AlignEnd=265627|SpaceAfter=No
 6	,	,	PUNCT	_	_	5	punct	_	AlignBegin=265627|AlignEnd=265627
 7-8	des	_	_	_	_	_	_	_	SpaceAfter=No
-7	de	de	ADP	_	_	8	case	_	AlignBegin=265627|AlignEnd=265867
+7	de	de	ADP	_	_	8	case	_	_
 8	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	12	reparandum	_	AlignBegin=265627|AlignEnd=265867|Scrap=Yes
 9	,	,	PUNCT	_	_	8	punct	_	AlignBegin=265867|AlignEnd=265867
 10-11	des	_	_	_	_	_	_	_	_
 10	de	de	ADP	_	_	12	case	_	AlignBegin=265867|AlignEnd=266107
-11	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	12	det	_	AlignBegin=265867|AlignEnd=266107
+11	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	12	det	_	_
 12	odeurs	odeur	NOUN	_	Gender=Fem|Number=Plur	4	nmod	_	AlignBegin=266107|AlignEnd=266702|Exponence[Gender]=Inherent|Exponence[Number]=Absent|LiaisonPossibleBefore=Yes|SpaceAfter=No
 13	,	,	PUNCT	_	_	4	punct	_	AlignBegin=266702|AlignEnd=266837
 14	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	19	cop	_	AlignBegin=266837|AlignEnd=266952|SpaceAfter=No
@@ -1793,7 +1793,7 @@
 # text = ah, oui.
 1	ah	ah	INTJ	_	_	3	discourse	_	AlignBegin=268839|AlignEnd=269054|SpaceAfter=No
 2	,	,	PUNCT	_	_	1	punct	_	AlignBegin=269054|AlignEnd=269054
-3	oui	oui	INTJ	_	_	0	root	_	AlignBegin=269054|AlignEnd=269214|Backchannel=Rhap_D2011-100::11|SpaceAfter=No
+3	oui	oui	INTJ	_	_	0	root	_	AlignBegin=269054|AlignEnd=269214|Answer=Rhap_D2011-100::11|SpaceAfter=No
 4	.	.	PUNCT	_	_	3	punct	_	AlignBegin=269214|AlignEnd=269214
 
 # sent_id = Rhap_D2011-102
@@ -1810,7 +1810,7 @@
 6	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	7	det	_	AlignBegin=270494|AlignEnd=270844|HasSpokenGender=OnlySingExceptWithLiaison|LiaisonAfter=Yes
 7	odeurs	odeur	NOUN	_	Gender=Fem|Number=Plur	4	obj	_	AlignBegin=270844|AlignEnd=271304|Exponence[Gender]=Inherent|Exponence[Number]=Absent|LiaisonPossibleBefore=Yes|SpaceAfter=No
 8	,	,	PUNCT	_	_	9	punct	_	AlignBegin=271304|AlignEnd=271304
-9	euh	euh	INTJ	_	_	7	discourse	_	AlignBegin=271304|AlignEnd=271634|SpaceAfter=No
+9	euh	euh	INTJ	_	_	7	discourse:filler	_	AlignBegin=271304|AlignEnd=271634|SpaceAfter=No
 10	,	,	PUNCT	_	_	13	punct	_	AlignBegin=271634|AlignEnd=271634
 11	toutes	tout	ADJ	_	Gender=Fem|Number=Plur	13	amod	_	AlignBegin=271634|AlignEnd=271844|Exponence[Number]=Absent|HasSpokenGender=YesExceptSingWithLiaison|HasSpokenNumber=OnlyWithLiaison
 12	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	13	det	_	AlignBegin=271844|AlignEnd=272004|HasSpokenGender=OnlySingExceptWithLiaison|LiaisonAfter=Yes
@@ -1838,7 +1838,7 @@
 5	ça	ça	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	6	nsubj	_	AlignBegin=274056|AlignEnd=274266|Exponence[Gender]=Inherent|Exponence[Number]=Inherent|Exponence[Person]=Inherent
 6	apporte	apporter	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	AlignBegin=274266|AlignEnd=274706|Exponence[Number]=Absent|Exponence[Person]=Absent
 7	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	8	det	_	AlignBegin=274706|AlignEnd=274876|LiaisonAfter=Yes
-8	odeur	odeur	NOUN	_	Gender=Fem|Number=Sing	6	obj	_	AlignBegin=274876|AlignEnd=275126|Exponence[Gender]=Inherent|Exponence[Number]=Absent|LiaisonPossibleBefore=Yes
+8	odeur	odeur	NOUN	_	Gender=Fem|Number=Sing	6	obj	_	AlignBegin=274876|AlignEnd=275126|cdet=No|Exponence[Gender]=Inherent|Exponence[Number]=Absent|LiaisonPossibleBefore=Yes
 9	de	de	ADP	_	_	10	case	_	AlignBegin=275126|AlignEnd=275226
 10	fraîcheur	fraîcheur	NOUN	_	Gender=Fem|Number=Sing	8	nmod	_	AlignBegin=275226|AlignEnd=275782|Exponence[Gender]=Inherent|Exponence[Number]=Absent|SpaceAfter=No
 11	.	.	PUNCT	_	_	6	punct	_	AlignBegin=275782|AlignEnd=275782
@@ -1889,7 +1889,7 @@
 # speaker_id = §LF22
 # macrosyntax = $L5 tout à fait //
 # text = tout à fait.
-1	tout	tout	ADV	_	_	0	root	_	AlignBegin=278867|AlignEnd=279487|Overlap=Rhap_D2011-105
+1	tout	tout	ADV	_	_	0	root	_	AlignBegin=278867|AlignEnd=279487|Answer=Rhap_D2011-105::1|Overlap=Rhap_D2011-105
 2	à	à	ADP	_	_	3	case	_	AlignBegin=278867|AlignEnd=279487|Overlap=Rhap_D2011-105
 3	fait	fait	NOUN	_	Gender=Masc|Number=Sing	1	obl:arg	_	AlignBegin=278867|AlignEnd=279487|Exponence[Gender]=Inherent|Exponence[Number]=Absent|Overlap=Rhap_D2011-105|SpaceAfter=No
 4	.	.	PUNCT	_	_	1	punct	_	AlignBegin=279487|AlignEnd=279487|Overlap=Rhap_D2011-90
@@ -1950,10 +1950,10 @@
 # speaker_id = §LF22
 # macrosyntax = {| pas du tout } //
 # text = pas du tout.
-1	pas	pas	ADV	_	Polarity=Neg	0	root	_	AlignBegin=283474|AlignEnd=283647
+1	pas	pas	ADV	_	Polarity=Neg	0	root	_	AlignBegin=283474|AlignEnd=283647|Answer=Rhap_D2011-110::4
 2-3	du	_	_	_	_	_	_	_	_
 2	de	de	ADP	_	_	4	case	_	AlignBegin=283647|AlignEnd=283797
-3	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	AlignBegin=283647|AlignEnd=283797
+3	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
 4	tout	tout	NOUN	_	Gender=Masc|Number=Sing	1	obl:mod	_	AlignBegin=283797|AlignEnd=284110|Exponence[Gender]=Inherent|Exponence[Number]=Absent|SpaceAfter=No
 5	.	.	PUNCT	_	_	1	punct	_	AlignBegin=284110|AlignEnd=284110
 
@@ -2024,20 +2024,20 @@
 # speaker_id = §LF21
 # macrosyntax = ^puisque quand on sait { la quantité | "euh" le nombre { de kilos | de litres } } ( effectivement ) de produits de nettoyage qui sont déversés partout "euh" dans le monde par an < "eh bien" là < vous allez vraiment faire un joli geste //
 # text = puisque quand on sait, euh, la quantité, euh, le nombre de kilos, de litres, effectivement, de produits de nettoyage qui sont déversés partout, euh, dans le monde par an, eh bien, là, vous allez vraiment faire un joli geste.
-1	puisque	puisque	SCONJ	_	_	46	mark	_	AlignBegin=291118|AlignEnd=291398
+1	puisque	puisque	SCONJ	_	_	46	mark	_	AlignBegin=291118|AlignEnd=291398|Automated=Yes|Coconstruct=mod::Rhap_D2011-115::1|SingleSpeaker=Yes
 2	quand	quand	SCONJ	_	_	4	mark	_	AlignBegin=291398|AlignEnd=291588
 3	on	on	PRON	_	Case=Nom|Emph=No|Gender=Masc|Number=Sing|Person=3|PronType=Ind	4	nsubj	_	AlignBegin=291588|AlignEnd=291678|Exponence[Gender]=Absent|Exponence[Number]=Inherent|Exponence[Person]=Inherent
 4	sait	savoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	46	advcl	_	AlignBegin=291678|AlignEnd=292048|Exponence[Person]=Absent|SpaceAfter=No
 5	,	,	PUNCT	_	_	6	punct	_	AlignBegin=292048|AlignEnd=292048
-6	euh	euh	INTJ	_	_	4	discourse	_	AlignBegin=292048|AlignEnd=292339|SpaceAfter=No
-7	,	,	PUNCT	_	_	14	punct	_	AlignBegin=292339|AlignEnd=292339
+6	euh	euh	INTJ	_	_	4	discourse:filler	_	AlignBegin=292048|AlignEnd=292339|SpaceAfter=No
+7	,	,	PUNCT	_	_	9	punct	_	AlignBegin=292339|AlignEnd=292339
 8	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	9	det	_	AlignBegin=292339|AlignEnd=292554|HasSpokenGender=OnlySingExceptWithLiaison
-9	quantité	quantité	NOUN	_	Gender=Fem|Number=Sing	14	reparandum	_	AlignBegin=292554|AlignEnd=293402|Exponence[Gender]=Inherent|Exponence[Number]=Absent|SpaceAfter=No
+9	quantité	quantité	NOUN	_	Gender=Fem|Number=Sing	4	obj	_	AlignBegin=292554|AlignEnd=293402|Exponence[Gender]=Inherent|Exponence[Number]=Absent|SpaceAfter=No
 10	,	,	PUNCT	_	_	11	punct	_	AlignBegin=293402|AlignEnd=293639
-11	euh	euh	INTJ	_	_	9	discourse	_	AlignBegin=293639|AlignEnd=293764|SpaceAfter=No
-12	,	,	PUNCT	_	_	9	punct	_	AlignBegin=293764|AlignEnd=293764
+11	euh	euh	INTJ	_	_	9	discourse:filler	_	AlignBegin=293639|AlignEnd=293764|SpaceAfter=No
+12	,	,	PUNCT	_	_	14	punct	_	AlignBegin=293764|AlignEnd=293764
 13	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	14	det	_	AlignBegin=293764|AlignEnd=293824|HasSpokenGender=OnlySingExceptWithLiaison
-14	nombre	nombre	NOUN	_	Gender=Masc|Number=Sing	4	obj	_	AlignBegin=293824|AlignEnd=294124|Exponence[Gender]=Inherent|Exponence[Number]=Absent
+14	nombre	nombre	NOUN	_	Gender=Masc|Number=Sing	9	conj:reform	_	AlignBegin=293824|AlignEnd=294124|cdet=No|Exponence[Gender]=Inherent|Exponence[Number]=Absent
 15	de	de	ADP	_	_	16	case	_	AlignBegin=294124|AlignEnd=294254
 16	kilos	kilo	NOUN	_	Gender=Masc|Number=Plur	19	reparandum	_	AlignBegin=294254|AlignEnd=294674|Exponence[Gender]=Inherent|Exponence[Number]=Absent|SpaceAfter=No
 17	,	,	PUNCT	_	_	16	punct	_	AlignBegin=294674|AlignEnd=294674
@@ -2047,7 +2047,7 @@
 21	effectivement	effectivement	ADV	_	_	19	discourse	_	AlignBegin=295509|AlignEnd=296054|SpaceAfter=No
 22	,	,	PUNCT	_	_	24	punct	_	AlignBegin=296054|AlignEnd=296054
 23	de	de	ADP	_	_	24	case	_	AlignBegin=296054|AlignEnd=296284
-24	produits	produit	NOUN	_	Gender=Masc|Number=Plur	19	nmod	_	AlignBegin=296284|AlignEnd=296514|Exponence[Gender]=Inherent|Exponence[Number]=Absent
+24	produits	produit	NOUN	_	Gender=Masc|Number=Plur	19	nmod	_	AlignBegin=296284|AlignEnd=296514|cdet=No|Exponence[Gender]=Inherent|Exponence[Number]=Absent
 25	de	de	ADP	_	_	26	case	_	AlignBegin=296514|AlignEnd=296544
 26	nettoyage	nettoyage	NOUN	_	Gender=Masc|Number=Sing	24	nmod	_	AlignBegin=296544|AlignEnd=297074|Exponence[Gender]=Inherent|Exponence[Number]=Absent
 27	qui	qui	PRON	_	PronType=Rel	29	nsubj:pass	_	AlignBegin=297074|AlignEnd=297154
@@ -2055,7 +2055,7 @@
 29	déversés	déverser	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Pass	19	acl:relcl	_	AlignBegin=297394|AlignEnd=297884|Exponence[Gender]=Absent|Exponence[Number]=Absent|PastPartHasSpokenGender=NotInThisDialect|Tense[denom]=Past
 30	partout	partout	ADV	_	_	29	obl:arg	_	AlignBegin=297884|AlignEnd=298351|SpaceAfter=No
 31	,	,	PUNCT	_	_	32	punct	_	AlignBegin=298351|AlignEnd=298606
-32	euh	euh	INTJ	_	_	30	discourse	_	AlignBegin=298606|AlignEnd=298692|SpaceAfter=No
+32	euh	euh	INTJ	_	_	30	discourse:filler	_	AlignBegin=298606|AlignEnd=298692|SpaceAfter=No
 33	,	,	PUNCT	_	_	36	punct	_	AlignBegin=298692|AlignEnd=298692
 34	dans	dans	ADP	_	_	36	case	_	AlignBegin=298692|AlignEnd=298891
 35	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	36	det	_	AlignBegin=298891|AlignEnd=298921|HasSpokenGender=OnlySingExceptWithLiaison

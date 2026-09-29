@@ -117,7 +117,7 @@
 # speaker_id = §LM5
 # macrosyntax = $L1 { ouais | ouais } //
 # text = ouais, ouais.
-1	ouais	ouais	INTJ	_	_	0	root	_	AlignBegin=15031|AlignEnd=17079|Backchannel=Rhap_D0009-7::2|Overlap=Rhap_D0009-7|SpaceAfter=No
+1	ouais	ouais	INTJ	_	_	0	root	_	AlignBegin=15031|AlignEnd=17079|Answer=Rhap_D0009-7::2|Overlap=Rhap_D0009-7|SpaceAfter=No
 2	,	,	PUNCT	_	_	3	punct	_	AlignBegin=17079|AlignEnd=15031|Overlap=Rhap_D0009-7
 3	ouais	ouais	INTJ	_	_	1	conj	_	AlignBegin=15031|AlignEnd=17079|Overlap=Rhap_D0009-7|SpaceAfter=No
 4	.	.	PUNCT	_	_	1	punct	_	AlignBegin=17079|AlignEnd=17079|Overlap=Rhap_D0009-7
@@ -128,7 +128,7 @@
 # speaker_id = §LM5
 # macrosyntax = { ouais | ouais } //
 # text = ouais, ouais.
-1	ouais	ouais	INTJ	_	_	0	root	_	AlignBegin=15031|AlignEnd=17079|Backchannel=Rhap_D0009-7::2|Overlap=Rhap_D0009-7|SpaceAfter=No
+1	ouais	ouais	INTJ	_	_	0	root	_	AlignBegin=15031|AlignEnd=17079|Answer=Rhap_D0009-7::2|Overlap=Rhap_D0009-7|SpaceAfter=No
 2	,	,	PUNCT	_	_	3	punct	_	AlignBegin=17079|AlignEnd=15031|Overlap=Rhap_D0009-7
 3	ouais	ouais	INTJ	_	_	1	conj	_	AlignBegin=15031|AlignEnd=17079|Overlap=Rhap_D0009-7|SpaceAfter=No
 4	.	.	PUNCT	_	_	1	punct	_	AlignBegin=17079|AlignEnd=17079|Overlap=Rhap_D0009-7
@@ -266,7 +266,7 @@
 2	faut	falloir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	AlignBegin=26764|AlignEnd=26964|Exponence[Person]=Absent
 3	compter	compter	VERB	_	VerbForm=Inf	2	ccomp	_	AlignBegin=26964|AlignEnd=27694|SpaceAfter=No|Subject=NoRaising
 4	,	,	PUNCT	_	_	5	punct	_	AlignBegin=27694|AlignEnd=27694
-5	euh	euh	INTJ	_	_	3	discourse	_	AlignBegin=27694|AlignEnd=28934|SpaceAfter=No
+5	euh	euh	INTJ	_	_	3	discourse:filler	_	AlignBegin=27694|AlignEnd=28934|SpaceAfter=No
 6	,	,	PUNCT	_	_	7	punct	_	AlignBegin=28934|AlignEnd=28934
 7	pff	pff	INTJ	_	_	3	discourse	_	AlignBegin=28934|AlignEnd=29094|SpaceAfter=No
 8	,	,	PUNCT	_	_	10	punct	_	AlignBegin=29094|AlignEnd=29094
@@ -288,7 +288,7 @@
 # speaker_id = §LF11
 # macrosyntax = $L2 "ah" "oui" //+
 # text = ah, oui.
-1	ah	ah	INTJ	_	_	0	root	_	AlignBegin=32289|AlignEnd=32504|Backchannel=Rhap_D0009-18::18|SpaceAfter=No
+1	ah	ah	INTJ	_	_	0	root	_	AlignBegin=32289|AlignEnd=32504|Backchannel=Rhap_D0009-18::2|SpaceAfter=No
 2	,	,	PUNCT	_	_	3	punct	_	AlignBegin=32504|AlignEnd=32504
 3	oui	oui	INTJ	_	_	1	discourse	_	AlignBegin=32504|AlignEnd=32774|SpaceAfter=No
 4	.	.	PUNCT	_	_	1	punct	_	AlignBegin=32774|AlignEnd=32774
@@ -306,10 +306,10 @@
 5	plus	plus	ADV	_	_	4	obj	_	AlignBegin=33284|AlignEnd=33514
 6	que	que	SCONJ	_	_	7	case	_	AlignBegin=33514|AlignEnd=33665
 7	ça	ça	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	5	obj	_	AlignBegin=33665|AlignEnd=33998|Exponence[Gender]=Inherent|Exponence[Number]=Inherent|Exponence[Person]=Inherent|Overlap=Rhap_D0009-21|SpaceAfter=No
-8	,	,	PUNCT	_	_	11	punct	_	AlignBegin=33998|AlignEnd=33998
-9	quarante	quarante	NUM	_	Number=Plur	11	reparandum	_	AlignBegin=33998|AlignEnd=34330|Exponence[Number]=Inherent|SpaceAfter=No
-10	,	,	PUNCT	_	_	9	punct	_	AlignBegin=34330|AlignEnd=34330
-11	quarante-cinq	quarante-cinq	NUM	_	Number=Plur	5	appos	_	AlignBegin=34330|AlignEnd=35084|Exponence[Number]=Inherent|Overlap=Rhap_D0009-22|SpaceAfter=No
+8	,	,	PUNCT	_	_	9	punct	_	AlignBegin=33998|AlignEnd=33998
+9	quarante	quarante	NUM	_	Number=Plur	5	appos	_	AlignBegin=33998|AlignEnd=34330|Exponence[Number]=Inherent|SpaceAfter=No
+10	,	,	PUNCT	_	_	11	punct	_	AlignBegin=34330|AlignEnd=34330
+11	quarante-cinq	quarante-cinq	NUM	_	Number=Plur	9	conj:reform	_	AlignBegin=34330|AlignEnd=35084|Exponence[Number]=Inherent|Overlap=Rhap_D0009-22|SpaceAfter=No
 12	.	.	PUNCT	_	_	4	punct	_	AlignBegin=35084|AlignEnd=35084|Overlap=Rhap_D0009-20
 
 # sent_id = Rhap_D0009-21
@@ -318,7 +318,7 @@
 # speaker_id = §LM5
 # macrosyntax = ( "ah" je pensais plus que $- ça // ) ( $L1 "oui" // ) -$ {| { quarante $- | quarante-cinq } } //
 # text = oui.
-1	oui	oui	INTJ	_	_	0	root	_	AlignBegin=33665|AlignEnd=33998|Backchannel=Rhap_D0009-20::6|Overlap=Rhap_D0009-20|SpaceAfter=No
+1	oui	oui	INTJ	_	_	0	root	_	AlignBegin=33665|AlignEnd=33998|Backchannel=Rhap_D0009-20::4|Overlap=Rhap_D0009-20|SpaceAfter=No
 2	.	.	PUNCT	_	_	1	punct	_	AlignBegin=33998|AlignEnd=33998|Overlap=Rhap_D0009-19
 
 # sent_id = Rhap_D0009-22
@@ -344,7 +344,7 @@
 # speaker_id = §LM5
 # macrosyntax = $L1 ouais //
 # text = ouais.
-1	ouais	ouais	INTJ	_	_	0	root	_	AlignBegin=36371|AlignEnd=36652|Backchannel=Rhap_D0009-22::2|SpaceAfter=No
+1	ouais	ouais	INTJ	_	_	0	root	_	AlignBegin=36371|AlignEnd=36652|Answer=Rhap_D0009-22::2|SpaceAfter=No
 2	.	.	PUNCT	_	_	1	punct	_	AlignBegin=36652|AlignEnd=36652
 
 # sent_id = Rhap_D0009-24
@@ -362,7 +362,7 @@
 # speaker_id = §LM5
 # macrosyntax = $L1 ouais //
 # text = ouais.
-1	ouais	ouais	INTJ	_	_	0	root	_	AlignBegin=37730|AlignEnd=37995|Backchannel=Rhap_D0009-24::1|SpaceAfter=No
+1	ouais	ouais	INTJ	_	_	0	root	_	AlignBegin=37730|AlignEnd=37995|Answer=Rhap_D0009-24::1|SpaceAfter=No
 2	.	.	PUNCT	_	_	1	punct	_	AlignBegin=37995|AlignEnd=37995
 
 # sent_id = Rhap_D0009-26
@@ -389,7 +389,7 @@
 # speaker_id = §LM5
 # macrosyntax = $L1 ouais //
 # text = ouais.
-1	ouais	ouais	INTJ	_	_	0	root	_	AlignBegin=39040|AlignEnd=39771|Backchannel=Rhap_D0009-24::1|Overlap=Rhap_D0009-26|SpaceAfter=No
+1	ouais	ouais	INTJ	_	_	0	root	_	AlignBegin=39040|AlignEnd=39771|Answer=Rhap_D0009-26::7|Overlap=Rhap_D0009-26|SpaceAfter=No
 2	.	.	PUNCT	_	_	1	punct	_	AlignBegin=39771|AlignEnd=39771|Overlap=Rhap_D0009-21
 
 # sent_id = Rhap_D0009-28
@@ -402,13 +402,13 @@
 2	faut	falloir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	reparandum	_	AlignBegin=39040|AlignEnd=39771|Exponence[Person]=Absent|Overlap=Rhap_D0009-26|SpaceAfter=No
 3	,	,	PUNCT	_	_	2	punct	_	AlignBegin=39771|AlignEnd=39885
 4	faut	falloir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	AlignBegin=39885|AlignEnd=40135|Exponence[Person]=Absent
-5	compter	compter	VERB	_	VerbForm=Inf	2	ccomp	_	AlignBegin=40135|AlignEnd=40377|Subject=NoRaising
+5	compter	compter	VERB	_	VerbForm=Inf	4	ccomp	_	AlignBegin=40135|AlignEnd=40377|Subject=NoRaising
 6	autour	autour	ADV	_	_	5	obj	_	AlignBegin=40377|AlignEnd=40715
 7	de	de	ADP	_	_	8	case	_	AlignBegin=40715|AlignEnd=41033
 8	soixante	soixante	NUM	_	Number=Sing	6	obl:arg	_	AlignBegin=41033|AlignEnd=41383|Exponence[Number]=Inherent|SpaceAfter=No
 9	,	,	PUNCT	_	_	10	punct	_	AlignBegin=41383|AlignEnd=41383
 10	soixante-dix	soixante-dix	NUM	_	Number=Sing	8	conj	_	AlignBegin=41383|AlignEnd=41918|Exponence[Number]=Inherent|SpaceAfter=No
-11	.	.	PUNCT	_	_	5	punct	_	AlignBegin=41918|AlignEnd=41918
+11	.	.	PUNCT	_	_	4	punct	_	AlignBegin=41918|AlignEnd=41918
 
 # sent_id = Rhap_D0009-29
 # prosodic_annotation = yes
@@ -418,7 +418,7 @@
 # text = ah, oui.
 1	ah	ah	INTJ	_	_	3	discourse	_	AlignBegin=42277|AlignEnd=42427|SpaceAfter=No
 2	,	,	PUNCT	_	_	1	punct	_	AlignBegin=42427|AlignEnd=42427
-3	oui	oui	INTJ	_	_	0	root	_	AlignBegin=42427|AlignEnd=42642|SpaceAfter=No
+3	oui	oui	INTJ	_	_	0	root	_	AlignBegin=42427|AlignEnd=42642|Backchannel=Rhap_D0009-28::2|SpaceAfter=No
 4	.	.	PUNCT	_	_	3	punct	_	AlignBegin=42642|AlignEnd=42642
 
 # sent_id = Rhap_D0009-30
@@ -493,12 +493,12 @@
 # macrosyntax = $L1 {| { quinze jours | -$ quinze jours $- maximum } } //
 # text = quinze jours, quinze jours maximum.
 1	quinze	quinze	NUM	_	Number=Plur	2	nummod	_	AlignBegin=48537|AlignEnd=49026|Exponence[Number]=Inherent|Overlap=Rhap_D0009-34
-2	jours	jour	NOUN	_	Gender=Masc|Number=Plur	5	reparandum	_	AlignBegin=48537|AlignEnd=49026|Exponence[Gender]=Inherent|Exponence[Number]=Absent|Overlap=Rhap_D0009-34|SpaceAfter=No
+2	jours	jour	NOUN	_	Gender=Masc|Number=Plur	0	root	_	AlignBegin=48537|AlignEnd=49026|Exponence[Gender]=Inherent|Exponence[Number]=Absent|Overlap=Rhap_D0009-34|SpaceAfter=No
 3	,	,	PUNCT	_	_	4	punct	_	AlignBegin=49026|AlignEnd=49026
 4	quinze	quinze	NUM	_	Number=Plur	5	nummod	_	AlignBegin=49026|AlignEnd=49196|Exponence[Number]=Inherent
-5	jours	jour	NOUN	_	Gender=Masc|Number=Plur	0	root	_	AlignBegin=49196|AlignEnd=49411|Exponence[Gender]=Inherent|Exponence[Number]=Absent
+5	jours	jour	NOUN	_	Gender=Masc|Number=Plur	2	conj:reform	_	AlignBegin=49196|AlignEnd=49411|Exponence[Gender]=Inherent|Exponence[Number]=Absent
 6	maximum	maximum	NOUN	_	Gender=Masc|Number=Sing	5	nmod	_	AlignBegin=49411|AlignEnd=49734|Exponence[Gender]=Inherent|Exponence[Number]=Absent|Overlap=Rhap_D0009-36|SpaceAfter=No
-7	.	.	PUNCT	_	_	5	punct	_	AlignBegin=50072|AlignEnd=50072|Overlap=Rhap_D0009-28
+7	.	.	PUNCT	_	_	2	punct	_	AlignBegin=50072|AlignEnd=50072|Overlap=Rhap_D0009-28
 
 # sent_id = Rhap_D0009-36
 # prosodic_annotation = yes
@@ -541,7 +541,7 @@
 # speaker_id = §LM5
 # macrosyntax = $L1 ouais // -$
 # text = ouais.
-1	ouais	ouais	INTJ	_	_	0	root	_	AlignBegin=52845|AlignEnd=53379|Backchannel=Rhap_D0009-36::2|Overlap=Rhap_D0009-37|SpaceAfter=No
+1	ouais	ouais	INTJ	_	_	0	root	_	AlignBegin=52845|AlignEnd=53379|Answer=Rhap_D0009-36::2|Overlap=Rhap_D0009-37|SpaceAfter=No
 2	.	.	PUNCT	_	_	1	punct	_	AlignBegin=53379|AlignEnd=53379|Overlap=Rhap_D0009-29
 
 # sent_id = Rhap_D0009-39
@@ -562,27 +562,27 @@
 # speaker_id = §LF11
 # macrosyntax = ^parce ^que dessus <+ il y avait { des ESPERLUETTE | [ c'est pas des coussins // c'était { des | des } carrés de laine tissés { qu'on avait eus en Tunisie | ^et qui avaient été mis $- dessus } // ] } //
 # text = parce que dessus, il y avait des, c'est pas des coussins, c'était des, des carrés de laine tissés qu'on avait eus en Tunisie et qui avaient été mis dessus.
-1	parce	parce	ADV	_	ExtPos=SCONJ	17	case	_	AlignBegin=55219|AlignEnd=55534|Idiom=Yes
+1	parce	parce	ADV	_	ExtPos=SCONJ	11	case	_	AlignBegin=55219|AlignEnd=55534|Automated=Yes|Coconstruct=mod::Rhap_D0009-39::2|Idiom=Yes|SingleSpeaker=Yes
 2	que	que	SCONJ	_	_	1	fixed	_	AlignBegin=55534|AlignEnd=56477|InIdiom=Yes
 3	dessus	dessus	ADV	_	_	7	advmod	_	AlignBegin=56477|AlignEnd=57239|SpaceAfter=No
 4	,	,	PUNCT	_	_	3	punct	_	AlignBegin=57239|AlignEnd=57239
 5	il	lui	PRON	_	Case=Nom|Emph=No|Gender=Masc|Number=Sing|Person=3|PronType=Prs	7	expl:subj	_	AlignBegin=57239|AlignEnd=57296|Exponence[Person]=Inherent
 6	y	y	PRON	_	Person=3|PronType=Prs	7	expl:comp	_	AlignBegin=57296|AlignEnd=57334|Exponence[Person]=Inherent
-7	avait	avoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	17	reparandum	_	AlignBegin=57334|AlignEnd=57964|Exponence[Number]=Absent|Exponence[Person]=Absent
+7	avait	avoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	11	reparandum	_	AlignBegin=57334|AlignEnd=57964|Exponence[Number]=Absent|Exponence[Person]=Absent
 8	des	un	DET	_	Definite=Ind|Number=Plur|PronType=Art	7	obj	_	AlignBegin=57964|AlignEnd=58814|Scrap=Yes|SpaceAfter=No
 9	,	,	PUNCT	_	_	7	punct	_	AlignBegin=58814|AlignEnd=59332
 10	c'	ce	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	11	nsubj	_	AlignBegin=59332|AlignEnd=59417|Exponence[Gender]=Inherent|Exponence[Number]=Inherent|Exponence[Person]=Inherent|SpaceAfter=No
-11	est	être	AUX	_	ExtPos=NOUN|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	17	reparandum	_	AlignBegin=59417|AlignEnd=59577|Graft=Yes
+11	est	être	AUX	_	ExtPos=NOUN|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	AlignBegin=59417|AlignEnd=59577|Graft=Yes
 12	pas	pas	ADV	_	Polarity=Neg	11	advmod	_	AlignBegin=59577|AlignEnd=59707
 13	des	un	DET	_	Definite=Ind|Number=Plur|PronType=Art	14	det	_	AlignBegin=59707|AlignEnd=59877
 14	coussins	coussin	NOUN	_	Gender=Masc|Number=Plur	11	xcomp	_	AlignBegin=59877|AlignEnd=60397|Exponence[Gender]=Inherent|Exponence[Number]=Absent|SpaceAfter=No
-15	,	,	PUNCT	_	_	11	punct	_	AlignBegin=60397|AlignEnd=60397
+15	,	,	PUNCT	_	_	17	punct	_	AlignBegin=60397|AlignEnd=60397
 16	c'	ce	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	17	nsubj	_	AlignBegin=60397|AlignEnd=60447|Exponence[Gender]=Inherent|Exponence[Number]=Inherent|Exponence[Person]=Inherent|SpaceAfter=No
-17	était	être	AUX	_	ExtPos=NOUN|Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	AlignBegin=60447|AlignEnd=61361
+17	était	être	AUX	_	ExtPos=NOUN|Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	11	conj:reform	_	AlignBegin=60447|AlignEnd=61361
 18	des	un	DET	_	Definite=Ind|Number=Plur|PronType=Art	20	reparandum	_	AlignBegin=61361|AlignEnd=62034|SpaceAfter=No
 19	,	,	PUNCT	_	_	18	punct	_	AlignBegin=62034|AlignEnd=62034
 20	des	un	DET	_	Definite=Ind|Number=Plur|PronType=Art	21	det	_	AlignBegin=62034|AlignEnd=62214
-21	carrés	carré	NOUN	_	Gender=Masc|Number=Plur	17	xcomp	_	AlignBegin=62214|AlignEnd=62644|Exponence[Gender]=Inherent|Exponence[Number]=Absent
+21	carrés	carré	NOUN	_	Gender=Masc|Number=Plur	17	xcomp	_	AlignBegin=62214|AlignEnd=62644|cdet=No|Exponence[Gender]=Inherent|Exponence[Number]=Absent
 22	de	de	ADP	_	_	23	case	_	AlignBegin=62644|AlignEnd=62779
 23	laine	laine	NOUN	_	Gender=Fem|Number=Sing	21	nmod	_	AlignBegin=62779|AlignEnd=63387|Exponence[Gender]=Inherent|Exponence[Number]=Absent
 24	tissés	tisser	VERB	_	Gender=Masc|Number=Plur|VerbForm=Part	21	acl	_	AlignBegin=64141|AlignEnd=64826|Exponence[Gender]=Absent|Exponence[Number]=Absent|PastPartHasSpokenGender=NotInThisDialect|Tense[denom]=Past
@@ -598,7 +598,7 @@
 34	été	être	AUX	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	35	aux:pass	_	AlignBegin=66515|AlignEnd=66702|Tense[denom]=Past
 35	mis	mettre	VERB	_	Gender=Masc|VerbForm=Part|Voice=Pass	28	conj	_	AlignBegin=66702|AlignEnd=66840|PastPartHasSpokenGender=Yes|Tense[denom]=Past
 36	dessus	dessus	ADV	_	_	35	obj	_	AlignBegin=66840|AlignEnd=67244|Overlap=Rhap_D0009-41|SpaceAfter=No
-37	.	.	PUNCT	_	_	17	punct	_	AlignBegin=67244|AlignEnd=67244|Overlap=Rhap_D0009-32
+37	.	.	PUNCT	_	_	11	punct	_	AlignBegin=67244|AlignEnd=67244|Overlap=Rhap_D0009-32
 
 # sent_id = Rhap_D0009-41
 # prosodic_annotation = yes
@@ -717,7 +717,7 @@
 # text = oh, non.
 1	oh	oh	INTJ	_	_	3	discourse	_	AlignBegin=77061|AlignEnd=77156|SpaceAfter=No
 2	,	,	PUNCT	_	_	1	punct	_	AlignBegin=77156|AlignEnd=77156
-3	non	non	ADV	_	Polarity=Neg	0	root	_	AlignBegin=77156|AlignEnd=77426|Backchannel=Rhap_D0009-47::22|SpaceAfter=No
+3	non	non	ADV	_	Polarity=Neg	0	root	_	AlignBegin=77156|AlignEnd=77426|Answer=Rhap_D0009-47::8|SpaceAfter=No
 4	.	.	PUNCT	_	_	3	punct	_	AlignBegin=77426|AlignEnd=77426
 
 # sent_id = Rhap_D0009-49
@@ -726,7 +726,7 @@
 # speaker_id = §LM5
 # macrosyntax = { non | non } //
 # text = non, non.
-1	non	non	ADV	_	Polarity=Neg	0	root	_	AlignBegin=77426|AlignEnd=77536|Backchannel=Rhap_D0009-47::22|SpaceAfter=No
+1	non	non	ADV	_	Polarity=Neg	0	root	_	AlignBegin=77426|AlignEnd=77536|Answer=Rhap_D0009-47::8|SpaceAfter=No
 2	,	,	PUNCT	_	_	3	punct	_	AlignBegin=77536|AlignEnd=77536
 3	non	non	ADV	_	Polarity=Neg	1	conj	_	AlignBegin=77536|AlignEnd=77636|SpaceAfter=No
 4	.	.	PUNCT	_	_	1	punct	_	AlignBegin=77636|AlignEnd=77636
@@ -743,13 +743,13 @@
 4	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	6	reparandum	_	AlignBegin=78026|AlignEnd=78546|HasSpokenGender=OnlySingExceptWithLiaison|SpaceAfter=No
 5	,	,	PUNCT	_	_	4	punct	_	AlignBegin=78546|AlignEnd=78546
 6	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	7	det	_	AlignBegin=78546|AlignEnd=78696|HasSpokenGender=OnlySingExceptWithLiaison|LiaisonAfter=Yes
-7	impacts	impact	NOUN	_	Gender=Masc|Number=Plur	0	root	_	AlignBegin=78696|AlignEnd=79015|Exponence[Gender]=Inherent|Exponence[Number]=Absent|LiaisonPossibleBefore=Yes
+7	impacts	impact	NOUN	_	Gender=Masc|Number=Plur	0	root	_	AlignBegin=78696|AlignEnd=79015|cdet=No|Exponence[Gender]=Inherent|Exponence[Number]=Absent|LiaisonPossibleBefore=Yes
 8-9	des	_	_	_	_	_	_	_	_
 8	de	de	ADP	_	_	10	case	_	AlignBegin=79015|AlignEnd=79176
-9	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	10	det	_	AlignBegin=79015|AlignEnd=79176
+9	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	10	det	_	_
 10	coussins	coussin	NOUN	_	Gender=Masc|Number=Plur	7	nmod	_	AlignBegin=79176|AlignEnd=79436|Exponence[Gender]=Inherent|Exponence[Number]=Absent
 11	qui	qui	PRON	_	PronType=Rel	12	nsubj	_	AlignBegin=79436|AlignEnd=79496
-12	ont	avoir	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	16	reparandum	_	AlignBegin=79496|AlignEnd=79716|SpaceAfter=No
+12	ont	avoir	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	16	reparandum	_	AlignBegin=79496|AlignEnd=79716|SpaceAfter=No
 13	,	,	PUNCT	_	_	12	punct	_	AlignBegin=79716|AlignEnd=79716
 14	qui	qui	PRON	_	PronType=Rel	16	nsubj	_	AlignBegin=79716|AlignEnd=79896
 15	ont	avoir	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	16	aux:tense	_	AlignBegin=79896|AlignEnd=80066
@@ -881,7 +881,7 @@
 # speaker_id = §LM5
 # macrosyntax = $L2 oui //
 # text = oui.
-1	oui	oui	INTJ	_	_	0	root	_	AlignBegin=92261|AlignEnd=92389|Backchannel=Rhap_D0009-56::26|SpaceAfter=No
+1	oui	oui	INTJ	_	_	0	root	_	AlignBegin=92261|AlignEnd=92389|Backchannel=Rhap_D0009-56::5|SpaceAfter=No
 2	.	.	PUNCT	_	_	1	punct	_	AlignBegin=92389|AlignEnd=92389
 
 # sent_id = Rhap_D0009-58
@@ -949,7 +949,7 @@
 # text = mh, ouais, ouais.
 1	mh	mh	INTJ	_	_	3	discourse	_	AlignBegin=96402|AlignEnd=97199|Overlap=Rhap_D0009-60|SpaceAfter=No
 2	,	,	PUNCT	_	_	1	punct	_	AlignBegin=97199|AlignEnd=97199
-3	ouais	ouais	INTJ	_	_	0	root	_	AlignBegin=97199|AlignEnd=97354|Backchannel=Rhap_D0009-60::17|SpaceAfter=No
+3	ouais	ouais	INTJ	_	_	0	root	_	AlignBegin=97199|AlignEnd=97354|Answer=Rhap_D0009-60::10|SpaceAfter=No
 4	,	,	PUNCT	_	_	5	punct	_	AlignBegin=97354|AlignEnd=97354
 5	ouais	ouais	INTJ	_	_	3	conj	_	AlignBegin=97354|AlignEnd=97634|SpaceAfter=No
 6	.	.	PUNCT	_	_	3	punct	_	AlignBegin=97634|AlignEnd=97634
@@ -970,7 +970,7 @@
 # speaker_id = §LM5
 # macrosyntax = $L1 { ouais | ouais } //
 # text = ouais, ouais.
-1	ouais	ouais	INTJ	_	_	0	root	_	AlignBegin=99275|AlignEnd=99425|Backchannel=Rhap_D0009-60::17|SpaceAfter=No
+1	ouais	ouais	INTJ	_	_	0	root	_	AlignBegin=99275|AlignEnd=99425|Answer=Rhap_D0009-60::10|SpaceAfter=No
 2	,	,	PUNCT	_	_	3	punct	_	AlignBegin=99425|AlignEnd=99425
 3	ouais	ouais	INTJ	_	_	1	conj	_	AlignBegin=99425|AlignEnd=99547|SpaceAfter=No
 4	.	.	PUNCT	_	_	1	punct	_	AlignBegin=99547|AlignEnd=99547
@@ -1043,7 +1043,7 @@
 # speaker_id = §LM5
 # macrosyntax = ouais //
 # text = ouais.
-1	ouais	ouais	INTJ	_	_	0	root	_	AlignBegin=109222|AlignEnd=109506|Backchannel=Rhap_D0009-65::1|Overlap=Rhap_D0009-64|SpaceAfter=No
+1	ouais	ouais	INTJ	_	_	0	root	_	AlignBegin=109222|AlignEnd=109506|Answer=Rhap_D0009-65::1|Overlap=Rhap_D0009-64|SpaceAfter=No
 2	.	.	PUNCT	_	_	1	punct	_	AlignBegin=109506|AlignEnd=109506|Overlap=Rhap_D0009-51
 
 # sent_id = Rhap_D0009-68
@@ -1061,7 +1061,7 @@
 # speaker_id = §LM5
 # macrosyntax = ouais -$ //
 # text = ouais.
-1	ouais	ouais	INTJ	_	_	0	root	_	AlignBegin=106895|AlignEnd=109506|Backchannel=Rhap_D0009-65::1|Overlap=Rhap_D0009-65|SpaceAfter=No
+1	ouais	ouais	INTJ	_	_	0	root	_	AlignBegin=106895|AlignEnd=109506|Answer=Rhap_D0009-65::1|Overlap=Rhap_D0009-65|SpaceAfter=No
 2	.	.	PUNCT	_	_	1	punct	_	AlignBegin=109506|AlignEnd=109506|Overlap=Rhap_D0009-52
 
 # sent_id = Rhap_D0009-70
@@ -1070,15 +1070,15 @@
 # speaker_id = §LM5
 # macrosyntax = c'est { un fauteuil crapaud | un $- véritable } //
 # text = c'est un fauteuil crapaud, un véritable.
-1	c'	ce	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	8	nsubj	_	AlignBegin=109506|AlignEnd=109571|Exponence[Gender]=Inherent|Exponence[Number]=Inherent|Exponence[Person]=Inherent|SpaceAfter=No
-2	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	cop	_	AlignBegin=109571|AlignEnd=109661
+1	c'	ce	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	4	nsubj	_	AlignBegin=109506|AlignEnd=109571|Exponence[Gender]=Inherent|Exponence[Number]=Inherent|Exponence[Person]=Inherent|SpaceAfter=No
+2	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	AlignBegin=109571|AlignEnd=109661
 3	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	4	det	_	AlignBegin=109661|AlignEnd=109771
-4	fauteuil	fauteuil	NOUN	_	Gender=Masc|Number=Sing	8	reparandum	_	AlignBegin=109771|AlignEnd=110111|Exponence[Gender]=Inherent|Exponence[Number]=Absent
+4	fauteuil	fauteuil	NOUN	_	Gender=Masc|Number=Sing	0	root	_	AlignBegin=109771|AlignEnd=110111|Exponence[Gender]=Inherent|Exponence[Number]=Absent
 5	crapaud	crapaud	NOUN	_	Gender=Masc|Number=Sing	4	compound	_	AlignBegin=110111|AlignEnd=110381|Exponence[Gender]=Inherent|Exponence[Number]=Absent|SpaceAfter=No
-6	,	,	PUNCT	_	_	4	punct	_	AlignBegin=110381|AlignEnd=110381
+6	,	,	PUNCT	_	_	8	punct	_	AlignBegin=110381|AlignEnd=110381
 7	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	8	det	_	AlignBegin=110381|AlignEnd=110452
-8	véritable	véritable	ADJ	_	Gender=Masc|Number=Sing	0	root	_	AlignBegin=110452|AlignEnd=111282|Exponence[Gender]=Absent|Exponence[Number]=Absent|HasSpokenGender=No|HasSpokenNumber=OnlyWithLiaison|Overlap=Rhap_D0009-71|SpaceAfter=No
-9	.	.	PUNCT	_	_	8	punct	_	AlignBegin=111282|AlignEnd=111282|Overlap=Rhap_D0009-55
+8	véritable	véritable	ADJ	_	Gender=Masc|Number=Sing	4	nmod	_	AlignBegin=110452|AlignEnd=111282|Exponence[Gender]=Absent|Exponence[Number]=Absent|HasSpokenGender=No|HasSpokenNumber=OnlyWithLiaison|Overlap=Rhap_D0009-71|SpaceAfter=No
+9	.	.	PUNCT	_	_	4	punct	_	AlignBegin=111282|AlignEnd=111282|Overlap=Rhap_D0009-55
 
 # sent_id = Rhap_D0009-71
 # prosodic_annotation = yes
@@ -1103,7 +1103,7 @@
 # text = ben, parce que c'est des…
 1	ben	ben	INTJ	_	_	7	discourse	_	AlignBegin=112002|AlignEnd=112117|SpaceAfter=No
 2	,	,	PUNCT	_	_	1	punct	_	AlignBegin=112117|AlignEnd=112117
-3	parce	parce	ADV	_	ExtPos=SCONJ	7	mark	_	AlignBegin=112117|AlignEnd=112377|Idiom=Yes
+3	parce	parce	ADV	_	ExtPos=SCONJ	7	mark	_	AlignBegin=112117|AlignEnd=112377|Automated=Yes|Coconstruct=mod::Rhap_D0009-71::4|Idiom=Yes
 4	que	que	SCONJ	_	_	3	fixed	_	AlignBegin=112377|AlignEnd=112497|InIdiom=Yes
 5	c'	ce	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	7	nsubj	_	AlignBegin=112497|AlignEnd=112537|Exponence[Gender]=Inherent|Exponence[Number]=Inherent|Exponence[Person]=Inherent|SpaceAfter=No
 6	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	cop	_	AlignBegin=112537|AlignEnd=112720
@@ -1125,22 +1125,22 @@
 7	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	AlignBegin=114087|AlignEnd=114127|HasSpokenGender=OnlySingExceptWithLiaison
 8	fond	fond	NOUN	_	Gender=Masc|Number=Sing	4	obl:arg	_	AlignBegin=114127|AlignEnd=114437|Exponence[Gender]=Inherent|Exponence[Number]=Absent
 9-10	des	_	_	_	_	_	_	_	SpaceAfter=No
-9	de	de	ADP	_	_	10	case	_	AlignBegin=114437|AlignEnd=115167
+9	de	de	ADP	_	_	10	case	_	_
 10	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	18	reparandum	_	AlignBegin=114437|AlignEnd=115167|Scrap=Yes
 11	,	,	PUNCT	_	_	10	punct	_	AlignBegin=115167|AlignEnd=115167
 12-13	des	_	_	_	_	_	_	_	SpaceAfter=No
-12	de	de	ADP	_	_	13	case	_	AlignBegin=115167|AlignEnd=115477
+12	de	de	ADP	_	_	13	case	_	_
 13	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	18	reparandum	_	AlignBegin=115167|AlignEnd=115477|Scrap=Yes
 14	,	,	PUNCT	_	_	13	punct	_	AlignBegin=115477|AlignEnd=115477
 15-16	des	_	_	_	_	_	_	_	_
 15	de	de	ADP	_	_	18	case	_	AlignBegin=115477|AlignEnd=115587
-16	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	18	det	_	AlignBegin=115477|AlignEnd=115587
+16	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	18	det	_	_
 17	petits	petit	ADJ	_	Gender=Masc|Number=Plur	18	amod	_	AlignBegin=115725|AlignEnd=116855|Exponence[Number]=Absent|HasSpokenGender=YesExceptSingWithLiaison|HasSpokenNumber=OnlyWithLiaison|Overlap=Rhap_D0009-74
 18	salons	salon	NOUN	_	Gender=Masc|Number=Plur	8	nmod	_	AlignBegin=115725|AlignEnd=116855|Exponence[Gender]=Inherent|Exponence[Number]=Absent|Overlap=Rhap_D0009-74
 19	ou	ou	CCONJ	_	_	22	cc	_	AlignBegin=115725|AlignEnd=116855|Overlap=Rhap_D0009-74
 20-21	des	_	_	_	_	_	_	_	_
 20	de	de	ADP	_	_	22	case	_	AlignBegin=115725|AlignEnd=116855|Overlap=Rhap_D0009-74
-21	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	22	det	_	AlignBegin=115725|AlignEnd=116855|Overlap=Rhap_D0009-74
+21	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	22	det	_	_
 22	choses	chose	NOUN	_	Gender=Fem|Number=Plur	18	conj	_	AlignBegin=115725|AlignEnd=116855|Exponence[Gender]=Inherent|Exponence[Number]=Absent|Overlap=Rhap_D0009-74
 23	comme	comme	ADP	_	_	24	case	_	AlignBegin=116855|AlignEnd=116960|Overlap=Rhap_D0009-74
 24	ça	ça	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	22	nmod	_	AlignBegin=116960|AlignEnd=117205|Exponence[Gender]=Inherent|Exponence[Number]=Inherent|Exponence[Person]=Inherent|Overlap=Rhap_D0009-74|SpaceAfter=No
@@ -1255,19 +1255,19 @@
 5	sous	sous	ADP	_	_	6	case	_	AlignBegin=124257|AlignEnd=124427
 6	Napoléon	Napoléon	PROPN	_	_	4	obl:arg	_	AlignBegin=124427|AlignEnd=124917
 7	trois	trois	NUM	_	Number=Sing	6	nmod	_	AlignBegin=124917|AlignEnd=125267|Exponence[Number]=Inherent|SpaceAfter=No
-8	,	,	PUNCT	_	_	19	punct	_	AlignBegin=125267|AlignEnd=125267
+8	,	,	PUNCT	_	_	13	punct	_	AlignBegin=125267|AlignEnd=125267
 9	fin	fin	ADP	_	_	11	case	_	AlignBegin=125267|AlignEnd=125397
 10	dix-neuvième	dix-neuvième	ADJ	_	Gender=Masc|Number=Sing	11	amod	_	AlignBegin=125397|AlignEnd=125807|Exponence[Gender]=Absent|Exponence[Number]=Absent|HasSpokenGender=No|HasSpokenNumber=OnlyWithLiaison
-11	siècle	siècle	NOUN	_	Gender=Masc|Number=Sing	19	reparandum	_	AlignBegin=125807|AlignEnd=126087|Exponence[Gender]=Inherent|Exponence[Number]=Absent|SpaceAfter=No
+11	siècle	siècle	NOUN	_	Gender=Masc|Number=Sing	13	reparandum	_	AlignBegin=125807|AlignEnd=126087|Exponence[Gender]=Inherent|Exponence[Number]=Absent|SpaceAfter=No
 12	,	,	PUNCT	_	_	11	punct	_	AlignBegin=126087|AlignEnd=126087
-13	fin	fin	NOUN	_	Gender=Fem|Number=Sing	19	reparandum	_	AlignBegin=126087|AlignEnd=126177|Exponence[Gender]=Inherent|Exponence[Number]=Absent
+13	fin	fin	NOUN	_	Gender=Fem|Number=Sing	6	appos	_	AlignBegin=126087|AlignEnd=126177|Exponence[Gender]=Inherent|Exponence[Number]=Absent
 14-15	du	_	_	_	_	_	_	_	_
 14	de	de	ADP	_	_	17	case	_	AlignBegin=126177|AlignEnd=126257
-15	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	17	det	_	AlignBegin=126177|AlignEnd=126257
+15	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	17	det	_	_
 16	dix-neuvième	dix-neuvième	ADJ	_	Gender=Masc|Number=Sing	17	amod	_	AlignBegin=126257|AlignEnd=126647|Exponence[Gender]=Absent|Exponence[Number]=Absent|HasSpokenGender=No|HasSpokenNumber=OnlyWithLiaison
 17	siècle	siècle	NOUN	_	Gender=Masc|Number=Sing	13	nmod	_	AlignBegin=126647|AlignEnd=126884|Exponence[Gender]=Inherent|Exponence[Number]=Absent|SpaceAfter=No
-18	,	,	PUNCT	_	_	13	punct	_	AlignBegin=126884|AlignEnd=127733
-19	dix-huit	dix-huit	NUM	_	Number=Plur	6	appos	_	AlignBegin=127733|AlignEnd=129099|Exponence[Number]=Inherent
+18	,	,	PUNCT	_	_	19	punct	_	AlignBegin=126884|AlignEnd=127733
+19	dix-huit	dix-huit	NUM	_	Number=Plur	13	conj:reform	_	AlignBegin=127733|AlignEnd=129099|Exponence[Number]=Inherent
 20	cent	cent	NUM	_	Number=Plur	19	flat	_	AlignBegin=127733|AlignEnd=129099|Exponence[Number]=Inherent
 21	quatre-vingt	quatre-vingt	NUM	_	Number=Plur	19	flat	_	AlignBegin=127733|AlignEnd=129099|Exponence[Number]=Inherent|SpaceAfter=No
 22	.	.	PUNCT	_	_	4	punct	_	AlignBegin=129099|AlignEnd=129099
@@ -1362,7 +1362,7 @@
 1	c'	ce	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	4	nsubj	_	AlignBegin=134940|AlignEnd=135055|Exponence[Gender]=Inherent|Exponence[Number]=Inherent|Exponence[Person]=Inherent|SpaceAfter=No
 2	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	AlignBegin=135055|AlignEnd=135115
 3	du	du	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	4	det	_	AlignBegin=135115|AlignEnd=135195
-4	bois	bois	NOUN	_	Gender=Masc|Number=Sing	0	root	_	AlignBegin=135195|AlignEnd=135345|Exponence[Gender]=Inherent|Exponence[Number]=Absent
+4	bois	bois	NOUN	_	Gender=Masc|Number=Sing	0	root	_	AlignBegin=135195|AlignEnd=135345|cdet=No|Exponence[Gender]=Inherent|Exponence[Number]=Absent
 5	de	de	ADP	_	_	6	case	_	AlignBegin=135345|AlignEnd=135493
 6	hêtre	hêtre	NOUN	_	Gender=Masc|Number=Sing	4	nmod	_	AlignBegin=135493|AlignEnd=136175|Exponence[Gender]=Inherent|Exponence[Number]=Absent|SpaceAfter=No
 7	.	.	PUNCT	_	_	4	punct	_	AlignBegin=136175|AlignEnd=136175
@@ -1379,8 +1379,8 @@
 4	est	être	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	AlignBegin=136815|AlignEnd=136865
 5-6	du	_	_	_	_	_	_	_	_
 5	de	de	ADP	_	_	7	case	_	AlignBegin=136865|AlignEnd=136965
-6	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	AlignBegin=136865|AlignEnd=136965
-7	bois	bois	NOUN	_	Gender=Masc|Number=Sing	4	obl:arg	_	AlignBegin=136965|AlignEnd=137085|Exponence[Gender]=Inherent|Exponence[Number]=Absent
+6	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+7	bois	bois	NOUN	_	Gender=Masc|Number=Sing	4	obl:arg	_	AlignBegin=136965|AlignEnd=137085|cdet=No|Exponence[Gender]=Inherent|Exponence[Number]=Absent
 8	de	de	ADP	_	_	9	case	_	AlignBegin=137085|AlignEnd=137145
 9	hêtre	hêtre	NOUN	_	Gender=Masc|Number=Sing	7	nmod	_	AlignBegin=137145|AlignEnd=137405|Exponence[Gender]=Inherent|Exponence[Number]=Absent
 10	dessous	dessous	ADV	_	_	7	advmod	_	AlignBegin=137405|AlignEnd=137832
@@ -1438,10 +1438,10 @@
 # speaker_id = §LM5
 # macrosyntax = alors < pour le refaire <+ tu me dis qu'il faudrait que j'aille vers { Isigny |} ( $L1 "mh mh" // ) {| Ducey } //
 # text = mh, mh.
-1	mh	mh	INTJ	_	_	3	reparandum	_	AlignBegin=144231|AlignEnd=144356|Backchannel=Rhap_D0009-89::17|SpaceAfter=No
-2	,	,	PUNCT	_	_	1	punct	_	AlignBegin=144356|AlignEnd=144356
-3	mh	mh	INTJ	_	_	0	root	_	AlignBegin=144356|AlignEnd=144401|SpaceAfter=No
-4	.	.	PUNCT	_	_	3	punct	_	AlignBegin=144401|AlignEnd=144401
+1	mh	mh	INTJ	_	_	0	root	_	AlignBegin=144231|AlignEnd=144356|Answer=Rhap_D0009-89::9|SpaceAfter=No
+2	,	,	PUNCT	_	_	3	punct	_	AlignBegin=144356|AlignEnd=144356
+3	mh	mh	INTJ	_	_	1	conj	_	AlignBegin=144356|AlignEnd=144401|SpaceAfter=No
+4	.	.	PUNCT	_	_	1	punct	_	AlignBegin=144401|AlignEnd=144401
 
 # sent_id = Rhap_D0009-91
 # prosodic_annotation = yes
@@ -1449,7 +1449,7 @@
 # speaker_id = §LM5
 # macrosyntax = $L1 "euh" "oui" "enfin" initialement < ils étaient à Isigny //
 # text = euh, oui, enfin, initialement, ils étaient à Isigny.
-1	euh	euh	INTJ	_	_	12	discourse	_	AlignBegin=145278|AlignEnd=145683|SpaceAfter=No
+1	euh	euh	INTJ	_	_	12	discourse:filler	_	AlignBegin=145278|AlignEnd=145683|SpaceAfter=No
 2	,	,	PUNCT	_	_	1	punct	_	AlignBegin=145683|AlignEnd=145683
 3	oui	oui	INTJ	_	_	12	discourse	_	AlignBegin=145683|AlignEnd=145844|SpaceAfter=No
 4	,	,	PUNCT	_	_	3	punct	_	AlignBegin=145844|AlignEnd=145844
@@ -1506,7 +1506,7 @@
 # speaker_id = §LF11
 # macrosyntax = $- ^mais ils sont à ( $L2 "mh" // ) -$ Ducey actuellement //
 # text = mh.
-1	mh	mh	INTJ	_	_	0	root	_	AlignBegin=148926|AlignEnd=149490|Backchannel=Rhap_D0009-93::6|Overlap=Rhap_D0009-94|SpaceAfter=No
+1	mh	mh	INTJ	_	_	0	root	_	AlignBegin=148926|AlignEnd=149490|Backchannel=Rhap_D0009-93::2|Overlap=Rhap_D0009-94|SpaceAfter=No
 2	.	.	PUNCT	_	_	1	punct	_	AlignBegin=149490|AlignEnd=149490|Overlap=Rhap_D0009-72
 
 # sent_id = Rhap_D0009-96
@@ -1515,7 +1515,7 @@
 # speaker_id = §LM5
 # macrosyntax = { ouais | ouais } //
 # text = ouais, ouais.
-1	ouais	ouais	INTJ	_	_	0	root	_	AlignBegin=150515|AlignEnd=150615|Backchannel=Rhap_D0009-93::6|SpaceAfter=No
+1	ouais	ouais	INTJ	_	_	0	root	_	AlignBegin=150515|AlignEnd=150615|Backchannel=Rhap_D0009-94::3|SpaceAfter=No
 2	,	,	PUNCT	_	_	3	punct	_	AlignBegin=150215|AlignEnd=150515
 3	ouais	ouais	INTJ	_	_	1	conj	_	AlignBegin=150615|AlignEnd=150710|SpaceAfter=No
 4	.	.	PUNCT	_	_	1	punct	_	AlignBegin=150615|AlignEnd=150615
@@ -1541,7 +1541,7 @@
 # speaker_id = §LM5
 # macrosyntax = $L1 oui //
 # text = oui.
-1	oui	oui	INTJ	_	_	0	root	_	AlignBegin=152520|AlignEnd=152780|Backchannel=Rhap_D0009-97::5|SpaceAfter=No
+1	oui	oui	INTJ	_	_	0	root	_	AlignBegin=152520|AlignEnd=152780|Answer=Rhap_D0009-97::5|SpaceAfter=No
 2	.	.	PUNCT	_	_	1	punct	_	AlignBegin=152780|AlignEnd=152780
 
 # sent_id = Rhap_D0009-99
@@ -1587,7 +1587,7 @@
 # text = ah, oui.
 1	ah	ah	INTJ	_	_	3	discourse	_	AlignBegin=156170|AlignEnd=156325|SpaceAfter=No
 2	,	,	PUNCT	_	_	1	punct	_	AlignBegin=156325|AlignEnd=156325
-3	oui	oui	INTJ	_	_	0	root	_	AlignBegin=156325|AlignEnd=156575|Backchannel=Rhap_D0009-99::2|SpaceAfter=No
+3	oui	oui	INTJ	_	_	0	root	_	AlignBegin=156325|AlignEnd=156575|Answer=Rhap_D0009-99::2|SpaceAfter=No
 4	.	.	PUNCT	_	_	3	punct	_	AlignBegin=156575|AlignEnd=156575
 
 # sent_id = Rhap_D0009-102
@@ -1652,7 +1652,7 @@
 5	-chose	chose	NOUN	_	Gender=Fem|Number=Sing	4	fixed	_	AlignBegin=161764|AlignEnd=161954|Exponence[Gender]=Inherent|Exponence[Number]=Absent|InIdiom=Yes
 6-7	au	_	_	_	_	_	_	_	_
 6	à	à	ADP	_	_	8	case	_	AlignBegin=161954|AlignEnd=162024
-7	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	AlignBegin=161954|AlignEnd=162024
+7	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
 8	prix	prix	NOUN	_	Gender=Masc|Number=Sing	2	obl:arg	_	AlignBegin=162024|AlignEnd=162234|Exponence[Gender]=Inherent|Exponence[Number]=Absent|SpaceAfter=No
 9	,	,	PUNCT	_	_	10	punct	_	AlignBegin=162234|AlignEnd=162234
 10	hein	hein	INTJ	_	_	8	discourse	_	AlignBegin=162234|AlignEnd=162294|SpaceAfter=No
@@ -1683,7 +1683,7 @@
 # speaker_id = §LM5
 # macrosyntax = $L1 oui //
 # text = oui.
-1	oui	oui	INTJ	_	_	0	root	_	AlignBegin=165297|AlignEnd=165454|Backchannel=Rhap_D0009-106::1|SpaceAfter=No
+1	oui	oui	INTJ	_	_	0	root	_	AlignBegin=165297|AlignEnd=165454|Answer=Rhap_D0009-106::1|SpaceAfter=No
 2	.	.	PUNCT	_	_	1	punct	_	AlignBegin=165454|AlignEnd=165454
 
 # sent_id = Rhap_D0009-108
@@ -1692,7 +1692,7 @@
 # speaker_id = §LF11
 # macrosyntax = bien sûr //
 # text = bien sûr.
-1	bien	bien	ADV	_	ExtPos=ADV	0	root	_	AlignBegin=165831|AlignEnd=165984|Idiom=Yes
+1	bien	bien	ADV	_	ExtPos=ADV	0	root	_	AlignBegin=165831|AlignEnd=165984|Answer=Rhap_D0009-106::1|Idiom=Yes
 2	sûr	sûr	ADJ	_	Gender=Masc|Number=Sing	1	fixed	_	AlignBegin=165984|AlignEnd=166234|Exponence[Gender]=Absent|Exponence[Number]=Absent|HasSpokenGender=No|HasSpokenNumber=OnlyWithLiaison|InIdiom=Yes|SpaceAfter=No
 3	.	.	PUNCT	_	_	1	punct	_	AlignBegin=166234|AlignEnd=166234
 
@@ -1734,7 +1734,7 @@
 # speaker_id = §LM5
 # macrosyntax = $L1 { non | non | non | non | non | non } //
 # text = non, non, non, non, non, non.
-1	non	non	ADV	_	Polarity=Neg	0	root	_	AlignBegin=167290|AlignEnd=169325|Backchannel=Rhap_D0009-109::14|Overlap=Rhap_D0009-109|SpaceAfter=No
+1	non	non	ADV	_	Polarity=Neg	0	root	_	AlignBegin=167290|AlignEnd=169325|Answer=Rhap_D0009-109::6|Overlap=Rhap_D0009-109|SpaceAfter=No
 2	,	,	PUNCT	_	_	3	punct	_	AlignBegin=169325|AlignEnd=167290|Overlap=Rhap_D0009-83
 3	non	non	ADV	_	Polarity=Neg	1	conj	_	AlignBegin=167290|AlignEnd=169325|Overlap=Rhap_D0009-109|SpaceAfter=No
 4	,	,	PUNCT	_	_	5	punct	_	AlignBegin=169325|AlignEnd=167290|Overlap=Rhap_D0009-83
@@ -1753,7 +1753,7 @@
 # speaker_id = §LM5
 # macrosyntax = { non | non | non } //
 # text = non, non, non.
-1	non	non	ADV	_	Polarity=Neg	0	root	_	AlignBegin=167290|AlignEnd=169325|Backchannel=Rhap_D0009-109::14|Overlap=Rhap_D0009-110|SpaceAfter=No
+1	non	non	ADV	_	Polarity=Neg	0	root	_	AlignBegin=167290|AlignEnd=169325|Answer=Rhap_D0009-109::6|Overlap=Rhap_D0009-110|SpaceAfter=No
 2	,	,	PUNCT	_	_	3	punct	_	AlignBegin=169325|AlignEnd=167290|Overlap=Rhap_D0009-84
 3	non	non	ADV	_	Polarity=Neg	1	conj	_	AlignBegin=167290|AlignEnd=169325|Overlap=Rhap_D0009-110|SpaceAfter=No
 4	,	,	PUNCT	_	_	5	punct	_	AlignBegin=169325|AlignEnd=167290|Overlap=Rhap_D0009-84
@@ -1766,7 +1766,7 @@
 # speaker_id = §LM5
 # macrosyntax = { non | non } // -$
 # text = non, non.
-1	non	non	ADV	_	Polarity=Neg	0	root	_	AlignBegin=167290|AlignEnd=169325|Backchannel=Rhap_D0009-109::14|Overlap=Rhap_D0009-110|SpaceAfter=No
+1	non	non	ADV	_	Polarity=Neg	0	root	_	AlignBegin=167290|AlignEnd=169325|Answer=Rhap_D0009-109::6|Overlap=Rhap_D0009-110|SpaceAfter=No
 2	,	,	PUNCT	_	_	3	punct	_	AlignBegin=169325|AlignEnd=167290|Overlap=Rhap_D0009-84
 3	non	non	ADV	_	Polarity=Neg	1	conj	_	AlignBegin=167290|AlignEnd=169325|Overlap=Rhap_D0009-110|SpaceAfter=No
 4	.	.	PUNCT	_	_	1	punct	_	AlignBegin=169325|AlignEnd=169325|Overlap=Rhap_D0009-84
@@ -1822,7 +1822,7 @@
 # speaker_id = §LF11
 # macrosyntax = $L2 ^parce ^que c'est des heures > ça "hein" //
 # text = parce que c'est des heures ça, hein.
-1	parce	parce	ADV	_	ExtPos=SCONJ	6	mark	_	AlignBegin=174736|AlignEnd=174841|Idiom=Yes
+1	parce	parce	ADV	_	ExtPos=SCONJ	6	mark	_	AlignBegin=174736|AlignEnd=174841|Automated=Yes|Coconstruct=mod::Rhap_D0009-116::2|Idiom=Yes
 2	que	que	SCONJ	_	_	1	fixed	_	AlignBegin=174841|AlignEnd=174941|InIdiom=Yes
 3	c'	ce	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	6	nsubj	_	AlignBegin=174941|AlignEnd=175031|Exponence[Gender]=Inherent|Exponence[Number]=Inherent|Exponence[Person]=Inherent|SpaceAfter=No
 4	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	cop	_	AlignBegin=175031|AlignEnd=175131
@@ -1861,11 +1861,11 @@
 20	en	en	ADP	_	_	21	case	_	AlignBegin=179790|AlignEnd=179970
 21	sellerie	sellerie	NOUN	_	Gender=Fem|Number=Sing	14	obl:mod	_	AlignBegin=179970|AlignEnd=180660|Exponence[Gender]=Inherent|Exponence[Number]=Absent|SpaceAfter=No
 22	,	,	PUNCT	_	_	23	punct	_	AlignBegin=180660|AlignEnd=180660
-23	euh	euh	INTJ	_	_	21	discourse	_	AlignBegin=180660|AlignEnd=181058|SpaceAfter=No
+23	euh	euh	INTJ	_	_	21	discourse:filler	_	AlignBegin=180660|AlignEnd=181058|SpaceAfter=No
 24	,	,	PUNCT	_	_	25	punct	_	AlignBegin=181058|AlignEnd=181634
 25	avec	avec	ADP	_	_	14	dep	_	AlignBegin=181634|AlignEnd=182105|Scrap=Yes|SpaceAfter=No
 26	,	,	PUNCT	_	_	27	punct	_	AlignBegin=182105|AlignEnd=182105
-27	euh	euh	INTJ	_	_	25	discourse	_	AlignBegin=182105|AlignEnd=182249|SpaceAfter=No
+27	euh	euh	INTJ	_	_	25	discourse:filler	_	AlignBegin=182105|AlignEnd=182249|SpaceAfter=No
 28	…	…	PUNCT	_	_	5	punct	_	AlignBegin=182249|AlignEnd=182249
 
 # sent_id = Rhap_D0009-119
@@ -1908,7 +1908,7 @@
 # speaker_id = §LM5
 # macrosyntax = $L1 oui //
 # text = oui.
-1	oui	oui	INTJ	_	_	0	root	_	AlignBegin=187073|AlignEnd=187276|Backchannel=Rhap_D0009-119::1|SpaceAfter=No
+1	oui	oui	INTJ	_	_	0	root	_	AlignBegin=187073|AlignEnd=187276|Answer=Rhap_D0009-119::1|SpaceAfter=No
 2	.	.	PUNCT	_	_	1	punct	_	AlignBegin=187276|AlignEnd=187276
 
 # sent_id = Rhap_D0009-121
@@ -1917,7 +1917,7 @@
 # speaker_id = §LM5
 # macrosyntax = bien sûr //
 # text = bien sûr.
-1	bien	bien	ADV	_	ExtPos=ADV	0	root	_	AlignBegin=187276|AlignEnd=187508|Idiom=Yes
+1	bien	bien	ADV	_	ExtPos=ADV	0	root	_	AlignBegin=187276|AlignEnd=187508|Answer=Rhap_D0009-119::1|Idiom=Yes
 2	sûr	sûr	ADJ	_	Gender=Masc|Number=Sing	1	fixed	_	AlignBegin=187508|AlignEnd=187783|Exponence[Gender]=Absent|Exponence[Number]=Absent|HasSpokenGender=No|HasSpokenNumber=OnlyWithLiaison|InIdiom=Yes|SpaceAfter=No
 3	.	.	PUNCT	_	_	1	punct	_	AlignBegin=187783|AlignEnd=187783
 
@@ -1927,14 +1927,14 @@
 # speaker_id = §LF11
 # macrosyntax = $L2 ^parce ^que j'ai un rouleau de tissu de velours beige //
 # text = parce que j'ai un rouleau de tissu de velours beige.
-1	parce	parce	ADV	_	ExtPos=SCONJ	4	mark	_	AlignBegin=188344|AlignEnd=188511|Idiom=Yes
+1	parce	parce	ADV	_	ExtPos=SCONJ	4	mark	_	AlignBegin=188344|AlignEnd=188511|Automated=Yes|Coconstruct=mod::Rhap_D0009-121::1|Idiom=Yes
 2	que	que	SCONJ	_	_	1	fixed	_	AlignBegin=188511|AlignEnd=188619|InIdiom=Yes
 3	j'	moi	PRON	_	Case=Nom|Emph=No|Number=Sing|Person=1|PronType=Prs	4	nsubj	_	AlignBegin=188619|AlignEnd=188729|Exponence[Number]=Inherent|Exponence[Person]=Inherent|SpaceAfter=No
 4	ai	avoir	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	AlignBegin=188729|AlignEnd=188959
 5	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	6	det	_	AlignBegin=188959|AlignEnd=189279
-6	rouleau	rouleau	NOUN	_	Gender=Masc|Number=Sing	4	obj	_	AlignBegin=189359|AlignEnd=189749|Exponence[Gender]=Inherent|Exponence[Number]=Absent
+6	rouleau	rouleau	NOUN	_	Gender=Masc|Number=Sing	4	obj	_	AlignBegin=189359|AlignEnd=189749|cdet=No|Exponence[Gender]=Inherent|Exponence[Number]=Absent
 7	de	de	ADP	_	_	8	case	_	AlignBegin=189749|AlignEnd=189819
-8	tissu	tissu	NOUN	_	Gender=Masc|Number=Sing	6	nmod	_	AlignBegin=189819|AlignEnd=190119|Exponence[Gender]=Inherent|Exponence[Number]=Absent
+8	tissu	tissu	NOUN	_	Gender=Masc|Number=Sing	6	nmod	_	AlignBegin=189819|AlignEnd=190119|cdet=No|Exponence[Gender]=Inherent|Exponence[Number]=Absent
 9	de	de	ADP	_	_	10	case	_	AlignBegin=190119|AlignEnd=190169
 10	velours	velours	NOUN	_	Gender=Masc	8	nmod	_	AlignBegin=190169|AlignEnd=190689|Exponence[Gender]=Inherent
 11	beige	beige	ADJ	_	Gender=Masc|Number=Sing	10	amod	_	AlignBegin=190689|AlignEnd=191070|Exponence[Gender]=Absent|Exponence[Number]=Absent|HasSpokenGender=No|HasSpokenNumber=OnlyWithLiaison|SpaceAfter=No
@@ -1948,7 +1948,7 @@
 # text = alors, oui.
 1	alors	alors	ADV	_	_	3	advmod	_	AlignBegin=191118|AlignEnd=191293|SpaceAfter=No
 2	,	,	PUNCT	_	_	1	punct	_	AlignBegin=191293|AlignEnd=191293
-3	oui	oui	INTJ	_	_	0	root	_	AlignBegin=191293|AlignEnd=191463|Backchannel=Rhap_D0009-122::11|SpaceAfter=No
+3	oui	oui	INTJ	_	_	0	root	_	AlignBegin=191293|AlignEnd=191463|SpaceAfter=No
 4	.	.	PUNCT	_	_	3	punct	_	AlignBegin=191463|AlignEnd=191463
 
 # sent_id = Rhap_D0009-124
@@ -1999,7 +1999,7 @@
 19	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	20	det	_	AlignBegin=199066|AlignEnd=199256
 20	base	base	NOUN	_	Gender=Fem|Number=Sing	18	obj	_	AlignBegin=199256|AlignEnd=199606|Exponence[Gender]=Inherent|Exponence[Number]=Absent|SpaceAfter=No
 21	,	,	PUNCT	_	_	22	punct	_	AlignBegin=199606|AlignEnd=199606
-22	euh	euh	INTJ	_	_	20	discourse	_	AlignBegin=199606|AlignEnd=200346|SpaceAfter=No
+22	euh	euh	INTJ	_	_	20	discourse:filler	_	AlignBegin=199606|AlignEnd=200346|SpaceAfter=No
 23	,	,	PUNCT	_	_	24	punct	_	AlignBegin=200346|AlignEnd=200346
 24	pff	pff	INTJ	_	_	20	discourse	_	AlignBegin=200346|AlignEnd=201011|SpaceAfter=No
 25	…	…	PUNCT	_	_	14	punct	_	AlignBegin=201011|AlignEnd=201011
@@ -2026,7 +2026,7 @@
 # speaker_id = §LF11
 # macrosyntax = $- $L2 "mh" //
 # text = mh.
-1	mh	mh	INTJ	_	_	0	root	_	AlignBegin=202917|AlignEnd=203134|Backchannel=Rhap_D0009-126::8|Overlap=Rhap_D0009-128|SpaceAfter=No
+1	mh	mh	INTJ	_	_	0	root	_	AlignBegin=202917|AlignEnd=203134|Backchannel=Rhap_D0009-126::2|Overlap=Rhap_D0009-128|SpaceAfter=No
 2	.	.	PUNCT	_	_	1	punct	_	AlignBegin=203365|AlignEnd=203365|Overlap=Rhap_D0009-100
 
 # sent_id = Rhap_D0009-128
@@ -2117,13 +2117,13 @@
 1	j'	moi	PRON	_	Case=Nom|Emph=No|Number=Sing|Person=1|PronType=Prs	2	nsubj	_	AlignBegin=209470|AlignEnd=209928|Exponence[Number]=Inherent|Exponence[Person]=Inherent|Overlap=Rhap_D0009-132|SpaceAfter=No
 2	ai	avoir	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	AlignBegin=209928|AlignEnd=210008|Overlap=Rhap_D0009-132
 3	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	4	det	_	AlignBegin=210008|AlignEnd=210530|Overlap=Rhap_D0009-132
-4	beige	beige	NOUN	_	Gender=Masc|Number=Sing	10	reparandum	_	AlignBegin=210530|AlignEnd=211184|Exponence[Gender]=Inherent|Exponence[Number]=Absent|SpaceAfter=No
-5	,	,	PUNCT	_	_	4	punct	_	AlignBegin=211700|AlignEnd=211700
-6	beige	beige	NOUN	_	Gender=Masc|Number=Sing	10	reparandum	_	AlignBegin=211700|AlignEnd=211950|Exponence[Gender]=Inherent|Exponence[Number]=Absent
+4	beige	beige	NOUN	_	Gender=Masc|Number=Sing	2	obj	_	AlignBegin=210530|AlignEnd=211184|Exponence[Gender]=Inherent|Exponence[Number]=Absent|SpaceAfter=No
+5	,	,	PUNCT	_	_	6	punct	_	AlignBegin=211700|AlignEnd=211700
+6	beige	beige	NOUN	_	Gender=Masc|Number=Sing	4	conj:reform	_	AlignBegin=211700|AlignEnd=211950|Exponence[Gender]=Inherent|Exponence[Number]=Absent
 7	clair	clair	ADJ	_	Gender=Masc|Number=Sing	6	amod	_	AlignBegin=211950|AlignEnd=212345|Exponence[Gender]=Absent|Exponence[Number]=Absent|HasSpokenGender=No|HasSpokenNumber=OnlyWithLiaison|SpaceAfter=No
-8	,	,	PUNCT	_	_	6	punct	_	AlignBegin=212345|AlignEnd=213193
+8	,	,	PUNCT	_	_	10	punct	_	AlignBegin=212345|AlignEnd=213193
 9	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	10	det	_	AlignBegin=213193|AlignEnd=213363
-10	velours	velours	NOUN	_	Gender=Masc|Number=Sing	2	obj	_	AlignBegin=213363|AlignEnd=213828|Exponence[Gender]=Inherent|Exponence[Number]=Absent
+10	velours	velours	NOUN	_	Gender=Masc|Number=Sing	6	conj:reform	_	AlignBegin=213363|AlignEnd=213828|Exponence[Gender]=Inherent|Exponence[Number]=Absent
 11	beige	beige	ADJ	_	Gender=Masc|Number=Sing	10	amod	_	AlignBegin=213828|AlignEnd=214148|Exponence[Gender]=Absent|Exponence[Number]=Absent|HasSpokenGender=No|HasSpokenNumber=OnlyWithLiaison
 12	clair	clair	ADJ	_	Gender=Masc|Number=Sing	11	amod	_	AlignBegin=214148|AlignEnd=214424|Exponence[Gender]=Absent|Exponence[Number]=Absent|HasSpokenGender=No|HasSpokenNumber=OnlyWithLiaison|SpaceAfter=No
 13	.	.	PUNCT	_	_	2	punct	_	AlignBegin=214424|AlignEnd=214424
@@ -2183,7 +2183,7 @@
 9	à	à	ADP	_	_	10	case	_	AlignBegin=218604|AlignEnd=218634
 10	fond	fond	NOUN	_	Gender=Masc|Number=Sing	8	nmod	_	AlignBegin=218634|AlignEnd=218924|Exponence[Gender]=Inherent|Exponence[Number]=Absent|SpaceAfter=No
 11	,	,	PUNCT	_	_	12	punct	_	AlignBegin=218924|AlignEnd=218924
-12	euh	euh	INTJ	_	_	10	discourse	_	AlignBegin=218924|AlignEnd=219233|SpaceAfter=No
+12	euh	euh	INTJ	_	_	10	discourse:filler	_	AlignBegin=218924|AlignEnd=219233|SpaceAfter=No
 13	,	,	PUNCT	_	_	14	punct	_	AlignBegin=219233|AlignEnd=219233
 14	rouge	rouge	ADJ	_	Gender=Masc|Number=Sing	10	amod	_	AlignBegin=219233|AlignEnd=219598|Exponence[Gender]=Absent|Exponence[Number]=Absent|HasSpokenGender=No|HasSpokenNumber=OnlyWithLiaison|Overlap=Rhap_D0009-137
 15	comme	comme	SCONJ	_	_	17	mark	_	AlignBegin=219598|AlignEnd=219758|Overlap=Rhap_D0009-137
@@ -2201,7 +2201,7 @@
 # speaker_id = §LM5
 # macrosyntax = $L1 { ouais | ouais } //
 # text = ouais, ouais.
-1	ouais	ouais	INTJ	_	_	0	root	_	AlignBegin=219233|AlignEnd=221545|Backchannel=Rhap_D0009-136::21|Overlap=Rhap_D0009-136|SpaceAfter=No
+1	ouais	ouais	INTJ	_	_	0	root	_	AlignBegin=219233|AlignEnd=221545|Backchannel=Rhap_D0009-136::5|Overlap=Rhap_D0009-136|SpaceAfter=No
 2	,	,	PUNCT	_	_	3	punct	_	AlignBegin=221545|AlignEnd=219233|Overlap=Rhap_D0009-108
 3	ouais	ouais	INTJ	_	_	1	discourse	_	AlignBegin=219233|AlignEnd=221545|Overlap=Rhap_D0009-136|SpaceAfter=No
 4	.	.	PUNCT	_	_	1	punct	_	AlignBegin=221545|AlignEnd=221545|Overlap=Rhap_D0009-108
@@ -2212,7 +2212,7 @@
 # speaker_id = §LM5
 # macrosyntax = ^parce ^que "ouais" c'est ça //=
 # text = parce que, ouais, c'est ça.
-1	parce	parce	ADV	_	ExtPos=SCONJ	8	mark	_	AlignBegin=219233|AlignEnd=221545|Idiom=Yes|Overlap=Rhap_D0009-136
+1	parce	parce	ADV	_	ExtPos=SCONJ	8	mark	_	AlignBegin=219233|AlignEnd=221545|Automated=Yes|Coconstruct=mod::Rhap_D0009-137::1|Idiom=Yes|Overlap=Rhap_D0009-136|SingleSpeaker=Yes
 2	que	que	SCONJ	_	_	1	fixed	_	AlignBegin=219233|AlignEnd=221545|InIdiom=Yes|Overlap=Rhap_D0009-136|SpaceAfter=No
 3	,	,	PUNCT	_	_	8	punct	_	AlignBegin=221545|AlignEnd=219233|Overlap=Rhap_D0009-108
 4	ouais	ouais	INTJ	_	_	8	discourse	_	AlignBegin=219233|AlignEnd=221545|Overlap=Rhap_D0009-136|SpaceAfter=No
@@ -2228,11 +2228,11 @@
 # speaker_id = §LM5
 # macrosyntax = ^parce ^que -$ du fait que tu as déjà quelque chose { d'un | d'un } fond clair < ( $L2 "mh" // ) je crains que [ { le beige | { ^et le | ^et { le | le } } jaunâtre un petit peu } < ça risque de $- XXX ] //
 # text = parce que du fait que tu as déjà quelque chose d'un, d'un fond clair, je crains que le beige et le, et le, le jaunâtre un petit peu, ça risque de XXX…
-1	parce	parce	ADV	_	ExtPos=SCONJ	21	mark	_	AlignBegin=219233|AlignEnd=221545|Idiom=Yes|Overlap=Rhap_D0009-136
+1	parce	parce	ADV	_	ExtPos=SCONJ	21	mark	_	AlignBegin=219233|AlignEnd=221545|Automated=Yes|Coconstruct=mod::Rhap_D0009-138::1|Idiom=Yes|Overlap=Rhap_D0009-136|SingleSpeaker=Yes
 2	que	que	SCONJ	_	_	1	fixed	_	AlignBegin=219233|AlignEnd=221545|InIdiom=Yes|Overlap=Rhap_D0009-136
 3-4	du	_	_	_	_	_	_	_	_
 3	de	de	ADP	_	_	5	case	_	AlignBegin=221545|AlignEnd=221620
-4	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	AlignBegin=221545|AlignEnd=221620
+4	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
 5	fait	fait	NOUN	_	Gender=Masc|Number=Sing	21	obl:mod	_	AlignBegin=221620|AlignEnd=221768|Exponence[Gender]=Inherent|Exponence[Number]=Absent
 6	que	que	SCONJ	_	_	8	mark	_	AlignBegin=221768|AlignEnd=221948
 7	tu	toi	PRON	_	Case=Nom|Emph=No|Number=Sing|Person=2|PronType=Prs	8	nsubj	_	AlignBegin=221948|AlignEnd=222080|Exponence[Number]=Inherent|Exponence[Person]=Inherent
@@ -2277,7 +2277,7 @@
 # speaker_id = §LF11
 # macrosyntax = ^parce ^que -$ du fait que tu as déjà quelque chose { d'un | d'un } fond clair < ( $L2 "mh" // ) je crains que [ { le beige | { ^et le | ^et { le | le } } jaunâtre un petit peu } < ça risque de $- XXX ] //
 # text = mh.
-1	mh	mh	INTJ	_	_	0	root	_	AlignBegin=223989|AlignEnd=224260|Backchannel=Rhap_D0009-139::18|SpaceAfter=No
+1	mh	mh	INTJ	_	_	0	root	_	AlignBegin=223989|AlignEnd=224260|Backchannel=Rhap_D0009-139::1|SpaceAfter=No
 2	.	.	PUNCT	_	_	1	punct	_	AlignBegin=224260|AlignEnd=224260
 
 # sent_id = Rhap_D0009-141
@@ -2286,21 +2286,21 @@
 # speaker_id = §LF11
 # macrosyntax = mon tissu là de coussins est quand même "euh" -$ { foncé | rouge |} //+
 # text = mon tissu là de coussins est quand même, euh, foncé, rouge.
-1	mon	son	DET	_	Gender=Masc|Number=Sing|Number[psor]=Sing|Person[psor]=1|Poss=Yes|PronType=Prs	2	det	_	AlignBegin=228806|AlignEnd=229021|Exponence[Gender]=Absent|HasSpokenGender=OnlySingExceptWithLiaison|Overlap=Rhap_D0009-139
-2	tissu	tissu	NOUN	_	Gender=Masc|Number=Sing	14	nsubj	_	AlignBegin=229021|AlignEnd=229421|Exponence[Gender]=Inherent|Exponence[Number]=Absent|Overlap=Rhap_D0009-139
+1	mon	son	DET	_	Gender=Masc|Number=Sing|Number[psor]=Sing|Person[psor]=1|Poss=Yes|PronType=Prs	2	det	_	AlignBegin=228806|AlignEnd=229021|HasSpokenGender=OnlySingExceptWithLiaison|Overlap=Rhap_D0009-139
+2	tissu	tissu	NOUN	_	Gender=Masc|Number=Sing	12	nsubj	_	AlignBegin=229021|AlignEnd=229421|Exponence[Gender]=Inherent|Exponence[Number]=Absent|Overlap=Rhap_D0009-139
 3	là	là	ADV	_	_	2	advmod	_	AlignBegin=229421|AlignEnd=229641|Overlap=Rhap_D0009-139
 4	de	de	ADP	_	_	5	case	_	AlignBegin=229641|AlignEnd=229681|Overlap=Rhap_D0009-139
 5	coussins	coussin	NOUN	_	Gender=Masc|Number=Plur	2	nmod	_	AlignBegin=229681|AlignEnd=230041|Exponence[Gender]=Inherent|Exponence[Number]=Absent|Overlap=Rhap_D0009-139
-6	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	14	cop	_	AlignBegin=230041|AlignEnd=230121|Overlap=Rhap_D0009-139
-7	quand	quand	SCONJ	_	ExtPos=ADV	14	advmod	_	AlignBegin=230121|AlignEnd=230271|Idiom=Yes|Overlap=Rhap_D0009-139
+6	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	12	cop	_	AlignBegin=230041|AlignEnd=230121|Overlap=Rhap_D0009-139
+7	quand	quand	SCONJ	_	ExtPos=ADV	12	advmod	_	AlignBegin=230121|AlignEnd=230271|Idiom=Yes|Overlap=Rhap_D0009-139
 8	même	même	ADV	_	_	7	fixed	_	AlignBegin=230271|AlignEnd=230517|InIdiom=Yes|Overlap=Rhap_D0009-139|SpaceAfter=No
 9	,	,	PUNCT	_	_	10	punct	_	AlignBegin=230930|AlignEnd=228806|Overlap=Rhap_D0009-111
-10	euh	euh	INTJ	_	_	7	discourse	_	AlignBegin=230517|AlignEnd=230930|Overlap=Rhap_D0009-139|SpaceAfter=No
-11	,	,	PUNCT	_	_	14	punct	_	AlignBegin=230930|AlignEnd=231226
-12	foncé	foncé	ADJ	_	Gender=Masc|Number=Sing	14	reparandum	_	AlignBegin=231226|AlignEnd=231601|Exponence[Gender]=Absent|Exponence[Number]=Absent|HasSpokenGender=NotInThisDialect|HasSpokenNumber=OnlyWithLiaison|SpaceAfter=No
-13	,	,	PUNCT	_	_	12	punct	_	AlignBegin=231601|AlignEnd=231601
-14	rouge	rouge	ADJ	_	Gender=Masc|Number=Sing	0	root	_	AlignBegin=231601|AlignEnd=232111|Exponence[Gender]=Absent|Exponence[Number]=Absent|HasSpokenGender=No|HasSpokenNumber=OnlyWithLiaison|SpaceAfter=No
-15	.	.	PUNCT	_	_	14	punct	_	AlignBegin=232111|AlignEnd=232111
+10	euh	euh	INTJ	_	_	7	discourse:filler	_	AlignBegin=230517|AlignEnd=230930|Overlap=Rhap_D0009-139|SpaceAfter=No
+11	,	,	PUNCT	_	_	12	punct	_	AlignBegin=230930|AlignEnd=231226
+12	foncé	foncé	ADJ	_	Gender=Masc|Number=Sing	0	root	_	AlignBegin=231226|AlignEnd=231601|Exponence[Gender]=Absent|Exponence[Number]=Absent|HasSpokenGender=NotInThisDialect|HasSpokenNumber=OnlyWithLiaison|SpaceAfter=No
+13	,	,	PUNCT	_	_	14	punct	_	AlignBegin=231601|AlignEnd=231601
+14	rouge	rouge	ADJ	_	Gender=Masc|Number=Sing	12	conj:reform	_	AlignBegin=231601|AlignEnd=232111|Exponence[Gender]=Absent|Exponence[Number]=Absent|HasSpokenGender=No|HasSpokenNumber=OnlyWithLiaison|SpaceAfter=No
+15	.	.	PUNCT	_	_	12	punct	_	AlignBegin=232111|AlignEnd=232111
 
 # sent_id = Rhap_D0009-142
 # prosodic_annotation = yes
@@ -2308,13 +2308,13 @@
 # speaker_id = §LM5
 # macrosyntax = $L1 {| "ouais" genre madras un peu } //
 # text = ouais, genre madras un peu.
-1	ouais	ouais	INTJ	_	_	4	reparandum	_	AlignBegin=232751|AlignEnd=232876|Backchannel=Rhap_D0009-141::14|SpaceAfter=No
-2	,	,	PUNCT	_	_	1	punct	_	AlignBegin=232876|AlignEnd=232876
+1	ouais	ouais	INTJ	_	_	0	root	_	AlignBegin=232751|AlignEnd=232876|SpaceAfter=No
+2	,	,	PUNCT	_	_	4	punct	_	AlignBegin=232876|AlignEnd=232876
 3	genre	genre	ADP	_	_	4	case	_	AlignBegin=232876|AlignEnd=233076
-4	madras	madras	NOUN	_	Gender=Masc|Number=Sing	0	root	_	AlignBegin=233076|AlignEnd=233455|Exponence[Gender]=Inherent|Exponence[Number]=Absent
+4	madras	madras	NOUN	_	Gender=Masc|Number=Sing	1	conj	_	AlignBegin=233076|AlignEnd=233455|Exponence[Gender]=Inherent|Exponence[Number]=Absent
 5	un	un	DET	_	Definite=Ind|ExtPos=ADV|Gender=Masc|Number=Sing|PronType=Art	4	advmod	_	AlignBegin=233455|AlignEnd=233616|Idiom=Yes
-6	peu	peu	NOUN	_	Gender=Masc	5	fixed	_	AlignBegin=233616|AlignEnd=233732|Exponence[Gender]=Inherent|InIdiom=Yes|SpaceAfter=No
-7	.	.	PUNCT	_	_	4	punct	_	AlignBegin=233732|AlignEnd=233732
+6	peu	peu	NOUN	_	_	5	fixed	_	AlignBegin=233616|AlignEnd=233732|InIdiom=Yes|SpaceAfter=No
+7	.	.	PUNCT	_	_	1	punct	_	AlignBegin=233732|AlignEnd=233732
 
 # sent_id = Rhap_D0009-143
 # prosodic_annotation = yes
@@ -2322,7 +2322,7 @@
 # speaker_id = §LF11
 # macrosyntax = $L2 oui //
 # text = oui.
-1	oui	oui	INTJ	_	_	0	root	_	AlignBegin=233732|AlignEnd=233960|Backchannel=Rhap_D0009-142::1|SpaceAfter=No
+1	oui	oui	INTJ	_	_	0	root	_	AlignBegin=233732|AlignEnd=233960|Answer=Rhap_D0009-142::1|SpaceAfter=No
 2	.	.	PUNCT	_	_	1	punct	_	AlignBegin=233960|AlignEnd=233960
 
 # sent_id = Rhap_D0009-144
@@ -2369,7 +2369,7 @@
 # speaker_id = §LF11
 # macrosyntax = $L2 "mh" //
 # text = mh.
-1	mh	mh	INTJ	_	_	0	root	_	AlignBegin=236647|AlignEnd=236906|Backchannel=Rhap_D0009-146::6|SpaceAfter=No
+1	mh	mh	INTJ	_	_	0	root	_	AlignBegin=236647|AlignEnd=236906|Backchannel=Rhap_D0009-146::4|SpaceAfter=No
 2	.	.	PUNCT	_	_	1	punct	_	AlignBegin=236906|AlignEnd=236906
 
 # sent_id = Rhap_D0009-148
@@ -2419,7 +2419,7 @@
 # speaker_id = §LF11
 # macrosyntax = ^parce ^que c'était une frange $- de { vingt | trente } //
 # text = parce que c'était une frange de vingt, trente.
-1	parce	parce	ADV	_	ExtPos=SCONJ	6	mark	_	AlignBegin=242479|AlignEnd=242501|Idiom=Yes
+1	parce	parce	ADV	_	ExtPos=SCONJ	6	mark	_	AlignBegin=242479|AlignEnd=242501|Automated=Yes|Coconstruct=mod::Rhap_D0009-149::2|Idiom=Yes|SingleSpeaker=Yes
 2	que	que	SCONJ	_	_	1	fixed	_	AlignBegin=242501|AlignEnd=242607|InIdiom=Yes
 3	c'	ce	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	6	nsubj	_	AlignBegin=242607|AlignEnd=242661|Exponence[Gender]=Inherent|Exponence[Number]=Inherent|Exponence[Person]=Inherent|SpaceAfter=No
 4	était	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	6	cop	_	AlignBegin=242661|AlignEnd=242841
@@ -2454,7 +2454,7 @@
 # speaker_id = §LM5
 # macrosyntax = ouais // -$
 # text = ouais.
-1	ouais	ouais	INTJ	_	_	0	root	_	AlignBegin=243339|AlignEnd=244864|Backchannel=Rhap_D0009-150::10|Overlap=Rhap_D0009-150|SpaceAfter=No
+1	ouais	ouais	INTJ	_	_	0	root	_	AlignBegin=243339|AlignEnd=244864|Backchannel=Rhap_D0009-150::1|Overlap=Rhap_D0009-150|SpaceAfter=No
 2	.	.	PUNCT	_	_	1	punct	_	AlignBegin=244864|AlignEnd=244864|Overlap=Rhap_D0009-119
 
 # sent_id = Rhap_D0009-153
@@ -2520,7 +2520,7 @@
 11	quand	quand	SCONJ	_	ExtPos=ADV	16	advmod	_	AlignBegin=250457|AlignEnd=250607|Idiom=Yes
 12	même	même	ADV	_	_	11	fixed	_	AlignBegin=250607|AlignEnd=250866|InIdiom=Yes|SpaceAfter=No
 13	,	,	PUNCT	_	_	14	punct	_	AlignBegin=250866|AlignEnd=250866
-14	euh	euh	INTJ	_	_	11	discourse	_	AlignBegin=250866|AlignEnd=250987|SpaceAfter=No
+14	euh	euh	INTJ	_	_	11	discourse:filler	_	AlignBegin=250866|AlignEnd=250987|SpaceAfter=No
 15	,	,	PUNCT	_	_	16	punct	_	AlignBegin=250987|AlignEnd=250987
 16	cachés	cacher	VERB	_	Gender=Masc|Number=Plur|VerbForm=Part|Voice=Pass	6	ccomp	_	AlignBegin=250987|AlignEnd=251447|Exponence[Gender]=Absent|Exponence[Number]=Absent|PastPartHasSpokenGender=NotInThisDialect|Tense[denom]=Past
 17	?	?	PUNCT	_	_	6	punct	_	AlignBegin=251447|AlignEnd=251447
@@ -2531,7 +2531,7 @@
 # speaker_id = §LM5
 # macrosyntax = $L1 non //
 # text = non.
-1	non	non	ADV	_	Polarity=Neg	0	root	_	AlignBegin=252476|AlignEnd=252824|Backchannel=Rhap_D0009-156::2|SpaceAfter=No
+1	non	non	ADV	_	Polarity=Neg	0	root	_	AlignBegin=252476|AlignEnd=252824|Answer=Rhap_D0009-156::2|SpaceAfter=No
 2	.	.	PUNCT	_	_	1	punct	_	AlignBegin=276889|AlignEnd=276889
 
 # sent_id = Rhap_D0009-158
@@ -2541,7 +2541,7 @@
 # macrosyntax = pas nécessairement //
 # text = pas nécessairement.
 1	pas	pas	ADV	_	Polarity=Neg	2	advmod	_	AlignBegin=252968|AlignEnd=253053
-2	nécessairement	nécessairement	ADV	_	_	0	root	_	AlignBegin=253053|AlignEnd=253623|SpaceAfter=No
+2	nécessairement	nécessairement	ADV	_	_	0	root	_	AlignBegin=253053|AlignEnd=253623|Answer=Rhap_D0009-156::2|SpaceAfter=No
 3	.	.	PUNCT	_	_	2	punct	_	AlignBegin=253623|AlignEnd=253623
 
 # sent_id = Rhap_D0009-159
@@ -2575,7 +2575,7 @@
 # text = ben, non.
 1	ben	ben	INTJ	_	_	3	discourse	_	AlignBegin=256061|AlignEnd=256146|SpaceAfter=No
 2	,	,	PUNCT	_	_	1	punct	_	AlignBegin=256146|AlignEnd=256146
-3	non	non	ADV	_	Polarity=Neg	0	root	_	AlignBegin=256146|AlignEnd=256286|Backchannel=Rhap_D0009-159::15|SpaceAfter=No
+3	non	non	ADV	_	Polarity=Neg	0	root	_	AlignBegin=256146|AlignEnd=256286|Backchannel=Rhap_D0009-159::13|SpaceAfter=No
 4	.	.	PUNCT	_	_	3	punct	_	AlignBegin=256286|AlignEnd=256286
 
 # sent_id = Rhap_D0009-161
@@ -2584,7 +2584,7 @@
 # speaker_id = §LF11
 # macrosyntax = ^parce ^que j'ai regardé sur un catalogue //
 # text = parce que j'ai regardé sur un catalogue.
-1	parce	parce	ADV	_	ExtPos=SCONJ	5	mark	_	AlignBegin=256286|AlignEnd=256476|Idiom=Yes
+1	parce	parce	ADV	_	ExtPos=SCONJ	5	mark	_	AlignBegin=256286|AlignEnd=256476|Automated=Yes|Coconstruct=mod::Rhap_D0009-160::3|Idiom=Yes|SingleSpeaker=Yes
 2	que	que	SCONJ	_	_	1	fixed	_	AlignBegin=256476|AlignEnd=256566|InIdiom=Yes
 3	j'	moi	PRON	_	Case=Nom|Emph=No|Number=Sing|Person=1|PronType=Prs	5	nsubj	_	AlignBegin=256566|AlignEnd=256636|Exponence[Number]=Inherent|Exponence[Person]=Inherent|SpaceAfter=No
 4	ai	avoir	AUX	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	5	aux:tense	_	AlignBegin=256636|AlignEnd=256826
@@ -2615,7 +2615,7 @@
 13	jusqu'	jusque	ADP	_	_	16	case	_	AlignBegin=261534|AlignEnd=261739|Overlap=Rhap_D0009-163|SpaceAfter=No
 14-15	au	_	_	_	_	_	_	_	_
 14	à	à	ADP	_	_	16	case	_	AlignBegin=261739|AlignEnd=261899|Overlap=Rhap_D0009-163
-15	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	16	det	_	AlignBegin=261739|AlignEnd=261899|Overlap=Rhap_D0009-163
+15	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	16	det	_	_
 16	bas	bas	NOUN	_	Gender=Masc|Number=Sing	12	obl:arg	_	AlignBegin=261899|AlignEnd=262100|Exponence[Gender]=Inherent|Exponence[Number]=Absent|Overlap=Rhap_D0009-163|SpaceAfter=No
 17	.	.	PUNCT	_	_	4	punct	_	AlignBegin=262639|AlignEnd=262639|Overlap=Rhap_D0009-130
 
@@ -2625,7 +2625,7 @@
 # speaker_id = §LM5
 # macrosyntax = $L1 { ouais | ouais | ouais | ouais } // -$
 # text = ouais, ouais, ouais, ouais.
-1	ouais	ouais	INTJ	_	_	0	root	_	AlignBegin=261534|AlignEnd=262639|Backchannel=Rhap_D0009-162::15|Overlap=Rhap_D0009-162|SpaceAfter=No
+1	ouais	ouais	INTJ	_	_	0	root	_	AlignBegin=261534|AlignEnd=262639|Backchannel=Rhap_D0009-162::3|Overlap=Rhap_D0009-162|SpaceAfter=No
 2	,	,	PUNCT	_	_	3	punct	_	AlignBegin=262639|AlignEnd=261534|Overlap=Rhap_D0009-129
 3	ouais	ouais	INTJ	_	_	1	conj	_	AlignBegin=261534|AlignEnd=262639|Overlap=Rhap_D0009-162|SpaceAfter=No
 4	,	,	PUNCT	_	_	5	punct	_	AlignBegin=262639|AlignEnd=261534|Overlap=Rhap_D0009-129
@@ -2681,7 +2681,7 @@
 7	pas	pas	ADV	_	Polarity=Neg	6	advmod	_	AlignBegin=266790|AlignEnd=266932
 8-9	du	_	_	_	_	_	_	_	_
 8	de	de	ADP	_	_	10	case	_	AlignBegin=266932|AlignEnd=267075
-9	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	10	det	_	AlignBegin=266932|AlignEnd=267075
+9	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
 10	fait	fait	NOUN	_	Gender=Masc|Number=Sing	6	obl:mod	_	AlignBegin=267075|AlignEnd=267280|Exponence[Gender]=Inherent|Exponence[Number]=Absent
 11	que	que	SCONJ	_	_	15	mark	_	AlignBegin=267280|AlignEnd=267420
 12	c'	ce	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	15	nsubj	_	AlignBegin=267420|AlignEnd=267540|Exponence[Gender]=Inherent|Exponence[Number]=Inherent|Exponence[Person]=Inherent|SpaceAfter=No
@@ -2702,7 +2702,7 @@
 # text = ah, non.
 1	ah	ah	INTJ	_	_	3	discourse	_	AlignBegin=268939|AlignEnd=269004|SpaceAfter=No
 2	,	,	PUNCT	_	_	1	punct	_	AlignBegin=269004|AlignEnd=269004
-3	non	non	ADV	_	Polarity=Neg	0	root	_	AlignBegin=269004|AlignEnd=269314|Backchannel=Rhap_D0009-166::6|SpaceAfter=No
+3	non	non	ADV	_	Polarity=Neg	0	root	_	AlignBegin=269004|AlignEnd=269314|Answer=Rhap_D0009-166::6|SpaceAfter=No
 4	.	.	PUNCT	_	_	3	punct	_	AlignBegin=269314|AlignEnd=269314
 
 # sent_id = Rhap_D0009-168
@@ -2711,10 +2711,10 @@
 # speaker_id = §LM5
 # macrosyntax = pas du tout //
 # text = pas du tout.
-1	pas	pas	ADV	_	Polarity=Neg	0	root	_	AlignBegin=269314|AlignEnd=269454
+1	pas	pas	ADV	_	Polarity=Neg	0	root	_	AlignBegin=269314|AlignEnd=269454|Answer=Rhap_D0009-166::6
 2-3	du	_	_	_	_	_	_	_	_
 2	de	de	ADP	_	_	4	case	_	AlignBegin=269454|AlignEnd=269574
-3	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	AlignBegin=269454|AlignEnd=269574
+3	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
 4	tout	tout	NOUN	_	Gender=Masc|Number=Sing	1	obl:mod	_	AlignBegin=269574|AlignEnd=269821|Exponence[Gender]=Inherent|Exponence[Number]=Absent|SpaceAfter=No
 5	.	.	PUNCT	_	_	1	punct	_	AlignBegin=269821|AlignEnd=269821
 
@@ -2737,7 +2737,7 @@
 # speaker_id = §LF11
 # macrosyntax = $L2 ^parce ^que ça donne un aspect ( quand même ) plus moderne si tu $- mets le tissu tout autour //
 # text = parce que ça donne un aspect, quand même, plus moderne si tu mets le tissu tout autour.
-1	parce	parce	ADV	_	ExtPos=SCONJ	4	mark	_	AlignBegin=271093|AlignEnd=271190|Idiom=Yes
+1	parce	parce	ADV	_	ExtPos=SCONJ	4	mark	_	AlignBegin=271093|AlignEnd=271190|Automated=Yes|Coconstruct=mod::Rhap_D0009-169::3|Idiom=Yes
 2	que	que	SCONJ	_	_	1	fixed	_	AlignBegin=271190|AlignEnd=271293|InIdiom=Yes
 3	ça	ça	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	4	nsubj	_	AlignBegin=271293|AlignEnd=271436|Exponence[Gender]=Inherent|Exponence[Number]=Inherent|Exponence[Person]=Inherent
 4	donne	donner	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	AlignBegin=271436|AlignEnd=271561|Exponence[Number]=Absent|Exponence[Person]=Absent
@@ -2778,7 +2778,7 @@
 # speaker_id = §LM5
 # macrosyntax = oui //
 # text = oui.
-1	oui	oui	INTJ	_	_	0	root	_	AlignBegin=0|AlignEnd=0|Backchannel=Rhap_D0009-170::19|SpaceAfter=No
+1	oui	oui	INTJ	_	_	0	root	_	AlignBegin=0|AlignEnd=0|Answer=Rhap_D0009-170::1|SpaceAfter=No
 2	.	.	PUNCT	_	_	1	punct	_	AlignBegin=0|AlignEnd=0
 
 # sent_id = Rhap_D0009-173
@@ -2814,7 +2814,7 @@
 # speaker_id = §LM5
 # macrosyntax = $L1 { non | non } // -$
 # text = non, non.
-1	non	non	ADV	_	Polarity=Neg	0	root	_	AlignBegin=276124|AlignEnd=276889|Backchannel=Rhap_D0009-174::4|Overlap=Rhap_D0009-174|SpaceAfter=No
+1	non	non	ADV	_	Polarity=Neg	0	root	_	AlignBegin=276124|AlignEnd=276889|Answer=Rhap_D0009-174::4|Overlap=Rhap_D0009-174|SpaceAfter=No
 2	,	,	PUNCT	_	_	3	punct	_	AlignBegin=276889|AlignEnd=0|Overlap=Rhap_D0009-138
 3	non	non	ADV	_	Polarity=Neg	1	conj	_	AlignBegin=0|AlignEnd=0|Overlap=Rhap_D0009-174|SpaceAfter=No
 4	.	.	PUNCT	_	_	1	punct	_	AlignBegin=0|AlignEnd=0|Overlap=Rhap_D0009-138
@@ -2825,7 +2825,7 @@
 # speaker_id = §LM5
 # macrosyntax = $L1 { non | non } //
 # text = non, non.
-1	non	non	ADV	_	Polarity=Neg	0	root	_	AlignBegin=277472|AlignEnd=277577|Backchannel=Rhap_D0009-175::1|SpaceAfter=No
+1	non	non	ADV	_	Polarity=Neg	0	root	_	AlignBegin=277472|AlignEnd=277577|Answer=Rhap_D0009-174::4|SpaceAfter=No
 2	,	,	PUNCT	_	_	3	punct	_	AlignBegin=277577|AlignEnd=277577
 3	non	non	ADV	_	Polarity=Neg	1	conj	_	AlignBegin=277577|AlignEnd=277742|SpaceAfter=No
 4	.	.	PUNCT	_	_	1	punct	_	AlignBegin=277742|AlignEnd=277742
@@ -2901,10 +2901,10 @@
 # speaker_id = §LM5
 # macrosyntax = $L1 "mh mh" //
 # text = mh, mh.
-1	mh	mh	INTJ	_	_	3	reparandum	_	AlignBegin=283787|AlignEnd=283902|Backchannel=Rhap_D0009-180::5|SpaceAfter=No
-2	,	,	PUNCT	_	_	1	punct	_	AlignBegin=283902|AlignEnd=283902
-3	mh	mh	INTJ	_	_	0	root	_	AlignBegin=283902|AlignEnd=284062|SpaceAfter=No
-4	.	.	PUNCT	_	_	3	punct	_	AlignBegin=284062|AlignEnd=284062
+1	mh	mh	INTJ	_	_	0	root	_	AlignBegin=283787|AlignEnd=283902|Backchannel=Rhap_D0009-180::2|SpaceAfter=No
+2	,	,	PUNCT	_	_	3	punct	_	AlignBegin=283902|AlignEnd=283902
+3	mh	mh	INTJ	_	_	1	conj	_	AlignBegin=283902|AlignEnd=284062|SpaceAfter=No
+4	.	.	PUNCT	_	_	1	punct	_	AlignBegin=284062|AlignEnd=284062
 
 # sent_id = Rhap_D0009-183
 # prosodic_annotation = yes
@@ -2915,7 +2915,7 @@
 1	même	même	ADV	_	_	7	advmod	_	AlignBegin=284426|AlignEnd=284581
 2-3	au	_	_	_	_	_	_	_	_
 2	à	à	ADP	_	_	4	case	_	AlignBegin=284581|AlignEnd=284651
-3	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	AlignBegin=284581|AlignEnd=284651
+3	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
 4	nettoyage	nettoyage	NOUN	_	Gender=Masc|Number=Sing	1	obl:arg	_	AlignBegin=284651|AlignEnd=285191|Exponence[Gender]=Inherent|Exponence[Number]=Absent|SpaceAfter=No
 5	,	,	PUNCT	_	_	1	punct	_	AlignBegin=285221|AlignEnd=285221
 6	je	moi	PRON	_	Case=Nom|Emph=No|Number=Sing|Person=1|PronType=Prs	7	nsubj	_	AlignBegin=285191|AlignEnd=285221|Exponence[Number]=Inherent|Exponence[Person]=Inherent
@@ -2936,7 +2936,7 @@
 # text = ah, ouais.
 1	ah	ah	INTJ	_	_	3	discourse	_	AlignBegin=285862|AlignEnd=286271|Overlap=Rhap_D0009-183|SpaceAfter=No
 2	,	,	PUNCT	_	_	1	punct	_	AlignBegin=286271|AlignEnd=285862|Overlap=Rhap_D0009-145
-3	ouais	ouais	INTJ	_	_	0	root	_	AlignBegin=285862|AlignEnd=286271|Backchannel=Rhap_D0009-183::12|Overlap=Rhap_D0009-183|SpaceAfter=No
+3	ouais	ouais	INTJ	_	_	0	root	_	AlignBegin=285862|AlignEnd=286271|Backchannel=Rhap_D0009-183::6|Overlap=Rhap_D0009-183|SpaceAfter=No
 4	.	.	PUNCT	_	_	3	punct	_	AlignBegin=286271|AlignEnd=286271|Overlap=Rhap_D0009-145
 
 # sent_id = Rhap_D0009-185
@@ -3058,7 +3058,7 @@
 # speaker_id = §LF11
 # macrosyntax = ^parce ^qu'on était allé le voir ce monsieur-là //
 # text = parce qu'on était allé le voir ce monsieur-là.
-1	parce	parce	ADV	_	ExtPos=SCONJ	5	mark	_	AlignBegin=296008|AlignEnd=296168|Idiom=Yes
+1	parce	parce	ADV	_	ExtPos=SCONJ	5	mark	_	AlignBegin=296008|AlignEnd=296168|Automated=Yes|Coconstruct=mod::Rhap_D0009-191::3|Idiom=Yes|SingleSpeaker=Yes
 2	qu'	que	SCONJ	_	_	1	fixed	_	AlignBegin=296168|AlignEnd=296198|InIdiom=Yes|SpaceAfter=No
 3	on	on	PRON	_	Case=Nom|Emph=No|Gender=Masc|Number=Sing|Person=3|PronType=Ind	5	nsubj:pass	_	AlignBegin=296198|AlignEnd=296368|Exponence[Gender]=Absent|Exponence[Number]=Inherent|Exponence[Person]=Inherent
 4	était	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	5	aux:pass	_	AlignBegin=296368|AlignEnd=296618
@@ -3122,7 +3122,7 @@
 # text = du tout ?
 1-2	du	_	_	_	_	_	_	_	_
 1	de	de	ADP	_	_	3	case	_	AlignBegin=301958|AlignEnd=302082
-2	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	AlignBegin=301958|AlignEnd=302082
+2	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
 3	tout	tout	NOUN	_	Gender=Masc|Number=Sing	0	root	_	AlignBegin=302082|AlignEnd=302362|Exponence[Gender]=Inherent|Exponence[Number]=Absent|Overlap=Rhap_D0009-198
 4	?	?	PUNCT	_	_	3	punct	_	AlignBegin=302362|AlignEnd=302362|Overlap=Rhap_D0009-156ter
 
@@ -3132,7 +3132,7 @@
 # speaker_id = §LM5
 # macrosyntax = $L1 non -$ //
 # text = non.
-1	non	non	ADV	_	Polarity=Neg	0	root	_	AlignBegin=0|AlignEnd=0|Backchannel=Rhap_D0009-197::1|Overlap=Rhap_D0009-197|SpaceAfter=No
+1	non	non	ADV	_	Polarity=Neg	0	root	_	AlignBegin=0|AlignEnd=0|Answer=Rhap_D0009-197::1|Overlap=Rhap_D0009-197|SpaceAfter=No
 2	.	.	PUNCT	_	_	1	punct	_	AlignBegin=0|AlignEnd=0|Overlap=Rhap_D0009-156bis
 
 # sent_id = Rhap_D0009-199
@@ -3179,7 +3179,7 @@
 # speaker_id = §LM5
 # macrosyntax = $L1 ouais // -$
 # text = ouais.
-1	ouais	ouais	INTJ	_	_	0	root	_	AlignBegin=307271|AlignEnd=307386|Backchannel=Rhap_D0009-201::7|Overlap=Rhap_D0009-201|SpaceAfter=No
+1	ouais	ouais	INTJ	_	_	0	root	_	AlignBegin=307271|AlignEnd=307386|Backchannel=Rhap_D0009-201::3|Overlap=Rhap_D0009-201|SpaceAfter=No
 2	.	.	PUNCT	_	_	1	punct	_	AlignBegin=307386|AlignEnd=307386|Overlap=Rhap_D0009-159
 
 # sent_id = Rhap_D0009-203
@@ -3188,7 +3188,7 @@
 # speaker_id = §LM5
 # macrosyntax = ouais //
 # text = ouais.
-1	ouais	ouais	INTJ	_	_	0	root	_	AlignBegin=0|AlignEnd=0|Backchannel=Rhap_D0009-202::1|SpaceAfter=No
+1	ouais	ouais	INTJ	_	_	0	root	_	AlignBegin=0|AlignEnd=0|Backchannel=Rhap_D0009-201::3|SpaceAfter=No
 2	.	.	PUNCT	_	_	1	punct	_	AlignBegin=0|AlignEnd=0
 
 # sent_id = Rhap_D0009-204
@@ -3204,7 +3204,7 @@
 5	avec	avec	ADP	_	_	7	case	_	AlignBegin=307856|AlignEnd=308026
 6	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	det	_	AlignBegin=308026|AlignEnd=308126|HasSpokenGender=OnlySingExceptWithLiaison
 7	maison	maison	NOUN	_	Gender=Fem|Number=Sing	4	obl:arg	_	AlignBegin=308126|AlignEnd=308316|Exponence[Gender]=Inherent|Exponence[Number]=Absent
-8	Morel	Morel	PROPN	_	_	7	nmod:appos	_	AlignBegin=308316|AlignEnd=308576|SpaceAfter=No
+8	Morel	Morel	PROPN	_	_	7	appos	_	AlignBegin=308316|AlignEnd=308576|SpaceAfter=No
 9	.	.	PUNCT	_	_	4	punct	_	AlignBegin=308576|AlignEnd=308576
 
 # sent_id = Rhap_D0009-205
@@ -3232,10 +3232,10 @@
 # speaker_id = §LF11
 # macrosyntax = $L2 "mh mh" //
 # text = mh, mh.
-1	mh	mh	INTJ	_	_	3	reparandum	_	AlignBegin=309997|AlignEnd=310172|Backchannel=Rhap_D0009-205::11|SpaceAfter=No
-2	,	,	PUNCT	_	_	1	punct	_	AlignBegin=310172|AlignEnd=310172
-3	mh	mh	INTJ	_	_	0	root	_	AlignBegin=310172|AlignEnd=310444|SpaceAfter=No
-4	.	.	PUNCT	_	_	3	punct	_	AlignBegin=310444|AlignEnd=310444
+1	mh	mh	INTJ	_	_	0	root	_	AlignBegin=309997|AlignEnd=310172|Backchannel=Rhap_D0009-205::6|SpaceAfter=No
+2	,	,	PUNCT	_	_	3	punct	_	AlignBegin=310172|AlignEnd=310172
+3	mh	mh	INTJ	_	_	1	conj	_	AlignBegin=310172|AlignEnd=310444|SpaceAfter=No
+4	.	.	PUNCT	_	_	1	punct	_	AlignBegin=310444|AlignEnd=310444
 
 # sent_id = Rhap_D0009-207
 # prosodic_annotation = yes

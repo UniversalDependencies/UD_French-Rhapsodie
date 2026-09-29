@@ -10,14 +10,14 @@
 4	de	de	ADP	_	_	6	case	_	AlignBegin=2037|AlignEnd=2097
 5	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	AlignBegin=2097|AlignEnd=2167|HasSpokenGender=OnlySingExceptWithLiaison
 6	place	place	NOUN	_	Gender=Fem|Number=Sing	3	obl:arg	_	AlignBegin=2167|AlignEnd=2417|Exponence[Gender]=Inherent|Exponence[Number]=Absent
-7	Paul	Paul	PROPN	_	_	6	nmod:appos	_	AlignBegin=2417|AlignEnd=2587
+7	Paul	Paul	PROPN	_	_	6	appos	_	AlignBegin=2417|AlignEnd=2587
 8	Vallier	Vallier	PROPN	_	_	7	flat:name	_	AlignBegin=2587|AlignEnd=2942
 9	pour	pour	ADP	_	_	10	mark	_	AlignBegin=2942|AlignEnd=3042
 10	aller	aller	VERB	_	VerbForm=Inf	3	advcl	_	AlignBegin=3042|AlignEnd=3132|Subject=NoRaising
 11	à	à	ADP	_	_	13	case	_	AlignBegin=3132|AlignEnd=3242
 12	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	13	det	_	AlignBegin=3242|AlignEnd=3362|HasSpokenGender=OnlySingExceptWithLiaison
 13	place	place	NOUN	_	Gender=Fem|Number=Sing	10	obl:arg	_	AlignBegin=3362|AlignEnd=3672|Exponence[Gender]=Inherent|Exponence[Number]=Absent
-14	Notre-Dame	Notre-Dame	PROPN	_	_	13	nmod:appos	_	AlignBegin=3672|AlignEnd=4276|SpaceAfter=No
+14	Notre-Dame	Notre-Dame	PROPN	_	_	13	appos	_	AlignBegin=3672|AlignEnd=4276|SpaceAfter=No
 15	,	,	PUNCT	_	_	3	punct	_	AlignBegin=4276|AlignEnd=4369
 16	alors	alors	ADV	_	_	18	discourse	_	AlignBegin=4369|AlignEnd=4619
 17	j'	moi	PRON	_	Case=Nom|Emph=No|Number=Sing|Person=1|PronType=Prs	18	nsubj	_	AlignBegin=4679|AlignEnd=4769|Exponence[Number]=Inherent|Exponence[Person]=Inherent|SpaceAfter=No
@@ -39,7 +39,7 @@
 3	par	par	ADP	_	_	5	case	_	AlignBegin=7144|AlignEnd=7284
 4	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	AlignBegin=7284|AlignEnd=7384|HasSpokenGender=OnlySingExceptWithLiaison
 5	place	place	NOUN	_	Gender=Fem|Number=Sing	2	obl:arg	_	AlignBegin=7384|AlignEnd=7714|Exponence[Gender]=Inherent|Exponence[Number]=Absent
-6	Vaucanson	Vaucanson	PROPN	_	_	5	nmod:appos	_	AlignBegin=7714|AlignEnd=8474|SpaceAfter=No
+6	Vaucanson	Vaucanson	PROPN	_	_	5	appos	_	AlignBegin=7714|AlignEnd=8474|SpaceAfter=No
 7	.	.	PUNCT	_	_	2	punct	_	AlignBegin=8474|AlignEnd=8474
 
 # sent_id = Rhap_M0014-3
@@ -51,10 +51,10 @@
 1	je	moi	PRON	_	Case=Nom|Emph=No|Number=Sing|Person=1|PronType=Prs	2	nsubj	_	AlignBegin=9143|AlignEnd=9523|Exponence[Number]=Inherent|Exponence[Person]=Inherent
 2	prends	prendre	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	AlignBegin=9946|AlignEnd=11236|Exponence[Person]=Absent
 3	direction	direction	NOUN	_	Gender=Fem|Number=Sing	2	obj	_	AlignBegin=11236|AlignEnd=11716|Exponence[Gender]=Inherent|Exponence[Number]=Absent
-4	Maison	Maison	PROPN	_	_	3	nmod:appos	_	AlignBegin=11716|AlignEnd=12046
+4	Maison	Maison	PROPN	_	_	3	appos	_	AlignBegin=11716|AlignEnd=12046
 5-6	du	_	_	_	_	_	_	_	_
 5	de	de	ADP	_	_	7	case	_	AlignBegin=12046|AlignEnd=12166
-6	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	AlignBegin=12046|AlignEnd=12166
+6	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
 7	tourisme	tourisme	NOUN	_	Gender=Masc|Number=Sing	4	nmod	_	AlignBegin=12166|AlignEnd=13048|Exponence[Gender]=Inherent|Exponence[Number]=Absent|SpaceAfter=No
 8	.	.	PUNCT	_	_	2	punct	_	AlignBegin=13048|AlignEnd=13048
 
@@ -64,14 +64,14 @@
 # speaker_id = §LF29
 # macrosyntax = "euh" à la Maison du tourisme <+ { je contourne | enfin je prends } la rue de la République en remontant la rue de la République //
 # text = euh, à la Maison du tourisme, je contourne, enfin je prends la rue de la République en remontant la rue de la République.
-1	euh	euh	INTJ	_	_	11	discourse	_	AlignBegin=14205|AlignEnd=14575|SpaceAfter=No
+1	euh	euh	INTJ	_	_	11	discourse:filler	_	AlignBegin=14205|AlignEnd=14575|SpaceAfter=No
 2	,	,	PUNCT	_	_	1	punct	_	AlignBegin=14575|AlignEnd=14799
 3	à	à	ADP	_	_	5	case	_	AlignBegin=14799|AlignEnd=14899
 4	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	AlignBegin=14899|AlignEnd=14999|HasSpokenGender=OnlySingExceptWithLiaison
 5	Maison	Maison	PROPN	_	_	11	obl:mod	_	AlignBegin=14999|AlignEnd=15279
 6-7	du	_	_	_	_	_	_	_	_
 6	de	de	ADP	_	_	8	case	_	AlignBegin=15279|AlignEnd=15389
-7	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	AlignBegin=15279|AlignEnd=15389
+7	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
 8	tourisme	tourisme	NOUN	_	Gender=Masc|Number=Sing	5	nmod	_	AlignBegin=15389|AlignEnd=16254|Exponence[Gender]=Inherent|Exponence[Number]=Absent|SpaceAfter=No
 9	,	,	PUNCT	_	_	5	punct	_	AlignBegin=16254|AlignEnd=16254
 10	je	moi	PRON	_	Case=Nom|Emph=No|Number=Sing|Person=1|PronType=Prs	11	nsubj	_	AlignBegin=16254|AlignEnd=16574|Exponence[Number]=Inherent|Exponence[Person]=Inherent
@@ -105,7 +105,7 @@
 3	sur	sur	ADP	_	_	5	case	_	AlignBegin=23367|AlignEnd=23567
 4	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	AlignBegin=23567|AlignEnd=23677|HasSpokenGender=OnlySingExceptWithLiaison
 5	place	place	NOUN	_	Gender=Fem|Number=Sing	2	obl:mod	_	AlignBegin=23677|AlignEnd=24137|Exponence[Gender]=Inherent|Exponence[Number]=Absent
-6	Sainte-Claire	Sainte-Claire	PROPN	_	_	5	nmod:appos	_	AlignBegin=24137|AlignEnd=25211|SpaceAfter=No
+6	Sainte-Claire	Sainte-Claire	PROPN	_	_	5	appos	_	AlignBegin=24137|AlignEnd=25211|SpaceAfter=No
 7	,	,	PUNCT	_	_	9	punct	_	AlignBegin=25141|AlignEnd=25211
 8	on	on	PRON	_	Case=Nom|Emph=No|Gender=Masc|Number=Sing|Person=3|PronType=Ind	9	nsubj	_	AlignBegin=25211|AlignEnd=25271|Exponence[Gender]=Absent|Exponence[Number]=Inherent|Exponence[Person]=Inherent
 9	va	aller	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	discourse	_	AlignBegin=25271|AlignEnd=25411
@@ -132,6 +132,6 @@
 4	à	à	ADP	_	_	6	case	_	AlignBegin=27361|AlignEnd=27390
 5	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	AlignBegin=27390|AlignEnd=27465|HasSpokenGender=OnlySingExceptWithLiaison
 6	place	place	NOUN	_	Gender=Fem|Number=Sing	3	obl:arg	_	AlignBegin=27465|AlignEnd=27715|Exponence[Gender]=Inherent|Exponence[Number]=Absent
-7	Notre-Dame	Notre-Dame	PROPN	_	_	6	nmod:appos	_	AlignBegin=27715|AlignEnd=28147|SpaceAfter=No
+7	Notre-Dame	Notre-Dame	PROPN	_	_	6	appos	_	AlignBegin=27715|AlignEnd=28147|SpaceAfter=No
 8	.	.	PUNCT	_	_	3	punct	_	AlignBegin=28147|AlignEnd=28147
 

@@ -5,10 +5,10 @@
 # macrosyntax = le succès des réseaux sociaux sur internet n'est plus à démontrer //
 # text = le succès des réseaux sociaux sur internet n'est plus à démontrer.
 1	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	AlignBegin=125|AlignEnd=350|HasSpokenGender=OnlySingExceptWithLiaison
-2	succès	succès	NOUN	_	Gender=Masc|Number=Sing	13	nsubj	_	AlignBegin=350|AlignEnd=750|Exponence[Gender]=Inherent|Exponence[Number]=Absent
+2	succès	succès	NOUN	_	Gender=Masc|Number=Sing	13	nsubj	_	AlignBegin=350|AlignEnd=750|cdet=No|Exponence[Gender]=Inherent|Exponence[Number]=Absent
 3-4	des	_	_	_	_	_	_	_	_
 3	de	de	ADP	_	_	5	case	_	AlignBegin=750|AlignEnd=860
-4	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	5	det	_	AlignBegin=750|AlignEnd=860
+4	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	5	det	_	_
 5	réseaux	réseau	NOUN	_	Gender=Masc|Number=Plur	2	nmod	_	AlignBegin=860|AlignEnd=1150|Exponence[Gender]=Inherent|Exponence[Number]=Absent
 6	sociaux	social	ADJ	_	Gender=Masc|Number=Plur	5	amod	_	AlignBegin=1150|AlignEnd=1700|HasSpokenGender=OnlyPlur|HasSpokenNumber=AlwaysMasc
 7	sur	sur	ADP	_	_	8	case	_	AlignBegin=1700|AlignEnd=1900
@@ -35,7 +35,7 @@
 7	voir	voir	VERB	_	VerbForm=Inf	4	ccomp	_	AlignBegin=3965|AlignEnd=4245|Subject=NoRaising
 8	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	10	det	_	AlignBegin=4245|AlignEnd=4365|HasSpokenGender=OnlySingExceptWithLiaison
 9	soixante-cinq	soixante-cinq	NUM	_	Number=Plur	10	nummod	_	AlignBegin=4365|AlignEnd=5235|Exponence[Number]=Inherent
-10	millions	million	NOUN	_	Gender=Masc|Number=Plur	7	obj	_	AlignBegin=5235|AlignEnd=5615|Exponence[Gender]=Inherent|Exponence[Number]=Absent
+10	millions	million	NOUN	_	Gender=Masc|Number=Plur	7	obj	_	AlignBegin=5235|AlignEnd=5615|cdet=Ambiguous|Exponence[Gender]=Inherent|Exponence[Number]=Absent
 11	d'	de	ADP	_	_	12	case	_	AlignBegin=5615|AlignEnd=5665|SpaceAfter=No
 12	utilisateurs	utilisateur	NOUN	_	Gender=Masc|Number=Plur	10	nmod	_	AlignBegin=5665|AlignEnd=6215|Exponence[Gender]=Inherent|Exponence[Number]=Absent|LiaisonPossibleBefore=Yes
 13	de	de	ADP	_	_	14	case	_	AlignBegin=6215|AlignEnd=6305
@@ -54,7 +54,7 @@
 4	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	5	det	_	AlignBegin=8279|AlignEnd=8509|HasSpokenGender=OnlySingExceptWithLiaison
 5	sites	site	NOUN	_	Gender=Masc|Number=Plur	2	obj	_	AlignBegin=8509|AlignEnd=8979|Exponence[Gender]=Inherent|Exponence[Number]=Absent|SpaceAfter=No
 6	,	,	PUNCT	_	_	7	punct	_	AlignBegin=8979|AlignEnd=8979
-7	euh	euh	INTJ	_	_	5	discourse	_	AlignBegin=8979|AlignEnd=9229|SpaceAfter=No
+7	euh	euh	INTJ	_	_	5	discourse:filler	_	AlignBegin=8979|AlignEnd=9229|SpaceAfter=No
 8	,	,	PUNCT	_	_	9	punct	_	AlignBegin=9229|AlignEnd=9229
 9	sociaux	social	ADJ	_	Gender=Masc|Number=Plur	5	amod	_	AlignBegin=9229|AlignEnd=9794|HasSpokenGender=OnlyPlur|HasSpokenNumber=AlwaysMasc
 10	spécialisés	spécialisé	ADJ	_	Gender=Masc|Number=Plur	5	amod	_	AlignBegin=9908|AlignEnd=10860|Exponence[Gender]=Absent|Exponence[Number]=Absent|HasSpokenGender=NotInThisDialect|HasSpokenNumber=OnlyWithLiaison
@@ -109,9 +109,9 @@
 7	,	,	PUNCT	_	_	9	punct	_	AlignBegin=21326|AlignEnd=21326
 8	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	_	AlignBegin=21326|AlignEnd=21506|HasSpokenGender=OnlySingExceptWithLiaison
 9	site	site	NOUN	_	Gender=Masc|Number=Sing	3	obj	_	AlignBegin=21506|AlignEnd=21914|Exponence[Gender]=Inherent|Exponence[Number]=Absent
-10	A	A	X	_	Foreign=Yes	9	nmod:appos	_	AlignBegin=22010|AlignEnd=22055|InTitle=Yes|Lang=en
+10	A	A	X	_	Foreign=Yes	9	nmod:appos	_	AlignBegin=22010|AlignEnd=22055|Lang=en|Title=Yes
 11	Small	Small	X	_	Foreign=Yes	10	flat:foreign	_	AlignBegin=22055|AlignEnd=22415|InTitle=Yes|Lang=en
-12	World	World	X	_	Foreign=Yes	10	flat:foreign	_	AlignBegin=22415|AlignEnd=22850|Lang=en|SpaceAfter=No|Title=Yes
+12	World	World	X	_	Foreign=Yes	10	flat:foreign	_	AlignBegin=22415|AlignEnd=22850|InTitle=Yes|Lang=en|SpaceAfter=No
 13	.	.	PUNCT	_	_	2	punct	_	AlignBegin=22850|AlignEnd=22850
 
 # sent_id = Rhap_M2005-6
@@ -125,10 +125,10 @@
 3	américain	américain	ADJ	_	Gender=Masc|Number=Sing	2	amod	_	AlignBegin=23978|AlignEnd=24538|Exponence[Number]=Absent|HasSpokenGender=YesExceptSingWithLiaison|HasSpokenNumber=OnlyWithLiaison
 4	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	cop	_	AlignBegin=24538|AlignEnd=24578
 5	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	6	det	_	AlignBegin=24578|AlignEnd=24758
-6	sorte	sorte	NOUN	_	Gender=Fem|Number=Sing	0	root	_	AlignBegin=24758|AlignEnd=25168|Exponence[Gender]=Inherent|Exponence[Number]=Absent
+6	sorte	sorte	NOUN	_	Gender=Fem|Number=Sing	0	root	_	AlignBegin=24758|AlignEnd=25168|cdet=Ambiguous|Exponence[Gender]=Inherent|Exponence[Number]=Absent
 7	de	de	ADP	_	_	8	case	_	AlignBegin=25168|AlignEnd=25269
 8	club	club	NOUN	_	Gender=Masc|Number=Sing	6	nmod	_	AlignBegin=25413|AlignEnd=25678|Exponence[Gender]=Inherent|Exponence[Number]=Absent
-9	VIP	VIP	PROPN	_	_	8	nmod:appos	_	AlignBegin=25678|AlignEnd=26418
+9	VIP	VIP	PROPN	_	_	8	appos	_	AlignBegin=25678|AlignEnd=26418
 10	réservé	réserver	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part	8	acl	_	AlignBegin=26418|AlignEnd=27188|Exponence[Gender]=Absent|Exponence[Number]=Absent|PastPartHasSpokenGender=NotInThisDialect|Tense[denom]=Past
 11	à	à	ADP	_	_	13	case	_	AlignBegin=27188|AlignEnd=27228
 12	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	13	det	_	AlignBegin=27228|AlignEnd=27348|HasSpokenGender=OnlySingExceptWithLiaison
@@ -197,14 +197,14 @@
 5	entrer	entrer	VERB	_	VerbForm=Inf	2	ccomp	_	AlignBegin=40275|AlignEnd=40841|Subject=NoRaising
 6	pour	pour	ADP	_	_	10	mark	_	AlignBegin=40889|AlignEnd=41134|SpaceAfter=No
 7	,	,	PUNCT	_	_	8	punct	_	AlignBegin=41134|AlignEnd=41134
-8	euh	euh	INTJ	_	_	11	discourse	_	AlignBegin=41134|AlignEnd=41294|SpaceAfter=No
+8	euh	euh	INTJ	_	_	11	discourse:filler	_	AlignBegin=41134|AlignEnd=41294|SpaceAfter=No
 9	,	,	PUNCT	_	_	10	punct	_	AlignBegin=41294|AlignEnd=41294
 10	pouvoir	pouvoir	VERB	_	VerbForm=Inf	5	advcl	_	AlignBegin=41294|AlignEnd=41644|Subject=NoRaising
 11	tchater	tchater	VERB	_	VerbForm=Inf	10	xcomp	_	AlignBegin=41644|AlignEnd=42274|Subject=SubjRaising
 12	ou	ou	CCONJ	_	_	13	cc	_	AlignBegin=42274|AlignEnd=42364
 13	échanger	échanger	VERB	_	VerbForm=Inf	11	conj	_	AlignBegin=42364|AlignEnd=42734|Subject=SubjRaising
 14	vos	son	DET	_	Number=Plur|Number[psor]=Plur|Person[psor]=2|Poss=Yes|PronType=Prs	15	det	_	AlignBegin=42734|AlignEnd=42824|HasSpokenGender=OnlySingExceptWithLiaison
-15	photos	photo	NOUN	_	Gender=Fem|Number=Plur	13	obj	_	AlignBegin=42824|AlignEnd=43144|Exponence[Gender]=Inherent|Exponence[Number]=Absent
+15	photos	photo	NOUN	_	Gender=Fem|Number=Plur	13	obj	_	AlignBegin=42824|AlignEnd=43144|cdet=No|Exponence[Gender]=Inherent|Exponence[Number]=Absent
 16	de	de	ADP	_	_	17	case	_	AlignBegin=43144|AlignEnd=43191
 17	vacances	vacance	NOUN	_	Gender=Fem|Number=Plur	15	nmod	_	AlignBegin=43191|AlignEnd=43613|Exponence[Gender]=Inherent|Exponence[Number]=Absent
 18	avec	avec	ADP	_	_	20	case	_	AlignBegin=43613|AlignEnd=43804
@@ -275,21 +275,21 @@
 8	accessible	accessible	ADJ	_	Gender=Masc|Number=Sing	5	conj	_	AlignBegin=55325|AlignEnd=55895|Exponence[Gender]=Absent|Exponence[Number]=Absent|HasSpokenGender=No|HasSpokenNumber=OnlyWithLiaison
 9-10	au	_	_	_	_	_	_	_	_
 9	à	à	ADP	_	_	11	case	_	AlignBegin=55895|AlignEnd=55955
-10	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	11	det	_	AlignBegin=55895|AlignEnd=55955
-11	commun	commun	NOUN	_	Gender=Masc|Number=Sing	8	obl:mod	_	AlignBegin=55955|AlignEnd=56205|Exponence[Gender]=Inherent|Exponence[Number]=Absent
+10	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
+11	commun	commun	NOUN	_	Gender=Masc|Number=Sing	8	obl:mod	_	AlignBegin=55955|AlignEnd=56205|cdet=No|Exponence[Gender]=Inherent|Exponence[Number]=Absent
 12-13	des	_	_	_	_	_	_	_	_
 12	de	de	ADP	_	_	14	case	_	AlignBegin=56205|AlignEnd=56305
-13	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	14	det	_	AlignBegin=56205|AlignEnd=56305
+13	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	14	det	_	_
 14	mortels	mortel	NOUN	_	Gender=Masc|Number=Plur	11	nmod	_	AlignBegin=56305|AlignEnd=56675|Exponence[Gender]=Inherent|Exponence[Number]=Absent|SpaceAfter=No
 15	,	,	PUNCT	_	_	5	punct	_	AlignBegin=56675|AlignEnd=56675
 16	on	on	PRON	_	Case=Nom|Emph=No|Gender=Masc|Number=Sing|Person=3|PronType=Ind	17	nsubj	_	AlignBegin=56675|AlignEnd=56750|Exponence[Gender]=Absent|Exponence[Number]=Inherent|Exponence[Person]=Inherent
 17	peut	pouvoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	AlignBegin=56750|AlignEnd=56910|Exponence[Person]=Absent
 18	citer	citer	VERB	_	VerbForm=Inf	17	xcomp	_	AlignBegin=56910|AlignEnd=57270|Subject=SubjRaising
-19	ziki	ziki	PROPN	_	_	23	reparandum	_	AlignBegin=57270|AlignEnd=57850
+19	ziki	ziki	PROPN	_	_	18	obj	_	AlignBegin=57270|AlignEnd=57850
 20	point	point	NOUN	_	Gender=Masc|Number=Sing	19	flat	_	AlignBegin=57850|AlignEnd=58120|Exponence[Gender]=Inherent|Exponence[Number]=Absent
 21	com	com	X	_	_	19	flat	_	AlignBegin=58120|AlignEnd=58465|SpaceAfter=No
-22	,	,	PUNCT	_	_	19	punct	_	AlignBegin=58465|AlignEnd=58465
-23	Z	Z	PROPN	_	_	18	obj	_	AlignBegin=58465|AlignEnd=58730
+22	,	,	PUNCT	_	_	23	punct	_	AlignBegin=58465|AlignEnd=58465
+23	Z	Z	PROPN	_	_	19	conj:reform	_	AlignBegin=58465|AlignEnd=58730
 24	I	I	PROPN	_	_	23	flat:name	_	AlignBegin=58730|AlignEnd=58930
 25	K	K	PROPN	_	_	23	flat:name	_	AlignBegin=58930|AlignEnd=59130
 26	I	I	PROPN	_	_	23	flat:name	_	AlignBegin=59130|AlignEnd=59410|SpaceAfter=No
@@ -368,7 +368,7 @@
 9	ouvrir	ouvrir	VERB	_	VerbForm=Inf	6	xcomp	_	AlignBegin=75140|AlignEnd=75420|Subject=SubjRaising
 10	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	11	det	_	AlignBegin=75420|AlignEnd=75500|HasSpokenGender=OnlySingExceptWithLiaison
 11	site	site	NOUN	_	Gender=Masc|Number=Sing	6	nsubj	_	AlignBegin=75500|AlignEnd=75800|Exponence[Gender]=Inherent|Exponence[Number]=Absent
-12	Famibook	Famibook	PROPN	_	_	11	nmod:appos	_	AlignBegin=76123|AlignEnd=76760
+12	Famibook	Famibook	PROPN	_	_	11	appos	_	AlignBegin=76123|AlignEnd=76760
 13	point	point	NOUN	_	Gender=Masc|Number=Sing	12	flat	_	AlignBegin=76870|AlignEnd=77035|Exponence[Gender]=Inherent|Exponence[Number]=Absent
 14	com	com	X	_	_	12	flat	_	AlignBegin=77035|AlignEnd=77463|SpaceAfter=No
 15	.	.	PUNCT	_	_	6	punct	_	AlignBegin=77463|AlignEnd=77463
@@ -392,7 +392,7 @@
 11	réservé	réserver	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part	6	acl	_	AlignBegin=81600|AlignEnd=82156|Exponence[Gender]=Absent|Exponence[Number]=Absent|PastPartHasSpokenGender=NotInThisDialect|Tense[denom]=Past
 12-13	aux	_	_	_	_	_	_	_	_
 12	à	à	ADP	_	_	14	case	_	AlignBegin=82287|AlignEnd=82402
-13	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	14	det	_	AlignBegin=82287|AlignEnd=82402
+13	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	14	det	_	_
 14	familles	famille	NOUN	_	Gender=Fem|Number=Plur	11	obl:arg	_	AlignBegin=82402|AlignEnd=82962|Exponence[Gender]=Inherent|Exponence[Number]=Absent
 15	pour	pour	ADP	_	_	16	mark	_	AlignBegin=83395|AlignEnd=83520
 16	partager	partager	VERB	_	VerbForm=Inf	11	advcl	_	AlignBegin=83520|AlignEnd=84110|Subject=NoRaising
@@ -449,7 +449,7 @@
 3	,	,	PUNCT	_	_	2	punct	_	AlignBegin=94434|AlignEnd=94434
 4	pour	pour	ADP	_	_	5	mark	_	AlignBegin=94434|AlignEnd=94594
 5	organiser	organiser	VERB	_	VerbForm=Inf	13	advcl	_	AlignBegin=94594|AlignEnd=95144|Subject=NoRaising
-6	l'	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	AlignBegin=95144|AlignEnd=95184|Exponence[Gender]=Absent|HasSpokenGender=OnlySingExceptWithLiaison|LiaisonAfter=Yes|SpaceAfter=No
+6	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	7	det	_	AlignBegin=95144|AlignEnd=95184|HasSpokenGender=OnlySingExceptWithLiaison|LiaisonAfter=Yes|SpaceAfter=No
 7	anniversaire	anniversaire	NOUN	_	Gender=Masc|Number=Sing	5	obj	_	AlignBegin=95184|AlignEnd=95704|Exponence[Gender]=Inherent|Exponence[Number]=Absent|LiaisonPossibleBefore=Yes
 8	de	de	ADP	_	_	10	case	_	AlignBegin=95704|AlignEnd=95784
 9	votre	son	DET	_	Number=Sing|Number[psor]=Plur|Person[psor]=2|Poss=Yes|PronType=Prs	10	det	_	AlignBegin=95784|AlignEnd=96024|HasSpokenGender=OnlySingExceptWithLiaison|LiaisonAfter=Yes
@@ -460,7 +460,7 @@
 14	de	de	ADP	_	_	15	mark	_	AlignBegin=97054|AlignEnd=97174
 15	donner	donner	VERB	_	VerbForm=Inf	13	ccomp	_	AlignBegin=97174|AlignEnd=97404|Subject=NoRaising
 16	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	17	det	_	AlignBegin=97404|AlignEnd=97484|HasSpokenGender=OnlySingExceptWithLiaison
-17	code	code	NOUN	_	Gender=Masc|Number=Sing	15	obj	_	AlignBegin=97484|AlignEnd=97724|Exponence[Gender]=Inherent|Exponence[Number]=Absent
+17	code	code	NOUN	_	Gender=Masc|Number=Sing	15	obj	_	AlignBegin=97484|AlignEnd=97724|cdet=No|Exponence[Gender]=Inherent|Exponence[Number]=Absent
 18	d'	de	ADP	_	_	19	case	_	AlignBegin=97724|AlignEnd=97794|SpaceAfter=No
 19	accès	accès	NOUN	_	Gender=Masc	17	nmod	_	AlignBegin=97794|AlignEnd=98110|Exponence[Gender]=Inherent|LiaisonPossibleBefore=Yes
 20	à	à	ADP	_	_	23	case	_	AlignBegin=98566|AlignEnd=98641
@@ -504,7 +504,7 @@
 14	site	site	NOUN	_	Gender=Masc|Number=Sing	3	appos	_	AlignBegin=107903|AlignEnd=108163|Exponence[Gender]=Inherent|Exponence[Number]=Absent
 15	pour	pour	ADP	_	_	17	case	_	AlignBegin=108163|AlignEnd=108333
 16	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	17	det	_	AlignBegin=108333|AlignEnd=108393|HasSpokenGender=OnlySingExceptWithLiaison|LiaisonAfter=Yes
-17	amateurs	amateur	NOUN	_	Gender=Masc|Number=Plur	14	nmod	_	AlignBegin=108393|AlignEnd=108803|Exponence[Gender]=Inherent|Exponence[Number]=Absent|LiaisonPossibleBefore=Yes
+17	amateurs	amateur	NOUN	_	Gender=Masc|Number=Plur	14	nmod	_	AlignBegin=108393|AlignEnd=108803|cdet=No|Exponence[Gender]=Inherent|Exponence[Number]=Absent|LiaisonPossibleBefore=Yes
 18	de	de	ADP	_	_	19	case	_	AlignBegin=108803|AlignEnd=108893
 19	sport	sport	NOUN	_	Gender=Masc|Number=Sing	17	nmod	_	AlignBegin=108893|AlignEnd=109423|Exponence[Gender]=Inherent|Exponence[Number]=Absent
 20	et	et	CCONJ	_	_	22	cc	_	AlignBegin=109423|AlignEnd=109483

@@ -4,28 +4,28 @@
 # speaker_id = §LM43
 # macrosyntax = "euh" { je |} { d'ici | du CCJ } <+ {| je } remonte l'avenue Alsace-Lorraine jusqu'à la place Victor Hugo //
 # text = euh, je, d'ici, du CCJ, je remonte l'avenue Alsace-Lorraine jusqu'à la place Victor Hugo.
-1	euh	euh	INTJ	_	_	3	reparandum	_	AlignBegin=120|AlignEnd=550|SpaceAfter=No
+1	euh	euh	INTJ	_	_	13	discourse:filler	_	AlignBegin=120|AlignEnd=550|SpaceAfter=No
 2	,	,	PUNCT	_	_	1	punct	_	AlignBegin=550|AlignEnd=916
-3	je	moi	PRON	_	Case=Nom|Emph=No|Number=Sing|Person=1|PronType=Prs	13	discourse	_	AlignBegin=916|AlignEnd=1396|Exponence[Number]=Inherent|Exponence[Person]=Inherent|SpaceAfter=No
+3	je	moi	PRON	_	Case=Nom|Emph=No|Number=Sing|Person=1|PronType=Prs	12	reparandum	_	AlignBegin=916|AlignEnd=1396|Exponence[Number]=Inherent|Exponence[Person]=Inherent|SpaceAfter=No
 4	,	,	PUNCT	_	_	3	punct	_	AlignBegin=1396|AlignEnd=1492
 5	d'	de	ADP	_	_	6	case	_	AlignBegin=1492|AlignEnd=1532|SpaceAfter=No
-6	ici	ici	ADV	_	_	10	reparandum	_	AlignBegin=1532|AlignEnd=2140|SpaceAfter=No
-7	,	,	PUNCT	_	_	6	punct	_	AlignBegin=2140|AlignEnd=2270
+6	ici	ici	ADV	_	_	13	advmod	_	AlignBegin=1532|AlignEnd=2140|SpaceAfter=No
+7	,	,	PUNCT	_	_	10	punct	_	AlignBegin=2140|AlignEnd=2270
 8-9	du	_	_	_	_	_	_	_	_
 8	de	de	ADP	_	_	10	case	_	AlignBegin=2270|AlignEnd=2410
-9	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	10	det	_	AlignBegin=2270|AlignEnd=2410
-10	CCJ	CCJ	PROPN	_	_	13	obl:mod	_	AlignBegin=2410|AlignEnd=3130|SpaceAfter=No
-11	,	,	PUNCT	_	_	10	punct	_	AlignBegin=3130|AlignEnd=3130
+9	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
+10	CCJ	CCJ	PROPN	_	_	6	conj:reform	_	AlignBegin=2410|AlignEnd=3130|SpaceAfter=No
+11	,	,	PUNCT	_	_	6	punct	_	AlignBegin=3130|AlignEnd=3130
 12	je	moi	PRON	_	Case=Nom|Emph=No|Number=Sing|Person=1|PronType=Prs	13	nsubj	_	AlignBegin=3130|AlignEnd=4113|Exponence[Number]=Inherent|Exponence[Person]=Inherent
 13	remonte	remonter	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	AlignBegin=4113|AlignEnd=4470|Exponence[Person]=Absent
 14	l'	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	15	det	_	AlignBegin=4470|AlignEnd=4500|Exponence[Gender]=Absent|HasSpokenGender=OnlySingExceptWithLiaison|LiaisonAfter=Yes|SpaceAfter=No
 15	avenue	avenue	NOUN	_	Gender=Fem|Number=Sing	13	obj	_	AlignBegin=4500|AlignEnd=4663|Exponence[Gender]=Inherent|Exponence[Number]=Absent|LiaisonPossibleBefore=Yes
-16	Alsace-Lorraine	Alsace-Lorraine	PROPN	_	_	15	nmod:appos	_	AlignBegin=4663|AlignEnd=5180
+16	Alsace-Lorraine	Alsace-Lorraine	PROPN	_	_	15	appos	_	AlignBegin=4663|AlignEnd=5180
 17	jusqu'	jusque	ADP	_	_	20	case	_	AlignBegin=5180|AlignEnd=5410|SpaceAfter=No
 18	à	à	ADP	_	_	20	case	_	AlignBegin=5410|AlignEnd=5440
 19	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	20	det	_	AlignBegin=5440|AlignEnd=5520|HasSpokenGender=OnlySingExceptWithLiaison
 20	place	place	NOUN	_	Gender=Fem|Number=Sing	13	obl:mod	_	AlignBegin=5520|AlignEnd=5750|Exponence[Gender]=Inherent|Exponence[Number]=Absent
-21	Victor	Victor	PROPN	_	_	20	nmod:appos	_	AlignBegin=5750|AlignEnd=6060
+21	Victor	Victor	PROPN	_	_	20	appos	_	AlignBegin=5750|AlignEnd=6060
 22	Hugo	Hugo	PROPN	_	_	21	flat:name	_	AlignBegin=6060|AlignEnd=6310|SpaceAfter=No
 23	.	.	PUNCT	_	_	13	punct	_	AlignBegin=6310|AlignEnd=6310
 
@@ -39,13 +39,13 @@
 2	traverse	traverser	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	AlignBegin=6947|AlignEnd=7387|Exponence[Person]=Absent
 3	l'	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	_	AlignBegin=7387|AlignEnd=7417|Exponence[Gender]=Absent|HasSpokenGender=OnlySingExceptWithLiaison|LiaisonAfter=Yes|SpaceAfter=No
 4	avenue	avenue	NOUN	_	Gender=Fem|Number=Sing	10	reparandum	_	AlignBegin=7417|AlignEnd=7907|Exponence[Gender]=Inherent|Exponence[Number]=Absent|LiaisonPossibleBefore=Yes
-5	Vict~	Vict~	X	_	ExtPos=PROPN	4	nmod:appos	_	AlignBegin=7907|AlignEnd=8377|SpaceAfter=No
+5	Vict~	Vict~	X	_	ExtPos=PROPN	4	appos	_	AlignBegin=7907|AlignEnd=8377|SpaceAfter=No
 6	,	,	PUNCT	_	_	7	punct	_	AlignBegin=8377|AlignEnd=8377
-7	euh	euh	INTJ	_	_	5	discourse	_	AlignBegin=8377|AlignEnd=8630|SpaceAfter=No
+7	euh	euh	INTJ	_	_	5	discourse:filler	_	AlignBegin=8377|AlignEnd=8630|SpaceAfter=No
 8	,	,	PUNCT	_	_	4	punct	_	AlignBegin=8630|AlignEnd=8630
 9	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	10	det	_	AlignBegin=8630|AlignEnd=8707|HasSpokenGender=OnlySingExceptWithLiaison
 10	place	place	NOUN	_	Gender=Fem|Number=Sing	2	obj	_	AlignBegin=8707|AlignEnd=8927|Exponence[Gender]=Inherent|Exponence[Number]=Absent
-11	Victor	Victor	PROPN	_	_	10	nmod:appos	_	AlignBegin=8927|AlignEnd=9194
+11	Victor	Victor	PROPN	_	_	10	appos	_	AlignBegin=8927|AlignEnd=9194
 12	Hugo	Hugo	PROPN	_	_	11	flat:name	_	AlignBegin=9194|AlignEnd=9503
 13	en	en	ADP	_	_	14	case	_	AlignBegin=9503|AlignEnd=9697
 14	diagonale	diagonale	NOUN	_	Gender=Fem|Number=Sing	2	obl:mod	_	AlignBegin=9697|AlignEnd=10459|Exponence[Gender]=Inherent|Exponence[Number]=Absent|SpaceAfter=No
@@ -54,16 +54,16 @@
 17	à	à	ADP	_	_	18	mark	_	AlignBegin=11184|AlignEnd=11234
 18	arriver	arriver	VERB	_	VerbForm=Inf	2	advcl	_	AlignBegin=11234|AlignEnd=11634|Subject=SubjRaising
 19-20	au	_	_	_	_	_	_	_	SpaceAfter=No
-19	à	à	ADP	_	_	20	case	_	AlignBegin=11634|AlignEnd=12242
+19	à	à	ADP	_	_	20	case	_	_
 20	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	26	reparandum	_	AlignBegin=11634|AlignEnd=12242|Scrap=Yes
 21	,	,	PUNCT	_	_	20	punct	_	AlignBegin=12242|AlignEnd=12242
 22	mh	mh	INTJ	_	_	26	discourse	_	AlignBegin=12242|AlignEnd=12564|SpaceAfter=No
-23	,	,	PUNCT	_	_	26	punct	_	AlignBegin=12564|AlignEnd=12921
+23	,	,	PUNCT	_	_	22	punct	_	AlignBegin=12564|AlignEnd=12921
 24-25	au	_	_	_	_	_	_	_	_
 24	à	à	ADP	_	_	26	case	_	AlignBegin=12921|AlignEnd=12981
-25	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	26	det	_	AlignBegin=12921|AlignEnd=12981
+25	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	26	det	_	_
 26	boulevard	boulevard	NOUN	_	Gender=Masc|Number=Sing	18	obl:arg	_	AlignBegin=12981|AlignEnd=13241|Exponence[Gender]=Inherent|Exponence[Number]=Absent
-27	Agutte	Agutte	PROPN	_	_	26	nmod:appos	_	AlignBegin=13241|AlignEnd=13439
+27	Agutte	Agutte	PROPN	_	_	26	appos	_	AlignBegin=13241|AlignEnd=13439
 28	Sembat	Sembat	PROPN	_	_	27	flat:name	_	AlignBegin=13439|AlignEnd=13880|SpaceAfter=No
 29	.	.	PUNCT	_	_	2	punct	_	AlignBegin=13880|AlignEnd=13880
 
@@ -77,7 +77,7 @@
 2	remonte	remonter	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	AlignBegin=14652|AlignEnd=15019|Exponence[Person]=Absent
 3	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	AlignBegin=15019|AlignEnd=15079|HasSpokenGender=OnlySingExceptWithLiaison
 4	boulevard	boulevard	NOUN	_	Gender=Masc|Number=Sing	2	obj	_	AlignBegin=15079|AlignEnd=15399|Exponence[Gender]=Inherent|Exponence[Number]=Absent
-5	Agutte	Agutte	PROPN	_	_	4	nmod:appos	_	AlignBegin=15399|AlignEnd=15592
+5	Agutte	Agutte	PROPN	_	_	4	appos	_	AlignBegin=15399|AlignEnd=15592
 6	Sembat	Sembat	PROPN	_	_	5	flat:name	_	AlignBegin=15592|AlignEnd=16149|SpaceAfter=No
 7	,	,	PUNCT	_	_	8	punct	_	AlignBegin=16149|AlignEnd=16329
 8	donc	donc	ADV	_	_	6	discourse	_	AlignBegin=16329|AlignEnd=16586|SpaceAfter=No
@@ -130,14 +130,14 @@
 13	j'	moi	PRON	_	Case=Nom|Emph=No|Number=Sing|Person=1|PronType=Prs	14	nsubj	_	AlignBegin=24247|AlignEnd=24357|Exponence[Number]=Inherent|Exponence[Person]=Inherent|SpaceAfter=No
 14	arrive	arriver	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	AlignBegin=24357|AlignEnd=24707|Exponence[Person]=Absent|SpaceAfter=No
 15	,	,	PUNCT	_	_	16	punct	_	AlignBegin=24707|AlignEnd=24707
-16	euh	euh	INTJ	_	_	14	discourse	_	AlignBegin=24707|AlignEnd=24867|SpaceAfter=No
+16	euh	euh	INTJ	_	_	14	discourse:filler	_	AlignBegin=24707|AlignEnd=24867|SpaceAfter=No
 17	,	,	PUNCT	_	_	20	punct	_	AlignBegin=24867|AlignEnd=24867
 18-19	au	_	_	_	_	_	_	_	_
 18	à	à	ADP	_	_	20	case	_	AlignBegin=24867|AlignEnd=25025
-19	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	20	det	_	AlignBegin=24867|AlignEnd=25025
+19	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	20	det	_	_
 20	cinéma	cinéma	NOUN	_	Gender=Masc|Number=Sing	14	obl:arg	_	AlignBegin=25025|AlignEnd=25377|Exponence[Gender]=Inherent|Exponence[Number]=Absent
 21	La	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	22	det	_	AlignBegin=25377|AlignEnd=25458|HasSpokenGender=OnlySingExceptWithLiaison
-22	Nef	Nef	PROPN	_	Gender=Fem|Number=Sing	20	nmod:appos	_	AlignBegin=25458|AlignEnd=25617|Exponence[Gender]=Inherent
+22	Nef	Nef	PROPN	_	Gender=Fem|Number=Sing	20	appos	_	AlignBegin=25458|AlignEnd=25617|Exponence[Gender]=Inherent
 23	Chavant	Chavant	PROPN	_	_	22	flat:name	_	AlignBegin=25617|AlignEnd=25937|SpaceAfter=No
 24	.	.	PUNCT	_	_	14	punct	_	AlignBegin=25937|AlignEnd=25937
 
