@@ -588,7 +588,7 @@
 # speaker_id = §LF1
 # macrosyntax = "enfin" vraiment { cet ar~ | avec cet argent-là } <+ $- je me ( $L2 "mh" // ) -$ paye maintenant quasiment { tout | ( $L2 "mh mh" // ) ^à ^part { la nourriture | ^et le logement } } //
 # text = mh.
-1	mh	mh	INTJ	_	_	0	root	_	AlignBegin=77239|AlignEnd=77314|Backchannel=Rhap_D0006-28::13|Overlap=Rhap_D0006-28|SpaceAfter=No
+1	mh	mh	INTJ	_	_	0	root	_	AlignBegin=77239|AlignEnd=77314|Backchannel=Rhap_D0006-28::14|Overlap=Rhap_D0006-28|SpaceAfter=No
 2	.	.	PUNCT	_	_	1	punct	_	AlignBegin=75593|AlignEnd=75593
 
 # sent_id = Rhap_D0006-30
@@ -597,7 +597,7 @@
 # speaker_id = §LF1
 # macrosyntax = "enfin" vraiment { cet ar~ | avec cet argent-là } <+ $- je me ( $L2 "mh" // ) -$ paye maintenant quasiment { tout | ( $L2 "mh mh" // ) ^à ^part { la nourriture | ^et le logement } } //
 # text = mh.
-1	mh	mh	INTJ	_	_	0	root	_	AlignBegin=77314|AlignEnd=77539|Backchannel=Rhap_D0006-28::13|SpaceAfter=No
+1	mh	mh	INTJ	_	_	0	root	_	AlignBegin=77314|AlignEnd=77539|Backchannel=Rhap_D0006-28::14|SpaceAfter=No
 2	.	.	PUNCT	_	_	1	punct	_	AlignBegin=77314|AlignEnd=77314
 
 # sent_id = Rhap_D0006-31
@@ -1022,9 +1022,9 @@
 # speaker_id = §LF1
 # macrosyntax = $L2 { oui | si } //
 # text = oui, si.
-1	oui	oui	INTJ	_	_	3	reparandum	_	AlignBegin=136383|AlignEnd=136708|Answer=Rhap_D0006-54::4|SpaceAfter=No
-2	,	,	PUNCT	_	_	1	punct	_	AlignBegin=136708|AlignEnd=136708
-3	si	si	SCONJ	_	_	0	root	_	AlignBegin=136708|AlignEnd=136958|SpaceAfter=No
+1	oui	oui	INTJ	_	_	0	root	_	AlignBegin=136383|AlignEnd=136708|Answer=Rhap_D0006-54::4|SpaceAfter=No
+2	,	,	PUNCT	_	_	3	punct	_	AlignBegin=136708|AlignEnd=136708
+3	si	si	SCONJ	_	_	1	parataxis	_	AlignBegin=136708|AlignEnd=136958|SpaceAfter=No
 4	.	.	PUNCT	_	_	3	punct	_	AlignBegin=136958|AlignEnd=136958
 
 # sent_id = Rhap_D0006-56
@@ -1035,13 +1035,13 @@
 # text = euh, parce que, euh, je travaille dans le privé là.
 1	euh	euh	INTJ	_	_	9	discourse:filler	_	AlignBegin=137134|AlignEnd=137387|SpaceAfter=No
 2	,	,	PUNCT	_	_	1	punct	_	AlignBegin=137387|AlignEnd=137387
-3	parce	parce	ADV	_	ExtPos=SCONJ	9	mark	_	AlignBegin=137387|AlignEnd=137630|Automated=Yes|Coconstruct=mod::Rhap_D0006-55::1|Idiom=Yes
+3	parce	parce	ADV	_	ExtPos=SCONJ	9	mark	_	AlignBegin=137387|AlignEnd=137630|Automated=Yes|Idiom=Yes
 4	que	que	SCONJ	_	_	3	fixed	_	AlignBegin=137630|AlignEnd=137750|InIdiom=Yes|SpaceAfter=No
 5	,	,	PUNCT	_	_	9	punct	_	AlignBegin=137750|AlignEnd=137750
 6	euh	euh	INTJ	_	_	9	discourse:filler	_	AlignBegin=137750|AlignEnd=138460|SpaceAfter=No
 7	,	,	PUNCT	_	_	6	punct	_	AlignBegin=138460|AlignEnd=138460
 8	je	moi	PRON	_	Case=Nom|Emph=No|Number=Sing|Person=1|PronType=Prs	9	nsubj	_	AlignBegin=138460|AlignEnd=138570|Exponence[Number]=Inherent|Exponence[Person]=Inherent
-9	travaille	travailler	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	AlignBegin=138570|AlignEnd=138870|Exponence[Person]=Absent
+9	travaille	travailler	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	AlignBegin=138570|AlignEnd=138870|Coconstruct=mod::Rhap_D0006-55::1|Exponence[Person]=Absent
 10	dans	dans	ADP	_	_	12	case	_	AlignBegin=138870|AlignEnd=138970
 11	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	12	det	_	AlignBegin=138970|AlignEnd=139000|HasSpokenGender=OnlySingExceptWithLiaison
 12	privé	privé	NOUN	_	Gender=Masc|Number=Sing	9	obl:arg	_	AlignBegin=139000|AlignEnd=139400|Exponence[Gender]=Inherent|Exponence[Number]=Absent
@@ -1167,7 +1167,7 @@
 # speaker_id = §LF1
 # macrosyntax = ^et pour le coup < cette dimension "euh" spécialité de la médecine qui est encore plus renforcée parce que ( $L2 "mh mh" // ) [ pour gagner encore plus <+ il faut être le spécialiste du spécialiste du spécialiste ] //
 # text = mh, mh.
-1	mh	mh	INTJ	_	_	0	root	_	AlignBegin=153877|AlignEnd=154094|Backchannel=Rhap_D0006-60::7|SpaceAfter=No
+1	mh	mh	INTJ	_	_	0	root	_	AlignBegin=153877|AlignEnd=154094|Backchannel=Rhap_D0006-60::11|SpaceAfter=No
 2	,	,	PUNCT	_	_	3	punct	_	AlignBegin=154094|AlignEnd=154094
 3	mh	mh	INTJ	_	_	1	conj	_	AlignBegin=154094|AlignEnd=154269|SpaceAfter=No
 4	.	.	PUNCT	_	_	1	punct	_	AlignBegin=154269|AlignEnd=154269
@@ -1553,7 +1553,7 @@
 # speaker_id = §LF1
 # macrosyntax = $L1 il y a { des gens "euh" | de très bons amis } "hein" ( $L2 "mh mh" // ) ( ^mais sur ESPERLUETTE // par contre < quand on parle de ça <+ ça se passe mal // ) ( $L2 "mh" // ) "euh" qui veulent "euh" clairement "euh" ESPERLUETTE //
 # text = mh.
-1	mh	mh	INTJ	_	_	0	root	_	AlignBegin=206030|AlignEnd=206183|Backchannel=Rhap_D0006-78::31|SpaceAfter=No
+1	mh	mh	INTJ	_	_	0	root	_	AlignBegin=206030|AlignEnd=206183|Backchannel=Rhap_D0006-78::30|SpaceAfter=No
 2	.	.	PUNCT	_	_	1	punct	_	AlignBegin=206183|AlignEnd=206183
 
 # sent_id = Rhap_D0006-81
@@ -1797,7 +1797,7 @@
 # speaker_id = §LF1
 # macrosyntax = ( $L2 "mh mh" // )
 # text = mh, mh.
-1	mh	mh	INTJ	_	_	0	root	_	AlignBegin=241434|AlignEnd=241499|Backchannel=Rhap_D0006-91::7|SpaceAfter=No
+1	mh	mh	INTJ	_	_	0	root	_	AlignBegin=241434|AlignEnd=241499|Backchannel=Rhap_D0006-91::11|SpaceAfter=No
 2	,	,	PUNCT	_	_	3	punct	_	AlignBegin=241499|AlignEnd=241499
 3	mh	mh	INTJ	_	_	1	conj	_	AlignBegin=241499|AlignEnd=241588|SpaceAfter=No
 4	.	.	PUNCT	_	_	1	punct	_	AlignBegin=241588|AlignEnd=241588
@@ -2444,7 +2444,7 @@
 # speaker_id = §LM4
 # macrosyntax = ^parce ^que "euh" { c~ | c'est | pour moi < c'est } très important d'avoir ses idéaux //
 # text = parce que, euh, c~, c'est, pour moi, c'est très important d'avoir ses idéaux.
-1	parce	parce	ADV	_	ExtPos=SCONJ	17	mark	_	AlignBegin=313479|AlignEnd=313709|Automated=Yes|Coconstruct=mod::Rhap_D0006-129::2|Idiom=Yes|SingleSpeaker=Yes
+1	parce	parce	ADV	_	ExtPos=SCONJ	17	mark	_	AlignBegin=313479|AlignEnd=313709|Automated=Yes|Idiom=Yes|SingleSpeaker=Yes
 2	que	que	SCONJ	_	_	1	fixed	_	AlignBegin=313709|AlignEnd=313829|InIdiom=Yes|SpaceAfter=No
 3	,	,	PUNCT	_	_	17	punct	_	AlignBegin=313829|AlignEnd=313829
 4	euh	euh	INTJ	_	_	9	discourse:filler	_	AlignBegin=313829|AlignEnd=314287|SpaceAfter=No
@@ -2460,7 +2460,7 @@
 14	c'	ce	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	17	nsubj	_	AlignBegin=315877|AlignEnd=315967|Exponence[Gender]=Inherent|Exponence[Number]=Inherent|Exponence[Person]=Inherent|SpaceAfter=No
 15	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	17	cop	_	AlignBegin=315967|AlignEnd=316007
 16	très	très	ADV	_	_	17	advmod	_	AlignBegin=316007|AlignEnd=316147
-17	important	important	ADJ	_	Gender=Masc|Number=Sing	0	root	_	AlignBegin=316147|AlignEnd=316447|Exponence[Number]=Absent|HasSpokenGender=YesExceptSingWithLiaison|HasSpokenNumber=OnlyWithLiaison
+17	important	important	ADJ	_	Gender=Masc|Number=Sing	0	root	_	AlignBegin=316147|AlignEnd=316447|Coconstruct=mod::Rhap_D0006-129::2|Exponence[Number]=Absent|HasSpokenGender=YesExceptSingWithLiaison|HasSpokenNumber=OnlyWithLiaison
 18	d'	de	ADP	_	_	19	mark	_	AlignBegin=316447|AlignEnd=316477|SpaceAfter=No
 19	avoir	avoir	VERB	_	VerbForm=Inf	17	advcl	_	AlignBegin=316477|AlignEnd=316637|Subject=NoRaising
 20	ses	son	DET	_	Number=Plur|Number[psor]=Sing|Person[psor]=3|Poss=Yes|PronType=Prs	21	det	_	AlignBegin=316637|AlignEnd=316767|HasSpokenGender=OnlySingExceptWithLiaison|LiaisonAfter=Yes
@@ -2691,7 +2691,7 @@
 # speaker_id = §LF1
 # macrosyntax = { je sais pas | $- $L1 je sais pas } si il y a ( $L2 "mh" // ) -$ une loi qui a été instaurée //
 # text = mh.
-1	mh	mh	INTJ	_	_	0	root	_	AlignBegin=347531|AlignEnd=349551|Backchannel=Rhap_D0006-142::2|Overlap=Rhap_D0006-142|SpaceAfter=No
+1	mh	mh	INTJ	_	_	0	root	_	AlignBegin=347531|AlignEnd=349551|Backchannel=Rhap_D0006-142::6|Overlap=Rhap_D0006-142|SpaceAfter=No
 2	.	.	PUNCT	_	_	1	punct	_	AlignBegin=349551|AlignEnd=349551|Overlap=Rhap_D0006-107
 
 # sent_id = Rhap_D0006-144
@@ -2752,7 +2752,7 @@
 # speaker_id = §LF1
 # macrosyntax = $L1 ^mais "euh" de plus en plus < je vois des gens { qui sont respectueux | ^et $- $L1 qui ramassent | ( $L2 XXX // -$ $L2 "mh mh" // ) $L1 { qui | qui | qui } prennent leur chien | qui les font faire leur besoin { { dans | dans } le trottoir |} } // $L2 {| dans le -$ $L2 caniveau } //
 # text = XXX.
-1	XXX	XXX	X	_	_	0	root	_	AlignBegin=353296|AlignEnd=354317|Backchannel=Rhap_D0006-144::17|Overlap=Rhap_D0006-144|SpaceAfter=No
+1	XXX	XXX	X	_	_	0	root	_	AlignBegin=353296|AlignEnd=354317|Backchannel=Rhap_D0006-144::15|Overlap=Rhap_D0006-144|SpaceAfter=No
 2	.	.	PUNCT	_	_	1	punct	_	AlignBegin=354317|AlignEnd=354317|Overlap=Rhap_D0006-108
 
 # sent_id = Rhap_D0006-146
@@ -2772,9 +2772,9 @@
 # speaker_id = §LF1
 # macrosyntax = $L2 {| dans le -$ $L2 caniveau } //
 # text = dans le caniveau.
-1	dans	dans	ADP	_	_	3	case	_	AlignBegin=360002|AlignEnd=360331|Coconstruct=conj:dicto::Rhap_D0006-144::41|Overlap=Rhap_D0006-144
+1	dans	dans	ADP	_	_	3	case	_	AlignBegin=360002|AlignEnd=360331|Overlap=Rhap_D0006-144
 2	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	AlignBegin=360002|AlignEnd=360331|HasSpokenGender=OnlySingExceptWithLiaison|Overlap=Rhap_D0006-144
-3	caniveau	caniveau	NOUN	_	Gender=Masc|Number=Sing	0	root	_	AlignBegin=360489|AlignEnd=361124|Exponence[Gender]=Inherent|Exponence[Number]=Absent|SpaceAfter=No
+3	caniveau	caniveau	NOUN	_	Gender=Masc|Number=Sing	0	root	_	AlignBegin=360489|AlignEnd=361124|Coconstruct=conj:reform::Rhap_D0006-144::41|Exponence[Gender]=Inherent|Exponence[Number]=Absent|SpaceAfter=No
 4	.	.	PUNCT	_	_	3	punct	_	AlignBegin=361124|AlignEnd=361124
 
 # sent_id = Rhap_D0006-148

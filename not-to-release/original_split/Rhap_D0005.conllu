@@ -342,11 +342,11 @@
 6	,	,	PUNCT	_	_	5	punct	_	AlignBegin=51990|AlignEnd=51990
 7	euh	euh	INTJ	_	_	9	discourse:filler	_	AlignBegin=51990|AlignEnd=52483|SpaceAfter=No
 8	,	,	PUNCT	_	_	7	punct	_	AlignBegin=52465|AlignEnd=52465
-9	s~	s~	X	_	_	13	reparandum	_	AlignBegin=52483|AlignEnd=52772|Answer=Rhap_D0005-15::4|SpaceAfter=No
+9	s~	s~	X	_	_	13	reparandum	_	AlignBegin=52483|AlignEnd=52772|SpaceAfter=No
 10	,	,	PUNCT	_	_	9	punct	_	AlignBegin=52772|AlignEnd=52772
 11	si	si	SCONJ	_	_	13	reparandum	_	AlignBegin=52772|AlignEnd=53082|SpaceAfter=No
 12	,	,	PUNCT	_	_	11	punct	_	AlignBegin=53082|AlignEnd=53082
-13	si	si	SCONJ	_	_	0	root	_	AlignBegin=53082|AlignEnd=53352|SpaceAfter=No
+13	si	si	SCONJ	_	_	0	root	_	AlignBegin=53082|AlignEnd=53352|Answer=Rhap_D0005-15::4|SpaceAfter=No
 14	.	.	PUNCT	_	_	13	punct	_	AlignBegin=53352|AlignEnd=53352
 
 # sent_id = Rhap_D0005-17
@@ -376,7 +376,7 @@
 # text = euh, parce que, euh, euh, moi, j'ai suivi l'é~, l'évolution.
 1	euh	euh	INTJ	_	_	14	discourse:filler	_	AlignBegin=54252|AlignEnd=54716|SpaceAfter=No
 2	,	,	PUNCT	_	_	1	punct	_	AlignBegin=54716|AlignEnd=54716
-3	parce	parce	ADV	_	ExtPos=SCONJ	14	mark	_	AlignBegin=54716|AlignEnd=55095|Automated=Yes|Coconstruct=mod::Rhap_D0005-18::1|Idiom=Yes
+3	parce	parce	ADV	_	ExtPos=SCONJ	14	mark	_	AlignBegin=54716|AlignEnd=55095|Automated=Yes|Idiom=Yes
 4	que	que	SCONJ	_	_	3	fixed	_	AlignBegin=55095|AlignEnd=55393|InIdiom=Yes|SpaceAfter=No
 5	,	,	PUNCT	_	_	14	punct	_	AlignBegin=55393|AlignEnd=55393
 6	euh	euh	INTJ	_	_	14	discourse:filler	_	AlignBegin=55393|AlignEnd=56122|SpaceAfter=No
@@ -387,7 +387,7 @@
 11	,	,	PUNCT	_	_	10	punct	_	AlignBegin=57230|AlignEnd=57230
 12	j'	moi	PRON	_	Case=Nom|Emph=No|Number=Sing|Person=1|PronType=Prs	14	nsubj	_	AlignBegin=57230|AlignEnd=57324|Exponence[Number]=Inherent|Exponence[Person]=Inherent|SpaceAfter=No
 13	ai	avoir	AUX	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	14	aux:tense	_	AlignBegin=57324|AlignEnd=57370
-14	suivi	suivre	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Act	0	root	_	AlignBegin=57370|AlignEnd=58030|Exponence[Gender]=Absent|Exponence[Number]=Absent|PastPartHasSpokenGender=NotInThisDialect|Tense[denom]=Past
+14	suivi	suivre	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Act	0	root	_	AlignBegin=57370|AlignEnd=58030|Coconstruct=mod::Rhap_D0005-18::1|Exponence[Gender]=Absent|Exponence[Number]=Absent|PastPartHasSpokenGender=NotInThisDialect|Tense[denom]=Past
 15	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	16	det	_	AlignBegin=58030|AlignEnd=58124|HasSpokenGender=OnlySingExceptWithLiaison|SpaceAfter=No
 16	é~	é~	X	_	_	19	reparandum	_	AlignBegin=58124|AlignEnd=58660|SpaceAfter=No
 17	,	,	PUNCT	_	_	16	punct	_	AlignBegin=58660|AlignEnd=58660
@@ -739,7 +739,7 @@
 # speaker_id = §LF7
 # macrosyntax = ^parce ^que sinon < $- ( $L2 ouais // ) { c'est | c'est -$ | c'est | c'est } intenable "hein" //
 # text = parce que sinon, c'est, c'est, c'est, c'est intenable, hein.
-1	parce	parce	ADV	_	ExtPos=SCONJ	16	mark	_	AlignBegin=116442|AlignEnd=116582|Automated=Yes|Coconstruct=mod::Rhap_D0005-31::14|Idiom=Yes|SingleSpeaker=Yes
+1	parce	parce	ADV	_	ExtPos=SCONJ	16	mark	_	AlignBegin=116442|AlignEnd=116582|Automated=Yes|Idiom=Yes|SingleSpeaker=Yes
 2	que	que	SCONJ	_	_	1	fixed	_	AlignBegin=119015|AlignEnd=119044|InIdiom=Yes
 3	sinon	sinon	ADV	_	_	6	advmod	_	AlignBegin=116642|AlignEnd=116880|SpaceAfter=No
 4	,	,	PUNCT	_	_	3	punct	_	AlignBegin=116880|AlignEnd=116880
@@ -754,7 +754,7 @@
 13	,	,	PUNCT	_	_	12	punct	_	AlignBegin=117489|AlignEnd=0
 14	c'	ce	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	16	nsubj	_	AlignBegin=0|AlignEnd=117489|Exponence[Gender]=Inherent|Exponence[Number]=Inherent|Exponence[Person]=Inherent|SpaceAfter=No
 15	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	16	cop	_	AlignBegin=117489|AlignEnd=117649
-16	intenable	intenable	ADJ	_	Gender=Masc|Number=Sing	0	root	_	AlignBegin=117649|AlignEnd=118039|Exponence[Gender]=Absent|Exponence[Number]=Absent|HasSpokenGender=No|HasSpokenNumber=OnlyWithLiaison|SpaceAfter=No
+16	intenable	intenable	ADJ	_	Gender=Masc|Number=Sing	0	root	_	AlignBegin=117649|AlignEnd=118039|Coconstruct=mod::Rhap_D0005-31::17|Exponence[Gender]=Absent|Exponence[Number]=Absent|HasSpokenGender=No|HasSpokenNumber=OnlyWithLiaison|SpaceAfter=No
 17	,	,	PUNCT	_	_	18	punct	_	AlignBegin=118039|AlignEnd=118039
 18	hein	hein	INTJ	_	_	16	discourse	_	AlignBegin=118039|AlignEnd=118089|SpaceAfter=No
 19	.	.	PUNCT	_	_	16	punct	_	AlignBegin=118089|AlignEnd=118089
@@ -765,7 +765,7 @@
 # speaker_id = §LM3
 # macrosyntax = $L2 ouais //
 # text = ouais.
-1	ouais	ouais	INTJ	_	_	0	root	_	AlignBegin=116880|AlignEnd=117097|Backchannel=Rhap_D0005-31::14|Overlap=Rhap_D0005-32|SpaceAfter=No
+1	ouais	ouais	INTJ	_	_	0	root	_	AlignBegin=116880|AlignEnd=117097|Backchannel=Rhap_D0005-31::17|Overlap=Rhap_D0005-32|SpaceAfter=No
 2	.	.	PUNCT	_	_	1	punct	_	AlignBegin=117344|AlignEnd=117344|Overlap=Rhap_D0005-30
 
 # sent_id = Rhap_D0005-34
@@ -1087,7 +1087,7 @@
 # speaker_id = §LM3
 # macrosyntax = $L2 { ouais | ouais | ouais } -$ //
 # text = ouais, ouais, ouais.
-1	ouais	ouais	INTJ	_	_	0	root	_	AlignBegin=150369|AlignEnd=151861|Backchannel=Rhap_D0005-51::5|Overlap=Rhap_D0005-51|SpaceAfter=No
+1	ouais	ouais	INTJ	_	_	0	root	_	AlignBegin=150369|AlignEnd=151861|Backchannel=Rhap_D0005-51::8|Overlap=Rhap_D0005-51|SpaceAfter=No
 2	,	,	PUNCT	_	_	3	punct	_	AlignBegin=151861|AlignEnd=150369|Overlap=Rhap_D0005-48
 3	ouais	ouais	INTJ	_	_	1	conj	_	AlignBegin=150369|AlignEnd=151861|Overlap=Rhap_D0005-51|SpaceAfter=No
 4	,	,	PUNCT	_	_	5	punct	_	AlignBegin=151861|AlignEnd=150369|Overlap=Rhap_D0005-48
@@ -1712,7 +1712,7 @@
 # speaker_id = §LF7
 # macrosyntax = ^parce ^que "euh" "bon" "ben" fallait mettre tous les gens au courant //
 # text = parce que, euh, bon, ben, fallait mettre tous les gens au courant.
-1	parce	parce	ADV	_	ExtPos=SCONJ	10	mark	_	AlignBegin=206608|AlignEnd=206913|Automated=Yes|Coconstruct=mod::Rhap_D0005-83::12|Idiom=Yes|SingleSpeaker=Yes
+1	parce	parce	ADV	_	ExtPos=SCONJ	10	mark	_	AlignBegin=206608|AlignEnd=206913|Automated=Yes|Idiom=Yes|SingleSpeaker=Yes
 2	que	que	SCONJ	_	_	1	fixed	_	AlignBegin=206913|AlignEnd=207003|InIdiom=Yes|SpaceAfter=No
 3	,	,	PUNCT	_	_	10	punct	_	AlignBegin=207003|AlignEnd=207003
 4	euh	euh	INTJ	_	_	10	discourse:filler	_	AlignBegin=207003|AlignEnd=207553|SpaceAfter=No
@@ -1721,7 +1721,7 @@
 7	,	,	PUNCT	_	_	6	punct	_	AlignBegin=207723|AlignEnd=207723
 8	ben	ben	INTJ	_	_	10	discourse	_	AlignBegin=207723|AlignEnd=207843|SpaceAfter=No
 9	,	,	PUNCT	_	_	8	punct	_	AlignBegin=207843|AlignEnd=207843
-10	fallait	falloir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	AlignBegin=207843|AlignEnd=208053|Exponence[Number]=Absent|Exponence[Person]=Absent
+10	fallait	falloir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	AlignBegin=207843|AlignEnd=208053|Coconstruct=mod::Rhap_D0005-83::12|Exponence[Number]=Absent|Exponence[Person]=Absent
 11	mettre	mettre	VERB	_	VerbForm=Inf	10	ccomp	_	AlignBegin=208053|AlignEnd=208293|Subject=NoRaising
 12	tous	tout	ADJ	_	Gender=Masc|Number=Plur	14	amod	_	AlignBegin=208293|AlignEnd=208443|Exponence[Number]=Absent|HasSpokenGender=YesExceptSingWithLiaison|HasSpokenNumber=OnlyWithLiaison
 13	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	14	det	_	AlignBegin=208443|AlignEnd=208533|HasSpokenGender=OnlySingExceptWithLiaison
@@ -1910,7 +1910,7 @@
 # speaker_id = §LF7
 # macrosyntax = ^parce ^que "bon" "pff" { ç~ | ça } devient ridicule //
 # text = parce que, bon, pff, ç~, ça devient ridicule.
-1	parce	parce	ADV	_	ExtPos=SCONJ	11	mark	_	AlignBegin=222153|AlignEnd=222403|Automated=Yes|Coconstruct=mod::Rhap_D0005-95::8|Idiom=Yes|SingleSpeaker=Yes
+1	parce	parce	ADV	_	ExtPos=SCONJ	11	mark	_	AlignBegin=222153|AlignEnd=222403|Automated=Yes|Idiom=Yes|SingleSpeaker=Yes
 2	que	que	SCONJ	_	_	1	fixed	_	AlignBegin=222403|AlignEnd=222493|InIdiom=Yes|SpaceAfter=No
 3	,	,	PUNCT	_	_	11	punct	_	AlignBegin=222493|AlignEnd=222493
 4	bon	bon	INTJ	_	_	11	discourse	_	AlignBegin=222493|AlignEnd=222913|SpaceAfter=No
@@ -1920,7 +1920,7 @@
 8	ç~	ç~	X	_	_	10	reparandum	_	AlignBegin=223013|AlignEnd=223413|SpaceAfter=No
 9	,	,	PUNCT	_	_	8	punct	_	AlignBegin=223413|AlignEnd=223413
 10	ça	ça	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	11	nsubj	_	AlignBegin=223413|AlignEnd=223573|Exponence[Gender]=Inherent|Exponence[Number]=Inherent|Exponence[Person]=Inherent
-11	devient	devenir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	AlignBegin=223573|AlignEnd=223763|Exponence[Person]=Absent
+11	devient	devenir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	AlignBegin=223573|AlignEnd=223763|Coconstruct=mod::Rhap_D0005-95::8|Exponence[Person]=Absent
 12	ridicule	ridicule	ADJ	_	Gender=Masc|Number=Sing	11	xcomp	_	AlignBegin=223763|AlignEnd=224209|Exponence[Gender]=Absent|Exponence[Number]=Absent|HasSpokenGender=No|HasSpokenNumber=OnlyWithLiaison|SpaceAfter=No
 13	.	.	PUNCT	_	_	11	punct	_	AlignBegin=224209|AlignEnd=224209
 
@@ -2100,7 +2100,7 @@
 # text = ah, ouais.
 1	ah	ah	INTJ	_	_	3	discourse	_	AlignBegin=236658|AlignEnd=236843|Overlap=Rhap_D0005-105|SpaceAfter=No
 2	,	,	PUNCT	_	_	1	punct	_	AlignBegin=237071|AlignEnd=236658|Overlap=Rhap_D0005-98
-3	ouais	ouais	INTJ	_	_	0	root	_	AlignBegin=236843|AlignEnd=237071|Backchannel=Rhap_D0005-104::12|Overlap=Rhap_D0005-105|SpaceAfter=No
+3	ouais	ouais	INTJ	_	_	0	root	_	AlignBegin=236843|AlignEnd=237071|Backchannel=Rhap_D0005-104::15|Overlap=Rhap_D0005-105|SpaceAfter=No
 4	.	.	PUNCT	_	_	3	punct	_	AlignBegin=237071|AlignEnd=237071|Overlap=Rhap_D0005-98
 
 # sent_id = Rhap_D0005-107
@@ -2140,11 +2140,11 @@
 # speaker_id = §LF7
 # macrosyntax = $L1 parce qu'il y a { la nouvelle génération | tout ci } "euh" //
 # text = parce qu'il y a la nouvelle génération, tout ci, euh.
-1	parce	parce	ADV	_	ExtPos=SCONJ	5	mark	_	AlignBegin=238224|AlignEnd=238329|Automated=Yes|Coconstruct=mod::Rhap_D0005-109::1|Idiom=Yes|SingleSpeaker=Yes
+1	parce	parce	ADV	_	ExtPos=SCONJ	5	mark	_	AlignBegin=238224|AlignEnd=238329|Automated=Yes|Idiom=Yes|SingleSpeaker=Yes
 2	qu'	que	SCONJ	_	_	1	fixed	_	AlignBegin=238329|AlignEnd=238389|InIdiom=Yes|SpaceAfter=No
 3	il	lui	PRON	_	Case=Nom|Emph=No|Gender=Masc|Number=Sing|Person=3|PronType=Prs	5	expl:subj	_	AlignBegin=238389|AlignEnd=238449|Exponence[Person]=Inherent
 4	y	y	PRON	_	Person=3|PronType=Prs	5	expl:comp	_	AlignBegin=238449|AlignEnd=238509|Exponence[Person]=Inherent
-5	a	avoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	AlignBegin=238509|AlignEnd=238579
+5	a	avoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	AlignBegin=238509|AlignEnd=238579|Coconstruct=mod::Rhap_D0005-109::1
 6	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	8	det	_	AlignBegin=238579|AlignEnd=238639|HasSpokenGender=OnlySingExceptWithLiaison
 7	nouvelle	nouveau	ADJ	_	Gender=Fem|Number=Sing	8	amod	_	AlignBegin=238639|AlignEnd=238839|Exponence[Number]=Absent|HasSpokenGender=YesExceptSingWithLiaison|HasSpokenNumber=OnlyWithLiaison
 8	génération	génération	NOUN	_	Gender=Fem|Number=Sing	5	obj	_	AlignBegin=238839|AlignEnd=239519|Exponence[Gender]=Inherent|Exponence[Number]=Absent|SpaceAfter=No

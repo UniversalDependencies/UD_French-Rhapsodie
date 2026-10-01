@@ -111,9 +111,9 @@
 # speaker_id = §LF1
 # macrosyntax = $L1 à quelle heure //
 # text = à quelle heure ?
-1	à	à	ADP	_	_	3	case	_	AlignBegin=16860|AlignEnd=17985|Coconstruct=mod::Rhap_D0001-6::18|Overlap=Rhap_D0001-6
+1	à	à	ADP	_	_	3	case	_	AlignBegin=16860|AlignEnd=17985|Overlap=Rhap_D0001-6
 2	quelle	quel	DET	_	Gender=Fem|Number=Sing|PronType=Int	3	det	_	AlignBegin=16860|AlignEnd=17985|Exponence[Gender]=Absent|HasSpokenGender=NotInThisDialect|HasSpokenNumber=OnlyWithLiaison|LiaisonAfter=Yes|Overlap=Rhap_D0001-6
-3	heure	heure	NOUN	_	Gender=Fem|Number=Sing	0	root	_	AlignBegin=16860|AlignEnd=17985|Exponence[Gender]=Inherent|Exponence[Number]=Absent|LiaisonPossibleBefore=Yes|Overlap=Rhap_D0001-6
+3	heure	heure	NOUN	_	Gender=Fem|Number=Sing	0	root	_	AlignBegin=16860|AlignEnd=17985|Coconstruct=mod::Rhap_D0001-6::18|Exponence[Gender]=Inherent|Exponence[Number]=Absent|LiaisonPossibleBefore=Yes|Overlap=Rhap_D0001-6
 4	?	?	PUNCT	_	_	3	punct	_	AlignBegin=17985|AlignEnd=17985|Overlap=Rhap_D0001-4
 
 # sent_id = Rhap_D0001-8
@@ -469,9 +469,9 @@
 # speaker_id = §LF1
 # macrosyntax = ça < c'est { { par le | par $- le | par le } quatre-vingt-six |} //+ $L1 {| par le quatre-vingt-six } //+ -$ { qui est un |} $- $L1 qui passe à l'arrière-plan //+ {| qui est un bus } { formidable | -$ formidable } { { qui | qui | qui } traverse le quar~ | qui $- passe { boulevard Saint-Germain | ( $L1 ah oui // ) -$ "euh" boulevard Henri Quatre } } //
 # text = par le quatre-vingt-six.
-1	par	par	ADP	_	_	3	case	_	AlignBegin=0|AlignEnd=0|Coconstruct=conj:dicto::Rhap_D0001-25::8|Overlap=Rhap_D0001-25
+1	par	par	ADP	_	_	3	case	_	AlignBegin=0|AlignEnd=0|Overlap=Rhap_D0001-25
 2	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	AlignBegin=0|AlignEnd=0|HasSpokenGender=OnlySingExceptWithLiaison|Overlap=Rhap_D0001-20
-3	quatre-vingt-six	quatre-vingt-six	NOUN	_	Gender=Masc|Number=Sing	0	root	_	AlignBegin=0|AlignEnd=0|Exponence[Gender]=Inherent|Exponence[Number]=Absent|Overlap=Rhap_D0001-25|SpaceAfter=No
+3	quatre-vingt-six	quatre-vingt-six	NOUN	_	Gender=Masc|Number=Sing	0	root	_	AlignBegin=0|AlignEnd=0|Coconstruct=conj:reform::Rhap_D0001-25::11|Exponence[Gender]=Inherent|Exponence[Number]=Absent|Overlap=Rhap_D0001-25|SpaceAfter=No
 4	.	.	PUNCT	_	_	3	punct	_	AlignBegin=0|AlignEnd=0|Overlap=Rhap_D0001-20
 
 # sent_id = Rhap_D0001-27
@@ -546,10 +546,10 @@
 # macrosyntax = c'est vraiment très agréable //
 # text = c'est vraiment très agréable.
 1	c'	ce	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	5	nsubj	_	AlignBegin=70821|AlignEnd=70917|Exponence[Gender]=Inherent|Exponence[Number]=Inherent|Exponence[Person]=Inherent|SpaceAfter=No
-2	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	cop	_	AlignBegin=70917|AlignEnd=71007|Coconstruct=parataxis:conj::Rhap_D0001-30::13
+2	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	cop	_	AlignBegin=70917|AlignEnd=71007
 3	vraiment	vraiment	ADV	_	_	5	advmod	_	AlignBegin=71007|AlignEnd=71551
 4	très	très	ADV	_	_	5	advmod	_	AlignBegin=71551|AlignEnd=71826
-5	agréable	agréable	ADJ	_	Gender=Masc|Number=Sing	0	root	_	AlignBegin=71826|AlignEnd=72199|Exponence[Gender]=Absent|Exponence[Number]=Absent|HasSpokenGender=No|HasSpokenNumber=OnlyWithLiaison|SpaceAfter=No
+5	agréable	agréable	ADJ	_	Gender=Masc|Number=Sing	0	root	_	AlignBegin=71826|AlignEnd=72199|Coconstruct=parataxis:conj::Rhap_D0001-30::12|Exponence[Gender]=Absent|Exponence[Number]=Absent|HasSpokenGender=No|HasSpokenNumber=OnlyWithLiaison|SpaceAfter=No
 6	.	.	PUNCT	_	_	5	punct	_	AlignBegin=72199|AlignEnd=72199
 
 # sent_id = Rhap_D0001-32
@@ -680,7 +680,7 @@
 3	oui	oui	INTJ	_	_	1	conj	_	AlignBegin=84922|AlignEnd=85012|Overlap=Rhap_D0001-36|SpaceAfter=No
 4	,	,	PUNCT	_	_	1	punct	_	AlignBegin=86514|AlignEnd=84777|Overlap=Rhap_D0001-27
 5	je	moi	PRON	_	Case=Nom|Emph=No|Number=Sing|Person=1|PronType=Prs	6	nsubj	_	AlignBegin=85012|AlignEnd=85282|Exponence[Number]=Inherent|Exponence[Person]=Inherent|Overlap=Rhap_D0001-36
-6	vois	voir	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	AlignBegin=85282|AlignEnd=85622|Backchannel=Rhap_D0001-36::1|Exponence[Person]=Absent|Overlap=Rhap_D0001-36|SpaceAfter=No
+6	vois	voir	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	AlignBegin=85282|AlignEnd=85622|Backchannel=Rhap_D0001-36::4|Exponence[Person]=Absent|Overlap=Rhap_D0001-36|SpaceAfter=No
 7	.	.	PUNCT	_	_	6	punct	_	AlignBegin=86514|AlignEnd=86514|Overlap=Rhap_D0001-27
 
 # sent_id = Rhap_D0001-38
@@ -702,7 +702,7 @@
 # speaker_id = §LM1
 # macrosyntax = $L3 "euh" -$ { monsieur YYY |} $- $L2 ( { oui | oui } "je vois" //= bien sûr "je vois" // ) {| voisin } "euh" { prend ESPERLUETTE | -$ $L1 a } $- le même ( $L2 { oui | oui } // ) -$ discours $- "euh" ( absolument // ) ( $L2 absolument // ) -$ $- $L2 ( { oui | oui | oui } "je sais" // ) ému ( $L2 { oui | oui } // ) -$ quand on passe à l'arrière de Notre Dame "hein" >+ en $- particulier //
 # text = oui, oui.
-1	oui	oui	INTJ	_	_	0	root	_	AlignBegin=87291|AlignEnd=87673|Backchannel=Rhap_D0001-36::8|Overlap=Rhap_D0001-36|SpaceAfter=No
+1	oui	oui	INTJ	_	_	0	root	_	AlignBegin=87291|AlignEnd=87673|Backchannel=Rhap_D0001-36::10|Overlap=Rhap_D0001-36|SpaceAfter=No
 2	,	,	PUNCT	_	_	3	punct	_	AlignBegin=87673|AlignEnd=87291|Overlap=Rhap_D0001-27
 3	oui	oui	INTJ	_	_	1	conj	_	AlignBegin=87291|AlignEnd=87673|Overlap=Rhap_D0001-36|SpaceAfter=No
 4	.	.	PUNCT	_	_	1	punct	_	AlignBegin=87673|AlignEnd=87673|Overlap=Rhap_D0001-27
@@ -713,7 +713,7 @@
 # speaker_id = §LM1
 # macrosyntax = $L3 "euh" -$ { monsieur YYY |} $- $L2 ( { oui | oui } "je vois" //= bien sûr "je vois" // ) {| voisin } "euh" { prend ESPERLUETTE | -$ $L1 a } $- le même ( $L2 { oui | oui } // ) -$ discours $- "euh" ( absolument // ) ( $L2 absolument // ) -$ $- $L2 ( { oui | oui | oui } "je sais" // ) ému ( $L2 { oui | oui } // ) -$ quand on passe à l'arrière de Notre Dame "hein" >+ en $- particulier //
 # text = absolument.
-1	absolument	absolument	ADV	_	_	0	root	_	AlignBegin=89440|AlignEnd=90373|Backchannel=Rhap_D0001-36::8|Overlap=Rhap_D0001-36|SpaceAfter=No
+1	absolument	absolument	ADV	_	_	0	root	_	AlignBegin=89440|AlignEnd=90373|Backchannel=Rhap_D0001-36::10|Overlap=Rhap_D0001-36|SpaceAfter=No
 2	.	.	PUNCT	_	_	1	punct	_	AlignBegin=90373|AlignEnd=90373|Overlap=Rhap_D0001-27
 
 # sent_id = Rhap_D0001-41
@@ -784,14 +784,14 @@
 # macrosyntax = $- $L2 c'est vraiment un { très | très } beau trajet //
 # text = c'est vraiment un très, très beau trajet.
 1	c'	ce	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	9	nsubj	_	AlignBegin=96898|AlignEnd=96953|Exponence[Gender]=Inherent|Exponence[Number]=Inherent|Exponence[Person]=Inherent|Overlap=Rhap_D0001-46|SpaceAfter=No
-2	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	cop	_	AlignBegin=96953|AlignEnd=96993|Coconstruct=parataxis:conj::Rhap_D0001-44::6|Overlap=Rhap_D0001-46
+2	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	cop	_	AlignBegin=96953|AlignEnd=96993|Overlap=Rhap_D0001-46
 3	vraiment	vraiment	ADV	_	_	9	advmod	_	AlignBegin=96993|AlignEnd=97343|Overlap=Rhap_D0001-46
 4	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	9	det	_	AlignBegin=97343|AlignEnd=97373|Overlap=Rhap_D0001-46
 5	très	très	ADV	_	_	8	advmod	_	AlignBegin=97373|AlignEnd=97793|Overlap=Rhap_D0001-46|SpaceAfter=No
 6	,	,	PUNCT	_	_	7	punct	_	AlignBegin=98468|AlignEnd=96898|Overlap=Rhap_D0001-30bis
 7	très	très	ADV	_	_	5	conj	_	AlignBegin=97793|AlignEnd=97963|Overlap=Rhap_D0001-46
 8	beau	beau	ADJ	_	Gender=Masc|Number=Sing	9	amod	_	AlignBegin=97963|AlignEnd=98073|Exponence[Number]=Absent|HasSpokenGender=YesExceptSingWithLiaison|HasSpokenNumber=OnlyWithLiaison|Overlap=Rhap_D0001-46
-9	trajet	trajet	NOUN	_	Gender=Masc|Number=Sing	0	root	_	AlignBegin=98073|AlignEnd=98468|Exponence[Gender]=Inherent|Exponence[Number]=Absent|Overlap=Rhap_D0001-46|SpaceAfter=No
+9	trajet	trajet	NOUN	_	Gender=Masc|Number=Sing	0	root	_	AlignBegin=98073|AlignEnd=98468|Coconstruct=parataxis:conj::Rhap_D0001-44::6|Exponence[Gender]=Inherent|Exponence[Number]=Absent|Overlap=Rhap_D0001-46|SpaceAfter=No
 10	.	.	PUNCT	_	_	9	punct	_	AlignBegin=98468|AlignEnd=98468|Overlap=Rhap_D0001-30bis
 
 # sent_id = Rhap_D0001-46
@@ -1241,9 +1241,9 @@
 # macrosyntax = c'est ( $L1 "mh" oui d'accord // ) -$ $- des achats ponctuels //
 # text = c'est des achats ponctuels.
 1	c'	ce	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	4	nsubj	_	AlignBegin=148647|AlignEnd=148727|Exponence[Gender]=Inherent|Exponence[Number]=Inherent|Exponence[Person]=Inherent|Overlap=Rhap_D0001-74|SpaceAfter=No
-2	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	AlignBegin=148727|AlignEnd=148814|Coconstruct=parataxis:conj::Rhap_D0001-72::2|Overlap=Rhap_D0001-74
+2	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	AlignBegin=148727|AlignEnd=148814|Overlap=Rhap_D0001-74
 3	des	un	DET	_	Definite=Ind|Number=Plur|PronType=Art	4	det	_	AlignBegin=148814|AlignEnd=148969|LiaisonAfter=Yes|Overlap=Rhap_D0001-75
-4	achats	achat	NOUN	_	Gender=Masc|Number=Plur	0	root	_	AlignBegin=148969|AlignEnd=149229|Exponence[Gender]=Inherent|Exponence[Number]=Absent|LiaisonPossibleBefore=Yes|Overlap=Rhap_D0001-75
+4	achats	achat	NOUN	_	Gender=Masc|Number=Plur	0	root	_	AlignBegin=148969|AlignEnd=149229|Coconstruct=parataxis:conj::Rhap_D0001-72::5|Exponence[Gender]=Inherent|Exponence[Number]=Absent|LiaisonPossibleBefore=Yes|Overlap=Rhap_D0001-75
 5	ponctuels	ponctuel	ADJ	_	Gender=Masc|Number=Plur	4	amod	_	AlignBegin=149229|AlignEnd=149689|Exponence[Gender]=Absent|Exponence[Number]=Absent|HasSpokenGender=No|HasSpokenNumber=OnlyWithLiaison|Overlap=Rhap_D0001-75|SpaceAfter=No
 6	.	.	PUNCT	_	_	4	punct	_	AlignBegin=150143|AlignEnd=150143|Overlap=Rhap_D0001-56
 
@@ -1890,7 +1890,7 @@
 # macrosyntax = $- l'école ( $L2 c'était ESPERLUETTE // ) -$ est conçue $- maintenant comme un ( $L2 voilà // ) -$ pensum //
 # text = c'était…
 1	c'	ce	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	2	nsubj	_	AlignBegin=235874|AlignEnd=236249|Exponence[Gender]=Inherent|Exponence[Number]=Inherent|Exponence[Person]=Inherent|Overlap=Rhap_D0001-107|SpaceAfter=No
-2	était	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	AlignBegin=235874|AlignEnd=236249|Coconstruct=conj:dicto::Rhap_D0001-106::5|Overlap=Rhap_D0001-107|Scrap=Yes|SpaceAfter=No
+2	était	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	AlignBegin=235874|AlignEnd=236249|Coconstruct=conj:reform::Rhap_D0001-106::5|Overlap=Rhap_D0001-107|Scrap=Yes|SpaceAfter=No
 3	…	…	PUNCT	_	_	2	punct	_	AlignBegin=236249|AlignEnd=236249|Overlap=Rhap_D0001-81
 
 # sent_id = Rhap_D0001-109
@@ -2292,11 +2292,11 @@
 # speaker_id = §LF2
 # macrosyntax = $L2 ça < j'avoue qu'on a du mal quand on voit que Paul Valéry { passe en Zep | # } // $- "je veux dire" ça me ( $L3 ## a été en Zep // "oui" // ) -$ laisse assez rêveur //
 # text = a été en Zep.
-1	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	aux:tense	_	AlignBegin=277637|AlignEnd=278597|Coconstruct=conj:dicto::Rhap_D0001-132::16|Overlap=Rhap_D0001-135
-2	été	être	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Act	0	root	_	AlignBegin=277637|AlignEnd=278597|Exponence[Gender]=Absent|Exponence[Number]=Absent|Overlap=Rhap_D0001-135|PastPartHasSpokenGender=NotInThisDialect|Tense[denom]=Past
+1	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	aux:tense	_	AlignBegin=277637|AlignEnd=278597|Overlap=Rhap_D0001-135
+2	été	être	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Act	0	root	_	AlignBegin=277637|AlignEnd=278597|Coconstruct=conj:reform::Rhap_D0001-132::16|Exponence[Gender]=Absent|Exponence[Number]=Absent|Overlap=Rhap_D0001-135|PastPartHasSpokenGender=NotInThisDialect|Tense[denom]=Past
 3	en	en	ADP	_	_	4	case	_	AlignBegin=277637|AlignEnd=278597|Overlap=Rhap_D0001-135
 4	Zep	Zep	PROPN	_	_	2	obl:arg	_	AlignBegin=277637|AlignEnd=278597|Overlap=Rhap_D0001-135|SpaceAfter=No
-5	.	.	PUNCT	_	_	4	punct	_	AlignBegin=278597|AlignEnd=278597|Overlap=Rhap_D0001-103
+5	.	.	PUNCT	_	_	2	punct	_	AlignBegin=278597|AlignEnd=278597|Overlap=Rhap_D0001-103
 
 # sent_id = Rhap_D0001-134
 # prosodic_annotation = no
@@ -2336,9 +2336,9 @@
 4	sur	sur	ADP	_	_	5	case	_	AlignBegin=281156|AlignEnd=282824|Overlap=Rhap_D0001-137
 5	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	9	reparandum	_	AlignBegin=281641|AlignEnd=281851|HasSpokenGender=OnlySingExceptWithLiaison|Overlap=Rhap_D0001-137|Scrap=Yes|SpaceAfter=No
 6	,	,	PUNCT	_	_	5	punct	_	AlignBegin=278392|AlignEnd=278597|Overlap=Rhap_D0001-104bis
-7	sur	sur	ADP	_	_	9	case	_	AlignBegin=281851|AlignEnd=282051|Coconstruct=udep::Rhap_D0001-135::9|Overlap=Rhap_D0001-104bis
+7	sur	sur	ADP	_	_	9	case	_	AlignBegin=281851|AlignEnd=282051|Overlap=Rhap_D0001-104bis
 8	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	_	AlignBegin=282051|AlignEnd=282111|HasSpokenGender=OnlySingExceptWithLiaison|Overlap=Rhap_D0001-104bis
-9	changement	changement	NOUN	_	Gender=Masc|Number=Sing	0	root	_	AlignBegin=282111|AlignEnd=282621|Exponence[Gender]=Inherent|Exponence[Number]=Absent|Overlap=Rhap_D0001-137
+9	changement	changement	NOUN	_	Gender=Masc|Number=Sing	0	root	_	AlignBegin=282111|AlignEnd=282621|Coconstruct=udep::Rhap_D0001-135::9|Exponence[Gender]=Inherent|Exponence[Number]=Absent|Overlap=Rhap_D0001-137
 10	qui	qui	PRON	_	PronType=Rel	12	nsubj	_	AlignBegin=282621|AlignEnd=282691|Overlap=Rhap_D0001-137
 11	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	12	aux:tense	_	AlignBegin=282691|AlignEnd=282824|Overlap=Rhap_D0001-137
 12	intervenu	intervenir	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Act	9	acl:relcl	_	AlignBegin=282939|AlignEnd=283853|Exponence[Gender]=Absent|Exponence[Number]=Absent|Overlap=Rhap_D0001-138|PastPartHasSpokenGender=NotInThisDialect|SpaceAfter=No|Tense[denom]=Past
@@ -2359,7 +2359,7 @@
 # speaker_id = §LM1
 # macrosyntax = $- { sur le | sur les | sur le } changement qui est ( $L2 là -$ // $- $L2 oui // ^et ça // ) intervenu -$ //
 # text = oui.
-1	oui	oui	INTJ	_	_	0	root	_	AlignBegin=282939|AlignEnd=283034|Backchannel=Rhap_D0001-136::1|Overlap=Rhap_D0001-136|SpaceAfter=No
+1	oui	oui	INTJ	_	_	0	root	_	AlignBegin=282939|AlignEnd=283034|Backchannel=Rhap_D0001-136::7|Overlap=Rhap_D0001-136|SpaceAfter=No
 2	.	.	PUNCT	_	_	1	punct	_	AlignBegin=283853|AlignEnd=283853|Overlap=Rhap_D0001-104
 
 # sent_id = Rhap_D0001-139

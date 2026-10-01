@@ -208,13 +208,13 @@
 # speaker_id = §LF23-1
 # macrosyntax = ^parce ^que prélude < ça fait penser { à ( évidemment ) | à } Frédéric Chopin //
 # text = parce que prélude, ça fait penser à, évidemment, à Frédéric Chopin.
-1	parce	parce	ADV	_	ExtPos=SCONJ	7	mark	_	AlignBegin=41803|AlignEnd=41945|Automated=Yes|Coconstruct=mod::Rhap_D2012-7::4|Idiom=Yes|SingleSpeaker=Yes
+1	parce	parce	ADV	_	ExtPos=SCONJ	7	mark	_	AlignBegin=41803|AlignEnd=41945|Automated=Yes|Idiom=Yes|SingleSpeaker=Yes
 2	que	que	SCONJ	_	_	1	fixed	_	AlignBegin=41945|AlignEnd=42045|InIdiom=Yes
 3	prélude	prélude	NOUN	_	Gender=Masc|Number=Sing	7	dislocated:subj	_	AlignBegin=42045|AlignEnd=42495|Exponence[Gender]=Inherent|Exponence[Number]=Absent|SpaceAfter=No
 4	,	,	PUNCT	_	_	3	punct	_	AlignBegin=42495|AlignEnd=42495
 5	ça	ça	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	7	nsubj:caus	_	AlignBegin=42495|AlignEnd=42635|Exponence[Gender]=Inherent|Exponence[Number]=Inherent|Exponence[Person]=Inherent
 6	fait	faire	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	aux:caus	_	AlignBegin=42635|AlignEnd=42765
-7	penser	penser	VERB	_	VerbForm=Inf	0	root	_	AlignBegin=42765|AlignEnd=43175|Subject=ObjRaising
+7	penser	penser	VERB	_	VerbForm=Inf	0	root	_	AlignBegin=42765|AlignEnd=43175|Coconstruct=mod::Rhap_D2012-7::4|Subject=ObjRaising
 8	à	à	ADP	_	_	10	case	_	AlignBegin=43175|AlignEnd=43245|SpaceAfter=No
 9	,	,	PUNCT	_	_	10	punct	_	AlignBegin=43245|AlignEnd=43245
 10	évidemment	évidemment	ADV	_	_	13	reparandum	_	AlignBegin=43245|AlignEnd=43645|SpaceAfter=No
@@ -436,7 +436,7 @@
 6	ailleurs	ailleurs	ADV	_	_	5	fixed	_	AlignBegin=78495|AlignEnd=78945|InIdiom=Yes
 7	si	si	SCONJ	_	_	49	mark	_	AlignBegin=78945|AlignEnd=79385|SpaceAfter=No
 8	,	,	PUNCT	_	_	49	punct	_	AlignBegin=79385|AlignEnd=79385
-9	euh	euh	INTJ	_	_	48	discourse:filler	_	AlignBegin=79385|AlignEnd=79955|SpaceAfter=No
+9	euh	euh	INTJ	_	_	49	discourse	_	AlignBegin=79385|AlignEnd=79955|SpaceAfter=No
 10	,	,	PUNCT	_	_	9	punct	_	AlignBegin=79955|AlignEnd=79955
 11	l'	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	12	det	_	AlignBegin=79955|AlignEnd=80130|Exponence[Gender]=Absent|HasSpokenGender=OnlySingExceptWithLiaison|LiaisonAfter=Yes|SpaceAfter=No
 12	arrivée	arrivé	NOUN	_	Gender=Fem|Number=Sing	49	nsubj	_	AlignBegin=80130|AlignEnd=80740|Exponence[Gender]=Inherent|Exponence[Number]=Absent|LiaisonPossibleBefore=Yes
@@ -493,9 +493,9 @@
 # speaker_id = §LF23-1
 # macrosyntax = je n~ me demande d'ailleurs si "euh" l'arrivée { du berger dans Le roi Roger | ce berger qui "euh" amène { { d'autres | $- d'autres } valeurs | ( $L1  d'autres XXX // ) -$  } } "si vous voulez" dans un monde qui est figé "euh" ne rappelle pas un peu l'arrivée de Lohengrin //
 # text = d'autres XXX.
-1	d'	de	ADP	_	_	3	case	_	AlignBegin=86485|AlignEnd=87465|Coconstruct=conj:dicto::Rhap_D2012-19::31|Overlap=Rhap_D2012-19|SpaceAfter=No
+1	d'	de	ADP	_	_	3	case	_	AlignBegin=86485|AlignEnd=87465|Overlap=Rhap_D2012-19|SpaceAfter=No
 2	autres	autre	ADJ	_	Gender=Masc|Number=Plur|PronType=Ind	3	amod	_	AlignBegin=86485|AlignEnd=87465|Exponence[Gender]=Absent|Exponence[Number]=Absent|HasSpokenGender=No|HasSpokenNumber=OnlyWithLiaison|Overlap=Rhap_D2012-19
-3	XXX	XXX	X	_	ExtPos=NOUN	0	root	_	AlignBegin=86485|AlignEnd=87465|Overlap=Rhap_D2012-19|SpaceAfter=No
+3	XXX	XXX	X	_	ExtPos=NOUN	0	root	_	AlignBegin=86485|AlignEnd=87465|Coconstruct=conj:reform::Rhap_D2012-19::30|Overlap=Rhap_D2012-19|SpaceAfter=No
 4	.	.	PUNCT	_	_	3	punct	_	AlignBegin=87465|AlignEnd=87465|Overlap=Rhap_D2012-18
 
 # sent_id = Rhap_D2012-21
@@ -899,7 +899,7 @@
 # text = les beaux hôtels.
 1	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	3	det	_	AlignBegin=164847|AlignEnd=164972|HasSpokenGender=OnlySingExceptWithLiaison|Overlap=Rhap_D2012-34
 2	beaux	beau	ADJ	_	Gender=Masc|Number=Plur	3	amod	_	AlignBegin=164972|AlignEnd=165172|HasSpokenGender=YesExceptSingWithLiaison|HasSpokenNumber=OnlyWithLiaison|LiaisonAfter=Yes|Overlap=Rhap_D2012-34
-3	hôtels	hôtel	NOUN	_	Gender=Masc|Number=Plur	0	root	_	AlignBegin=165172|AlignEnd=165650|Coconstruct=conj:dicto::Rhap_D2012-34::22|Exponence[Gender]=Inherent|Exponence[Number]=Absent|LiaisonPossibleBefore=Yes|Overlap=Rhap_D2012-34|SpaceAfter=No
+3	hôtels	hôtel	NOUN	_	Gender=Masc|Number=Plur	0	root	_	AlignBegin=165172|AlignEnd=165650|Coconstruct=conj:reform::Rhap_D2012-34::22|Exponence[Gender]=Inherent|Exponence[Number]=Absent|LiaisonPossibleBefore=Yes|Overlap=Rhap_D2012-34|SpaceAfter=No
 4	.	.	PUNCT	_	_	3	punct	_	AlignBegin=166545|AlignEnd=166545|Overlap=Rhap_D2012-31
 
 # sent_id = Rhap_D2012-36
@@ -1210,9 +1210,9 @@
 # speaker_id = §LF23-1
 # macrosyntax = $L1 {| pour la direction de l'orchestre } // -$
 # text = pour la direction de l'orchestre.
-1	pour	pour	ADP	_	_	3	case	_	AlignBegin=217977|AlignEnd=219300|Coconstruct=conj:dicto::Rhap_D2012-44::14|Overlap=Rhap_D2012-44
+1	pour	pour	ADP	_	_	3	case	_	AlignBegin=217977|AlignEnd=219300|Overlap=Rhap_D2012-44
 2	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	AlignBegin=217977|AlignEnd=219300|HasSpokenGender=OnlySingExceptWithLiaison|Overlap=Rhap_D2012-44
-3	direction	direction	NOUN	_	Gender=Fem|Number=Sing	0	root	_	AlignBegin=217977|AlignEnd=219300|Exponence[Gender]=Inherent|Exponence[Number]=Absent|Overlap=Rhap_D2012-44
+3	direction	direction	NOUN	_	Gender=Fem|Number=Sing	0	root	_	AlignBegin=217977|AlignEnd=219300|Coconstruct=conj:reform::Rhap_D2012-44::14|Exponence[Gender]=Inherent|Exponence[Number]=Absent|Overlap=Rhap_D2012-44
 4	de	de	ADP	_	_	6	case	_	AlignBegin=217977|AlignEnd=219300|Overlap=Rhap_D2012-44
 5	l'	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	AlignBegin=217977|AlignEnd=219300|Exponence[Gender]=Absent|HasSpokenGender=OnlySingExceptWithLiaison|LiaisonAfter=Yes|Overlap=Rhap_D2012-44|SpaceAfter=No
 6	orchestre	orchestre	NOUN	_	Gender=Masc|Number=Sing	3	nmod	_	AlignBegin=217977|AlignEnd=219300|Exponence[Gender]=Inherent|Exponence[Number]=Absent|LiaisonPossibleBefore=Yes|Overlap=Rhap_D2012-44|SpaceAfter=No

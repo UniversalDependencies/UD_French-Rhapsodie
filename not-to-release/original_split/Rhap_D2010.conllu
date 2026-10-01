@@ -1054,11 +1054,11 @@
 # speaker_id = §LM29
 # macrosyntax = parce qu'ils ont $L1 couronné [ Les jeux sauvages ] de Paul Colin //
 # text = parce qu'ils ont couronné Les jeux sauvages de Paul Colin.
-1	parce	parce	ADV	_	ExtPos=SCONJ	5	mark	_	AlignBegin=128733|AlignEnd=129024|Automated=Yes|Coconstruct=mod::Rhap_D2010-62::6|Idiom=Yes|Overlap=Rhap_D2010-65|SingleSpeaker=Yes
+1	parce	parce	ADV	_	ExtPos=SCONJ	5	mark	_	AlignBegin=128733|AlignEnd=129024|Automated=Yes|Idiom=Yes|Overlap=Rhap_D2010-65|SingleSpeaker=Yes
 2	qu'	que	SCONJ	_	_	1	fixed	_	AlignBegin=129024|AlignEnd=129050|InIdiom=Yes|Overlap=Rhap_D2010-65|SpaceAfter=No
 3	ils	lui	PRON	_	Case=Nom|Emph=No|Gender=Masc|Number=Plur|Person=3|PronType=Prs	5	nsubj	_	AlignBegin=129050|AlignEnd=129193|Exponence[Person]=Inherent|Overlap=Rhap_D2010-65
 4	ont	avoir	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	5	aux:tense	_	AlignBegin=129193|AlignEnd=129314|Overlap=Rhap_D2010-65
-5	couronné	couronner	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Act	0	root	_	AlignBegin=129314|AlignEnd=129825|Exponence[Gender]=Absent|Exponence[Number]=Absent|PastPartHasSpokenGender=NotInThisDialect|Tense[denom]=Past
+5	couronné	couronner	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Act	0	root	_	AlignBegin=129314|AlignEnd=129825|Coconstruct=mod::Rhap_D2010-62::6|Exponence[Gender]=Absent|Exponence[Number]=Absent|PastPartHasSpokenGender=NotInThisDialect|Tense[denom]=Past
 6	Les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	7	det	_	AlignBegin=130066|AlignEnd=130171|HasSpokenGender=OnlySingExceptWithLiaison|InTitle=Yes
 7	jeux	jeu	NOUN	_	ExtPos=PROPN|Gender=Masc|Number=Plur	5	obj	_	AlignBegin=130171|AlignEnd=130311|Exponence[Gender]=Inherent|Exponence[Number]=Absent|Title=Yes
 8	sauvages	sauvage	ADJ	_	Gender=Masc|Number=Plur	7	amod	_	AlignBegin=130311|AlignEnd=130711|Exponence[Gender]=Absent|Exponence[Number]=Absent|HasSpokenGender=No|HasSpokenNumber=OnlyWithLiaison|InTitle=Yes
@@ -1470,7 +1470,7 @@
 # macrosyntax = {| un feutre } //+
 # text = un feutre.
 1	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	2	det	_	AlignBegin=182524|AlignEnd=182624
-2	feutre	feutre	NOUN	_	Gender=Masc|Number=Sing	0	root	_	AlignBegin=182624|AlignEnd=183241|Coconstruct=conj:dicto::Rhap_D2010-88::2|Exponence[Gender]=Inherent|Exponence[Number]=Absent|SpaceAfter=No
+2	feutre	feutre	NOUN	_	Gender=Masc|Number=Sing	0	root	_	AlignBegin=182624|AlignEnd=183241|Coconstruct=conj:reform::Rhap_D2010-88::2|Exponence[Gender]=Inherent|Exponence[Number]=Absent|SpaceAfter=No
 3	.	.	PUNCT	_	_	2	punct	_	AlignBegin=183241|AlignEnd=183241
 
 # sent_id = Rhap_D2010-91
@@ -1591,7 +1591,7 @@
 2	,	,	PUNCT	_	_	1	punct	_	AlignBegin=198209|AlignEnd=198209
 3	alors	alors	ADV	_	_	5	discourse	_	AlignBegin=198209|AlignEnd=198329|SpaceAfter=No
 4	,	,	PUNCT	_	_	3	punct	_	AlignBegin=198329|AlignEnd=198329
-5	danser	danser	VERB	_	VerbForm=Inf	0	root	_	AlignBegin=198329|AlignEnd=198637|Coconstruct=conj:dicto::Rhap_D2010-97::21|SpaceAfter=No|Subject=NoRaising
+5	danser	danser	VERB	_	VerbForm=Inf	0	root	_	AlignBegin=198329|AlignEnd=198637|Coconstruct=conj:reform::Rhap_D2010-97::21|SpaceAfter=No|Subject=NoRaising
 6	.	.	PUNCT	_	_	5	punct	_	AlignBegin=198637|AlignEnd=198637
 
 # sent_id = Rhap_D2010-99
@@ -2116,8 +2116,8 @@
 # speaker_id = §LM29
 # macrosyntax = ( $L1 avec XXX // ) -$
 # text = avec XXX.
-1	avec	avec	ADP	_	_	2	case	_	AlignBegin=263170|AlignEnd=263895|Coconstruct=udep::Rhap_D2010-128::16|Overlap=Rhap_D2010-128
-2	XXX	XXX	X	_	ExtPos=NOUN	0	root	_	AlignBegin=263170|AlignEnd=263895|Overlap=Rhap_D2010-128|SpaceAfter=No
+1	avec	avec	ADP	_	_	2	case	_	AlignBegin=263170|AlignEnd=263895|Overlap=Rhap_D2010-128
+2	XXX	XXX	X	_	ExtPos=NOUN	0	root	_	AlignBegin=263170|AlignEnd=263895|Coconstruct=udep::Rhap_D2010-128::16|Overlap=Rhap_D2010-128|SpaceAfter=No
 3	.	.	PUNCT	_	_	2	punct	_	AlignBegin=263895|AlignEnd=263895|Overlap=Rhap_D2010-98
 
 # sent_id = Rhap_D2010-130
