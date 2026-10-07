@@ -156,7 +156,7 @@
 6	elle	lui	PRON	_	Case=Nom|Emph=No|Gender=Fem|Number=Sing|Person=3|PronType=Prs	7	nsubj	_	Exponence[Person]=Inherent|WordAlignmentBegin=24865|WordAlignmentEnd=25097
 7	vole	voler	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	Exponence[Number]=Absent|Exponence[Person]=Absent|WordAlignmentBegin=25097|WordAlignmentEnd=25673
 8	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	9	det	_	WordAlignmentBegin=25673|WordAlignmentEnd=25843
-9	baguette	baguette	NOUN	_	Gender=Fem|Number=Sing	7	obj	_	cdet=No|Exponence[Gender]=Inherent|Exponence[Number]=Absent|WordAlignmentBegin=25843|WordAlignmentEnd=26242
+9	baguette	baguette	NOUN	_	Gender=Fem|Number=Sing	7	obj	_	Exponence[Gender]=Inherent|Exponence[Number]=Absent|WordAlignmentBegin=25843|WordAlignmentEnd=26242
 10	de	de	ADP	_	_	11	case	_	WordAlignmentBegin=26242|WordAlignmentEnd=26346
 11	pain	pain	NOUN	_	Gender=Masc|Number=Sing	9	nmod	_	Exponence[Gender]=Inherent|Exponence[Number]=Absent|SpaceAfter=No|WordAlignmentBegin=26346|WordAlignmentEnd=26616
 12	.	.	PUNCT	_	_	7	punct	_	WordAlignmentBegin=26616|WordAlignmentEnd=26616
@@ -172,7 +172,7 @@
 3	,	,	PUNCT	_	_	6	punct	_	WordAlignmentBegin=27582|WordAlignmentEnd=27582
 4	euh	euh	INTJ	_	_	6	discourse:filler	_	SpaceAfter=No|WordAlignmentBegin=27582|WordAlignmentEnd=28235
 5	,	,	PUNCT	_	_	4	punct	_	WordAlignmentBegin=28163|WordAlignmentEnd=28235
-6	prise	prendre	VERB	_	Gender=Fem|Number=Sing|VerbForm=Part|Voice=Pass	0	root	_	Exponence[Number]=Absent|PastPartHasSpokenGender=Yes|Tense[denom]=Past|WordAlignmentBegin=28235|WordAlignmentEnd=28407
+6	prise	prendre	VERB	_	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	0	root	_	Exponence[Number]=Absent|PastPartHasSpokenGender=Yes|Status[Tense]=Denom|WordAlignmentBegin=28235|WordAlignmentEnd=28407
 7	en	en	ADP	_	_	9	case	_	WordAlignmentBegin=28407|WordAlignmentEnd=28523
 8	flagrant	flagrant	ADJ	_	Gender=Masc|Number=Sing	9	amod	_	Exponence[Number]=Absent|HasSpokenGender=YesExceptSingWithLiaison|HasSpokenNumber=OnlyWithLiaison|WordAlignmentBegin=28523|WordAlignmentEnd=28843
 9	délit	délit	NOUN	_	Gender=Masc|Number=Sing	6	obl:mod	_	Exponence[Gender]=Inherent|Exponence[Number]=Absent|WordAlignmentBegin=28843|WordAlignmentEnd=29083
@@ -281,12 +281,12 @@
 9	j'	moi	PRON	_	Case=Nom|Emph=No|Number=Sing|Person=1|PronType=Prs	12	nsubj	_	Exponence[Number]=Inherent|Exponence[Person]=Inherent|SpaceAfter=No|WordAlignmentBegin=43805|WordAlignmentEnd=43847
 10	ai	avoir	AUX	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	12	aux:tense	_	WordAlignmentBegin=43847|WordAlignmentEnd=43907
 11	pas	pas	ADV	_	Polarity=Neg	12	advmod	_	WordAlignmentBegin=43907|WordAlignmentEnd=44048
-12	compris	comprendre	VERB	_	Gender=Masc|VerbForm=Part|Voice=Act	0	root	_	PastPartHasSpokenGender=Yes|Tense[denom]=Past|WordAlignmentBegin=44048|WordAlignmentEnd=44333
+12	compris	comprendre	VERB	_	Gender=Masc|Tense=Past|VerbForm=Part|Voice=Act	0	root	_	PastPartHasSpokenGender=Yes|Status[Tense]=Denom|WordAlignmentBegin=44048|WordAlignmentEnd=44333
 13	XXX	XXX	X	_	_	12	dep	_	Scrap=Yes|WordAlignmentBegin=44333|WordAlignmentEnd=44821
 14	ce	ce	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	12	obj	_	Exponence[Gender]=Inherent|Exponence[Number]=Inherent|Exponence[Person]=Inherent|WordAlignmentBegin=44821|WordAlignmentEnd=44906
 15	qui	qui	PRON	_	PronType=Rel	17	nsubj:pass	_	WordAlignmentBegin=44906|WordAlignmentEnd=44990
 16	était	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	17	aux:pass	_	WordAlignmentBegin=44990|WordAlignmentEnd=45217
-17	écrit	écrire	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Pass	14	acl:relcl	_	Exponence[Number]=Absent|PastPartHasSpokenGender=Yes|SpaceAfter=No|Tense[denom]=Past|WordAlignmentBegin=45217|WordAlignmentEnd=45569
+17	écrit	écrire	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	14	acl:relcl	_	Exponence[Number]=Absent|PastPartHasSpokenGender=Yes|SpaceAfter=No|Status[Tense]=Denom|WordAlignmentBegin=45217|WordAlignmentEnd=45569
 18	.	.	PUNCT	_	_	12	punct	_	WordAlignmentBegin=45569|WordAlignmentEnd=45569
 
 # sent_id = Rhap_M0019-15
@@ -332,9 +332,9 @@
 6	qu'	que	SCONJ	_	_	9	mark	_	SpaceAfter=No|WordAlignmentBegin=50336|WordAlignmentEnd=50403
 7	elle	lui	PRON	_	Case=Nom|Emph=No|Gender=Fem|Number=Sing|Person=3|PronType=Prs	9	nsubj	_	Exponence[Person]=Inherent|WordAlignmentBegin=50403|WordAlignmentEnd=50490
 8	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	aux:tense	_	WordAlignmentBegin=50490|WordAlignmentEnd=50541
-9	volé	voler	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Act	5	ccomp	_	Exponence[Gender]=Absent|Exponence[Number]=Absent|PastPartHasSpokenGender=NotInThisDialect|Tense[denom]=Past|WordAlignmentBegin=50541|WordAlignmentEnd=50767
+9	volé	voler	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	5	ccomp	_	Exponence[Gender]=Absent|Exponence[Number]=Absent|PastPartHasSpokenGender=NotInThisDialect|Status[Tense]=Denom|WordAlignmentBegin=50541|WordAlignmentEnd=50767
 10	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	11	det	_	HasSpokenGender=OnlySingExceptWithLiaison|WordAlignmentBegin=50767|WordAlignmentEnd=50867
-11	baguette	baguette	NOUN	_	Gender=Fem|Number=Sing	9	obj	_	cdet=No|Exponence[Gender]=Inherent|Exponence[Number]=Absent|WordAlignmentBegin=50867|WordAlignmentEnd=51127
+11	baguette	baguette	NOUN	_	Gender=Fem|Number=Sing	9	obj	_	Exponence[Gender]=Inherent|Exponence[Number]=Absent|WordAlignmentBegin=50867|WordAlignmentEnd=51127
 12	de	de	ADP	_	_	13	case	_	WordAlignmentBegin=51127|WordAlignmentEnd=51287
 13	pain	pain	NOUN	_	Gender=Masc|Number=Sing	11	nmod	_	Exponence[Gender]=Inherent|Exponence[Number]=Absent|SpaceAfter=No|WordAlignmentBegin=51287|WordAlignmentEnd=51501
 14	.	.	PUNCT	_	_	2	punct	_	WordAlignmentBegin=51501|WordAlignmentEnd=51501

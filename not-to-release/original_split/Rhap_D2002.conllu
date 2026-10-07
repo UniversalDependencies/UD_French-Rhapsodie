@@ -92,7 +92,7 @@
 39	,	,	PUNCT	_	_	36	punct	_	WordAlignmentBegin=19628|WordAlignmentEnd=19628
 40	sur	sur	ADP	_	_	42	case	_	WordAlignmentBegin=19628|WordAlignmentEnd=20054
 41	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	42	det	_	HasSpokenGender=OnlySingExceptWithLiaison|WordAlignmentBegin=20054|WordAlignmentEnd=20165
-42	livres	livre	NOUN	_	Gender=Masc|Number=Plur	33	nmod	_	cdet=No|Exponence[Gender]=Inherent|Exponence[Number]=Absent|WordAlignmentBegin=20165|WordAlignmentEnd=20285
+42	livres	livre	NOUN	_	Gender=Masc|Number=Plur	33	nmod	_	Exponence[Gender]=Inherent|Exponence[Number]=Absent|WordAlignmentBegin=20165|WordAlignmentEnd=20285
 43	de	de	ADP	_	_	44	case	_	WordAlignmentBegin=20285|WordAlignmentEnd=20385
 44	cuisine	cuisine	NOUN	_	Gender=Fem|Number=Sing	42	nmod	_	Exponence[Gender]=Inherent|Exponence[Number]=Absent|SpaceAfter=No|WordAlignmentBegin=20385|WordAlignmentEnd=20920
 45	.	.	PUNCT	_	_	4	punct	_	WordAlignmentBegin=20920|WordAlignmentEnd=20920
@@ -305,14 +305,14 @@
 5-6	au	_	_	_	_	_	_	_	_
 5	à	à	ADP	_	_	7	case	_	WordAlignmentBegin=40260|WordAlignmentEnd=40370
 6	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
-7	sens	sens	NOUN	_	Gender=Masc|Number=Sing	4	obl:mod	_	cdet=No|Exponence[Gender]=Inherent|Exponence[Number]=Absent|WordAlignmentBegin=40370|WordAlignmentEnd=40710
+7	sens	sens	NOUN	_	Gender=Masc|Number=Sing	4	obl:mod	_	Exponence[Gender]=Inherent|Exponence[Number]=Absent|WordAlignmentBegin=40370|WordAlignmentEnd=40710
 8	de	de	ADP	_	_	9	case	_	WordAlignmentBegin=40710|WordAlignmentEnd=40920
 9	philosophes	philosophe	NOUN	_	Gender=Masc|Number=Plur	7	nmod	_	Exponence[Gender]=Inherent|Exponence[Number]=Absent|WordAlignmentBegin=41343|WordAlignmentEnd=41898
 10	qui	qui	PRON	_	PronType=Rel	11	nsubj	_	WordAlignmentBegin=41898|WordAlignmentEnd=42198
 11	peuvent	pouvoir	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	9	acl:relcl	_	WordAlignmentBegin=42198|WordAlignmentEnd=42378
 12	intervenir	intervenir	VERB	_	VerbForm=Inf	11	xcomp	_	Subject=SubjRaising|WordAlignmentBegin=42378|WordAlignmentEnd=42908
 13	y	y	PRON	_	ExtPos=CCONJ|Person=3|PronType=Prs	17	cc	_	Exponence[Person]=Inherent|Idiom=Yes|WordAlignmentBegin=42908|WordAlignmentEnd=43008
-14	compris	comprendre	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part	13	fixed	_	Exponence[Number]=Absent|InIdiom=Yes|PastPartHasSpokenGender=Yes|Tense[denom]=Past|WordAlignmentBegin=43008|WordAlignmentEnd=43278
+14	compris	comprendre	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	13	fixed	_	Exponence[Number]=Absent|InIdiom=Yes|PastPartHasSpokenGender=Yes|Status[Tense]=Denom|WordAlignmentBegin=43008|WordAlignmentEnd=43278
 15	sur	sur	ADP	_	_	17	case	_	WordAlignmentBegin=43278|WordAlignmentEnd=43458
 16	ce	ce	DET	_	Gender=Masc|Number=Sing|PronType=Dem	17	det	_	HasSpokenGender=OnlySingExceptWithLiaison|WordAlignmentBegin=43458|WordAlignmentEnd=43598
 17	champ	champ	NOUN	_	Gender=Masc|Number=Sing	12	conj	_	Exponence[Gender]=Inherent|Exponence[Number]=Absent|SpaceAfter=No|WordAlignmentBegin=43598|WordAlignmentEnd=43858
@@ -436,7 +436,7 @@
 23	que	que	PRON	_	PronType=Rel	27	obj	_	WordAlignmentBegin=66606|WordAlignmentEnd=66666
 24	j'	moi	PRON	_	Case=Nom|Emph=No|Number=Sing|Person=1|PronType=Prs	26	nsubj	_	Exponence[Number]=Inherent|Exponence[Person]=Inherent|SpaceAfter=No|WordAlignmentBegin=66666|WordAlignmentEnd=66726
 25	ai	avoir	AUX	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	26	aux:tense	_	WordAlignmentBegin=66726|WordAlignmentEnd=66816
-26	dû	devoir	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Act	22	acl:relcl	_	Exponence[Gender]=Absent|Exponence[Number]=Absent|PastPartHasSpokenGender=NotInThisDialect|Tense[denom]=Past|WordAlignmentBegin=66816|WordAlignmentEnd=66895
+26	dû	devoir	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	22	acl:relcl	_	Exponence[Gender]=Absent|Exponence[Number]=Absent|PastPartHasSpokenGender=NotInThisDialect|Status[Tense]=Denom|WordAlignmentBegin=66816|WordAlignmentEnd=66895
 27	lire	lire	VERB	_	VerbForm=Inf	26	xcomp	_	Subject=SubjRaising|WordAlignmentBegin=66895|WordAlignmentEnd=67266
 28	déjà	déjà	ADV	_	_	29	advmod	_	WordAlignmentBegin=67266|WordAlignmentEnd=67586
 29	deux	deux	NUM	_	Number=Plur	30	nummod	_	Exponence[Number]=Inherent|WordAlignmentBegin=67586|WordAlignmentEnd=67796
@@ -594,7 +594,7 @@
 5	c'	ce	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	8	nsubj	_	Exponence[Gender]=Inherent|Exponence[Number]=Inherent|Exponence[Person]=Inherent|SpaceAfter=No|WordAlignmentBegin=89705|WordAlignmentEnd=89825
 6	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	cop	_	WordAlignmentBegin=89825|WordAlignmentEnd=89885
 7	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	8	det	_	WordAlignmentBegin=89885|WordAlignmentEnd=89925
-8	recueil	recueil	NOUN	_	Gender=Masc|Number=Sing	0	root	_	cdet=No|Exponence[Gender]=Inherent|Exponence[Number]=Absent|WordAlignmentBegin=89925|WordAlignmentEnd=90155
+8	recueil	recueil	NOUN	_	Gender=Masc|Number=Sing	0	root	_	Exponence[Gender]=Inherent|Exponence[Number]=Absent|WordAlignmentBegin=89925|WordAlignmentEnd=90155
 9	de	de	ADP	_	_	10	case	_	WordAlignmentBegin=90155|WordAlignmentEnd=90255
 10	nouvelles	nouvelle	NOUN	_	Gender=Fem|Number=Plur	8	nmod	_	Exponence[Gender]=Inherent|Exponence[Number]=Absent|SpaceAfter=No|WordAlignmentBegin=90255|WordAlignmentEnd=90725
 11	,	,	PUNCT	_	_	12	punct	_	WordAlignmentBegin=90725|WordAlignmentEnd=90725
@@ -650,7 +650,7 @@
 36	un	un	DET	_	Definite=Ind|ExtPos=ADV|Gender=Masc|Number=Sing|PronType=Art	39	advmod	_	Idiom=Yes|WordAlignmentBegin=100147|WordAlignmentEnd=100247
 37	peu	peu	NOUN	_	Gender=Masc	36	fixed	_	Exponence[Gender]=Inherent|InIdiom=Yes|WordAlignmentBegin=100247|WordAlignmentEnd=100397
 38	son	son	DET	_	Gender=Masc|Number=Sing|Number[psor]=Sing|Person[psor]=3|Poss=Yes|PronType=Prs	39	det	_	HasSpokenGender=OnlySingExceptWithLiaison|WordAlignmentBegin=100397|WordAlignmentEnd=100607
-39	chef	chef	NOUN	_	ExtPos=NOUN|Gender=Masc|Number=Sing	28	acl:relcl	_	cdet=No|Exponence[Gender]=Inherent|Exponence[Number]=Absent|Idiom=Yes|WordAlignmentBegin=100607|WordAlignmentEnd=100797
+39	chef	chef	NOUN	_	ExtPos=NOUN|Gender=Masc|Number=Sing	28	acl:relcl	_	Exponence[Gender]=Inherent|Exponence[Number]=Absent|Idiom=Yes|WordAlignmentBegin=100607|WordAlignmentEnd=100797
 40	d'	de	ADP	_	_	39	fixed	_	InIdiom=Yes|SpaceAfter=No|WordAlignmentBegin=100797|WordAlignmentEnd=100867
 41	œuvre	œuvre	NOUN	_	Gender=Fem|Number=Sing	39	fixed	_	Exponence[Gender]=Inherent|Exponence[Number]=Absent|InIdiom=Yes|LiaisonPossibleBefore=Yes|SpaceAfter=No|WordAlignmentBegin=100867|WordAlignmentEnd=101147
 42	,	,	PUNCT	_	_	50	punct	_	WordAlignmentBegin=0|WordAlignmentEnd=101147
@@ -750,7 +750,7 @@
 21	prégnante	prégnant	ADJ	_	Gender=Fem|Number=Sing	15	conj	_	Exponence[Number]=Absent|HasSpokenGender=YesExceptSingWithLiaison|HasSpokenNumber=OnlyWithLiaison|SpaceAfter=No|WordAlignmentBegin=119327|WordAlignmentEnd=119937
 22	,	,	PUNCT	_	_	7	punct	_	WordAlignmentBegin=119937|WordAlignmentEnd=119937
 23	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	24	det	_	LiaisonAfter=Yes|WordAlignmentBegin=119937|WordAlignmentEnd=120137
-24	espèce	espèce	NOUN	_	Gender=Fem|Number=Sing	3	obj	_	cdet=Ambiguous|Exponence[Gender]=Inherent|Exponence[Number]=Absent|LiaisonPossibleBefore=Yes|WordAlignmentBegin=120137|WordAlignmentEnd=120477
+24	espèce	espèce	NOUN	_	Gender=Fem|Number=Sing	3	obj	_	Exponence[Gender]=Inherent|Exponence[Number]=Absent|LiaisonPossibleBefore=Yes|WordAlignmentBegin=120137|WordAlignmentEnd=120477
 25	d'	de	ADP	_	_	26	case	_	SpaceAfter=No|WordAlignmentBegin=120477|WordAlignmentEnd=120517
 26	ambiance	ambiance	NOUN	_	Gender=Fem|Number=Sing	24	nmod	_	Exponence[Gender]=Inherent|Exponence[Number]=Absent|LiaisonPossibleBefore=Yes|SpaceAfter=No|WordAlignmentBegin=120517|WordAlignmentEnd=121017
 27	,	,	PUNCT	_	_	28	punct	_	WordAlignmentBegin=121017|WordAlignmentEnd=121017
@@ -805,7 +805,7 @@
 24	,	,	PUNCT	_	_	27	punct	_	WordAlignmentBegin=131787|WordAlignmentEnd=132545
 25	qui	qui	PRON	_	PronType=Rel	27	nsubj	_	WordAlignmentBegin=132545|WordAlignmentEnd=132620
 26	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	27	aux:tense	_	WordAlignmentBegin=132620|WordAlignmentEnd=132650
-27	eu	avoir	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Act	21	acl:relcl	_	Exponence[Gender]=Absent|Exponence[Number]=Absent|PastPartHasSpokenGender=NotInThisDialect|Tense[denom]=Past|WordAlignmentBegin=132650|WordAlignmentEnd=132690
+27	eu	avoir	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	21	acl:relcl	_	Exponence[Gender]=Absent|Exponence[Number]=Absent|PastPartHasSpokenGender=NotInThisDialect|Status[Tense]=Denom|WordAlignmentBegin=132650|WordAlignmentEnd=132690
 28	des	un	DET	_	Definite=Ind|Number=Plur|PronType=Art	29	det	_	WordAlignmentBegin=132690|WordAlignmentEnd=132810
 29	soucis	souci	NOUN	_	Gender=Masc|Number=Plur	27	obj	_	Exponence[Gender]=Inherent|Exponence[Number]=Absent|WordAlignmentBegin=132810|WordAlignmentEnd=133210
 30	pendant	pendant	ADP	_	_	32	case	_	WordAlignmentBegin=133210|WordAlignmentEnd=133460
@@ -915,7 +915,7 @@
 23	ai	avoir	AUX	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	26	aux:tense	_	WordAlignmentBegin=151924|WordAlignmentEnd=152024
 24	pas	pas	ADV	_	Polarity=Neg	26	advmod	_	WordAlignmentBegin=152024|WordAlignmentEnd=152154
 25	tellement	tellement	ADV	_	_	26	advmod	_	WordAlignmentBegin=152154|WordAlignmentEnd=152434
-26	rencontré	rencontrer	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Act	13	acl:relcl	_	Exponence[Gender]=Absent|Exponence[Number]=Absent|PastPartHasSpokenGender=NotInThisDialect|Tense[denom]=Past|WordAlignmentBegin=152434|WordAlignmentEnd=152844
+26	rencontré	rencontrer	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	13	acl:relcl	_	Exponence[Gender]=Absent|Exponence[Number]=Absent|PastPartHasSpokenGender=NotInThisDialect|Status[Tense]=Denom|WordAlignmentBegin=152434|WordAlignmentEnd=152844
 27	ailleurs	ailleurs	ADV	_	_	26	advmod	_	WordAlignmentBegin=152844|WordAlignmentEnd=153244
 28	de	de	ADP	_	_	29	case	_	WordAlignmentBegin=153870|WordAlignmentEnd=153975
 29	choses	chose	NOUN	_	Gender=Fem|Number=Plur	13	nmod	_	Exponence[Gender]=Inherent|Exponence[Number]=Absent|WordAlignmentBegin=153975|WordAlignmentEnd=154285
@@ -978,7 +978,7 @@
 7	c'	ce	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	10	nsubj	_	Exponence[Gender]=Inherent|Exponence[Number]=Inherent|Exponence[Person]=Inherent|SpaceAfter=No|WordAlignmentBegin=165815|WordAlignmentEnd=166005
 8	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	cop	_	WordAlignmentBegin=166005|WordAlignmentEnd=166085
 9	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	10	det	_	WordAlignmentBegin=166085|WordAlignmentEnd=166145
-10	sorte	sorte	NOUN	_	Gender=Fem|Number=Sing	0	root	_	cdet=Ambiguous|Exponence[Gender]=Inherent|Exponence[Number]=Absent|WordAlignmentBegin=166145|WordAlignmentEnd=166385
+10	sorte	sorte	NOUN	_	Gender=Fem|Number=Sing	0	root	_	Exponence[Gender]=Inherent|Exponence[Number]=Absent|WordAlignmentBegin=166145|WordAlignmentEnd=166385
 11	de	de	ADP	_	_	12	case	_	WordAlignmentBegin=166385|WordAlignmentEnd=166485
 12	mélange	mélange	NOUN	_	Gender=Masc|Number=Sing	10	nmod	_	Exponence[Gender]=Inherent|Exponence[Number]=Absent|WordAlignmentBegin=166485|WordAlignmentEnd=166999
 13	très	très	ADV	_	_	18	advmod	_	SpaceAfter=No|WordAlignmentBegin=167122|WordAlignmentEnd=167337
@@ -1568,7 +1568,7 @@
 6	deux	deux	NUM	_	Number=Plur	8	reparandum	_	Exponence[Number]=Inherent|SpaceAfter=No|WordAlignmentBegin=250839|WordAlignmentEnd=251374
 7	,	,	PUNCT	_	_	6	punct	_	WordAlignmentBegin=251374|WordAlignmentEnd=251956
 8	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	9	det	_	LiaisonAfter=Yes|WordAlignmentBegin=251956|WordAlignmentEnd=252361
-9	amour	amour	NOUN	_	Gender=Masc|Number=Sing	0	root	_	cdet=No|Exponence[Gender]=Inherent|Exponence[Number]=Absent|LiaisonPossibleBefore=Yes|WordAlignmentBegin=252361|WordAlignmentEnd=252621
+9	amour	amour	NOUN	_	Gender=Masc|Number=Sing	0	root	_	Exponence[Gender]=Inherent|Exponence[Number]=Absent|LiaisonPossibleBefore=Yes|WordAlignmentBegin=252361|WordAlignmentEnd=252621
 10	d'	de	ADP	_	_	11	case	_	SpaceAfter=No|WordAlignmentBegin=252621|WordAlignmentEnd=252731
 11	enfance	enfance	NOUN	_	Gender=Fem|Number=Sing	9	nmod	_	Exponence[Gender]=Inherent|Exponence[Number]=Absent|LiaisonPossibleBefore=Yes|WordAlignmentBegin=252731|WordAlignmentEnd=253251
 12	loin	loin	ADV	_	_	9	advmod	_	WordAlignmentBegin=253251|WordAlignmentEnd=253401
@@ -1629,7 +1629,7 @@
 # text = alors, raconté comme ça, c'est nul.
 1	alors	alors	ADV	_	_	9	advmod	_	SpaceAfter=No|WordAlignmentBegin=262685|WordAlignmentEnd=262920
 2	,	,	PUNCT	_	_	1	punct	_	WordAlignmentBegin=262920|WordAlignmentEnd=262920
-3	raconté	raconter	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part	9	advcl	_	Exponence[Gender]=Absent|Exponence[Number]=Absent|PastPartHasSpokenGender=NotInThisDialect|Tense[denom]=Past|WordAlignmentBegin=262920|WordAlignmentEnd=263290
+3	raconté	raconter	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	9	advcl	_	Exponence[Gender]=Absent|Exponence[Number]=Absent|PastPartHasSpokenGender=NotInThisDialect|Status[Tense]=Denom|WordAlignmentBegin=262920|WordAlignmentEnd=263290
 4	comme	comme	ADP	_	_	5	case	_	WordAlignmentBegin=263290|WordAlignmentEnd=263410
 5	ça	ça	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	3	obl:mod	_	Exponence[Gender]=Inherent|Exponence[Number]=Inherent|Exponence[Person]=Inherent|SpaceAfter=No|WordAlignmentBegin=263410|WordAlignmentEnd=263570
 6	,	,	PUNCT	_	_	3	punct	_	WordAlignmentBegin=263570|WordAlignmentEnd=263570

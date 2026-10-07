@@ -17,7 +17,7 @@
 11	,	,	PUNCT	_	_	12	punct	_	WordAlignmentBegin=2104|WordAlignmentEnd=2104
 12	euh	euh	INTJ	_	_	10	discourse:filler	_	SpaceAfter=No|WordAlignmentBegin=2104|WordAlignmentEnd=2239
 13	,	,	PUNCT	_	_	14	punct	_	WordAlignmentBegin=2239|WordAlignmentEnd=2239
-14	habillée	habiller	VERB	_	Gender=Fem|Number=Sing|VerbForm=Part	10	acl	_	Exponence[Gender]=Absent|Exponence[Number]=Absent|PastPartHasSpokenGender=NotInThisDialect|Tense[denom]=Past|WordAlignmentBegin=2239|WordAlignmentEnd=2575
+14	habillée	habiller	VERB	_	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	10	acl	_	Exponence[Gender]=Absent|Exponence[Number]=Absent|PastPartHasSpokenGender=NotInThisDialect|Status[Tense]=Denom|WordAlignmentBegin=2239|WordAlignmentEnd=2575
 15	tout	tout	ADV	_	_	17	advmod	_	WordAlignmentBegin=2575|WordAlignmentEnd=2745
 16	en	en	ADP	_	_	17	case	_	WordAlignmentBegin=2745|WordAlignmentEnd=2815
 17	noir	noir	NOUN	_	Gender=Masc|Number=Sing	14	obl:mod	_	Exponence[Gender]=Inherent|Exponence[Number]=Absent|WordAlignmentBegin=2815|WordAlignmentEnd=3475
@@ -27,18 +27,18 @@
 21	,	,	PUNCT	_	_	18	punct	_	WordAlignmentBegin=5122|WordAlignmentEnd=5122
 22	en	en	ADP	_	_	24	mark	_	WordAlignmentBegin=5122|WordAlignmentEnd=5693
 23	se	soi	PRON	_	Person=3|PronType=Prs|Reflex=Yes	24	expl:pv	_	Exponence[Person]=Inherent|WordAlignmentBegin=5693|WordAlignmentEnd=5873
-24	baladant	balader	VERB	_	VerbForm=Part	30	advcl	_	PastPartHasSpokenGender=NotInThisDialect|Tense[denom]=Pres|WordAlignmentBegin=5873|WordAlignmentEnd=6263
+24	baladant	balader	VERB	_	Tense=Pres|VerbForm=Part	30	advcl	_	PastPartHasSpokenGender=NotInThisDialect|Status[Tense]=Denom|WordAlignmentBegin=5873|WordAlignmentEnd=6263
 25	dans	dans	ADP	_	_	27	case	_	WordAlignmentBegin=6263|WordAlignmentEnd=6363
 26	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	27	det	_	HasSpokenGender=OnlySingExceptWithLiaison|WordAlignmentBegin=6363|WordAlignmentEnd=6527
 27	rue	rue	NOUN	_	Gender=Fem|Number=Sing	24	obl:mod	_	Exponence[Gender]=Inherent|Exponence[Number]=Absent|SpaceAfter=No|WordAlignmentBegin=6527|WordAlignmentEnd=7001
 28	,	,	PUNCT	_	_	24	punct	_	WordAlignmentBegin=7001|WordAlignmentEnd=7144
 29	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	30	aux:tense	_	WordAlignmentBegin=7144|WordAlignmentEnd=7321
-30	vu	voir	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Act	10	acl:relcl	_	Exponence[Gender]=Absent|Exponence[Number]=Absent|PastPartHasSpokenGender=NotInThisDialect|Tense[denom]=Past|WordAlignmentBegin=7321|WordAlignmentEnd=7759
+30	vu	voir	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	10	acl:relcl	_	Exponence[Gender]=Absent|Exponence[Number]=Absent|PastPartHasSpokenGender=NotInThisDialect|Status[Tense]=Denom|WordAlignmentBegin=7321|WordAlignmentEnd=7759
 31	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	35	det	_	SpaceAfter=No|WordAlignmentBegin=8087|WordAlignmentEnd=8392
 32	,	,	PUNCT	_	_	33	punct	_	WordAlignmentBegin=8392|WordAlignmentEnd=8392
 33	euh	euh	INTJ	_	_	31	discourse:filler	_	SpaceAfter=No|WordAlignmentBegin=8392|WordAlignmentEnd=8623
 34	,	,	PUNCT	_	_	31	punct	_	WordAlignmentBegin=8623|WordAlignmentEnd=8623
-35	vitrine	vitrine	NOUN	_	Gender=Fem|Number=Sing	30	obj	_	cdet=No|Exponence[Gender]=Inherent|Exponence[Number]=Absent|WordAlignmentBegin=8623|WordAlignmentEnd=9655
+35	vitrine	vitrine	NOUN	_	Gender=Fem|Number=Sing	30	obj	_	Exponence[Gender]=Inherent|Exponence[Number]=Absent|WordAlignmentBegin=8623|WordAlignmentEnd=9655
 36	de	de	ADP	_	_	37	case	_	WordAlignmentBegin=9916|WordAlignmentEnd=10080
 37	pâtissier-boulanger	pâtissier-boulanger	NOUN	_	Gender=Masc|Number=Sing	35	nmod	_	Exponence[Gender]=Inherent|Exponence[Number]=Absent|SpaceAfter=No|WordAlignmentBegin=10080|WordAlignmentEnd=11126
 38	.	.	PUNCT	_	_	7	punct	_	WordAlignmentBegin=11126|WordAlignmentEnd=11126
@@ -100,7 +100,7 @@
 12	,	,	PUNCT	_	_	5	punct	_	WordAlignmentBegin=23263|WordAlignmentEnd=23293
 13	il	lui	PRON	_	Case=Nom|Emph=No|Gender=Masc|Number=Sing|Person=3|PronType=Prs	15	nsubj	_	Exponence[Person]=Inherent|WordAlignmentBegin=23293|WordAlignmentEnd=23393
 14	avait	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	15	aux:tense	_	WordAlignmentBegin=23393|WordAlignmentEnd=23613
-15	laissé	laisser	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Act	0	root	_	Exponence[Gender]=Absent|Exponence[Number]=Absent|PastPartHasSpokenGender=NotInThisDialect|Tense[denom]=Past|WordAlignmentBegin=23613|WordAlignmentEnd=24043
+15	laissé	laisser	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	0	root	_	Exponence[Gender]=Absent|Exponence[Number]=Absent|PastPartHasSpokenGender=NotInThisDialect|Status[Tense]=Denom|WordAlignmentBegin=23613|WordAlignmentEnd=24043
 16	son	son	DET	_	Gender=Masc|Number=Sing|Number[psor]=Sing|Person[psor]=3|Poss=Yes|PronType=Prs	17	det	_	HasSpokenGender=OnlySingExceptWithLiaison|WordAlignmentBegin=24257|WordAlignmentEnd=24527
 17	camion	camion	NOUN	_	Gender=Masc|Number=Sing	15	obj	_	Exponence[Gender]=Inherent|Exponence[Number]=Absent|WordAlignmentBegin=24527|WordAlignmentEnd=24971
 18	ouvert	ouvert	ADJ	_	Gender=Masc|Number=Sing	15	xcomp	_	Exponence[Number]=Absent|HasSpokenGender=YesExceptSingWithLiaison|HasSpokenNumber=OnlyWithLiaison|SpaceAfter=No|WordAlignmentBegin=24971|WordAlignmentEnd=25658
@@ -117,14 +117,14 @@
 3	elle	lui	PRON	_	Case=Nom|Emph=No|Gender=Fem|Number=Sing|Person=3|PronType=Prs	6	nsubj	_	Exponence[Person]=Inherent|WordAlignmentBegin=26702|WordAlignmentEnd=26852
 4	en	en	PRON	_	Person=3|PronType=Prs	6	obj	_	Exponence[Person]=Inherent|WordAlignmentBegin=26852|WordAlignmentEnd=26932
 5	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	aux:tense	_	WordAlignmentBegin=26932|WordAlignmentEnd=26991
-6	profité	profiter	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Act	0	root	_	Exponence[Gender]=Absent|Exponence[Number]=Absent|PastPartHasSpokenGender=NotInThisDialect|Tense[denom]=Past|WordAlignmentBegin=26991|WordAlignmentEnd=27444
+6	profité	profiter	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	0	root	_	Exponence[Gender]=Absent|Exponence[Number]=Absent|PastPartHasSpokenGender=NotInThisDialect|Status[Tense]=Denom|WordAlignmentBegin=26991|WordAlignmentEnd=27444
 7	pour	pour	ADP	_	_	11	mark	_	SpaceAfter=No|WordAlignmentBegin=27444|WordAlignmentEnd=27589
 8	,	,	PUNCT	_	_	11	punct	_	WordAlignmentBegin=27589|WordAlignmentEnd=27589
 9	euh	euh	INTJ	_	_	11	discourse:filler	_	SpaceAfter=No|WordAlignmentBegin=27589|WordAlignmentEnd=27799
 10	,	,	PUNCT	_	_	9	punct	_	WordAlignmentBegin=27799|WordAlignmentEnd=27799
 11	voler	voler	VERB	_	VerbForm=Inf	6	advcl	_	Subject=NoRaising|WordAlignmentBegin=27799|WordAlignmentEnd=28078
 12	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	13	det	_	WordAlignmentBegin=28078|WordAlignmentEnd=28171
-13	baguette	baguette	NOUN	_	Gender=Fem|Number=Sing	11	obj	_	cdet=No|Exponence[Gender]=Inherent|Exponence[Number]=Absent|WordAlignmentBegin=28171|WordAlignmentEnd=28511
+13	baguette	baguette	NOUN	_	Gender=Fem|Number=Sing	11	obj	_	Exponence[Gender]=Inherent|Exponence[Number]=Absent|WordAlignmentBegin=28171|WordAlignmentEnd=28511
 14	de	de	ADP	_	_	15	case	_	WordAlignmentBegin=28511|WordAlignmentEnd=28741
 15	pain	pain	NOUN	_	Gender=Masc|Number=Sing	13	nmod	_	Exponence[Gender]=Inherent|Exponence[Number]=Absent|WordAlignmentBegin=28741|WordAlignmentEnd=29047
 16	et	et	CCONJ	_	_	18	cc	_	WordAlignmentBegin=29842|WordAlignmentEnd=29932
@@ -161,7 +161,7 @@
 21	qui	qui	PRON	_	PronType=Rel	24	nsubj	_	WordAlignmentBegin=33912|WordAlignmentEnd=34122
 22	l'	lui	PRON	_	Case=Acc|Emph=No|Number=Sing|Person=3|PronType=Prs	24	obj	_	Exponence[Person]=Inherent|SpaceAfter=No|WordAlignmentBegin=34122|WordAlignmentEnd=34168
 23	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	24	aux:tense	_	WordAlignmentBegin=34168|WordAlignmentEnd=34298
-24	vue	voir	VERB	_	Gender=Fem|Number=Sing|VerbForm=Part|Voice=Act	11	acl:relcl	_	Exponence[Gender]=Absent|Exponence[Number]=Absent|PastPartHasSpokenGender=NotInThisDialect|SpaceAfter=No|Tense[denom]=Past|WordAlignmentBegin=34298|WordAlignmentEnd=34747
+24	vue	voir	VERB	_	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	11	acl:relcl	_	Exponence[Gender]=Absent|Exponence[Number]=Absent|PastPartHasSpokenGender=NotInThisDialect|SpaceAfter=No|Status[Tense]=Denom|WordAlignmentBegin=34298|WordAlignmentEnd=34747
 25	.	.	PUNCT	_	_	9	punct	_	WordAlignmentBegin=34747|WordAlignmentEnd=34747
 
 # sent_id = Rhap_M0002-6
@@ -173,7 +173,7 @@
 1	elle	lui	PRON	_	Case=Nom|Emph=No|Gender=Fem|Number=Sing|Person=3|PronType=Prs	4	nsubj	_	Exponence[Person]=Inherent|WordAlignmentBegin=35551|WordAlignmentEnd=35659
 2	s'	soi	PRON	_	Person=3|PronType=Prs|Reflex=Yes	4	expl:pv	_	Exponence[Person]=Inherent|SpaceAfter=No|WordAlignmentBegin=35659|WordAlignmentEnd=35766
 3	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	aux:tense	_	WordAlignmentBegin=35766|WordAlignmentEnd=35803
-4	mise	mettre	VERB	_	Gender=Fem|Number=Sing|VerbForm=Part|Voice=Act	0	root	_	Exponence[Number]=Absent|PastPartHasSpokenGender=Yes|Tense[denom]=Past|WordAlignmentBegin=35803|WordAlignmentEnd=35991
+4	mise	mettre	VERB	_	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	0	root	_	Exponence[Number]=Absent|PastPartHasSpokenGender=Yes|Status[Tense]=Denom|WordAlignmentBegin=35803|WordAlignmentEnd=35991
 5	à	à	ADP	_	_	6	mark	_	WordAlignmentBegin=35991|WordAlignmentEnd=36110
 6	courir	courir	VERB	_	VerbForm=Inf	4	xcomp	_	SpaceAfter=No|Subject=SubjRaising|WordAlignmentBegin=36110|WordAlignmentEnd=36559
 7	.	.	PUNCT	_	_	4	punct	_	WordAlignmentBegin=36559|WordAlignmentEnd=36559
@@ -186,7 +186,7 @@
 # text = elle est rentrée, euh, dans Charlie Chaplin.
 1	elle	lui	PRON	_	Case=Nom|Emph=No|Gender=Fem|Number=Sing|Person=3|PronType=Prs	3	nsubj:pass	_	Exponence[Person]=Inherent|WordAlignmentBegin=36559|WordAlignmentEnd=36697
 2	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	aux:pass	_	WordAlignmentBegin=36697|WordAlignmentEnd=36780
-3	rentrée	rentrer	VERB	_	Gender=Fem|Number=Sing|VerbForm=Part|Voice=Pass	0	root	_	Exponence[Gender]=Absent|Exponence[Number]=Absent|PastPartHasSpokenGender=NotInThisDialect|SpaceAfter=No|Tense[denom]=Past|WordAlignmentBegin=36780|WordAlignmentEnd=37523
+3	rentrée	rentrer	VERB	_	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	0	root	_	Exponence[Gender]=Absent|Exponence[Number]=Absent|PastPartHasSpokenGender=NotInThisDialect|SpaceAfter=No|Status[Tense]=Denom|WordAlignmentBegin=36780|WordAlignmentEnd=37523
 4	,	,	PUNCT	_	_	5	punct	_	WordAlignmentBegin=37523|WordAlignmentEnd=37523
 5	euh	euh	INTJ	_	_	3	discourse:filler	_	SpaceAfter=No|WordAlignmentBegin=37523|WordAlignmentEnd=37913
 6	,	,	PUNCT	_	_	8	punct	_	WordAlignmentBegin=37913|WordAlignmentEnd=37913
@@ -205,7 +205,7 @@
 2	là	là	ADV	_	_	5	advmod	_	WordAlignmentBegin=39365|WordAlignmentEnd=39571
 3	ils	lui	PRON	_	Case=Nom|Emph=No|Gender=Masc|Number=Plur|Person=3|PronType=Prs	5	nsubj	_	Exponence[Person]=Inherent|WordAlignmentBegin=39571|WordAlignmentEnd=39639
 4	sont	être	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	5	aux:tense	_	WordAlignmentBegin=39639|WordAlignmentEnd=39815
-5	tombés	tomber	VERB	_	Gender=Masc|Number=Plur|VerbForm=Part|Voice=Act	0	root	_	Exponence[Gender]=Absent|Exponence[Number]=Absent|PastPartHasSpokenGender=NotInThisDialect|Tense[denom]=Past|WordAlignmentBegin=39815|WordAlignmentEnd=40055
+5	tombés	tomber	VERB	_	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part|Voice=Act	0	root	_	Exponence[Gender]=Absent|Exponence[Number]=Absent|PastPartHasSpokenGender=NotInThisDialect|Status[Tense]=Denom|WordAlignmentBegin=39815|WordAlignmentEnd=40055
 6	tous	tout	ADJ	_	Gender=Masc|Number=Plur	8	amod	_	Exponence[Number]=Absent|HasSpokenGender=YesExceptSingWithLiaison|HasSpokenNumber=OnlyWithLiaison|WordAlignmentBegin=40055|WordAlignmentEnd=40195
 7	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	8	det	_	HasSpokenGender=OnlySingExceptWithLiaison|WordAlignmentBegin=40195|WordAlignmentEnd=40315
 8	deux	deux	NUM	_	ExtPos=PRON|Number=Plur	5	obl:mod	_	Exponence[Number]=Inherent|SpaceAfter=No|WordAlignmentBegin=40315|WordAlignmentEnd=40647
@@ -226,7 +226,7 @@
 7	chapeau	chapeau	NOUN	_	Gender=Masc|Number=Sing	2	nmod	_	Exponence[Gender]=Inherent|Exponence[Number]=Absent|WordAlignmentBegin=43502|WordAlignmentEnd=44040
 8	l'	lui	PRON	_	Case=Acc|Emph=No|Number=Sing|Person=3|PronType=Prs	10	obj	_	Exponence[Person]=Inherent|SpaceAfter=No|WordAlignmentBegin=44096|WordAlignmentEnd=44178
 9	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	aux:tense	_	WordAlignmentBegin=44178|WordAlignmentEnd=44569
-10	dénoncée	dénoncer	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Act	0	root	_	Exponence[Gender]=Absent|Exponence[Number]=Absent|PastPartHasSpokenGender=NotInThisDialect|SpaceAfter=No|Tense[denom]=Past|WordAlignmentBegin=44569|WordAlignmentEnd=45332
+10	dénoncée	dénoncer	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	0	root	_	Exponence[Gender]=Absent|Exponence[Number]=Absent|PastPartHasSpokenGender=NotInThisDialect|SpaceAfter=No|Status[Tense]=Denom|WordAlignmentBegin=44569|WordAlignmentEnd=45332
 11	,	,	PUNCT	_	_	13	punct	_	WordAlignmentBegin=45332|WordAlignmentEnd=45332
 12	d'	de	ADP	_	_	13	case	_	SpaceAfter=No|WordAlignmentBegin=45332|WordAlignmentEnd=45397
 13	abord	abord	NOUN	_	Gender=Masc|Number=Sing	10	obl:mod	_	Exponence[Gender]=Inherent|Exponence[Number]=Absent|LiaisonPossibleBefore=Yes|SpaceAfter=No|WordAlignmentBegin=45397|WordAlignmentEnd=45702
@@ -259,7 +259,7 @@
 14	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	15	det	_	HasSpokenGender=OnlySingExceptWithLiaison|WordAlignmentBegin=49661|WordAlignmentEnd=49741
 15	boulanger	boulanger	NOUN	_	Gender=Masc|Number=Sing	17	nsubj	_	Exponence[Gender]=Inherent|Exponence[Number]=Absent|WordAlignmentBegin=49741|WordAlignmentEnd=50121
 16	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	17	aux:tense	_	WordAlignmentBegin=50121|WordAlignmentEnd=50166
-17	arrivé	arriver	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Act	0	root	_	Exponence[Gender]=Absent|Exponence[Number]=Absent|PastPartHasSpokenGender=NotInThisDialect|Tense[denom]=Past|WordAlignmentBegin=50166|WordAlignmentEnd=50561
+17	arrivé	arriver	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	0	root	_	Exponence[Gender]=Absent|Exponence[Number]=Absent|PastPartHasSpokenGender=NotInThisDialect|Status[Tense]=Denom|WordAlignmentBegin=50166|WordAlignmentEnd=50561
 18	avec	avec	ADP	_	_	20	case	_	WordAlignmentBegin=50561|WordAlignmentEnd=50775
 19	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	20	det	_	HasSpokenGender=OnlySingExceptWithLiaison|WordAlignmentBegin=50775|WordAlignmentEnd=50851
 20	police	police	NOUN	_	Gender=Fem|Number=Sing	17	obl:mod	_	Exponence[Gender]=Inherent|Exponence[Number]=Absent|SpaceAfter=No|WordAlignmentBegin=50851|WordAlignmentEnd=51600
@@ -273,7 +273,7 @@
 # text = ils ont discuté.
 1	ils	lui	PRON	_	Case=Nom|Emph=No|Gender=Masc|Number=Plur|Person=3|PronType=Prs	3	nsubj	_	Exponence[Person]=Inherent|WordAlignmentBegin=51600|WordAlignmentEnd=51824
 2	ont	avoir	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	3	aux:tense	_	WordAlignmentBegin=51824|WordAlignmentEnd=52197
-3	discuté	discuter	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Act	0	root	_	Exponence[Gender]=Absent|Exponence[Number]=Absent|PastPartHasSpokenGender=NotInThisDialect|SpaceAfter=No|Tense[denom]=Past|WordAlignmentBegin=53242|WordAlignmentEnd=54002
+3	discuté	discuter	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	0	root	_	Exponence[Gender]=Absent|Exponence[Number]=Absent|PastPartHasSpokenGender=NotInThisDialect|SpaceAfter=No|Status[Tense]=Denom|WordAlignmentBegin=53242|WordAlignmentEnd=54002
 4	.	.	PUNCT	_	_	3	punct	_	WordAlignmentBegin=54002|WordAlignmentEnd=54002
 
 # sent_id = Rhap_M0002-12
@@ -327,6 +327,6 @@
 43	seule	seul	ADJ	_	Gender=Fem|Number=Sing	38	obj	_	Exponence[Gender]=Absent|Exponence[Number]=Absent|HasSpokenGender=No|HasSpokenNumber=OnlyWithLiaison|SpaceAfter=No|WordAlignmentBegin=63307|WordAlignmentEnd=63538
 44	,	,	PUNCT	_	_	46	punct	_	WordAlignmentBegin=63538|WordAlignmentEnd=63538
 45	fort	fort	ADV	_	_	46	advmod	_	WordAlignmentBegin=63538|WordAlignmentEnd=63737
-46	étonnée	étonner	VERB	_	Gender=Fem|Number=Sing|VerbForm=Part	43	conj	_	Exponence[Gender]=Absent|Exponence[Number]=Absent|PastPartHasSpokenGender=NotInThisDialect|SpaceAfter=No|Tense[denom]=Past|WordAlignmentBegin=63737|WordAlignmentEnd=64084
+46	étonnée	étonner	VERB	_	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	43	conj	_	Exponence[Gender]=Absent|Exponence[Number]=Absent|PastPartHasSpokenGender=NotInThisDialect|SpaceAfter=No|Status[Tense]=Denom|WordAlignmentBegin=63737|WordAlignmentEnd=64084
 47	.	.	PUNCT	_	_	15	punct	_	WordAlignmentBegin=64084|WordAlignmentEnd=64084
 

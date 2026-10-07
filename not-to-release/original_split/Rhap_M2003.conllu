@@ -51,9 +51,9 @@
 2	vous	vous	PRON	_	Case=Nom|Emph=No|Number=Plur|Person=2|PronType=Prs	5	nsubj	_	Exponence[Number]=Inherent|Exponence[Person]=Inherent|Polite=Unknown|WordAlignmentBegin=15332|WordAlignmentEnd=15442
 3	l'	lui	PRON	_	Case=Acc|Emph=No|Number=Sing|Person=3|PronType=Prs	5	obj	_	Exponence[Person]=Inherent|SpaceAfter=No|WordAlignmentBegin=15442|WordAlignmentEnd=15482
 4	avez	avoir	AUX	_	Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	5	aux:tense	_	WordAlignmentBegin=15482|WordAlignmentEnd=15662
-5	remarqué	remarquer	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Act	0	root	_	Exponence[Gender]=Absent|Exponence[Number]=Absent|PastPartHasSpokenGender=NotInThisDialect|Tense[denom]=Past|WordAlignmentBegin=15662|WordAlignmentEnd=16132
+5	remarqué	remarquer	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	0	root	_	Exponence[Gender]=Absent|Exponence[Number]=Absent|PastPartHasSpokenGender=NotInThisDialect|Status[Tense]=Denom|WordAlignmentBegin=15662|WordAlignmentEnd=16132
 6	en	en	ADP	_	_	7	mark	_	WordAlignmentBegin=16132|WordAlignmentEnd=16212
-7	écoutant	écouter	VERB	_	VerbForm=Part	5	advcl	_	PastPartHasSpokenGender=NotInThisDialect|Tense[denom]=Pres|WordAlignmentBegin=16212|WordAlignmentEnd=16652
+7	écoutant	écouter	VERB	_	Tense=Pres|VerbForm=Part	5	advcl	_	PastPartHasSpokenGender=NotInThisDialect|Status[Tense]=Denom|WordAlignmentBegin=16212|WordAlignmentEnd=16652
 8	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	9	det	_	HasSpokenGender=OnlySingExceptWithLiaison|LiaisonAfter=Yes|SpaceAfter=No|WordAlignmentBegin=16652|WordAlignmentEnd=16682
 9	évangile	évangile	NOUN	_	Gender=Masc|Number=Sing	7	obj	_	Exponence[Gender]=Inherent|Exponence[Number]=Absent|LiaisonPossibleBefore=Yes|SpaceAfter=No|WordAlignmentBegin=16682|WordAlignmentEnd=17402
 10	.	.	PUNCT	_	_	5	punct	_	WordAlignmentBegin=17402|WordAlignmentEnd=17402
@@ -128,7 +128,7 @@
 2	guérit	guérir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	Exponence[Person]=Absent|WordAlignmentBegin=31194|WordAlignmentEnd=31744
 3	ensuite	ensuite	ADV	_	_	2	advmod	_	WordAlignmentBegin=31744|WordAlignmentEnd=32284
 4	toutes	tout	DET	_	Gender=Fem|Number=Plur|PronType=Ind	5	det	_	WordAlignmentBegin=32284|WordAlignmentEnd=32504
-5	sortes	sorte	NOUN	_	Gender=Fem|Number=Plur	2	obj	_	cdet=Ambiguous|Exponence[Gender]=Inherent|Exponence[Number]=Absent|WordAlignmentBegin=32504|WordAlignmentEnd=33149
+5	sortes	sorte	NOUN	_	Gender=Fem|Number=Plur	2	obj	_	Exponence[Gender]=Inherent|Exponence[Number]=Absent|WordAlignmentBegin=32504|WordAlignmentEnd=33149
 6	de	de	ADP	_	_	7	case	_	WordAlignmentBegin=33346|WordAlignmentEnd=33491
 7	malades	malade	NOUN	_	Gender=Masc|Number=Plur	5	nmod	_	Exponence[Gender]=Inherent|Exponence[Number]=Absent|WordAlignmentBegin=33491|WordAlignmentEnd=34134
 8	comme	comme	ADP	_	_	17	mark	_	WordAlignmentBegin=34813|WordAlignmentEnd=35058
@@ -149,7 +149,7 @@
 23	de	de	ADP	_	_	24	mark	_	WordAlignmentBegin=39560|WordAlignmentEnd=39740
 24	bénir	bénir	VERB	_	VerbForm=Inf	20	conj	_	WordAlignmentBegin=39740|WordAlignmentEnd=40409
 25	en	en	ADP	_	_	26	mark	_	WordAlignmentBegin=40490|WordAlignmentEnd=40620
-26	imposant	imposer	VERB	_	VerbForm=Part	24	advcl	_	PastPartHasSpokenGender=NotInThisDialect|Tense[denom]=Pres|WordAlignmentBegin=40620|WordAlignmentEnd=41630
+26	imposant	imposer	VERB	_	Tense=Pres|VerbForm=Part	24	advcl	_	PastPartHasSpokenGender=NotInThisDialect|Status[Tense]=Denom|WordAlignmentBegin=40620|WordAlignmentEnd=41630
 27	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	28	det	_	HasSpokenGender=OnlySingExceptWithLiaison|WordAlignmentBegin=41630|WordAlignmentEnd=41810
 28	mains	main	NOUN	_	Gender=Fem|Number=Plur	26	obj	_	Exponence[Gender]=Inherent|Exponence[Number]=Absent|SpaceAfter=No|WordAlignmentBegin=41810|WordAlignmentEnd=42136
 29	.	.	PUNCT	_	_	2	punct	_	WordAlignmentBegin=42136|WordAlignmentEnd=42136
@@ -215,7 +215,7 @@
 2	chez	chez	ADP	_	_	3	case	_	WordAlignmentBegin=57132|WordAlignmentEnd=57412
 3	lui	lui	PRON	_	Emph=Yes|Gender=Masc|Number=Sing|Person=3|PronType=Prs	5	obl:mod	_	Exponence[Person]=Inherent|WordAlignmentBegin=57412|WordAlignmentEnd=57922
 4	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	aux:pass	_	WordAlignmentBegin=57922|WordAlignmentEnd=58072
-5	fait	faire	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Pass	0	root	_	Exponence[Number]=Absent|PastPartHasSpokenGender=Yes|Tense[denom]=Past|WordAlignmentBegin=58072|WordAlignmentEnd=58292
+5	fait	faire	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	0	root	_	Exponence[Number]=Absent|PastPartHasSpokenGender=Yes|Status[Tense]=Denom|WordAlignmentBegin=58072|WordAlignmentEnd=58292
 6	de	de	ADP	_	_	7	case	_	WordAlignmentBegin=58292|WordAlignmentEnd=58472
 7	compassion	compassion	NOUN	_	Gender=Fem|Number=Sing	5	obl:arg	_	Exponence[Gender]=Inherent|Exponence[Number]=Absent|WordAlignmentBegin=58472|WordAlignmentEnd=59170
 8	et	et	CCONJ	_	_	11	cc	_	WordAlignmentBegin=60082|WordAlignmentEnd=60157
@@ -337,9 +337,9 @@
 49	personne	personne	NOUN	_	Gender=Fem|Number=Sing	47	obj	_	Exponence[Gender]=Inherent|Exponence[Number]=Absent|WordAlignmentBegin=93847|WordAlignmentEnd=94227
 50	en	en	ADP	_	_	52	case	_	WordAlignmentBegin=94227|WordAlignmentEnd=94357
 51	sa	son	DET	_	Gender=Fem|Number=Sing|Number[psor]=Sing|Person[psor]=3|Poss=Yes|PronType=Prs	52	det	_	HasSpokenGender=OnlySingExceptWithLiaison|WordAlignmentBegin=94357|WordAlignmentEnd=94564
-52	qualité	qualité	NOUN	_	Gender=Fem|Number=Sing	47	obl:mod	_	cdet=No|Exponence[Gender]=Inherent|Exponence[Number]=Absent|WordAlignmentBegin=94564|WordAlignmentEnd=95067
+52	qualité	qualité	NOUN	_	Gender=Fem|Number=Sing	47	obl:mod	_	Exponence[Gender]=Inherent|Exponence[Number]=Absent|WordAlignmentBegin=94564|WordAlignmentEnd=95067
 53	de	de	ADP	_	_	54	case	_	WordAlignmentBegin=95067|WordAlignmentEnd=95177
-54	sujet	sujet	NOUN	_	Gender=Masc|Number=Sing	52	nmod	_	cdet=No|Exponence[Gender]=Inherent|Exponence[Number]=Absent|WordAlignmentBegin=95177|WordAlignmentEnd=95737
+54	sujet	sujet	NOUN	_	Gender=Masc|Number=Sing	52	nmod	_	Exponence[Gender]=Inherent|Exponence[Number]=Absent|WordAlignmentBegin=95177|WordAlignmentEnd=95737
 55	de	de	ADP	_	_	56	case	_	WordAlignmentBegin=95737|WordAlignmentEnd=95857
 56	parole	parole	NOUN	_	Gender=Fem|Number=Sing	54	nmod	_	Exponence[Gender]=Inherent|Exponence[Number]=Absent|SpaceAfter=No|WordAlignmentBegin=95857|WordAlignmentEnd=96519
 57	,	,	PUNCT	_	_	59	punct	_	WordAlignmentBegin=96519|WordAlignmentEnd=97588
@@ -376,7 +376,7 @@
 4	même	même	ADV	_	_	3	advmod	_	WordAlignmentBegin=106184|WordAlignmentEnd=106439
 5	pas	pas	ADV	_	Polarity=Neg	3	advmod	_	WordAlignmentBegin=106439|WordAlignmentEnd=106584
 6	ses	son	DET	_	Number=Plur|Number[psor]=Sing|Person[psor]=3|Poss=Yes|PronType=Prs	7	det	_	HasSpokenGender=OnlySingExceptWithLiaison|WordAlignmentBegin=106584|WordAlignmentEnd=106794
-7	gestes	geste	NOUN	_	Gender=Masc|Number=Plur	3	obj	_	cdet=No|Exponence[Gender]=Inherent|Exponence[Number]=Absent|WordAlignmentBegin=106794|WordAlignmentEnd=107154
+7	gestes	geste	NOUN	_	Gender=Masc|Number=Plur	3	obj	_	Exponence[Gender]=Inherent|Exponence[Number]=Absent|WordAlignmentBegin=106794|WordAlignmentEnd=107154
 8	de	de	ADP	_	_	9	case	_	WordAlignmentBegin=107154|WordAlignmentEnd=107294
 9	bonté	bonté	NOUN	_	Gender=Fem|Number=Sing	7	nmod	_	Exponence[Gender]=Inherent|Exponence[Number]=Absent|WordAlignmentBegin=107294|WordAlignmentEnd=107694
 10	comme	comme	ADP	_	_	12	case	_	WordAlignmentBegin=107694|WordAlignmentEnd=107884
@@ -495,7 +495,7 @@
 6	action	action	NOUN	_	Gender=Fem|Number=Sing	4	nmod	_	Exponence[Gender]=Inherent|Exponence[Number]=Absent|LiaisonPossibleBefore=Yes|WordAlignmentBegin=138249|WordAlignmentEnd=138876
 7	dans	dans	ADP	_	_	9	case	_	WordAlignmentBegin=139713|WordAlignmentEnd=139848
 8	ses	son	DET	_	Number=Plur|Number[psor]=Sing|Person[psor]=3|Poss=Yes|PronType=Prs	9	det	_	HasSpokenGender=OnlySingExceptWithLiaison|WordAlignmentBegin=139848|WordAlignmentEnd=140058
-9	gestes	geste	NOUN	_	Gender=Masc|Number=Plur	2	obl:mod	_	cdet=No|Exponence[Gender]=Inherent|Exponence[Number]=Absent|WordAlignmentBegin=140058|WordAlignmentEnd=140538
+9	gestes	geste	NOUN	_	Gender=Masc|Number=Plur	2	obl:mod	_	Exponence[Gender]=Inherent|Exponence[Number]=Absent|WordAlignmentBegin=140058|WordAlignmentEnd=140538
 10	de	de	ADP	_	_	11	case	_	WordAlignmentBegin=140538|WordAlignmentEnd=140708
 11	libération	libération	NOUN	_	Gender=Fem|Number=Sing	9	nmod	_	Exponence[Gender]=Inherent|Exponence[Number]=Absent|SpaceAfter=No|WordAlignmentBegin=140708|WordAlignmentEnd=141508
 12	.	.	PUNCT	_	_	2	punct	_	WordAlignmentBegin=141508|WordAlignmentEnd=141508
@@ -640,7 +640,7 @@
 # macrosyntax = sois purifié // ] entend-on dans l'évangile //
 # text = sois purifié, entend-on dans l'évangile.
 1	sois	être	AUX	_	Mood=Imp|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	2	aux:pass	_	WordAlignmentBegin=172082|WordAlignmentEnd=172357
-2	purifié	purifier	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Pass	0	root	_	Exponence[Gender]=Absent|Exponence[Number]=Absent|PastPartHasSpokenGender=NotInThisDialect|Reported=Yes|SpaceAfter=No|Tense[denom]=Past|WordAlignmentBegin=172357|WordAlignmentEnd=173135
+2	purifié	purifier	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	0	root	_	Exponence[Gender]=Absent|Exponence[Number]=Absent|PastPartHasSpokenGender=NotInThisDialect|Reported=Yes|SpaceAfter=No|Status[Tense]=Denom|WordAlignmentBegin=172357|WordAlignmentEnd=173135
 3	,	,	PUNCT	_	_	4	punct	_	WordAlignmentBegin=173135|WordAlignmentEnd=173604
 4	entend	entendre	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	parataxis:insert	_	Exponence[Person]=Absent|SpaceAfter=No|WordAlignmentBegin=173604|WordAlignmentEnd=173999
 5	-on	on	PRON	_	Case=Nom|Emph=No|Gender=Masc|Number=Sing|Person=3|PronType=Ind	4	nsubj	_	Exponence[Gender]=Absent|Exponence[Number]=Inherent|Exponence[Person]=Inherent|WordAlignmentBegin=173999|WordAlignmentEnd=174169
@@ -734,12 +734,12 @@
 1	il	lui	PRON	_	Case=Nom|Emph=No|Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	Exponence[Person]=Inherent|WordAlignmentBegin=193212|WordAlignmentEnd=193355
 2	guérit	guérir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	Exponence[Person]=Absent|WordAlignmentBegin=193355|WordAlignmentEnd=193965
 3	en	en	ADP	_	_	4	mark	_	WordAlignmentBegin=194377|WordAlignmentEnd=194572
-4	donnant	donner	VERB	_	VerbForm=Part	2	advcl	_	PastPartHasSpokenGender=NotInThisDialect|Tense[denom]=Pres|WordAlignmentBegin=194572|WordAlignmentEnd=194932
+4	donnant	donner	VERB	_	Tense=Pres|VerbForm=Part	2	advcl	_	PastPartHasSpokenGender=NotInThisDialect|Status[Tense]=Denom|WordAlignmentBegin=194572|WordAlignmentEnd=194932
 5	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	HasSpokenGender=OnlySingExceptWithLiaison|WordAlignmentBegin=194932|WordAlignmentEnd=195092
 6	vie	vie	NOUN	_	Gender=Fem|Number=Sing	4	obj	_	Exponence[Gender]=Inherent|Exponence[Number]=Absent|SpaceAfter=No|WordAlignmentBegin=195092|WordAlignmentEnd=195462
 7	,	,	PUNCT	_	_	9	punct	_	WordAlignmentBegin=195462|WordAlignmentEnd=195887
 8	en	en	ADP	_	_	9	mark	_	WordAlignmentBegin=195887|WordAlignmentEnd=196052
-9	donnant	donner	VERB	_	VerbForm=Part	4	conj	_	PastPartHasSpokenGender=NotInThisDialect|Tense[denom]=Pres|WordAlignmentBegin=196052|WordAlignmentEnd=196422
+9	donnant	donner	VERB	_	Tense=Pres|VerbForm=Part	4	conj	_	PastPartHasSpokenGender=NotInThisDialect|Status[Tense]=Denom|WordAlignmentBegin=196052|WordAlignmentEnd=196422
 10	sa	son	DET	_	Gender=Fem|Number=Sing|Number[psor]=Sing|Person[psor]=3|Poss=Yes|PronType=Prs	12	det	_	HasSpokenGender=OnlySingExceptWithLiaison|WordAlignmentBegin=196422|WordAlignmentEnd=196622
 11	propre	propre	ADJ	_	Gender=Fem|Number=Sing	12	amod	_	Exponence[Gender]=Absent|Exponence[Number]=Absent|HasSpokenGender=No|HasSpokenNumber=OnlyWithLiaison|WordAlignmentBegin=196622|WordAlignmentEnd=197066
 12	vie	vie	NOUN	_	Gender=Fem|Number=Sing	9	obj	_	Exponence[Gender]=Inherent|Exponence[Number]=Absent|SpaceAfter=No|WordAlignmentBegin=197066|WordAlignmentEnd=197192
@@ -799,7 +799,7 @@
 23	l'on	on	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Ind	24	nsubj	_	Exponence[Gender]=Absent|Exponence[Number]=Inherent|Exponence[Person]=Inherent|WordAlignmentBegin=209243|WordAlignmentEnd=209403
 24	fait	faire	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	21	acl:relcl	_	Exponence[Person]=Absent|WordAlignmentBegin=209403|WordAlignmentEnd=209769
 25	en	en	ADP	_	_	26	mark	_	WordAlignmentBegin=210014|WordAlignmentEnd=210099
-26	faisant	faire	VERB	_	VerbForm=Part	24	advcl	_	PastPartHasSpokenGender=Yes|Tense[denom]=Pres|WordAlignmentBegin=210099|WordAlignmentEnd=210489
+26	faisant	faire	VERB	_	Tense=Pres|VerbForm=Part	24	advcl	_	PastPartHasSpokenGender=Yes|Status[Tense]=Denom|WordAlignmentBegin=210099|WordAlignmentEnd=210489
 27-28	du	_	_	_	_	_	_	_	_
 27	de	de	ADP	_	_	29	case	_	WordAlignmentBegin=210489|WordAlignmentEnd=210609
 28	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	29	det	_	_
@@ -835,7 +835,7 @@
 7	que	que	PRON	_	PronType=Rel	10	obj	_	WordAlignmentBegin=217885|WordAlignmentEnd=217957
 8	nous	nous	PRON	_	Case=Nom|Emph=No|Number=Plur|Person=1|PronType=Prs	10	nsubj	_	Exponence[Number]=Inherent|Exponence[Person]=Inherent|WordAlignmentBegin=217957|WordAlignmentEnd=218062
 9	avons	avoir	AUX	_	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	10	aux:tense	_	WordAlignmentBegin=218062|WordAlignmentEnd=218364
-10	entendu	entendre	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Act	3	acl:relcl	_	Exponence[Gender]=Absent|Exponence[Number]=Absent|PastPartHasSpokenGender=NotInThisDialect|Tense[denom]=Past|WordAlignmentBegin=218364|WordAlignmentEnd=218802
+10	entendu	entendre	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	3	acl:relcl	_	Exponence[Gender]=Absent|Exponence[Number]=Absent|PastPartHasSpokenGender=NotInThisDialect|Status[Tense]=Denom|WordAlignmentBegin=218364|WordAlignmentEnd=218802
 11	dans	dans	ADP	_	_	14	case	_	WordAlignmentBegin=218802|WordAlignmentEnd=218942
 12	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	14	det	_	HasSpokenGender=OnlySingExceptWithLiaison|WordAlignmentBegin=218942|WordAlignmentEnd=219042
 13	première	premier	ADJ	_	Gender=Fem|Number=Sing	14	amod	_	Exponence[Number]=Absent|HasSpokenGender=YesExceptSingWithLiaison|HasSpokenNumber=OnlyWithLiaison|WordAlignmentBegin=219042|WordAlignmentEnd=219412
@@ -879,7 +879,7 @@
 1	il	lui	PRON	_	Case=Nom|Emph=No|Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	Exponence[Person]=Inherent|WordAlignmentBegin=227156|WordAlignmentEnd=227286
 2	fait	faire	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	Exponence[Person]=Absent|Reported=Yes|WordAlignmentBegin=227286|WordAlignmentEnd=227481
 3	des	un	DET	_	Definite=Ind|Number=Plur|PronType=Art	4	det	_	WordAlignmentBegin=227481|WordAlignmentEnd=227601
-4	journées	journée	NOUN	_	Gender=Fem|Number=Plur	2	obj	_	cdet=No|Exponence[Gender]=Inherent|Exponence[Number]=Absent|WordAlignmentBegin=227601|WordAlignmentEnd=227971
+4	journées	journée	NOUN	_	Gender=Fem|Number=Plur	2	obj	_	Exponence[Gender]=Inherent|Exponence[Number]=Absent|WordAlignmentBegin=227601|WordAlignmentEnd=227971
 5	de	de	ADP	_	_	6	case	_	WordAlignmentBegin=227971|WordAlignmentEnd=228091
 6	manœuvre	manœuvre	NOUN	_	Gender=Fem|Number=Sing	4	nmod	_	Exponence[Gender]=Inherent|Exponence[Number]=Absent|SpaceAfter=No|WordAlignmentBegin=228091|WordAlignmentEnd=228759
 7	.	.	PUNCT	_	_	2	punct	_	WordAlignmentBegin=0|WordAlignmentEnd=0
@@ -919,7 +919,7 @@
 27	y	y	PRON	_	Person=3|PronType=Prs	30	iobj	_	Exponence[Person]=Inherent|WordAlignmentBegin=236758|WordAlignmentEnd=236812
 28	ai	avoir	AUX	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	30	aux:tense	_	WordAlignmentBegin=236812|WordAlignmentEnd=236895
 29	rien	rien	PRON	_	Gender=Masc|Number=Sing|PronType=Neg	30	obj	_	Exponence[Gender]=Inherent|Exponence[Number]=Inherent|WordAlignmentBegin=236895|WordAlignmentEnd=237145
-30	gagné	gagner	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Act	0	root	_	Exponence[Gender]=Absent|Exponence[Number]=Absent|PastPartHasSpokenGender=NotInThisDialect|Reported=Yes|SpaceAfter=No|Tense[denom]=Past|WordAlignmentBegin=237145|WordAlignmentEnd=237585
+30	gagné	gagner	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	0	root	_	Exponence[Gender]=Absent|Exponence[Number]=Absent|PastPartHasSpokenGender=NotInThisDialect|Reported=Yes|SpaceAfter=No|Status[Tense]=Denom|WordAlignmentBegin=237145|WordAlignmentEnd=237585
 31	,	,	PUNCT	_	_	35	punct	_	WordAlignmentBegin=237585|WordAlignmentEnd=237995
 32	sinon	sinon	CCONJ	_	_	35	cc	_	WordAlignmentBegin=237995|WordAlignmentEnd=238410
 33	que	que	ADV	_	_	35	advmod	_	WordAlignmentBegin=238410|WordAlignmentEnd=238530
@@ -938,7 +938,7 @@
 3	compte	compter	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	Exponence[Person]=Absent|Reported=Yes|WordAlignmentBegin=240055|WordAlignmentEnd=240605
 4	que	que	ADV	_	Polarity=Neg	6	advmod	_	WordAlignmentBegin=241095|WordAlignmentEnd=241250
 5	des	un	DET	_	Definite=Ind|Number=Plur|PronType=Art	6	det	_	WordAlignmentBegin=241250|WordAlignmentEnd=241390
-6	nuits	nuit	NOUN	_	Gender=Fem|Number=Plur	3	obj	_	cdet=No|Exponence[Gender]=Inherent|Exponence[Number]=Absent|WordAlignmentBegin=241390|WordAlignmentEnd=241680
+6	nuits	nuit	NOUN	_	Gender=Fem|Number=Plur	3	obj	_	Exponence[Gender]=Inherent|Exponence[Number]=Absent|WordAlignmentBegin=241390|WordAlignmentEnd=241680
 7	de	de	ADP	_	_	8	case	_	WordAlignmentBegin=241680|WordAlignmentEnd=241760
 8	souffrance	souffrance	NOUN	_	Gender=Fem|Number=Sing	6	nmod	_	Exponence[Gender]=Inherent|Exponence[Number]=Absent|SpaceAfter=No|WordAlignmentBegin=241760|WordAlignmentEnd=242810
 9	…	…	PUNCT	_	_	3	punct	_	WordAlignmentBegin=242810|WordAlignmentEnd=242810
@@ -951,7 +951,7 @@
 # text = que de nuits de souffrance dans notre humanité.
 1	que	que	ADV	_	_	0	root	_	Reported=Yes|WordAlignmentBegin=243421|WordAlignmentEnd=243566
 2	de	de	ADP	_	_	3	case	_	WordAlignmentBegin=243566|WordAlignmentEnd=243686
-3	nuits	nuit	NOUN	_	Gender=Fem|Number=Plur	1	obl:arg	_	cdet=No|Exponence[Gender]=Inherent|Exponence[Number]=Absent|WordAlignmentBegin=243686|WordAlignmentEnd=243920
+3	nuits	nuit	NOUN	_	Gender=Fem|Number=Plur	1	obl:arg	_	Exponence[Gender]=Inherent|Exponence[Number]=Absent|WordAlignmentBegin=243686|WordAlignmentEnd=243920
 4	de	de	ADP	_	_	5	case	_	WordAlignmentBegin=243920|WordAlignmentEnd=244046
 5	souffrance	souffrance	NOUN	_	Gender=Fem|Number=Sing	3	nmod	_	Exponence[Gender]=Inherent|Exponence[Number]=Absent|WordAlignmentBegin=244046|WordAlignmentEnd=244800
 6	dans	dans	ADP	_	_	8	case	_	WordAlignmentBegin=245200|WordAlignmentEnd=245335
@@ -1006,12 +1006,12 @@
 4	approche	approche	NOUN	_	Gender=Fem|Number=Sing	53	obl:mod	_	Exponence[Gender]=Inherent|Exponence[Number]=Absent|LiaisonPossibleBefore=Yes|WordAlignmentBegin=256053|WordAlignmentEnd=256704
 5	de	de	ADP	_	_	7	case	_	WordAlignmentBegin=257063|WordAlignmentEnd=257138
 6	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	det	_	HasSpokenGender=OnlySingExceptWithLiaison|WordAlignmentBegin=257138|WordAlignmentEnd=257218
-7	journée	journée	NOUN	_	Gender=Fem|Number=Sing	4	nmod	_	cdet=No|Exponence[Gender]=Inherent|Exponence[Number]=Absent|WordAlignmentBegin=257218|WordAlignmentEnd=257538
+7	journée	journée	NOUN	_	Gender=Fem|Number=Sing	4	nmod	_	Exponence[Gender]=Inherent|Exponence[Number]=Absent|WordAlignmentBegin=257218|WordAlignmentEnd=257538
 8-9	des	_	_	_	_	_	_	_	_
 8	de	de	ADP	_	_	10	case	_	WordAlignmentBegin=257538|WordAlignmentEnd=257648
 9	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	10	det	_	_
 10	malades	malade	NOUN	_	Gender=Masc|Number=Plur	7	nmod	_	Exponence[Gender]=Inherent|Exponence[Number]=Absent|WordAlignmentBegin=257648|WordAlignmentEnd=257928
-11	voulue	vouloir	VERB	_	Gender=Fem|Number=Sing|VerbForm=Part	7	acl	_	Exponence[Gender]=Absent|Exponence[Number]=Absent|PastPartHasSpokenGender=NotInThisDialect|Tense[denom]=Past|WordAlignmentBegin=257928|WordAlignmentEnd=258198
+11	voulue	vouloir	VERB	_	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	7	acl	_	Exponence[Gender]=Absent|Exponence[Number]=Absent|PastPartHasSpokenGender=NotInThisDialect|Status[Tense]=Denom|WordAlignmentBegin=257928|WordAlignmentEnd=258198
 12	par	par	ADP	_	_	13	case	_	WordAlignmentBegin=258198|WordAlignmentEnd=258338
 13	Jean-Paul	Jean-Paul	PROPN	_	_	11	obl:arg	_	WordAlignmentBegin=258338|WordAlignmentEnd=258768
 14	deux	deux	NUM	_	ExtPos=PROPN|Number=Plur	13	nmod	_	Exponence[Number]=Inherent|SpaceAfter=No|WordAlignmentBegin=258768|WordAlignmentEnd=258938
@@ -1039,7 +1039,7 @@
 36	santé	santé	NOUN	_	Gender=Fem|Number=Sing	33	nmod	_	Exponence[Gender]=Inherent|Exponence[Number]=Absent|SpaceAfter=No|WordAlignmentBegin=263441|WordAlignmentEnd=263965
 37	,	,	PUNCT	_	_	4	punct	_	WordAlignmentBegin=263965|WordAlignmentEnd=264491
 38	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	39	det	_	HasSpokenGender=OnlySingExceptWithLiaison|WordAlignmentBegin=264491|WordAlignmentEnd=264656
-39	puissance	puissance	NOUN	_	Gender=Fem|Number=Sing	53	nsubj	_	cdet=No|Exponence[Gender]=Inherent|Exponence[Number]=Absent|WordAlignmentBegin=264656|WordAlignmentEnd=265226
+39	puissance	puissance	NOUN	_	Gender=Fem|Number=Sing	53	nsubj	_	Exponence[Gender]=Inherent|Exponence[Number]=Absent|WordAlignmentBegin=264656|WordAlignmentEnd=265226
 40	de	de	ADP	_	_	41	case	_	WordAlignmentBegin=265226|WordAlignmentEnd=265346
 41	guérison	guérison	NOUN	_	Gender=Fem|Number=Sing	39	nmod	_	Exponence[Gender]=Inherent|Exponence[Number]=Absent|WordAlignmentBegin=265346|WordAlignmentEnd=265866
 42	de	de	ADP	_	_	43	case	_	WordAlignmentBegin=265866|WordAlignmentEnd=265946
@@ -1082,13 +1082,13 @@
 1	pour	pour	ADP	_	_	9	mark	_	WordAlignmentBegin=278518|WordAlignmentEnd=278713
 2	que	que	SCONJ	_	_	9	mark	_	WordAlignmentBegin=278713|WordAlignmentEnd=278823
 3	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	_	HasSpokenGender=OnlySingExceptWithLiaison|WordAlignmentBegin=278823|WordAlignmentEnd=278980
-4	parole	parole	NOUN	_	Gender=Fem|Number=Sing	9	nsubj:pass	_	cdet=No|Exponence[Gender]=Inherent|Exponence[Number]=Absent|WordAlignmentBegin=278980|WordAlignmentEnd=279786
+4	parole	parole	NOUN	_	Gender=Fem|Number=Sing	9	nsubj:pass	_	Exponence[Gender]=Inherent|Exponence[Number]=Absent|WordAlignmentBegin=278980|WordAlignmentEnd=279786
 5-6	des	_	_	_	_	_	_	_	_
 5	de	de	ADP	_	_	7	case	_	WordAlignmentBegin=279786|WordAlignmentEnd=279968
 6	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	7	det	_	_
 7	chrétiens	chrétien	NOUN	_	Gender=Masc|Number=Plur	4	nmod	_	Exponence[Gender]=Inherent|Exponence[Number]=Absent|WordAlignmentBegin=279968|WordAlignmentEnd=280493
 8	soit	être	AUX	_	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	aux:pass	_	WordAlignmentBegin=280493|WordAlignmentEnd=280823
-9	entendue	entendre	VERB	_	Gender=Fem|Number=Sing|VerbForm=Part|Voice=Pass	36	advcl	_	Exponence[Gender]=Absent|Exponence[Number]=Absent|PastPartHasSpokenGender=NotInThisDialect|SpaceAfter=No|Tense[denom]=Past|WordAlignmentBegin=280823|WordAlignmentEnd=281389
+9	entendue	entendre	VERB	_	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	36	advcl	_	Exponence[Gender]=Absent|Exponence[Number]=Absent|PastPartHasSpokenGender=NotInThisDialect|SpaceAfter=No|Status[Tense]=Denom|WordAlignmentBegin=280823|WordAlignmentEnd=281389
 10	,	,	PUNCT	_	_	13	punct	_	WordAlignmentBegin=281389|WordAlignmentEnd=282457
 11	comme	comme	ADP	_	_	13	case	_	WordAlignmentBegin=282457|WordAlignmentEnd=282612
 12	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	13	det	_	HasSpokenGender=OnlySingExceptWithLiaison|WordAlignmentBegin=282612|WordAlignmentEnd=282792
@@ -1107,13 +1107,13 @@
 24	notre	son	DET	_	Number=Sing|Number[psor]=Plur|Person[psor]=1|Poss=Yes|PronType=Prs	25	det	_	HasSpokenGender=OnlySingExceptWithLiaison|WordAlignmentBegin=285324|WordAlignmentEnd=285674
 25	parole	parole	NOUN	_	Gender=Fem|Number=Sing	27	nsubj:pass	_	Exponence[Gender]=Inherent|Exponence[Number]=Absent|WordAlignmentBegin=285674|WordAlignmentEnd=286004
 26	soit	être	AUX	_	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	27	aux:pass	_	WordAlignmentBegin=286004|WordAlignmentEnd=286244
-27	entendue	entendre	VERB	_	Gender=Fem|Number=Sing|VerbForm=Part|Voice=Pass	9	conj	_	Exponence[Gender]=Absent|Exponence[Number]=Absent|PastPartHasSpokenGender=NotInThisDialect|SpaceAfter=No|Tense[denom]=Past|WordAlignmentBegin=286244|WordAlignmentEnd=286754
+27	entendue	entendre	VERB	_	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	9	conj	_	Exponence[Gender]=Absent|Exponence[Number]=Absent|PastPartHasSpokenGender=NotInThisDialect|SpaceAfter=No|Status[Tense]=Denom|WordAlignmentBegin=286244|WordAlignmentEnd=286754
 28	,	,	PUNCT	_	_	33	punct	_	WordAlignmentBegin=286754|WordAlignmentEnd=287152
 29	pour	pour	ADP	_	_	33	mark	_	WordAlignmentBegin=287152|WordAlignmentEnd=287277
 30	qu'	que	SCONJ	_	_	33	mark	_	SpaceAfter=No|WordAlignmentBegin=287277|WordAlignmentEnd=287327
 31	elle	lui	PRON	_	Case=Nom|Emph=No|Gender=Fem|Number=Sing|Person=3|PronType=Prs	33	nsubj:pass	_	Exponence[Person]=Inherent|WordAlignmentBegin=287327|WordAlignmentEnd=287437
 32	soit	être	AUX	_	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	33	aux:pass	_	WordAlignmentBegin=287437|WordAlignmentEnd=287767
-33	comprise	comprendre	VERB	_	Gender=Fem|Number=Sing|VerbForm=Part|Voice=Pass	9	conj	_	Exponence[Number]=Absent|PastPartHasSpokenGender=Yes|SpaceAfter=No|Tense[denom]=Past|WordAlignmentBegin=287767|WordAlignmentEnd=288563
+33	comprise	comprendre	VERB	_	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	9	conj	_	Exponence[Number]=Absent|PastPartHasSpokenGender=Yes|SpaceAfter=No|Status[Tense]=Denom|WordAlignmentBegin=287767|WordAlignmentEnd=288563
 34	,	,	PUNCT	_	_	9	punct	_	WordAlignmentBegin=288563|WordAlignmentEnd=289119
 35	ne	ne	ADV	_	Polarity=Neg	36	advmod	_	WordAlignmentBegin=289119|WordAlignmentEnd=289224
 36	faut	falloir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	Exponence[Person]=Absent|SpaceAfter=No|WordAlignmentBegin=289224|WordAlignmentEnd=289434

@@ -63,7 +63,7 @@
 # text = j'ai obtenu mon bac l'année dernière, donc, euh, section économique et sociale.
 1	j'	moi	PRON	_	Case=Nom|Emph=No|Number=Sing|Person=1|PronType=Prs	3	nsubj	_	Exponence[Number]=Inherent|Exponence[Person]=Inherent|SpaceAfter=No|WordAlignmentBegin=6425|WordAlignmentEnd=6520
 2	ai	avoir	AUX	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	3	aux:tense	_	WordAlignmentBegin=6520|WordAlignmentEnd=6570
-3	obtenu	obtenir	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Act	0	root	_	Exponence[Gender]=Absent|Exponence[Number]=Absent|PastPartHasSpokenGender=NotInThisDialect|Tense[denom]=Past|WordAlignmentBegin=6570|WordAlignmentEnd=6880
+3	obtenu	obtenir	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	0	root	_	Exponence[Gender]=Absent|Exponence[Number]=Absent|PastPartHasSpokenGender=NotInThisDialect|Status[Tense]=Denom|WordAlignmentBegin=6570|WordAlignmentEnd=6880
 4	mon	son	DET	_	Gender=Masc|Number=Sing|Number[psor]=Sing|Person[psor]=1|Poss=Yes|PronType=Prs	5	det	_	HasSpokenGender=OnlySingExceptWithLiaison|WordAlignmentBegin=6880|WordAlignmentEnd=7030
 5	bac	bac	NOUN	_	Gender=Masc|Number=Sing	3	obj	_	Exponence[Gender]=Inherent|Exponence[Number]=Absent|WordAlignmentBegin=7030|WordAlignmentEnd=7270
 6	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	7	det	_	HasSpokenGender=OnlySingExceptWithLiaison|LiaisonAfter=Yes|SpaceAfter=No|WordAlignmentBegin=7270|WordAlignmentEnd=7300
@@ -100,7 +100,7 @@
 12	c'	ce	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	13	nsubj	_	Exponence[Gender]=Inherent|Exponence[Number]=Inherent|Exponence[Person]=Inherent|SpaceAfter=No|WordAlignmentBegin=12684|WordAlignmentEnd=12714
 13	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	WordAlignmentBegin=12714|WordAlignmentEnd=12744
 14	devenir	devenir	VERB	_	VerbForm=Inf	13	xcomp	_	Subject=SubjRaising|WordAlignmentBegin=12744|WordAlignmentEnd=13034
-15	professeur	professeur	NOUN	_	Gender=Masc|Number=Sing	14	obj	_	cdet=No|Exponence[Gender]=Inherent|Exponence[Number]=Absent|WordAlignmentBegin=13034|WordAlignmentEnd=13504
+15	professeur	professeur	NOUN	_	Gender=Masc|Number=Sing	14	obj	_	Exponence[Gender]=Inherent|Exponence[Number]=Absent|WordAlignmentBegin=13034|WordAlignmentEnd=13504
 16	d'	de	ADP	_	_	17	case	_	SpaceAfter=No|WordAlignmentBegin=13504|WordAlignmentEnd=13534
 17	italien	italien	NOUN	_	Gender=Masc|Number=Sing	15	nmod	_	Exponence[Gender]=Inherent|Exponence[Number]=Absent|LiaisonPossibleBefore=Yes|WordAlignmentBegin=13534|WordAlignmentEnd=14018
 18	à	à	ADP	_	ExtPos=CCONJ	20	cc	_	Idiom=Yes|WordAlignmentBegin=14018|WordAlignmentEnd=14184
@@ -159,7 +159,7 @@
 27	qu'	que	PRON	_	PronType=Rel	30	obj	_	SpaceAfter=No|WordAlignmentBegin=25132|WordAlignmentEnd=25162
 28	on	on	PRON	_	Case=Nom|Emph=No|Gender=Masc|Number=Sing|Person=3|PronType=Ind	30	nsubj	_	Exponence[Gender]=Absent|Exponence[Number]=Inherent|Exponence[Person]=Inherent|WordAlignmentBegin=25162|WordAlignmentEnd=25306
 29	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	30	aux:tense	_	WordAlignmentBegin=25306|WordAlignmentEnd=25384
-30	acquis	acquérir	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Act	26	acl:relcl	_	Exponence[Number]=Absent|PastPartHasSpokenGender=NotInThisDialect|Tense[denom]=Past|WordAlignmentBegin=25384|WordAlignmentEnd=25777
+30	acquis	acquérir	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	26	acl:relcl	_	Exponence[Number]=Absent|PastPartHasSpokenGender=NotInThisDialect|Status[Tense]=Denom|WordAlignmentBegin=25384|WordAlignmentEnd=25777
 31	tout	tout	ADV	_	_	34	advmod	_	WordAlignmentBegin=26243|WordAlignmentEnd=26378
 32-33	au	_	_	_	_	_	_	_	_
 32	à	à	ADP	_	_	34	case	_	WordAlignmentBegin=26378|WordAlignmentEnd=26498
@@ -167,7 +167,7 @@
 34	long	long	ADJ	_	Gender=Masc|Number=Sing	30	obl:mod	_	Exponence[Number]=Absent|HasSpokenGender=YesExceptSingWithLiaison|HasSpokenNumber=OnlyWithLiaison|WordAlignmentBegin=26498|WordAlignmentEnd=26668
 35	de	de	ADP	_	_	37	case	_	WordAlignmentBegin=26668|WordAlignmentEnd=26738
 36	ses	son	DET	_	Number=Plur|Number[psor]=Sing|Person[psor]=3|Poss=Yes|PronType=Prs	37	det	_	HasSpokenGender=OnlySingExceptWithLiaison|LiaisonAfter=Yes|WordAlignmentBegin=26738|WordAlignmentEnd=26938
-37	années	année	NOUN	_	Gender=Fem|Number=Plur	34	nmod	_	cdet=Ambiguous|Exponence[Gender]=Inherent|Exponence[Number]=Absent|LiaisonPossibleBefore=Yes|WordAlignmentBegin=26938|WordAlignmentEnd=27214
+37	années	année	NOUN	_	Gender=Fem|Number=Plur	34	nmod	_	Exponence[Gender]=Inherent|Exponence[Number]=Absent|LiaisonPossibleBefore=Yes|WordAlignmentBegin=26938|WordAlignmentEnd=27214
 38	d'	de	ADP	_	_	39	case	_	SpaceAfter=No|WordAlignmentBegin=27214|WordAlignmentEnd=27249
 39	études	étude	NOUN	_	Gender=Fem|Number=Plur	37	nmod	_	Exponence[Gender]=Inherent|Exponence[Number]=Absent|LiaisonPossibleBefore=Yes|WordAlignmentBegin=27249|WordAlignmentEnd=27726
 40	mais	mais	CCONJ	_	_	43	cc	_	WordAlignmentBegin=27726|WordAlignmentEnd=27848
@@ -200,7 +200,7 @@
 67	donc	donc	ADV	_	_	70	cc	_	WordAlignmentBegin=35668|WordAlignmentEnd=35918
 68	à	à	ADP	_	_	70	case	_	WordAlignmentBegin=35918|WordAlignmentEnd=36018
 69	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	70	det	_	WordAlignmentBegin=36018|WordAlignmentEnd=36108
-70	groupe	groupe	NOUN	_	Gender=Masc|Number=Sing	65	conj:reform	_	cdet=No|Exponence[Gender]=Inherent|Exponence[Number]=Absent|WordAlignmentBegin=36108|WordAlignmentEnd=36298
+70	groupe	groupe	NOUN	_	Gender=Masc|Number=Sing	65	conj:reform	_	Exponence[Gender]=Inherent|Exponence[Number]=Absent|WordAlignmentBegin=36108|WordAlignmentEnd=36298
 71	d'	de	ADP	_	_	72	case	_	SpaceAfter=No|WordAlignmentBegin=36298|WordAlignmentEnd=36326
 72	élèves	élève	NOUN	_	Gender=Masc|Number=Plur	70	nmod	_	Exponence[Gender]=Inherent|Exponence[Number]=Absent|LiaisonPossibleBefore=Yes|SpaceAfter=No|WordAlignmentBegin=36326|WordAlignmentEnd=36614
 73	.	.	PUNCT	_	_	13	punct	_	WordAlignmentBegin=36614|WordAlignmentEnd=36614
@@ -473,7 +473,7 @@
 2	,	,	PUNCT	_	_	1	punct	_	WordAlignmentBegin=80438|WordAlignmentEnd=80438
 3	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	4	det	_	WordAlignmentBegin=80438|WordAlignmentEnd=80522
 4	professeur	professeur	NOUN	_	Gender=Masc|Number=Sing	11	nsubj	_	Exponence[Gender]=Inherent|Exponence[Number]=Absent|WordAlignmentBegin=80522|WordAlignmentEnd=80898
-5	certifié	certifier	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part	4	acl	_	Exponence[Gender]=Absent|Exponence[Number]=Absent|PastPartHasSpokenGender=NotInThisDialect|SpaceAfter=No|Tense[denom]=Past|WordAlignmentBegin=80898|WordAlignmentEnd=81511
+5	certifié	certifier	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	4	acl	_	Exponence[Gender]=Absent|Exponence[Number]=Absent|PastPartHasSpokenGender=NotInThisDialect|SpaceAfter=No|Status[Tense]=Denom|WordAlignmentBegin=80898|WordAlignmentEnd=81511
 6	,	,	PUNCT	_	_	7	punct	_	WordAlignmentBegin=81511|WordAlignmentEnd=82184
 7	euh	euh	INTJ	_	_	5	discourse:filler	_	SpaceAfter=No|WordAlignmentBegin=82184|WordAlignmentEnd=82674
 8	,	,	PUNCT	_	_	9	punct	_	WordAlignmentBegin=82833|WordAlignmentEnd=82833
@@ -502,13 +502,13 @@
 2	,	,	PUNCT	_	_	1	punct	_	WordAlignmentBegin=87059|WordAlignmentEnd=87059
 3	j'	moi	PRON	_	Case=Nom|Emph=No|Number=Sing|Person=1|PronType=Prs	5	nsubj	_	Exponence[Number]=Inherent|Exponence[Person]=Inherent|SpaceAfter=No|WordAlignmentBegin=87059|WordAlignmentEnd=87089
 4	ai	avoir	AUX	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	5	aux:tense	_	WordAlignmentBegin=87089|WordAlignmentEnd=87119
-5	réalisé	réaliser	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Act	0	root	_	Exponence[Gender]=Absent|Exponence[Number]=Absent|PastPartHasSpokenGender=NotInThisDialect|Tense[denom]=Past|WordAlignmentBegin=87119|WordAlignmentEnd=87552
+5	réalisé	réaliser	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	0	root	_	Exponence[Gender]=Absent|Exponence[Number]=Absent|PastPartHasSpokenGender=NotInThisDialect|Status[Tense]=Denom|WordAlignmentBegin=87119|WordAlignmentEnd=87552
 6	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	7	det	_	LiaisonAfter=Yes|WordAlignmentBegin=87552|WordAlignmentEnd=87576
 7	enquête	enquête	NOUN	_	Gender=Fem|Number=Sing	5	obj	_	Exponence[Gender]=Inherent|Exponence[Number]=Absent|LiaisonPossibleBefore=Yes|WordAlignmentBegin=87576|WordAlignmentEnd=87897
 8	métier	métier	NOUN	_	Gender=Masc|Number=Sing	7	compound	_	Exponence[Gender]=Inherent|Exponence[Number]=Absent|WordAlignmentBegin=87897|WordAlignmentEnd=88294
 9	qui	qui	PRON	_	PronType=Rel	11	nsubj	_	WordAlignmentBegin=88294|WordAlignmentEnd=88469
 10	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	aux:tense	_	WordAlignmentBegin=88469|WordAlignmentEnd=88589
-11	mis	mettre	VERB	_	Gender=Masc|VerbForm=Part|Voice=Act	7	acl:relcl	_	PastPartHasSpokenGender=Yes|SpaceAfter=No|Tense[denom]=Past|WordAlignmentBegin=88589|WordAlignmentEnd=88813
+11	mis	mettre	VERB	_	Gender=Masc|Tense=Past|VerbForm=Part|Voice=Act	7	acl:relcl	_	PastPartHasSpokenGender=Yes|SpaceAfter=No|Status[Tense]=Denom|WordAlignmentBegin=88589|WordAlignmentEnd=88813
 12	,	,	PUNCT	_	_	11	punct	_	WordAlignmentBegin=88813|WordAlignmentEnd=88813
 13	euh	euh	INTJ	_	_	11	discourse:filler	_	SpaceAfter=No|WordAlignmentBegin=88813|WordAlignmentEnd=89030
 14	,	,	PUNCT	_	_	13	punct	_	WordAlignmentBegin=89030|WordAlignmentEnd=89030
@@ -522,14 +522,14 @@
 22	profession	profession	NOUN	_	Gender=Fem|Number=Sing	25	nsubj:pass	_	Exponence[Gender]=Inherent|Exponence[Number]=Absent|WordAlignmentBegin=90952|WordAlignmentEnd=91457
 23	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	25	aux:pass	_	WordAlignmentBegin=91502|WordAlignmentEnd=91612
 24	véritablement	véritablement	ADV	_	_	25	advmod	_	WordAlignmentBegin=91612|WordAlignmentEnd=92132
-25	réservée	réserver	VERB	_	Gender=Fem|Number=Sing|VerbForm=Part|Voice=Pass	19	acl	_	Exponence[Gender]=Absent|Exponence[Number]=Absent|PastPartHasSpokenGender=NotInThisDialect|Tense[denom]=Past|WordAlignmentBegin=92132|WordAlignmentEnd=92762
+25	réservée	réserver	VERB	_	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	19	acl	_	Exponence[Gender]=Absent|Exponence[Number]=Absent|PastPartHasSpokenGender=NotInThisDialect|Status[Tense]=Denom|WordAlignmentBegin=92132|WordAlignmentEnd=92762
 26-27	aux	_	_	_	_	_	_	_	_
 26	à	à	ADP	_	_	28	case	_	WordAlignmentBegin=92954|WordAlignmentEnd=93049
 27	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	28	det	_	_
 28	personnes	personne	NOUN	_	Gender=Fem|Number=Plur	25	obl:arg	_	Exponence[Gender]=Inherent|Exponence[Number]=Absent|WordAlignmentBegin=93049|WordAlignmentEnd=93654
 29	non	non	ADV	_	Polarity=Neg	31	advmod	_	WordAlignmentBegin=93654|WordAlignmentEnd=93759
 30	seulement	seulement	ADV	_	_	29	advmod	_	WordAlignmentBegin=93759|WordAlignmentEnd=94044
-31	passionnées	passionner	VERB	_	Gender=Fem|Number=Plur|VerbForm=Part	28	acl	_	Exponence[Gender]=Absent|Exponence[Number]=Absent|PastPartHasSpokenGender=NotInThisDialect|Tense[denom]=Past|WordAlignmentBegin=94044|WordAlignmentEnd=94469
+31	passionnées	passionner	VERB	_	Gender=Fem|Number=Plur|Tense=Past|VerbForm=Part	28	acl	_	Exponence[Gender]=Absent|Exponence[Number]=Absent|PastPartHasSpokenGender=NotInThisDialect|Status[Tense]=Denom|WordAlignmentBegin=94044|WordAlignmentEnd=94469
 32	par	par	ADP	_	_	34	case	_	WordAlignmentBegin=94469|WordAlignmentEnd=94608
 33	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	34	det	_	HasSpokenGender=OnlySingExceptWithLiaison|WordAlignmentBegin=94608|WordAlignmentEnd=94693
 34	matière	matière	NOUN	_	Gender=Fem|Number=Sing	31	obl:mod	_	Exponence[Gender]=Inherent|Exponence[Number]=Absent|WordAlignmentBegin=94693|WordAlignmentEnd=95179
@@ -578,7 +578,7 @@
 27	adéquation	adéquation	NOUN	_	Gender=Fem|Number=Sing	18	ccomp	_	Exponence[Gender]=Inherent|Exponence[Number]=Absent|LiaisonPossibleBefore=Yes|WordAlignmentBegin=105809|WordAlignmentEnd=106380
 28	avec	avec	ADP	_	_	30	case	_	WordAlignmentBegin=106380|WordAlignmentEnd=106825
 29	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	30	det	_	HasSpokenGender=OnlySingExceptWithLiaison|WordAlignmentBegin=106825|WordAlignmentEnd=106916
-30	nombre	nombre	NOUN	_	Gender=Masc|Number=Sing	27	nmod	_	cdet=No|Exponence[Gender]=Inherent|Exponence[Number]=Absent|WordAlignmentBegin=106916|WordAlignmentEnd=107283
+30	nombre	nombre	NOUN	_	Gender=Masc|Number=Sing	27	nmod	_	Exponence[Gender]=Inherent|Exponence[Number]=Absent|WordAlignmentBegin=106916|WordAlignmentEnd=107283
 31	d'	de	ADP	_	_	32	case	_	SpaceAfter=No|WordAlignmentBegin=107283|WordAlignmentEnd=107328
 32	années	année	NOUN	_	Gender=Fem|Number=Plur	30	nmod	_	Exponence[Gender]=Inherent|Exponence[Number]=Absent|LiaisonPossibleBefore=Yes|SpaceAfter=No|WordAlignmentBegin=107328|WordAlignmentEnd=107579
 33	,	,	PUNCT	_	_	34	punct	_	WordAlignmentBegin=107579|WordAlignmentEnd=107579
@@ -586,10 +586,10 @@
 35	,	,	PUNCT	_	_	38	punct	_	WordAlignmentBegin=108030|WordAlignmentEnd=108030
 36	avec	avec	ADP	_	_	38	case	_	WordAlignmentBegin=108030|WordAlignmentEnd=108205
 37	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	38	det	_	HasSpokenGender=OnlySingExceptWithLiaison|WordAlignmentBegin=108205|WordAlignmentEnd=108265
-38	nombre	nombre	NOUN	_	Gender=Masc|Number=Sing	30	conj:reform	_	cdet=No|Exponence[Gender]=Inherent|Exponence[Number]=Absent|WordAlignmentBegin=108265|WordAlignmentEnd=108604
+38	nombre	nombre	NOUN	_	Gender=Masc|Number=Sing	30	conj:reform	_	Exponence[Gender]=Inherent|Exponence[Number]=Absent|WordAlignmentBegin=108265|WordAlignmentEnd=108604
 39	d'	de	ADP	_	_	40	case	_	SpaceAfter=No|WordAlignmentBegin=108604|WordAlignmentEnd=108660
 40	études	étude	NOUN	_	Gender=Fem|Number=Plur	38	nmod	_	Exponence[Gender]=Inherent|Exponence[Number]=Absent|LiaisonPossibleBefore=Yes|WordAlignmentBegin=108660|WordAlignmentEnd=109015
-41	suivies	suivre	VERB	_	Gender=Fem|Number=Plur|VerbForm=Part	40	acl	_	Exponence[Gender]=Absent|Exponence[Number]=Absent|PastPartHasSpokenGender=NotInThisDialect|SpaceAfter=No|Tense[denom]=Past|WordAlignmentBegin=109015|WordAlignmentEnd=109586
+41	suivies	suivre	VERB	_	Gender=Fem|Number=Plur|Tense=Past|VerbForm=Part	40	acl	_	Exponence[Gender]=Absent|Exponence[Number]=Absent|PastPartHasSpokenGender=NotInThisDialect|SpaceAfter=No|Status[Tense]=Denom|WordAlignmentBegin=109015|WordAlignmentEnd=109586
 42	,	,	PUNCT	_	_	46	punct	_	WordAlignmentBegin=109586|WordAlignmentEnd=109797
 43	ni	ni	CCONJ	_	_	46	cc	_	WordAlignmentBegin=109797|WordAlignmentEnd=110242
 44	avec	avec	ADP	_	_	46	case	_	WordAlignmentBegin=110242|WordAlignmentEnd=110512
@@ -618,10 +618,10 @@
 6	,	,	PUNCT	_	_	5	punct	_	WordAlignmentBegin=116480|WordAlignmentEnd=116480
 7	j'	moi	PRON	_	Case=Nom|Emph=No|Number=Sing|Person=1|PronType=Prs	9	nsubj	_	Exponence[Number]=Inherent|Exponence[Person]=Inherent|SpaceAfter=No|WordAlignmentBegin=116480|WordAlignmentEnd=116525
 8	ai	avoir	AUX	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	9	aux:tense	_	WordAlignmentBegin=116525|WordAlignmentEnd=116644
-9	pu	pouvoir	VERB	_	Number=Sing|VerbForm=Part|Voice=Act	0	root	_	Exponence[Number]=Absent|PastPartHasSpokenGender=NotInThisDialect|Tense[denom]=Past|WordAlignmentBegin=116644|WordAlignmentEnd=116802
+9	pu	pouvoir	VERB	_	Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	0	root	_	Exponence[Number]=Absent|PastPartHasSpokenGender=NotInThisDialect|Status[Tense]=Denom|WordAlignmentBegin=116644|WordAlignmentEnd=116802
 10	relever	relever	VERB	_	VerbForm=Inf	9	xcomp	_	Subject=SubjRaising|WordAlignmentBegin=116802|WordAlignmentEnd=117191
 11	en	en	ADP	_	_	12	mark	_	WordAlignmentBegin=117191|WordAlignmentEnd=117319
-12	faisant	faire	VERB	_	VerbForm=Part	10	advcl	_	PastPartHasSpokenGender=Yes|Tense[denom]=Pres|WordAlignmentBegin=117319|WordAlignmentEnd=117600
+12	faisant	faire	VERB	_	Tense=Pres|VerbForm=Part	10	advcl	_	PastPartHasSpokenGender=Yes|Status[Tense]=Denom|WordAlignmentBegin=117319|WordAlignmentEnd=117600
 13	tous	tout	ADJ	_	Gender=Masc|Number=Plur	15	amod	_	Exponence[Number]=Absent|HasSpokenGender=YesExceptSingWithLiaison|HasSpokenNumber=OnlyWithLiaison|WordAlignmentBegin=117600|WordAlignmentEnd=117720
 14	ces	ce	DET	_	Number=Plur|PronType=Dem	15	det	_	HasSpokenGender=OnlySingExceptWithLiaison|WordAlignmentBegin=117720|WordAlignmentEnd=117920
 15	tests	test	NOUN	_	Gender=Masc|Number=Plur	12	obj	_	Exponence[Gender]=Inherent|Exponence[Number]=Absent|WordAlignmentBegin=117920|WordAlignmentEnd=118220
@@ -768,10 +768,10 @@
 24	m'	moi	PRON	_	Case=Acc|Emph=No|Number=Sing|Person=1|PronType=Prs	25	obj	_	Exponence[Number]=Inherent|Exponence[Person]=Inherent|SpaceAfter=No|WordAlignmentBegin=144394|WordAlignmentEnd=144457
 25	accomplir	accomplir	VERB	_	VerbForm=Inf	22	acl	_	Subject=NoRaising|WordAlignmentBegin=144457|WordAlignmentEnd=145282
 26	en	en	ADP	_	_	27	mark	_	WordAlignmentBegin=145457|WordAlignmentEnd=145640
-27	formant	former	VERB	_	VerbForm=Part	25	advcl	_	PastPartHasSpokenGender=NotInThisDialect|Tense[denom]=Pres|WordAlignmentBegin=145640|WordAlignmentEnd=146082
+27	formant	former	VERB	_	Tense=Pres|VerbForm=Part	25	advcl	_	PastPartHasSpokenGender=NotInThisDialect|Status[Tense]=Denom|WordAlignmentBegin=145640|WordAlignmentEnd=146082
 28	et	et	CCONJ	_	_	30	cc	_	WordAlignmentBegin=146082|WordAlignmentEnd=146133
 29	en	en	ADP	_	_	30	mark	_	WordAlignmentBegin=146133|WordAlignmentEnd=146262
-30	aidant	aider	VERB	_	VerbForm=Part	27	conj	_	PastPartHasSpokenGender=NotInThisDialect|Tense[denom]=Pres|WordAlignmentBegin=146262|WordAlignmentEnd=146491
+30	aidant	aider	VERB	_	Tense=Pres|VerbForm=Part	27	conj	_	PastPartHasSpokenGender=NotInThisDialect|Status[Tense]=Denom|WordAlignmentBegin=146262|WordAlignmentEnd=146491
 31	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	32	det	_	HasSpokenGender=OnlySingExceptWithLiaison|WordAlignmentBegin=146491|WordAlignmentEnd=146602
 32	autres	autre	PRON	_	Gender=Masc|Number=Plur|Person=3|PronType=Ind	30	obj	_	Exponence[Gender]=Absent|Exponence[Number]=Absent|Exponence[Person]=Inherent|SpaceAfter=No|WordAlignmentBegin=146602|WordAlignmentEnd=146972
 33	,	,	PUNCT	_	_	34	punct	_	WordAlignmentBegin=146972|WordAlignmentEnd=147899
@@ -880,7 +880,7 @@
 13	euh	euh	INTJ	_	_	16	discourse:filler	_	SpaceAfter=No|WordAlignmentBegin=167019|WordAlignmentEnd=167182
 14	,	,	PUNCT	_	_	13	punct	_	WordAlignmentBegin=167182|WordAlignmentEnd=167182
 15	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	16	det	_	HasSpokenGender=OnlySingExceptWithLiaison|WordAlignmentBegin=167182|WordAlignmentEnd=167320
-16	possibilités	possibilité	NOUN	_	Gender=Fem|Number=Plur	0	root	_	cdet=No|Exponence[Gender]=Inherent|Exponence[Number]=Absent|WordAlignmentBegin=167320|WordAlignmentEnd=167731
+16	possibilités	possibilité	NOUN	_	Gender=Fem|Number=Plur	0	root	_	Exponence[Gender]=Inherent|Exponence[Number]=Absent|WordAlignmentBegin=167320|WordAlignmentEnd=167731
 17	d'	de	ADP	_	_	18	case	_	SpaceAfter=No|WordAlignmentBegin=167731|WordAlignmentEnd=167758
 18	évolution	évolution	NOUN	_	Gender=Fem|Number=Sing	16	nmod	_	Exponence[Gender]=Inherent|Exponence[Number]=Absent|LiaisonPossibleBefore=Yes|SpaceAfter=No|WordAlignmentBegin=167758|WordAlignmentEnd=168344
 19	.	.	PUNCT	_	_	16	punct	_	WordAlignmentBegin=168344|WordAlignmentEnd=168344
@@ -956,7 +956,7 @@
 8	avoir	avoir	VERB	_	VerbForm=Inf	3	ccomp	_	Subject=NoRaising|WordAlignmentBegin=178823|WordAlignmentEnd=179123
 9	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	10	det	_	WordAlignmentBegin=179123|WordAlignmentEnd=179345
 10	vie	vie	NOUN	_	Gender=Fem|Number=Sing	8	obj	_	Exponence[Gender]=Inherent|Exponence[Number]=Absent|WordAlignmentBegin=179345|WordAlignmentEnd=179599
-11	privée	priver	VERB	_	Gender=Fem|Number=Sing|VerbForm=Part	10	acl	_	Exponence[Gender]=Absent|Exponence[Number]=Absent|PastPartHasSpokenGender=NotInThisDialect|Tense[denom]=Past|WordAlignmentBegin=179599|WordAlignmentEnd=179995
+11	privée	priver	VERB	_	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	10	acl	_	Exponence[Gender]=Absent|Exponence[Number]=Absent|PastPartHasSpokenGender=NotInThisDialect|Status[Tense]=Denom|WordAlignmentBegin=179599|WordAlignmentEnd=179995
 12	agréable	agréable	ADJ	_	Gender=Fem|Number=Sing	10	amod	_	Exponence[Gender]=Absent|Exponence[Number]=Absent|HasSpokenGender=No|HasSpokenNumber=OnlyWithLiaison|WordAlignmentBegin=179995|WordAlignmentEnd=180735
 13	et	et	CCONJ	_	_	15	cc	_	WordAlignmentBegin=180735|WordAlignmentEnd=180824
 14	de	de	ADP	_	_	15	mark	_	WordAlignmentBegin=180824|WordAlignmentEnd=180934
@@ -1030,7 +1030,7 @@
 20	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	21	det	_	HasSpokenGender=OnlySingExceptWithLiaison|WordAlignmentBegin=191942|WordAlignmentEnd=192042
 21	programmes	programme	NOUN	_	Gender=Masc|Number=Plur	23	nsubj:pass	_	Exponence[Gender]=Inherent|Exponence[Number]=Absent|WordAlignmentBegin=192042|WordAlignmentEnd=192382
 22	sont	être	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	23	aux:pass	_	WordAlignmentBegin=192382|WordAlignmentEnd=192522
-23	établis	établir	VERB	_	Gender=Masc|Number=Plur|VerbForm=Part|Voice=Pass	12	parataxis:parenth	_	Exponence[Gender]=Absent|Exponence[Number]=Absent|PastPartHasSpokenGender=NotInThisDialect|SpaceAfter=No|Tense[denom]=Past|WordAlignmentBegin=192522|WordAlignmentEnd=193070
+23	établis	établir	VERB	_	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part|Voice=Pass	12	parataxis:parenth	_	Exponence[Gender]=Absent|Exponence[Number]=Absent|PastPartHasSpokenGender=NotInThisDialect|SpaceAfter=No|Status[Tense]=Denom|WordAlignmentBegin=192522|WordAlignmentEnd=193070
 24	,	,	PUNCT	_	_	25	punct	_	WordAlignmentBegin=193465|WordAlignmentEnd=193465
 25	euh	euh	INTJ	_	_	23	discourse:filler	_	SpaceAfter=No|WordAlignmentBegin=193465|WordAlignmentEnd=193808
 26	,	,	PUNCT	_	_	12	punct	_	WordAlignmentBegin=193808|WordAlignmentEnd=193808
@@ -1124,7 +1124,7 @@
 5	part	part	NOUN	_	Gender=Fem|Number=Sing	12	obl:mod	_	Exponence[Gender]=Inherent|Exponence[Number]=Absent|SpaceAfter=No|WordAlignmentBegin=211262|WordAlignmentEnd=211569
 6	,	,	PUNCT	_	_	5	punct	_	WordAlignmentBegin=211569|WordAlignmentEnd=211569
 7	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	HasSpokenGender=OnlySingExceptWithLiaison|WordAlignmentBegin=211569|WordAlignmentEnd=211715
-8	comportement	comportement	NOUN	_	Gender=Masc|Number=Sing	12	nsubj	_	cdet=No|Exponence[Gender]=Inherent|Exponence[Number]=Absent|WordAlignmentBegin=211715|WordAlignmentEnd=212247
+8	comportement	comportement	NOUN	_	Gender=Masc|Number=Sing	12	nsubj	_	Exponence[Gender]=Inherent|Exponence[Number]=Absent|WordAlignmentBegin=211715|WordAlignmentEnd=212247
 9-10	des	_	_	_	_	_	_	_	_
 9	de	de	ADP	_	_	11	case	_	WordAlignmentBegin=212247|WordAlignmentEnd=212371
 10	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	11	det	_	_
@@ -1133,7 +1133,7 @@
 13-14	au	_	_	_	_	_	_	_	_
 13	à	à	ADP	_	_	15	case	_	WordAlignmentBegin=213155|WordAlignmentEnd=213271
 14	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	15	det	_	_
-15	fil	fil	NOUN	_	Gender=Masc|Number=Sing	12	obl:mod	_	cdet=Ambiguous|Exponence[Gender]=Inherent|Exponence[Number]=Absent|WordAlignmentBegin=213271|WordAlignmentEnd=213405
+15	fil	fil	NOUN	_	Gender=Masc|Number=Sing	12	obl:mod	_	Exponence[Gender]=Inherent|Exponence[Number]=Absent|WordAlignmentBegin=213271|WordAlignmentEnd=213405
 16-17	des	_	_	_	_	_	_	_	_
 16	de	de	ADP	_	_	18	case	_	WordAlignmentBegin=213405|WordAlignmentEnd=213475
 17	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	18	det	_	_
@@ -1202,7 +1202,7 @@
 1	euh	euh	INTJ	_	_	7	discourse:filler	_	SpaceAfter=No|WordAlignmentBegin=221578|WordAlignmentEnd=222002
 2	,	,	PUNCT	_	_	1	punct	_	WordAlignmentBegin=222002|WordAlignmentEnd=222002
 3	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	HasSpokenGender=OnlySingExceptWithLiaison|WordAlignmentBegin=222002|WordAlignmentEnd=222093
-4	nombre	nombre	NOUN	_	Gender=Masc|Number=Sing	7	nsubj	_	cdet=No|Exponence[Gender]=Inherent|Exponence[Number]=Absent|WordAlignmentBegin=222093|WordAlignmentEnd=222371
+4	nombre	nombre	NOUN	_	Gender=Masc|Number=Sing	7	nsubj	_	Exponence[Gender]=Inherent|Exponence[Number]=Absent|WordAlignmentBegin=222093|WordAlignmentEnd=222371
 5	de	de	ADP	_	_	6	case	_	WordAlignmentBegin=222371|WordAlignmentEnd=222553
 6	postes	poste	NOUN	_	Gender=Masc|Number=Plur	4	nmod	_	Exponence[Gender]=Inherent|Exponence[Number]=Absent|WordAlignmentBegin=222553|WordAlignmentEnd=222963
 7	diminue	diminuer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	Exponence[Number]=Absent|Exponence[Person]=Absent|WordAlignmentBegin=223023|WordAlignmentEnd=223538
@@ -1254,7 +1254,7 @@
 25	où	où	ADV	_	PronType=Rel	28	obl:arg	_	WordAlignmentBegin=230598|WordAlignmentEnd=230658
 26	je	moi	PRON	_	Case=Nom|Emph=No|Number=Sing|Person=1|PronType=Prs	28	nsubj	_	Exponence[Number]=Inherent|Exponence[Person]=Inherent|WordAlignmentBegin=230658|WordAlignmentEnd=230738
 27	suis	être	AUX	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	28	aux:tense	_	WordAlignmentBegin=230738|WordAlignmentEnd=230918
-28	née	naître	VERB	_	Gender=Fem|Number=Sing|VerbForm=Part|Voice=Act	24	acl:relcl	_	Exponence[Gender]=Absent|Exponence[Number]=Absent|PastPartHasSpokenGender=NotInThisDialect|SpaceAfter=No|Tense[denom]=Past|WordAlignmentBegin=230918|WordAlignmentEnd=231215
+28	née	naître	VERB	_	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	24	acl:relcl	_	Exponence[Gender]=Absent|Exponence[Number]=Absent|PastPartHasSpokenGender=NotInThisDialect|SpaceAfter=No|Status[Tense]=Denom|WordAlignmentBegin=230918|WordAlignmentEnd=231215
 29	,	,	PUNCT	_	_	30	punct	_	WordAlignmentBegin=231215|WordAlignmentEnd=231557
 30	euh	euh	INTJ	_	_	28	discourse:filler	_	SpaceAfter=No|WordAlignmentBegin=231557|WordAlignmentEnd=231962
 31	.	.	PUNCT	_	_	3	punct	_	WordAlignmentBegin=231962|WordAlignmentEnd=231962
@@ -1303,7 +1303,7 @@
 11	on	on	PRON	_	Case=Nom|Emph=No|Gender=Masc|Number=Sing|Person=3|PronType=Ind	14	nsubj:pass	_	Exponence[Gender]=Absent|Exponence[Number]=Inherent|Exponence[Person]=Inherent|WordAlignmentBegin=235850|WordAlignmentEnd=235915
 12	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	14	aux:pass	_	WordAlignmentBegin=235915|WordAlignmentEnd=236005
 13	souvent	souvent	ADV	_	_	14	advmod	_	WordAlignmentBegin=236005|WordAlignmentEnd=236454
-14	éloigné	éloigner	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Pass	9	csubj	_	Exponence[Gender]=Absent|Exponence[Number]=Absent|PastPartHasSpokenGender=NotInThisDialect|Tense[denom]=Past|WordAlignmentBegin=236454|WordAlignmentEnd=236687
+14	éloigné	éloigner	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	9	csubj	_	Exponence[Gender]=Absent|Exponence[Number]=Absent|PastPartHasSpokenGender=NotInThisDialect|Status[Tense]=Denom|WordAlignmentBegin=236454|WordAlignmentEnd=236687
 15	de	de	ADP	_	_	17	case	_	WordAlignmentBegin=236687|WordAlignmentEnd=236713
 16	son	son	DET	_	Gender=Masc|Number=Sing|Number[psor]=Sing|Person[psor]=3|Poss=Yes|PronType=Prs	17	det	_	HasSpokenGender=OnlySingExceptWithLiaison|WordAlignmentBegin=236713|WordAlignmentEnd=236898
 17	domicile	domicile	NOUN	_	Gender=Masc|Number=Sing	14	obl:arg	_	Exponence[Gender]=Inherent|Exponence[Number]=Absent|SpaceAfter=No|WordAlignmentBegin=236898|WordAlignmentEnd=237545
@@ -1317,7 +1317,7 @@
 # text = puisque ma professeure d'italien, par exemple, de l'année dernière, euh, mettait une heure et demie avant d'arriver, donc, à son lycée.
 1	puisque	puisque	SCONJ	_	_	17	mark	_	Automated=Yes|SingleSpeaker=Yes|WordAlignmentBegin=237735|WordAlignmentEnd=238140
 2	ma	son	DET	_	Gender=Fem|Number=Sing|Number[psor]=Sing|Person[psor]=1|Poss=Yes|PronType=Prs	3	det	_	HasSpokenGender=OnlySingExceptWithLiaison|WordAlignmentBegin=238140|WordAlignmentEnd=238296
-3	professeure	professeur	NOUN	_	Gender=Fem|Number=Sing	17	nsubj	_	cdet=No|Exponence[Gender]=Inherent|Exponence[Number]=Absent|WordAlignmentBegin=238296|WordAlignmentEnd=238666
+3	professeure	professeur	NOUN	_	Gender=Fem|Number=Sing	17	nsubj	_	Exponence[Gender]=Inherent|Exponence[Number]=Absent|WordAlignmentBegin=238296|WordAlignmentEnd=238666
 4	d'	de	ADP	_	_	5	case	_	SpaceAfter=No|WordAlignmentBegin=238666|WordAlignmentEnd=238678
 5	italien	italien	NOUN	_	Gender=Masc|Number=Sing	3	nmod	_	Exponence[Gender]=Inherent|Exponence[Number]=Absent|LiaisonPossibleBefore=Yes|SpaceAfter=No|WordAlignmentBegin=238678|WordAlignmentEnd=239032
 6	,	,	PUNCT	_	_	3	punct	_	WordAlignmentBegin=239032|WordAlignmentEnd=239032
@@ -1363,7 +1363,7 @@
 8	est	être	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	WordAlignmentBegin=244893|WordAlignmentEnd=245008
 9	à	à	ADP	_	_	11	case	_	WordAlignmentBegin=245008|WordAlignmentEnd=245128
 10	trois	trois	NUM	_	Number=Plur	11	nummod	_	Exponence[Number]=Inherent|WordAlignmentBegin=245128|WordAlignmentEnd=245278
-11	quarts	quart	NOUN	_	Gender=Masc|Number=Plur	8	obl:arg	_	cdet=No|Exponence[Gender]=Inherent|Exponence[Number]=Absent|WordAlignmentBegin=245278|WordAlignmentEnd=245433
+11	quarts	quart	NOUN	_	Gender=Masc|Number=Plur	8	obl:arg	_	Exponence[Gender]=Inherent|Exponence[Number]=Absent|WordAlignmentBegin=245278|WordAlignmentEnd=245433
 12	d'	de	ADP	_	_	13	case	_	SpaceAfter=No|WordAlignmentBegin=245433|WordAlignmentEnd=245452
 13	heure	heure	NOUN	_	Gender=Fem|Number=Sing	11	nmod	_	Exponence[Gender]=Inherent|Exponence[Number]=Absent|LiaisonPossibleBefore=Yes|WordAlignmentBegin=245452|WordAlignmentEnd=245701
 14	de	de	ADP	_	_	18	reparandum	_	SpaceAfter=No|WordAlignmentBegin=245701|WordAlignmentEnd=245941
