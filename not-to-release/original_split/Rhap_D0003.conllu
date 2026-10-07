@@ -4,15 +4,15 @@
 # speaker_id = §LF4
 # macrosyntax = $L1 vous êtes venue à Paris à quel âge //
 # text = vous êtes venue à Paris à quel âge ?
-1	vous	vous	PRON	_	Case=Nom|Emph=No|Number=Plur|Person=2|PronType=Prs	3	nsubj:pass	_	AlignBegin=0|AlignEnd=232|Exponence[Number]=Inherent|Exponence[Person]=Inherent|Polite=Yes
-2	êtes	être	AUX	_	Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	3	aux:pass	_	AlignBegin=232|AlignEnd=375
-3	venue	venir	VERB	_	Gender=Fem|Number=Sing|VerbForm=Part|Voice=Pass	0	root	_	AlignBegin=375|AlignEnd=695|Exponence[Gender]=Absent|Exponence[Number]=Absent|PastPartHasSpokenGender=NotInThisDialect|Tense[denom]=Past
-4	à	à	ADP	_	_	5	case	_	AlignBegin=695|AlignEnd=825
-5	Paris	Paris	PROPN	_	_	3	obl:arg	_	AlignBegin=825|AlignEnd=1115
-6	à	à	ADP	_	_	8	case	_	AlignBegin=1115|AlignEnd=1245
-7	quel	quel	DET	_	Gender=Masc|Number=Sing|PronType=Int	8	det	_	AlignBegin=1245|AlignEnd=1465|Exponence[Gender]=Absent|HasSpokenGender=NotInThisDialect|HasSpokenNumber=OnlyWithLiaison|LiaisonAfter=Yes
-8	âge	âge	NOUN	_	Gender=Masc|Number=Sing	3	obl:mod	_	AlignBegin=1465|AlignEnd=1915|Exponence[Gender]=Inherent|Exponence[Number]=Absent|LiaisonPossibleBefore=Yes
-9	?	?	PUNCT	_	_	3	punct	_	AlignBegin=2174|AlignEnd=2174
+1	vous	vous	PRON	_	Case=Nom|Emph=No|Number=Plur|Person=2|PronType=Prs	3	nsubj:pass	_	Exponence[Number]=Inherent|Exponence[Person]=Inherent|Polite=Yes|WordAlignmentBegin=0|WordAlignmentEnd=232
+2	êtes	être	AUX	_	Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	3	aux:pass	_	WordAlignmentBegin=232|WordAlignmentEnd=375
+3	venue	venir	VERB	_	Gender=Fem|Number=Sing|VerbForm=Part|Voice=Pass	0	root	_	Exponence[Gender]=Absent|Exponence[Number]=Absent|PastPartHasSpokenGender=NotInThisDialect|Tense[denom]=Past|WordAlignmentBegin=375|WordAlignmentEnd=695
+4	à	à	ADP	_	_	5	case	_	WordAlignmentBegin=695|WordAlignmentEnd=825
+5	Paris	Paris	PROPN	_	_	3	obl:arg	_	WordAlignmentBegin=825|WordAlignmentEnd=1115
+6	à	à	ADP	_	_	8	case	_	WordAlignmentBegin=1115|WordAlignmentEnd=1245
+7	quel	quel	DET	_	Gender=Masc|Number=Sing|PronType=Int	8	det	_	Exponence[Gender]=Absent|HasSpokenGender=NotInThisDialect|HasSpokenNumber=OnlyWithLiaison|LiaisonAfter=Yes|WordAlignmentBegin=1245|WordAlignmentEnd=1465
+8	âge	âge	NOUN	_	Gender=Masc|Number=Sing	3	obl:mod	_	Exponence[Gender]=Inherent|Exponence[Number]=Absent|LiaisonPossibleBefore=Yes|WordAlignmentBegin=1465|WordAlignmentEnd=1915
+9	?	?	PUNCT	_	_	3	punct	_	WordAlignmentBegin=2174|WordAlignmentEnd=2174
 
 # sent_id = Rhap_D0003-2
 # prosodic_annotation = yes
@@ -20,13 +20,13 @@
 # speaker_id = §LF5
 # macrosyntax = $L2 "eh bien" "euh" voilà //
 # text = eh bien, euh, voilà.
-1	eh	eh	INTJ	_	_	6	discourse	_	AlignBegin=2718|AlignEnd=2873
-2	bien	bien	INTJ	_	_	6	discourse	_	AlignBegin=2873|AlignEnd=3607|SpaceAfter=No
-3	,	,	PUNCT	_	_	2	punct	_	AlignBegin=3607|AlignEnd=3607
-4	euh	euh	INTJ	_	_	6	discourse:filler	_	AlignBegin=3607|AlignEnd=4233|SpaceAfter=No
-5	,	,	PUNCT	_	_	4	punct	_	AlignBegin=4233|AlignEnd=4233
-6	voilà	voilà	VERB	_	_	0	root	_	AlignBegin=4233|AlignEnd=4723|SpaceAfter=No
-7	.	.	PUNCT	_	_	6	punct	_	AlignBegin=4723|AlignEnd=4723
+1	eh	eh	INTJ	_	_	6	discourse	_	WordAlignmentBegin=2718|WordAlignmentEnd=2873
+2	bien	bien	INTJ	_	_	6	discourse	_	SpaceAfter=No|WordAlignmentBegin=2873|WordAlignmentEnd=3607
+3	,	,	PUNCT	_	_	2	punct	_	WordAlignmentBegin=3607|WordAlignmentEnd=3607
+4	euh	euh	INTJ	_	_	6	discourse:filler	_	SpaceAfter=No|WordAlignmentBegin=3607|WordAlignmentEnd=4233
+5	,	,	PUNCT	_	_	4	punct	_	WordAlignmentBegin=4233|WordAlignmentEnd=4233
+6	voilà	voilà	VERB	_	_	0	root	_	SpaceAfter=No|WordAlignmentBegin=4233|WordAlignmentEnd=4723
+7	.	.	PUNCT	_	_	6	punct	_	WordAlignmentBegin=4723|WordAlignmentEnd=4723
 
 # sent_id = Rhap_D0003-3
 # prosodic_annotation = yes
@@ -34,21 +34,21 @@
 # speaker_id = §LF5
 # macrosyntax = { mes parents | tous les deux } ont vécu à Paris jeunes "hein" //
 # text = mes parents, tous les deux, ont vécu à Paris jeunes, hein.
-1	mes	son	DET	_	Number=Plur|Number[psor]=Sing|Person[psor]=1|Poss=Yes|PronType=Prs	2	det	_	AlignBegin=4723|AlignEnd=4954|HasSpokenGender=OnlySingExceptWithLiaison
-2	parents	parent	NOUN	_	Gender=Masc|Number=Plur	9	nsubj	_	AlignBegin=4954|AlignEnd=5473|Exponence[Gender]=Inherent|Exponence[Number]=Absent|SpaceAfter=No
-3	,	,	PUNCT	_	_	6	punct	_	AlignBegin=5473|AlignEnd=5473
-4	tous	tout	ADJ	_	Gender=Masc|Number=Plur	6	amod	_	AlignBegin=5473|AlignEnd=5613|Exponence[Number]=Absent|HasSpokenGender=YesExceptSingWithLiaison|HasSpokenNumber=OnlyWithLiaison
-5	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	6	det	_	AlignBegin=5613|AlignEnd=5753|HasSpokenGender=OnlySingExceptWithLiaison
-6	deux	deux	NUM	_	Number=Plur	2	appos	_	AlignBegin=5753|AlignEnd=5943|Exponence[Number]=Inherent|SpaceAfter=No
-7	,	,	PUNCT	_	_	2	punct	_	AlignBegin=5943|AlignEnd=5943
-8	ont	avoir	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	9	aux:tense	_	AlignBegin=5943|AlignEnd=6013
-9	vécu	vivre	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Act	0	root	_	AlignBegin=6013|AlignEnd=6243|Exponence[Gender]=Absent|Exponence[Number]=Absent|PastPartHasSpokenGender=NotInThisDialect|Tense[denom]=Past
-10	à	à	ADP	_	_	11	case	_	AlignBegin=6243|AlignEnd=6393
-11	Paris	Paris	PROPN	_	_	9	obl:arg	_	AlignBegin=6393|AlignEnd=6885
-12	jeunes	jeune	ADJ	_	Gender=Masc|Number=Plur	9	advcl	_	AlignBegin=6885|AlignEnd=7253|Exponence[Gender]=Absent|Exponence[Number]=Absent|HasSpokenGender=No|HasSpokenNumber=OnlyWithLiaison|SpaceAfter=No
-13	,	,	PUNCT	_	_	14	punct	_	AlignBegin=7253|AlignEnd=7253
-14	hein	hein	INTJ	_	_	12	discourse	_	AlignBegin=7253|AlignEnd=7415|SpaceAfter=No
-15	.	.	PUNCT	_	_	9	punct	_	AlignBegin=7408|AlignEnd=7408
+1	mes	son	DET	_	Number=Plur|Number[psor]=Sing|Person[psor]=1|Poss=Yes|PronType=Prs	2	det	_	HasSpokenGender=OnlySingExceptWithLiaison|WordAlignmentBegin=4723|WordAlignmentEnd=4954
+2	parents	parent	NOUN	_	Gender=Masc|Number=Plur	9	nsubj	_	Exponence[Gender]=Inherent|Exponence[Number]=Absent|SpaceAfter=No|WordAlignmentBegin=4954|WordAlignmentEnd=5473
+3	,	,	PUNCT	_	_	6	punct	_	WordAlignmentBegin=5473|WordAlignmentEnd=5473
+4	tous	tout	ADJ	_	Gender=Masc|Number=Plur	6	amod	_	Exponence[Number]=Absent|HasSpokenGender=YesExceptSingWithLiaison|HasSpokenNumber=OnlyWithLiaison|WordAlignmentBegin=5473|WordAlignmentEnd=5613
+5	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	6	det	_	HasSpokenGender=OnlySingExceptWithLiaison|WordAlignmentBegin=5613|WordAlignmentEnd=5753
+6	deux	deux	NUM	_	ExtPos=PRON|Number=Plur	2	appos	_	Exponence[Number]=Inherent|SpaceAfter=No|WordAlignmentBegin=5753|WordAlignmentEnd=5943
+7	,	,	PUNCT	_	_	2	punct	_	WordAlignmentBegin=5943|WordAlignmentEnd=5943
+8	ont	avoir	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	9	aux:tense	_	WordAlignmentBegin=5943|WordAlignmentEnd=6013
+9	vécu	vivre	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Act	0	root	_	Exponence[Gender]=Absent|Exponence[Number]=Absent|PastPartHasSpokenGender=NotInThisDialect|Tense[denom]=Past|WordAlignmentBegin=6013|WordAlignmentEnd=6243
+10	à	à	ADP	_	_	11	case	_	WordAlignmentBegin=6243|WordAlignmentEnd=6393
+11	Paris	Paris	PROPN	_	_	9	obl:arg	_	WordAlignmentBegin=6393|WordAlignmentEnd=6885
+12	jeunes	jeune	ADJ	_	Gender=Masc|Number=Plur	9	advcl	_	Exponence[Gender]=Absent|Exponence[Number]=Absent|HasSpokenGender=No|HasSpokenNumber=OnlyWithLiaison|SpaceAfter=No|WordAlignmentBegin=6885|WordAlignmentEnd=7253
+13	,	,	PUNCT	_	_	14	punct	_	WordAlignmentBegin=7253|WordAlignmentEnd=7253
+14	hein	hein	INTJ	_	_	12	discourse	_	SpaceAfter=No|WordAlignmentBegin=7253|WordAlignmentEnd=7415
+15	.	.	PUNCT	_	_	9	punct	_	WordAlignmentBegin=7408|WordAlignmentEnd=7408
 
 # sent_id = Rhap_D0003-4
 # prosodic_annotation = yes
@@ -56,8 +56,8 @@
 # speaker_id = §LF4
 # macrosyntax = ( $L1 "mh" )
 # text = mh.
-1	mh	mh	INTJ	_	_	0	root	_	AlignBegin=7415|AlignEnd=7753|Backchannel=Rhap_D0003-3::8|SpaceAfter=No
-2	.	.	PUNCT	_	_	1	punct	_	AlignBegin=7753|AlignEnd=7753
+1	mh	mh	INTJ	_	_	0	root	_	Backchannel=Rhap_D0003-3::8|SpaceAfter=No|WordAlignmentBegin=7415|WordAlignmentEnd=7753
+2	.	.	PUNCT	_	_	1	punct	_	WordAlignmentBegin=7753|WordAlignmentEnd=7753
 
 # sent_id = Rhap_D0003-5
 # prosodic_annotation = yes
@@ -65,19 +65,19 @@
 # speaker_id = §LF5
 # macrosyntax = ^et ^puis en se mariant < ils sont partis vivre en province //
 # text = et puis en se mariant, ils sont partis vivre en province.
-1	et	et	CCONJ	_	ExtPos=CCONJ	9	cc	_	AlignBegin=8103|AlignEnd=8178|Idiom=Yes
-2	puis	puis	CCONJ	_	_	1	fixed	_	AlignBegin=8178|AlignEnd=8298|InIdiom=Yes
-3	en	en	ADP	_	_	5	mark	_	AlignBegin=8298|AlignEnd=8388
-4	se	soi	PRON	_	Person=3|PronType=Prs|Reflex=Yes	5	obj	_	AlignBegin=8388|AlignEnd=8478|Exponence[Person]=Inherent
-5	mariant	marier	VERB	_	VerbForm=Part	9	advcl	_	AlignBegin=8478|AlignEnd=8778|PastPartHasSpokenGender=NotInThisDialect|SpaceAfter=No|Tense[denom]=Pres
-6	,	,	PUNCT	_	_	5	punct	_	AlignBegin=8778|AlignEnd=8778
-7	ils	lui	PRON	_	Case=Nom|Emph=No|Gender=Masc|Number=Plur|Person=3|PronType=Prs	9	nsubj	_	AlignBegin=8778|AlignEnd=8878|Exponence[Person]=Inherent
-8	sont	être	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	9	aux:tense	_	AlignBegin=8878|AlignEnd=9108
-9	partis	partir	VERB	_	Gender=Masc|Number=Plur|VerbForm=Part|Voice=Act	0	root	_	AlignBegin=9108|AlignEnd=9478|Exponence[Gender]=Absent|Exponence[Number]=Absent|PastPartHasSpokenGender=NotInThisDialect|Tense[denom]=Past
-10	vivre	vivre	VERB	_	VerbForm=Inf	9	xcomp	_	AlignBegin=9478|AlignEnd=9698|Subject=SubjRaising
-11	en	en	ADP	_	_	12	case	_	AlignBegin=9698|AlignEnd=9858
-12	province	province	NOUN	_	Gender=Fem|Number=Sing	10	obl:arg	_	AlignBegin=9858|AlignEnd=10753|Exponence[Gender]=Inherent|Exponence[Number]=Absent|SpaceAfter=No
-13	.	.	PUNCT	_	_	9	punct	_	AlignBegin=10753|AlignEnd=10753
+1	et	et	CCONJ	_	ExtPos=CCONJ	9	cc	_	Idiom=Yes|WordAlignmentBegin=8103|WordAlignmentEnd=8178
+2	puis	puis	CCONJ	_	_	1	fixed	_	InIdiom=Yes|WordAlignmentBegin=8178|WordAlignmentEnd=8298
+3	en	en	ADP	_	_	5	mark	_	WordAlignmentBegin=8298|WordAlignmentEnd=8388
+4	se	soi	PRON	_	Person=3|PronType=Prs|Reflex=Yes	5	obj	_	Exponence[Person]=Inherent|WordAlignmentBegin=8388|WordAlignmentEnd=8478
+5	mariant	marier	VERB	_	VerbForm=Part	9	advcl	_	PastPartHasSpokenGender=NotInThisDialect|SpaceAfter=No|Tense[denom]=Pres|WordAlignmentBegin=8478|WordAlignmentEnd=8778
+6	,	,	PUNCT	_	_	5	punct	_	WordAlignmentBegin=8778|WordAlignmentEnd=8778
+7	ils	lui	PRON	_	Case=Nom|Emph=No|Gender=Masc|Number=Plur|Person=3|PronType=Prs	9	nsubj	_	Exponence[Person]=Inherent|WordAlignmentBegin=8778|WordAlignmentEnd=8878
+8	sont	être	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	9	aux:tense	_	WordAlignmentBegin=8878|WordAlignmentEnd=9108
+9	partis	partir	VERB	_	Gender=Masc|Number=Plur|VerbForm=Part|Voice=Act	0	root	_	Exponence[Gender]=Absent|Exponence[Number]=Absent|PastPartHasSpokenGender=NotInThisDialect|Tense[denom]=Past|WordAlignmentBegin=9108|WordAlignmentEnd=9478
+10	vivre	vivre	VERB	_	VerbForm=Inf	9	xcomp	_	Subject=SubjRaising|WordAlignmentBegin=9478|WordAlignmentEnd=9698
+11	en	en	ADP	_	_	12	case	_	WordAlignmentBegin=9698|WordAlignmentEnd=9858
+12	province	province	NOUN	_	Gender=Fem|Number=Sing	10	obl:arg	_	Exponence[Gender]=Inherent|Exponence[Number]=Absent|SpaceAfter=No|WordAlignmentBegin=9858|WordAlignmentEnd=10753
+13	.	.	PUNCT	_	_	9	punct	_	WordAlignmentBegin=10753|WordAlignmentEnd=10753
 
 # sent_id = Rhap_D0003-6
 # prosodic_annotation = yes
@@ -85,38 +85,38 @@
 # speaker_id = §LF5
 # macrosyntax = ^et petit à petit < ils ont essayé d'avoir { quelque chose |} à Paris {| petit studio | ^ou quelque chose comme ça } { pour revenir voir leurs amis | ^et ^puis pour y ESPERLUETTE } //
 # text = et petit à petit, ils ont essayé d'avoir quelque chose à Paris, petit studio ou quelque chose comme ça pour revenir voir leurs amis et puis pour y…
-1	et	et	CCONJ	_	_	8	cc	_	AlignBegin=11599|AlignEnd=11754
-2	petit	petit	ADJ	_	Gender=Masc|Number=Sing	4	amod	_	AlignBegin=11754|AlignEnd=12044|Exponence[Number]=Absent|HasSpokenGender=YesExceptSingWithLiaison|HasSpokenNumber=OnlyWithLiaison
-3	à	à	ADP	_	_	4	case	_	AlignBegin=12044|AlignEnd=12224
-4	petit	petit	ADJ	_	Gender=Masc|Number=Sing	8	obl:mod	_	AlignBegin=12224|AlignEnd=12414|Exponence[Number]=Absent|HasSpokenGender=YesExceptSingWithLiaison|HasSpokenNumber=OnlyWithLiaison|SpaceAfter=No
-5	,	,	PUNCT	_	_	4	punct	_	AlignBegin=12414|AlignEnd=12414
-6	ils	lui	PRON	_	Case=Nom|Emph=No|Gender=Masc|Number=Plur|Person=3|PronType=Prs	8	nsubj	_	AlignBegin=12414|AlignEnd=12544|Exponence[Person]=Inherent
-7	ont	avoir	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	8	aux:tense	_	AlignBegin=12544|AlignEnd=12624
-8	essayé	essayer	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Act	0	root	_	AlignBegin=12624|AlignEnd=13024|Exponence[Gender]=Absent|Exponence[Number]=Absent|PastPartHasSpokenGender=NotInThisDialect|Tense[denom]=Past
-9	d'	de	ADP	_	_	10	mark	_	AlignBegin=13024|AlignEnd=13064|SpaceAfter=No
-10	avoir	avoir	VERB	_	VerbForm=Inf	8	xcomp	_	AlignBegin=13064|AlignEnd=13524|Subject=SubjRaising
-11	quelque	quelque	DET	_	Number=Sing|PronType=Ind	12	det	_	AlignBegin=13524|AlignEnd=13784|Exponence[Number]=Inherent
-12	chose	chose	NOUN	_	Gender=Fem|Number=Sing	10	obj	_	AlignBegin=13784|AlignEnd=14094|Exponence[Gender]=Inherent|Exponence[Number]=Absent
-13	à	à	ADP	_	_	14	case	_	AlignBegin=14094|AlignEnd=14164
-14	Paris	Paris	PROPN	_	_	10	obl:mod	_	AlignBegin=14164|AlignEnd=14889|SpaceAfter=No
-15	,	,	PUNCT	_	_	17	punct	_	AlignBegin=14889|AlignEnd=15374
-16	petit	petit	ADJ	_	Gender=Masc|Number=Sing	17	amod	_	AlignBegin=15374|AlignEnd=15569|Exponence[Number]=Absent|HasSpokenGender=YesExceptSingWithLiaison|HasSpokenNumber=OnlyWithLiaison
-17	studio	studio	NOUN	_	Gender=Masc|Number=Sing	12	appos	_	AlignBegin=15569|AlignEnd=16439|Exponence[Gender]=Inherent|Exponence[Number]=Absent
-18	ou	ou	CCONJ	_	_	20	cc	_	AlignBegin=16439|AlignEnd=16469
-19	quelque	quelque	DET	_	Number=Sing|PronType=Ind	20	det	_	AlignBegin=16469|AlignEnd=16629|Exponence[Number]=Inherent
-20	chose	chose	NOUN	_	Gender=Fem|Number=Sing	17	conj	_	AlignBegin=16629|AlignEnd=16769|Exponence[Gender]=Inherent|Exponence[Number]=Absent
-21	comme	comme	ADP	_	_	22	case	_	AlignBegin=16769|AlignEnd=16909
-22	ça	ça	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	20	nmod	_	AlignBegin=16909|AlignEnd=17114|Exponence[Gender]=Inherent|Exponence[Number]=Inherent|Exponence[Person]=Inherent
-23	pour	pour	ADP	_	_	24	mark	_	AlignBegin=17114|AlignEnd=17273
-24	revenir	revenir	VERB	_	VerbForm=Inf	10	advcl	_	AlignBegin=17273|AlignEnd=17839|Subject=NoRaising
-25	voir	voir	VERB	_	VerbForm=Inf	24	ccomp	_	AlignBegin=17839|AlignEnd=18229|Subject=NoRaising
-26	leurs	son	DET	_	Number=Plur|Number[psor]=Plur|Person[psor]=3|Poss=Yes|PronType=Prs	27	det	_	AlignBegin=18229|AlignEnd=18429|HasSpokenGender=OnlySingExceptWithLiaison|LiaisonAfter=Yes
-27	amis	ami	NOUN	_	Gender=Masc|Number=Plur	25	obj	_	AlignBegin=18429|AlignEnd=18969|Exponence[Gender]=Inherent|Exponence[Number]=Absent|LiaisonPossibleBefore=Yes
-28	et	et	CCONJ	_	ExtPos=CCONJ	30	cc	_	AlignBegin=18969|AlignEnd=19012|Idiom=Yes
-29	puis	puis	CCONJ	_	_	28	fixed	_	AlignBegin=19012|AlignEnd=19179|InIdiom=Yes
-30	pour	pour	ADP	_	_	23	conj	_	AlignBegin=19179|AlignEnd=19339
-31	y	y	PRON	_	Person=3|PronType=Prs	30	dep	_	AlignBegin=19339|AlignEnd=19411|Exponence[Person]=Inherent|Scrap=Yes|SpaceAfter=No
-32	…	…	PUNCT	_	_	8	punct	_	AlignBegin=19411|AlignEnd=19411
+1	et	et	CCONJ	_	_	8	cc	_	WordAlignmentBegin=11599|WordAlignmentEnd=11754
+2	petit	petit	ADJ	_	Gender=Masc|Number=Sing	4	amod	_	Exponence[Number]=Absent|HasSpokenGender=YesExceptSingWithLiaison|HasSpokenNumber=OnlyWithLiaison|WordAlignmentBegin=11754|WordAlignmentEnd=12044
+3	à	à	ADP	_	_	4	case	_	WordAlignmentBegin=12044|WordAlignmentEnd=12224
+4	petit	petit	ADJ	_	Gender=Masc|Number=Sing	8	obl:mod	_	Exponence[Number]=Absent|HasSpokenGender=YesExceptSingWithLiaison|HasSpokenNumber=OnlyWithLiaison|SpaceAfter=No|WordAlignmentBegin=12224|WordAlignmentEnd=12414
+5	,	,	PUNCT	_	_	4	punct	_	WordAlignmentBegin=12414|WordAlignmentEnd=12414
+6	ils	lui	PRON	_	Case=Nom|Emph=No|Gender=Masc|Number=Plur|Person=3|PronType=Prs	8	nsubj	_	Exponence[Person]=Inherent|WordAlignmentBegin=12414|WordAlignmentEnd=12544
+7	ont	avoir	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	8	aux:tense	_	WordAlignmentBegin=12544|WordAlignmentEnd=12624
+8	essayé	essayer	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Act	0	root	_	Exponence[Gender]=Absent|Exponence[Number]=Absent|PastPartHasSpokenGender=NotInThisDialect|Tense[denom]=Past|WordAlignmentBegin=12624|WordAlignmentEnd=13024
+9	d'	de	ADP	_	_	10	mark	_	SpaceAfter=No|WordAlignmentBegin=13024|WordAlignmentEnd=13064
+10	avoir	avoir	VERB	_	VerbForm=Inf	8	xcomp	_	Subject=SubjRaising|WordAlignmentBegin=13064|WordAlignmentEnd=13524
+11	quelque	quelque	DET	_	Number=Sing|PronType=Ind	12	det	_	Exponence[Number]=Inherent|WordAlignmentBegin=13524|WordAlignmentEnd=13784
+12	chose	chose	NOUN	_	Gender=Fem|Number=Sing	10	obj	_	Exponence[Gender]=Inherent|Exponence[Number]=Absent|WordAlignmentBegin=13784|WordAlignmentEnd=14094
+13	à	à	ADP	_	_	14	case	_	WordAlignmentBegin=14094|WordAlignmentEnd=14164
+14	Paris	Paris	PROPN	_	_	10	obl:mod	_	SpaceAfter=No|WordAlignmentBegin=14164|WordAlignmentEnd=14889
+15	,	,	PUNCT	_	_	17	punct	_	WordAlignmentBegin=14889|WordAlignmentEnd=15374
+16	petit	petit	ADJ	_	Gender=Masc|Number=Sing	17	amod	_	Exponence[Number]=Absent|HasSpokenGender=YesExceptSingWithLiaison|HasSpokenNumber=OnlyWithLiaison|WordAlignmentBegin=15374|WordAlignmentEnd=15569
+17	studio	studio	NOUN	_	Gender=Masc|Number=Sing	12	appos	_	Exponence[Gender]=Inherent|Exponence[Number]=Absent|WordAlignmentBegin=15569|WordAlignmentEnd=16439
+18	ou	ou	CCONJ	_	_	20	cc	_	WordAlignmentBegin=16439|WordAlignmentEnd=16469
+19	quelque	quelque	DET	_	Number=Sing|PronType=Ind	20	det	_	Exponence[Number]=Inherent|WordAlignmentBegin=16469|WordAlignmentEnd=16629
+20	chose	chose	NOUN	_	Gender=Fem|Number=Sing	17	conj	_	Exponence[Gender]=Inherent|Exponence[Number]=Absent|WordAlignmentBegin=16629|WordAlignmentEnd=16769
+21	comme	comme	ADP	_	_	22	case	_	WordAlignmentBegin=16769|WordAlignmentEnd=16909
+22	ça	ça	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	20	nmod	_	Exponence[Gender]=Inherent|Exponence[Number]=Inherent|Exponence[Person]=Inherent|WordAlignmentBegin=16909|WordAlignmentEnd=17114
+23	pour	pour	ADP	_	_	24	mark	_	WordAlignmentBegin=17114|WordAlignmentEnd=17273
+24	revenir	revenir	VERB	_	VerbForm=Inf	10	advcl	_	Subject=NoRaising|WordAlignmentBegin=17273|WordAlignmentEnd=17839
+25	voir	voir	VERB	_	VerbForm=Inf	24	ccomp	_	Subject=NoRaising|WordAlignmentBegin=17839|WordAlignmentEnd=18229
+26	leurs	son	DET	_	Number=Plur|Number[psor]=Plur|Person[psor]=3|Poss=Yes|PronType=Prs	27	det	_	HasSpokenGender=OnlySingExceptWithLiaison|LiaisonAfter=Yes|WordAlignmentBegin=18229|WordAlignmentEnd=18429
+27	amis	ami	NOUN	_	Gender=Masc|Number=Plur	25	obj	_	Exponence[Gender]=Inherent|Exponence[Number]=Absent|LiaisonPossibleBefore=Yes|WordAlignmentBegin=18429|WordAlignmentEnd=18969
+28	et	et	CCONJ	_	ExtPos=CCONJ	30	cc	_	Idiom=Yes|WordAlignmentBegin=18969|WordAlignmentEnd=19012
+29	puis	puis	CCONJ	_	_	28	fixed	_	InIdiom=Yes|WordAlignmentBegin=19012|WordAlignmentEnd=19179
+30	pour	pour	ADP	_	_	23	conj	_	WordAlignmentBegin=19179|WordAlignmentEnd=19339
+31	y	y	PRON	_	Person=3|PronType=Prs	30	dep	_	Exponence[Person]=Inherent|Scrap=Yes|SpaceAfter=No|WordAlignmentBegin=19339|WordAlignmentEnd=19411
+32	…	…	PUNCT	_	_	8	punct	_	WordAlignmentBegin=19411|WordAlignmentEnd=19411
 
 # sent_id = Rhap_D0003-7
 # prosodic_annotation = yes
@@ -124,11 +124,11 @@
 # speaker_id = §LF5
 # macrosyntax = $- $L2 ils étaient très mélomanes //
 # text = ils étaient très mélomanes.
-1	ils	lui	PRON	_	Case=Nom|Emph=No|Gender=Masc|Number=Plur|Person=3|PronType=Prs	4	nsubj	_	AlignBegin=19411|AlignEnd=19526|Exponence[Person]=Inherent|Overlap=Rhap_D0003-9
-2	étaient	être	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	4	cop	_	AlignBegin=19526|AlignEnd=19727|Overlap=Rhap_D0003-9
-3	très	très	ADV	_	_	4	advmod	_	AlignBegin=19727|AlignEnd=19906|Overlap=Rhap_D0003-9
-4	mélomanes	mélomane	NOUN	_	Gender=Masc|Number=Plur	0	root	_	AlignBegin=19906|AlignEnd=20502|Exponence[Gender]=Inherent|Exponence[Number]=Absent|Overlap=Rhap_D0003-9|SpaceAfter=No
-5	.	.	PUNCT	_	_	4	punct	_	AlignBegin=22542|AlignEnd=22542|Overlap=Rhap_D0003-8
+1	ils	lui	PRON	_	Case=Nom|Emph=No|Gender=Masc|Number=Plur|Person=3|PronType=Prs	4	nsubj	_	Exponence[Person]=Inherent|Overlap=Rhap_D0003-9|WordAlignmentBegin=19411|WordAlignmentEnd=19526
+2	étaient	être	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	4	cop	_	Overlap=Rhap_D0003-9|WordAlignmentBegin=19526|WordAlignmentEnd=19727
+3	très	très	ADV	_	_	4	advmod	_	Overlap=Rhap_D0003-9|WordAlignmentBegin=19727|WordAlignmentEnd=19906
+4	mélomanes	mélomane	NOUN	_	Gender=Masc|Number=Plur	0	root	_	Exponence[Gender]=Inherent|Exponence[Number]=Absent|Overlap=Rhap_D0003-9|SpaceAfter=No|WordAlignmentBegin=19906|WordAlignmentEnd=20502
+5	.	.	PUNCT	_	_	4	punct	_	Overlap=Rhap_D0003-8|WordAlignmentBegin=22542|WordAlignmentEnd=22542
 
 # sent_id = Rhap_D0003-8
 # prosodic_annotation = yes
@@ -136,17 +136,17 @@
 # speaker_id = §LF5
 # macrosyntax = alors < ils avaient envie d'entendre de la musique //
 # text = alors, ils avaient envie d'entendre de la musique.
-1	alors	alors	ADV	_	_	4	advmod	_	AlignBegin=20502|AlignEnd=20772|Overlap=Rhap_D0003-9|SpaceAfter=No
-2	,	,	PUNCT	_	_	1	punct	_	AlignBegin=22542|AlignEnd=19411|Overlap=Rhap_D0003-8
-3	ils	lui	PRON	_	Case=Nom|Emph=No|Gender=Masc|Number=Plur|Person=3|PronType=Prs	4	nsubj	_	AlignBegin=19411|AlignEnd=22542|Exponence[Person]=Inherent|Overlap=Rhap_D0003-9
-4	avaient	avoir	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	AlignBegin=19411|AlignEnd=22542|Exponence[Number]=Absent|Overlap=Rhap_D0003-9
-5	envie	envie	NOUN	_	Gender=Fem|Number=Sing	4	obj:lvc	_	AlignBegin=21090|AlignEnd=21496|Exponence[Gender]=Inherent|Exponence[Number]=Absent|LiaisonPossibleBefore=Yes|Overlap=Rhap_D0003-9
-6	d'	de	ADP	_	_	7	mark	_	AlignBegin=21496|AlignEnd=21596|Overlap=Rhap_D0003-9|SpaceAfter=No
-7	entendre	entendre	VERB	_	VerbForm=Inf	5	acl	_	AlignBegin=21596|AlignEnd=21966|Overlap=Rhap_D0003-9|Subject=SubjRaising
-8	de	de	ADP	_	ExtPos=DET	10	det	_	AlignBegin=21966|AlignEnd=22036|Idiom=Yes|Overlap=Rhap_D0003-9
-9	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	8	fixed	_	AlignBegin=22036|AlignEnd=22146|HasSpokenGender=OnlySingExceptWithLiaison|InIdiom=Yes|Overlap=Rhap_D0003-9
-10	musique	musique	NOUN	_	Gender=Fem|Number=Sing	7	obj	_	AlignBegin=22146|AlignEnd=22542|Exponence[Gender]=Inherent|Exponence[Number]=Absent|Overlap=Rhap_D0003-9|SpaceAfter=No
-11	.	.	PUNCT	_	_	4	punct	_	AlignBegin=22542|AlignEnd=22542|Overlap=Rhap_D0003-8
+1	alors	alors	ADV	_	_	4	advmod	_	Overlap=Rhap_D0003-9|SpaceAfter=No|WordAlignmentBegin=20502|WordAlignmentEnd=20772
+2	,	,	PUNCT	_	_	1	punct	_	Overlap=Rhap_D0003-8|WordAlignmentBegin=22542|WordAlignmentEnd=19411
+3	ils	lui	PRON	_	Case=Nom|Emph=No|Gender=Masc|Number=Plur|Person=3|PronType=Prs	4	nsubj	_	Exponence[Person]=Inherent|Overlap=Rhap_D0003-9|WordAlignmentBegin=19411|WordAlignmentEnd=22542
+4	avaient	avoir	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	Exponence[Number]=Absent|Overlap=Rhap_D0003-9|WordAlignmentBegin=19411|WordAlignmentEnd=22542
+5	envie	envie	NOUN	_	Gender=Fem|Number=Sing	4	obj:lvc	_	Exponence[Gender]=Inherent|Exponence[Number]=Absent|LiaisonPossibleBefore=Yes|Overlap=Rhap_D0003-9|WordAlignmentBegin=21090|WordAlignmentEnd=21496
+6	d'	de	ADP	_	_	7	mark	_	Overlap=Rhap_D0003-9|SpaceAfter=No|WordAlignmentBegin=21496|WordAlignmentEnd=21596
+7	entendre	entendre	VERB	_	VerbForm=Inf	5	acl	_	Overlap=Rhap_D0003-9|Subject=SubjRaising|WordAlignmentBegin=21596|WordAlignmentEnd=21966
+8	de	de	ADP	_	ExtPos=DET	10	det	_	Idiom=Yes|Overlap=Rhap_D0003-9|WordAlignmentBegin=21966|WordAlignmentEnd=22036
+9	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	8	fixed	_	HasSpokenGender=OnlySingExceptWithLiaison|InIdiom=Yes|Overlap=Rhap_D0003-9|WordAlignmentBegin=22036|WordAlignmentEnd=22146
+10	musique	musique	NOUN	_	Gender=Fem|Number=Sing	7	obj	_	Exponence[Gender]=Inherent|Exponence[Number]=Absent|Overlap=Rhap_D0003-9|SpaceAfter=No|WordAlignmentBegin=22146|WordAlignmentEnd=22542
+11	.	.	PUNCT	_	_	4	punct	_	Overlap=Rhap_D0003-8|WordAlignmentBegin=22542|WordAlignmentEnd=22542
 
 # sent_id = Rhap_D0003-9
 # prosodic_annotation = no
@@ -154,10 +154,10 @@
 # speaker_id = §LF4
 # macrosyntax = ( $L1 "mh" "mh" ) -$
 # text = mh, mh.
-1	mh	mh	INTJ	_	_	0	root	_	AlignBegin=19411|AlignEnd=22542|Backchannel=Rhap_D0003-8::4|Overlap=Rhap_D0003-7|SpaceAfter=No
-2	,	,	PUNCT	_	_	3	punct	_	AlignBegin=22542|AlignEnd=19411|Overlap=Rhap_D0003-6
-3	mh	mh	INTJ	_	_	1	conj	_	AlignBegin=19411|AlignEnd=22542|Overlap=Rhap_D0003-7|SpaceAfter=No
-4	.	.	PUNCT	_	_	1	punct	_	AlignBegin=22542|AlignEnd=22542|Overlap=Rhap_D0003-6
+1	mh	mh	INTJ	_	_	0	root	_	Backchannel=Rhap_D0003-8::4|Overlap=Rhap_D0003-7|SpaceAfter=No|WordAlignmentBegin=19411|WordAlignmentEnd=22542
+2	,	,	PUNCT	_	_	3	punct	_	Overlap=Rhap_D0003-6|WordAlignmentBegin=22542|WordAlignmentEnd=19411
+3	mh	mh	INTJ	_	_	1	conj	_	Overlap=Rhap_D0003-7|SpaceAfter=No|WordAlignmentBegin=19411|WordAlignmentEnd=22542
+4	.	.	PUNCT	_	_	1	punct	_	Overlap=Rhap_D0003-6|WordAlignmentBegin=22542|WordAlignmentEnd=22542
 
 # sent_id = Rhap_D0003-10
 # prosodic_annotation = yes
@@ -165,16 +165,16 @@
 # speaker_id = §LF5
 # macrosyntax = alors < quand ils pouvaient <+ ils faisaient ça //
 # text = alors, quand ils pouvaient, ils faisaient ça.
-1	alors	alors	ADV	_	_	8	discourse	_	AlignBegin=22542|AlignEnd=22757|SpaceAfter=No
-2	,	,	PUNCT	_	_	1	punct	_	AlignBegin=22757|AlignEnd=22757
-3	quand	quand	SCONJ	_	_	5	mark	_	AlignBegin=22757|AlignEnd=22987
-4	ils	lui	PRON	_	Case=Nom|Emph=No|Gender=Masc|Number=Plur|Person=3|PronType=Prs	5	nsubj	_	AlignBegin=22987|AlignEnd=23127|Exponence[Person]=Inherent
-5	pouvaient	pouvoir	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	8	advcl	_	AlignBegin=23127|AlignEnd=23427|Exponence[Number]=Absent|SpaceAfter=No
-6	,	,	PUNCT	_	_	5	punct	_	AlignBegin=23427|AlignEnd=23427
-7	ils	lui	PRON	_	Case=Nom|Emph=No|Gender=Masc|Number=Plur|Person=3|PronType=Prs	8	nsubj	_	AlignBegin=23427|AlignEnd=23527|Exponence[Person]=Inherent
-8	faisaient	faire	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	AlignBegin=23527|AlignEnd=23827|Exponence[Number]=Absent
-9	ça	ça	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	8	obj	_	AlignBegin=23827|AlignEnd=24297|Exponence[Gender]=Inherent|Exponence[Number]=Inherent|Exponence[Person]=Inherent|SpaceAfter=No
-10	.	.	PUNCT	_	_	8	punct	_	AlignBegin=24297|AlignEnd=24297
+1	alors	alors	ADV	_	_	8	discourse	_	SpaceAfter=No|WordAlignmentBegin=22542|WordAlignmentEnd=22757
+2	,	,	PUNCT	_	_	1	punct	_	WordAlignmentBegin=22757|WordAlignmentEnd=22757
+3	quand	quand	SCONJ	_	_	5	mark	_	WordAlignmentBegin=22757|WordAlignmentEnd=22987
+4	ils	lui	PRON	_	Case=Nom|Emph=No|Gender=Masc|Number=Plur|Person=3|PronType=Prs	5	nsubj	_	Exponence[Person]=Inherent|WordAlignmentBegin=22987|WordAlignmentEnd=23127
+5	pouvaient	pouvoir	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	8	advcl	_	Exponence[Number]=Absent|SpaceAfter=No|WordAlignmentBegin=23127|WordAlignmentEnd=23427
+6	,	,	PUNCT	_	_	5	punct	_	WordAlignmentBegin=23427|WordAlignmentEnd=23427
+7	ils	lui	PRON	_	Case=Nom|Emph=No|Gender=Masc|Number=Plur|Person=3|PronType=Prs	8	nsubj	_	Exponence[Person]=Inherent|WordAlignmentBegin=23427|WordAlignmentEnd=23527
+8	faisaient	faire	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	Exponence[Number]=Absent|WordAlignmentBegin=23527|WordAlignmentEnd=23827
+9	ça	ça	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	8	obj	_	Exponence[Gender]=Inherent|Exponence[Number]=Inherent|Exponence[Person]=Inherent|SpaceAfter=No|WordAlignmentBegin=23827|WordAlignmentEnd=24297
+10	.	.	PUNCT	_	_	8	punct	_	WordAlignmentBegin=24297|WordAlignmentEnd=24297
 
 # sent_id = Rhap_D0003-11
 # prosodic_annotation = yes
@@ -182,27 +182,27 @@
 # speaker_id = §LF5
 # macrosyntax = ce qui fait que [ au moment de la guerre <+ nous étions toujours en Bretagne ] //
 # text = ce qui fait que au moment, mh, de la guerre, nous étions toujours en Bretagne.
-1	ce	ce	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	0	root	_	AlignBegin=24825|AlignEnd=24930|Exponence[Gender]=Inherent|Exponence[Number]=Inherent|Exponence[Person]=Inherent
-2	qui	qui	PRON	_	PronType=Rel	3	nsubj	_	AlignBegin=24930|AlignEnd=25140
-3	fait	faire	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	acl:relcl	_	AlignBegin=25140|AlignEnd=25310|Exponence[Person]=Absent
-4	que	que	SCONJ	_	_	16	mark	_	AlignBegin=25310|AlignEnd=25441
+1	ce	ce	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	0	root	_	Exponence[Gender]=Inherent|Exponence[Number]=Inherent|Exponence[Person]=Inherent|WordAlignmentBegin=24825|WordAlignmentEnd=24930
+2	qui	qui	PRON	_	PronType=Rel	3	nsubj	_	WordAlignmentBegin=24930|WordAlignmentEnd=25140
+3	fait	faire	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	acl:relcl	_	Exponence[Person]=Absent|WordAlignmentBegin=25140|WordAlignmentEnd=25310
+4	que	que	SCONJ	_	_	16	mark	_	WordAlignmentBegin=25310|WordAlignmentEnd=25441
 5-6	au	_	_	_	_	_	_	_	_
-5	à	à	ADP	_	_	7	case	_	AlignBegin=25441|AlignEnd=25680
+5	à	à	ADP	_	_	7	case	_	WordAlignmentBegin=25441|WordAlignmentEnd=25680
 6	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
-7	moment	moment	NOUN	_	Gender=Masc|Number=Sing	16	obl:mod	_	AlignBegin=25680|AlignEnd=26390|Exponence[Gender]=Inherent|Exponence[Number]=Absent|SpaceAfter=No
-8	,	,	PUNCT	_	_	9	punct	_	AlignBegin=26390|AlignEnd=26390
-9	mh	mh	INTJ	_	_	7	discourse	_	AlignBegin=26390|AlignEnd=26677|SpaceAfter=No
-10	,	,	PUNCT	_	_	13	punct	_	AlignBegin=26677|AlignEnd=26677
-11	de	de	ADP	_	_	13	case	_	AlignBegin=26677|AlignEnd=26780
-12	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	13	det	_	AlignBegin=26780|AlignEnd=26923|HasSpokenGender=OnlySingExceptWithLiaison
-13	guerre	guerre	NOUN	_	Gender=Fem|Number=Sing	7	nmod	_	AlignBegin=26923|AlignEnd=27256|Exponence[Gender]=Inherent|Exponence[Number]=Absent|SpaceAfter=No
-14	,	,	PUNCT	_	_	7	punct	_	AlignBegin=27256|AlignEnd=27256
-15	nous	nous	PRON	_	Case=Nom|Emph=No|Number=Plur|Person=1|PronType=Prs	16	nsubj	_	AlignBegin=27256|AlignEnd=27470|Exponence[Number]=Inherent|Exponence[Person]=Inherent
-16	étions	être	VERB	_	Mood=Ind|Number=Plur|Person=1|Tense=Imp|VerbForm=Fin	3	ccomp	_	AlignBegin=27470|AlignEnd=27770
-17	toujours	toujours	ADV	_	_	19	advmod	_	AlignBegin=27770|AlignEnd=28070
-18	en	en	ADP	_	_	19	case	_	AlignBegin=28070|AlignEnd=28210
-19	Bretagne	Bretagne	PROPN	_	_	16	obl:arg	_	AlignBegin=28210|AlignEnd=28915|SpaceAfter=No
-20	.	.	PUNCT	_	_	1	punct	_	AlignBegin=28910|AlignEnd=28910
+7	moment	moment	NOUN	_	Gender=Masc|Number=Sing	16	obl:mod	_	Exponence[Gender]=Inherent|Exponence[Number]=Absent|SpaceAfter=No|WordAlignmentBegin=25680|WordAlignmentEnd=26390
+8	,	,	PUNCT	_	_	9	punct	_	WordAlignmentBegin=26390|WordAlignmentEnd=26390
+9	mh	mh	INTJ	_	_	7	discourse	_	SpaceAfter=No|WordAlignmentBegin=26390|WordAlignmentEnd=26677
+10	,	,	PUNCT	_	_	13	punct	_	WordAlignmentBegin=26677|WordAlignmentEnd=26677
+11	de	de	ADP	_	_	13	case	_	WordAlignmentBegin=26677|WordAlignmentEnd=26780
+12	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	13	det	_	HasSpokenGender=OnlySingExceptWithLiaison|WordAlignmentBegin=26780|WordAlignmentEnd=26923
+13	guerre	guerre	NOUN	_	Gender=Fem|Number=Sing	7	nmod	_	Exponence[Gender]=Inherent|Exponence[Number]=Absent|SpaceAfter=No|WordAlignmentBegin=26923|WordAlignmentEnd=27256
+14	,	,	PUNCT	_	_	7	punct	_	WordAlignmentBegin=27256|WordAlignmentEnd=27256
+15	nous	nous	PRON	_	Case=Nom|Emph=No|Number=Plur|Person=1|PronType=Prs	16	nsubj	_	Exponence[Number]=Inherent|Exponence[Person]=Inherent|WordAlignmentBegin=27256|WordAlignmentEnd=27470
+16	étions	être	VERB	_	Mood=Ind|Number=Plur|Person=1|Tense=Imp|VerbForm=Fin	3	ccomp	_	WordAlignmentBegin=27470|WordAlignmentEnd=27770
+17	toujours	toujours	ADV	_	_	19	advmod	_	WordAlignmentBegin=27770|WordAlignmentEnd=28070
+18	en	en	ADP	_	_	19	case	_	WordAlignmentBegin=28070|WordAlignmentEnd=28210
+19	Bretagne	Bretagne	PROPN	_	_	16	obl:arg	_	SpaceAfter=No|WordAlignmentBegin=28210|WordAlignmentEnd=28915
+20	.	.	PUNCT	_	_	1	punct	_	WordAlignmentBegin=28910|WordAlignmentEnd=28910
 
 # sent_id = Rhap_D0003-12
 # prosodic_annotation = yes
@@ -210,8 +210,8 @@
 # speaker_id = §LF4
 # macrosyntax = ( $L1 "mh" )
 # text = mh.
-1	mh	mh	INTJ	_	_	0	root	_	AlignBegin=28915|AlignEnd=29240|Backchannel=Rhap_D0003-11::1|SpaceAfter=No
-2	.	.	PUNCT	_	_	1	punct	_	AlignBegin=29240|AlignEnd=29240
+1	mh	mh	INTJ	_	_	0	root	_	Backchannel=Rhap_D0003-11::1|SpaceAfter=No|WordAlignmentBegin=28915|WordAlignmentEnd=29240
+2	.	.	PUNCT	_	_	1	punct	_	WordAlignmentBegin=29240|WordAlignmentEnd=29240
 
 # sent_id = Rhap_D0003-13
 # prosodic_annotation = yes
@@ -219,14 +219,14 @@
 # speaker_id = §LF5
 # macrosyntax = ^et ^puis nous avons été "euh" ESPERLUETTE //
 # text = et puis nous avons été, euh…
-1	et	et	CCONJ	_	ExtPos=CCONJ	5	cc	_	AlignBegin=29481|AlignEnd=29676|Idiom=Yes
-2	puis	puis	CCONJ	_	_	1	fixed	_	AlignBegin=29676|AlignEnd=29906|InIdiom=Yes
-3	nous	nous	PRON	_	Case=Nom|Emph=No|Number=Plur|Person=1|PronType=Prs	5	nsubj	_	AlignBegin=29906|AlignEnd=30146|Exponence[Number]=Inherent|Exponence[Person]=Inherent
-4	avons	avoir	AUX	_	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	5	aux	_	AlignBegin=30146|AlignEnd=30483
-5	été	être	AUX	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	AlignBegin=30483|AlignEnd=30976|Scrap=Yes|SpaceAfter=No|Tense[denom]=Past
-6	,	,	PUNCT	_	_	7	punct	_	AlignBegin=30976|AlignEnd=30976
-7	euh	euh	INTJ	_	_	5	discourse:filler	_	AlignBegin=30976|AlignEnd=31577|SpaceAfter=No
-8	…	…	PUNCT	_	_	5	punct	_	AlignBegin=31577|AlignEnd=31577
+1	et	et	CCONJ	_	ExtPos=CCONJ	5	cc	_	Idiom=Yes|WordAlignmentBegin=29481|WordAlignmentEnd=29676
+2	puis	puis	CCONJ	_	_	1	fixed	_	InIdiom=Yes|WordAlignmentBegin=29676|WordAlignmentEnd=29906
+3	nous	nous	PRON	_	Case=Nom|Emph=No|Number=Plur|Person=1|PronType=Prs	5	nsubj	_	Exponence[Number]=Inherent|Exponence[Person]=Inherent|WordAlignmentBegin=29906|WordAlignmentEnd=30146
+4	avons	avoir	AUX	_	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	5	aux	_	WordAlignmentBegin=30146|WordAlignmentEnd=30483
+5	été	être	AUX	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	Scrap=Yes|SpaceAfter=No|Tense[denom]=Past|WordAlignmentBegin=30483|WordAlignmentEnd=30976
+6	,	,	PUNCT	_	_	7	punct	_	WordAlignmentBegin=30976|WordAlignmentEnd=30976
+7	euh	euh	INTJ	_	_	5	discourse:filler	_	SpaceAfter=No|WordAlignmentBegin=30976|WordAlignmentEnd=31577
+8	…	…	PUNCT	_	_	5	punct	_	WordAlignmentBegin=31577|WordAlignmentEnd=31577
 
 # sent_id = Rhap_D0003-14
 # prosodic_annotation = yes
@@ -234,18 +234,18 @@
 # speaker_id = §LF5
 # macrosyntax = il y avait cet endroit à Paris où on pouvait arriver //
 # text = il y avait cet endroit à Paris où on pouvait arriver.
-1	il	lui	PRON	_	Case=Nom|Emph=No|Gender=Masc|Number=Sing|Person=3|PronType=Prs	3	expl:subj	_	AlignBegin=31577|AlignEnd=31623|Exponence[Person]=Inherent
-2	y	y	PRON	_	Person=3|PronType=Prs	3	expl:comp	_	AlignBegin=31623|AlignEnd=31647|Exponence[Person]=Inherent
-3	avait	avoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	AlignBegin=31647|AlignEnd=31907|Exponence[Number]=Absent|Exponence[Person]=Absent
-4	cet	ce	DET	_	Gender=Masc|Number=Sing|PronType=Dem	5	det	_	AlignBegin=31907|AlignEnd=32157|Exponence[Gender]=Absent|HasSpokenGender=OnlySingExceptWithLiaison|LiaisonAfter=Yes
-5	endroit	endroit	NOUN	_	Gender=Masc|Number=Sing	3	obj	_	AlignBegin=32157|AlignEnd=32427|Exponence[Gender]=Inherent|Exponence[Number]=Absent|LiaisonPossibleBefore=Yes
-6	à	à	ADP	_	_	7	case	_	AlignBegin=32427|AlignEnd=32547
-7	Paris	Paris	PROPN	_	_	5	nmod	_	AlignBegin=32547|AlignEnd=32897
-8	où	où	ADV	_	PronType=Rel	10	advmod	_	AlignBegin=32897|AlignEnd=32927
-9	on	on	PRON	_	Case=Nom|Emph=No|Gender=Masc|Number=Sing|Person=3|PronType=Ind	10	nsubj	_	AlignBegin=32927|AlignEnd=33087|Exponence[Gender]=Absent|Exponence[Number]=Inherent|Exponence[Person]=Inherent
-10	pouvait	pouvoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	5	acl:relcl	_	AlignBegin=33087|AlignEnd=33347|Exponence[Number]=Absent|Exponence[Person]=Absent
-11	arriver	arriver	VERB	_	VerbForm=Inf	10	xcomp	_	AlignBegin=33347|AlignEnd=33735|SpaceAfter=No|Subject=SubjRaising
-12	.	.	PUNCT	_	_	3	punct	_	AlignBegin=33735|AlignEnd=33735
+1	il	lui	PRON	_	Case=Nom|Emph=No|Gender=Masc|Number=Sing|Person=3|PronType=Prs	3	expl:subj	_	Exponence[Person]=Inherent|WordAlignmentBegin=31577|WordAlignmentEnd=31623
+2	y	y	PRON	_	Person=3|PronType=Prs	3	expl:comp	_	Exponence[Person]=Inherent|WordAlignmentBegin=31623|WordAlignmentEnd=31647
+3	avait	avoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	Exponence[Number]=Absent|Exponence[Person]=Absent|WordAlignmentBegin=31647|WordAlignmentEnd=31907
+4	cet	ce	DET	_	Gender=Masc|Number=Sing|PronType=Dem	5	det	_	Exponence[Gender]=Absent|HasSpokenGender=OnlySingExceptWithLiaison|LiaisonAfter=Yes|WordAlignmentBegin=31907|WordAlignmentEnd=32157
+5	endroit	endroit	NOUN	_	Gender=Masc|Number=Sing	3	obj	_	Exponence[Gender]=Inherent|Exponence[Number]=Absent|LiaisonPossibleBefore=Yes|WordAlignmentBegin=32157|WordAlignmentEnd=32427
+6	à	à	ADP	_	_	7	case	_	WordAlignmentBegin=32427|WordAlignmentEnd=32547
+7	Paris	Paris	PROPN	_	_	5	nmod	_	WordAlignmentBegin=32547|WordAlignmentEnd=32897
+8	où	où	ADV	_	PronType=Rel	10	advmod	_	WordAlignmentBegin=32897|WordAlignmentEnd=32927
+9	on	on	PRON	_	Case=Nom|Emph=No|Gender=Masc|Number=Sing|Person=3|PronType=Ind	10	nsubj	_	Exponence[Gender]=Absent|Exponence[Number]=Inherent|Exponence[Person]=Inherent|WordAlignmentBegin=32927|WordAlignmentEnd=33087
+10	pouvait	pouvoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	5	acl:relcl	_	Exponence[Number]=Absent|Exponence[Person]=Absent|WordAlignmentBegin=33087|WordAlignmentEnd=33347
+11	arriver	arriver	VERB	_	VerbForm=Inf	10	xcomp	_	SpaceAfter=No|Subject=SubjRaising|WordAlignmentBegin=33347|WordAlignmentEnd=33735
+12	.	.	PUNCT	_	_	3	punct	_	WordAlignmentBegin=33735|WordAlignmentEnd=33735
 
 # sent_id = Rhap_D0003-15
 # prosodic_annotation = yes
@@ -253,14 +253,14 @@
 # speaker_id = §LF5
 # macrosyntax = il y avait deux pièces "voyez" //
 # text = il y avait deux pièces, voyez ?
-1	il	lui	PRON	_	Case=Nom|Emph=No|Gender=Masc|Number=Sing|Person=3|PronType=Prs	3	expl:subj	_	AlignBegin=33735|AlignEnd=33765|Exponence[Person]=Inherent
-2	y	y	PRON	_	Person=3|PronType=Prs	3	expl:comp	_	AlignBegin=33765|AlignEnd=33779|Exponence[Person]=Inherent
-3	avait	avoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	AlignBegin=33779|AlignEnd=33945|Exponence[Number]=Absent|Exponence[Person]=Absent
-4	deux	deux	NUM	_	Number=Plur	5	nummod	_	AlignBegin=33945|AlignEnd=34195|Exponence[Number]=Inherent
-5	pièces	pièce	NOUN	_	Gender=Fem|Number=Plur	3	obj	_	AlignBegin=34195|AlignEnd=34595|Exponence[Gender]=Inherent|Exponence[Number]=Absent|SpaceAfter=No
-6	,	,	PUNCT	_	_	7	punct	_	AlignBegin=34595|AlignEnd=34595
-7	voyez	voir	VERB	_	Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	5	discourse:tag	_	AlignBegin=34595|AlignEnd=34912
-8	?	?	PUNCT	_	_	3	punct	_	AlignBegin=34912|AlignEnd=34912
+1	il	lui	PRON	_	Case=Nom|Emph=No|Gender=Masc|Number=Sing|Person=3|PronType=Prs	3	expl:subj	_	Exponence[Person]=Inherent|WordAlignmentBegin=33735|WordAlignmentEnd=33765
+2	y	y	PRON	_	Person=3|PronType=Prs	3	expl:comp	_	Exponence[Person]=Inherent|WordAlignmentBegin=33765|WordAlignmentEnd=33779
+3	avait	avoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	Exponence[Number]=Absent|Exponence[Person]=Absent|WordAlignmentBegin=33779|WordAlignmentEnd=33945
+4	deux	deux	NUM	_	Number=Plur	5	nummod	_	Exponence[Number]=Inherent|WordAlignmentBegin=33945|WordAlignmentEnd=34195
+5	pièces	pièce	NOUN	_	Gender=Fem|Number=Plur	3	obj	_	Exponence[Gender]=Inherent|Exponence[Number]=Absent|SpaceAfter=No|WordAlignmentBegin=34195|WordAlignmentEnd=34595
+6	,	,	PUNCT	_	_	7	punct	_	WordAlignmentBegin=34595|WordAlignmentEnd=34595
+7	voyez	voir	VERB	_	Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	5	discourse:tag	_	WordAlignmentBegin=34595|WordAlignmentEnd=34912
+8	?	?	PUNCT	_	_	3	punct	_	WordAlignmentBegin=34912|WordAlignmentEnd=34912
 
 # sent_id = Rhap_D0003-16
 # prosodic_annotation = yes
@@ -268,10 +268,10 @@
 # speaker_id = §LF4
 # macrosyntax = $L1 ( "mh" "mh" )
 # text = mh, mh.
-1	mh	mh	INTJ	_	_	0	root	_	AlignBegin=35047|AlignEnd=35217|Backchannel=Rhap_D0003-15::3|SpaceAfter=No
-2	,	,	PUNCT	_	_	3	punct	_	AlignBegin=35217|AlignEnd=35217
-3	mh	mh	INTJ	_	_	1	conj	_	AlignBegin=35217|AlignEnd=35388|SpaceAfter=No
-4	.	.	PUNCT	_	_	1	punct	_	AlignBegin=35388|AlignEnd=35388
+1	mh	mh	INTJ	_	_	0	root	_	Backchannel=Rhap_D0003-15::3|SpaceAfter=No|WordAlignmentBegin=35047|WordAlignmentEnd=35217
+2	,	,	PUNCT	_	_	3	punct	_	WordAlignmentBegin=35217|WordAlignmentEnd=35217
+3	mh	mh	INTJ	_	_	1	conj	_	SpaceAfter=No|WordAlignmentBegin=35217|WordAlignmentEnd=35388
+4	.	.	PUNCT	_	_	1	punct	_	WordAlignmentBegin=35388|WordAlignmentEnd=35388
 
 # sent_id = Rhap_D0003-17
 # prosodic_annotation = yes
@@ -279,18 +279,18 @@
 # speaker_id = §LF5
 # macrosyntax = ^mais { "euh" | "euh" } finalement "euh" < quand ESPERLUETTE //
 # text = mais, euh, euh, finalement, euh, quand…
-1	mais	mais	CCONJ	_	_	11	cc	_	AlignBegin=35388|AlignEnd=35715|SpaceAfter=No
-2	,	,	PUNCT	_	_	11	punct	_	AlignBegin=35715|AlignEnd=35715
-3	euh	euh	INTJ	_	_	11	discourse:filler	_	AlignBegin=35715|AlignEnd=35963|SpaceAfter=No
-4	,	,	PUNCT	_	_	3	punct	_	AlignBegin=35963|AlignEnd=36263
-5	euh	euh	INTJ	_	_	11	discourse:filler	_	AlignBegin=36263|AlignEnd=36843|SpaceAfter=No
-6	,	,	PUNCT	_	_	5	punct	_	AlignBegin=36843|AlignEnd=37811
-7	finalement	finalement	ADV	_	_	11	advmod	_	AlignBegin=37811|AlignEnd=38492|SpaceAfter=No
-8	,	,	PUNCT	_	_	9	punct	_	AlignBegin=38492|AlignEnd=38492
-9	euh	euh	INTJ	_	_	7	discourse:filler	_	AlignBegin=38492|AlignEnd=38746|SpaceAfter=No
-10	,	,	PUNCT	_	_	7	punct	_	AlignBegin=38746|AlignEnd=38746
-11	quand	quand	SCONJ	_	_	0	root	_	AlignBegin=38746|AlignEnd=39056|Scrap=Yes|SpaceAfter=No
-12	…	…	PUNCT	_	_	11	punct	_	AlignBegin=39056|AlignEnd=39056
+1	mais	mais	CCONJ	_	_	11	cc	_	SpaceAfter=No|WordAlignmentBegin=35388|WordAlignmentEnd=35715
+2	,	,	PUNCT	_	_	11	punct	_	WordAlignmentBegin=35715|WordAlignmentEnd=35715
+3	euh	euh	INTJ	_	_	11	discourse:filler	_	SpaceAfter=No|WordAlignmentBegin=35715|WordAlignmentEnd=35963
+4	,	,	PUNCT	_	_	3	punct	_	WordAlignmentBegin=35963|WordAlignmentEnd=36263
+5	euh	euh	INTJ	_	_	11	discourse:filler	_	SpaceAfter=No|WordAlignmentBegin=36263|WordAlignmentEnd=36843
+6	,	,	PUNCT	_	_	5	punct	_	WordAlignmentBegin=36843|WordAlignmentEnd=37811
+7	finalement	finalement	ADV	_	_	11	advmod	_	SpaceAfter=No|WordAlignmentBegin=37811|WordAlignmentEnd=38492
+8	,	,	PUNCT	_	_	9	punct	_	WordAlignmentBegin=38492|WordAlignmentEnd=38492
+9	euh	euh	INTJ	_	_	7	discourse:filler	_	SpaceAfter=No|WordAlignmentBegin=38492|WordAlignmentEnd=38746
+10	,	,	PUNCT	_	_	7	punct	_	WordAlignmentBegin=38746|WordAlignmentEnd=38746
+11	quand	quand	SCONJ	_	_	0	root	_	Scrap=Yes|SpaceAfter=No|WordAlignmentBegin=38746|WordAlignmentEnd=39056
+12	…	…	PUNCT	_	_	11	punct	_	WordAlignmentBegin=39056|WordAlignmentEnd=39056
 
 # sent_id = Rhap_D0003-18
 # prosodic_annotation = yes
@@ -298,18 +298,18 @@
 # speaker_id = §LF5
 # macrosyntax = nous avons été sous très gros bombardements { américains | ^puis anglais } //
 # text = nous avons été sous très gros bombardements américains, puis anglais.
-1	nous	nous	PRON	_	Case=Nom|Emph=No|Number=Plur|Person=1|PronType=Prs	3	nsubj	_	AlignBegin=39056|AlignEnd=39306|Exponence[Number]=Inherent|Exponence[Person]=Inherent
-2	avons	avoir	AUX	_	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	3	aux:tense	_	AlignBegin=39306|AlignEnd=39496
-3	été	être	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Act	0	root	_	AlignBegin=39496|AlignEnd=39666|Exponence[Gender]=Absent|Exponence[Number]=Absent|PastPartHasSpokenGender=NotInThisDialect|Tense[denom]=Past
-4	sous	sous	ADP	_	_	7	case	_	AlignBegin=39666|AlignEnd=39846
-5	très	très	ADV	_	_	6	advmod	_	AlignBegin=39846|AlignEnd=40046
-6	gros	gros	ADJ	_	Gender=Masc|Number=Plur	7	amod	_	AlignBegin=40046|AlignEnd=40196|Exponence[Number]=Absent|HasSpokenGender=Yes|HasSpokenNumber=OnlyFemWithLiaison
-7	bombardements	bombardement	NOUN	_	Gender=Masc|Number=Plur	3	obl:arg	_	AlignBegin=40196|AlignEnd=41088|Exponence[Gender]=Inherent|Exponence[Number]=Absent
-8	américains	américain	ADJ	_	Gender=Masc|Number=Plur	7	amod	_	AlignBegin=41379|AlignEnd=42064|Exponence[Number]=Absent|HasSpokenGender=YesExceptSingWithLiaison|HasSpokenNumber=OnlyWithLiaison|SpaceAfter=No
-9	,	,	PUNCT	_	_	11	punct	_	AlignBegin=45149|AlignEnd=41379
-10	puis	puis	CCONJ	_	_	11	cc	_	AlignBegin=42064|AlignEnd=42224
-11	anglais	anglais	NOUN	_	Gender=Masc	8	conj	_	AlignBegin=42224|AlignEnd=42664|Exponence[Gender]=Inherent|LiaisonPossibleBefore=Yes|SpaceAfter=No
-12	.	.	PUNCT	_	_	3	punct	_	AlignBegin=45149|AlignEnd=45149
+1	nous	nous	PRON	_	Case=Nom|Emph=No|Number=Plur|Person=1|PronType=Prs	3	nsubj	_	Exponence[Number]=Inherent|Exponence[Person]=Inherent|WordAlignmentBegin=39056|WordAlignmentEnd=39306
+2	avons	avoir	AUX	_	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	3	aux:tense	_	WordAlignmentBegin=39306|WordAlignmentEnd=39496
+3	été	être	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Act	0	root	_	Exponence[Gender]=Absent|Exponence[Number]=Absent|PastPartHasSpokenGender=NotInThisDialect|Tense[denom]=Past|WordAlignmentBegin=39496|WordAlignmentEnd=39666
+4	sous	sous	ADP	_	_	7	case	_	WordAlignmentBegin=39666|WordAlignmentEnd=39846
+5	très	très	ADV	_	_	6	advmod	_	WordAlignmentBegin=39846|WordAlignmentEnd=40046
+6	gros	gros	ADJ	_	Gender=Masc|Number=Plur	7	amod	_	Exponence[Number]=Absent|HasSpokenGender=Yes|HasSpokenNumber=OnlyFemWithLiaison|WordAlignmentBegin=40046|WordAlignmentEnd=40196
+7	bombardements	bombardement	NOUN	_	Gender=Masc|Number=Plur	3	obl:arg	_	Exponence[Gender]=Inherent|Exponence[Number]=Absent|WordAlignmentBegin=40196|WordAlignmentEnd=41088
+8	américains	américain	ADJ	_	Gender=Masc|Number=Plur	7	amod	_	Exponence[Number]=Absent|HasSpokenGender=YesExceptSingWithLiaison|HasSpokenNumber=OnlyWithLiaison|SpaceAfter=No|WordAlignmentBegin=41379|WordAlignmentEnd=42064
+9	,	,	PUNCT	_	_	11	punct	_	WordAlignmentBegin=45149|WordAlignmentEnd=41379
+10	puis	puis	CCONJ	_	_	11	cc	_	WordAlignmentBegin=42064|WordAlignmentEnd=42224
+11	anglais	anglais	NOUN	_	Gender=Masc	8	conj	_	Exponence[Gender]=Inherent|LiaisonPossibleBefore=Yes|SpaceAfter=No|WordAlignmentBegin=42224|WordAlignmentEnd=42664
+12	.	.	PUNCT	_	_	3	punct	_	WordAlignmentBegin=45149|WordAlignmentEnd=45149
 
 # sent_id = Rhap_D0003-19
 # prosodic_annotation = yes
@@ -317,13 +317,13 @@
 # speaker_id = §LF5
 # macrosyntax = $- $L2 ( ^et nous sommes { ob~ | ob~ | ( $L1 "mh" ) -$
 # text = et nous sommes ob~, ob~…
-1	et	et	CCONJ	_	_	6	cc	_	AlignBegin=42664|AlignEnd=42744|Overlap=Rhap_D0003-20
-2	nous	nous	PRON	_	Case=Nom|Emph=No|Number=Plur|Person=1|PronType=Prs	6	nsubj	_	AlignBegin=42744|AlignEnd=42874|Exponence[Number]=Inherent|Exponence[Person]=Inherent|Overlap=Rhap_D0003-20
-3	sommes	être	AUX	_	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	6	aux:tense	_	AlignBegin=42874|AlignEnd=43234|Overlap=Rhap_D0003-20
-4	ob~	ob~	X	_	_	6	reparandum	_	AlignBegin=43234|AlignEnd=43464|Overlap=Rhap_D0003-20|SpaceAfter=No
-5	,	,	PUNCT	_	_	4	punct	_	AlignBegin=45149|AlignEnd=41379|Overlap=Rhap_D0003-15bis
-6	ob~	ob~	X	_	_	0	root	_	AlignBegin=43584|AlignEnd=43794|Overlap=Rhap_D0003-20|SpaceAfter=No
-7	…	…	PUNCT	_	_	6	punct	_	AlignBegin=45149|AlignEnd=45149|Overlap=Rhap_D0003-15bis
+1	et	et	CCONJ	_	_	6	cc	_	Overlap=Rhap_D0003-20|WordAlignmentBegin=42664|WordAlignmentEnd=42744
+2	nous	nous	PRON	_	Case=Nom|Emph=No|Number=Plur|Person=1|PronType=Prs	6	nsubj	_	Exponence[Number]=Inherent|Exponence[Person]=Inherent|Overlap=Rhap_D0003-20|WordAlignmentBegin=42744|WordAlignmentEnd=42874
+3	sommes	être	AUX	_	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	6	aux:tense	_	Overlap=Rhap_D0003-20|WordAlignmentBegin=42874|WordAlignmentEnd=43234
+4	ob~	ob~	X	_	_	6	reparandum	_	Overlap=Rhap_D0003-20|SpaceAfter=No|WordAlignmentBegin=43234|WordAlignmentEnd=43464
+5	,	,	PUNCT	_	_	4	punct	_	Overlap=Rhap_D0003-15bis|WordAlignmentBegin=45149|WordAlignmentEnd=41379
+6	ob~	ob~	X	_	_	0	root	_	Overlap=Rhap_D0003-20|SpaceAfter=No|WordAlignmentBegin=43584|WordAlignmentEnd=43794
+7	…	…	PUNCT	_	_	6	punct	_	Overlap=Rhap_D0003-15bis|WordAlignmentBegin=45149|WordAlignmentEnd=45149
 
 # sent_id = Rhap_D0003-20
 # prosodic_annotation = no
@@ -331,8 +331,8 @@
 # speaker_id = §LF4
 # macrosyntax = $- $L2 ( ^et nous sommes { ob~ | ob~ | ( $L1 "mh" ) -$
 # text = mh.
-1	mh	mh	INTJ	_	_	0	root	_	AlignBegin=41379|AlignEnd=45149|Backchannel=Rhap_D0003-18::2|Overlap=Rhap_D0003-19|SpaceAfter=No
-2	.	.	PUNCT	_	_	1	punct	_	AlignBegin=45149|AlignEnd=45149|Overlap=Rhap_D0003-15
+1	mh	mh	INTJ	_	_	0	root	_	Backchannel=Rhap_D0003-18::2|Overlap=Rhap_D0003-19|SpaceAfter=No|WordAlignmentBegin=41379|WordAlignmentEnd=45149
+2	.	.	PUNCT	_	_	1	punct	_	Overlap=Rhap_D0003-15|WordAlignmentBegin=45149|WordAlignmentEnd=45149
 
 # sent_id = Rhap_D0003-21
 # prosodic_annotation = yes
@@ -340,30 +340,30 @@
 # speaker_id = §LF5
 # macrosyntax = après } le bombardement anglais // ) { mon | mon } père a dit [ "bon" { il f~ | il faut partir | il faut ESPERLUETTE } // ] //
 # text = après le bombardement anglais, mon, mon père a dit, bon, il f~, il faut partir, il faut…
-1	après	après	ADP	_	_	3	case	_	AlignBegin=43794|AlignEnd=44114
-2	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	AlignBegin=44114|AlignEnd=44194|HasSpokenGender=OnlySingExceptWithLiaison
-3	bombardement	bombardement	NOUN	_	Gender=Masc|Number=Sing	11	obl:mod	_	AlignBegin=44194|AlignEnd=44694|Exponence[Gender]=Inherent|Exponence[Number]=Absent
-4	anglais	anglais	ADJ	_	Gender=Masc|Number=Sing	3	amod	_	AlignBegin=44694|AlignEnd=44954|Exponence[Number]=Absent|HasSpokenGender=YesExceptSingWithLiaison|HasSpokenNumber=OnlyFemWithLiaison|SpaceAfter=No
-5	,	,	PUNCT	_	_	3	punct	_	AlignBegin=45149|AlignEnd=41379
-6	mon	son	DET	_	Gender=Masc|Number=Sing|Number[psor]=Sing|Person[psor]=1|Poss=Yes|PronType=Prs	8	reparandum	_	AlignBegin=44954|AlignEnd=45149|HasSpokenGender=OnlySingExceptWithLiaison|SpaceAfter=No
-7	,	,	PUNCT	_	_	6	punct	_	AlignBegin=45149|AlignEnd=45557
-8	mon	son	DET	_	Gender=Masc|Number=Sing|Number[psor]=Sing|Person[psor]=1|Poss=Yes|PronType=Prs	9	det	_	AlignBegin=45557|AlignEnd=45792|HasSpokenGender=OnlySingExceptWithLiaison
-9	père	père	NOUN	_	Gender=Masc|Number=Sing	11	nsubj	_	AlignBegin=45792|AlignEnd=45952|Exponence[Gender]=Inherent|Exponence[Number]=Absent
-10	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	aux:tense	_	AlignBegin=45952|AlignEnd=46062
-11	dit	dire	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Act	0	root	_	AlignBegin=46062|AlignEnd=46242|Exponence[Number]=Absent|PastPartHasSpokenGender=Yes|SpaceAfter=No|Tense[denom]=Past
-12	,	,	PUNCT	_	_	19	punct	_	AlignBegin=46242|AlignEnd=46242
-13	bon	bon	INTJ	_	_	16	discourse	_	AlignBegin=46242|AlignEnd=46402|SpaceAfter=No
-14	,	,	PUNCT	_	_	13	punct	_	AlignBegin=46402|AlignEnd=46402
-15	il	lui	PRON	_	Case=Nom|Emph=No|Gender=Masc|Number=Sing|Person=3|PronType=Prs	16	nsubj	_	AlignBegin=46402|AlignEnd=46702|Exponence[Person]=Inherent
-16	f~	f~	X	_	ExtPos=VERB	19	reparandum	_	AlignBegin=46702|AlignEnd=46742|Reported=Yes|SpaceAfter=No
-17	,	,	PUNCT	_	_	16	punct	_	AlignBegin=46742|AlignEnd=46742
-18	il	lui	PRON	_	Case=Nom|Emph=No|Gender=Masc|Number=Sing|Person=3|PronType=Prs	19	expl:subj	_	AlignBegin=46742|AlignEnd=46942|Exponence[Person]=Inherent
-19	faut	falloir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	ccomp	_	AlignBegin=46942|AlignEnd=47072|Exponence[Person]=Absent
-20	partir	partir	VERB	_	VerbForm=Inf	23	reparandum	_	AlignBegin=47072|AlignEnd=47542|SpaceAfter=No|Subject=NoRaising
-21	,	,	PUNCT	_	_	20	punct	_	AlignBegin=47542|AlignEnd=47542
-22	il	lui	PRON	_	Case=Nom|Emph=No|Gender=Masc|Number=Sing|Person=3|PronType=Prs	23	expl:subj	_	AlignBegin=47542|AlignEnd=47632|Exponence[Person]=Inherent
-23	faut	falloir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	19	ccomp	_	AlignBegin=47632|AlignEnd=47792|Exponence[Person]=Absent|SpaceAfter=No
-24	…	…	PUNCT	_	_	11	punct	_	AlignBegin=47792|AlignEnd=47792
+1	après	après	ADP	_	_	3	case	_	WordAlignmentBegin=43794|WordAlignmentEnd=44114
+2	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	HasSpokenGender=OnlySingExceptWithLiaison|WordAlignmentBegin=44114|WordAlignmentEnd=44194
+3	bombardement	bombardement	NOUN	_	Gender=Masc|Number=Sing	11	obl:mod	_	Exponence[Gender]=Inherent|Exponence[Number]=Absent|WordAlignmentBegin=44194|WordAlignmentEnd=44694
+4	anglais	anglais	ADJ	_	Gender=Masc|Number=Sing	3	amod	_	Exponence[Number]=Absent|HasSpokenGender=YesExceptSingWithLiaison|HasSpokenNumber=OnlyFemWithLiaison|SpaceAfter=No|WordAlignmentBegin=44694|WordAlignmentEnd=44954
+5	,	,	PUNCT	_	_	3	punct	_	WordAlignmentBegin=45149|WordAlignmentEnd=41379
+6	mon	son	DET	_	Gender=Masc|Number=Sing|Number[psor]=Sing|Person[psor]=1|Poss=Yes|PronType=Prs	8	reparandum	_	HasSpokenGender=OnlySingExceptWithLiaison|SpaceAfter=No|WordAlignmentBegin=44954|WordAlignmentEnd=45149
+7	,	,	PUNCT	_	_	6	punct	_	WordAlignmentBegin=45149|WordAlignmentEnd=45557
+8	mon	son	DET	_	Gender=Masc|Number=Sing|Number[psor]=Sing|Person[psor]=1|Poss=Yes|PronType=Prs	9	det	_	HasSpokenGender=OnlySingExceptWithLiaison|WordAlignmentBegin=45557|WordAlignmentEnd=45792
+9	père	père	NOUN	_	Gender=Masc|Number=Sing	11	nsubj	_	Exponence[Gender]=Inherent|Exponence[Number]=Absent|WordAlignmentBegin=45792|WordAlignmentEnd=45952
+10	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	aux:tense	_	WordAlignmentBegin=45952|WordAlignmentEnd=46062
+11	dit	dire	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Act	0	root	_	Exponence[Number]=Absent|PastPartHasSpokenGender=Yes|SpaceAfter=No|Tense[denom]=Past|WordAlignmentBegin=46062|WordAlignmentEnd=46242
+12	,	,	PUNCT	_	_	19	punct	_	WordAlignmentBegin=46242|WordAlignmentEnd=46242
+13	bon	bon	INTJ	_	_	16	discourse	_	SpaceAfter=No|WordAlignmentBegin=46242|WordAlignmentEnd=46402
+14	,	,	PUNCT	_	_	13	punct	_	WordAlignmentBegin=46402|WordAlignmentEnd=46402
+15	il	lui	PRON	_	Case=Nom|Emph=No|Gender=Masc|Number=Sing|Person=3|PronType=Prs	16	nsubj	_	Exponence[Person]=Inherent|WordAlignmentBegin=46402|WordAlignmentEnd=46702
+16	f~	f~	X	_	ExtPos=VERB	19	reparandum	_	Reported=Yes|SpaceAfter=No|WordAlignmentBegin=46702|WordAlignmentEnd=46742
+17	,	,	PUNCT	_	_	16	punct	_	WordAlignmentBegin=46742|WordAlignmentEnd=46742
+18	il	lui	PRON	_	Case=Nom|Emph=No|Gender=Masc|Number=Sing|Person=3|PronType=Prs	19	expl:subj	_	Exponence[Person]=Inherent|WordAlignmentBegin=46742|WordAlignmentEnd=46942
+19	faut	falloir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	ccomp	_	Exponence[Person]=Absent|WordAlignmentBegin=46942|WordAlignmentEnd=47072
+20	partir	partir	VERB	_	VerbForm=Inf	23	reparandum	_	SpaceAfter=No|Subject=NoRaising|WordAlignmentBegin=47072|WordAlignmentEnd=47542
+21	,	,	PUNCT	_	_	20	punct	_	WordAlignmentBegin=47542|WordAlignmentEnd=47542
+22	il	lui	PRON	_	Case=Nom|Emph=No|Gender=Masc|Number=Sing|Person=3|PronType=Prs	23	expl:subj	_	Exponence[Person]=Inherent|WordAlignmentBegin=47542|WordAlignmentEnd=47632
+23	faut	falloir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	19	ccomp	_	Exponence[Person]=Absent|SpaceAfter=No|WordAlignmentBegin=47632|WordAlignmentEnd=47792
+24	…	…	PUNCT	_	_	11	punct	_	WordAlignmentBegin=47792|WordAlignmentEnd=47792
 
 # sent_id = Rhap_D0003-22
 # prosodic_annotation = yes
@@ -371,11 +371,11 @@
 # speaker_id = §LF5
 # macrosyntax = tout le monde partait //
 # text = tout le monde partait.
-1	tout	tout	ADJ	_	Gender=Masc|Number=Sing	3	amod	_	AlignBegin=47792|AlignEnd=48005|Exponence[Number]=Absent|HasSpokenGender=YesExceptSingWithLiaison|HasSpokenNumber=OnlyWithLiaison
-2	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	AlignBegin=48005|AlignEnd=48035|HasSpokenGender=OnlySingExceptWithLiaison
-3	monde	monde	NOUN	_	Gender=Masc|Number=Sing	4	nsubj	_	AlignBegin=48035|AlignEnd=48255|Exponence[Gender]=Inherent|Exponence[Number]=Absent
-4	partait	partir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	AlignBegin=48255|AlignEnd=48835|Exponence[Number]=Absent|Exponence[Person]=Absent|SpaceAfter=No
-5	.	.	PUNCT	_	_	4	punct	_	AlignBegin=48835|AlignEnd=48835
+1	tout	tout	ADJ	_	Gender=Masc|Number=Sing	3	amod	_	Exponence[Number]=Absent|HasSpokenGender=YesExceptSingWithLiaison|HasSpokenNumber=OnlyWithLiaison|WordAlignmentBegin=47792|WordAlignmentEnd=48005
+2	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	HasSpokenGender=OnlySingExceptWithLiaison|WordAlignmentBegin=48005|WordAlignmentEnd=48035
+3	monde	monde	NOUN	_	Gender=Masc|Number=Sing	4	nsubj	_	Exponence[Gender]=Inherent|Exponence[Number]=Absent|WordAlignmentBegin=48035|WordAlignmentEnd=48255
+4	partait	partir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	Exponence[Number]=Absent|Exponence[Person]=Absent|SpaceAfter=No|WordAlignmentBegin=48255|WordAlignmentEnd=48835
+5	.	.	PUNCT	_	_	4	punct	_	WordAlignmentBegin=48835|WordAlignmentEnd=48835
 
 # sent_id = Rhap_D0003-23
 # prosodic_annotation = yes
@@ -383,42 +383,42 @@
 # speaker_id = §LF5
 # macrosyntax = lui < il avait passé les { quatre nuits | ^ou trois nuits } { à | à } ramper dans les décombres pour aider les gens à mourir > parce qu'on pouvait pas sortir les gens de là //=
 # text = lui, il avait passé les quatre nuits, ou trois nuits à, à ramper dans les décombres pour aider les gens à mourir parce qu'on pouvait pas sortir les gens de là.
-1	lui	lui	PRON	_	Emph=Yes|Gender=Masc|Number=Sing|Person=3|PronType=Prs	5	dislocated:subj	_	AlignBegin=48835|AlignEnd=49035|Exponence[Person]=Inherent|SpaceAfter=No
-2	,	,	PUNCT	_	_	1	punct	_	AlignBegin=49035|AlignEnd=49035
-3	il	lui	PRON	_	Case=Nom|Emph=No|Gender=Masc|Number=Sing|Person=3|PronType=Prs	5	nsubj	_	AlignBegin=49035|AlignEnd=49115|Exponence[Person]=Inherent
-4	avait	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	5	aux:tense	_	AlignBegin=49115|AlignEnd=49375
-5	passé	passer	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Act	0	root	_	AlignBegin=49375|AlignEnd=49695|Exponence[Gender]=Absent|Exponence[Number]=Absent|PastPartHasSpokenGender=NotInThisDialect|Tense[denom]=Past
-6	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	8	det	_	AlignBegin=49695|AlignEnd=49865|HasSpokenGender=OnlySingExceptWithLiaison
-7	quatre	quatre	NUM	_	Number=Plur	8	nummod	_	AlignBegin=49865|AlignEnd=50119|Exponence[Number]=Inherent
-8	nuits	nuit	NOUN	_	Gender=Fem|Number=Plur	5	obj	_	AlignBegin=50119|AlignEnd=50455|Exponence[Gender]=Inherent|Exponence[Number]=Absent|SpaceAfter=No
-9	,	,	PUNCT	_	_	12	punct	_	AlignBegin=50455|AlignEnd=50694
-10	ou	ou	CCONJ	_	_	12	cc	_	AlignBegin=50694|AlignEnd=50749
-11	trois	trois	NUM	_	Number=Plur	12	nummod	_	AlignBegin=50749|AlignEnd=51049|Exponence[Number]=Inherent
-12	nuits	nuit	NOUN	_	Gender=Fem|Number=Plur	8	conj	_	AlignBegin=51049|AlignEnd=51389|Exponence[Gender]=Inherent|Exponence[Number]=Absent
-13	à	à	ADP	_	_	16	reparandum	_	AlignBegin=51638|AlignEnd=51828|SpaceAfter=No
-14	,	,	PUNCT	_	_	13	punct	_	AlignBegin=51828|AlignEnd=51828
-15	à	à	ADP	_	_	16	mark	_	AlignBegin=51828|AlignEnd=52016
-16	ramper	ramper	VERB	_	VerbForm=Inf	5	advcl	_	AlignBegin=52016|AlignEnd=52479|Subject=SubjRaising
-17	dans	dans	ADP	_	_	19	case	_	AlignBegin=52479|AlignEnd=52599
-18	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	19	det	_	AlignBegin=52599|AlignEnd=52719|HasSpokenGender=OnlySingExceptWithLiaison
-19	décombres	décombre	NOUN	_	Gender=Masc|Number=Plur	16	obl:mod	_	AlignBegin=52719|AlignEnd=53208|Exponence[Gender]=Inherent|Exponence[Number]=Absent
-20	pour	pour	ADP	_	_	21	mark	_	AlignBegin=53208|AlignEnd=53353
-21	aider	aider	VERB	_	VerbForm=Inf	16	advcl	_	AlignBegin=53353|AlignEnd=53553|Subject=NoRaising
-22	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	23	det	_	AlignBegin=53553|AlignEnd=53643|HasSpokenGender=OnlySingExceptWithLiaison
-23	gens	gens	NOUN	_	Gender=Masc|Number=Plur	21	obj	_	AlignBegin=53643|AlignEnd=53853|Exponence[Gender]=Inherent|Exponence[Number]=Absent
-24	à	à	ADP	_	_	25	mark	_	AlignBegin=53853|AlignEnd=53883
-25	mourir	mourir	VERB	_	VerbForm=Inf	21	ccomp	_	AlignBegin=53883|AlignEnd=54233|Subject=NoRaising
-26	parce	parce	ADV	_	ExtPos=SCONJ	29	mark	_	AlignBegin=54233|AlignEnd=54403|Idiom=Yes
-27	qu'	que	SCONJ	_	_	26	fixed	_	AlignBegin=54403|AlignEnd=54563|InIdiom=Yes|SpaceAfter=No
-28	on	on	PRON	_	Case=Nom|Emph=No|Gender=Masc|Number=Sing|Person=3|PronType=Ind	29	nsubj	_	AlignBegin=54403|AlignEnd=54563|Exponence[Gender]=Absent|Exponence[Number]=Inherent|Exponence[Person]=Inherent
-29	pouvait	pouvoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	5	advcl	_	AlignBegin=54563|AlignEnd=54793|Exponence[Number]=Absent|Exponence[Person]=Absent
-30	pas	pas	ADV	_	Polarity=Neg	29	advmod	_	AlignBegin=54793|AlignEnd=54953
-31	sortir	sortir	VERB	_	VerbForm=Inf	29	xcomp	_	AlignBegin=54953|AlignEnd=55333|Subject=SubjRaising
-32	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	33	det	_	AlignBegin=55333|AlignEnd=55453|HasSpokenGender=OnlySingExceptWithLiaison
-33	gens	gens	NOUN	_	Gender=Masc|Number=Plur	31	obj	_	AlignBegin=55453|AlignEnd=55673|Exponence[Gender]=Inherent|Exponence[Number]=Absent
-34	de	de	ADP	_	_	35	case	_	AlignBegin=55673|AlignEnd=55703
-35	là	là	ADV	_	_	31	obl:arg	_	AlignBegin=55703|AlignEnd=55912|SpaceAfter=No
-36	.	.	PUNCT	_	_	5	punct	_	AlignBegin=55912|AlignEnd=55912
+1	lui	lui	PRON	_	Emph=Yes|Gender=Masc|Number=Sing|Person=3|PronType=Prs	5	dislocated:subj	_	Exponence[Person]=Inherent|SpaceAfter=No|WordAlignmentBegin=48835|WordAlignmentEnd=49035
+2	,	,	PUNCT	_	_	1	punct	_	WordAlignmentBegin=49035|WordAlignmentEnd=49035
+3	il	lui	PRON	_	Case=Nom|Emph=No|Gender=Masc|Number=Sing|Person=3|PronType=Prs	5	nsubj	_	Exponence[Person]=Inherent|WordAlignmentBegin=49035|WordAlignmentEnd=49115
+4	avait	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	5	aux:tense	_	WordAlignmentBegin=49115|WordAlignmentEnd=49375
+5	passé	passer	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Act	0	root	_	Exponence[Gender]=Absent|Exponence[Number]=Absent|PastPartHasSpokenGender=NotInThisDialect|Tense[denom]=Past|WordAlignmentBegin=49375|WordAlignmentEnd=49695
+6	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	8	det	_	HasSpokenGender=OnlySingExceptWithLiaison|WordAlignmentBegin=49695|WordAlignmentEnd=49865
+7	quatre	quatre	NUM	_	Number=Plur	8	nummod	_	Exponence[Number]=Inherent|WordAlignmentBegin=49865|WordAlignmentEnd=50119
+8	nuits	nuit	NOUN	_	Gender=Fem|Number=Plur	5	obj	_	Exponence[Gender]=Inherent|Exponence[Number]=Absent|SpaceAfter=No|WordAlignmentBegin=50119|WordAlignmentEnd=50455
+9	,	,	PUNCT	_	_	12	punct	_	WordAlignmentBegin=50455|WordAlignmentEnd=50694
+10	ou	ou	CCONJ	_	_	12	cc	_	WordAlignmentBegin=50694|WordAlignmentEnd=50749
+11	trois	trois	NUM	_	Number=Plur	12	nummod	_	Exponence[Number]=Inherent|WordAlignmentBegin=50749|WordAlignmentEnd=51049
+12	nuits	nuit	NOUN	_	Gender=Fem|Number=Plur	8	conj	_	Exponence[Gender]=Inherent|Exponence[Number]=Absent|WordAlignmentBegin=51049|WordAlignmentEnd=51389
+13	à	à	ADP	_	_	16	reparandum	_	SpaceAfter=No|WordAlignmentBegin=51638|WordAlignmentEnd=51828
+14	,	,	PUNCT	_	_	13	punct	_	WordAlignmentBegin=51828|WordAlignmentEnd=51828
+15	à	à	ADP	_	_	16	mark	_	WordAlignmentBegin=51828|WordAlignmentEnd=52016
+16	ramper	ramper	VERB	_	VerbForm=Inf	5	advcl	_	Subject=SubjRaising|WordAlignmentBegin=52016|WordAlignmentEnd=52479
+17	dans	dans	ADP	_	_	19	case	_	WordAlignmentBegin=52479|WordAlignmentEnd=52599
+18	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	19	det	_	HasSpokenGender=OnlySingExceptWithLiaison|WordAlignmentBegin=52599|WordAlignmentEnd=52719
+19	décombres	décombre	NOUN	_	Gender=Masc|Number=Plur	16	obl:mod	_	Exponence[Gender]=Inherent|Exponence[Number]=Absent|WordAlignmentBegin=52719|WordAlignmentEnd=53208
+20	pour	pour	ADP	_	_	21	mark	_	WordAlignmentBegin=53208|WordAlignmentEnd=53353
+21	aider	aider	VERB	_	VerbForm=Inf	16	advcl	_	Subject=NoRaising|WordAlignmentBegin=53353|WordAlignmentEnd=53553
+22	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	23	det	_	HasSpokenGender=OnlySingExceptWithLiaison|WordAlignmentBegin=53553|WordAlignmentEnd=53643
+23	gens	gens	NOUN	_	Gender=Masc|Number=Plur	21	obj	_	Exponence[Gender]=Inherent|Exponence[Number]=Absent|WordAlignmentBegin=53643|WordAlignmentEnd=53853
+24	à	à	ADP	_	_	25	mark	_	WordAlignmentBegin=53853|WordAlignmentEnd=53883
+25	mourir	mourir	VERB	_	VerbForm=Inf	21	ccomp	_	Subject=NoRaising|WordAlignmentBegin=53883|WordAlignmentEnd=54233
+26	parce	parce	ADV	_	ExtPos=SCONJ	29	mark	_	Idiom=Yes|WordAlignmentBegin=54233|WordAlignmentEnd=54403
+27	qu'	que	SCONJ	_	_	26	fixed	_	InIdiom=Yes|SpaceAfter=No|WordAlignmentBegin=54403|WordAlignmentEnd=54563
+28	on	on	PRON	_	Case=Nom|Emph=No|Gender=Masc|Number=Sing|Person=3|PronType=Ind	29	nsubj	_	Exponence[Gender]=Absent|Exponence[Number]=Inherent|Exponence[Person]=Inherent|WordAlignmentBegin=54403|WordAlignmentEnd=54563
+29	pouvait	pouvoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	5	advcl	_	Exponence[Number]=Absent|Exponence[Person]=Absent|WordAlignmentBegin=54563|WordAlignmentEnd=54793
+30	pas	pas	ADV	_	Polarity=Neg	29	advmod	_	WordAlignmentBegin=54793|WordAlignmentEnd=54953
+31	sortir	sortir	VERB	_	VerbForm=Inf	29	xcomp	_	Subject=SubjRaising|WordAlignmentBegin=54953|WordAlignmentEnd=55333
+32	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	33	det	_	HasSpokenGender=OnlySingExceptWithLiaison|WordAlignmentBegin=55333|WordAlignmentEnd=55453
+33	gens	gens	NOUN	_	Gender=Masc|Number=Plur	31	obj	_	Exponence[Gender]=Inherent|Exponence[Number]=Absent|WordAlignmentBegin=55453|WordAlignmentEnd=55673
+34	de	de	ADP	_	_	35	case	_	WordAlignmentBegin=55673|WordAlignmentEnd=55703
+35	là	là	ADV	_	_	31	obl:arg	_	SpaceAfter=No|WordAlignmentBegin=55703|WordAlignmentEnd=55912
+36	.	.	PUNCT	_	_	5	punct	_	WordAlignmentBegin=55912|WordAlignmentEnd=55912
 
 # sent_id = Rhap_D0003-24
 # prosodic_annotation = yes
@@ -426,10 +426,10 @@
 # speaker_id = §LF5
 # macrosyntax = c'était impossible //
 # text = c'était impossible.
-1	c'	ce	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	3	nsubj	_	AlignBegin=55912|AlignEnd=56017|Exponence[Gender]=Inherent|Exponence[Number]=Inherent|Exponence[Person]=Inherent|SpaceAfter=No
-2	était	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	3	cop	_	AlignBegin=56017|AlignEnd=56186
-3	impossible	impossible	ADJ	_	Gender=Masc|Number=Sing	0	root	_	AlignBegin=56186|AlignEnd=56796|Exponence[Gender]=Absent|Exponence[Number]=Absent|HasSpokenGender=No|HasSpokenNumber=OnlyWithLiaison|SpaceAfter=No
-4	.	.	PUNCT	_	_	3	punct	_	AlignBegin=57299|AlignEnd=57299
+1	c'	ce	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	3	nsubj	_	Exponence[Gender]=Inherent|Exponence[Number]=Inherent|Exponence[Person]=Inherent|SpaceAfter=No|WordAlignmentBegin=55912|WordAlignmentEnd=56017
+2	était	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	3	cop	_	WordAlignmentBegin=56017|WordAlignmentEnd=56186
+3	impossible	impossible	ADJ	_	Gender=Masc|Number=Sing	0	root	_	Exponence[Gender]=Absent|Exponence[Number]=Absent|HasSpokenGender=No|HasSpokenNumber=OnlyWithLiaison|SpaceAfter=No|WordAlignmentBegin=56186|WordAlignmentEnd=56796
+4	.	.	PUNCT	_	_	3	punct	_	WordAlignmentBegin=57299|WordAlignmentEnd=57299
 
 # sent_id = Rhap_D0003-25
 # prosodic_annotation = yes
@@ -437,22 +437,22 @@
 # speaker_id = §LF5
 # macrosyntax = on s'est retrouvés sans { eau | ^ni gaz | ^ni téléphone | ^ni électricité } //
 # text = on s'est retrouvé sans eau, ni gaz, ni téléphone, ni électricité.
-1	on	on	PRON	_	Case=Nom|Emph=No|Gender=Masc|Number=Sing|Person=3|PronType=Ind	4	nsubj	_	AlignBegin=57299|AlignEnd=57354|Exponence[Gender]=Absent|Exponence[Number]=Inherent|Exponence[Person]=Inherent
-2	s'	soi	PRON	_	Person=3|PronType=Prs|Reflex=Yes	4	expl:pass	_	AlignBegin=57354|AlignEnd=57464|Exponence[Person]=Inherent|SpaceAfter=No
-3	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	aux:tense	_	AlignBegin=57464|AlignEnd=57514
-4	retrouvé	retrouver	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Act	0	root	_	AlignBegin=57514|AlignEnd=58064|Exponence[Gender]=Absent|Exponence[Number]=Absent|PastPartHasSpokenGender=NotInThisDialect|Tense[denom]=Past
-5	sans	sans	ADP	_	_	6	case	_	AlignBegin=58064|AlignEnd=58458
-6	eau	eau	NOUN	_	Gender=Fem|Number=Sing	4	obl:arg	_	AlignBegin=58458|AlignEnd=58738|Exponence[Gender]=Inherent|Exponence[Number]=Absent|LiaisonPossibleBefore=Yes|SpaceAfter=No
-7	,	,	PUNCT	_	_	9	punct	_	AlignBegin=58738|AlignEnd=59200
-8	ni	ni	CCONJ	_	_	9	cc	_	AlignBegin=59200|AlignEnd=59395
-9	gaz	gaz	NOUN	_	Gender=Masc|Number=Sing	6	conj	_	AlignBegin=59395|AlignEnd=59635|Exponence[Gender]=Inherent|Exponence[Number]=Absent|SpaceAfter=No
-10	,	,	PUNCT	_	_	12	punct	_	AlignBegin=59635|AlignEnd=59635
-11	ni	ni	CCONJ	_	_	12	cc	_	AlignBegin=59635|AlignEnd=59710
-12	téléphone	téléphone	NOUN	_	Gender=Masc|Number=Sing	6	conj	_	AlignBegin=59710|AlignEnd=60155|Exponence[Gender]=Inherent|Exponence[Number]=Absent|SpaceAfter=No
-13	,	,	PUNCT	_	_	15	punct	_	AlignBegin=60155|AlignEnd=60155
-14	ni	ni	CCONJ	_	_	15	cc	_	AlignBegin=60155|AlignEnd=60209
-15	électricité	électricité	NOUN	_	Gender=Fem|Number=Sing	6	conj	_	AlignBegin=60209|AlignEnd=60995|Exponence[Gender]=Inherent|Exponence[Number]=Absent|LiaisonPossibleBefore=Yes|SpaceAfter=No
-16	.	.	PUNCT	_	_	4	punct	_	AlignBegin=60995|AlignEnd=60995
+1	on	on	PRON	_	Case=Nom|Emph=No|Gender=Masc|Number=Sing|Person=3|PronType=Ind	4	nsubj	_	Exponence[Gender]=Absent|Exponence[Number]=Inherent|Exponence[Person]=Inherent|WordAlignmentBegin=57299|WordAlignmentEnd=57354
+2	s'	soi	PRON	_	Person=3|PronType=Prs|Reflex=Yes	4	expl:pass	_	Exponence[Person]=Inherent|SpaceAfter=No|WordAlignmentBegin=57354|WordAlignmentEnd=57464
+3	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	aux:tense	_	WordAlignmentBegin=57464|WordAlignmentEnd=57514
+4	retrouvé	retrouver	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Act	0	root	_	Exponence[Gender]=Absent|Exponence[Number]=Absent|PastPartHasSpokenGender=NotInThisDialect|Tense[denom]=Past|WordAlignmentBegin=57514|WordAlignmentEnd=58064
+5	sans	sans	ADP	_	_	6	case	_	WordAlignmentBegin=58064|WordAlignmentEnd=58458
+6	eau	eau	NOUN	_	Gender=Fem|Number=Sing	4	obl:arg	_	Exponence[Gender]=Inherent|Exponence[Number]=Absent|LiaisonPossibleBefore=Yes|SpaceAfter=No|WordAlignmentBegin=58458|WordAlignmentEnd=58738
+7	,	,	PUNCT	_	_	9	punct	_	WordAlignmentBegin=58738|WordAlignmentEnd=59200
+8	ni	ni	CCONJ	_	_	9	cc	_	WordAlignmentBegin=59200|WordAlignmentEnd=59395
+9	gaz	gaz	NOUN	_	Gender=Masc|Number=Sing	6	conj	_	Exponence[Gender]=Inherent|Exponence[Number]=Absent|SpaceAfter=No|WordAlignmentBegin=59395|WordAlignmentEnd=59635
+10	,	,	PUNCT	_	_	12	punct	_	WordAlignmentBegin=59635|WordAlignmentEnd=59635
+11	ni	ni	CCONJ	_	_	12	cc	_	WordAlignmentBegin=59635|WordAlignmentEnd=59710
+12	téléphone	téléphone	NOUN	_	Gender=Masc|Number=Sing	6	conj	_	Exponence[Gender]=Inherent|Exponence[Number]=Absent|SpaceAfter=No|WordAlignmentBegin=59710|WordAlignmentEnd=60155
+13	,	,	PUNCT	_	_	15	punct	_	WordAlignmentBegin=60155|WordAlignmentEnd=60155
+14	ni	ni	CCONJ	_	_	15	cc	_	WordAlignmentBegin=60155|WordAlignmentEnd=60209
+15	électricité	électricité	NOUN	_	Gender=Fem|Number=Sing	6	conj	_	Exponence[Gender]=Inherent|Exponence[Number]=Absent|LiaisonPossibleBefore=Yes|SpaceAfter=No|WordAlignmentBegin=60209|WordAlignmentEnd=60995
+16	.	.	PUNCT	_	_	4	punct	_	WordAlignmentBegin=60995|WordAlignmentEnd=60995
 
 # sent_id = Rhap_D0003-26
 # prosodic_annotation = yes
@@ -460,14 +460,14 @@
 # speaker_id = §LF5
 # macrosyntax = ^et les pompiers { "euh" | "euh" } ESPERLUETTE //
 # text = et les pompiers, euh, euh…
-1	et	et	CCONJ	_	_	3	cc	_	AlignBegin=60995|AlignEnd=61056
-2	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	3	det	_	AlignBegin=61056|AlignEnd=61167|HasSpokenGender=OnlySingExceptWithLiaison
-3	pompiers	pompier	NOUN	_	Gender=Masc|Number=Plur	0	root	_	AlignBegin=61167|AlignEnd=61826|Exponence[Gender]=Inherent|Exponence[Number]=Absent|SpaceAfter=No
-4	,	,	PUNCT	_	_	5	punct	_	AlignBegin=61826|AlignEnd=61993
-5	euh	euh	INTJ	_	_	3	discourse:filler	_	AlignBegin=61993|AlignEnd=62148|SpaceAfter=No
-6	,	,	PUNCT	_	_	7	punct	_	AlignBegin=62148|AlignEnd=62148
-7	euh	euh	INTJ	_	_	3	discourse:filler	_	AlignBegin=62148|AlignEnd=62368|SpaceAfter=No
-8	…	…	PUNCT	_	_	3	punct	_	AlignBegin=62368|AlignEnd=62368
+1	et	et	CCONJ	_	_	3	cc	_	WordAlignmentBegin=60995|WordAlignmentEnd=61056
+2	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	3	det	_	HasSpokenGender=OnlySingExceptWithLiaison|WordAlignmentBegin=61056|WordAlignmentEnd=61167
+3	pompiers	pompier	NOUN	_	Gender=Masc|Number=Plur	0	root	_	Exponence[Gender]=Inherent|Exponence[Number]=Absent|SpaceAfter=No|WordAlignmentBegin=61167|WordAlignmentEnd=61826
+4	,	,	PUNCT	_	_	5	punct	_	WordAlignmentBegin=61826|WordAlignmentEnd=61993
+5	euh	euh	INTJ	_	_	3	discourse:filler	_	SpaceAfter=No|WordAlignmentBegin=61993|WordAlignmentEnd=62148
+6	,	,	PUNCT	_	_	7	punct	_	WordAlignmentBegin=62148|WordAlignmentEnd=62148
+7	euh	euh	INTJ	_	_	3	discourse:filler	_	SpaceAfter=No|WordAlignmentBegin=62148|WordAlignmentEnd=62368
+8	…	…	PUNCT	_	_	3	punct	_	WordAlignmentBegin=62368|WordAlignmentEnd=62368
 
 # sent_id = Rhap_D0003-27
 # prosodic_annotation = yes
@@ -475,11 +475,11 @@
 # speaker_id = §LF5
 # macrosyntax = c'était à Nantes //
 # text = c'était à Nantes.
-1	c'	ce	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	2	nsubj	_	AlignBegin=62368|AlignEnd=62488|Exponence[Gender]=Inherent|Exponence[Number]=Inherent|Exponence[Person]=Inherent|SpaceAfter=No
-2	était	être	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	AlignBegin=62488|AlignEnd=62658|Exponence[Number]=Absent|Exponence[Person]=Absent
-3	à	à	ADP	_	_	4	case	_	AlignBegin=62658|AlignEnd=62738
-4	Nantes	Nantes	PROPN	_	_	2	obl:arg	_	AlignBegin=62738|AlignEnd=63178|SpaceAfter=No
-5	.	.	PUNCT	_	_	2	punct	_	AlignBegin=63178|AlignEnd=63178
+1	c'	ce	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	2	nsubj	_	Exponence[Gender]=Inherent|Exponence[Number]=Inherent|Exponence[Person]=Inherent|SpaceAfter=No|WordAlignmentBegin=62368|WordAlignmentEnd=62488
+2	était	être	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	Exponence[Number]=Absent|Exponence[Person]=Absent|WordAlignmentBegin=62488|WordAlignmentEnd=62658
+3	à	à	ADP	_	_	4	case	_	WordAlignmentBegin=62658|WordAlignmentEnd=62738
+4	Nantes	Nantes	PROPN	_	_	2	obl:arg	_	SpaceAfter=No|WordAlignmentBegin=62738|WordAlignmentEnd=63178
+5	.	.	PUNCT	_	_	2	punct	_	WordAlignmentBegin=63178|WordAlignmentEnd=63178
 
 # sent_id = Rhap_D0003-28
 # prosodic_annotation = yes
@@ -487,12 +487,12 @@
 # speaker_id = §LF5
 # macrosyntax = la ville est assez haute //
 # text = la ville est assez haute.
-1	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	AlignBegin=63518|AlignEnd=63728|HasSpokenGender=OnlySingExceptWithLiaison
-2	ville	ville	NOUN	_	Gender=Fem|Number=Sing	5	nsubj	_	AlignBegin=63728|AlignEnd=63928|Exponence[Gender]=Inherent|Exponence[Number]=Absent
-3	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	cop	_	AlignBegin=63928|AlignEnd=64078
-4	assez	assez	ADV	_	_	5	advmod	_	AlignBegin=64078|AlignEnd=64468
-5	haute	haut	ADJ	_	Gender=Fem|Number=Sing	0	root	_	AlignBegin=64468|AlignEnd=65096|Exponence[Number]=Absent|HasSpokenGender=YesExceptSingWithLiaison|HasSpokenNumber=OnlyWithLiaison|SpaceAfter=No
-6	.	.	PUNCT	_	_	5	punct	_	AlignBegin=65099|AlignEnd=65099
+1	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	HasSpokenGender=OnlySingExceptWithLiaison|WordAlignmentBegin=63518|WordAlignmentEnd=63728
+2	ville	ville	NOUN	_	Gender=Fem|Number=Sing	5	nsubj	_	Exponence[Gender]=Inherent|Exponence[Number]=Absent|WordAlignmentBegin=63728|WordAlignmentEnd=63928
+3	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	cop	_	WordAlignmentBegin=63928|WordAlignmentEnd=64078
+4	assez	assez	ADV	_	_	5	advmod	_	WordAlignmentBegin=64078|WordAlignmentEnd=64468
+5	haute	haut	ADJ	_	Gender=Fem|Number=Sing	0	root	_	Exponence[Number]=Absent|HasSpokenGender=YesExceptSingWithLiaison|HasSpokenNumber=OnlyWithLiaison|SpaceAfter=No|WordAlignmentBegin=64468|WordAlignmentEnd=65096
+6	.	.	PUNCT	_	_	5	punct	_	WordAlignmentBegin=65099|WordAlignmentEnd=65099
 
 # sent_id = Rhap_D0003-29
 # prosodic_annotation = yes
@@ -500,10 +500,10 @@
 # speaker_id = §LF4
 # macrosyntax = ( $L1 "mh" "mh" )
 # text = mh, mh.
-1	mh	mh	INTJ	_	_	0	root	_	AlignBegin=65096|AlignEnd=65249|Backchannel=Rhap_D0003-28::3|SpaceAfter=No
-2	,	,	PUNCT	_	_	3	punct	_	AlignBegin=65249|AlignEnd=65249
-3	mh	mh	INTJ	_	_	1	conj	_	AlignBegin=65249|AlignEnd=65432|SpaceAfter=No
-4	.	.	PUNCT	_	_	1	punct	_	AlignBegin=65432|AlignEnd=65432
+1	mh	mh	INTJ	_	_	0	root	_	Backchannel=Rhap_D0003-28::3|SpaceAfter=No|WordAlignmentBegin=65096|WordAlignmentEnd=65249
+2	,	,	PUNCT	_	_	3	punct	_	WordAlignmentBegin=65249|WordAlignmentEnd=65249
+3	mh	mh	INTJ	_	_	1	conj	_	SpaceAfter=No|WordAlignmentBegin=65249|WordAlignmentEnd=65432
+4	.	.	PUNCT	_	_	1	punct	_	WordAlignmentBegin=65432|WordAlignmentEnd=65432
 
 # sent_id = Rhap_D0003-30
 # prosodic_annotation = yes
@@ -511,15 +511,15 @@
 # speaker_id = §LF5
 # macrosyntax = ^et { la | la } Loire est en bas //
 # text = et la, la Loire est en bas.
-1	et	et	CCONJ	_	_	6	cc	_	AlignBegin=65618|AlignEnd=65733
-2	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	reparandum	_	AlignBegin=65733|AlignEnd=65933|HasSpokenGender=OnlySingExceptWithLiaison|SpaceAfter=No
-3	,	,	PUNCT	_	_	2	punct	_	AlignBegin=65933|AlignEnd=65933
-4	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	AlignBegin=65933|AlignEnd=66093|HasSpokenGender=OnlySingExceptWithLiaison
-5	Loire	Loire	PROPN	_	_	6	nsubj	_	AlignBegin=66093|AlignEnd=66336
-6	est	être	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	AlignBegin=66336|AlignEnd=66473
-7	en	en	ADP	_	_	8	case	_	AlignBegin=66473|AlignEnd=66561
-8	bas	bas	NOUN	_	Gender=Masc	6	obl:arg	_	AlignBegin=66561|AlignEnd=66808|Exponence[Gender]=Inherent|SpaceAfter=No
-9	.	.	PUNCT	_	_	6	punct	_	AlignBegin=66808|AlignEnd=66808
+1	et	et	CCONJ	_	_	6	cc	_	WordAlignmentBegin=65618|WordAlignmentEnd=65733
+2	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	reparandum	_	HasSpokenGender=OnlySingExceptWithLiaison|SpaceAfter=No|WordAlignmentBegin=65733|WordAlignmentEnd=65933
+3	,	,	PUNCT	_	_	2	punct	_	WordAlignmentBegin=65933|WordAlignmentEnd=65933
+4	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	HasSpokenGender=OnlySingExceptWithLiaison|WordAlignmentBegin=65933|WordAlignmentEnd=66093
+5	Loire	Loire	PROPN	_	_	6	nsubj	_	WordAlignmentBegin=66093|WordAlignmentEnd=66336
+6	est	être	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	WordAlignmentBegin=66336|WordAlignmentEnd=66473
+7	en	en	ADP	_	_	8	case	_	WordAlignmentBegin=66473|WordAlignmentEnd=66561
+8	bas	bas	NOUN	_	Gender=Masc	6	obl:arg	_	Exponence[Gender]=Inherent|SpaceAfter=No|WordAlignmentBegin=66561|WordAlignmentEnd=66808
+9	.	.	PUNCT	_	_	6	punct	_	WordAlignmentBegin=66808|WordAlignmentEnd=66808
 
 # sent_id = Rhap_D0003-31
 # prosodic_annotation = yes
@@ -527,22 +527,22 @@
 # speaker_id = §LF5
 # macrosyntax = ^et les malheureux { allaient puiser de l'eau dans la Loire | ^et remontaient pour arroser } //
 # text = et les malheureux allaient puiser de l'eau dans la Loire et remontaient pour arroser.
-1	et	et	CCONJ	_	_	4	cc	_	AlignBegin=67228|AlignEnd=67293
-2	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	3	det	_	AlignBegin=67293|AlignEnd=67363|HasSpokenGender=OnlySingExceptWithLiaison
-3	malheureux	malheureux	ADJ	_	Gender=Masc|Number=Plur	4	nsubj	_	AlignBegin=67363|AlignEnd=67901|Exponence[Number]=Absent|HasSpokenGender=YesExceptSingWithLiaison|HasSpokenNumber=OnlyFemWithLiaison
-4	allaient	aller	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	AlignBegin=67901|AlignEnd=68133|Exponence[Number]=Absent
-5	puiser	puiser	VERB	_	VerbForm=Inf	4	xcomp	_	AlignBegin=68133|AlignEnd=68503|Subject=SubjRaising
-6	de	de	ADP	_	ExtPos=DET	8	det	_	AlignBegin=68503|AlignEnd=68603|Idiom=Yes
-7	l'	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	fixed	_	AlignBegin=68603|AlignEnd=68773|Exponence[Gender]=Absent|HasSpokenGender=OnlySingExceptWithLiaison|InIdiom=Yes|LiaisonAfter=Yes|SpaceAfter=No
-8	eau	eau	NOUN	_	Gender=Fem|Number=Sing	5	obj	_	AlignBegin=68603|AlignEnd=68773|Exponence[Gender]=Inherent|Exponence[Number]=Absent|LiaisonPossibleBefore=Yes
-9	dans	dans	ADP	_	_	11	case	_	AlignBegin=68773|AlignEnd=68903
-10	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	11	det	_	AlignBegin=68903|AlignEnd=69023|HasSpokenGender=OnlySingExceptWithLiaison
-11	Loire	Loire	PROPN	_	_	5	obl:mod	_	AlignBegin=69023|AlignEnd=69290
-12	et	et	CCONJ	_	_	13	cc	_	AlignBegin=69290|AlignEnd=69372
-13	remontaient	remonter	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	5	conj	_	AlignBegin=69372|AlignEnd=70022|Exponence[Number]=Absent
-14	pour	pour	ADP	_	_	15	mark	_	AlignBegin=70022|AlignEnd=70182
-15	arroser	arroser	VERB	_	VerbForm=Inf	13	advcl	_	AlignBegin=70182|AlignEnd=70622|SpaceAfter=No|Subject=NoRaising
-16	.	.	PUNCT	_	_	4	punct	_	AlignBegin=70622|AlignEnd=70622
+1	et	et	CCONJ	_	_	4	cc	_	WordAlignmentBegin=67228|WordAlignmentEnd=67293
+2	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	3	det	_	HasSpokenGender=OnlySingExceptWithLiaison|WordAlignmentBegin=67293|WordAlignmentEnd=67363
+3	malheureux	malheureux	ADJ	_	Gender=Masc|Number=Plur	4	nsubj	_	Exponence[Number]=Absent|HasSpokenGender=YesExceptSingWithLiaison|HasSpokenNumber=OnlyFemWithLiaison|WordAlignmentBegin=67363|WordAlignmentEnd=67901
+4	allaient	aller	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	Exponence[Number]=Absent|WordAlignmentBegin=67901|WordAlignmentEnd=68133
+5	puiser	puiser	VERB	_	VerbForm=Inf	4	xcomp	_	Subject=SubjRaising|WordAlignmentBegin=68133|WordAlignmentEnd=68503
+6	de	de	ADP	_	ExtPos=DET	8	det	_	Idiom=Yes|WordAlignmentBegin=68503|WordAlignmentEnd=68603
+7	l'	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	fixed	_	Exponence[Gender]=Absent|HasSpokenGender=OnlySingExceptWithLiaison|InIdiom=Yes|LiaisonAfter=Yes|SpaceAfter=No|WordAlignmentBegin=68603|WordAlignmentEnd=68773
+8	eau	eau	NOUN	_	Gender=Fem|Number=Sing	5	obj	_	Exponence[Gender]=Inherent|Exponence[Number]=Absent|LiaisonPossibleBefore=Yes|WordAlignmentBegin=68603|WordAlignmentEnd=68773
+9	dans	dans	ADP	_	_	11	case	_	WordAlignmentBegin=68773|WordAlignmentEnd=68903
+10	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	11	det	_	HasSpokenGender=OnlySingExceptWithLiaison|WordAlignmentBegin=68903|WordAlignmentEnd=69023
+11	Loire	Loire	PROPN	_	_	5	obl:mod	_	WordAlignmentBegin=69023|WordAlignmentEnd=69290
+12	et	et	CCONJ	_	_	13	cc	_	WordAlignmentBegin=69290|WordAlignmentEnd=69372
+13	remontaient	remonter	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	5	conj	_	Exponence[Number]=Absent|WordAlignmentBegin=69372|WordAlignmentEnd=70022
+14	pour	pour	ADP	_	_	15	mark	_	WordAlignmentBegin=70022|WordAlignmentEnd=70182
+15	arroser	arroser	VERB	_	VerbForm=Inf	13	advcl	_	SpaceAfter=No|Subject=NoRaising|WordAlignmentBegin=70182|WordAlignmentEnd=70622
+16	.	.	PUNCT	_	_	4	punct	_	WordAlignmentBegin=70622|WordAlignmentEnd=70622
 
 # sent_id = Rhap_D0003-32
 # prosodic_annotation = yes
@@ -550,15 +550,15 @@
 # speaker_id = §LF5
 # macrosyntax = "voyez" { c'était | c'était } effarant //
 # text = voyez, c'était, c'était effarant.
-1	voyez	voir	VERB	_	Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	4	discourse	_	AlignBegin=70622|AlignEnd=70948|SpaceAfter=No
-2	,	,	PUNCT	_	_	1	punct	_	AlignBegin=70948|AlignEnd=70948
-3	c'	ce	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	4	nsubj	_	AlignBegin=70948|AlignEnd=71010|Exponence[Gender]=Inherent|Exponence[Number]=Inherent|Exponence[Person]=Inherent|SpaceAfter=No
-4	était	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	8	reparandum	_	AlignBegin=71010|AlignEnd=71475|SpaceAfter=No
-5	,	,	PUNCT	_	_	4	punct	_	AlignBegin=71475|AlignEnd=71475
-6	c'	ce	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	8	nsubj	_	AlignBegin=71475|AlignEnd=71562|Exponence[Gender]=Inherent|Exponence[Number]=Inherent|Exponence[Person]=Inherent|SpaceAfter=No
-7	était	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	8	cop	_	AlignBegin=71562|AlignEnd=71765
-8	effarant	effarant	ADJ	_	Gender=Masc|Number=Sing	0	root	_	AlignBegin=71765|AlignEnd=72287|Exponence[Number]=Absent|HasSpokenGender=YesExceptSingWithLiaison|HasSpokenNumber=OnlyWithLiaison|SpaceAfter=No
-9	.	.	PUNCT	_	_	8	punct	_	AlignBegin=72287|AlignEnd=72287
+1	voyez	voir	VERB	_	Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	4	discourse	_	SpaceAfter=No|WordAlignmentBegin=70622|WordAlignmentEnd=70948
+2	,	,	PUNCT	_	_	1	punct	_	WordAlignmentBegin=70948|WordAlignmentEnd=70948
+3	c'	ce	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	4	nsubj	_	Exponence[Gender]=Inherent|Exponence[Number]=Inherent|Exponence[Person]=Inherent|SpaceAfter=No|WordAlignmentBegin=70948|WordAlignmentEnd=71010
+4	était	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	8	reparandum	_	SpaceAfter=No|WordAlignmentBegin=71010|WordAlignmentEnd=71475
+5	,	,	PUNCT	_	_	4	punct	_	WordAlignmentBegin=71475|WordAlignmentEnd=71475
+6	c'	ce	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	8	nsubj	_	Exponence[Gender]=Inherent|Exponence[Number]=Inherent|Exponence[Person]=Inherent|SpaceAfter=No|WordAlignmentBegin=71475|WordAlignmentEnd=71562
+7	était	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	8	cop	_	WordAlignmentBegin=71562|WordAlignmentEnd=71765
+8	effarant	effarant	ADJ	_	Gender=Masc|Number=Sing	0	root	_	Exponence[Number]=Absent|HasSpokenGender=YesExceptSingWithLiaison|HasSpokenNumber=OnlyWithLiaison|SpaceAfter=No|WordAlignmentBegin=71765|WordAlignmentEnd=72287
+9	.	.	PUNCT	_	_	8	punct	_	WordAlignmentBegin=72287|WordAlignmentEnd=72287
 
 # sent_id = Rhap_D0003-33
 # prosodic_annotation = yes
@@ -566,8 +566,8 @@
 # speaker_id = §LF4
 # macrosyntax = $L1 oui //
 # text = oui.
-1	oui	oui	INTJ	_	_	0	root	_	AlignBegin=72382|AlignEnd=72658|Backchannel=Rhap_D0003-32::7|SpaceAfter=No
-2	.	.	PUNCT	_	_	1	punct	_	AlignBegin=72658|AlignEnd=72658
+1	oui	oui	INTJ	_	_	0	root	_	Backchannel=Rhap_D0003-32::7|SpaceAfter=No|WordAlignmentBegin=72382|WordAlignmentEnd=72658
+2	.	.	PUNCT	_	_	1	punct	_	WordAlignmentBegin=72658|WordAlignmentEnd=72658
 
 # sent_id = Rhap_D0003-34
 # prosodic_annotation = yes
@@ -575,13 +575,13 @@
 # speaker_id = §LF5
 # macrosyntax = $L2 c'était { assez | assez } terrible //
 # text = c'était assez, assez terrible.
-1	c'	ce	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	6	nsubj	_	AlignBegin=72753|AlignEnd=72808|Exponence[Gender]=Inherent|Exponence[Number]=Inherent|Exponence[Person]=Inherent|SpaceAfter=No
-2	était	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	6	cop	_	AlignBegin=72808|AlignEnd=72978
-3	assez	assez	ADV	_	_	5	reparandum	_	AlignBegin=72978|AlignEnd=73408|SpaceAfter=No
-4	,	,	PUNCT	_	_	3	punct	_	AlignBegin=73408|AlignEnd=73408
-5	assez	assez	ADV	_	_	6	advmod	_	AlignBegin=73408|AlignEnd=73818
-6	terrible	terrible	ADJ	_	Gender=Masc|Number=Sing	0	root	_	AlignBegin=73818|AlignEnd=74172|Exponence[Gender]=Absent|Exponence[Number]=Absent|HasSpokenGender=No|HasSpokenNumber=OnlyWithLiaison|SpaceAfter=No
-7	.	.	PUNCT	_	_	6	punct	_	AlignBegin=74172|AlignEnd=74172
+1	c'	ce	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	6	nsubj	_	Exponence[Gender]=Inherent|Exponence[Number]=Inherent|Exponence[Person]=Inherent|SpaceAfter=No|WordAlignmentBegin=72753|WordAlignmentEnd=72808
+2	était	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	6	cop	_	WordAlignmentBegin=72808|WordAlignmentEnd=72978
+3	assez	assez	ADV	_	_	5	reparandum	_	SpaceAfter=No|WordAlignmentBegin=72978|WordAlignmentEnd=73408
+4	,	,	PUNCT	_	_	3	punct	_	WordAlignmentBegin=73408|WordAlignmentEnd=73408
+5	assez	assez	ADV	_	_	6	advmod	_	WordAlignmentBegin=73408|WordAlignmentEnd=73818
+6	terrible	terrible	ADJ	_	Gender=Masc|Number=Sing	0	root	_	Exponence[Gender]=Absent|Exponence[Number]=Absent|HasSpokenGender=No|HasSpokenNumber=OnlyWithLiaison|SpaceAfter=No|WordAlignmentBegin=73818|WordAlignmentEnd=74172
+7	.	.	PUNCT	_	_	6	punct	_	WordAlignmentBegin=74172|WordAlignmentEnd=74172
 
 # sent_id = Rhap_D0003-35
 # prosodic_annotation = yes
@@ -589,14 +589,14 @@
 # speaker_id = §LF5
 # macrosyntax = ^et { les | les } maisons ont brûlé //
 # text = et les, les maisons ont brûlé.
-1	et	et	CCONJ	_	_	7	cc	_	AlignBegin=74172|AlignEnd=74231
-2	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	4	reparandum	_	AlignBegin=74231|AlignEnd=74458|HasSpokenGender=OnlySingExceptWithLiaison|SpaceAfter=No
-3	,	,	PUNCT	_	_	2	punct	_	AlignBegin=74458|AlignEnd=74458
-4	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	5	det	_	AlignBegin=74458|AlignEnd=74598|HasSpokenGender=OnlySingExceptWithLiaison
-5	maisons	maison	NOUN	_	Gender=Fem|Number=Plur	7	nsubj	_	AlignBegin=74598|AlignEnd=74868|Exponence[Gender]=Inherent|Exponence[Number]=Absent
-6	ont	avoir	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	7	aux:tense	_	AlignBegin=74868|AlignEnd=74978
-7	brûlé	brûler	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Act	0	root	_	AlignBegin=74978|AlignEnd=75451|Exponence[Gender]=Absent|Exponence[Number]=Absent|PastPartHasSpokenGender=NotInThisDialect|SpaceAfter=No|Tense[denom]=Past
-8	.	.	PUNCT	_	_	7	punct	_	AlignBegin=75451|AlignEnd=75451
+1	et	et	CCONJ	_	_	7	cc	_	WordAlignmentBegin=74172|WordAlignmentEnd=74231
+2	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	4	reparandum	_	HasSpokenGender=OnlySingExceptWithLiaison|SpaceAfter=No|WordAlignmentBegin=74231|WordAlignmentEnd=74458
+3	,	,	PUNCT	_	_	2	punct	_	WordAlignmentBegin=74458|WordAlignmentEnd=74458
+4	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	5	det	_	HasSpokenGender=OnlySingExceptWithLiaison|WordAlignmentBegin=74458|WordAlignmentEnd=74598
+5	maisons	maison	NOUN	_	Gender=Fem|Number=Plur	7	nsubj	_	Exponence[Gender]=Inherent|Exponence[Number]=Absent|WordAlignmentBegin=74598|WordAlignmentEnd=74868
+6	ont	avoir	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	7	aux:tense	_	WordAlignmentBegin=74868|WordAlignmentEnd=74978
+7	brûlé	brûler	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Act	0	root	_	Exponence[Gender]=Absent|Exponence[Number]=Absent|PastPartHasSpokenGender=NotInThisDialect|SpaceAfter=No|Tense[denom]=Past|WordAlignmentBegin=74978|WordAlignmentEnd=75451
+8	.	.	PUNCT	_	_	7	punct	_	WordAlignmentBegin=75451|WordAlignmentEnd=75451
 
 # sent_id = Rhap_D0003-36
 # prosodic_annotation = yes
@@ -604,17 +604,17 @@
 # speaker_id = §LF5
 # macrosyntax = ^et il y avait des gens là-dedans qui étaient prisonniers //
 # text = et il y avait des gens là-dedans qui étaient prisonniers.
-1	et	et	CCONJ	_	_	4	cc	_	AlignBegin=75644|AlignEnd=75739
-2	il	lui	PRON	_	Case=Nom|Emph=No|Gender=Masc|Number=Sing|Person=3|PronType=Prs	4	expl:subj	_	AlignBegin=75739|AlignEnd=75776|Exponence[Person]=Inherent
-3	y	y	PRON	_	Person=3|PronType=Prs	4	expl:comp	_	AlignBegin=75776|AlignEnd=75799|Exponence[Person]=Inherent
-4	avait	avoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	AlignBegin=75799|AlignEnd=75969|Exponence[Number]=Absent|Exponence[Person]=Absent
-5	des	un	DET	_	Definite=Ind|Number=Plur|PronType=Art	6	det	_	AlignBegin=75969|AlignEnd=76119
-6	gens	gens	NOUN	_	Gender=Masc|Number=Plur	4	obj	_	AlignBegin=76119|AlignEnd=76339|Exponence[Gender]=Inherent|Exponence[Number]=Absent
-7	là-dedans	là-dedans	ADV	_	_	6	advmod	_	AlignBegin=76339|AlignEnd=76689
-8	qui	qui	PRON	_	PronType=Rel	10	nsubj	_	AlignBegin=76689|AlignEnd=76869
-9	étaient	être	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	10	cop	_	AlignBegin=76869|AlignEnd=77219
-10	prisonniers	prisonnier	ADJ	_	Gender=Masc|Number=Plur	6	acl:relcl	_	AlignBegin=77630|AlignEnd=78335|Exponence[Number]=Absent|HasSpokenGender=YesExceptSingWithLiaison|HasSpokenNumber=OnlyWithLiaison|SpaceAfter=No
-11	.	.	PUNCT	_	_	4	punct	_	AlignBegin=78335|AlignEnd=78335
+1	et	et	CCONJ	_	_	4	cc	_	WordAlignmentBegin=75644|WordAlignmentEnd=75739
+2	il	lui	PRON	_	Case=Nom|Emph=No|Gender=Masc|Number=Sing|Person=3|PronType=Prs	4	expl:subj	_	Exponence[Person]=Inherent|WordAlignmentBegin=75739|WordAlignmentEnd=75776
+3	y	y	PRON	_	Person=3|PronType=Prs	4	expl:comp	_	Exponence[Person]=Inherent|WordAlignmentBegin=75776|WordAlignmentEnd=75799
+4	avait	avoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	Exponence[Number]=Absent|Exponence[Person]=Absent|WordAlignmentBegin=75799|WordAlignmentEnd=75969
+5	des	un	DET	_	Definite=Ind|Number=Plur|PronType=Art	6	det	_	WordAlignmentBegin=75969|WordAlignmentEnd=76119
+6	gens	gens	NOUN	_	Gender=Masc|Number=Plur	4	obj	_	Exponence[Gender]=Inherent|Exponence[Number]=Absent|WordAlignmentBegin=76119|WordAlignmentEnd=76339
+7	là-dedans	là-dedans	ADV	_	_	6	advmod	_	WordAlignmentBegin=76339|WordAlignmentEnd=76689
+8	qui	qui	PRON	_	PronType=Rel	10	nsubj	_	WordAlignmentBegin=76689|WordAlignmentEnd=76869
+9	étaient	être	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	10	cop	_	WordAlignmentBegin=76869|WordAlignmentEnd=77219
+10	prisonniers	prisonnier	ADJ	_	Gender=Masc|Number=Plur	6	acl:relcl	_	Exponence[Number]=Absent|HasSpokenGender=YesExceptSingWithLiaison|HasSpokenNumber=OnlyWithLiaison|SpaceAfter=No|WordAlignmentBegin=77630|WordAlignmentEnd=78335
+11	.	.	PUNCT	_	_	4	punct	_	WordAlignmentBegin=78335|WordAlignmentEnd=78335
 
 # sent_id = Rhap_D0003-37
 # prosodic_annotation = yes
@@ -622,13 +622,13 @@
 # speaker_id = §LF5
 # macrosyntax = ^et on pouvait pas ESPERLUETTE "hein" //
 # text = et on pouvait pas, hein.
-1	et	et	CCONJ	_	_	3	cc	_	AlignBegin=78335|AlignEnd=78395
-2	on	on	PRON	_	Case=Nom|Emph=No|Gender=Masc|Number=Sing|Person=3|PronType=Ind	3	nsubj	_	AlignBegin=78395|AlignEnd=78495|Exponence[Gender]=Absent|Exponence[Number]=Inherent|Exponence[Person]=Inherent
-3	pouvait	pouvoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	AlignBegin=78495|AlignEnd=78785|Exponence[Number]=Absent|Exponence[Person]=Absent|Scrap=Yes
-4	pas	pas	ADV	_	Polarity=Neg	3	advmod	_	AlignBegin=78785|AlignEnd=78950|SpaceAfter=No
-5	,	,	PUNCT	_	_	6	punct	_	AlignBegin=78950|AlignEnd=78950
-6	hein	hein	INTJ	_	_	4	discourse	_	AlignBegin=78950|AlignEnd=79163|SpaceAfter=No
-7	.	.	PUNCT	_	_	3	punct	_	AlignBegin=79163|AlignEnd=79163
+1	et	et	CCONJ	_	_	3	cc	_	WordAlignmentBegin=78335|WordAlignmentEnd=78395
+2	on	on	PRON	_	Case=Nom|Emph=No|Gender=Masc|Number=Sing|Person=3|PronType=Ind	3	nsubj	_	Exponence[Gender]=Absent|Exponence[Number]=Inherent|Exponence[Person]=Inherent|WordAlignmentBegin=78395|WordAlignmentEnd=78495
+3	pouvait	pouvoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	Exponence[Number]=Absent|Exponence[Person]=Absent|Scrap=Yes|WordAlignmentBegin=78495|WordAlignmentEnd=78785
+4	pas	pas	ADV	_	Polarity=Neg	3	advmod	_	SpaceAfter=No|WordAlignmentBegin=78785|WordAlignmentEnd=78950
+5	,	,	PUNCT	_	_	6	punct	_	WordAlignmentBegin=78950|WordAlignmentEnd=78950
+6	hein	hein	INTJ	_	_	4	discourse	_	SpaceAfter=No|WordAlignmentBegin=78950|WordAlignmentEnd=79163
+7	.	.	PUNCT	_	_	3	punct	_	WordAlignmentBegin=79163|WordAlignmentEnd=79163
 
 # sent_id = Rhap_D0003-38
 # prosodic_annotation = yes
@@ -636,18 +636,18 @@
 # speaker_id = §LF5
 # macrosyntax = alors < mon père avait passé ses nuits à faire ça //
 # text = alors, mon père avait passé ses nuits à faire ça.
-1	alors	alors	ADV	_	_	6	advmod	_	AlignBegin=79545|AlignEnd=79750|SpaceAfter=No
-2	,	,	PUNCT	_	_	1	punct	_	AlignBegin=79750|AlignEnd=79750
-3	mon	son	DET	_	Gender=Masc|Number=Sing|Number[psor]=Sing|Person[psor]=1|Poss=Yes|PronType=Prs	4	det	_	AlignBegin=79750|AlignEnd=79917|HasSpokenGender=OnlySingExceptWithLiaison
-4	père	père	NOUN	_	Gender=Masc|Number=Sing	6	nsubj	_	AlignBegin=79917|AlignEnd=80109|Exponence[Gender]=Inherent|Exponence[Number]=Absent
-5	avait	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	6	aux:tense	_	AlignBegin=80109|AlignEnd=80320
-6	passé	passer	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Act	0	root	_	AlignBegin=80320|AlignEnd=80580|Exponence[Gender]=Absent|Exponence[Number]=Absent|PastPartHasSpokenGender=NotInThisDialect|Tense[denom]=Past
-7	ses	son	DET	_	Number=Plur|Number[psor]=Sing|Person[psor]=3|Poss=Yes|PronType=Prs	8	det	_	AlignBegin=80580|AlignEnd=80810|HasSpokenGender=OnlySingExceptWithLiaison
-8	nuits	nuit	NOUN	_	Gender=Fem|Number=Plur	6	obj	_	AlignBegin=80810|AlignEnd=80980|Exponence[Gender]=Inherent|Exponence[Number]=Absent
-9	à	à	ADP	_	_	10	mark	_	AlignBegin=80980|AlignEnd=81080
-10	faire	faire	VERB	_	VerbForm=Inf	6	xcomp	_	AlignBegin=81080|AlignEnd=81280|Subject=SubjRaising
-11	ça	ça	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	10	obj	_	AlignBegin=81280|AlignEnd=81700|Exponence[Gender]=Inherent|Exponence[Number]=Inherent|Exponence[Person]=Inherent|SpaceAfter=No
-12	.	.	PUNCT	_	_	6	punct	_	AlignBegin=81700|AlignEnd=81700
+1	alors	alors	ADV	_	_	6	advmod	_	SpaceAfter=No|WordAlignmentBegin=79545|WordAlignmentEnd=79750
+2	,	,	PUNCT	_	_	1	punct	_	WordAlignmentBegin=79750|WordAlignmentEnd=79750
+3	mon	son	DET	_	Gender=Masc|Number=Sing|Number[psor]=Sing|Person[psor]=1|Poss=Yes|PronType=Prs	4	det	_	HasSpokenGender=OnlySingExceptWithLiaison|WordAlignmentBegin=79750|WordAlignmentEnd=79917
+4	père	père	NOUN	_	Gender=Masc|Number=Sing	6	nsubj	_	Exponence[Gender]=Inherent|Exponence[Number]=Absent|WordAlignmentBegin=79917|WordAlignmentEnd=80109
+5	avait	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	6	aux:tense	_	WordAlignmentBegin=80109|WordAlignmentEnd=80320
+6	passé	passer	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Act	0	root	_	Exponence[Gender]=Absent|Exponence[Number]=Absent|PastPartHasSpokenGender=NotInThisDialect|Tense[denom]=Past|WordAlignmentBegin=80320|WordAlignmentEnd=80580
+7	ses	son	DET	_	Number=Plur|Number[psor]=Sing|Person[psor]=3|Poss=Yes|PronType=Prs	8	det	_	HasSpokenGender=OnlySingExceptWithLiaison|WordAlignmentBegin=80580|WordAlignmentEnd=80810
+8	nuits	nuit	NOUN	_	Gender=Fem|Number=Plur	6	obj	_	Exponence[Gender]=Inherent|Exponence[Number]=Absent|WordAlignmentBegin=80810|WordAlignmentEnd=80980
+9	à	à	ADP	_	_	10	mark	_	WordAlignmentBegin=80980|WordAlignmentEnd=81080
+10	faire	faire	VERB	_	VerbForm=Inf	6	xcomp	_	Subject=SubjRaising|WordAlignmentBegin=81080|WordAlignmentEnd=81280
+11	ça	ça	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	10	obj	_	Exponence[Gender]=Inherent|Exponence[Number]=Inherent|Exponence[Person]=Inherent|SpaceAfter=No|WordAlignmentBegin=81280|WordAlignmentEnd=81700
+12	.	.	PUNCT	_	_	6	punct	_	WordAlignmentBegin=81700|WordAlignmentEnd=81700
 
 # sent_id = Rhap_D0003-39
 # prosodic_annotation = yes
@@ -655,32 +655,32 @@
 # speaker_id = §LF5
 # macrosyntax = ^et ^puis quand il a entendu le bombardement anglais { le de~ | le $- dernier soir } <+ il a dit ( $L1 "mh" "mh" ) -$ [ ça < ce sont les anglais // ] //
 # text = et puis quand il a entendu le bombardement anglais le de~, le dernier soir, il a dit ça, ce sont les anglais.
-1	et	et	CCONJ	_	ExtPos=CCONJ	19	cc	_	AlignBegin=82364|AlignEnd=82549|Idiom=Yes
-2	puis	puis	CCONJ	_	_	1	fixed	_	AlignBegin=82549|AlignEnd=82929|InIdiom=Yes
-3	quand	quand	SCONJ	_	_	6	mark	_	AlignBegin=82929|AlignEnd=83189
-4	il	lui	PRON	_	Case=Nom|Emph=No|Gender=Masc|Number=Sing|Person=3|PronType=Prs	6	nsubj	_	AlignBegin=83189|AlignEnd=83259|Exponence[Person]=Inherent
-5	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	aux:tense	_	AlignBegin=83259|AlignEnd=83435
-6	entendu	entendre	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Act	19	advcl	_	AlignBegin=83435|AlignEnd=83869|Exponence[Gender]=Absent|Exponence[Number]=Absent|PastPartHasSpokenGender=NotInThisDialect|Tense[denom]=Past
-7	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	AlignBegin=83869|AlignEnd=83909|HasSpokenGender=OnlySingExceptWithLiaison
-8	bombardement	bombardement	NOUN	_	Gender=Masc|Number=Sing	6	obj	_	AlignBegin=83909|AlignEnd=84570|Exponence[Gender]=Inherent|Exponence[Number]=Absent
-9	anglais	anglais	ADJ	_	Gender=Masc|Number=Sing	8	amod	_	AlignBegin=84570|AlignEnd=84886|Exponence[Number]=Absent|HasSpokenGender=YesExceptSingWithLiaison|HasSpokenNumber=OnlyFemWithLiaison
-10	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	13	reparandum	_	AlignBegin=84886|AlignEnd=85028|HasSpokenGender=OnlySingExceptWithLiaison
-11	de~	de~	X	_	_	10	dep	_	AlignBegin=85028|AlignEnd=85278|Scrap=Yes|SpaceAfter=No
-12	,	,	PUNCT	_	_	10	punct	_	AlignBegin=85278|AlignEnd=85278
-13	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	15	det	_	AlignBegin=85278|AlignEnd=85482|HasSpokenGender=OnlySingExceptWithLiaison
-14	dernier	dernier	ADJ	_	Gender=Masc|Number=Sing	15	amod	_	AlignBegin=85482|AlignEnd=85924|Exponence[Number]=Absent|HasSpokenGender=YesExceptSingWithLiaison|HasSpokenNumber=OnlyWithLiaison|Overlap=Rhap_D0003-40
-15	soir	soir	NOUN	_	Gender=Masc|Number=Sing	6	obl:mod	_	AlignBegin=85924|AlignEnd=86204|Exponence[Gender]=Inherent|Exponence[Number]=Absent|Overlap=Rhap_D0003-40|SpaceAfter=No
-16	,	,	PUNCT	_	_	6	punct	_	AlignBegin=86499|AlignEnd=85482|Overlap=Rhap_D0003-32bis
-17	il	lui	PRON	_	Case=Nom|Emph=No|Gender=Masc|Number=Sing|Person=3|PronType=Prs	19	nsubj	_	AlignBegin=86204|AlignEnd=86244|Exponence[Person]=Inherent|Overlap=Rhap_D0003-40
-18	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	19	aux:tense	_	AlignBegin=86244|AlignEnd=86354|Overlap=Rhap_D0003-40
-19	dit	dire	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Act	0	root	_	AlignBegin=86354|AlignEnd=86499|Exponence[Number]=Absent|Overlap=Rhap_D0003-40|PastPartHasSpokenGender=Yes|Tense[denom]=Past
-20	ça	ça	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	25	dislocated:subj	_	AlignBegin=86499|AlignEnd=86644|Exponence[Gender]=Inherent|Exponence[Number]=Inherent|Exponence[Person]=Inherent|SpaceAfter=No
-21	,	,	PUNCT	_	_	20	punct	_	AlignBegin=86644|AlignEnd=86644
-22	ce	ce	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	25	nsubj	_	AlignBegin=86644|AlignEnd=86704|Exponence[Gender]=Inherent|Exponence[Number]=Inherent|Exponence[Person]=Inherent
-23	sont	être	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	25	cop	_	AlignBegin=86704|AlignEnd=86814|Reported=Yes
-24	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	25	det	_	AlignBegin=86814|AlignEnd=86984|HasSpokenGender=OnlySingExceptWithLiaison|LiaisonAfter=Yes
-25	anglais	anglais	NOUN	_	Gender=Masc|Number=Plur	19	ccomp	_	AlignBegin=86984|AlignEnd=87364|Exponence[Gender]=Inherent|Exponence[Number]=Absent|LiaisonPossibleBefore=Yes|SpaceAfter=No
-26	.	.	PUNCT	_	_	19	punct	_	AlignBegin=87364|AlignEnd=87364
+1	et	et	CCONJ	_	ExtPos=CCONJ	19	cc	_	Idiom=Yes|WordAlignmentBegin=82364|WordAlignmentEnd=82549
+2	puis	puis	CCONJ	_	_	1	fixed	_	InIdiom=Yes|WordAlignmentBegin=82549|WordAlignmentEnd=82929
+3	quand	quand	SCONJ	_	_	6	mark	_	WordAlignmentBegin=82929|WordAlignmentEnd=83189
+4	il	lui	PRON	_	Case=Nom|Emph=No|Gender=Masc|Number=Sing|Person=3|PronType=Prs	6	nsubj	_	Exponence[Person]=Inherent|WordAlignmentBegin=83189|WordAlignmentEnd=83259
+5	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	aux:tense	_	WordAlignmentBegin=83259|WordAlignmentEnd=83435
+6	entendu	entendre	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Act	19	advcl	_	Exponence[Gender]=Absent|Exponence[Number]=Absent|PastPartHasSpokenGender=NotInThisDialect|Tense[denom]=Past|WordAlignmentBegin=83435|WordAlignmentEnd=83869
+7	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	HasSpokenGender=OnlySingExceptWithLiaison|WordAlignmentBegin=83869|WordAlignmentEnd=83909
+8	bombardement	bombardement	NOUN	_	Gender=Masc|Number=Sing	6	obj	_	Exponence[Gender]=Inherent|Exponence[Number]=Absent|WordAlignmentBegin=83909|WordAlignmentEnd=84570
+9	anglais	anglais	ADJ	_	Gender=Masc|Number=Sing	8	amod	_	Exponence[Number]=Absent|HasSpokenGender=YesExceptSingWithLiaison|HasSpokenNumber=OnlyFemWithLiaison|WordAlignmentBegin=84570|WordAlignmentEnd=84886
+10	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	13	reparandum	_	HasSpokenGender=OnlySingExceptWithLiaison|WordAlignmentBegin=84886|WordAlignmentEnd=85028
+11	de~	de~	X	_	_	10	dep	_	Scrap=Yes|SpaceAfter=No|WordAlignmentBegin=85028|WordAlignmentEnd=85278
+12	,	,	PUNCT	_	_	10	punct	_	WordAlignmentBegin=85278|WordAlignmentEnd=85278
+13	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	15	det	_	HasSpokenGender=OnlySingExceptWithLiaison|WordAlignmentBegin=85278|WordAlignmentEnd=85482
+14	dernier	dernier	ADJ	_	Gender=Masc|Number=Sing	15	amod	_	Exponence[Number]=Absent|HasSpokenGender=YesExceptSingWithLiaison|HasSpokenNumber=OnlyWithLiaison|Overlap=Rhap_D0003-40|WordAlignmentBegin=85482|WordAlignmentEnd=85924
+15	soir	soir	NOUN	_	Gender=Masc|Number=Sing	6	obl:mod	_	Exponence[Gender]=Inherent|Exponence[Number]=Absent|Overlap=Rhap_D0003-40|SpaceAfter=No|WordAlignmentBegin=85924|WordAlignmentEnd=86204
+16	,	,	PUNCT	_	_	6	punct	_	Overlap=Rhap_D0003-32bis|WordAlignmentBegin=86499|WordAlignmentEnd=85482
+17	il	lui	PRON	_	Case=Nom|Emph=No|Gender=Masc|Number=Sing|Person=3|PronType=Prs	19	nsubj	_	Exponence[Person]=Inherent|Overlap=Rhap_D0003-40|WordAlignmentBegin=86204|WordAlignmentEnd=86244
+18	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	19	aux:tense	_	Overlap=Rhap_D0003-40|WordAlignmentBegin=86244|WordAlignmentEnd=86354
+19	dit	dire	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Act	0	root	_	Exponence[Number]=Absent|Overlap=Rhap_D0003-40|PastPartHasSpokenGender=Yes|Tense[denom]=Past|WordAlignmentBegin=86354|WordAlignmentEnd=86499
+20	ça	ça	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	25	dislocated:subj	_	Exponence[Gender]=Inherent|Exponence[Number]=Inherent|Exponence[Person]=Inherent|SpaceAfter=No|WordAlignmentBegin=86499|WordAlignmentEnd=86644
+21	,	,	PUNCT	_	_	20	punct	_	WordAlignmentBegin=86644|WordAlignmentEnd=86644
+22	ce	ce	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	25	nsubj	_	Exponence[Gender]=Inherent|Exponence[Number]=Inherent|Exponence[Person]=Inherent|WordAlignmentBegin=86644|WordAlignmentEnd=86704
+23	sont	être	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	25	cop	_	WordAlignmentBegin=86704|WordAlignmentEnd=86814
+24	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	25	det	_	HasSpokenGender=OnlySingExceptWithLiaison|LiaisonAfter=Yes|WordAlignmentBegin=86814|WordAlignmentEnd=86984
+25	anglais	anglais	NOUN	_	Gender=Masc|Number=Plur	19	ccomp	_	Exponence[Gender]=Inherent|Exponence[Number]=Absent|LiaisonPossibleBefore=Yes|Reported=Yes|SpaceAfter=No|WordAlignmentBegin=86984|WordAlignmentEnd=87364
+26	.	.	PUNCT	_	_	19	punct	_	WordAlignmentBegin=87364|WordAlignmentEnd=87364
 
 # sent_id = Rhap_D0003-40
 # prosodic_annotation = no
@@ -688,10 +688,10 @@
 # speaker_id = §LF4
 # macrosyntax = ^et ^puis quand il a entendu le bombardement anglais { le de~ | le $- dernier soir } <+ il a dit ( $L1 "mh" "mh" ) -$ [ ça < ce sont les anglais // ] //
 # text = mh, mh.
-1	mh	mh	INTJ	_	_	0	root	_	AlignBegin=85482|AlignEnd=86499|Backchannel=Rhap_D0003-39::18|Overlap=Rhap_D0003-39|SpaceAfter=No
-2	,	,	PUNCT	_	_	3	punct	_	AlignBegin=86499|AlignEnd=85482|Overlap=Rhap_D0003-32
-3	mh	mh	INTJ	_	_	1	conj	_	AlignBegin=85482|AlignEnd=86499|Overlap=Rhap_D0003-39|SpaceAfter=No
-4	.	.	PUNCT	_	_	1	punct	_	AlignBegin=86499|AlignEnd=86499|Overlap=Rhap_D0003-32
+1	mh	mh	INTJ	_	_	0	root	_	Backchannel=Rhap_D0003-39::18|Overlap=Rhap_D0003-39|SpaceAfter=No|WordAlignmentBegin=85482|WordAlignmentEnd=86499
+2	,	,	PUNCT	_	_	3	punct	_	Overlap=Rhap_D0003-32|WordAlignmentBegin=86499|WordAlignmentEnd=85482
+3	mh	mh	INTJ	_	_	1	conj	_	Overlap=Rhap_D0003-39|SpaceAfter=No|WordAlignmentBegin=85482|WordAlignmentEnd=86499
+4	.	.	PUNCT	_	_	1	punct	_	Overlap=Rhap_D0003-32|WordAlignmentBegin=86499|WordAlignmentEnd=86499
 
 # sent_id = Rhap_D0003-41
 # prosodic_annotation = yes
@@ -699,21 +699,21 @@
 # speaker_id = §LF5
 # macrosyntax = c'est parce qu'il avait été pilote d'essai XXX dès dix-sept dix-huit //
 # text = c'est parce qu'il avait été pilote d'essai XXX dès dix-sept dix-huit.
-1	c'	ce	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	8	nsubj:outer	_	AlignBegin=87364|AlignEnd=87464|Exponence[Gender]=Inherent|Exponence[Number]=Inherent|Exponence[Person]=Inherent|SpaceAfter=No
-2	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	cop	_	AlignBegin=87464|AlignEnd=87534
-3	parce	parce	ADV	_	ExtPos=SCONJ	8	mark	_	AlignBegin=87723|AlignEnd=87924|Idiom=Yes
-4	qu'	que	SCONJ	_	_	3	fixed	_	AlignBegin=87924|AlignEnd=88044|InIdiom=Yes|SpaceAfter=No
-5	il	lui	PRON	_	Case=Nom|Emph=No|Gender=Masc|Number=Sing|Person=3|PronType=Prs	8	nsubj	_	AlignBegin=87924|AlignEnd=88044|Exponence[Person]=Inherent
-6	avait	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	8	aux:tense	_	AlignBegin=88044|AlignEnd=88294
-7	été	être	AUX	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	8	cop	_	AlignBegin=88294|AlignEnd=88483|Tense[denom]=Past
-8	pilote	pilote	NOUN	_	Gender=Masc|Number=Sing	0	root	_	AlignBegin=88483|AlignEnd=88824|cdet=No|Exponence[Gender]=Inherent|Exponence[Number]=Absent
-9	d'	de	ADP	_	_	10	case	_	AlignBegin=88824|AlignEnd=88874|SpaceAfter=No
-10	essai	essai	NOUN	_	Gender=Masc|Number=Sing	8	nmod	_	AlignBegin=88874|AlignEnd=89269|Exponence[Gender]=Inherent|Exponence[Number]=Absent|LiaisonPossibleBefore=Yes
-11	XXX	XXX	X	_	_	8	dep	_	AlignBegin=89269|AlignEnd=90123|Scrap=Yes
-12	dès	dès	ADP	_	_	13	case	_	AlignBegin=90123|AlignEnd=90288
-13	dix-sept	dix-sept	NUM	_	Number=Plur	8	nmod	_	AlignBegin=90288|AlignEnd=90898|Exponence[Number]=Inherent
-14	dix-huit	dix-huit	NUM	_	Number=Plur	13	conj	_	AlignBegin=90898|AlignEnd=91363|Exponence[Number]=Inherent|SpaceAfter=No
-15	.	.	PUNCT	_	_	8	punct	_	AlignBegin=91363|AlignEnd=91363
+1	c'	ce	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	8	nsubj:outer	_	Exponence[Gender]=Inherent|Exponence[Number]=Inherent|Exponence[Person]=Inherent|SpaceAfter=No|WordAlignmentBegin=87364|WordAlignmentEnd=87464
+2	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	cop	_	WordAlignmentBegin=87464|WordAlignmentEnd=87534
+3	parce	parce	ADV	_	ExtPos=SCONJ	8	mark	_	Idiom=Yes|WordAlignmentBegin=87723|WordAlignmentEnd=87924
+4	qu'	que	SCONJ	_	_	3	fixed	_	InIdiom=Yes|SpaceAfter=No|WordAlignmentBegin=87924|WordAlignmentEnd=88044
+5	il	lui	PRON	_	Case=Nom|Emph=No|Gender=Masc|Number=Sing|Person=3|PronType=Prs	8	nsubj	_	Exponence[Person]=Inherent|WordAlignmentBegin=87924|WordAlignmentEnd=88044
+6	avait	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	8	aux:tense	_	WordAlignmentBegin=88044|WordAlignmentEnd=88294
+7	été	être	AUX	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	8	cop	_	Tense[denom]=Past|WordAlignmentBegin=88294|WordAlignmentEnd=88483
+8	pilote	pilote	NOUN	_	Gender=Masc|Number=Sing	0	root	_	cdet=No|Exponence[Gender]=Inherent|Exponence[Number]=Absent|WordAlignmentBegin=88483|WordAlignmentEnd=88824
+9	d'	de	ADP	_	_	10	case	_	SpaceAfter=No|WordAlignmentBegin=88824|WordAlignmentEnd=88874
+10	essai	essai	NOUN	_	Gender=Masc|Number=Sing	8	nmod	_	Exponence[Gender]=Inherent|Exponence[Number]=Absent|LiaisonPossibleBefore=Yes|WordAlignmentBegin=88874|WordAlignmentEnd=89269
+11	XXX	XXX	X	_	_	8	dep	_	Scrap=Yes|WordAlignmentBegin=89269|WordAlignmentEnd=90123
+12	dès	dès	ADP	_	_	13	case	_	WordAlignmentBegin=90123|WordAlignmentEnd=90288
+13	dix-sept	dix-sept	NUM	_	ExtPos=PRON|Number=Plur	8	nmod	_	Exponence[Number]=Inherent|WordAlignmentBegin=90288|WordAlignmentEnd=90898
+14	dix-huit	dix-huit	NUM	_	ExtPos=PRON|Number=Plur	13	conj	_	Exponence[Number]=Inherent|SpaceAfter=No|WordAlignmentBegin=90898|WordAlignmentEnd=91363
+15	.	.	PUNCT	_	_	8	punct	_	WordAlignmentBegin=91363|WordAlignmentEnd=91363
 
 # sent_id = Rhap_D0003-42
 # prosodic_annotation = yes
@@ -721,13 +721,13 @@
 # speaker_id = §LF5
 # macrosyntax = alors < il a bien reconnu //
 # text = alors, il a bien reconnu.
-1	alors	alors	ADV	_	_	6	advmod	_	AlignBegin=92014|AlignEnd=92384|SpaceAfter=No
-2	,	,	PUNCT	_	_	1	punct	_	AlignBegin=92384|AlignEnd=92384
-3	il	lui	PRON	_	Case=Nom|Emph=No|Gender=Masc|Number=Sing|Person=3|PronType=Prs	6	nsubj	_	AlignBegin=92384|AlignEnd=92519|Exponence[Person]=Inherent
-4	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	aux:tense	_	AlignBegin=92519|AlignEnd=92709
-5	bien	bien	ADV	_	_	6	advmod	_	AlignBegin=92709|AlignEnd=92914
-6	reconnu	reconnaître	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Act	0	root	_	AlignBegin=92914|AlignEnd=93389|Exponence[Gender]=Absent|Exponence[Number]=Absent|PastPartHasSpokenGender=NotInThisDialect|SpaceAfter=No|Tense[denom]=Past
-7	.	.	PUNCT	_	_	6	punct	_	AlignBegin=93389|AlignEnd=93389
+1	alors	alors	ADV	_	_	6	advmod	_	SpaceAfter=No|WordAlignmentBegin=92014|WordAlignmentEnd=92384
+2	,	,	PUNCT	_	_	1	punct	_	WordAlignmentBegin=92384|WordAlignmentEnd=92384
+3	il	lui	PRON	_	Case=Nom|Emph=No|Gender=Masc|Number=Sing|Person=3|PronType=Prs	6	nsubj	_	Exponence[Person]=Inherent|WordAlignmentBegin=92384|WordAlignmentEnd=92519
+4	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	aux:tense	_	WordAlignmentBegin=92519|WordAlignmentEnd=92709
+5	bien	bien	ADV	_	_	6	advmod	_	WordAlignmentBegin=92709|WordAlignmentEnd=92914
+6	reconnu	reconnaître	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Act	0	root	_	Exponence[Gender]=Absent|Exponence[Number]=Absent|PastPartHasSpokenGender=NotInThisDialect|SpaceAfter=No|Tense[denom]=Past|WordAlignmentBegin=92914|WordAlignmentEnd=93389
+7	.	.	PUNCT	_	_	6	punct	_	WordAlignmentBegin=93389|WordAlignmentEnd=93389
 
 # sent_id = Rhap_D0003-43
 # prosodic_annotation = yes
@@ -735,18 +735,18 @@
 # speaker_id = §LF5
 # macrosyntax = il a dit { [ ça < ce sont les anglais XXX //
 # text = il a dit, ça, ce sont les anglais XXX.
-1	il	lui	PRON	_	Case=Nom|Emph=No|Gender=Masc|Number=Sing|Person=3|PronType=Prs	3	nsubj	_	AlignBegin=93389|AlignEnd=93429|Exponence[Person]=Inherent
-2	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	aux:tense	_	AlignBegin=93429|AlignEnd=93529
-3	dit	dire	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Act	0	root	_	AlignBegin=93529|AlignEnd=93609|Exponence[Number]=Absent|PastPartHasSpokenGender=Yes|SpaceAfter=No|Tense[denom]=Past
-4	,	,	PUNCT	_	_	10	punct	_	AlignBegin=93609|AlignEnd=93609
-5	ça	ça	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	10	dislocated:subj	_	AlignBegin=93609|AlignEnd=93779|Exponence[Gender]=Inherent|Exponence[Number]=Inherent|Exponence[Person]=Inherent|SpaceAfter=No
-6	,	,	PUNCT	_	_	5	punct	_	AlignBegin=93779|AlignEnd=93779
-7	ce	ce	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	10	nsubj	_	AlignBegin=93779|AlignEnd=93869|Exponence[Gender]=Inherent|Exponence[Number]=Inherent|Exponence[Person]=Inherent
-8	sont	être	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	10	cop	_	AlignBegin=93869|AlignEnd=93969|Reported=Yes
-9	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	10	det	_	AlignBegin=93969|AlignEnd=94159|HasSpokenGender=OnlySingExceptWithLiaison|LiaisonAfter=Yes
-10	anglais	anglais	NOUN	_	Gender=Masc|Number=Plur	3	ccomp	_	AlignBegin=94159|AlignEnd=94769|Exponence[Gender]=Inherent|Exponence[Number]=Absent|LiaisonPossibleBefore=Yes
-11	XXX	XXX	X	_	_	10	dep	_	AlignBegin=94769|AlignEnd=95240|Scrap=Yes|SpaceAfter=No
-12	.	.	PUNCT	_	_	3	punct	_	AlignBegin=95240|AlignEnd=95240
+1	il	lui	PRON	_	Case=Nom|Emph=No|Gender=Masc|Number=Sing|Person=3|PronType=Prs	3	nsubj	_	Exponence[Person]=Inherent|WordAlignmentBegin=93389|WordAlignmentEnd=93429
+2	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	aux:tense	_	WordAlignmentBegin=93429|WordAlignmentEnd=93529
+3	dit	dire	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Act	0	root	_	Exponence[Number]=Absent|PastPartHasSpokenGender=Yes|SpaceAfter=No|Tense[denom]=Past|WordAlignmentBegin=93529|WordAlignmentEnd=93609
+4	,	,	PUNCT	_	_	10	punct	_	WordAlignmentBegin=93609|WordAlignmentEnd=93609
+5	ça	ça	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	10	dislocated:subj	_	Exponence[Gender]=Inherent|Exponence[Number]=Inherent|Exponence[Person]=Inherent|SpaceAfter=No|WordAlignmentBegin=93609|WordAlignmentEnd=93779
+6	,	,	PUNCT	_	_	5	punct	_	WordAlignmentBegin=93779|WordAlignmentEnd=93779
+7	ce	ce	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	10	nsubj	_	Exponence[Gender]=Inherent|Exponence[Number]=Inherent|Exponence[Person]=Inherent|WordAlignmentBegin=93779|WordAlignmentEnd=93869
+8	sont	être	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	10	cop	_	WordAlignmentBegin=93869|WordAlignmentEnd=93969
+9	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	10	det	_	HasSpokenGender=OnlySingExceptWithLiaison|LiaisonAfter=Yes|WordAlignmentBegin=93969|WordAlignmentEnd=94159
+10	anglais	anglais	NOUN	_	Gender=Masc|Number=Plur	3	ccomp	_	Exponence[Gender]=Inherent|Exponence[Number]=Absent|LiaisonPossibleBefore=Yes|Reported=Yes|WordAlignmentBegin=94159|WordAlignmentEnd=94769
+11	XXX	XXX	X	_	_	10	dep	_	Scrap=Yes|SpaceAfter=No|WordAlignmentBegin=94769|WordAlignmentEnd=95240
+12	.	.	PUNCT	_	_	3	punct	_	WordAlignmentBegin=95240|WordAlignmentEnd=95240
 
 # sent_id = Rhap_D0003-44
 # prosodic_annotation = yes
@@ -754,18 +754,18 @@
 # speaker_id = §LF5
 # macrosyntax = ils vont démolir ce qu'il faut démolir // ] | et caetera } //
 # text = ils vont démolir ce qu'il faut démolir, et caetera.
-1	ils	lui	PRON	_	Case=Nom|Emph=No|Gender=Masc|Number=Plur|Person=3|PronType=Prs	2	nsubj	_	AlignBegin=95240|AlignEnd=95385|Exponence[Person]=Inherent
-2	vont	aller	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	AlignBegin=95385|AlignEnd=95475|Reported=Yes
-3	démolir	démolir	VERB	_	VerbForm=Inf	2	xcomp	_	AlignBegin=95475|AlignEnd=95893|Subject=SubjRaising
-4	ce	ce	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	3	obj	_	AlignBegin=95893|AlignEnd=95975|Exponence[Gender]=Inherent|Exponence[Number]=Inherent|Exponence[Person]=Inherent
-5	qu'	que	PRON	_	PronType=Rel	8	obj	_	AlignBegin=95975|AlignEnd=96025|SpaceAfter=No
-6	il	lui	PRON	_	Case=Nom|Emph=No|Gender=Masc|Number=Sing|Person=3|PronType=Prs	7	expl:subj	_	AlignBegin=96025|AlignEnd=96084|Exponence[Person]=Inherent
-7	faut	falloir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	acl:relcl	_	AlignBegin=96084|AlignEnd=96295|Exponence[Person]=Absent
-8	démolir	démolir	VERB	_	VerbForm=Inf	7	xcomp	_	AlignBegin=96295|AlignEnd=96915|SpaceAfter=No|Subject=SubjRaising
-9	,	,	PUNCT	_	_	10	punct	_	AlignBegin=96898|AlignEnd=96898
-10	et	et	CCONJ	_	ExtPos=ADV	8	conj	_	AlignBegin=96915|AlignEnd=96945|Idiom=Yes
-11	caetera	caetera	ADV	_	_	10	fixed	_	AlignBegin=96945|AlignEnd=97500|InIdiom=Yes|SpaceAfter=No
-12	.	.	PUNCT	_	_	2	punct	_	AlignBegin=97500|AlignEnd=97500
+1	ils	lui	PRON	_	Case=Nom|Emph=No|Gender=Masc|Number=Plur|Person=3|PronType=Prs	2	nsubj	_	Exponence[Person]=Inherent|WordAlignmentBegin=95240|WordAlignmentEnd=95385
+2	vont	aller	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	Reported=Yes|WordAlignmentBegin=95385|WordAlignmentEnd=95475
+3	démolir	démolir	VERB	_	VerbForm=Inf	2	xcomp	_	Subject=SubjRaising|WordAlignmentBegin=95475|WordAlignmentEnd=95893
+4	ce	ce	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	3	obj	_	Exponence[Gender]=Inherent|Exponence[Number]=Inherent|Exponence[Person]=Inherent|WordAlignmentBegin=95893|WordAlignmentEnd=95975
+5	qu'	que	PRON	_	PronType=Rel	8	obj	_	SpaceAfter=No|WordAlignmentBegin=95975|WordAlignmentEnd=96025
+6	il	lui	PRON	_	Case=Nom|Emph=No|Gender=Masc|Number=Sing|Person=3|PronType=Prs	7	expl:subj	_	Exponence[Person]=Inherent|WordAlignmentBegin=96025|WordAlignmentEnd=96084
+7	faut	falloir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	acl:relcl	_	Exponence[Person]=Absent|WordAlignmentBegin=96084|WordAlignmentEnd=96295
+8	démolir	démolir	VERB	_	VerbForm=Inf	7	xcomp	_	SpaceAfter=No|Subject=SubjRaising|WordAlignmentBegin=96295|WordAlignmentEnd=96915
+9	,	,	PUNCT	_	_	10	punct	_	WordAlignmentBegin=96898|WordAlignmentEnd=96898
+10	et	et	CCONJ	_	ExtPos=ADV	8	conj	_	Idiom=Yes|WordAlignmentBegin=96915|WordAlignmentEnd=96945
+11	caetera	caetera	ADV	_	_	10	fixed	_	InIdiom=Yes|SpaceAfter=No|WordAlignmentBegin=96945|WordAlignmentEnd=97500
+12	.	.	PUNCT	_	_	2	punct	_	WordAlignmentBegin=97500|WordAlignmentEnd=97500
 
 # sent_id = Rhap_D0003-45
 # prosodic_annotation = yes
@@ -773,14 +773,14 @@
 # speaker_id = §LF5
 # macrosyntax = ^et ^puis il a décidé de partir //
 # text = et puis il a décidé de partir.
-1	et	et	CCONJ	_	ExtPos=CCONJ	5	cc	_	AlignBegin=98195|AlignEnd=98550|Idiom=Yes
-2	puis	puis	CCONJ	_	_	1	fixed	_	AlignBegin=98550|AlignEnd=98710|InIdiom=Yes
-3	il	lui	PRON	_	Case=Nom|Emph=No|Gender=Masc|Number=Sing|Person=3|PronType=Prs	5	nsubj	_	AlignBegin=98710|AlignEnd=98740|Exponence[Person]=Inherent
-4	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	aux:tense	_	AlignBegin=98740|AlignEnd=98860
-5	décidé	décider	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Act	0	root	_	AlignBegin=98860|AlignEnd=99350|Exponence[Gender]=Absent|Exponence[Number]=Absent|PastPartHasSpokenGender=NotInThisDialect|Tense[denom]=Past
-6	de	de	ADP	_	_	7	mark	_	AlignBegin=99350|AlignEnd=99380
-7	partir	partir	VERB	_	VerbForm=Inf	5	xcomp	_	AlignBegin=99380|AlignEnd=99815|SpaceAfter=No|Subject=SubjRaising
-8	.	.	PUNCT	_	_	5	punct	_	AlignBegin=99815|AlignEnd=99815
+1	et	et	CCONJ	_	ExtPos=CCONJ	5	cc	_	Idiom=Yes|WordAlignmentBegin=98195|WordAlignmentEnd=98550
+2	puis	puis	CCONJ	_	_	1	fixed	_	InIdiom=Yes|WordAlignmentBegin=98550|WordAlignmentEnd=98710
+3	il	lui	PRON	_	Case=Nom|Emph=No|Gender=Masc|Number=Sing|Person=3|PronType=Prs	5	nsubj	_	Exponence[Person]=Inherent|WordAlignmentBegin=98710|WordAlignmentEnd=98740
+4	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	aux:tense	_	WordAlignmentBegin=98740|WordAlignmentEnd=98860
+5	décidé	décider	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Act	0	root	_	Exponence[Gender]=Absent|Exponence[Number]=Absent|PastPartHasSpokenGender=NotInThisDialect|Tense[denom]=Past|WordAlignmentBegin=98860|WordAlignmentEnd=99350
+6	de	de	ADP	_	_	7	mark	_	WordAlignmentBegin=99350|WordAlignmentEnd=99380
+7	partir	partir	VERB	_	VerbForm=Inf	5	xcomp	_	SpaceAfter=No|Subject=SubjRaising|WordAlignmentBegin=99380|WordAlignmentEnd=99815
+8	.	.	PUNCT	_	_	5	punct	_	WordAlignmentBegin=99815|WordAlignmentEnd=99815
 
 # sent_id = Rhap_D0003-46
 # prosodic_annotation = yes
@@ -788,14 +788,14 @@
 # speaker_id = §LF5
 # macrosyntax = alors < nous sommes partis le lendemain //
 # text = alors, nous sommes partis le lendemain.
-1	alors	alors	ADV	_	_	5	advmod	_	AlignBegin=99815|AlignEnd=100030|SpaceAfter=No
-2	,	,	PUNCT	_	_	1	punct	_	AlignBegin=100030|AlignEnd=100030
-3	nous	nous	PRON	_	Case=Nom|Emph=No|Number=Plur|Person=1|PronType=Prs	5	nsubj	_	AlignBegin=100030|AlignEnd=100140|Exponence[Number]=Inherent|Exponence[Person]=Inherent
-4	sommes	être	AUX	_	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	5	aux:tense	_	AlignBegin=100140|AlignEnd=100380
-5	partis	partir	VERB	_	Gender=Masc|Number=Plur|VerbForm=Part|Voice=Act	0	root	_	AlignBegin=100380|AlignEnd=100760|Exponence[Gender]=Absent|Exponence[Number]=Absent|PastPartHasSpokenGender=NotInThisDialect|Tense[denom]=Past
-6	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	AlignBegin=100760|AlignEnd=100880|HasSpokenGender=OnlySingExceptWithLiaison
-7	lendemain	lendemain	NOUN	_	Gender=Masc|Number=Sing	5	obl:mod	_	AlignBegin=100880|AlignEnd=101535|Exponence[Gender]=Inherent|Exponence[Number]=Absent|SpaceAfter=No
-8	.	.	PUNCT	_	_	5	punct	_	AlignBegin=101535|AlignEnd=101535
+1	alors	alors	ADV	_	_	5	advmod	_	SpaceAfter=No|WordAlignmentBegin=99815|WordAlignmentEnd=100030
+2	,	,	PUNCT	_	_	1	punct	_	WordAlignmentBegin=100030|WordAlignmentEnd=100030
+3	nous	nous	PRON	_	Case=Nom|Emph=No|Number=Plur|Person=1|PronType=Prs	5	nsubj	_	Exponence[Number]=Inherent|Exponence[Person]=Inherent|WordAlignmentBegin=100030|WordAlignmentEnd=100140
+4	sommes	être	AUX	_	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	5	aux:tense	_	WordAlignmentBegin=100140|WordAlignmentEnd=100380
+5	partis	partir	VERB	_	Gender=Masc|Number=Plur|VerbForm=Part|Voice=Act	0	root	_	Exponence[Gender]=Absent|Exponence[Number]=Absent|PastPartHasSpokenGender=NotInThisDialect|Tense[denom]=Past|WordAlignmentBegin=100380|WordAlignmentEnd=100760
+6	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	HasSpokenGender=OnlySingExceptWithLiaison|WordAlignmentBegin=100760|WordAlignmentEnd=100880
+7	lendemain	lendemain	NOUN	_	Gender=Masc|Number=Sing	5	obl:mod	_	Exponence[Gender]=Inherent|Exponence[Number]=Absent|SpaceAfter=No|WordAlignmentBegin=100880|WordAlignmentEnd=101535
+8	.	.	PUNCT	_	_	5	punct	_	WordAlignmentBegin=101535|WordAlignmentEnd=101535
 
 # sent_id = Rhap_D0003-47
 # prosodic_annotation = yes
@@ -803,36 +803,36 @@
 # speaker_id = §LF5
 # macrosyntax = nous avons attendu "je crois" { sept | ^ou huit } heures dans la gare parce que { tous les officiers allemands | tout l'état major allemand } rentraient à Paris //
 # text = nous avons attendu, je crois, sept ou huit heures dans la gare parce que tous les officiers allemands, tout l'état major allemand rentraient à Paris.
-1	nous	nous	PRON	_	Case=Nom|Emph=No|Number=Plur|Person=1|PronType=Prs	3	nsubj	_	AlignBegin=102592|AlignEnd=102857|Exponence[Number]=Inherent|Exponence[Person]=Inherent
-2	avons	avoir	AUX	_	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	3	aux:tense	_	AlignBegin=102857|AlignEnd=103067
-3	attendu	attendre	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Act	0	root	_	AlignBegin=103067|AlignEnd=103577|Exponence[Gender]=Absent|Exponence[Number]=Absent|PastPartHasSpokenGender=NotInThisDialect|SpaceAfter=No|Tense[denom]=Past
-4	,	,	PUNCT	_	_	6	punct	_	AlignBegin=103577|AlignEnd=103577
-5	je	moi	PRON	_	Case=Nom|Emph=No|Number=Sing|Person=1|PronType=Prs	6	nsubj	_	AlignBegin=103577|AlignEnd=103707|Exponence[Number]=Inherent|Exponence[Person]=Inherent
-6	crois	croire	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	3	discourse	_	AlignBegin=103707|AlignEnd=103867|Exponence[Person]=Absent|SpaceAfter=No
-7	,	,	PUNCT	_	_	11	punct	_	AlignBegin=103867|AlignEnd=103867
-8	sept	sept	NUM	_	Number=Plur	11	nummod	_	AlignBegin=103867|AlignEnd=104187|Exponence[Number]=Inherent
-9	ou	ou	CCONJ	_	_	10	cc	_	AlignBegin=104187|AlignEnd=104297
-10	huit	huit	NUM	_	Number=Plur	8	conj	_	AlignBegin=104297|AlignEnd=104517|Exponence[Number]=Inherent
-11	heures	heure	NOUN	_	Gender=Fem|Number=Plur	3	obj	_	AlignBegin=104517|AlignEnd=104727|Exponence[Gender]=Inherent|Exponence[Number]=Absent|LiaisonPossibleBefore=Yes
-12	dans	dans	ADP	_	_	14	case	_	AlignBegin=104727|AlignEnd=104867
-13	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	14	det	_	AlignBegin=104867|AlignEnd=104967|HasSpokenGender=OnlySingExceptWithLiaison
-14	gare	gare	NOUN	_	Gender=Fem|Number=Sing	3	obl:mod	_	AlignBegin=104967|AlignEnd=105671|Exponence[Gender]=Inherent|Exponence[Number]=Absent
-15	parce	parce	ADV	_	ExtPos=SCONJ	27	mark	_	AlignBegin=106264|AlignEnd=106459|Idiom=Yes
-16	que	que	SCONJ	_	_	15	fixed	_	AlignBegin=106459|AlignEnd=106649|InIdiom=Yes
-17	tous	tout	ADJ	_	Gender=Masc|Number=Plur	19	amod	_	AlignBegin=106649|AlignEnd=106809|Exponence[Number]=Absent|HasSpokenGender=YesExceptSingWithLiaison|HasSpokenNumber=OnlyWithLiaison
-18	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	19	det	_	AlignBegin=106809|AlignEnd=106949|HasSpokenGender=OnlySingExceptWithLiaison|LiaisonAfter=Yes
-19	officiers	officier	NOUN	_	Gender=Masc|Number=Plur	27	nsubj	_	AlignBegin=106949|AlignEnd=107299|Exponence[Gender]=Inherent|Exponence[Number]=Absent|LiaisonPossibleBefore=Yes
-20	allemands	allemand	ADJ	_	Gender=Masc|Number=Plur	19	amod	_	AlignBegin=107299|AlignEnd=107659|Exponence[Number]=Absent|HasSpokenGender=YesExceptSingWithLiaison|HasSpokenNumber=OnlyWithLiaison|SpaceAfter=No
-21	,	,	PUNCT	_	_	24	punct	_	AlignBegin=107659|AlignEnd=107659
-22	tout	tout	ADJ	_	Gender=Masc|Number=Sing	24	amod	_	AlignBegin=107659|AlignEnd=107779|Exponence[Number]=Absent|HasSpokenGender=YesExceptSingWithLiaison|HasSpokenNumber=OnlyWithLiaison
-23	l'	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	24	det	_	AlignBegin=107779|AlignEnd=107855|Exponence[Gender]=Absent|HasSpokenGender=OnlySingExceptWithLiaison|LiaisonAfter=Yes|SpaceAfter=No
-24	état	état	NOUN	_	Gender=Masc|Number=Sing	19	appos	_	AlignBegin=107855|AlignEnd=108049|Exponence[Gender]=Inherent|Exponence[Number]=Absent|LiaisonPossibleBefore=Yes
-25	major	major	NOUN	_	Gender=Masc|Number=Sing	24	compound	_	AlignBegin=108049|AlignEnd=108359|Exponence[Gender]=Inherent|Exponence[Number]=Absent
-26	allemand	allemand	ADJ	_	Gender=Masc|Number=Sing	24	amod	_	AlignBegin=108359|AlignEnd=108619|Exponence[Number]=Absent|HasSpokenGender=YesExceptSingWithLiaison|HasSpokenNumber=OnlyWithLiaison
-27	rentraient	rentrer	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	3	advcl	_	AlignBegin=108619|AlignEnd=108909|Exponence[Number]=Absent
-28	à	à	ADP	_	_	29	case	_	AlignBegin=108909|AlignEnd=108999
-29	Paris	Paris	PROPN	_	_	27	obl:arg	_	AlignBegin=108999|AlignEnd=109394|SpaceAfter=No
-30	.	.	PUNCT	_	_	3	punct	_	AlignBegin=109394|AlignEnd=109394
+1	nous	nous	PRON	_	Case=Nom|Emph=No|Number=Plur|Person=1|PronType=Prs	3	nsubj	_	Exponence[Number]=Inherent|Exponence[Person]=Inherent|WordAlignmentBegin=102592|WordAlignmentEnd=102857
+2	avons	avoir	AUX	_	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	3	aux:tense	_	WordAlignmentBegin=102857|WordAlignmentEnd=103067
+3	attendu	attendre	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Act	0	root	_	Exponence[Gender]=Absent|Exponence[Number]=Absent|PastPartHasSpokenGender=NotInThisDialect|SpaceAfter=No|Tense[denom]=Past|WordAlignmentBegin=103067|WordAlignmentEnd=103577
+4	,	,	PUNCT	_	_	6	punct	_	WordAlignmentBegin=103577|WordAlignmentEnd=103577
+5	je	moi	PRON	_	Case=Nom|Emph=No|Number=Sing|Person=1|PronType=Prs	6	nsubj	_	Exponence[Number]=Inherent|Exponence[Person]=Inherent|WordAlignmentBegin=103577|WordAlignmentEnd=103707
+6	crois	croire	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	3	discourse	_	Exponence[Person]=Absent|SpaceAfter=No|WordAlignmentBegin=103707|WordAlignmentEnd=103867
+7	,	,	PUNCT	_	_	11	punct	_	WordAlignmentBegin=103867|WordAlignmentEnd=103867
+8	sept	sept	NUM	_	Number=Plur	11	nummod	_	Exponence[Number]=Inherent|WordAlignmentBegin=103867|WordAlignmentEnd=104187
+9	ou	ou	CCONJ	_	_	10	cc	_	WordAlignmentBegin=104187|WordAlignmentEnd=104297
+10	huit	huit	NUM	_	Number=Plur	8	conj	_	Exponence[Number]=Inherent|WordAlignmentBegin=104297|WordAlignmentEnd=104517
+11	heures	heure	NOUN	_	Gender=Fem|Number=Plur	3	obj	_	Exponence[Gender]=Inherent|Exponence[Number]=Absent|LiaisonPossibleBefore=Yes|WordAlignmentBegin=104517|WordAlignmentEnd=104727
+12	dans	dans	ADP	_	_	14	case	_	WordAlignmentBegin=104727|WordAlignmentEnd=104867
+13	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	14	det	_	HasSpokenGender=OnlySingExceptWithLiaison|WordAlignmentBegin=104867|WordAlignmentEnd=104967
+14	gare	gare	NOUN	_	Gender=Fem|Number=Sing	3	obl:mod	_	Exponence[Gender]=Inherent|Exponence[Number]=Absent|WordAlignmentBegin=104967|WordAlignmentEnd=105671
+15	parce	parce	ADV	_	ExtPos=SCONJ	27	mark	_	Idiom=Yes|WordAlignmentBegin=106264|WordAlignmentEnd=106459
+16	que	que	SCONJ	_	_	15	fixed	_	InIdiom=Yes|WordAlignmentBegin=106459|WordAlignmentEnd=106649
+17	tous	tout	ADJ	_	Gender=Masc|Number=Plur	19	amod	_	Exponence[Number]=Absent|HasSpokenGender=YesExceptSingWithLiaison|HasSpokenNumber=OnlyWithLiaison|WordAlignmentBegin=106649|WordAlignmentEnd=106809
+18	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	19	det	_	HasSpokenGender=OnlySingExceptWithLiaison|LiaisonAfter=Yes|WordAlignmentBegin=106809|WordAlignmentEnd=106949
+19	officiers	officier	NOUN	_	Gender=Masc|Number=Plur	27	nsubj	_	Exponence[Gender]=Inherent|Exponence[Number]=Absent|LiaisonPossibleBefore=Yes|WordAlignmentBegin=106949|WordAlignmentEnd=107299
+20	allemands	allemand	ADJ	_	Gender=Masc|Number=Plur	19	amod	_	Exponence[Number]=Absent|HasSpokenGender=YesExceptSingWithLiaison|HasSpokenNumber=OnlyWithLiaison|SpaceAfter=No|WordAlignmentBegin=107299|WordAlignmentEnd=107659
+21	,	,	PUNCT	_	_	24	punct	_	WordAlignmentBegin=107659|WordAlignmentEnd=107659
+22	tout	tout	ADJ	_	Gender=Masc|Number=Sing	24	amod	_	Exponence[Number]=Absent|HasSpokenGender=YesExceptSingWithLiaison|HasSpokenNumber=OnlyWithLiaison|WordAlignmentBegin=107659|WordAlignmentEnd=107779
+23	l'	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	24	det	_	Exponence[Gender]=Absent|HasSpokenGender=OnlySingExceptWithLiaison|LiaisonAfter=Yes|SpaceAfter=No|WordAlignmentBegin=107779|WordAlignmentEnd=107855
+24	état	état	NOUN	_	Gender=Masc|Number=Sing	19	appos	_	Exponence[Gender]=Inherent|Exponence[Number]=Absent|LiaisonPossibleBefore=Yes|WordAlignmentBegin=107855|WordAlignmentEnd=108049
+25	major	major	NOUN	_	Gender=Masc|Number=Sing	24	compound	_	Exponence[Gender]=Inherent|Exponence[Number]=Absent|WordAlignmentBegin=108049|WordAlignmentEnd=108359
+26	allemand	allemand	ADJ	_	Gender=Masc|Number=Sing	24	amod	_	Exponence[Number]=Absent|HasSpokenGender=YesExceptSingWithLiaison|HasSpokenNumber=OnlyWithLiaison|WordAlignmentBegin=108359|WordAlignmentEnd=108619
+27	rentraient	rentrer	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	3	advcl	_	Exponence[Number]=Absent|WordAlignmentBegin=108619|WordAlignmentEnd=108909
+28	à	à	ADP	_	_	29	case	_	WordAlignmentBegin=108909|WordAlignmentEnd=108999
+29	Paris	Paris	PROPN	_	_	27	obl:arg	_	SpaceAfter=No|WordAlignmentBegin=108999|WordAlignmentEnd=109394
+30	.	.	PUNCT	_	_	3	punct	_	WordAlignmentBegin=109394|WordAlignmentEnd=109394
 
 # sent_id = Rhap_D0003-48
 # prosodic_annotation = yes
@@ -840,8 +840,8 @@
 # speaker_id = §LF4
 # macrosyntax = ( $L1 "mh")
 # text = mh.
-1	mh	mh	INTJ	_	_	0	root	_	AlignBegin=109543|AlignEnd=109841|Backchannel=Rhap_D0003-47::2|SpaceAfter=No
-2	.	.	PUNCT	_	_	1	punct	_	AlignBegin=109841|AlignEnd=109841
+1	mh	mh	INTJ	_	_	0	root	_	Backchannel=Rhap_D0003-47::2|SpaceAfter=No|WordAlignmentBegin=109543|WordAlignmentEnd=109841
+2	.	.	PUNCT	_	_	1	punct	_	WordAlignmentBegin=109841|WordAlignmentEnd=109841
 
 # sent_id = Rhap_D0003-49
 # prosodic_annotation = yes
@@ -849,13 +849,13 @@
 # speaker_id = §LF5
 # macrosyntax = $L2 alors < les trains étaient complets //
 # text = alors, les trains étaient complets.
-1	alors	alors	ADV	_	_	6	advmod	_	AlignBegin=109841|AlignEnd=110091|SpaceAfter=No
-2	,	,	PUNCT	_	_	1	punct	_	AlignBegin=110091|AlignEnd=110091
-3	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	4	det	_	AlignBegin=110091|AlignEnd=110198|HasSpokenGender=OnlySingExceptWithLiaison
-4	trains	train	NOUN	_	Gender=Masc|Number=Plur	6	nsubj	_	AlignBegin=110198|AlignEnd=110516|Exponence[Gender]=Inherent|Exponence[Number]=Absent
-5	étaient	être	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	6	cop	_	AlignBegin=110516|AlignEnd=110696
-6	complets	complet	ADJ	_	Gender=Masc|Number=Plur	0	root	_	AlignBegin=110696|AlignEnd=111086|Exponence[Number]=Absent|HasSpokenGender=YesExceptSingWithLiaison|HasSpokenNumber=OnlyWithLiaison|SpaceAfter=No
-7	.	.	PUNCT	_	_	6	punct	_	AlignBegin=111086|AlignEnd=111086
+1	alors	alors	ADV	_	_	6	advmod	_	SpaceAfter=No|WordAlignmentBegin=109841|WordAlignmentEnd=110091
+2	,	,	PUNCT	_	_	1	punct	_	WordAlignmentBegin=110091|WordAlignmentEnd=110091
+3	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	4	det	_	HasSpokenGender=OnlySingExceptWithLiaison|WordAlignmentBegin=110091|WordAlignmentEnd=110198
+4	trains	train	NOUN	_	Gender=Masc|Number=Plur	6	nsubj	_	Exponence[Gender]=Inherent|Exponence[Number]=Absent|WordAlignmentBegin=110198|WordAlignmentEnd=110516
+5	étaient	être	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	6	cop	_	WordAlignmentBegin=110516|WordAlignmentEnd=110696
+6	complets	complet	ADJ	_	Gender=Masc|Number=Plur	0	root	_	Exponence[Number]=Absent|HasSpokenGender=YesExceptSingWithLiaison|HasSpokenNumber=OnlyWithLiaison|SpaceAfter=No|WordAlignmentBegin=110696|WordAlignmentEnd=111086
+7	.	.	PUNCT	_	_	6	punct	_	WordAlignmentBegin=111086|WordAlignmentEnd=111086
 
 # sent_id = Rhap_D0003-50
 # prosodic_annotation = yes
@@ -863,16 +863,16 @@
 # speaker_id = §LF5
 # macrosyntax = ça < c'était l' { ha~ | l'habitude } //
 # text = ça, c'était l'ha~, l'habitude.
-1	ça	ça	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	9	dislocated:subj	_	AlignBegin=111086|AlignEnd=111296|Exponence[Gender]=Inherent|Exponence[Number]=Inherent|Exponence[Person]=Inherent|SpaceAfter=No
-2	,	,	PUNCT	_	_	1	punct	_	AlignBegin=111296|AlignEnd=111296
-3	c'	ce	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	9	nsubj	_	AlignBegin=111296|AlignEnd=111726|Exponence[Gender]=Inherent|Exponence[Number]=Inherent|Exponence[Person]=Inherent|SpaceAfter=No
-4	était	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	9	cop	_	AlignBegin=111296|AlignEnd=111726
-5	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	6	det	_	AlignBegin=111726|AlignEnd=111886|HasSpokenGender=OnlySingExceptWithLiaison|SpaceAfter=No
-6	ha~	ha~	X	_	ExtPos=NOUN	9	reparandum	_	AlignBegin=111726|AlignEnd=111886|SpaceAfter=No
-7	,	,	PUNCT	_	_	6	punct	_	AlignBegin=111886|AlignEnd=111886
-8	l'	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	9	det	_	AlignBegin=111886|AlignEnd=112416|Exponence[Gender]=Absent|HasSpokenGender=OnlySingExceptWithLiaison|LiaisonAfter=Yes|SpaceAfter=No
-9	habitude	habitude	NOUN	_	Gender=Fem|Number=Sing	0	root	_	AlignBegin=111886|AlignEnd=112416|Exponence[Gender]=Inherent|Exponence[Number]=Absent|LiaisonPossibleBefore=Yes|SpaceAfter=No
-10	.	.	PUNCT	_	_	9	punct	_	AlignBegin=112416|AlignEnd=112416
+1	ça	ça	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	9	dislocated:subj	_	Exponence[Gender]=Inherent|Exponence[Number]=Inherent|Exponence[Person]=Inherent|SpaceAfter=No|WordAlignmentBegin=111086|WordAlignmentEnd=111296
+2	,	,	PUNCT	_	_	1	punct	_	WordAlignmentBegin=111296|WordAlignmentEnd=111296
+3	c'	ce	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	9	nsubj	_	Exponence[Gender]=Inherent|Exponence[Number]=Inherent|Exponence[Person]=Inherent|SpaceAfter=No|WordAlignmentBegin=111296|WordAlignmentEnd=111726
+4	était	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	9	cop	_	WordAlignmentBegin=111296|WordAlignmentEnd=111726
+5	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	6	det	_	HasSpokenGender=OnlySingExceptWithLiaison|SpaceAfter=No|WordAlignmentBegin=111726|WordAlignmentEnd=111886
+6	ha~	ha~	X	_	ExtPos=NOUN	9	reparandum	_	SpaceAfter=No|WordAlignmentBegin=111726|WordAlignmentEnd=111886
+7	,	,	PUNCT	_	_	6	punct	_	WordAlignmentBegin=111886|WordAlignmentEnd=111886
+8	l'	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	9	det	_	Exponence[Gender]=Absent|HasSpokenGender=OnlySingExceptWithLiaison|LiaisonAfter=Yes|SpaceAfter=No|WordAlignmentBegin=111886|WordAlignmentEnd=112416
+9	habitude	habitude	NOUN	_	Gender=Fem|Number=Sing	0	root	_	Exponence[Gender]=Inherent|Exponence[Number]=Absent|LiaisonPossibleBefore=Yes|SpaceAfter=No|WordAlignmentBegin=111886|WordAlignmentEnd=112416
+10	.	.	PUNCT	_	_	9	punct	_	WordAlignmentBegin=112416|WordAlignmentEnd=112416
 
 # sent_id = Rhap_D0003-51
 # prosodic_annotation = yes
@@ -880,20 +880,20 @@
 # speaker_id = §LF5
 # macrosyntax = dès qu'il y avait quelque chose <+ ça se passait comme ça //
 # text = dès qu'il y avait quelque chose, ça se passait comme ça.
-1	dès	dès	ADP	_	_	5	mark	_	AlignBegin=112416|AlignEnd=112571
-2	qu'	que	SCONJ	_	_	5	mark	_	AlignBegin=112571|AlignEnd=112631|SpaceAfter=No
-3	il	lui	PRON	_	Case=Nom|Emph=No|Gender=Masc|Number=Sing|Person=3|PronType=Prs	5	expl:subj	_	AlignBegin=112571|AlignEnd=112631|Exponence[Person]=Inherent
-4	y	y	PRON	_	Person=3|PronType=Prs	5	expl:comp	_	AlignBegin=112631|AlignEnd=112671|Exponence[Person]=Inherent
-5	avait	avoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	11	advcl	_	AlignBegin=112671|AlignEnd=112781|Exponence[Number]=Absent|Exponence[Person]=Absent
-6	quelque	quelque	DET	_	Number=Sing|PronType=Ind	7	det	_	AlignBegin=112781|AlignEnd=112991|Exponence[Number]=Inherent
-7	chose	chose	NOUN	_	Gender=Fem|Number=Sing	5	obj	_	AlignBegin=112991|AlignEnd=113191|Exponence[Gender]=Inherent|Exponence[Number]=Absent|SpaceAfter=No
-8	,	,	PUNCT	_	_	5	punct	_	AlignBegin=113191|AlignEnd=113191
-9	ça	ça	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	11	nsubj	_	AlignBegin=113191|AlignEnd=113311|Exponence[Gender]=Inherent|Exponence[Number]=Inherent|Exponence[Person]=Inherent
-10	se	soi	PRON	_	Person=3|PronType=Prs|Reflex=Yes	11	expl:pv	_	AlignBegin=113311|AlignEnd=113411|Exponence[Person]=Inherent
-11	passait	passer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	AlignBegin=113411|AlignEnd=113691|Exponence[Number]=Absent|Exponence[Person]=Absent
-12	comme	comme	ADP	_	_	13	case	_	AlignBegin=113691|AlignEnd=113841
-13	ça	ça	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	11	obl:arg	_	AlignBegin=113841|AlignEnd=114069|Exponence[Gender]=Inherent|Exponence[Number]=Inherent|Exponence[Person]=Inherent|SpaceAfter=No
-14	.	.	PUNCT	_	_	11	punct	_	AlignBegin=114069|AlignEnd=114069
+1	dès	dès	ADP	_	_	5	mark	_	WordAlignmentBegin=112416|WordAlignmentEnd=112571
+2	qu'	que	SCONJ	_	_	5	mark	_	SpaceAfter=No|WordAlignmentBegin=112571|WordAlignmentEnd=112631
+3	il	lui	PRON	_	Case=Nom|Emph=No|Gender=Masc|Number=Sing|Person=3|PronType=Prs	5	expl:subj	_	Exponence[Person]=Inherent|WordAlignmentBegin=112571|WordAlignmentEnd=112631
+4	y	y	PRON	_	Person=3|PronType=Prs	5	expl:comp	_	Exponence[Person]=Inherent|WordAlignmentBegin=112631|WordAlignmentEnd=112671
+5	avait	avoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	11	advcl	_	Exponence[Number]=Absent|Exponence[Person]=Absent|WordAlignmentBegin=112671|WordAlignmentEnd=112781
+6	quelque	quelque	DET	_	Number=Sing|PronType=Ind	7	det	_	Exponence[Number]=Inherent|WordAlignmentBegin=112781|WordAlignmentEnd=112991
+7	chose	chose	NOUN	_	Gender=Fem|Number=Sing	5	obj	_	Exponence[Gender]=Inherent|Exponence[Number]=Absent|SpaceAfter=No|WordAlignmentBegin=112991|WordAlignmentEnd=113191
+8	,	,	PUNCT	_	_	5	punct	_	WordAlignmentBegin=113191|WordAlignmentEnd=113191
+9	ça	ça	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	11	nsubj	_	Exponence[Gender]=Inherent|Exponence[Number]=Inherent|Exponence[Person]=Inherent|WordAlignmentBegin=113191|WordAlignmentEnd=113311
+10	se	soi	PRON	_	Person=3|PronType=Prs|Reflex=Yes	11	expl:pv	_	Exponence[Person]=Inherent|WordAlignmentBegin=113311|WordAlignmentEnd=113411
+11	passait	passer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	Exponence[Number]=Absent|Exponence[Person]=Absent|WordAlignmentBegin=113411|WordAlignmentEnd=113691
+12	comme	comme	ADP	_	_	13	case	_	WordAlignmentBegin=113691|WordAlignmentEnd=113841
+13	ça	ça	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	11	obl:arg	_	Exponence[Gender]=Inherent|Exponence[Number]=Inherent|Exponence[Person]=Inherent|SpaceAfter=No|WordAlignmentBegin=113841|WordAlignmentEnd=114069
+14	.	.	PUNCT	_	_	11	punct	_	WordAlignmentBegin=114069|WordAlignmentEnd=114069
 
 # sent_id = Rhap_D0003-52
 # prosodic_annotation = yes
@@ -901,11 +901,11 @@
 # speaker_id = §LF5
 # macrosyntax = c'était pas anormal //
 # text = c'était pas anormal.
-1	c'	ce	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	4	nsubj	_	AlignBegin=114069|AlignEnd=114159|Exponence[Gender]=Inherent|Exponence[Number]=Inherent|Exponence[Person]=Inherent|SpaceAfter=No
-2	était	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	4	cop	_	AlignBegin=114159|AlignEnd=114349
-3	pas	pas	ADV	_	Polarity=Neg	4	advmod	_	AlignBegin=114349|AlignEnd=114689
-4	anormal	anormal	ADJ	_	Gender=Masc|Number=Sing	0	root	_	AlignBegin=114689|AlignEnd=115214|Exponence[Gender]=Absent|HasSpokenGender=OnlyPlur|HasSpokenNumber=AlwaysMasc|SpaceAfter=No
-5	.	.	PUNCT	_	_	4	punct	_	AlignBegin=115214|AlignEnd=115214
+1	c'	ce	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	4	nsubj	_	Exponence[Gender]=Inherent|Exponence[Number]=Inherent|Exponence[Person]=Inherent|SpaceAfter=No|WordAlignmentBegin=114069|WordAlignmentEnd=114159
+2	était	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	4	cop	_	WordAlignmentBegin=114159|WordAlignmentEnd=114349
+3	pas	pas	ADV	_	Polarity=Neg	4	advmod	_	WordAlignmentBegin=114349|WordAlignmentEnd=114689
+4	anormal	anormal	ADJ	_	Gender=Masc|Number=Sing	0	root	_	Exponence[Gender]=Absent|HasSpokenGender=OnlyPlur|HasSpokenNumber=AlwaysMasc|SpaceAfter=No|WordAlignmentBegin=114689|WordAlignmentEnd=115214
+5	.	.	PUNCT	_	_	4	punct	_	WordAlignmentBegin=115214|WordAlignmentEnd=115214
 
 # sent_id = Rhap_D0003-53
 # prosodic_annotation = yes
@@ -913,15 +913,15 @@
 # speaker_id = §LF5
 # macrosyntax = ^et finalement < nous sommes rentrés à Paris //
 # text = et finalement, nous sommes rentrés à Paris.
-1	et	et	CCONJ	_	_	6	cc	_	AlignBegin=115702|AlignEnd=115827
-2	finalement	finalement	ADV	_	_	6	advmod	_	AlignBegin=115827|AlignEnd=116367|SpaceAfter=No
-3	,	,	PUNCT	_	_	2	punct	_	AlignBegin=116367|AlignEnd=116367
-4	nous	nous	PRON	_	Case=Nom|Emph=No|Number=Plur|Person=1|PronType=Prs	6	nsubj:pass	_	AlignBegin=116367|AlignEnd=116447|Exponence[Number]=Inherent|Exponence[Person]=Inherent
-5	sommes	être	AUX	_	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	6	aux:pass	_	AlignBegin=116447|AlignEnd=116717
-6	rentrés	rentrer	VERB	_	Gender=Masc|Number=Plur|VerbForm=Part|Voice=Pass	0	root	_	AlignBegin=116717|AlignEnd=117087|Exponence[Gender]=Absent|Exponence[Number]=Absent|PastPartHasSpokenGender=NotInThisDialect|Tense[denom]=Past
-7	à	à	ADP	_	_	8	case	_	AlignBegin=117087|AlignEnd=117187
-8	Paris	Paris	PROPN	_	_	6	obl:arg	_	AlignBegin=117187|AlignEnd=117867|SpaceAfter=No
-9	.	.	PUNCT	_	_	6	punct	_	AlignBegin=117867|AlignEnd=117867
+1	et	et	CCONJ	_	_	6	cc	_	WordAlignmentBegin=115702|WordAlignmentEnd=115827
+2	finalement	finalement	ADV	_	_	6	advmod	_	SpaceAfter=No|WordAlignmentBegin=115827|WordAlignmentEnd=116367
+3	,	,	PUNCT	_	_	2	punct	_	WordAlignmentBegin=116367|WordAlignmentEnd=116367
+4	nous	nous	PRON	_	Case=Nom|Emph=No|Number=Plur|Person=1|PronType=Prs	6	nsubj:pass	_	Exponence[Number]=Inherent|Exponence[Person]=Inherent|WordAlignmentBegin=116367|WordAlignmentEnd=116447
+5	sommes	être	AUX	_	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	6	aux:pass	_	WordAlignmentBegin=116447|WordAlignmentEnd=116717
+6	rentrés	rentrer	VERB	_	Gender=Masc|Number=Plur|VerbForm=Part|Voice=Pass	0	root	_	Exponence[Gender]=Absent|Exponence[Number]=Absent|PastPartHasSpokenGender=NotInThisDialect|Tense[denom]=Past|WordAlignmentBegin=116717|WordAlignmentEnd=117087
+7	à	à	ADP	_	_	8	case	_	WordAlignmentBegin=117087|WordAlignmentEnd=117187
+8	Paris	Paris	PROPN	_	_	6	obl:arg	_	SpaceAfter=No|WordAlignmentBegin=117187|WordAlignmentEnd=117867
+9	.	.	PUNCT	_	_	6	punct	_	WordAlignmentBegin=117867|WordAlignmentEnd=117867
 
 # sent_id = Rhap_D0003-54
 # prosodic_annotation = yes
@@ -929,16 +929,16 @@
 # speaker_id = §LF5
 # macrosyntax = ^et nous nous sommes installés dans ce petit appartement //
 # text = et nous nous sommes installés dans ce petit appartement.
-1	et	et	CCONJ	_	_	5	cc	_	AlignBegin=118440|AlignEnd=118570
-2	nous	nous	PRON	_	Case=Nom|Emph=No|Number=Plur|Person=1|PronType=Prs	5	nsubj	_	AlignBegin=118570|AlignEnd=118684|Exponence[Number]=Inherent|Exponence[Person]=Inherent
-3	nous	nous	PRON	_	Case=Nom|Emph=No|Number=Plur|Person=1|PronType=Prs	5	obj	_	AlignBegin=118684|AlignEnd=118770|Exponence[Number]=Inherent|Exponence[Person]=Inherent
-4	sommes	être	AUX	_	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	5	aux:tense	_	AlignBegin=118770|AlignEnd=119018
-5	installés	installer	VERB	_	Gender=Masc|Number=Plur|VerbForm=Part|Voice=Act	0	root	_	AlignBegin=119018|AlignEnd=119600|Exponence[Gender]=Absent|Exponence[Number]=Absent|PastPartHasSpokenGender=NotInThisDialect|Tense[denom]=Past
-6	dans	dans	ADP	_	_	9	case	_	AlignBegin=119600|AlignEnd=119740
-7	ce	ce	DET	_	Gender=Masc|Number=Sing|PronType=Dem	9	det	_	AlignBegin=119740|AlignEnd=119871|HasSpokenGender=OnlySingExceptWithLiaison
-8	petit	petit	ADJ	_	Gender=Masc|Number=Sing	9	amod	_	AlignBegin=119948|AlignEnd=120190|Exponence[Gender]=Absent|HasSpokenGender=No|HasSpokenNumber=OnlyWithLiaison|LiaisonAfter=Yes
-9	appartement	appartement	NOUN	_	Gender=Masc|Number=Sing	5	obl:arg	_	AlignBegin=120190|AlignEnd=120861|Exponence[Gender]=Inherent|Exponence[Number]=Absent|LiaisonPossibleBefore=Yes|SpaceAfter=No
-10	.	.	PUNCT	_	_	5	punct	_	AlignBegin=120861|AlignEnd=120861
+1	et	et	CCONJ	_	_	5	cc	_	WordAlignmentBegin=118440|WordAlignmentEnd=118570
+2	nous	nous	PRON	_	Case=Nom|Emph=No|Number=Plur|Person=1|PronType=Prs	5	nsubj	_	Exponence[Number]=Inherent|Exponence[Person]=Inherent|WordAlignmentBegin=118570|WordAlignmentEnd=118684
+3	nous	nous	PRON	_	Case=Nom|Emph=No|Number=Plur|Person=1|PronType=Prs	5	obj	_	Exponence[Number]=Inherent|Exponence[Person]=Inherent|WordAlignmentBegin=118684|WordAlignmentEnd=118770
+4	sommes	être	AUX	_	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	5	aux:tense	_	WordAlignmentBegin=118770|WordAlignmentEnd=119018
+5	installés	installer	VERB	_	Gender=Masc|Number=Plur|VerbForm=Part|Voice=Act	0	root	_	Exponence[Gender]=Absent|Exponence[Number]=Absent|PastPartHasSpokenGender=NotInThisDialect|Tense[denom]=Past|WordAlignmentBegin=119018|WordAlignmentEnd=119600
+6	dans	dans	ADP	_	_	9	case	_	WordAlignmentBegin=119600|WordAlignmentEnd=119740
+7	ce	ce	DET	_	Gender=Masc|Number=Sing|PronType=Dem	9	det	_	HasSpokenGender=OnlySingExceptWithLiaison|WordAlignmentBegin=119740|WordAlignmentEnd=119871
+8	petit	petit	ADJ	_	Gender=Masc|Number=Sing	9	amod	_	Exponence[Gender]=Absent|HasSpokenGender=No|HasSpokenNumber=OnlyWithLiaison|LiaisonAfter=Yes|WordAlignmentBegin=119948|WordAlignmentEnd=120190
+9	appartement	appartement	NOUN	_	Gender=Masc|Number=Sing	5	obl:arg	_	Exponence[Gender]=Inherent|Exponence[Number]=Absent|LiaisonPossibleBefore=Yes|SpaceAfter=No|WordAlignmentBegin=120190|WordAlignmentEnd=120861
+10	.	.	PUNCT	_	_	5	punct	_	WordAlignmentBegin=120861|WordAlignmentEnd=120861
 
 # sent_id = Rhap_D0003-55
 # prosodic_annotation = yes
@@ -946,15 +946,15 @@
 # speaker_id = §LF5
 # macrosyntax = ^et nous sommes plus jamais repartis de Paris //
 # text = et nous sommes plus jamais repartis de Paris.
-1	et	et	CCONJ	_	_	6	cc	_	AlignBegin=120861|AlignEnd=120880
-2	nous	nous	PRON	_	Case=Nom|Emph=No|Number=Plur|Person=1|PronType=Prs	6	nsubj:pass	_	AlignBegin=120880|AlignEnd=120990|Exponence[Number]=Inherent|Exponence[Person]=Inherent
-3	sommes	être	AUX	_	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	6	aux:pass	_	AlignBegin=120990|AlignEnd=121200
-4	plus	plus	ADV	_	_	5	advmod	_	AlignBegin=121200|AlignEnd=121340
-5	jamais	jamais	ADV	_	PronType=Neg	6	advmod	_	AlignBegin=121340|AlignEnd=121690
-6	repartis	repartir	VERB	_	Gender=Masc|Number=Plur|VerbForm=Part|Voice=Pass	0	root	_	AlignBegin=121690|AlignEnd=122140|Exponence[Gender]=Absent|Exponence[Number]=Absent|PastPartHasSpokenGender=NotInThisDialect|Tense[denom]=Past
-7	de	de	ADP	_	_	8	case	_	AlignBegin=122140|AlignEnd=122180
-8	Paris	Paris	PROPN	_	_	6	obl:arg	_	AlignBegin=122180|AlignEnd=122516|SpaceAfter=No
-9	.	.	PUNCT	_	_	6	punct	_	AlignBegin=122516|AlignEnd=122516
+1	et	et	CCONJ	_	_	6	cc	_	WordAlignmentBegin=120861|WordAlignmentEnd=120880
+2	nous	nous	PRON	_	Case=Nom|Emph=No|Number=Plur|Person=1|PronType=Prs	6	nsubj:pass	_	Exponence[Number]=Inherent|Exponence[Person]=Inherent|WordAlignmentBegin=120880|WordAlignmentEnd=120990
+3	sommes	être	AUX	_	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	6	aux:pass	_	WordAlignmentBegin=120990|WordAlignmentEnd=121200
+4	plus	plus	ADV	_	_	5	advmod	_	WordAlignmentBegin=121200|WordAlignmentEnd=121340
+5	jamais	jamais	ADV	_	PronType=Neg	6	advmod	_	WordAlignmentBegin=121340|WordAlignmentEnd=121690
+6	repartis	repartir	VERB	_	Gender=Masc|Number=Plur|VerbForm=Part|Voice=Pass	0	root	_	Exponence[Gender]=Absent|Exponence[Number]=Absent|PastPartHasSpokenGender=NotInThisDialect|Tense[denom]=Past|WordAlignmentBegin=121690|WordAlignmentEnd=122140
+7	de	de	ADP	_	_	8	case	_	WordAlignmentBegin=122140|WordAlignmentEnd=122180
+8	Paris	Paris	PROPN	_	_	6	obl:arg	_	SpaceAfter=No|WordAlignmentBegin=122180|WordAlignmentEnd=122516
+9	.	.	PUNCT	_	_	6	punct	_	WordAlignmentBegin=122516|WordAlignmentEnd=122516
 
 # sent_id = Rhap_D0003-56
 # prosodic_annotation = yes
@@ -962,26 +962,26 @@
 # speaker_id = §LF5
 # macrosyntax = $- on est toujours restés à ( $L1 "ah" oui // ) -$ Paris > en allant fidèlement en Bretagne "euh" $- >+ { souvent | ^et l'été } //
 # text = on est toujours resté à Paris en allant fidèlement en Bretagne, euh, souvent, et l'été.
-1	on	on	PRON	_	Case=Nom|Emph=No|Gender=Masc|Number=Sing|Person=3|PronType=Ind	4	nsubj	_	AlignBegin=122889|AlignEnd=123084|Exponence[Gender]=Absent|Exponence[Number]=Inherent|Exponence[Person]=Inherent|Overlap=Rhap_D0003-57
-2	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	aux:tense	_	AlignBegin=123084|AlignEnd=123124|Overlap=Rhap_D0003-57
-3	toujours	toujours	ADV	_	_	4	advmod	_	AlignBegin=123124|AlignEnd=123354|Overlap=Rhap_D0003-57
-4	resté	rester	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Act	0	root	_	AlignBegin=123354|AlignEnd=123664|Exponence[Gender]=Absent|Exponence[Number]=Absent|Overlap=Rhap_D0003-57|PastPartHasSpokenGender=NotInThisDialect|Tense[denom]=Past
-5	à	à	ADP	_	_	6	case	_	AlignBegin=123664|AlignEnd=123718|Overlap=Rhap_D0003-57
-6	Paris	Paris	PROPN	_	_	4	obl:arg	_	AlignBegin=123718|AlignEnd=124180
-7	en	en	ADP	_	_	8	mark	_	AlignBegin=124180|AlignEnd=124386
-8	allant	aller	VERB	_	VerbForm=Part	4	advcl	_	AlignBegin=124386|AlignEnd=124758|PastPartHasSpokenGender=NotInThisDialect|Tense[denom]=Pres
-9	fidèlement	fidèlement	ADV	_	_	8	advmod	_	AlignBegin=124758|AlignEnd=125308
-10	en	en	ADP	_	_	11	case	_	AlignBegin=125308|AlignEnd=125348
-11	Bretagne	Bretagne	PROPN	_	_	8	obl:arg	_	AlignBegin=125348|AlignEnd=125921|SpaceAfter=No
-12	,	,	PUNCT	_	_	13	punct	_	AlignBegin=125921|AlignEnd=125921
-13	euh	euh	INTJ	_	_	11	discourse:filler	_	AlignBegin=125921|AlignEnd=126163|SpaceAfter=No
-14	,	,	PUNCT	_	_	15	punct	_	AlignBegin=126548|AlignEnd=126548
-15	souvent	souvent	ADV	_	_	8	advmod	_	AlignBegin=126548|AlignEnd=127155|SpaceAfter=No
-16	,	,	PUNCT	_	_	19	punct	_	AlignBegin=127893|AlignEnd=126548
-17	et	et	CCONJ	_	_	19	cc	_	AlignBegin=127155|AlignEnd=127303
-18	l'	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	19	det	_	AlignBegin=127303|AlignEnd=127333|Exponence[Gender]=Absent|HasSpokenGender=OnlySingExceptWithLiaison|LiaisonAfter=Yes|SpaceAfter=No
-19	été	été	NOUN	_	Gender=Masc|Number=Sing	15	conj	_	AlignBegin=127333|AlignEnd=127893|Exponence[Gender]=Inherent|Exponence[Number]=Absent|LiaisonPossibleBefore=Yes|SpaceAfter=No
-20	.	.	PUNCT	_	_	4	punct	_	AlignBegin=127893|AlignEnd=127893
+1	on	on	PRON	_	Case=Nom|Emph=No|Gender=Masc|Number=Sing|Person=3|PronType=Ind	4	nsubj	_	Exponence[Gender]=Absent|Exponence[Number]=Inherent|Exponence[Person]=Inherent|Overlap=Rhap_D0003-57|WordAlignmentBegin=122889|WordAlignmentEnd=123084
+2	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	aux:tense	_	Overlap=Rhap_D0003-57|WordAlignmentBegin=123084|WordAlignmentEnd=123124
+3	toujours	toujours	ADV	_	_	4	advmod	_	Overlap=Rhap_D0003-57|WordAlignmentBegin=123124|WordAlignmentEnd=123354
+4	resté	rester	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Act	0	root	_	Exponence[Gender]=Absent|Exponence[Number]=Absent|Overlap=Rhap_D0003-57|PastPartHasSpokenGender=NotInThisDialect|Tense[denom]=Past|WordAlignmentBegin=123354|WordAlignmentEnd=123664
+5	à	à	ADP	_	_	6	case	_	Overlap=Rhap_D0003-57|WordAlignmentBegin=123664|WordAlignmentEnd=123718
+6	Paris	Paris	PROPN	_	_	4	obl:arg	_	WordAlignmentBegin=123718|WordAlignmentEnd=124180
+7	en	en	ADP	_	_	8	mark	_	WordAlignmentBegin=124180|WordAlignmentEnd=124386
+8	allant	aller	VERB	_	VerbForm=Part	4	advcl	_	PastPartHasSpokenGender=NotInThisDialect|Tense[denom]=Pres|WordAlignmentBegin=124386|WordAlignmentEnd=124758
+9	fidèlement	fidèlement	ADV	_	_	8	advmod	_	WordAlignmentBegin=124758|WordAlignmentEnd=125308
+10	en	en	ADP	_	_	11	case	_	WordAlignmentBegin=125308|WordAlignmentEnd=125348
+11	Bretagne	Bretagne	PROPN	_	_	8	obl:arg	_	SpaceAfter=No|WordAlignmentBegin=125348|WordAlignmentEnd=125921
+12	,	,	PUNCT	_	_	13	punct	_	WordAlignmentBegin=125921|WordAlignmentEnd=125921
+13	euh	euh	INTJ	_	_	11	discourse:filler	_	SpaceAfter=No|WordAlignmentBegin=125921|WordAlignmentEnd=126163
+14	,	,	PUNCT	_	_	15	punct	_	WordAlignmentBegin=126548|WordAlignmentEnd=126548
+15	souvent	souvent	ADV	_	_	8	advmod	_	SpaceAfter=No|WordAlignmentBegin=126548|WordAlignmentEnd=127155
+16	,	,	PUNCT	_	_	19	punct	_	WordAlignmentBegin=127893|WordAlignmentEnd=126548
+17	et	et	CCONJ	_	_	19	cc	_	WordAlignmentBegin=127155|WordAlignmentEnd=127303
+18	l'	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	19	det	_	Exponence[Gender]=Absent|HasSpokenGender=OnlySingExceptWithLiaison|LiaisonAfter=Yes|SpaceAfter=No|WordAlignmentBegin=127303|WordAlignmentEnd=127333
+19	été	été	NOUN	_	Gender=Masc|Number=Sing	15	conj	_	Exponence[Gender]=Inherent|Exponence[Number]=Absent|LiaisonPossibleBefore=Yes|SpaceAfter=No|WordAlignmentBegin=127333|WordAlignmentEnd=127893
+20	.	.	PUNCT	_	_	4	punct	_	WordAlignmentBegin=127893|WordAlignmentEnd=127893
 
 # sent_id = Rhap_D0003-57
 # prosodic_annotation = no
@@ -989,10 +989,10 @@
 # speaker_id = §LF4
 # macrosyntax = $- on est toujours restés à ( $L1 "ah" oui // ) -$ Paris > en allant fidèlement en Bretagne "euh" $- >+ { souvent | ^et l'été } //
 # text = ah, oui.
-1	ah	ah	INTJ	_	_	3	discourse	_	AlignBegin=122889|AlignEnd=123718|Overlap=Rhap_D0003-56|SpaceAfter=No
-2	,	,	PUNCT	_	_	1	punct	_	AlignBegin=123718|AlignEnd=122889|Overlap=Rhap_D0003-47
-3	oui	oui	INTJ	_	_	0	root	_	AlignBegin=122889|AlignEnd=123718|Backchannel=Rhap_D0003-55::3|Overlap=Rhap_D0003-56|SpaceAfter=No
-4	.	.	PUNCT	_	_	3	punct	_	AlignBegin=123718|AlignEnd=123718|Overlap=Rhap_D0003-47
+1	ah	ah	INTJ	_	_	3	discourse	_	Overlap=Rhap_D0003-56|SpaceAfter=No|WordAlignmentBegin=122889|WordAlignmentEnd=123718
+2	,	,	PUNCT	_	_	1	punct	_	Overlap=Rhap_D0003-47|WordAlignmentBegin=123718|WordAlignmentEnd=122889
+3	oui	oui	INTJ	_	_	0	root	_	Backchannel=Rhap_D0003-55::3|Overlap=Rhap_D0003-56|SpaceAfter=No|WordAlignmentBegin=122889|WordAlignmentEnd=123718
+4	.	.	PUNCT	_	_	3	punct	_	Overlap=Rhap_D0003-47|WordAlignmentBegin=123718|WordAlignmentEnd=123718
 
 # sent_id = Rhap_D0003-58
 # prosodic_annotation = no
@@ -1000,6 +1000,6 @@
 # speaker_id = §LF4
 # macrosyntax = $L1 oui //
 # text = oui.
-1	oui	oui	INTJ	_	_	0	root	_	AlignBegin=126548|AlignEnd=127893|Backchannel=Rhap_D0003-56::2|SpaceAfter=No
-2	.	.	PUNCT	_	_	1	punct	_	AlignBegin=127893|AlignEnd=127893
+1	oui	oui	INTJ	_	_	0	root	_	Backchannel=Rhap_D0003-56::2|SpaceAfter=No|WordAlignmentBegin=126548|WordAlignmentEnd=127893
+2	.	.	PUNCT	_	_	1	punct	_	WordAlignmentBegin=127893|WordAlignmentEnd=127893
 
