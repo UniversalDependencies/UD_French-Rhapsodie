@@ -514,17 +514,17 @@
 23	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	24	det	_	LiaisonAfter=Yes|WordAlignmentBegin=67007|WordAlignmentEnd=67077
 24	enfant	enfant	NOUN	_	Gender=Masc|Number=Sing	22	obj	_	Exponence[Gender]=Inherent|Exponence[Number]=Absent|LiaisonPossibleBefore=Yes|WordAlignmentBegin=67077|WordAlignmentEnd=67498
 25	ou	ou	CCONJ	_	_	26	cc	_	WordAlignmentBegin=67498|WordAlignmentEnd=67577
-26	deux	deux	NUM	_	ExtPos=PRON|Number=Plur	31	reparandum	_	Exponence[Number]=Inherent|SpaceAfter=No|WordAlignmentBegin=67577|WordAlignmentEnd=67825
+26	deux	deux	NUM	_	ExtPos=PRON|Number=Plur	23	conj	_	Exponence[Number]=Inherent|SpaceAfter=No|WordAlignmentBegin=67577|WordAlignmentEnd=67825
 27	,	,	PUNCT	_	_	26	punct	_	WordAlignmentBegin=67825|WordAlignmentEnd=67825
 28-29	au	_	_	_	_	_	_	_	_
 28	à	à	ADP	_	ExtPos=ADV	31	advmod	_	WordAlignmentBegin=67825|WordAlignmentEnd=68007
 29	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	30	det	_	_
 30	moins	moins	ADV	_	_	28	dep:comp	_	WordAlignmentBegin=68007|WordAlignmentEnd=68297
-31	deux	deux	NUM	_	ExtPos=PRON|Number=Plur	23	conj	_	Exponence[Number]=Inherent|SpaceAfter=No|WordAlignmentBegin=68297|WordAlignmentEnd=68532
-32	,	,	PUNCT	_	_	34	punct	_	WordAlignmentBegin=68532|WordAlignmentEnd=68532
+31	deux	deux	NUM	_	ExtPos=PRON|Number=Plur	26	conj:reform	_	Exponence[Number]=Inherent|SpaceAfter=No|WordAlignmentBegin=68297|WordAlignmentEnd=68532
+32	,	,	PUNCT	_	_	14	punct	_	WordAlignmentBegin=68532|WordAlignmentEnd=68532
 33	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	34	det	_	HasSpokenGender=OnlySingExceptWithLiaison|WordAlignmentBegin=68532|WordAlignmentEnd=68724
-34	d~	d~	X	_	_	31	dep	_	Scrap=Yes|SpaceAfter=No|WordAlignmentBegin=68724|WordAlignmentEnd=68807
-35	,	,	PUNCT	_	_	14	punct	_	WordAlignmentBegin=68807|WordAlignmentEnd=68807
+34	d~	d~	X	_	_	39	reparandum	_	Scrap=Yes|SpaceAfter=No|WordAlignmentBegin=68724|WordAlignmentEnd=68807
+35	,	,	PUNCT	_	_	34	punct	_	WordAlignmentBegin=68807|WordAlignmentEnd=68807
 36	quand	quand	SCONJ	_	_	39	mark	_	WordAlignmentBegin=68807|WordAlignmentEnd=68980
 37	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	38	det	_	HasSpokenGender=OnlySingExceptWithLiaison|WordAlignmentBegin=68980|WordAlignmentEnd=69077
 38	deuxième	deuxième	ADJ	_	Gender=Masc|Number=Sing	39	nsubj	_	Exponence[Gender]=Absent|Exponence[Number]=Absent|HasSpokenGender=No|HasSpokenNumber=OnlyWithLiaison|WordAlignmentBegin=69077|WordAlignmentEnd=69437
@@ -609,7 +609,7 @@
 # speaker_id = §LF6
 # macrosyntax = donc < "euh" ça < c'est un petit peu pour ce qui a été des changements { de | du } quartier //
 # text = donc, euh, ça, c'est un petit peu pour ce qui a été des changements de, du quartier.
-1	donc	donc	ADV	_	_	13	advmod	_	SpaceAfter=No|WordAlignmentBegin=74128|WordAlignmentEnd=74573
+1	donc	donc	ADV	_	_	8	advmod	_	SpaceAfter=No|WordAlignmentBegin=74128|WordAlignmentEnd=74573
 2	,	,	PUNCT	_	_	3	punct	_	WordAlignmentBegin=74573|WordAlignmentEnd=74573
 3	euh	euh	INTJ	_	_	1	discourse:filler	_	SpaceAfter=No|WordAlignmentBegin=74573|WordAlignmentEnd=75539
 4	,	,	PUNCT	_	_	1	punct	_	WordAlignmentBegin=75539|WordAlignmentEnd=75539
@@ -798,9 +798,9 @@
 # speaker_id = §LF1
 # macrosyntax = $L2 ^mais "bon" { j~ | je } { f~ | f~ } ESPERLUETTE // $-
 # text = mais, bon, j~, je f~, f~…
-1	mais	mais	CCONJ	_	_	8	cc	_	SpaceAfter=No|WordAlignmentBegin=96804|WordAlignmentEnd=97359
-2	,	,	PUNCT	_	_	8	punct	_	WordAlignmentBegin=97359|WordAlignmentEnd=97359
-3	bon	bon	INTJ	_	_	8	discourse	_	SpaceAfter=No|WordAlignmentBegin=97359|WordAlignmentEnd=97919
+1	mais	mais	CCONJ	_	_	10	cc	_	SpaceAfter=No|WordAlignmentBegin=96804|WordAlignmentEnd=97359
+2	,	,	PUNCT	_	_	10	punct	_	WordAlignmentBegin=97359|WordAlignmentEnd=97359
+3	bon	bon	INTJ	_	_	10	discourse	_	SpaceAfter=No|WordAlignmentBegin=97359|WordAlignmentEnd=97919
 4	,	,	PUNCT	_	_	3	punct	_	WordAlignmentBegin=97919|WordAlignmentEnd=97919
 5	j~	j~	X	_	ExtPos=PRON	7	reparandum	_	SpaceAfter=No|WordAlignmentBegin=97919|WordAlignmentEnd=97985
 6	,	,	PUNCT	_	_	5	punct	_	WordAlignmentBegin=97985|WordAlignmentEnd=97985
@@ -949,13 +949,13 @@
 # speaker_id = §LF6
 # macrosyntax = "euh" nous < dans le quartier <+ { on n'a | on n'a } pas de lycée > déjà //
 # text = euh, nous, dans le quartier, on n'a, on n'a pas de lycée déjà.
-1	euh	euh	INTJ	_	_	11	discourse:filler	_	SpaceAfter=No|WordAlignmentBegin=112527|WordAlignmentEnd=113034
+1	euh	euh	INTJ	_	_	3	discourse:filler	_	SpaceAfter=No|WordAlignmentBegin=112527|WordAlignmentEnd=113034
 2	,	,	PUNCT	_	_	1	punct	_	WordAlignmentBegin=113034|WordAlignmentEnd=113034
-3	nous	nous	PRON	_	Case=Nom|Emph=No|Number=Plur|Person=1|PronType=Prs	11	dislocated:subj	_	Exponence[Number]=Inherent|Exponence[Person]=Inherent|SpaceAfter=No|WordAlignmentBegin=113034|WordAlignmentEnd=113242
+3	nous	nous	PRON	_	Case=Nom|Emph=No|Number=Plur|Person=1|PronType=Prs	15	dislocated:subj	_	Exponence[Number]=Inherent|Exponence[Person]=Inherent|SpaceAfter=No|WordAlignmentBegin=113034|WordAlignmentEnd=113242
 4	,	,	PUNCT	_	_	3	punct	_	WordAlignmentBegin=113242|WordAlignmentEnd=113242
 5	dans	dans	ADP	_	_	7	case	_	WordAlignmentBegin=113242|WordAlignmentEnd=113422
 6	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	HasSpokenGender=OnlySingExceptWithLiaison|WordAlignmentBegin=113422|WordAlignmentEnd=113452
-7	quartier	quartier	NOUN	_	Gender=Masc|Number=Sing	11	obl:mod	_	Exponence[Gender]=Inherent|Exponence[Number]=Absent|SpaceAfter=No|WordAlignmentBegin=113452|WordAlignmentEnd=113922
+7	quartier	quartier	NOUN	_	Gender=Masc|Number=Sing	15	obl:mod	_	Exponence[Gender]=Inherent|Exponence[Number]=Absent|SpaceAfter=No|WordAlignmentBegin=113452|WordAlignmentEnd=113922
 8	,	,	PUNCT	_	_	7	punct	_	WordAlignmentBegin=113922|WordAlignmentEnd=113922
 9	on	on	PRON	_	Case=Nom|Emph=No|Gender=Masc|Number=Sing|Person=3|PronType=Ind	11	nsubj	_	Exponence[Gender]=Absent|Exponence[Number]=Inherent|Exponence[Person]=Inherent|WordAlignmentBegin=113922|WordAlignmentEnd=114102
 10	n'	ne	ADV	_	Polarity=Neg	11	advmod	_	SpaceAfter=No|WordAlignmentBegin=114102|WordAlignmentEnd=114142
@@ -1123,13 +1123,13 @@
 12	puis	puis	CCONJ	_	_	15	cc	_	WordAlignmentBegin=134074|WordAlignmentEnd=134164
 13	il	lui	PRON	_	Case=Nom|Emph=No|Gender=Masc|Number=Sing|Person=3|PronType=Prs	15	expl:subj	_	Exponence[Person]=Inherent|WordAlignmentBegin=134164|WordAlignmentEnd=134194
 14	y	y	PRON	_	Person=3|PronType=Prs	15	expl:comp	_	Exponence[Person]=Inherent|WordAlignmentBegin=134194|WordAlignmentEnd=134217
-15	a	avoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	parataxis:parenth	_	WordAlignmentBegin=134217|WordAlignmentEnd=134314
+15	a	avoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	33	parataxis:parenth	_	WordAlignmentBegin=134217|WordAlignmentEnd=134314
 16	deux	deux	NUM	_	Number=Plur	17	nummod	_	Exponence[Number]=Inherent|WordAlignmentBegin=134314|WordAlignmentEnd=134484
 17	maternelles	maternelle	NOUN	_	Gender=Fem|Number=Plur	15	obj	_	Exponence[Gender]=Inherent|Exponence[Number]=Absent|SpaceAfter=No|WordAlignmentBegin=134484|WordAlignmentEnd=135204
-18	,	,	PUNCT	_	_	7	punct	_	WordAlignmentBegin=135204|WordAlignmentEnd=135826
-19	mais	mais	CCONJ	_	_	25	cc	_	SpaceAfter=No|WordAlignmentBegin=135826|WordAlignmentEnd=136176
-20	,	,	PUNCT	_	_	25	punct	_	WordAlignmentBegin=136176|WordAlignmentEnd=136176
-21	euh	euh	INTJ	_	_	25	discourse:filler	_	SpaceAfter=No|WordAlignmentBegin=136176|WordAlignmentEnd=136631
+18	,	,	PUNCT	_	_	15	punct	_	WordAlignmentBegin=135204|WordAlignmentEnd=135826
+19	mais	mais	CCONJ	_	_	33	cc	_	SpaceAfter=No|WordAlignmentBegin=135826|WordAlignmentEnd=136176
+20	,	,	PUNCT	_	_	19	punct	_	WordAlignmentBegin=136176|WordAlignmentEnd=136176
+21	euh	euh	INTJ	_	_	33	discourse:filler	_	SpaceAfter=No|WordAlignmentBegin=136176|WordAlignmentEnd=136631
 22	,	,	PUNCT	_	_	21	punct	_	WordAlignmentBegin=136631|WordAlignmentEnd=136631
 23	de	de	ADP	_	_	25	case	_	WordAlignmentBegin=136631|WordAlignmentEnd=136731
 24	ce	ce	DET	_	Gender=Masc|Number=Sing|PronType=Dem	25	det	_	HasSpokenGender=OnlySingExceptWithLiaison|WordAlignmentBegin=136731|WordAlignmentEnd=136841
@@ -1734,7 +1734,7 @@
 # text = donc, euh, ils sont déjà de la génération de l'image et, et d'internet.
 1	donc	donc	ADV	_	_	6	advmod	_	SpaceAfter=No|WordAlignmentBegin=192490|WordAlignmentEnd=192875
 2	,	,	PUNCT	_	_	1	punct	_	WordAlignmentBegin=192875|WordAlignmentEnd=192875
-3	euh	euh	INTJ	_	_	10	discourse:filler	_	SpaceAfter=No|WordAlignmentBegin=192875|WordAlignmentEnd=193067
+3	euh	euh	INTJ	_	_	6	discourse:filler	_	SpaceAfter=No|WordAlignmentBegin=192875|WordAlignmentEnd=193067
 4	,	,	PUNCT	_	_	3	punct	_	WordAlignmentBegin=193067|WordAlignmentEnd=193067
 5	ils	lui	PRON	_	Case=Nom|Emph=No|Gender=Masc|Number=Plur|Person=3|PronType=Prs	6	nsubj	_	Exponence[Person]=Inherent|WordAlignmentBegin=193067|WordAlignmentEnd=193155
 6	sont	être	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	WordAlignmentBegin=193155|WordAlignmentEnd=193385
@@ -2234,10 +2234,10 @@
 23	,	,	PUNCT	_	_	26	punct	_	WordAlignmentBegin=252665|WordAlignmentEnd=252665
 24	en	en	ADP	_	_	26	case	_	WordAlignmentBegin=252665|WordAlignmentEnd=252755
 25	tout	tout	ADJ	_	Gender=Masc|Number=Sing	26	amod	_	Exponence[Number]=Absent|HasSpokenGender=YesExceptSingWithLiaison|HasSpokenNumber=OnlyWithLiaison|WordAlignmentBegin=252755|WordAlignmentEnd=252845
-26	cas	cas	NOUN	_	Gender=Masc	22	discourse	_	Exponence[Gender]=Inherent|SpaceAfter=No|WordAlignmentBegin=252845|WordAlignmentEnd=253035
+26	cas	cas	NOUN	_	Gender=Masc	29	discourse	_	Exponence[Gender]=Inherent|SpaceAfter=No|WordAlignmentBegin=252845|WordAlignmentEnd=253035
 27	,	,	PUNCT	_	_	29	punct	_	WordAlignmentBegin=253035|WordAlignmentEnd=253035
 28	pour	pour	ADP	_	_	29	mark	_	WordAlignmentBegin=253035|WordAlignmentEnd=253175
-29	aller	aller	VERB	_	VerbForm=Inf	5	advcl	_	Subject=NoRaising|WordAlignmentBegin=253175|WordAlignmentEnd=253355
+29	aller	aller	VERB	_	VerbForm=Inf	22	acl	_	Subject=NoRaising|WordAlignmentBegin=253175|WordAlignmentEnd=253355
 30	travailler	travailler	VERB	_	VerbForm=Inf	29	xcomp	_	SpaceAfter=No|Subject=SubjRaising|WordAlignmentBegin=253355|WordAlignmentEnd=253876
 31	.	.	PUNCT	_	_	5	punct	_	WordAlignmentBegin=253876|WordAlignmentEnd=253876
 
@@ -2294,12 +2294,12 @@
 # speaker_id = §LF6
 # macrosyntax = $L1 "non" moi < je vois j'ai| j'ai "bon" | connais plus ESPERLUETTE //
 # text = non, moi, je vois, j'ai, j'ai, bon, connais plus…
-1	non	non	ADV	_	Polarity=Neg	6	discourse	_	SpaceAfter=No|WordAlignmentBegin=258812|WordAlignmentEnd=259207
+1	non	non	ADV	_	Polarity=Neg	16	discourse	_	SpaceAfter=No|WordAlignmentBegin=258812|WordAlignmentEnd=259207
 2	,	,	PUNCT	_	_	1	punct	_	WordAlignmentBegin=259207|WordAlignmentEnd=259207
-3	moi	moi	PRON	_	Emph=Yes|Number=Sing|Person=1|PronType=Prs	6	dislocated:subj	_	Exponence[Number]=Inherent|Exponence[Person]=Inherent|SpaceAfter=No|WordAlignmentBegin=259207|WordAlignmentEnd=259327
+3	moi	moi	PRON	_	Emph=Yes|Number=Sing|Person=1|PronType=Prs	16	dislocated:subj	_	Exponence[Number]=Inherent|Exponence[Person]=Inherent|SpaceAfter=No|WordAlignmentBegin=259207|WordAlignmentEnd=259327
 4	,	,	PUNCT	_	_	3	punct	_	WordAlignmentBegin=259327|WordAlignmentEnd=259327
 5	je	moi	PRON	_	Case=Nom|Emph=No|Number=Sing|Person=1|PronType=Prs	6	nsubj	_	Exponence[Number]=Inherent|Exponence[Person]=Inherent|WordAlignmentBegin=259327|WordAlignmentEnd=259487
-6	vois	voir	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	16	reparandum	_	Exponence[Person]=Absent|SpaceAfter=No|WordAlignmentBegin=259487|WordAlignmentEnd=259727
+6	vois	voir	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	16	discourse	_	Exponence[Person]=Absent|SpaceAfter=No|WordAlignmentBegin=259487|WordAlignmentEnd=259727
 7	,	,	PUNCT	_	_	6	punct	_	WordAlignmentBegin=259727|WordAlignmentEnd=259727
 8	j'	moi	PRON	_	Case=Nom|Emph=No|Number=Sing|Person=1|PronType=Prs	9	nsubj	_	Exponence[Number]=Inherent|Exponence[Person]=Inherent|SpaceAfter=No|WordAlignmentBegin=259727|WordAlignmentEnd=260177
 9	ai	avoir	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	16	reparandum	_	SpaceAfter=No|WordAlignmentBegin=259727|WordAlignmentEnd=260177

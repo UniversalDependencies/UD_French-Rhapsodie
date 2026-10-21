@@ -69,7 +69,7 @@
 2	puis	puis	CCONJ	_	_	1	fixed	_	InIdiom=Yes|WordAlignmentBegin=8178|WordAlignmentEnd=8298
 3	en	en	ADP	_	_	5	mark	_	WordAlignmentBegin=8298|WordAlignmentEnd=8388
 4	se	soi	PRON	_	Person=3|PronType=Prs|Reflex=Yes	5	obj	_	Exponence[Person]=Inherent|WordAlignmentBegin=8388|WordAlignmentEnd=8478
-5	mariant	marier	VERB	_	Tense=Pres|VerbForm=Part	9	advcl	_	PastPartHasSpokenGender=NotInThisDialect|SpaceAfter=No|Status[Tense]=Denom|WordAlignmentBegin=8478|WordAlignmentEnd=8778
+5	mariant	marier	VERB	_	Tense=Pres|VerbForm=Part	9	advcl	_	SpaceAfter=No|Status[Tense]=Denom|WordAlignmentBegin=8478|WordAlignmentEnd=8778
 6	,	,	PUNCT	_	_	5	punct	_	WordAlignmentBegin=8778|WordAlignmentEnd=8778
 7	ils	lui	PRON	_	Case=Nom|Emph=No|Gender=Masc|Number=Plur|Person=3|PronType=Prs	9	nsubj	_	Exponence[Person]=Inherent|WordAlignmentBegin=8778|WordAlignmentEnd=8878
 8	sont	être	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	9	aux:tense	_	WordAlignmentBegin=8878|WordAlignmentEnd=9108
@@ -352,17 +352,17 @@
 10	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	aux:tense	_	WordAlignmentBegin=45952|WordAlignmentEnd=46062
 11	dit	dire	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	0	root	_	Exponence[Number]=Absent|PastPartHasSpokenGender=Yes|SpaceAfter=No|Status[Tense]=Denom|WordAlignmentBegin=46062|WordAlignmentEnd=46242
 12	,	,	PUNCT	_	_	19	punct	_	WordAlignmentBegin=46242|WordAlignmentEnd=46242
-13	bon	bon	INTJ	_	_	16	discourse	_	SpaceAfter=No|WordAlignmentBegin=46242|WordAlignmentEnd=46402
+13	bon	bon	INTJ	_	_	19	discourse	_	SpaceAfter=No|WordAlignmentBegin=46242|WordAlignmentEnd=46402
 14	,	,	PUNCT	_	_	13	punct	_	WordAlignmentBegin=46402|WordAlignmentEnd=46402
 15	il	lui	PRON	_	Case=Nom|Emph=No|Gender=Masc|Number=Sing|Person=3|PronType=Prs	16	nsubj	_	Exponence[Person]=Inherent|WordAlignmentBegin=46402|WordAlignmentEnd=46702
-16	f~	f~	X	_	ExtPos=VERB	19	reparandum	_	Reported=Yes|SpaceAfter=No|WordAlignmentBegin=46702|WordAlignmentEnd=46742
+16	f~	f~	X	_	ExtPos=VERB	19	reparandum	_	SpaceAfter=No|WordAlignmentBegin=46702|WordAlignmentEnd=46742
 17	,	,	PUNCT	_	_	16	punct	_	WordAlignmentBegin=46742|WordAlignmentEnd=46742
 18	il	lui	PRON	_	Case=Nom|Emph=No|Gender=Masc|Number=Sing|Person=3|PronType=Prs	19	expl:subj	_	Exponence[Person]=Inherent|WordAlignmentBegin=46742|WordAlignmentEnd=46942
-19	faut	falloir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	ccomp	_	Exponence[Person]=Absent|WordAlignmentBegin=46942|WordAlignmentEnd=47072
-20	partir	partir	VERB	_	VerbForm=Inf	23	reparandum	_	SpaceAfter=No|Subject=NoRaising|WordAlignmentBegin=47072|WordAlignmentEnd=47542
+19	faut	falloir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	ccomp	_	Exponence[Person]=Absent|Reported=Yes|WordAlignmentBegin=46942|WordAlignmentEnd=47072
+20	partir	partir	VERB	_	VerbForm=Inf	19	ccomp	_	SpaceAfter=No|Subject=NoRaising|WordAlignmentBegin=47072|WordAlignmentEnd=47542
 21	,	,	PUNCT	_	_	20	punct	_	WordAlignmentBegin=47542|WordAlignmentEnd=47542
 22	il	lui	PRON	_	Case=Nom|Emph=No|Gender=Masc|Number=Sing|Person=3|PronType=Prs	23	expl:subj	_	Exponence[Person]=Inherent|WordAlignmentBegin=47542|WordAlignmentEnd=47632
-23	faut	falloir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	19	ccomp	_	Exponence[Person]=Absent|SpaceAfter=No|WordAlignmentBegin=47632|WordAlignmentEnd=47792
+23	faut	falloir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	19	reparandum	_	Exponence[Person]=Absent|SpaceAfter=No|WordAlignmentBegin=47632|WordAlignmentEnd=47792
 24	…	…	PUNCT	_	_	11	punct	_	WordAlignmentBegin=47792|WordAlignmentEnd=47792
 
 # sent_id = Rhap_D0003-22
@@ -550,7 +550,7 @@
 # speaker_id = §LF5
 # macrosyntax = "voyez" { c'était | c'était } effarant //
 # text = voyez, c'était, c'était effarant.
-1	voyez	voir	VERB	_	Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	4	discourse	_	SpaceAfter=No|WordAlignmentBegin=70622|WordAlignmentEnd=70948
+1	voyez	voir	VERB	_	Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	8	discourse	_	SpaceAfter=No|WordAlignmentBegin=70622|WordAlignmentEnd=70948
 2	,	,	PUNCT	_	_	1	punct	_	WordAlignmentBegin=70948|WordAlignmentEnd=70948
 3	c'	ce	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	4	nsubj	_	Exponence[Gender]=Inherent|Exponence[Number]=Inherent|Exponence[Person]=Inherent|SpaceAfter=No|WordAlignmentBegin=70948|WordAlignmentEnd=71010
 4	était	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	8	reparandum	_	SpaceAfter=No|WordAlignmentBegin=71010|WordAlignmentEnd=71475
@@ -969,7 +969,7 @@
 5	à	à	ADP	_	_	6	case	_	Overlap=Rhap_D0003-57|WordAlignmentBegin=123664|WordAlignmentEnd=123718
 6	Paris	Paris	PROPN	_	_	4	obl:arg	_	WordAlignmentBegin=123718|WordAlignmentEnd=124180
 7	en	en	ADP	_	_	8	mark	_	WordAlignmentBegin=124180|WordAlignmentEnd=124386
-8	allant	aller	VERB	_	Tense=Pres|VerbForm=Part	4	advcl	_	PastPartHasSpokenGender=NotInThisDialect|Status[Tense]=Denom|WordAlignmentBegin=124386|WordAlignmentEnd=124758
+8	allant	aller	VERB	_	Tense=Pres|VerbForm=Part	4	advcl	_	Status[Tense]=Denom|WordAlignmentBegin=124386|WordAlignmentEnd=124758
 9	fidèlement	fidèlement	ADV	_	_	8	advmod	_	WordAlignmentBegin=124758|WordAlignmentEnd=125308
 10	en	en	ADP	_	_	11	case	_	WordAlignmentBegin=125308|WordAlignmentEnd=125348
 11	Bretagne	Bretagne	PROPN	_	_	8	obl:arg	_	SpaceAfter=No|WordAlignmentBegin=125348|WordAlignmentEnd=125921

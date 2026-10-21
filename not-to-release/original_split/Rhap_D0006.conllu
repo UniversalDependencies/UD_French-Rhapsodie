@@ -110,12 +110,12 @@
 13	avec	avec	ADP	_	_	14	case	_	WordAlignmentBegin=14903|WordAlignmentEnd=15093
 14	vous	vous	PRON	_	Case=Acc|Emph=No|Number=Plur|Person=2|PronType=Prs	12	obl:arg	_	Exponence[Number]=Inherent|Exponence[Person]=Inherent|Polite=Unknown|SpaceAfter=No|WordAlignmentBegin=15093|WordAlignmentEnd=15422
 15	,	,	PUNCT	_	_	21	punct	_	WordAlignmentBegin=15422|WordAlignmentEnd=15422
-16	mais	mais	CCONJ	_	_	17	cc	_	WordAlignmentBegin=15422|WordAlignmentEnd=15667
+16	mais	mais	CCONJ	_	_	21	cc	_	WordAlignmentBegin=15422|WordAlignmentEnd=15667
 17	a~	a~	X	_	_	21	reparandum	_	SpaceAfter=No|WordAlignmentBegin=15956|WordAlignmentEnd=16170
 18	,	,	PUNCT	_	_	17	punct	_	WordAlignmentBegin=16170|WordAlignmentEnd=17041
 19	après	après	ADP	_	_	21	case	_	WordAlignmentBegin=17041|WordAlignmentEnd=17306
 20	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	21	det	_	HasSpokenGender=OnlySingExceptWithLiaison|WordAlignmentBegin=17306|WordAlignmentEnd=17336
-21	déménagement	déménagement	NOUN	_	Gender=Masc|Number=Sing	12	conj	_	Exponence[Gender]=Inherent|Exponence[Number]=Absent|SpaceAfter=No|WordAlignmentBegin=17336|WordAlignmentEnd=18014
+21	déménagement	déménagement	NOUN	_	Gender=Masc|Number=Sing	12	obl:mod	_	Exponence[Gender]=Inherent|Exponence[Number]=Absent|SpaceAfter=No|WordAlignmentBegin=17336|WordAlignmentEnd=18014
 22	.	.	PUNCT	_	_	6	punct	_	WordAlignmentBegin=18014|WordAlignmentEnd=18014
 
 # sent_id = Rhap_D0006-7
@@ -264,9 +264,9 @@
 10	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	11	det	_	HasSpokenGender=OnlySingExceptWithLiaison|WordAlignmentBegin=30878|WordAlignmentEnd=30908
 11	septième	septième	NOUN	_	Gender=Masc|Number=Sing	8	obl:mod	_	Exponence[Gender]=Inherent|Exponence[Number]=Absent|SpaceAfter=No|WordAlignmentBegin=30908|WordAlignmentEnd=31302
 12	,	,	PUNCT	_	_	15	punct	_	WordAlignmentBegin=31302|WordAlignmentEnd=31302
-13	enfin	enfin	ADV	_	_	15	reparandum	_	SpaceAfter=No|WordAlignmentBegin=31302|WordAlignmentEnd=31558
+13	enfin	enfin	ADV	_	_	15	discourse	_	SpaceAfter=No|WordAlignmentBegin=31302|WordAlignmentEnd=31558
 14	,	,	PUNCT	_	_	13	punct	_	WordAlignmentBegin=31558|WordAlignmentEnd=31558
-15	ç~	ç~	X	_	_	11	discourse	_	SpaceAfter=No|WordAlignmentBegin=31558|WordAlignmentEnd=31738
+15	ç~	ç~	X	_	_	11	reparandum	_	SpaceAfter=No|WordAlignmentBegin=31558|WordAlignmentEnd=31738
 16	,	,	PUNCT	_	_	8	punct	_	WordAlignmentBegin=31738|WordAlignmentEnd=31738
 17	il	lui	PRON	_	Case=Nom|Emph=No|Gender=Masc|Number=Sing|Person=3|PronType=Prs	19	expl:subj	_	Exponence[Person]=Inherent|WordAlignmentBegin=31738|WordAlignmentEnd=31828
 18	y	y	PRON	_	Person=3|PronType=Prs	19	expl:comp	_	Exponence[Person]=Inherent|WordAlignmentBegin=31828|WordAlignmentEnd=31908
@@ -840,7 +840,7 @@
 # macrosyntax = $L2 en sortant de la famille "quoi" //
 # text = en sortant de la famille, quoi.
 1	en	en	ADP	_	_	2	mark	_	WordAlignmentBegin=109066|WordAlignmentEnd=109121
-2	sortant	sortir	VERB	_	Tense=Pres|VerbForm=Part	0	root	_	PastPartHasSpokenGender=NotInThisDialect|Status[Tense]=Denom|WordAlignmentBegin=109121|WordAlignmentEnd=109481
+2	sortant	sortir	VERB	_	Tense=Pres|VerbForm=Part	0	root	_	Status[Tense]=Denom|WordAlignmentBegin=109121|WordAlignmentEnd=109481
 3	de	de	ADP	_	_	5	case	_	WordAlignmentBegin=109481|WordAlignmentEnd=109511
 4	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	HasSpokenGender=OnlySingExceptWithLiaison|WordAlignmentBegin=109511|WordAlignmentEnd=109581
 5	famille	famille	NOUN	_	Gender=Fem|Number=Sing	2	obl:arg	_	Exponence[Gender]=Inherent|Exponence[Number]=Absent|SpaceAfter=No|WordAlignmentBegin=109581|WordAlignmentEnd=109943
@@ -880,15 +880,15 @@
 2	,	,	PUNCT	_	_	1	punct	_	WordAlignmentBegin=112362|WordAlignmentEnd=112362
 3	on	on	PRON	_	Case=Nom|Emph=No|Gender=Masc|Number=Sing|Person=3|PronType=Ind	4	nsubj	_	Exponence[Gender]=Absent|Exponence[Number]=Inherent|Exponence[Person]=Inherent|WordAlignmentBegin=112362|WordAlignmentEnd=112532
 4	vit	vivre	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	Exponence[Person]=Absent|WordAlignmentBegin=112532|WordAlignmentEnd=112672
-5	vraiment	vraiment	ADV	_	_	13	reparandum	_	WordAlignmentBegin=112672|WordAlignmentEnd=112992
+5	vraiment	vraiment	ADV	_	_	9	advmod	_	WordAlignmentBegin=112672|WordAlignmentEnd=112992
 6	dans	dans	ADP	_	_	9	case	_	WordAlignmentBegin=112992|WordAlignmentEnd=113152
 7	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	9	det	_	WordAlignmentBegin=113152|WordAlignmentEnd=113242
 8	petit	petit	ADJ	_	Gender=Masc|Number=Sing	9	amod	_	Exponence[Number]=Absent|HasSpokenGender=YesExceptSingWithLiaison|HasSpokenNumber=OnlyWithLiaison|WordAlignmentBegin=113242|WordAlignmentEnd=113422
 9	micro~	micro~	X	_	ExtPos=NOUN	17	reparandum	_	SpaceAfter=No|WordAlignmentBegin=113422|WordAlignmentEnd=113672
 10	,	,	PUNCT	_	_	11	punct	_	WordAlignmentBegin=113672|WordAlignmentEnd=113672
-11	enfin	enfin	ADV	_	_	9	discourse	_	SpaceAfter=No|WordAlignmentBegin=113672|WordAlignmentEnd=114105
+11	enfin	enfin	ADV	_	_	17	discourse	_	SpaceAfter=No|WordAlignmentBegin=113672|WordAlignmentEnd=114105
 12	,	,	PUNCT	_	_	11	punct	_	WordAlignmentBegin=114105|WordAlignmentEnd=114105
-13	vraiment	vraiment	ADV	_	_	4	advmod	_	WordAlignmentBegin=114105|WordAlignmentEnd=114462
+13	vraiment	vraiment	ADV	_	_	17	advmod	_	WordAlignmentBegin=114105|WordAlignmentEnd=114462
 14	dans	dans	ADP	_	_	17	case	_	WordAlignmentBegin=114462|WordAlignmentEnd=114572
 15	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	17	det	_	WordAlignmentBegin=114572|WordAlignmentEnd=114652
 16	petit	petit	ADJ	_	Gender=Masc|Number=Sing	17	amod	_	Exponence[Number]=Absent|HasSpokenGender=YesExceptSingWithLiaison|HasSpokenNumber=OnlyWithLiaison|WordAlignmentBegin=114652|WordAlignmentEnd=114812
@@ -1126,11 +1126,11 @@
 4	coup	coup	NOUN	_	Gender=Masc|Number=Sing	7	nmod	_	Exponence[Gender]=Inherent|Exponence[Number]=Absent|SpaceAfter=No|WordAlignmentBegin=149416|WordAlignmentEnd=149566
 5	,	,	PUNCT	_	_	4	punct	_	WordAlignmentBegin=149566|WordAlignmentEnd=149566
 6	cette	ce	DET	_	Gender=Fem|Number=Sing|PronType=Dem	7	det	_	HasSpokenGender=OnlySingExceptWithLiaison|WordAlignmentBegin=149566|WordAlignmentEnd=149776
-7	dimension	dimension	NOUN	_	Gender=Fem|Number=Sing	11	reparandum	_	Exponence[Gender]=Inherent|Exponence[Number]=Absent|SpaceAfter=No|WordAlignmentBegin=149776|WordAlignmentEnd=150376
+7	dimension	dimension	NOUN	_	Gender=Fem|Number=Sing	0	root	_	Exponence[Gender]=Inherent|Exponence[Number]=Absent|SpaceAfter=No|WordAlignmentBegin=149776|WordAlignmentEnd=150376
 8	,	,	PUNCT	_	_	9	punct	_	WordAlignmentBegin=150376|WordAlignmentEnd=150456
 9	euh	euh	INTJ	_	_	7	discourse:filler	_	SpaceAfter=No|WordAlignmentBegin=150456|WordAlignmentEnd=150866
 10	,	,	PUNCT	_	_	7	punct	_	WordAlignmentBegin=150866|WordAlignmentEnd=150866
-11	spécialité	spécialité	NOUN	_	Gender=Fem|Number=Sing	0	root	_	Exponence[Gender]=Inherent|Exponence[Number]=Absent|WordAlignmentBegin=150866|WordAlignmentEnd=151666
+11	spécialité	spécialité	NOUN	_	Gender=Fem|Number=Sing	7	appos	_	Exponence[Gender]=Inherent|Exponence[Number]=Absent|WordAlignmentBegin=150866|WordAlignmentEnd=151666
 12	de	de	ADP	_	_	14	case	_	WordAlignmentBegin=151666|WordAlignmentEnd=151696
 13	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	14	det	_	HasSpokenGender=OnlySingExceptWithLiaison|WordAlignmentBegin=151696|WordAlignmentEnd=151766
 14	médecine	médecine	NOUN	_	Gender=Fem|Number=Sing	11	nmod	_	Exponence[Gender]=Inherent|Exponence[Number]=Absent|WordAlignmentBegin=151766|WordAlignmentEnd=152170
@@ -1138,7 +1138,7 @@
 16	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	19	aux:pass	_	WordAlignmentBegin=152548|WordAlignmentEnd=152611
 17	encore	encore	ADV	_	_	18	advmod	_	WordAlignmentBegin=152611|WordAlignmentEnd=152841
 18	plus	plus	ADV	_	_	19	advmod	_	WordAlignmentBegin=152841|WordAlignmentEnd=153011
-19	renforcée	renforcer	VERB	_	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	11	acl:relcl	_	Exponence[Gender]=Absent|Exponence[Number]=Absent|PastPartHasSpokenGender=NotInThisDialect|Status[Tense]=Denom|WordAlignmentBegin=153011|WordAlignmentEnd=153441
+19	renforcée	renforcer	VERB	_	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	7	acl:relcl	_	Exponence[Gender]=Absent|Exponence[Number]=Absent|PastPartHasSpokenGender=NotInThisDialect|Status[Tense]=Denom|WordAlignmentBegin=153011|WordAlignmentEnd=153441
 20	parce	parce	ADV	_	ExtPos=SCONJ	28	mark	_	Idiom=Yes|WordAlignmentBegin=153441|WordAlignmentEnd=153621
 21	que	que	SCONJ	_	_	20	fixed	_	InIdiom=Yes|WordAlignmentBegin=153621|WordAlignmentEnd=153705
 22	pour	pour	ADP	_	_	23	mark	_	WordAlignmentBegin=154422|WordAlignmentEnd=154548
@@ -1159,7 +1159,7 @@
 35	de	de	ADP	_	_	37	case	_	WordAlignmentBegin=156472|WordAlignmentEnd=156587
 36	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	37	det	_	_
 37	spécialiste	spécialiste	NOUN	_	Gender=Masc|Number=Sing	34	nmod	_	Exponence[Gender]=Inherent|Exponence[Number]=Absent|SpaceAfter=No|WordAlignmentBegin=156587|WordAlignmentEnd=157019
-38	.	.	PUNCT	_	_	11	punct	_	WordAlignmentBegin=157019|WordAlignmentEnd=157019
+38	.	.	PUNCT	_	_	7	punct	_	WordAlignmentBegin=157019|WordAlignmentEnd=157019
 
 # sent_id = Rhap_D0006-61
 # prosodic_annotation = yes
@@ -1250,12 +1250,12 @@
 # macrosyntax = $L1 { ce que | ce que | ce que } j'appelle la vraie médecine < { c'est | -$ c'est } { { les | les } cas concrets | [ quel est le niveau de santé de la population // ] "euh" | [ quels sont les ESPERLUETTE // ] } //
 # text = ce que, ce que, ce que j'appelle la vraie médecine, c'est, c'est les, les cas concrets, quel est le niveau de santé de la population, euh, quels sont les…
 1	ce	ce	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	7	reparandum	_	Exponence[Gender]=Inherent|Exponence[Number]=Inherent|Exponence[Person]=Inherent|Overlap=Rhap_D0006-64|WordAlignmentBegin=169093|WordAlignmentEnd=169141
-2	que	que	PRON	_	PronType=Rel	1	acl:relcl	_	Overlap=Rhap_D0006-64|SpaceAfter=No|WordAlignmentBegin=169141|WordAlignmentEnd=169272
+2	que	que	PRON	_	PronType=Rel	1	acl:relcl	_	Overlap=Rhap_D0006-64|Promotion=comp:obj|SpaceAfter=No|WordAlignmentBegin=169141|WordAlignmentEnd=169272
 3	,	,	PUNCT	_	_	1	punct	_	Overlap=Rhap_D0006-45|WordAlignmentBegin=170377|WordAlignmentEnd=167857
 4	ce	ce	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	7	reparandum	_	Exponence[Gender]=Inherent|Exponence[Number]=Inherent|Exponence[Person]=Inherent|Overlap=Rhap_D0006-64|WordAlignmentBegin=168354|WordAlignmentEnd=168473
-5	que	que	PRON	_	PronType=Rel	4	acl:relcl	_	Overlap=Rhap_D0006-64|SpaceAfter=No|WordAlignmentBegin=168473|WordAlignmentEnd=168595
+5	que	que	PRON	_	PronType=Rel	4	acl:relcl	_	Overlap=Rhap_D0006-64|Promotion=comp:obj|SpaceAfter=No|WordAlignmentBegin=168473|WordAlignmentEnd=168595
 6	,	,	PUNCT	_	_	4	punct	_	Overlap=Rhap_D0006-45|WordAlignmentBegin=0|WordAlignmentEnd=0
-7	ce	ce	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	16	dislocated:subj	_	Exponence[Gender]=Inherent|Exponence[Number]=Inherent|Exponence[Person]=Inherent|Overlap=Rhap_D0006-45|WordAlignmentBegin=0|WordAlignmentEnd=0
+7	ce	ce	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	23	dislocated:subj	_	Exponence[Gender]=Inherent|Exponence[Number]=Inherent|Exponence[Person]=Inherent|Overlap=Rhap_D0006-45|WordAlignmentBegin=0|WordAlignmentEnd=0
 8	que	que	PRON	_	PronType=Rel	10	obj	_	Overlap=Rhap_D0006-45|WordAlignmentBegin=0|WordAlignmentEnd=167857
 9	j'	moi	PRON	_	Case=Nom|Emph=No|Number=Sing|Person=1|PronType=Prs	10	nsubj	_	Exponence[Number]=Inherent|Exponence[Person]=Inherent|Overlap=Rhap_D0006-64|SpaceAfter=No|WordAlignmentBegin=169272|WordAlignmentEnd=169303
 10	appelle	appeler	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	7	acl:relcl	_	Exponence[Person]=Absent|Overlap=Rhap_D0006-64|WordAlignmentBegin=169303|WordAlignmentEnd=169479
@@ -1462,7 +1462,7 @@
 # speaker_id = §LM4
 # macrosyntax = $L1 alors < { ça div~ | { ça | $- ça } varie } beaucoup //=
 # text = alors, ça div~, ça, ça varie beaucoup.
-1	alors	alors	ADV	_	_	4	advmod	_	SpaceAfter=No|WordAlignmentBegin=196676|WordAlignmentEnd=196861
+1	alors	alors	ADV	_	_	9	advmod	_	SpaceAfter=No|WordAlignmentBegin=196676|WordAlignmentEnd=196861
 2	,	,	PUNCT	_	_	1	punct	_	WordAlignmentBegin=196861|WordAlignmentEnd=196861
 3	ça	ça	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	4	nsubj	_	Exponence[Gender]=Inherent|Exponence[Number]=Inherent|Exponence[Person]=Inherent|WordAlignmentBegin=196861|WordAlignmentEnd=197031
 4	div~	div~	X	_	ExtPos=VERB	9	reparandum	_	SpaceAfter=No|WordAlignmentBegin=197031|WordAlignmentEnd=197361
@@ -1496,21 +1496,21 @@
 2	y	y	PRON	_	Person=3|PronType=Prs	3	expl:comp	_	Exponence[Person]=Inherent|WordAlignmentBegin=199271|WordAlignmentEnd=199331
 3	a	avoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	WordAlignmentBegin=199331|WordAlignmentEnd=199361
 4	des	un	DET	_	Definite=Ind|Number=Plur|PronType=Art	5	det	_	WordAlignmentBegin=199361|WordAlignmentEnd=199514
-5	gens	gens	NOUN	_	Gender=Masc|Number=Plur	12	reparandum	_	Exponence[Gender]=Inherent|Exponence[Number]=Absent|SpaceAfter=No|WordAlignmentBegin=199514|WordAlignmentEnd=199891
+5	gens	gens	NOUN	_	Gender=Masc|Number=Plur	3	obj	_	Exponence[Gender]=Inherent|Exponence[Number]=Absent|SpaceAfter=No|WordAlignmentBegin=199514|WordAlignmentEnd=199891
 6	,	,	PUNCT	_	_	7	punct	_	WordAlignmentBegin=199891|WordAlignmentEnd=199991
-7	euh	euh	INTJ	_	_	5	discourse:filler	_	SpaceAfter=No|WordAlignmentBegin=199991|WordAlignmentEnd=200981
-8	,	,	PUNCT	_	_	5	punct	_	WordAlignmentBegin=200981|WordAlignmentEnd=201335
-9	de	de	ADP	_	_	12	case	_	WordAlignmentBegin=201335|WordAlignmentEnd=201410
+7	euh	euh	INTJ	_	_	12	discourse:filler	_	SpaceAfter=No|WordAlignmentBegin=199991|WordAlignmentEnd=200981
+8	,	,	PUNCT	_	_	7	punct	_	WordAlignmentBegin=200981|WordAlignmentEnd=201335
+9	de	de	DET	_	_	12	det	_	WordAlignmentBegin=201335|WordAlignmentEnd=201410
 10	très	très	ADV	_	_	11	advmod	_	WordAlignmentBegin=201410|WordAlignmentEnd=201600
 11	bons	bon	ADJ	_	Gender=Masc|Number=Plur	12	amod	_	HasSpokenGender=YesExceptSingWithLiaison|HasSpokenNumber=OnlyWithLiaison|LiaisonAfter=Yes|WordAlignmentBegin=201600|WordAlignmentEnd=201740
-12	amis	ami	NOUN	_	Gender=Masc|Number=Plur	3	obj	_	Exponence[Gender]=Inherent|Exponence[Number]=Absent|LiaisonPossibleBefore=Yes|SpaceAfter=No|WordAlignmentBegin=201740|WordAlignmentEnd=201890
+12	amis	ami	NOUN	_	Gender=Masc|Number=Plur	5	conj:reform	_	Exponence[Gender]=Inherent|Exponence[Number]=Absent|LiaisonPossibleBefore=Yes|SpaceAfter=No|WordAlignmentBegin=201740|WordAlignmentEnd=201890
 13	,	,	PUNCT	_	_	14	punct	_	WordAlignmentBegin=201890|WordAlignmentEnd=201890
 14	hein	hein	INTJ	_	_	12	discourse	_	SpaceAfter=No|WordAlignmentBegin=201890|WordAlignmentEnd=202057
 15	,	,	PUNCT	_	_	14	punct	_	WordAlignmentBegin=202057|WordAlignmentEnd=202477
-16	mais	mais	CCONJ	_	_	17	cc	_	WordAlignmentBegin=202477|WordAlignmentEnd=202641
-17	sur	sur	ADP	_	_	24	reparandum	_	Scrap=Yes|SpaceAfter=No|WordAlignmentBegin=202641|WordAlignmentEnd=203056
+16	mais	mais	CCONJ	_	_	17	cc	_	Head=Position|WordAlignmentBegin=202477|WordAlignmentEnd=202641
+17	sur	sur	ADP	_	_	30	reparandum	_	Promotion=mod|Scrap=Yes|SpaceAfter=No|WordAlignmentBegin=202641|WordAlignmentEnd=203056
 18	,	,	PUNCT	_	_	17	punct	_	WordAlignmentBegin=203056|WordAlignmentEnd=204204
-19	par	par	ADP	_	ExtPos=ADV	24	advmod	_	Idiom=Yes|WordAlignmentBegin=204204|WordAlignmentEnd=204306
+19	par	par	ADP	_	ExtPos=ADV	30	advmod	_	Idiom=Yes|WordAlignmentBegin=204204|WordAlignmentEnd=204306
 20	contre	contre	ADP	_	_	19	fixed	_	InIdiom=Yes|SpaceAfter=No|WordAlignmentBegin=204306|WordAlignmentEnd=204469
 21	,	,	PUNCT	_	_	19	punct	_	WordAlignmentBegin=204469|WordAlignmentEnd=204469
 22	quand	quand	SCONJ	_	_	24	mark	_	WordAlignmentBegin=204469|WordAlignmentEnd=204549
@@ -1777,10 +1777,10 @@
 # speaker_id = §LM4
 # macrosyntax = vraiment < la psychiatrie < { il faut ê~ | il faut être } ESPERLUETTE //
 # text = vraiment, la psychiatrie, il faut ê~, il faut être…
-1	vraiment	vraiment	ADV	_	_	7	advmod	_	SpaceAfter=No|WordAlignmentBegin=239381|WordAlignmentEnd=239576
+1	vraiment	vraiment	ADV	_	_	11	advmod	_	SpaceAfter=No|WordAlignmentBegin=239381|WordAlignmentEnd=239576
 2	,	,	PUNCT	_	_	1	punct	_	WordAlignmentBegin=239576|WordAlignmentEnd=239576
 3	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	_	HasSpokenGender=OnlySingExceptWithLiaison|WordAlignmentBegin=239576|WordAlignmentEnd=239656
-4	psychiatrie	psychiatrie	NOUN	_	Gender=Fem|Number=Sing	7	dislocated:mod	_	Exponence[Gender]=Inherent|Exponence[Number]=Absent|SpaceAfter=No|WordAlignmentBegin=239656|WordAlignmentEnd=239997
+4	psychiatrie	psychiatrie	NOUN	_	Gender=Fem|Number=Sing	11	dislocated:mod	_	Exponence[Gender]=Inherent|Exponence[Number]=Absent|SpaceAfter=No|WordAlignmentBegin=239656|WordAlignmentEnd=239997
 5	,	,	PUNCT	_	_	4	punct	_	WordAlignmentBegin=239997|WordAlignmentEnd=239997
 6	il	lui	PRON	_	Case=Nom|Emph=No|Gender=Masc|Number=Sing|Person=3|PronType=Prs	7	expl:subj	_	Exponence[Person]=Inherent|WordAlignmentBegin=239997|WordAlignmentEnd=240043
 7	faut	falloir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	reparandum	_	Exponence[Person]=Absent|WordAlignmentBegin=240043|WordAlignmentEnd=240161
@@ -1909,7 +1909,7 @@
 7	parce	parce	ADV	_	ExtPos=SCONJ	18	mark	_	Idiom=Yes|WordAlignmentBegin=251639|WordAlignmentEnd=251809
 8	que	que	SCONJ	_	_	7	fixed	_	InIdiom=Yes|WordAlignmentBegin=251809|WordAlignmentEnd=251869
 9	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	10	det	_	HasSpokenGender=OnlySingExceptWithLiaison|WordAlignmentBegin=251869|WordAlignmentEnd=251929
-10	psychiatrie	psychiatrie	NOUN	_	Gender=Fem|Number=Sing	13	dislocated:subj	_	Exponence[Gender]=Inherent|Exponence[Number]=Absent|SpaceAfter=No|WordAlignmentBegin=251929|WordAlignmentEnd=252439
+10	psychiatrie	psychiatrie	NOUN	_	Gender=Fem|Number=Sing	18	dislocated:subj	_	Exponence[Gender]=Inherent|Exponence[Number]=Absent|SpaceAfter=No|WordAlignmentBegin=251929|WordAlignmentEnd=252439
 11	,	,	PUNCT	_	_	10	punct	_	WordAlignmentBegin=252439|WordAlignmentEnd=252439
 12	c'	ce	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	13	nsubj	_	Exponence[Gender]=Inherent|Exponence[Number]=Inherent|Exponence[Person]=Inherent|SpaceAfter=No|WordAlignmentBegin=252439|WordAlignmentEnd=252549
 13	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	18	reparandum	_	SpaceAfter=No|WordAlignmentBegin=252549|WordAlignmentEnd=252679
@@ -2294,13 +2294,13 @@
 # speaker_id = §LM4
 # macrosyntax = "euh" ^et sinon < les spécialités { les m~ | un { peu moins ( je sais pas si c'est ça qui vous intéresse // ) | petit peu moins } } prises < "bah" c'est les c'est { les spécialités à risques | { la gynéco obstétrique ( par exemple ) | la cancérologie } } //
 # text = euh, et sinon, les spécialités les m~, un peu moins, je sais pas si c'est ça qui vous intéresse, petit peu moins prises, bah, c'est les c'est les spécialités à risques, la gynéco obstétrique, par exemple, la cancérologie.
-1	euh	euh	INTJ	_	_	35	discourse:filler	_	SpaceAfter=No|WordAlignmentBegin=288803|WordAlignmentEnd=289639
+1	euh	euh	INTJ	_	_	39	discourse:filler	_	SpaceAfter=No|WordAlignmentBegin=288803|WordAlignmentEnd=289639
 2	,	,	PUNCT	_	_	1	punct	_	WordAlignmentBegin=289639|WordAlignmentEnd=291788
-3	et	et	CCONJ	_	_	35	cc	_	WordAlignmentBegin=291788|WordAlignmentEnd=291833
-4	sinon	sinon	ADV	_	_	35	advmod	_	SpaceAfter=No|WordAlignmentBegin=291833|WordAlignmentEnd=292283
+3	et	et	CCONJ	_	_	39	cc	_	WordAlignmentBegin=291788|WordAlignmentEnd=291833
+4	sinon	sinon	ADV	_	_	39	advmod	_	SpaceAfter=No|WordAlignmentBegin=291833|WordAlignmentEnd=292283
 5	,	,	PUNCT	_	_	4	punct	_	WordAlignmentBegin=292283|WordAlignmentEnd=292283
 6	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	7	det	_	HasSpokenGender=OnlySingExceptWithLiaison|WordAlignmentBegin=292283|WordAlignmentEnd=292393
-7	spécialités	spécialité	NOUN	_	Gender=Fem|Number=Plur	35	dislocated:subj	_	Exponence[Gender]=Inherent|Exponence[Number]=Absent|WordAlignmentBegin=292393|WordAlignmentEnd=292953
+7	spécialités	spécialité	NOUN	_	Gender=Fem|Number=Plur	39	dislocated:subj	_	Exponence[Gender]=Inherent|Exponence[Number]=Absent|WordAlignmentBegin=292393|WordAlignmentEnd=292953
 8	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	9	det	_	HasSpokenGender=OnlySingExceptWithLiaison|WordAlignmentBegin=292953|WordAlignmentEnd=293193
 9	m~	m~	X	_	_	28	reparandum	_	SpaceAfter=No|WordAlignmentBegin=293193|WordAlignmentEnd=293223
 10	,	,	PUNCT	_	_	9	punct	_	WordAlignmentBegin=293223|WordAlignmentEnd=293223
@@ -2309,7 +2309,7 @@
 13	moins	moins	ADV	_	_	28	reparandum	_	SpaceAfter=No|WordAlignmentBegin=293733|WordAlignmentEnd=293973
 14	,	,	PUNCT	_	_	16	punct	_	WordAlignmentBegin=293973|WordAlignmentEnd=293973
 15	je	moi	PRON	_	Case=Nom|Emph=No|Number=Sing|Person=1|PronType=Prs	16	nsubj	_	Exponence[Number]=Inherent|Exponence[Person]=Inherent|WordAlignmentBegin=293973|WordAlignmentEnd=294193
-16	sais	savoir	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	13	parataxis:parenth	_	Exponence[Person]=Absent|WordAlignmentBegin=294193|WordAlignmentEnd=294263
+16	sais	savoir	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	7	parataxis:parenth	_	Exponence[Person]=Absent|WordAlignmentBegin=294193|WordAlignmentEnd=294263
 17	pas	pas	ADV	_	Polarity=Neg	16	advmod	_	WordAlignmentBegin=294263|WordAlignmentEnd=294323
 18	si	si	SCONJ	_	_	21	mark	_	WordAlignmentBegin=294323|WordAlignmentEnd=294453
 19	c'	ce	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	21	expl:subj	_	Exponence[Gender]=Inherent|Exponence[Number]=Inherent|Exponence[Person]=Inherent|SpaceAfter=No|WordAlignmentBegin=294453|WordAlignmentEnd=294543
@@ -2318,7 +2318,7 @@
 22	qui	qui	PRON	_	PronType=Rel	24	nsubj	_	WordAlignmentBegin=294703|WordAlignmentEnd=294793
 23	vous	vous	PRON	_	Case=Acc|Emph=No|Number=Plur|Person=2|PronType=Prs	24	obj	_	Exponence[Number]=Inherent|Exponence[Person]=Inherent|Polite=Unknown|WordAlignmentBegin=294793|WordAlignmentEnd=294884
 24	intéresse	intéresser	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	21	advcl:cleft	_	Exponence[Number]=Absent|Exponence[Person]=Absent|Filler=subj|SpaceAfter=No|WordAlignmentBegin=294884|WordAlignmentEnd=295227
-25	,	,	PUNCT	_	_	13	punct	_	WordAlignmentBegin=295227|WordAlignmentEnd=296035
+25	,	,	PUNCT	_	_	16	punct	_	WordAlignmentBegin=295227|WordAlignmentEnd=296035
 26	petit	petit	ADJ	_	ExtPos=ADV|Gender=Masc|Number=Sing	28	advmod	_	Exponence[Number]=Absent|HasSpokenGender=YesExceptSingWithLiaison|HasSpokenNumber=OnlyWithLiaison|Idiom=Yes|WordAlignmentBegin=296035|WordAlignmentEnd=296133
 27	peu	peu	NOUN	_	Gender=Masc	26	fixed	_	Exponence[Gender]=Inherent|InIdiom=Yes|WordAlignmentBegin=296133|WordAlignmentEnd=296233
 28	moins	moins	ADV	_	_	29	advmod	_	WordAlignmentBegin=296233|WordAlignmentEnd=296413
@@ -2621,20 +2621,20 @@
 # speaker_id = §LM4
 # macrosyntax = "euh" -$ alors < un changement < ( $L2 "mh" // ) "euh" les crottes de chien //
 # text = euh, alors, un changement, euh, les crottes de chien.
-1	euh	euh	INTJ	_	_	6	discourse:filler	_	Overlap=Rhap_D0006-138|SpaceAfter=No|WordAlignmentBegin=341124|WordAlignmentEnd=341662
+1	euh	euh	INTJ	_	_	3	discourse:filler	_	Overlap=Rhap_D0006-138|SpaceAfter=No|WordAlignmentBegin=341124|WordAlignmentEnd=341662
 2	,	,	PUNCT	_	_	1	punct	_	WordAlignmentBegin=341662|WordAlignmentEnd=343151
-3	alors	alors	ADV	_	_	6	advmod	_	SpaceAfter=No|WordAlignmentBegin=343151|WordAlignmentEnd=343346
+3	alors	alors	ADV	_	_	11	advmod	_	SpaceAfter=No|WordAlignmentBegin=343151|WordAlignmentEnd=343346
 4	,	,	PUNCT	_	_	3	punct	_	WordAlignmentBegin=343346|WordAlignmentEnd=343586
 5	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	6	det	_	WordAlignmentBegin=343586|WordAlignmentEnd=343696
-6	changement	changement	NOUN	_	Gender=Masc|Number=Sing	0	root	_	Exponence[Gender]=Inherent|Exponence[Number]=Absent|SpaceAfter=No|WordAlignmentBegin=343696|WordAlignmentEnd=344185
+6	changement	changement	NOUN	_	Gender=Masc|Number=Sing	11	dislocated	_	Exponence[Gender]=Inherent|Exponence[Number]=Absent|SpaceAfter=No|WordAlignmentBegin=343696|WordAlignmentEnd=344185
 7	,	,	PUNCT	_	_	11	punct	_	WordAlignmentBegin=344185|WordAlignmentEnd=344740
 8	euh	euh	INTJ	_	_	11	discourse:filler	_	SpaceAfter=No|WordAlignmentBegin=344747|WordAlignmentEnd=345245
 9	,	,	PUNCT	_	_	8	punct	_	WordAlignmentBegin=345245|WordAlignmentEnd=345245
 10	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	11	det	_	HasSpokenGender=OnlySingExceptWithLiaison|WordAlignmentBegin=345245|WordAlignmentEnd=345365
-11	crottes	crotte	NOUN	_	Gender=Fem|Number=Plur	6	parataxis	_	Exponence[Gender]=Inherent|Exponence[Number]=Absent|WordAlignmentBegin=345365|WordAlignmentEnd=345555
+11	crottes	crotte	NOUN	_	Gender=Fem|Number=Plur	0	root	_	Exponence[Gender]=Inherent|Exponence[Number]=Absent|WordAlignmentBegin=345365|WordAlignmentEnd=345555
 12	de	de	ADP	_	_	13	case	_	WordAlignmentBegin=345555|WordAlignmentEnd=345645
 13	chien	chien	NOUN	_	Gender=Masc|Number=Sing	11	nmod	_	Exponence[Gender]=Inherent|Exponence[Number]=Absent|SpaceAfter=No|WordAlignmentBegin=345645|WordAlignmentEnd=345855
-14	.	.	PUNCT	_	_	6	punct	_	WordAlignmentBegin=345855|WordAlignmentEnd=345855
+14	.	.	PUNCT	_	_	11	punct	_	WordAlignmentBegin=345855|WordAlignmentEnd=345855
 
 # sent_id = Rhap_D0006-140
 # prosodic_annotation = yes

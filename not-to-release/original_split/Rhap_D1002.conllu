@@ -291,13 +291,13 @@
 5	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	HasSpokenGender=OnlySingExceptWithLiaison|WordAlignmentBegin=46242|WordAlignmentEnd=46329
 6	philosophe	philosophe	NOUN	_	Gender=Masc|Number=Sing	3	appos	_	Exponence[Gender]=Inherent|Exponence[Number]=Absent|WordAlignmentBegin=46329|WordAlignmentEnd=46802
 7	allemand	allemand	ADJ	_	Gender=Masc|Number=Sing	6	amod	_	Exponence[Number]=Absent|HasSpokenGender=YesExceptSingWithLiaison|HasSpokenNumber=OnlyWithLiaison|WordAlignmentBegin=46802|WordAlignmentEnd=47217
-8	parle	parler	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	reparandum	_	Exponence[Number]=Absent|Exponence[Person]=Absent|WordAlignmentBegin=47217|WordAlignmentEnd=47767
+8	parle	parler	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	Exponence[Number]=Absent|Exponence[Person]=Absent|Scrap=Yes|WordAlignmentBegin=47217|WordAlignmentEnd=47767
 9	de	de	ADP	_	_	8	obl:arg	_	SpaceAfter=No|WordAlignmentBegin=47767|WordAlignmentEnd=48213
-10	,	,	PUNCT	_	_	8	punct	_	WordAlignmentBegin=48213|WordAlignmentEnd=48213
-11	a	avoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	WordAlignmentBegin=48213|WordAlignmentEnd=48317
+10	,	,	PUNCT	_	_	11	punct	_	WordAlignmentBegin=48213|WordAlignmentEnd=48213
+11	a	avoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	conj:reform	_	WordAlignmentBegin=48213|WordAlignmentEnd=48317
 12	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	13	det	_	WordAlignmentBegin=48317|WordAlignmentEnd=48450
 13	définition	définition	NOUN	_	Gender=Fem|Number=Sing	11	obj	_	Exponence[Gender]=Inherent|Exponence[Number]=Absent|WordAlignmentBegin=48450|WordAlignmentEnd=49171
-14	de	de	ADP	_	_	31	reparandum	_	WordAlignmentBegin=49171|WordAlignmentEnd=49387
+14	de	de	ADP	_	_	22	reparandum	_	WordAlignmentBegin=49171|WordAlignmentEnd=49387
 15	l~	l~	X	_	_	14	dep	_	Scrap=Yes|SpaceAfter=No|WordAlignmentBegin=49387|WordAlignmentEnd=49891
 16	,	,	PUNCT	_	_	14	punct	_	WordAlignmentBegin=49891|WordAlignmentEnd=50553
 17	alors	alors	ADV	_	_	22	discourse	_	WordAlignmentBegin=50553|WordAlignmentEnd=50805
@@ -305,7 +305,7 @@
 19	uniquement	uniquement	ADV	_	_	22	advmod	_	WordAlignmentBegin=50916|WordAlignmentEnd=51403
 20	de	de	ADP	_	_	22	case	_	WordAlignmentBegin=51403|WordAlignmentEnd=51433
 21	l'	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	22	det	_	Exponence[Gender]=Absent|HasSpokenGender=OnlySingExceptWithLiaison|LiaisonAfter=Yes|SpaceAfter=No|WordAlignmentBegin=51433|WordAlignmentEnd=51463
-22	art	art	NOUN	_	Gender=Masc|Number=Sing	31	reparandum	_	Exponence[Gender]=Inherent|Exponence[Number]=Absent|LiaisonPossibleBefore=Yes|SpaceAfter=No|WordAlignmentBegin=51463|WordAlignmentEnd=51746
+22	art	art	NOUN	_	Gender=Masc|Number=Sing	13	dep:comp	_	Exponence[Gender]=Inherent|Exponence[Number]=Absent|LiaisonPossibleBefore=Yes|SpaceAfter=No|WordAlignmentBegin=51463|WordAlignmentEnd=51746
 23	,	,	PUNCT	_	_	22	punct	_	WordAlignmentBegin=51746|WordAlignmentEnd=51746
 24	mais	mais	CCONJ	_	_	31	cc	_	SpaceAfter=No|WordAlignmentBegin=51746|WordAlignmentEnd=52182
 25	,	,	PUNCT	_	_	31	punct	_	WordAlignmentBegin=52182|WordAlignmentEnd=52182
@@ -314,10 +314,10 @@
 28	notamment	notamment	ADV	_	_	31	advmod	_	WordAlignmentBegin=52449|WordAlignmentEnd=52981
 29	de	de	ADP	_	_	31	case	_	WordAlignmentBegin=52981|WordAlignmentEnd=53113
 30	l'	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	31	det	_	Exponence[Gender]=Absent|HasSpokenGender=OnlySingExceptWithLiaison|LiaisonAfter=Yes|SpaceAfter=No|WordAlignmentBegin=53113|WordAlignmentEnd=53153
-31	art	art	NOUN	_	Gender=Masc|Number=Sing	13	nmod	_	Exponence[Gender]=Inherent|Exponence[Number]=Absent|LiaisonPossibleBefore=Yes|WordAlignmentBegin=53153|WordAlignmentEnd=53403
+31	art	art	NOUN	_	Gender=Masc|Number=Sing	22	conj:reform	_	Exponence[Gender]=Inherent|Exponence[Number]=Absent|LiaisonPossibleBefore=Yes|WordAlignmentBegin=53153|WordAlignmentEnd=53403
 32	comme	comme	ADP	_	_	34	case	_	WordAlignmentBegin=53866|WordAlignmentEnd=54245
 33	quelque	quelque	DET	_	Number=Sing|PronType=Ind	34	det	_	Exponence[Number]=Inherent|WordAlignmentBegin=54245|WordAlignmentEnd=54538
-34	chose	chose	NOUN	_	Gender=Fem|Number=Sing	31	nmod	_	Exponence[Gender]=Inherent|Exponence[Number]=Absent|WordAlignmentBegin=54538|WordAlignmentEnd=54733
+34	chose	chose	NOUN	_	Gender=Fem|Number=Sing	13	nmod	_	Exponence[Gender]=Inherent|Exponence[Number]=Absent|WordAlignmentBegin=54538|WordAlignmentEnd=54733
 35	qui	qui	PRON	_	PronType=Rel	36	nsubj	_	WordAlignmentBegin=54733|WordAlignmentEnd=54880
 36	serait	être	VERB	_	Mood=Cnd|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	34	acl:relcl	_	Exponence[Number]=Absent|Exponence[Person]=Absent|WordAlignmentBegin=54880|WordAlignmentEnd=55106
 37-38	du	_	_	_	_	_	_	_	_
@@ -452,7 +452,7 @@
 161	contre	contre	ADP	_	_	160	obl:arg	_	SpaceAfter=No|WordAlignmentBegin=90841|WordAlignmentEnd=91239
 162	,	,	PUNCT	_	_	163	punct	_	WordAlignmentBegin=91239|WordAlignmentEnd=92063
 163	euh	euh	INTJ	_	_	161	discourse:filler	_	SpaceAfter=No|WordAlignmentBegin=92063|WordAlignmentEnd=93219
-164	.	.	PUNCT	_	_	11	punct	_	WordAlignmentBegin=93219|WordAlignmentEnd=93219
+164	.	.	PUNCT	_	_	8	punct	_	WordAlignmentBegin=93219|WordAlignmentEnd=93219
 
 # sent_id = Rhap_D1002-17
 # prosodic_annotation = yes
@@ -463,7 +463,7 @@
 1	Nietzsche	Nietzsche	PROPN	_	_	2	nsubj	_	WordAlignmentBegin=93219|WordAlignmentEnd=93719
 2	dit	dire	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	Exponence[Person]=Absent|WordAlignmentBegin=93719|WordAlignmentEnd=93926
 3	tout	tout	ADJ	_	Gender=Masc|Number=Sing	4	amod	_	Exponence[Number]=Absent|HasSpokenGender=YesExceptSingWithLiaison|HasSpokenNumber=OnlyWithLiaison|WordAlignmentBegin=93926|WordAlignmentEnd=94074
-4	ça	ça	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	9	dislocated:subj	_	Exponence[Gender]=Inherent|Exponence[Number]=Inherent|Exponence[Person]=Inherent|SpaceAfter=No|WordAlignmentBegin=94074|WordAlignmentEnd=94335
+4	ça	ça	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	20	dislocated:subj	_	Exponence[Gender]=Inherent|Exponence[Number]=Inherent|Exponence[Person]=Inherent|SpaceAfter=No|WordAlignmentBegin=94074|WordAlignmentEnd=94335
 5	,	,	PUNCT	_	_	4	punct	_	WordAlignmentBegin=94335|WordAlignmentEnd=94335
 6	c'	ce	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	9	nsubj	_	Exponence[Gender]=Inherent|Exponence[Number]=Inherent|Exponence[Person]=Inherent|SpaceAfter=No|WordAlignmentBegin=94335|WordAlignmentEnd=94407
 7	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	cop	_	WordAlignmentBegin=94407|WordAlignmentEnd=94497
@@ -479,7 +479,7 @@
 17	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	20	cop	_	WordAlignmentBegin=96568|WordAlignmentEnd=96927
 18	de	de	ADP	_	ExtPos=DET	20	det	_	Idiom=Yes|WordAlignmentBegin=96927|WordAlignmentEnd=96953
 19	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	18	fixed	_	HasSpokenGender=OnlySingExceptWithLiaison|InIdiom=Yes|WordAlignmentBegin=96953|WordAlignmentEnd=97085
-20	conception	conception	NOUN	_	Gender=Fem|Number=Sing	2	ccomp	_	Exponence[Gender]=Inherent|Exponence[Number]=Absent|WordAlignmentBegin=97085|WordAlignmentEnd=97695
+20	conception	conception	NOUN	_	Gender=Fem|Number=Sing	2	ccomp	_	Exponence[Gender]=Inherent|Exponence[Number]=Absent|Reported=Yes|WordAlignmentBegin=97085|WordAlignmentEnd=97695
 21	maladive	maladif	ADJ	_	Gender=Fem|Number=Sing	20	amod	_	Exponence[Number]=Absent|HasSpokenGender=YesExceptSingWithLiaison|HasSpokenNumber=OnlyWithLiaison|WordAlignmentBegin=97695|WordAlignmentEnd=98291
 22	de	de	ADP	_	_	24	case	_	WordAlignmentBegin=98291|WordAlignmentEnd=98435
 23	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	24	det	_	HasSpokenGender=OnlySingExceptWithLiaison|WordAlignmentBegin=98435|WordAlignmentEnd=98553
@@ -576,17 +576,17 @@
 16	,	,	PUNCT	_	_	17	punct	_	WordAlignmentBegin=112190|WordAlignmentEnd=112190
 17	là-dedans	là-dedans	ADV	_	_	13	advmod	_	SpaceAfter=No|WordAlignmentBegin=112190|WordAlignmentEnd=112602
 18	,	,	PUNCT	_	_	29	punct	_	WordAlignmentBegin=112602|WordAlignmentEnd=112961
-19	et	et	CCONJ	_	_	27	cc	_	WordAlignmentBegin=112961|WordAlignmentEnd=113084
-20	donc	donc	ADV	_	_	27	advmod	_	SpaceAfter=No|WordAlignmentBegin=113084|WordAlignmentEnd=113342
+19	et	et	CCONJ	_	_	29	cc	_	Head=Position|WordAlignmentBegin=112961|WordAlignmentEnd=113084
+20	donc	donc	ADV	_	_	29	advmod	_	Head=Position|SpaceAfter=No|WordAlignmentBegin=113084|WordAlignmentEnd=113342
 21	,	,	PUNCT	_	_	20	punct	_	WordAlignmentBegin=113342|WordAlignmentEnd=113342
-22	y	y	PRON	_	ExtPos=CCONJ|Person=3|PronType=Prs	27	cc	_	Exponence[Person]=Inherent|Idiom=Yes|WordAlignmentBegin=113342|WordAlignmentEnd=113524
-23	compris	comprendre	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	22	fixed	_	Exponence[Number]=Absent|InIdiom=Yes|PastPartHasSpokenGender=Yes|SpaceAfter=No|Status[Tense]=Denom|WordAlignmentBegin=113524|WordAlignmentEnd=114024
+22	y	y	PRON	_	ExtPos=CCONJ|Person=3|PronType=Prs	29	cc	_	Exponence[Person]=Inherent|Idiom=Yes|WordAlignmentBegin=113342|WordAlignmentEnd=113524
+23	compris	comprendre	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	22	fixed	_	Exponence[Number]=Absent|Head=Position|InIdiom=Yes|PastPartHasSpokenGender=Yes|SpaceAfter=No|Status[Tense]=Denom|WordAlignmentBegin=113524|WordAlignmentEnd=114024
 24	,	,	PUNCT	_	_	25	punct	_	WordAlignmentBegin=114024|WordAlignmentEnd=114024
 25	euh	euh	INTJ	_	_	27	discourse:filler	_	SpaceAfter=No|WordAlignmentBegin=114024|WordAlignmentEnd=114372
 26	,	,	PUNCT	_	_	25	punct	_	WordAlignmentBegin=114372|WordAlignmentEnd=114792
-27	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	29	reparandum	_	HasSpokenGender=OnlySingExceptWithLiaison|Scrap=Yes|SpaceAfter=No|WordAlignmentBegin=114792|WordAlignmentEnd=115070
+27	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	29	reparandum	_	HasSpokenGender=OnlySingExceptWithLiaison|Head=Position|Scrap=Yes|SpaceAfter=No|WordAlignmentBegin=114792|WordAlignmentEnd=115070
 28	,	,	PUNCT	_	_	27	punct	_	WordAlignmentBegin=115070|WordAlignmentEnd=115070
-29	l~	l~	X	_	ExtPos=NOUN	13	conj	_	SpaceAfter=No|WordAlignmentBegin=115070|WordAlignmentEnd=115214
+29	l~	l~	X	_	ExtPos=DET	13	conj	_	Promotion=det|Scrap=Yes|SpaceAfter=No|WordAlignmentBegin=115070|WordAlignmentEnd=115214
 30	…	…	PUNCT	_	_	12	punct	_	WordAlignmentBegin=115347|WordAlignmentEnd=115347
 
 # sent_id = Rhap_D1002-21
@@ -693,7 +693,7 @@
 7	cas	cas	NOUN	_	Gender=Masc	16	nmod	_	Exponence[Gender]=Inherent|SpaceAfter=No|WordAlignmentBegin=132967|WordAlignmentEnd=133160
 8	,	,	PUNCT	_	_	7	punct	_	WordAlignmentBegin=133160|WordAlignmentEnd=133160
 9	pour	pour	ADP	_	_	10	case	_	WordAlignmentBegin=133160|WordAlignmentEnd=133348
-10	lui	lui	PRON	_	Emph=Yes|Gender=Masc|Number=Sing|Person=3|PronType=Prs	16	nmod	_	Exponence[Person]=Inherent|SpaceAfter=No|WordAlignmentBegin=133348|WordAlignmentEnd=133530
+10	lui	lui	PRON	_	Emph=Yes|Gender=Masc|Number=Sing|Person=3|PronType=Prs	16	obl:mod	_	Exponence[Person]=Inherent|SpaceAfter=No|WordAlignmentBegin=133348|WordAlignmentEnd=133530
 11	,	,	PUNCT	_	_	10	punct	_	WordAlignmentBegin=133530|WordAlignmentEnd=133530
 12	c'	ce	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	16	nsubj	_	Exponence[Gender]=Inherent|Exponence[Number]=Inherent|Exponence[Person]=Inherent|SpaceAfter=No|WordAlignmentBegin=133530|WordAlignmentEnd=133637
 13	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	16	cop	_	WordAlignmentBegin=133637|WordAlignmentEnd=133754
@@ -760,20 +760,20 @@
 # speaker_id = §LM10
 # macrosyntax = "euh" donc < en y repensant < { on peut comprendre | on peut comprendre } { Nietzsche | ^et { le | l' } affirmation de l'artiste joyeux { qui affirme | ^et qui n'est pas du côté de la maladie romantique } } //
 # text = euh, donc, en y repensant, on peut comprendre, on peut comprendre Nietzsche et le, l'affirmation de l'artiste joyeux qui affirme, et qui n'est pas du côté de la maladie romantique.
-1	euh	euh	INTJ	_	_	7	discourse:filler	_	SpaceAfter=No|WordAlignmentBegin=141889|WordAlignmentEnd=142350
+1	euh	euh	INTJ	_	_	14	discourse:filler	_	SpaceAfter=No|WordAlignmentBegin=141889|WordAlignmentEnd=142350
 2	,	,	PUNCT	_	_	1	punct	_	WordAlignmentBegin=142350|WordAlignmentEnd=142350
-3	donc	donc	ADV	_	_	7	discourse	_	SpaceAfter=No|WordAlignmentBegin=142350|WordAlignmentEnd=142561
+3	donc	donc	ADV	_	_	14	discourse	_	SpaceAfter=No|WordAlignmentBegin=142350|WordAlignmentEnd=142561
 4	,	,	PUNCT	_	_	3	punct	_	WordAlignmentBegin=142561|WordAlignmentEnd=142561
 5	en	en	ADP	_	_	7	mark	_	WordAlignmentBegin=142561|WordAlignmentEnd=142688
 6	y	y	PRON	_	Person=3|PronType=Prs	7	obj	_	Exponence[Person]=Inherent|WordAlignmentBegin=142688|WordAlignmentEnd=142752
-7	repensant	repenser	VERB	_	Tense=Pres|VerbForm=Part	10	advcl	_	PastPartHasSpokenGender=NotInThisDialect|SpaceAfter=No|Status[Tense]=Denom|WordAlignmentBegin=142752|WordAlignmentEnd=143281
+7	repensant	repenser	VERB	_	Tense=Pres|VerbForm=Part	14	advcl	_	SpaceAfter=No|Status[Tense]=Denom|WordAlignmentBegin=142752|WordAlignmentEnd=143281
 8	,	,	PUNCT	_	_	7	punct	_	WordAlignmentBegin=143281|WordAlignmentEnd=143281
 9	on	on	PRON	_	Case=Nom|Emph=No|Gender=Masc|Number=Sing|Person=3|PronType=Ind	10	nsubj	_	Exponence[Gender]=Absent|Exponence[Number]=Inherent|Exponence[Person]=Inherent|WordAlignmentBegin=143281|WordAlignmentEnd=143378
-10	peut	pouvoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	Exponence[Person]=Absent|WordAlignmentBegin=143378|WordAlignmentEnd=143533
+10	peut	pouvoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	14	reparandum	_	Exponence[Person]=Absent|WordAlignmentBegin=143378|WordAlignmentEnd=143533
 11	comprendre	comprendre	VERB	_	VerbForm=Inf	14	reparandum	_	SpaceAfter=No|Subject=SubjRaising|WordAlignmentBegin=143533|WordAlignmentEnd=144187
 12	,	,	PUNCT	_	_	11	punct	_	WordAlignmentBegin=144335|WordAlignmentEnd=144335
 13	on	on	PRON	_	Case=Nom|Emph=No|Gender=Masc|Number=Sing|Person=3|PronType=Ind	14	nsubj	_	Exponence[Gender]=Absent|Exponence[Number]=Inherent|Exponence[Person]=Inherent|WordAlignmentBegin=144335|WordAlignmentEnd=144476
-14	peut	pouvoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	ccomp	_	Exponence[Person]=Absent|WordAlignmentBegin=144476|WordAlignmentEnd=144561
+14	peut	pouvoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	Exponence[Person]=Absent|WordAlignmentBegin=144476|WordAlignmentEnd=144561
 15	comprendre	comprendre	VERB	_	VerbForm=Inf	14	xcomp	_	Subject=SubjRaising|WordAlignmentBegin=144561|WordAlignmentEnd=144958
 16	Nietzsche	Nietzsche	PROPN	_	_	15	obj	_	WordAlignmentBegin=144958|WordAlignmentEnd=145234
 17	et	et	CCONJ	_	_	21	cc	_	WordAlignmentBegin=145234|WordAlignmentEnd=145383
@@ -801,5 +801,5 @@
 38	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	39	det	_	HasSpokenGender=OnlySingExceptWithLiaison|WordAlignmentBegin=152591|WordAlignmentEnd=152749
 39	maladie	maladie	NOUN	_	Gender=Fem|Number=Sing	36	nmod	_	Exponence[Gender]=Inherent|Exponence[Number]=Absent|WordAlignmentBegin=152749|WordAlignmentEnd=153370
 40	romantique	romantique	ADJ	_	Gender=Fem|Number=Sing	39	amod	_	Exponence[Gender]=Absent|Exponence[Number]=Absent|HasSpokenGender=No|HasSpokenNumber=OnlyWithLiaison|SpaceAfter=No|WordAlignmentBegin=153531|WordAlignmentEnd=154216
-41	.	.	PUNCT	_	_	10	punct	_	WordAlignmentBegin=154216|WordAlignmentEnd=154216
+41	.	.	PUNCT	_	_	14	punct	_	WordAlignmentBegin=154216|WordAlignmentEnd=154216
 

@@ -27,14 +27,14 @@
 21-22	des	_	_	_	_	_	_	_	_
 21	de	de	ADP	_	_	23	case	_	WordAlignmentBegin=4669|WordAlignmentEnd=4829
 22	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	23	det	_	_
-23	médecins	médecin	NOUN	_	Gender=Masc|Number=Plur	30	reparandum	_	Exponence[Gender]=Inherent|Exponence[Number]=Absent|WordAlignmentBegin=4829|WordAlignmentEnd=5366
-24	et	et	CCONJ	_	_	25	cc	_	WordAlignmentBegin=5366|WordAlignmentEnd=5459
+23	médecins	médecin	NOUN	_	Gender=Masc|Number=Plur	20	nmod	_	Exponence[Gender]=Inherent|Exponence[Number]=Absent|WordAlignmentBegin=4829|WordAlignmentEnd=5366
+24	et	et	CCONJ	_	_	30	cc	_	WordAlignmentBegin=5366|WordAlignmentEnd=5459
 25	de	de	ADP	_	_	30	reparandum	_	SpaceAfter=No|WordAlignmentBegin=5459|WordAlignmentEnd=5659
 26	,	,	PUNCT	_	_	25	punct	_	WordAlignmentBegin=5659|WordAlignmentEnd=5659
 27	de	de	ADP	_	_	30	reparandum	_	SpaceAfter=No|WordAlignmentBegin=5659|WordAlignmentEnd=5859
 28	,	,	PUNCT	_	_	27	punct	_	WordAlignmentBegin=5859|WordAlignmentEnd=5859
 29	de	de	ADP	_	_	30	case	_	WordAlignmentBegin=5859|WordAlignmentEnd=5999
-30	recherche	recherche	NOUN	_	Gender=Fem|Number=Sing	20	nmod	_	Exponence[Gender]=Inherent|Exponence[Number]=Absent|WordAlignmentBegin=5999|WordAlignmentEnd=6602
+30	recherche	recherche	NOUN	_	Gender=Fem|Number=Sing	23	conj	_	Exponence[Gender]=Inherent|Exponence[Number]=Absent|WordAlignmentBegin=5999|WordAlignmentEnd=6602
 31	qui	qui	PRON	_	PronType=Rel	33	nsubj:pass	_	WordAlignmentBegin=6602|WordAlignmentEnd=6690
 32	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	33	aux:pass	_	WordAlignmentBegin=6690|WordAlignmentEnd=7007
 33	basée	baser	VERB	_	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	20	acl:relcl	_	Exponence[Gender]=Absent|Exponence[Number]=Absent|PastPartHasSpokenGender=NotInThisDialect|Status[Tense]=Denom|WordAlignmentBegin=7007|WordAlignmentEnd=7270
@@ -118,7 +118,7 @@
 12	,	,	PUNCT	_	_	13	punct	_	WordAlignmentBegin=21801|WordAlignmentEnd=22134
 13	euh	euh	INTJ	_	_	9	discourse:filler	_	SpaceAfter=No|WordAlignmentBegin=22134|WordAlignmentEnd=22469
 14	,	,	PUNCT	_	_	15	punct	_	WordAlignmentBegin=22469|WordAlignmentEnd=22469
-15	sillonnant	sillonner	VERB	_	Tense=Pres|VerbForm=Part	5	advcl	_	PastPartHasSpokenGender=NotInThisDialect|Status[Tense]=Denom|WordAlignmentBegin=22469|WordAlignmentEnd=23115
+15	sillonnant	sillonner	VERB	_	Tense=Pres|VerbForm=Part	5	advcl	_	Status[Tense]=Denom|WordAlignmentBegin=22469|WordAlignmentEnd=23115
 16	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	20	reparandum	_	HasSpokenGender=OnlySingExceptWithLiaison|SpaceAfter=No|WordAlignmentBegin=23115|WordAlignmentEnd=23949
 17	,	,	PUNCT	_	_	16	punct	_	WordAlignmentBegin=23949|WordAlignmentEnd=23949
 18	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	20	reparandum	_	HasSpokenGender=OnlySingExceptWithLiaison|SpaceAfter=No|WordAlignmentBegin=23949|WordAlignmentEnd=24169
@@ -315,7 +315,7 @@
 # speaker_id = §LF18
 # macrosyntax = là <+ j'aurais beaucoup aimé aller //
 # text = là, j'aurais beaucoup aimé aller.
-1	là	là	ADV	_	_	7	advmod	_	SpaceAfter=No|WordAlignmentBegin=60294|WordAlignmentEnd=60444
+1	là	là	ADV	_	_	6	advmod	_	SpaceAfter=No|WordAlignmentBegin=60294|WordAlignmentEnd=60444
 2	,	,	PUNCT	_	_	1	punct	_	WordAlignmentBegin=60444|WordAlignmentEnd=60444
 3	j'	moi	PRON	_	Case=Nom|Emph=No|Number=Sing|Person=1|PronType=Prs	6	nsubj	_	Exponence[Number]=Inherent|Exponence[Person]=Inherent|SpaceAfter=No|WordAlignmentBegin=60444|WordAlignmentEnd=60508
 4	aurais	avoir	AUX	_	Mood=Cnd|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	6	aux:tense	_	WordAlignmentBegin=60508|WordAlignmentEnd=60674
@@ -734,7 +734,7 @@
 # text = à la fin de la guerre de dix-huit, mon père était au front.
 1	à	à	ADP	_	_	3	case	_	WordAlignmentBegin=129486|WordAlignmentEnd=129602
 2	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	HasSpokenGender=OnlySingExceptWithLiaison|WordAlignmentBegin=129602|WordAlignmentEnd=129716
-3	fin	fin	NOUN	_	Gender=Fem|Number=Sing	15	nmod	_	Exponence[Gender]=Inherent|Exponence[Number]=Absent|WordAlignmentBegin=129716|WordAlignmentEnd=129926
+3	fin	fin	NOUN	_	Gender=Fem|Number=Sing	12	obl:mod	_	Exponence[Gender]=Inherent|Exponence[Number]=Absent|WordAlignmentBegin=129716|WordAlignmentEnd=129926
 4	de	de	ADP	_	_	6	case	_	WordAlignmentBegin=129926|WordAlignmentEnd=129956
 5	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	HasSpokenGender=OnlySingExceptWithLiaison|WordAlignmentBegin=129956|WordAlignmentEnd=130056
 6	guerre	guerre	NOUN	_	Gender=Fem|Number=Sing	3	nmod	_	Exponence[Gender]=Inherent|Exponence[Number]=Absent|WordAlignmentBegin=130056|WordAlignmentEnd=130296
@@ -788,15 +788,15 @@
 # speaker_id = §LF17
 # macrosyntax = ^et ^puis "euh" $- finalement < { vous avez | vous êtes } repartie vers Mulhouse //
 # text = et puis, euh, finalement, vous avez, vous êtes repartie vers Mulhouse.
-1	et	et	CCONJ	_	ExtPos=CCONJ	9	cc	_	Idiom=Yes|WordAlignmentBegin=136327|WordAlignmentEnd=136530
+1	et	et	CCONJ	_	ExtPos=CCONJ	13	cc	_	Idiom=Yes|WordAlignmentBegin=136327|WordAlignmentEnd=136530
 2	puis	puis	CCONJ	_	_	1	fixed	_	InIdiom=Yes|SpaceAfter=No|WordAlignmentBegin=136530|WordAlignmentEnd=136990
 3	,	,	PUNCT	_	_	1	punct	_	WordAlignmentBegin=136990|WordAlignmentEnd=136990
-4	euh	euh	INTJ	_	_	9	discourse:filler	_	SpaceAfter=No|WordAlignmentBegin=136990|WordAlignmentEnd=137133
+4	euh	euh	INTJ	_	_	13	discourse:filler	_	SpaceAfter=No|WordAlignmentBegin=136990|WordAlignmentEnd=137133
 5	,	,	PUNCT	_	_	4	punct	_	WordAlignmentBegin=137133|WordAlignmentEnd=137133
-6	finalement	finalement	ADV	_	_	9	advmod	_	Overlap=Rhap_D2004-35|SpaceAfter=No|WordAlignmentBegin=137133|WordAlignmentEnd=137548
+6	finalement	finalement	ADV	_	_	13	discourse	_	Overlap=Rhap_D2004-35|SpaceAfter=No|WordAlignmentBegin=137133|WordAlignmentEnd=137548
 7	,	,	PUNCT	_	_	6	punct	_	Overlap=Rhap_D2004-33|WordAlignmentBegin=138005|WordAlignmentEnd=137133
 8	vous	vous	PRON	_	Case=Nom|Emph=No|Number=Plur|Person=2|PronType=Prs	9	nsubj	_	Exponence[Number]=Inherent|Exponence[Person]=Inherent|Overlap=Rhap_D2004-35|Polite=Yes|WordAlignmentBegin=137548|WordAlignmentEnd=137698
-9	avez	avoir	VERB	_	Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	13	reparandum	_	Overlap=Rhap_D2004-35|SpaceAfter=No|WordAlignmentBegin=137698|WordAlignmentEnd=138005
+9	avez	avoir	AUX	_	Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	13	reparandum	_	Overlap=Rhap_D2004-35|SpaceAfter=No|WordAlignmentBegin=137698|WordAlignmentEnd=138005
 10	,	,	PUNCT	_	_	9	punct	_	Overlap=Rhap_D2004-33|WordAlignmentBegin=138005|WordAlignmentEnd=138005
 11	vous	vous	PRON	_	Case=Nom|Emph=No|Number=Plur|Person=2|PronType=Prs	13	nsubj:pass	_	Exponence[Number]=Inherent|Exponence[Person]=Inherent|Overlap=Rhap_D2004-35|Polite=Yes|WordAlignmentBegin=138005|WordAlignmentEnd=138080
 12	êtes	être	AUX	_	Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	13	aux:pass	_	Overlap=Rhap_D2004-35|WordAlignmentBegin=138080|WordAlignmentEnd=138280
@@ -1580,7 +1580,7 @@
 11	places	place	NOUN	_	Gender=Fem|Number=Plur	13	nsubj:pass	_	Exponence[Gender]=Inherent|Exponence[Number]=Absent|WordAlignmentBegin=256748|WordAlignmentEnd=257028
 12	sont	être	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	13	aux:pass	_	WordAlignmentBegin=257028|WordAlignmentEnd=257668
 13	occupées	occuper	VERB	_	Gender=Fem|Number=Plur|Tense=Past|VerbForm=Part|Voice=Pass	4	ccomp	_	Exponence[Gender]=Absent|Exponence[Number]=Absent|PastPartHasSpokenGender=NotInThisDialect|Reported=Yes|Status[Tense]=Denom|WordAlignmentBegin=257668|WordAlignmentEnd=258414
-14	et	et	CCONJ	_	_	16	cc	_	WordAlignmentBegin=258978|WordAlignmentEnd=259113
+14	et	et	CCONJ	_	_	20	cc	_	WordAlignmentBegin=258978|WordAlignmentEnd=259113
 15	nous	nous	PRON	_	Case=Nom|Emph=No|Number=Plur|Person=1|PronType=Prs	16	nsubj	_	Exponence[Number]=Inherent|Exponence[Person]=Inherent|WordAlignmentBegin=259113|WordAlignmentEnd=259328
 16	avons	avoir	VERB	_	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	20	reparandum	_	SpaceAfter=No|WordAlignmentBegin=259328|WordAlignmentEnd=259563
 17	,	,	PUNCT	_	_	16	punct	_	WordAlignmentBegin=259563|WordAlignmentEnd=259563
@@ -1731,7 +1731,7 @@
 # speaker_id = §LF18
 # macrosyntax = alors < { { j'a~ | j'avais } beaucoup | j'avais beaucoup } trop peur de m'installer ( comme ça ) seule { de~ | dans } la brousse //
 # text = alors, j'a~, j'avais beaucoup, j'avais beaucoup trop peur de m'installer, comme ça, seule de~, dans la brousse.
-1	alors	alors	ADV	_	_	4	discourse	_	SpaceAfter=No|WordAlignmentBegin=281186|WordAlignmentEnd=281511
+1	alors	alors	ADV	_	_	11	discourse	_	SpaceAfter=No|WordAlignmentBegin=281186|WordAlignmentEnd=281511
 2	,	,	PUNCT	_	_	1	punct	_	WordAlignmentBegin=281511|WordAlignmentEnd=281511
 3	j'	moi	PRON	_	Case=Nom|Emph=No|Number=Sing|Person=1|PronType=Prs	4	nsubj	_	Exponence[Number]=Inherent|Exponence[Person]=Inherent|SpaceAfter=No|WordAlignmentBegin=281511|WordAlignmentEnd=281615
 4	a~	a~	X	_	ExtPos=VERB	11	reparandum	_	SpaceAfter=No|WordAlignmentBegin=281615|WordAlignmentEnd=281711

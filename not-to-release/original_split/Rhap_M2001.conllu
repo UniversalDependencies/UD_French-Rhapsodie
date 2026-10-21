@@ -28,7 +28,7 @@
 # text = après ma visite à Landivisiau et à l'île Longue ce matin, c'est donc une journée entière que j'aurai passée avec nos forces armées.
 1	après	après	ADP	_	_	3	case	_	WordAlignmentBegin=7390|WordAlignmentEnd=7640
 2	ma	son	DET	_	Gender=Fem|Number=Sing|Number[psor]=Sing|Person[psor]=1|Poss=Yes|PronType=Prs	3	det	_	HasSpokenGender=OnlySingExceptWithLiaison|WordAlignmentBegin=7640|WordAlignmentEnd=7760
-3	visite	visite	NOUN	_	Gender=Fem|Number=Sing	18	nmod	_	Exponence[Gender]=Inherent|Exponence[Number]=Absent|WordAlignmentBegin=7760|WordAlignmentEnd=8290
+3	visite	visite	NOUN	_	Gender=Fem|Number=Sing	18	obl:mod	_	Exponence[Gender]=Inherent|Exponence[Number]=Absent|WordAlignmentBegin=7760|WordAlignmentEnd=8290
 4	à	à	ADP	_	_	5	case	_	WordAlignmentBegin=8290|WordAlignmentEnd=8420
 5	Landivisiau	Landivisiau	PROPN	_	_	3	nmod	_	WordAlignmentBegin=8420|WordAlignmentEnd=9270
 6	et	et	CCONJ	_	_	9	cc	_	WordAlignmentBegin=9270|WordAlignmentEnd=9330
@@ -148,7 +148,7 @@
 # macrosyntax = le quatorze juillet <+ lors du traditionnel défilé <+ c'est la nation toute entière qui vous rend hommage //
 # text = le quatorze juillet, lors du traditionnel défilé, c'est la nation tout entière qui vous rend hommage.
 1	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	HasSpokenGender=OnlySingExceptWithLiaison|WordAlignmentBegin=40122|WordAlignmentEnd=40202
-2	quatorze	quatorze	NUM	_	ExtPos=PROPN	14	nmod	_	WordAlignmentBegin=40202|WordAlignmentEnd=40624
+2	quatorze	quatorze	NUM	_	ExtPos=PROPN	14	obl:mod	_	WordAlignmentBegin=40202|WordAlignmentEnd=40624
 3	juillet	juillet	NOUN	_	Gender=Masc|Number=Sing	2	nmod	_	Exponence[Gender]=Inherent|Exponence[Number]=Absent|SpaceAfter=No|WordAlignmentBegin=40624|WordAlignmentEnd=41285
 4	,	,	PUNCT	_	_	2	punct	_	WordAlignmentBegin=41285|WordAlignmentEnd=41471
 5	lors	lors	ADV	_	_	14	advmod	_	WordAlignmentBegin=41471|WordAlignmentEnd=41651
@@ -458,7 +458,7 @@
 4	faire	faire	AUX	_	VerbForm=Inf	5	aux:caus	_	Subject=SubjRaising|WordAlignmentBegin=125185|WordAlignmentEnd=125375
 5	grandir	grandir	VERB	_	VerbForm=Inf	2	xcomp	_	Subject=ObjRaising|WordAlignmentBegin=125375|WordAlignmentEnd=126042
 6	en	en	ADP	_	_	7	mark	_	WordAlignmentBegin=126918|WordAlignmentEnd=127120
-7	quittant	quitter	VERB	_	Tense=Pres|VerbForm=Part	5	advcl	_	PastPartHasSpokenGender=NotInThisDialect|Status[Tense]=Denom|WordAlignmentBegin=127120|WordAlignmentEnd=127578
+7	quittant	quitter	VERB	_	Tense=Pres|VerbForm=Part	5	advcl	_	Status[Tense]=Denom|WordAlignmentBegin=127120|WordAlignmentEnd=127578
 8	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	_	HasSpokenGender=OnlySingExceptWithLiaison|WordAlignmentBegin=127578|WordAlignmentEnd=127693
 9	terrain	terrain	NOUN	_	Gender=Masc|Number=Sing	7	obj	_	Exponence[Gender]=Inherent|Exponence[Number]=Absent|WordAlignmentBegin=127693|WordAlignmentEnd=128078
 10-11	des	_	_	_	_	_	_	_	_

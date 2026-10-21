@@ -4,12 +4,12 @@
 # speaker_id = §LF25
 # macrosyntax = alors < "euh" la cathédrale Notre-Dame < alors < "euh" en fait < elle ESPERLUETTE //
 # text = alors, euh, la cathédrale Notre-Dame, alors, euh, en fait, elle…
-1	alors	alors	ADV	_	_	6	advmod	_	SpaceAfter=No|WordAlignmentBegin=1164|WordAlignmentEnd=1476
+1	alors	alors	ADV	_	_	16	advmod	_	SpaceAfter=No|WordAlignmentBegin=1164|WordAlignmentEnd=1476
 2	,	,	PUNCT	_	_	3	punct	_	WordAlignmentBegin=1476|WordAlignmentEnd=1476
 3	euh	euh	INTJ	_	_	1	discourse:filler	_	SpaceAfter=No|WordAlignmentBegin=1476|WordAlignmentEnd=1573
 4	,	,	PUNCT	_	_	1	punct	_	WordAlignmentBegin=1573|WordAlignmentEnd=1573
 5	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	HasSpokenGender=OnlySingExceptWithLiaison|WordAlignmentBegin=1573|WordAlignmentEnd=1732
-6	cathédrale	cathédrale	NOUN	_	Gender=Fem|Number=Sing	0	root	_	Exponence[Gender]=Inherent|Exponence[Number]=Absent|WordAlignmentBegin=1732|WordAlignmentEnd=2294
+6	cathédrale	cathédrale	NOUN	_	Gender=Fem|Number=Sing	16	dislocated:subj	_	Exponence[Gender]=Inherent|Exponence[Number]=Absent|Head=Position|WordAlignmentBegin=1732|WordAlignmentEnd=2294
 7	Notre-Dame	Notre-Dame	PROPN	_	_	6	appos	_	SpaceAfter=No|WordAlignmentBegin=2294|WordAlignmentEnd=2961
 8	,	,	PUNCT	_	_	9	punct	_	WordAlignmentBegin=2961|WordAlignmentEnd=2961
 9	alors	alors	ADV	_	_	6	discourse	_	SpaceAfter=No|WordAlignmentBegin=2961|WordAlignmentEnd=3364
@@ -19,8 +19,8 @@
 13	en	en	ADP	_	ExtPos=ADV	6	discourse	_	Idiom=Yes|WordAlignmentBegin=4060|WordAlignmentEnd=4194
 14	fait	fait	NOUN	_	Gender=Masc|Number=Sing	13	fixed	_	Exponence[Gender]=Inherent|Exponence[Number]=Absent|InIdiom=Yes|SpaceAfter=No|WordAlignmentBegin=4194|WordAlignmentEnd=4562
 15	,	,	PUNCT	_	_	16	punct	_	WordAlignmentBegin=4562|WordAlignmentEnd=4562
-16	elle	lui	PRON	_	Case=Nom|Emph=No|Gender=Fem|Number=Sing|Person=3|PronType=Prs	6	parataxis	_	Exponence[Person]=Inherent|Scrap=Yes|SpaceAfter=No|WordAlignmentBegin=4562|WordAlignmentEnd=4782
-17	…	…	PUNCT	_	_	6	punct	_	WordAlignmentBegin=4782|WordAlignmentEnd=4782
+16	elle	lui	PRON	_	Case=Nom|Emph=No|Gender=Fem|Number=Sing|Person=3|PronType=Prs	0	root	_	Exponence[Person]=Inherent|Promotion=subj|Scrap=Yes|SpaceAfter=No|WordAlignmentBegin=4562|WordAlignmentEnd=4782
+17	…	…	PUNCT	_	_	16	punct	_	WordAlignmentBegin=4782|WordAlignmentEnd=4782
 
 # sent_id = Rhap_M0003-2
 # prosodic_annotation = yes
@@ -101,22 +101,22 @@
 2	quand	quand	SCONJ	_	_	4	mark	_	WordAlignmentBegin=17065|WordAlignmentEnd=17260
 3	vous	vous	PRON	_	Case=Nom|Emph=No|Number=Plur|Person=2|PronType=Prs	4	nsubj	_	Exponence[Number]=Inherent|Exponence[Person]=Inherent|Polite=Unknown|WordAlignmentBegin=17260|WordAlignmentEnd=17413
 4	serez	être	VERB	_	Mood=Ind|Number=Plur|Person=2|Tense=Fut|VerbForm=Fin	24	advcl	_	SpaceAfter=No|WordAlignmentBegin=17413|WordAlignmentEnd=17835
-5	,	,	PUNCT	_	_	10	punct	_	WordAlignmentBegin=17835|WordAlignmentEnd=17835
+5	,	,	PUNCT	_	_	6	punct	_	WordAlignmentBegin=17835|WordAlignmentEnd=17835
 6	donc	donc	ADV	_	_	10	discourse	_	SpaceAfter=No|WordAlignmentBegin=17835|WordAlignmentEnd=18065
-7	,	,	PUNCT	_	_	10	punct	_	WordAlignmentBegin=18065|WordAlignmentEnd=18065
+7	,	,	PUNCT	_	_	6	punct	_	WordAlignmentBegin=18065|WordAlignmentEnd=18065
 8	à	à	ADP	_	_	10	case	_	WordAlignmentBegin=18065|WordAlignmentEnd=18125
 9	La	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	10	det	_	HasSpokenGender=OnlySingExceptWithLiaison|WordAlignmentBegin=18125|WordAlignmentEnd=18256
 10	Nef	Nef	PROPN	_	Gender=Fem|Number=Sing	4	obl:arg	_	Exponence[Gender]=Inherent|WordAlignmentBegin=18256|WordAlignmentEnd=18489
 11	Chavant	Chavant	PROPN	_	_	10	flat:name	_	SpaceAfter=No|WordAlignmentBegin=18489|WordAlignmentEnd=19113
 12	,	,	PUNCT	_	_	13	punct	_	WordAlignmentBegin=19113|WordAlignmentEnd=19439
-13	alors	alors	ADV	_	_	11	discourse	_	SpaceAfter=No|WordAlignmentBegin=19439|WordAlignmentEnd=19719
-14	,	,	PUNCT	_	_	15	punct	_	WordAlignmentBegin=19719|WordAlignmentEnd=19719
-15	là	là	ADV	_	_	10	advmod	_	SpaceAfter=No|WordAlignmentBegin=19719|WordAlignmentEnd=20037
-16	,	,	PUNCT	_	_	19	punct	_	WordAlignmentBegin=20037|WordAlignmentEnd=20127
-17	euh	euh	INTJ	_	_	19	reparandum	_	SpaceAfter=No|WordAlignmentBegin=20127|WordAlignmentEnd=20371
+13	alors	alors	ADV	_	_	24	advmod	_	SpaceAfter=No|WordAlignmentBegin=19439|WordAlignmentEnd=19719
+14	,	,	PUNCT	_	_	13	punct	_	WordAlignmentBegin=19719|WordAlignmentEnd=19719
+15	là	là	ADV	_	_	24	advmod	_	SpaceAfter=No|WordAlignmentBegin=19719|WordAlignmentEnd=20037
+16	,	,	PUNCT	_	_	15	punct	_	WordAlignmentBegin=20037|WordAlignmentEnd=20127
+17	euh	euh	INTJ	_	_	23	reparandum	_	SpaceAfter=No|WordAlignmentBegin=20127|WordAlignmentEnd=20371
 18	,	,	PUNCT	_	_	17	punct	_	WordAlignmentBegin=20371|WordAlignmentEnd=20498
-19	il	lui	PRON	_	Case=Nom|Emph=No|Gender=Masc|Number=Sing|Person=3|PronType=Prs	15	discourse:filler	_	Exponence[Person]=Inherent|SpaceAfter=No|WordAlignmentBegin=20498|WordAlignmentEnd=20623
-20	,	,	PUNCT	_	_	4	punct	_	WordAlignmentBegin=20623|WordAlignmentEnd=20623
+19	il	lui	PRON	_	Case=Nom|Emph=No|Gender=Masc|Number=Sing|Person=3|PronType=Prs	23	reparandum	_	Exponence[Person]=Inherent|SpaceAfter=No|WordAlignmentBegin=20498|WordAlignmentEnd=20623
+20	,	,	PUNCT	_	_	19	punct	_	WordAlignmentBegin=20623|WordAlignmentEnd=20623
 21	vous	vous	PRON	_	Case=Nom|Emph=No|Number=Plur|Person=2|PronType=Prs	23	reparandum	_	Exponence[Number]=Inherent|Exponence[Person]=Inherent|Polite=Unknown|SpaceAfter=No|WordAlignmentBegin=20623|WordAlignmentEnd=21218
 22	,	,	PUNCT	_	_	21	punct	_	WordAlignmentBegin=21218|WordAlignmentEnd=21218
 23	vous	vous	PRON	_	Case=Nom|Emph=No|Number=Plur|Person=2|PronType=Prs	24	nsubj	_	Exponence[Number]=Inherent|Exponence[Person]=Inherent|Polite=Unknown|WordAlignmentBegin=21218|WordAlignmentEnd=21726
@@ -146,14 +146,14 @@
 8	de	de	ADP	_	_	10	case	_	WordAlignmentBegin=25091|WordAlignmentEnd=25204
 9	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
 10	cinéma	cinéma	NOUN	_	Gender=Masc|Number=Sing	7	nmod	_	Exponence[Gender]=Inherent|Exponence[Number]=Absent|SpaceAfter=No|WordAlignmentBegin=25204|WordAlignmentEnd=25826
-11	,	,	PUNCT	_	_	18	punct	_	WordAlignmentBegin=25826|WordAlignmentEnd=26549
-12	euh	euh	INTJ	_	_	18	reparandum	_	SpaceAfter=No|WordAlignmentBegin=26549|WordAlignmentEnd=27746
+11	,	,	PUNCT	_	_	12	punct	_	WordAlignmentBegin=25826|WordAlignmentEnd=26549
+12	euh	euh	INTJ	_	_	18	discourse:filler	_	SpaceAfter=No|WordAlignmentBegin=26549|WordAlignmentEnd=27746
 13	,	,	PUNCT	_	_	12	punct	_	WordAlignmentBegin=27746|WordAlignmentEnd=27746
 14	qui	qui	PRON	_	PronType=Rel	18	reparandum	_	WordAlignmentBegin=27746|WordAlignmentEnd=27957
-15	en	en	ADP	_	ExtPos=ADV	14	discourse	_	Idiom=Yes|WordAlignmentBegin=27957|WordAlignmentEnd=28049
+15	en	en	ADP	_	ExtPos=ADV	18	discourse	_	Idiom=Yes|WordAlignmentBegin=27957|WordAlignmentEnd=28049
 16	fait	fait	NOUN	_	Gender=Masc|Number=Sing	15	fixed	_	Exponence[Gender]=Inherent|Exponence[Number]=Absent|InIdiom=Yes|SpaceAfter=No|WordAlignmentBegin=28049|WordAlignmentEnd=28309
-17	,	,	PUNCT	_	_	14	punct	_	WordAlignmentBegin=28309|WordAlignmentEnd=28309
-18	qui	qui	PRON	_	PronType=Rel	10	discourse:filler	_	SpaceAfter=No|WordAlignmentBegin=28309|WordAlignmentEnd=28799
+17	,	,	PUNCT	_	_	15	punct	_	WordAlignmentBegin=28309|WordAlignmentEnd=28309
+18	qui	qui	PRON	_	PronType=Rel	10	acl:relcl	_	Promotion=subj|SpaceAfter=No|WordAlignmentBegin=28309|WordAlignmentEnd=28799
 19	…	…	PUNCT	_	_	3	punct	_	WordAlignmentBegin=28799|WordAlignmentEnd=28799
 
 # sent_id = Rhap_M0003-7
@@ -281,7 +281,7 @@
 # speaker_id = §LF25
 # macrosyntax = donc < quand vous arrivez sur la place de Verdun <+ la Préfecture est sur votre droite //
 # text = donc, quand vous arrivez sur la place de Verdun, la Préfecture est sur votre droite.
-1	donc	donc	ADV	_	_	17	advmod	_	SpaceAfter=No|WordAlignmentBegin=41701|WordAlignmentEnd=41877
+1	donc	donc	ADV	_	_	14	advmod	_	SpaceAfter=No|WordAlignmentBegin=41701|WordAlignmentEnd=41877
 2	,	,	PUNCT	_	_	1	punct	_	WordAlignmentBegin=41877|WordAlignmentEnd=41877
 3	quand	quand	SCONJ	_	_	5	mark	_	WordAlignmentBegin=41877|WordAlignmentEnd=41973
 4	vous	vous	PRON	_	Case=Nom|Emph=No|Number=Plur|Person=2|PronType=Prs	5	nsubj	_	Exponence[Number]=Inherent|Exponence[Person]=Inherent|Polite=Unknown|WordAlignmentBegin=41973|WordAlignmentEnd=42080
@@ -574,11 +574,11 @@
 5	euh	euh	INTJ	_	_	8	discourse:filler	_	SpaceAfter=No|WordAlignmentBegin=80183|WordAlignmentEnd=80825
 6	,	,	PUNCT	_	_	5	punct	_	WordAlignmentBegin=80825|WordAlignmentEnd=80825
 7	vous	vous	PRON	_	Case=Nom|Emph=No|Number=Plur|Person=2|PronType=Prs	8	nsubj	_	Exponence[Number]=Inherent|Exponence[Person]=Inherent|Polite=Unknown|WordAlignmentBegin=80825|WordAlignmentEnd=80887
-8	continuez	continuer	VERB	_	Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	11	reparandum	_	SpaceAfter=No|WordAlignmentBegin=80887|WordAlignmentEnd=81722
+8	continuez	continuer	VERB	_	Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No|WordAlignmentBegin=80887|WordAlignmentEnd=81722
 9	,	,	PUNCT	_	_	8	punct	_	WordAlignmentBegin=81722|WordAlignmentEnd=81722
 10	vous	vous	PRON	_	Case=Nom|Emph=No|Number=Plur|Person=2|PronType=Prs	11	nsubj	_	Exponence[Number]=Inherent|Exponence[Person]=Inherent|Polite=Unknown|WordAlignmentBegin=81722|WordAlignmentEnd=81850
-11	con~	con~	X	_	ExtPos=VERB	0	root	_	SpaceAfter=No|WordAlignmentBegin=81850|WordAlignmentEnd=82055
-12	…	…	PUNCT	_	_	11	punct	_	WordAlignmentBegin=82055|WordAlignmentEnd=82055
+11	con~	con~	X	_	ExtPos=VERB	8	reparandum	_	SpaceAfter=No|WordAlignmentBegin=81850|WordAlignmentEnd=82055
+12	…	…	PUNCT	_	_	8	punct	_	WordAlignmentBegin=82055|WordAlignmentEnd=82055
 
 # sent_id = Rhap_M0003-29
 # prosodic_annotation = yes
@@ -621,9 +621,9 @@
 9	tombez	tomber	VERB	_	Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	0	root	_	WordAlignmentBegin=86462|WordAlignmentEnd=86875
 10	place	place	NOUN	_	Gender=Fem|Number=Sing	15	reparandum	_	Exponence[Gender]=Inherent|Exponence[Number]=Absent|SpaceAfter=No|WordAlignmentBegin=86875|WordAlignmentEnd=87411
 11	,	,	PUNCT	_	_	12	punct	_	WordAlignmentBegin=87411|WordAlignmentEnd=87411
-12	eh	eh	INTJ	_	_	10	discourse	_	WordAlignmentBegin=87411|WordAlignmentEnd=87484
-13	ben	ben	INTJ	_	_	10	discourse	_	SpaceAfter=No|WordAlignmentBegin=87484|WordAlignmentEnd=87633
-14	,	,	PUNCT	_	_	10	punct	_	WordAlignmentBegin=87633|WordAlignmentEnd=87633
+12	eh	eh	INTJ	_	_	15	discourse	_	WordAlignmentBegin=87411|WordAlignmentEnd=87484
+13	ben	ben	INTJ	_	_	15	discourse	_	SpaceAfter=No|WordAlignmentBegin=87484|WordAlignmentEnd=87633
+14	,	,	PUNCT	_	_	13	punct	_	WordAlignmentBegin=87633|WordAlignmentEnd=87633
 15	place	place	NOUN	_	Gender=Fem|Number=Sing	9	obj	_	Exponence[Gender]=Inherent|Exponence[Number]=Absent|WordAlignmentBegin=87633|WordAlignmentEnd=87862
 16	Notre-Dame	Notre-Dame	PROPN	_	_	15	appos	_	SpaceAfter=No|WordAlignmentBegin=87862|WordAlignmentEnd=88372
 17	.	.	PUNCT	_	_	9	punct	_	WordAlignmentBegin=88372|WordAlignmentEnd=88372
